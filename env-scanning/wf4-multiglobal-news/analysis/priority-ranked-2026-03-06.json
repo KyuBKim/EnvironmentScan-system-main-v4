@@ -1,0 +1,1070 @@
+{
+  "ranking_metadata": {
+    "engine": "priority_score_calculator.py",
+    "engine_version": "1.0.0",
+    "workflow": "wf4-multiglobal-news",
+    "date": "2026-03-06",
+    "computed_at": "2026-03-06T03:08:18Z",
+    "method": "priority_formula_v1",
+    "weights": {
+      "impact": 0.4,
+      "probability": 0.3,
+      "urgency": 0.2,
+      "novelty": 0.1
+    },
+    "total_ranked": 42,
+    "warn_count": 42
+  },
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "news-20260306-reuters-001",
+      "title": "NATO Intercepts Iranian Ballistic Missile Headed for Turkey",
+      "steeps": "",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "priority_score": 4.98,
+      "psst_score": 77.5,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 4.8
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 95,
+        "CC": 92,
+        "IC": 96
+      }
+    },
+    {
+      "rank": 2,
+      "id": "news-20260306-wsj-001",
+      "title": "Strait of Hormuz Traffic Drops 90% as Iran Blockade Disrupts Global Oil Supply",
+      "steeps": "",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "priority_score": 4.95,
+      "psst_score": 82.5,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 4.5
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 95,
+        "CC": 95,
+        "IC": 98
+      }
+    },
+    {
+      "rank": 3,
+      "id": "news-20260306-ft-001",
+      "title": "Qatar Halts LNG Exports, European and Asian Gas Prices Skyrocket",
+      "steeps": "",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "priority_score": 4.94,
+      "psst_score": 76.5,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 4.4
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 92,
+        "CC": 90,
+        "IC": 95
+      }
+    },
+    {
+      "rank": 4,
+      "id": "news-20260306-nytimes-001",
+      "title": "U.S. and Israel Strike Iran Overnight, Targeting Ballistic Missile Sites",
+      "steeps": "",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "priority_score": 4.85,
+      "psst_score": 81.3,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 3.5
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 95,
+        "CC": 90,
+        "IC": 95
+      }
+    },
+    {
+      "rank": 5,
+      "id": "news-20260306-arabnews-001",
+      "title": "Brent Crude Approaches $100 as Prolonged Hormuz Disruption Scenario Materializes",
+      "steeps": "",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "priority_score": 4.64,
+      "psst_score": 80.2,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 4.2,
+        "urgency": 5.0,
+        "novelty": 3.8
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 92,
+        "CC": 90,
+        "IC": 92
+      }
+    },
+    {
+      "rank": 6,
+      "id": "news-20260306-bbc-001",
+      "title": "US Submarine Sinks Iranian Warship in Indian Ocean, 87 Dead",
+      "steeps": "",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "priority_score": 4.52,
+      "psst_score": 75.3,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 4.2
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 90,
+        "CC": 88,
+        "IC": 92
+      }
+    },
+    {
+      "rank": 7,
+      "id": "news-20260306-straitstimes-001",
+      "title": "DP World Suspends Jebel Ali Port Operations After Drone Strike Fire",
+      "steeps": "",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "priority_score": 4.5,
+      "psst_score": 75.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 90,
+        "CC": 88,
+        "IC": 90
+      }
+    },
+    {
+      "rank": 8,
+      "id": "news-20260306-chosun-001",
+      "title": "KOSPI Circuit Breakers Triggered as Iran Shock Hits Korean Markets",
+      "steeps": "",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "priority_score": 4.48,
+      "psst_score": 79.2,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 3.8
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 90,
+        "CC": 88,
+        "IC": 90
+      }
+    },
+    {
+      "rank": 9,
+      "id": "news-20260306-thepaper-001",
+      "title": "China Moves to Halt Fuel Exports as Gulf Supply Tightens",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "priority_score": 4.35,
+      "psst_score": 78.1,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 4.5,
+        "urgency": 5.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 88,
+        "CC": 85,
+        "IC": 88
+      }
+    },
+    {
+      "rank": 10,
+      "id": "news-20260306-caixin-001",
+      "title": "China Plans 300 Billion Yuan Special Bonds to Recapitalize Major Banks",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "priority_score": 4.16,
+      "psst_score": 72.4,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 4.8,
+        "urgency": 4.0,
+        "novelty": 3.2
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 85,
+        "CC": 82,
+        "IC": 85
+      }
+    },
+    {
+      "rank": 11,
+      "id": "news-20260306-nknews-001",
+      "title": "China-Japan Diplomatic Crisis Escalates with Rare Earth Export Restrictions",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 4.1,
+      "psst_score": 73.9,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 4.5,
+        "urgency": 4.0,
+        "novelty": 3.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 88,
+        "CC": 85,
+        "IC": 88
+      }
+    },
+    {
+      "rank": 12,
+      "id": "news-20260306-timesofisrael-001",
+      "title": "Israel Halts Gas Production at Karish and Leviathan Fields",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 4.05,
+      "psst_score": 75.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 3.5
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 82,
+        "CC": 78,
+        "IC": 82
+      }
+    },
+    {
+      "rank": 13,
+      "id": "news-20260306-elfinanciero-001",
+      "title": "Russian LNG Tanker Explodes and Sinks in Mediterranean Off Libya",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 4.05,
+      "psst_score": 68.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 3.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 78,
+        "CC": 75,
+        "IC": 78
+      }
+    },
+    {
+      "rank": 14,
+      "id": "news-20260306-donga-001",
+      "title": "Brazil Minas Gerais Floods Kill 72 as Climate-Driven Extreme Weather Intensifies",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 3.95,
+      "psst_score": 72.2,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 2.5
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 78,
+        "CC": 72,
+        "IC": 75
+      }
+    },
+    {
+      "rank": 15,
+      "id": "news-20260306-scmp-001",
+      "title": "China Sets Lowest Growth Target in Decades at 4.5-5% for 2026",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H2",
+      "priority_score": 3.94,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 4.8,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 85,
+        "CC": 82,
+        "IC": 88
+      }
+    },
+    {
+      "rank": 16,
+      "id": "news-20260306-mk-001",
+      "title": "Korea Triples AI Budget to 10.1 Trillion Won, Targets Top-3 AI Power Status",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "priority_score": 3.9,
+      "psst_score": 76.3,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 4.5,
+        "urgency": 3.0,
+        "novelty": 3.5
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 85,
+        "CC": 80,
+        "IC": 85
+      }
+    },
+    {
+      "rank": 17,
+      "id": "news-20260306-rt-001",
+      "title": "Putin Floats Cutting Europe Gas Sales, Redirecting to Premium Asian Markets",
+      "steeps": "",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "priority_score": 3.85,
+      "psst_score": 72.4,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 5.0,
+        "novelty": 3.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 85,
+        "CC": 82,
+        "IC": 85
+      }
+    },
+    {
+      "rank": 18,
+      "id": "news-20260306-aljazeera-001",
+      "title": "Kurdish Militias Form Coalition, Position Thousands of Fighters Along Iran-Iraq Border",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.85,
+      "psst_score": 72.1,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.5,
+        "urgency": 4.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 85,
+        "CC": 80,
+        "IC": 85
+      }
+    },
+    {
+      "rank": 19,
+      "id": "news-20260306-arstechnica-001",
+      "title": "China's Five-Year Plan Targets Quantum Leadership and AI Expansion",
+      "steeps": "",
+      "fssf_type": "Megatrend",
+      "three_horizons": "H3",
+      "priority_score": 3.81,
+      "psst_score": 71.5,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 4.2,
+        "urgency": 3.0,
+        "novelty": 3.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 82,
+        "CC": 80,
+        "IC": 85
+      }
+    },
+    {
+      "rank": 20,
+      "id": "news-20260306-apnews-001",
+      "title": "Senate Blocks Bid to Limit Trump's Iran War Powers, 53-47",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 68.8,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 5.0,
+        "urgency": 4.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 78,
+        "CC": 72,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 21,
+      "id": "news-20260306-sciencetimes-001",
+      "title": "New Privacy Laws and AI Regulations Converge Across US States in 2026",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "priority_score": 3.78,
+      "psst_score": 67.4,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 5.0,
+        "urgency": 4.0,
+        "novelty": 2.8
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 75,
+        "CC": 72,
+        "IC": 75
+      }
+    },
+    {
+      "rank": 22,
+      "id": "news-20260306-khan-001",
+      "title": "Zimbabwe Bans All Raw Mineral and Lithium Concentrate Exports",
+      "steeps": "",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "priority_score": 3.76,
+      "psst_score": 76.6,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.8,
+        "urgency": 3.0,
+        "novelty": 4.2
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 85,
+        "CC": 82,
+        "IC": 85
+      }
+    },
+    {
+      "rank": 23,
+      "id": "news-20260306-bloomberg-001",
+      "title": "ISM Services PMI Surges to 56.1, Fastest US Services Expansion Since Mid-2022",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 3.75,
+      "psst_score": 67.4,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 5.0,
+        "urgency": 4.0,
+        "novelty": 2.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 75,
+        "CC": 72,
+        "IC": 75
+      }
+    },
+    {
+      "rank": 24,
+      "id": "news-20260306-globeandmail-001",
+      "title": "Ocean Levels Rising Far Faster Than Government Assessments Predicted",
+      "steeps": "",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H3",
+      "priority_score": 3.71,
+      "psst_score": 77.2,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 4.2,
+        "urgency": 2.0,
+        "novelty": 4.5
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 88,
+        "CC": 82,
+        "IC": 85
+      }
+    },
+    {
+      "rank": 25,
+      "id": "news-20260306-aitimes-001",
+      "title": "March 2026 Federal Deadlines Set to Reshape US AI Regulatory Landscape",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "priority_score": 3.7,
+      "psst_score": 70.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 4.5,
+        "urgency": 4.0,
+        "novelty": 3.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 78,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 26,
+      "id": "news-20260306-politico-001",
+      "title": "Spain Rejects White House Claim of Iran War Support, Bars Use of Military Bases",
+      "steeps": "",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "priority_score": 3.58,
+      "psst_score": 74.2,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 4.0,
+        "urgency": 4.0,
+        "novelty": 3.8
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 76,
+        "IC": 82
+      }
+    },
+    {
+      "rank": 27,
+      "id": "news-20260306-handelsblatt-001",
+      "title": "Germany Faces March Deadline for Climate Action Programme as AfD Surges in Polls",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 3.58,
+      "psst_score": 70.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 4.2,
+        "urgency": 4.0,
+        "novelty": 3.2
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 78,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 28,
+      "id": "news-20260306-hani-001",
+      "title": "Blackout Leaves Millions Without Power in Cuba's Western Region",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.55,
+      "psst_score": 66.6,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 2.0,
+        "probability": 5.0,
+        "urgency": 5.0,
+        "novelty": 2.5
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 65,
+        "CC": 62,
+        "IC": 65
+      }
+    },
+    {
+      "rank": 29,
+      "id": "news-20260306-techcrunch-001",
+      "title": "FDA Grants Breakthrough Designation to Generative AI Chatbot for Surgical Patients",
+      "steeps": "",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "priority_score": 3.48,
+      "psst_score": 70.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 4.2,
+        "urgency": 3.0,
+        "novelty": 4.2
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 82,
+        "CC": 78,
+        "IC": 82
+      }
+    },
+    {
+      "rank": 30,
+      "id": "news-20260306-nikkei-001",
+      "title": "Japan GDP Forecast Slashed to 0.9% on Tariffs and China Tensions",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 3.4,
+      "psst_score": 68.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 4.5,
+        "urgency": 3.0,
+        "novelty": 2.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 78,
+        "CC": 75,
+        "IC": 78
+      }
+    },
+    {
+      "rank": 31,
+      "id": "news-20260306-businesspost-001",
+      "title": "Quantum Computing and National Security: The Intersection Deepens in 2026",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 3.35,
+      "psst_score": 70.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 4.0,
+        "urgency": 3.0,
+        "novelty": 3.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 78,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 32,
+      "id": "news-20260306-bloter-001",
+      "title": "Quantum Infrastructure Becomes Battleground as Hardware Alone No Longer Drives Progress",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 3.35,
+      "psst_score": 68.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 4.0,
+        "urgency": 3.0,
+        "novelty": 3.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 78,
+        "CC": 75,
+        "IC": 78
+      }
+    },
+    {
+      "rank": 33,
+      "id": "news-20260306-zdnet-001",
+      "title": "Huawei Launches AI Data Platform for Enterprise AI Adoption Acceleration",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 3.35,
+      "psst_score": 67.4,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 4.0,
+        "urgency": 3.0,
+        "novelty": 3.5
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 75,
+        "CC": 72,
+        "IC": 75
+      }
+    },
+    {
+      "rank": 34,
+      "id": "news-20260306-koreaherald-001",
+      "title": "Seoul Home Prices Projected to Rise 4.2% in 2026 Amid Supply Cliff",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 3.35,
+      "psst_score": 66.0,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 4.5,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 72,
+        "CC": 70,
+        "IC": 72
+      }
+    },
+    {
+      "rank": 35,
+      "id": "news-20260306-sedaily-001",
+      "title": "Korea Declares 'Startup-Centered Society' in Structural Growth Shift",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "priority_score": 3.32,
+      "psst_score": 68.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 4.0,
+        "urgency": 3.0,
+        "novelty": 3.2
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 78,
+        "CC": 75,
+        "IC": 78
+      }
+    },
+    {
+      "rank": 36,
+      "id": "news-20260306-lemonde-001",
+      "title": "France and Germany Pledge Energy Policy Alignment for European Grid Integration",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "priority_score": 3.3,
+      "psst_score": 71.6,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 4.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 75,
+        "CC": 72,
+        "IC": 75
+      }
+    },
+    {
+      "rank": 37,
+      "id": "news-20260306-hankyung-001",
+      "title": "Trump Disavows $220M Border Security Ad Campaign Featuring DHS Secretary",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 3.3,
+      "psst_score": 64.2,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 2.0,
+        "probability": 5.0,
+        "urgency": 4.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 58,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 38,
+      "id": "news-20260306-joongang-001",
+      "title": "Korea-China Relations Enter 'Full Restoration' Phase After Lee-Xi Summit",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "priority_score": 3.17,
+      "psst_score": 73.1,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.5,
+        "urgency": 3.0,
+        "novelty": 3.2
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 78,
+        "CC": 75,
+        "IC": 78
+      }
+    },
+    {
+      "rank": 39,
+      "id": "news-20260306-mt-001",
+      "title": "Brazil's Economy Grows Just 2.3% in 2025, Weakest Since Pandemic",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 3.1,
+      "psst_score": 62.4,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 2.0,
+        "probability": 5.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 65,
+        "CC": 62,
+        "IC": 65
+      }
+    },
+    {
+      "rank": 40,
+      "id": "news-20260306-japantimes-001",
+      "title": "Japan National Museums to Implement Dual-Pricing System for Foreign Tourists",
+      "steeps": "",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "priority_score": 2.85,
+      "psst_score": 62.4,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 2.0,
+        "probability": 4.5,
+        "urgency": 2.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 65,
+        "CC": 62,
+        "IC": 65
+      }
+    },
+    {
+      "rank": 41,
+      "id": "news-20260306-edaily-001",
+      "title": "South Africa Declares 2026 Budget the Beginning of Economic Recovery",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.65,
+      "psst_score": 62.4,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 2.0,
+        "probability": 3.5,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 65,
+        "CC": 62,
+        "IC": 65
+      }
+    },
+    {
+      "rank": 42,
+      "id": "news-20260306-sisain-001",
+      "title": "Fukushima Pay-It-Forward Initiative Spreads to 130 Stores as Community Resilience Model",
+      "steeps": "",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H3",
+      "priority_score": 2.5,
+      "psst_score": 68.5,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 2.0,
+        "probability": 3.0,
+        "urgency": 2.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 55,
+        "TC": 85,
+        "DC": 72,
+        "ES": 70,
+        "CC": 65,
+        "IC": 68
+      }
+    }
+  ]
+}

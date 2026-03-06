@@ -1,82 +1,72 @@
 {
-  "workflow_id": "wf2-arxiv-scan-2026-02-04",
-  "start_time": "2026-02-04T09:00:00Z",
-  "current_phase": 3,
-  "current_step": "3.4_approved",
+  "workflow_id": "wf2-arxiv-2026-03-06",
+  "workflow_name": "arXiv Academic Deep Scanning",
+  "data_root": "env-scanning/wf2-arxiv",
+  "sources_config": "env-scanning/config/sources-arxiv.yaml",
   "status": "completed",
-  "mode": "extended_categories",
-  "topic": "arXiv Academic Deep Scanning - 2026-02-04",
-  "scan_period": "2026-01-21 ~ 2026-02-04",
-  "completed_steps": [
-    "1.1_load_archive",
-    "1.2_arxiv_deep_scan_20_categories",
-    "1.3_filter_duplicates",
-    "1.4_human_review_optional_auto_passed",
-    "2.1_classify_steeps",
-    "2.2_impact_analysis",
-    "2.3_priority_ranking",
-    "2.4_scenario_check_not_triggered",
-    "2.5_human_review_analysis_approved",
-    "3.1_update_database",
-    "3.2_generate_report",
-    "3.3_archive_report",
-    "3.4_approved"
-  ],
-  "blocked_on": null,
-  "errors": [],
-  "human_decisions": [
-    {
-      "step": "1.4",
-      "decision": "auto_passed",
-      "reason": "Single source (arXiv), no cross-source dedup needed. 45 unique signals collected from ~80 papers. No overlap with existing 15 signals in database.",
-      "timestamp": "2026-02-04T09:30:00Z"
-    },
-    {
-      "step": "2.5",
-      "decision": "approved",
-      "reason": "Classification confidence 0.89. 15 top signals classified across T(7), S(4), P(2), E(1), s(1). 5 emerging themes identified. Cross-impact complexity 0.178 (low). Notable shift: safety/trust crisis dominates over architecture innovation.",
-      "timestamp": "2026-02-04T11:15:00Z"
-    },
-    {
-      "step": "3.4",
-      "decision": "approved",
-      "reason": "Report generated and validated. 15 new top signals registered (cumulative 30). All quality checks passed. Key finding: AI Agent Safety Crisis, AI-Mediated Epistemic Erosion, and Governance Framework Race are dominant themes.",
-      "timestamp": "2026-02-04T12:00:00Z"
-    }
-  ],
-  "artifacts": {
-    "total_raw_papers": 80,
-    "new_analysis_candidates": 45,
-    "dedup_removed": 0,
-    "filtered_signals": 45,
-    "classified_signals": 45,
-    "top_ranked_signals": 15,
-    "steep_categories": {
-      "T_Technological": 7,
-      "S_Social": 4,
-      "P_Political": 2,
-      "E_Economic": 1,
-      "s_spiritual": 1
-    },
-    "classification_confidence": 0.89,
-    "cross_impact_complexity": 0.178,
-    "scenario_generation_triggered": false,
-    "arxiv_categories_covered": 20,
-    "report_path": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-02-04.md",
-    "snapshot_path": "env-scanning/wf2-arxiv/signals/snapshots/database-2026-02-04.json",
-    "database_total_signals": 30,
-    "database_previous_signals": 15,
-    "database_new_signals": 15
+  "current_phase": 3,
+  "current_step": "3.4",
+  "started_at": "2026-03-06T00:12:22Z",
+  "completed_at": "2026-03-06T10:42:00Z",
+  "scan_window": {
+    "window_start": "2026-03-04T00:12:22.712175+00:00",
+    "window_end": "2026-03-06T00:12:22.712175+00:00",
+    "lookback_hours": 48,
+    "tolerance_minutes": 60
   },
   "parameters": {
     "days_back": 14,
     "max_results_per_category": 50,
-    "arxiv_extended_categories": true
+    "extended_categories": true,
+    "marathon_mode": false
   },
-  "previous_scan": {
-    "workflow_id": "wf2-arxiv-scan-2026-02-03",
-    "database_signals": 15,
-    "report_path": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-02-03.md"
+  "human_decisions": {
+    "phase_2_5_review": "approved",
+    "phase_3_4_approval": "approved"
   },
-  "last_updated": "2026-02-04T12:00:00Z"
+  "phase_results": {
+    "phase_1": {
+      "status": "completed",
+      "raw_signals": 47,
+      "after_dedup": 45,
+      "dedup_gate": {
+        "definite_new": 26,
+        "definite_duplicate": 2,
+        "uncertain": 19
+      }
+    },
+    "phase_2": {
+      "status": "completed",
+      "classified_signals": 30,
+      "steeps_distribution": {
+        "T_Technological": 23,
+        "S_Social": 8,
+        "E_Economic": 5,
+        "P_Political": 4,
+        "E_Environmental": 4,
+        "s_spiritual": 3
+      },
+      "top_signal": "Efficient Refusal Ablation in LLM through Optimal Transport",
+      "top_priority_score": 3.687
+    },
+    "phase_3": {
+      "status": "completed",
+      "database_updated": true,
+      "signals_added": 30,
+      "total_db_signals": 285,
+      "evolution_tracking": {
+        "new": 11,
+        "recurring": 14,
+        "weakening": 5,
+        "active_threads": 610
+      },
+      "report_generated": true,
+      "validation": {
+        "L2a_structural": "17/17 PASSED",
+        "L2b_cross_reference": "5/13 PASSED (WARN, non-blocking)",
+        "L2b_exit_code": 2
+      },
+      "archived": true
+    }
+  }
 }

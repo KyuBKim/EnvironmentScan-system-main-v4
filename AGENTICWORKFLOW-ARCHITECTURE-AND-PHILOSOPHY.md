@@ -2,7 +2,7 @@
 
 > **Quadruple Environmental Scanning System** | Architecture Reference (English)
 >
-> Version: 2.5.0 | Last Updated: 2026-03-02
+> Version: 3.1.0 | Last Updated: 2026-03-06
 
 This document is the concise English-language companion to `WORKFLOW-ARCHITECTURE-AND-PHILOSOPHY.md`. For the full Korean technical specification, refer to that document.
 
@@ -42,7 +42,7 @@ The **Quadruple Environmental Scanning System** is an AI-driven pipeline that sc
 ### Master Orchestrator Responsibilities
 
 - Read SOT (`workflow-registry.yaml`) and bind all variables
-- Run `validate_registry.py` (55 checks, exit 0 required)
+- Run `validate_registry.py` (59 checks, exit 0 required)
 - Execute WF1 -> WF2 -> WF3 -> WF4 sequentially
 - Invoke Agent-Teams for integration
 - Manage 9 human checkpoints
@@ -117,12 +117,13 @@ Every workflow follows the same strict sequential structure. Phases cannot be sk
 
 ## 5. Quality-First Design
 
-### Sub-Agent vs Agent-Teams
+### Sub-Agent vs Agent-Teams vs Challenge-Response
 
-The system makes quality-based decisions on whether to use a single sub-agent or a multi-member Agent-Teams for each task:
+The system makes quality-based decisions on which agent pattern to use for each task:
 
 - **Sub-Agent** (single): Used for deterministic, well-defined tasks (data collection, deduplication, validation)
 - **Agent-Teams** (5 members): Used for complex judgment tasks requiring diverse perspectives (integration, cross-workflow analysis)
+- **Challenge-Response** (v3.1.0): Used when cross-context synthesis requires single-author coherence but benefits from adversarial peer review (Timeline Map narrative generation)
 
 The integration step uses **Agent-Teams with 5 members**:
 1. `report-merger` -- merge coordinator
@@ -130,6 +131,13 @@ The integration step uses **Agent-Teams with 5 members**:
 3. `wf2-analyst` -- academic signals expert
 4. `wf3-analyst` -- Korean news expert
 5. `wf4-analyst` -- global multilingual news expert
+
+The Timeline Map uses **Challenge-Response** pattern (v3.1.0):
+- **Why not Agent-Teams?** Cross-theme strategic synthesis — the core quality differentiator — requires all themes in a single context window. Agent-Teams would fragment this context.
+- **Draft phase (B1)**: `@timeline-narrative-analyst` generates narratives with all themes in unified context
+- **Challenge phase (B2)**: `@timeline-quality-challenger` performs adversarial review (5 dimensions: logical rigor, PB compliance, cross-theme completeness, prediction quality, coverage balance)
+- **Refinement phase (B3)**: `@timeline-narrative-analyst` addresses must_address challenges
+- **Gate phase (B4)**: `narrative_gate.py` (Python) verifies structural + data integrity (NG-001~005)
 
 ### 4-Layer Quality Defense
 
@@ -151,6 +159,19 @@ Every report must pass through all 4 layers before human review:
 
 Required signal fields (9): 분류, 출처, 핵심 사실, 정량 지표, 영향도, 상세 설명, 추론, 이해관계자, 모니터링 지표.
 
+### Timeline Map Quality Defense (v3.1.0 — Full Parity)
+
+The Timeline Map receives the **same quality defense rigor** as regular reports:
+
+| Layer | Mechanism | Checks |
+|-------|-----------|--------|
+| L2a | `validate_timeline_map.py` | 18 structural checks (TL-001~018) |
+| L2b | `validate_timeline_map_quality.py` | 11 cross-reference checks (TQ-001~011) |
+| L3 | `quality-reviewer.md` (timeline profile) | 3-pass semantic review (temporal coherence, cross-theme insight, escalation realism) |
+| B4 Gate | `narrative_gate.py` | 5 narrative verification checks (NG-001~005) |
+
+**Python 원천봉쇄 Boundary (PB-1~PB-6)**: Pre-rendered data from Python is immutable. TQ-009 (PB-1 ASCII verbatim), TQ-010 (PB-2 table cells), TQ-011 (PB-3 lead-lag days) verify that LLM did not alter Python-computed values.
+
 ---
 
 ## 6. Python/LLM Split
@@ -163,7 +184,7 @@ These modules perform calculations, validation, and data manipulation where corr
 
 | Category | Modules |
 |----------|---------|
-| **Validation** | validate_registry.py, validate_report.py, validate_report_quality.py, translation_validator.py |
+| **Validation** | validate_registry.py, validate_report.py, validate_report_quality.py, validate_timeline_map.py, validate_timeline_map_quality.py, narrative_gate.py, translation_validator.py |
 | **Data Processing** | dedup_gate.py, temporal_gate.py, temporal_anchor.py |
 | **Scoring** | psst_calculator.py, psst_calibrator.py, **priority_score_calculator.py**, report_statistics_engine.py |
 | **Database** | database_recovery.py, signal_evolution_tracker.py |
@@ -247,9 +268,9 @@ Worker Agent (EN) -> EN Output -> VEV Validation -> @translation-agent -> KR Out
 | `translation-terms.yaml` | Korean translation term mappings |
 | `self-improvement-config.yaml` | SIE behavior and safety limits |
 
-### 55 Validation Checks
+### 59 Validation Checks
 
-The validation script (`validate_registry.py`) runs 55 checks across categories:
+The validation script (`validate_registry.py`) runs 59 checks across categories:
 
 - File existence (orchestrators, workers, skeletons, sources)
 - Directory existence (data roots, output directories)
@@ -257,6 +278,7 @@ The validation script (`validate_registry.py`) runs 55 checks across categories:
 - Source exclusivity (no overlap between workflows)
 - Schema validity (PoE, SCG rules)
 - WF-specific constraints (arXiv in WF2 only, Naver in WF3 only, MultiGlobalNews in WF4 only)
+- Timeline Map quality defense (SOT-056~059: quality scripts, challenger agent, theme config, narrative gate)
 
 ---
 
@@ -345,7 +367,10 @@ Human corrections (priority adjustments, classification fixes) feed back into SI
 |--------|------|
 | `skeleton_mirror.py` | Skeleton template mirroring (EN/KO) |
 | `report_metadata_injector.py` | Metadata injection (scan window, temporal consistency) |
-| `timeline_map_generator.py` | 7-day Korean markdown timeline visualization |
+| `timeline_map_generator.py` | 7-day Korean markdown timeline visualization (fallback) |
+| `theme_discovery_engine.py` | Timeline theme discovery + emergent theme clustering |
+| `timeline_data_assembler.py` | Timeline data assembly + pre-rendering (PB-1~6) |
+| `timeline_skeleton_filler.py` | Timeline skeleton pre-fill with Python-computed data |
 | `lazy_report_generator.py` | Skeleton-fill report generation (L1 QA) |
 
 ### Exploration and Discovery
@@ -370,9 +395,9 @@ Human corrections (priority adjustments, classification fixes) feed back into SI
 
 ---
 
-## 11. Agent Hierarchy (41 agents)
+## 11. Agent Hierarchy (42 agents)
 
-### 5 Orchestrators
+### 6 Orchestrators
 
 | Agent | Scope |
 |-------|-------|
@@ -381,6 +406,7 @@ Human corrections (priority adjustments, classification fixes) feed back into SI
 | **arxiv-scan-orchestrator** | WF2: arXiv academic deep scanning (48h lookback) |
 | **naver-scan-orchestrator** | WF3: Naver news scanning + FSSF/3H/TP |
 | **multiglobal-news-scan-orchestrator** | WF4: Multi&Global-News (43 sites, 11 languages) + FSSF/3H/TP |
+| **timeline-map-orchestrator** | Timeline Map: 4-phase (A→B→C→D) with Challenge-Response |
 
 ### 13 Shared Workers
 
@@ -424,6 +450,14 @@ report-merger (coordinator), wf1-analyst, wf2-analyst, wf3-analyst, wf4-analyst.
 
 discovery-alpha (gap-directed), discovery-beta (random serendipitous), discovery-evaluator (independent scoring).
 
+### 4 Timeline Map Workers (v3.1.0)
+
+| Agent | Role |
+|-------|------|
+| **timeline-narrative-analyst** | Unified narrative analysis (per-theme trajectories + cross-theme synthesis) |
+| **timeline-quality-challenger** | Adversarial review (5 dimensions, 3-8 challenges) |
+| **timeline-map-composer** | Final document assembly from skeleton + narratives |
+
 ### 2 Support Files
 
 orchestrator-protocol.md (shared VEV protocol), TASK_MANAGEMENT_EXECUTION_GUIDE.md.
@@ -461,6 +495,6 @@ These 10 elements can never be changed, not even by user override:
 
 ---
 
-**Document Version**: 3.0
-**Last Updated**: 2026-03-02
-**System Version**: Quadruple Workflow System v2.5.0 (Python 원천봉쇄 + 4-Layer Quality Defense)
+**Document Version**: 4.0
+**Last Updated**: 2026-03-06
+**System Version**: Quadruple Workflow System v3.1.0 (Python 원천봉쇄 + 4-Layer Quality Defense + Timeline Map Challenge-Response)

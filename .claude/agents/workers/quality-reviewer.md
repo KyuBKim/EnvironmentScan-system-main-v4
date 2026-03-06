@@ -222,6 +222,57 @@ After retry, this agent re-reviews ONLY the fixed sections (not the entire repor
 
 ---
 
+## Timeline Map Review Mode
+
+When invoked with `review_type: "timeline_map"`, this agent adapts its 3-pass protocol for timeline map reports. The standard parameters (`ranked_path`, `qc_results_path`, `golden_reference`) are NOT required in this mode. Only `report_path`, `date`, and `data_root` are required.
+
+### Pass 1: Temporal Coherence (replaces Inference Depth)
+
+For each theme section, evaluate:
+
+1. **Temporal flow**: Does the timeline progress logically (earlier events → later events)?
+   - PASS: Clear temporal progression with dated transition points
+   - FAIL: Events appear out of order, or dates are inconsistent with the ASCII timeline
+
+2. **Trajectory plausibility**: Does the narrative trajectory match the signal data?
+   - PASS: "Escalating" trajectory is backed by increasing signal density
+   - FAIL: Narrative claims escalation but data shows stable/declining pattern
+
+### Pass 2: Cross-Theme Insight (replaces Report Coherence)
+
+1. **Theme interaction quality**: Are cross-theme interactions substantive?
+   - PASS: Identifies specific compound effects (e.g., "tariff war + semiconductor = supply chain crisis")
+   - FAIL: Generic statements like "these themes are related"
+
+2. **Strategic actionability**: Are strategic implications specific and actionable?
+   - PASS: Names concrete response types, timelines, and affected stakeholders
+   - FAIL: Vague recommendations like "monitoring is recommended"
+
+### Pass 3: Escalation Realism (replaces QC-007 Adjudication)
+
+1. **Escalation forecast realism**: Are "Next Expected" predictions concrete and plausible?
+   - PASS: Names specific event types with reasonable timeframes
+   - FAIL: Over-dramatic predictions or unfalsifiable vague statements
+
+2. **Severity grade consistency**: Does the narrative context match Python-assigned severity?
+   - PASS: CRITICAL-graded themes have genuinely urgent narrative
+   - FAIL: Narrative downplays a CRITICAL grade or inflates a LOW grade
+
+### Timeline Map Grading
+
+| Grade | Meaning | Threshold |
+|-------|---------|-----------|
+| A | Excellent | 0 must_fix, <= 1 should_improve |
+| B | Good | 0 must_fix, 2-3 should_improve |
+| C | Acceptable | 1-2 must_fix, any should_improve |
+| D | Needs work | > 2 must_fix |
+
+Output format is identical to the standard review JSON, with pass names adapted:
+`temporal_coherence`, `cross_theme_insight`, `escalation_realism`.
+
+---
+
 ## Version History
+- v1.2.0 (2026-03-06): Added Timeline Map review mode (review_type: "timeline_map") with adapted 3-pass protocol for temporal coherence, cross-theme insight, and escalation realism.
 - v1.1.0 (2026-03-01): Removed 5 deterministic items migrated to Python QC-009~QC-013. Retained 4 semantic review items. Updated grading criteria. Added "Checks Handled by Python" reference table.
 - v1.0.0 (2026-03-01): Initial creation. 3-pass semantic review + QC-007 flag review.

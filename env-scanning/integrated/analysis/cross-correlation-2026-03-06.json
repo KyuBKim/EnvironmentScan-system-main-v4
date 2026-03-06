@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-06T13:00:00+09:00",
+    "date": "2026-03-06",
+    "method": "report-only cross-workflow analysis",
+    "workflows_included": ["wf1-general", "wf2-arxiv", "wf3-naver", "wf4-multiglobal-news"]
+  },
+  "reinforced_signals": [
+    {
+      "theme": "Iran-Middle East Conflict Escalation & NATO Involvement",
+      "wf_sources": ["WF1", "WF3", "WF4"],
+      "wf1_signals": ["Middle East Escalation Day 6: NATO Intercepts Iranian Missile Targeting Turkey"],
+      "wf3_signals": ["Post-Khamenei Assassination Drone/Missile Barrages", "USFK Patriot Redeployment Review"],
+      "wf4_signals": ["NATO Intercepts Iranian Ballistic Missile Headed for Turkey", "U.S. and Israel Strike Iran Overnight"],
+      "correlation_strength": "STRONG",
+      "notes": "Triple-confirmed across WF1 (general media), WF3 (Korean domestic perspective), WF4 (global multilingual sources). Each workflow adds unique dimensions: WF1 emphasizes AI-military nexus, WF3 focuses on Korean Peninsula security implications, WF4 provides global alliance-level analysis."
+    },
+    {
+      "theme": "Hormuz Strait Blockade & Energy Supply Crisis",
+      "wf_sources": ["WF1", "WF3", "WF4"],
+      "wf1_signals": ["Geopolitical crisis signals referencing Hormuz"],
+      "wf3_signals": ["Hormuz Strait Completely Blocked: 50/day to Zero", "Oil Prices Break $80/barrel"],
+      "wf4_signals": ["Strait of Hormuz Traffic Drops 90%", "Qatar Halts LNG Exports", "Brent Crude Approaches $100"],
+      "correlation_strength": "STRONG",
+      "notes": "WF3 reports complete blockade (50 to 0 tankers); WF4 reports 90% reduction with $29M charter costs. WF4 uniquely captures Qatar LNG halt and compound multi-source energy crisis. Korean-specific impacts (7 trapped tankers, 70% import dependency) from WF3."
+    },
+    {
+      "theme": "AI Military Deployment & Governance Crisis",
+      "wf_sources": ["WF1", "WF3", "WF4"],
+      "wf1_signals": ["Claude Used for Military Target Identification", "Pentagon Designates Anthropic as Supply-Chain Risk", "OpenAI Secures Classified Pentagon Contract"],
+      "wf3_signals": ["Anthropic Expelled from US Defense Contracts"],
+      "wf4_signals": [],
+      "correlation_strength": "MODERATE",
+      "notes": "WF1 provides most detailed coverage of AI-military nexus. WF3 adds Korean industry perspective on AI bifurcation. WF2 academic perspective on AI safety arms race provides theoretical foundation."
+    },
+    {
+      "theme": "GPT-5.4 Release & Frontier AI Acceleration",
+      "wf_sources": ["WF1", "WF3"],
+      "wf1_signals": ["OpenAI Launches GPT-5.4"],
+      "wf3_signals": ["OpenAI Releases GPT-5.4"],
+      "correlation_strength": "MODERATE",
+      "notes": "Both WF1 and WF3 independently report GPT-5.4. WF2 academic research on LLM safety (refusal ablation) provides scientific context for capability advancement risks."
+    },
+    {
+      "theme": "Financial Market Stress & KOSPI Volatility",
+      "wf_sources": ["WF3", "WF4"],
+      "wf3_signals": ["KOSPI Extreme Volatility -- Multiple Sidecar Triggers", "Michael Burry warns 'signs of the end'"],
+      "wf4_signals": ["KOSPI Circuit Breakers Triggered", "100 trillion won stabilization fund"],
+      "correlation_strength": "STRONG",
+      "notes": "WF3 captures retail investor perspective and sequential sidecar triggers. WF4 captures circuit breaker activation and government emergency response. Combined paints complete picture of Korean financial market stress."
+    },
+    {
+      "theme": "China Strategic Resource Hoarding & Economic Slowdown",
+      "wf_sources": ["WF4"],
+      "wf4_signals": ["China Halts Fuel Exports", "China 300B Yuan Bank Recapitalization", "China 4.5-5% Growth Target"],
+      "correlation_strength": "WF4-EXCLUSIVE",
+      "notes": "Multilingual sourcing (Caixin, Pengpai in Chinese; SCMP in English) captures signals not visible in English-only or Korean-only sources."
+    }
+  ],
+  "contradictions": [
+    {
+      "theme": "Hormuz Blockade Severity Assessment",
+      "tension": "WF3 reports 'complete blockade' (50 to 0 tankers, 100% reduction) while WF4 reports '90% traffic drop' (not complete). This discrepancy may reflect Korean media framing vs. international reporting precision.",
+      "wf3_position": "Complete blockade -- zero traffic",
+      "wf4_position": "90% reduction -- near-complete but not total",
+      "resolution": "WF4's $29M charter cost data and WSJ sourcing suggest the more nuanced '90% reduction' figure may be more precise, though both agree on severe disruption."
+    },
+    {
+      "theme": "Anthropic Defense Status",
+      "tension": "WF1 reports simultaneous military USE of Claude for targeting AND supply-chain risk designation. WF3 reports outright EXPULSION from defense contracts. These may represent different stages or aspects of the same process.",
+      "wf1_position": "Paradoxical simultaneous use and distrust",
+      "wf3_position": "Complete expulsion from defense contracts",
+      "resolution": "Both may be accurate -- operational units may continue using Claude while procurement policy excludes Anthropic from new contracts."
+    }
+  ],
+  "academic_early_signals": [
+    {
+      "signal": "LLM Safety Guardrail Fragility (Refusal Ablation via Optimal Transport)",
+      "wf2_detail": "Localized refusal mechanisms can be surgically removed; current alignment may be fundamentally insufficient",
+      "mainstream_visibility": "Not yet covered by WF1, WF3, or WF4",
+      "lead_time_estimate": "3-6 months before mainstream coverage"
+    },
+    {
+      "signal": "Hidden Behavioral Costs of AI Assessment",
+      "wf2_detail": "Workers produce higher quantity but lower quality under AI evaluation",
+      "mainstream_visibility": "Not yet in media coverage",
+      "lead_time_estimate": "6-12 months before workforce policy implications emerge"
+    },
+    {
+      "signal": "ENSO Rise-and-Fall Trajectory Under Warming",
+      "wf2_detail": "Non-monotonic ENSO response -- transient intensification before long-term weakening",
+      "mainstream_visibility": "Not yet in media discourse",
+      "lead_time_estimate": "6-18 months before agricultural planning incorporation"
+    },
+    {
+      "signal": "Deep Learning Earthquake Forecasting Viability",
+      "wf2_detail": "Positive Brier Skill Scores achieved for seismic prediction via b-value dynamics",
+      "mainstream_visibility": "Not yet in general media",
+      "lead_time_estimate": "2-5 years to operational deployment"
+    }
+  ],
+  "wf3_exclusive_signals": [
+    "North Korea Naval Strategic Cruise Missile Test (security vacuum exploitation)",
+    "USFK Patriot Missile Redeployment Review (Korean Peninsula defense gap)",
+    "Korean Chungkung-II 96% Intercept Rate (defense export validation)",
+    "Iran Ambassador Demands Korean Mediation",
+    "President Lee 65% Approval (crisis rally effect)",
+    "K-Battery All Three Firms Declining Market Share",
+    "February CPI 2.0% Pre-Oil-Shock Baseline"
+  ],
+  "wf4_exclusive_signals": [
+    "Qatar Halts LNG Exports (compound energy crisis)",
+    "US Submarine Sinks Iranian Warship off Sri Lanka (Indian Ocean theater expansion)",
+    "DP World Suspends Jebel Ali Port Operations (commercial infrastructure impact)",
+    "China Moves to Halt Fuel Exports (strategic resource hoarding)",
+    "China 300B Yuan Bank Recapitalization (financial system stress)",
+    "China-Japan Rare Earth Diplomatic Crisis",
+    "Zimbabwe Lithium Export Ban (resource nationalism)",
+    "Spain Denies US Military Base Use (NATO fracture)"
+  ],
+  "coverage_gaps": [
+    "Environmental (E) domain significantly underrepresented in WF1 (0% dedicated), WF3 (2%), elevated in WF4 (9.5%)",
+    "No H3 (7+ year) horizon signals in WF3; only 3 in WF4",
+    "WF2 has no geopolitical crisis coverage (by design -- academic only)"
+  ]
+}

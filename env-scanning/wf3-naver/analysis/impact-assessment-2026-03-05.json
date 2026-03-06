@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "date": "2026-03-05",
+    "workflow": "wf3-naver",
+    "assessment_type": "cross-impact + tipping-point + anomaly",
+    "total_assessed": 15
+  },
+  "cross_impact_matrix": {
+    "dominant_theme": "US-Iran war cascading effects on Korean economy and security",
+    "primary_connections": [
+      {"from": "naver-20260305-104-222", "to": "naver-20260305-104-208", "relationship": "Iran-Turkey missile attack intensifies Kurdish second front dynamics", "strength": 0.95},
+      {"from": "naver-20260305-104-225", "to": "naver-20260305-101-078", "relationship": "Hormuz insurance surge drives won depreciation and energy import costs", "strength": 0.90},
+      {"from": "naver-20260305-101-058", "to": "naver-20260305-101-078", "relationship": "Market volatility and FX weakness create compound financial stress", "strength": 0.85},
+      {"from": "naver-20260305-104-225", "to": "naver-20260305-105-253", "relationship": "Energy supply crisis validates next-gen nuclear investment thesis", "strength": 0.70},
+      {"from": "naver-20260305-100-060", "to": "naver-20260305-104-208", "relationship": "NK provocation exploits US distraction in Middle East", "strength": 0.75},
+      {"from": "naver-20260305-105-244", "to": "naver-20260305-105-258", "relationship": "AI liability and data protection regulation converge on tech governance", "strength": 0.65}
+    ]
+  },
+  "tipping_point_analysis": {
+    "red_alerts": [
+      {
+        "signal_id": "naver-20260305-104-222",
+        "indicator": "Critical Slowing Down",
+        "evidence": "Iran missile attack on NATO member Turkey could trigger Article 5 collective defense, transforming bilateral conflict into alliance-level war",
+        "threshold_proximity": 0.95
+      },
+      {
+        "signal_id": "naver-20260305-104-208",
+        "indicator": "Critical Slowing Down",
+        "evidence": "Kurdish ground invasion of Iran creates multi-front war with regime-change dynamics",
+        "threshold_proximity": 0.90
+      },
+      {
+        "signal_id": "naver-20260305-104-225",
+        "indicator": "Critical Slowing Down",
+        "evidence": "12x insurance surge and near-zero ship traffic represents systemic breakdown of Hormuz maritime corridor",
+        "threshold_proximity": 0.92
+      }
+    ],
+    "orange_alerts": [
+      {
+        "signal_id": "naver-20260305-101-058",
+        "indicator": "Flickering",
+        "evidence": "10% KOSPI swing (crash-to-surge) reveals market at instability threshold with sentiment-driven pricing",
+        "threshold_proximity": 0.75
+      }
+    ],
+    "yellow_alerts": [
+      {
+        "signal_id": "naver-20260305-101-078",
+        "indicator": "Critical Slowing Down",
+        "evidence": "Won approaching crisis-level 1540 threshold last seen in 2008 financial crisis",
+        "threshold_proximity": 0.65
+      },
+      {
+        "signal_id": "naver-20260305-101-064",
+        "indicator": "Critical Slowing Down",
+        "evidence": "Premium Seoul real estate consecutive weekly decline marks potential regime change in housing market",
+        "threshold_proximity": 0.55
+      },
+      {
+        "signal_id": "naver-20260305-100-060",
+        "indicator": "Flickering",
+        "evidence": "NK missile test timing exploits US attention deficit - probing deterrence credibility",
+        "threshold_proximity": 0.60
+      },
+      {
+        "signal_id": "naver-20260305-105-244",
+        "indicator": "Critical Slowing Down",
+        "evidence": "Multiple AI liability lawsuits signal emerging regulatory pressure wave",
+        "threshold_proximity": 0.50
+      }
+    ]
+  },
+  "anomaly_detection": {
+    "statistical_anomalies": [
+      {
+        "type": "magnitude",
+        "signal_id": "naver-20260305-101-058",
+        "description": "KOSPI +10% single-day swing is a >3 sigma event, occurring fewer than 5 times in KOSPI history",
+        "severity": "HIGH"
+      },
+      {
+        "type": "magnitude",
+        "signal_id": "naver-20260305-104-225",
+        "description": "12x insurance premium surge is unprecedented in modern maritime commerce",
+        "severity": "HIGH"
+      }
+    ],
+    "structural_anomalies": [
+      {
+        "type": "cross-domain",
+        "description": "Simultaneous breakdown across geopolitical (war), economic (markets), energy (oil), and security (NK) domains suggests systemic stress cascade",
+        "severity": "CRITICAL",
+        "affected_signals": ["naver-20260305-104-222", "naver-20260305-104-225", "naver-20260305-101-058", "naver-20260305-100-060"]
+      }
+    ]
+  },
+  "signals": [
+    {"id": "naver-20260305-104-222", "impact_score": 5.0, "probability": 0.6, "urgency": 10, "novelty": 9, "tipping_point_alert": "RED"},
+    {"id": "naver-20260305-104-208", "impact_score": 4.5, "probability": 0.7, "urgency": 9, "novelty": 8, "tipping_point_alert": "RED"},
+    {"id": "naver-20260305-104-225", "impact_score": 4.5, "probability": 0.9, "urgency": 10, "novelty": 7, "tipping_point_alert": "RED"},
+    {"id": "naver-20260305-101-058", "impact_score": 3.5, "probability": 0.8, "urgency": 9, "novelty": 6, "tipping_point_alert": "ORANGE"},
+    {"id": "naver-20260305-101-078", "impact_score": 3.5, "probability": 0.75, "urgency": 9, "novelty": 5, "tipping_point_alert": "YELLOW"},
+    {"id": "naver-20260305-105-253", "impact_score": 3.5, "probability": 0.7, "urgency": 5, "novelty": 9, "tipping_point_alert": "GREEN"},
+    {"id": "naver-20260305-100-056", "impact_score": 3.0, "probability": 0.9, "urgency": 8, "novelty": 6, "tipping_point_alert": "GREEN"},
+    {"id": "naver-20260305-100-060", "impact_score": 3.0, "probability": 0.85, "urgency": 8, "novelty": 5, "tipping_point_alert": "YELLOW"},
+    {"id": "naver-20260305-105-232", "impact_score": 3.0, "probability": 0.5, "urgency": 3, "novelty": 9, "tipping_point_alert": "GREEN"},
+    {"id": "naver-20260305-105-233", "impact_score": 3.0, "probability": 0.65, "urgency": 5, "novelty": 7, "tipping_point_alert": "GREEN"},
+    {"id": "naver-20260305-101-064", "impact_score": 2.5, "probability": 0.8, "urgency": 7, "novelty": 6, "tipping_point_alert": "YELLOW"},
+    {"id": "naver-20260305-101-051", "impact_score": 2.5, "probability": 0.65, "urgency": 6, "novelty": 8, "tipping_point_alert": "GREEN"},
+    {"id": "naver-20260305-105-238", "impact_score": 2.5, "probability": 0.6, "urgency": 4, "novelty": 8, "tipping_point_alert": "GREEN"},
+    {"id": "naver-20260305-105-244", "impact_score": 2.5, "probability": 0.75, "urgency": 7, "novelty": 8, "tipping_point_alert": "YELLOW"},
+    {"id": "naver-20260305-105-258", "impact_score": 2.5, "probability": 0.95, "urgency": 7, "novelty": 6, "tipping_point_alert": "GREEN"}
+  ]
+}

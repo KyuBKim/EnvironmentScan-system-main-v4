@@ -1,0 +1,66 @@
+{
+  "date": "2026-03-05",
+  "system_version": "2.5.0",
+  "anchor_time_T0": "2026-03-05T03:55:19Z",
+  "status": "COMPLETED",
+  "completed_at": "2026-03-05T06:45:00Z",
+  "workflows": {
+    "WF1": {
+      "status": "COMPLETED",
+      "signals_collected": 15,
+      "report": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-03-05.md"
+    },
+    "WF2": {
+      "status": "COMPLETED",
+      "signals_collected": 15,
+      "papers_scanned": 601,
+      "report": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-03-05.md"
+    },
+    "WF3": {
+      "status": "COMPLETED",
+      "signals_collected": 15,
+      "report": "env-scanning/wf3-naver/reports/daily/environmental-scan-2026-03-05.md"
+    },
+    "WF4": {
+      "status": "COMPLETED",
+      "signals_collected": 20,
+      "sites_crawled": 28,
+      "languages": 8,
+      "report": "env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-03-05.md"
+    }
+  },
+  "integration": {
+    "status": "COMPLETED",
+    "total_signals_pooled": 65,
+    "unique_after_dedup": 52,
+    "top_20_selected": 20,
+    "cross_workflow_overlaps": 5,
+    "report_ko": "env-scanning/integrated/reports/daily/integrated-scan-2026-03-05.md",
+    "report_en": "env-scanning/integrated/reports/daily/integrated-scan-2026-03-05-en.md",
+    "unified_ranking": "env-scanning/integrated/analysis/unified-ranking-2026-03-05.json",
+    "archive_ko": "env-scanning/integrated/reports/archive/2026/03/integrated-scan-2026-03-05.md",
+    "archive_en": "env-scanning/integrated/reports/archive/2026/03/integrated-scan-2026-03-05-en.md"
+  },
+  "validation": {
+    "L2a_structural": {
+      "result": "PASS",
+      "passed": 19,
+      "total": 19,
+      "critical_fails": 0,
+      "error_fails": 0
+    },
+    "L2b_quality": {
+      "result": "WARN",
+      "passed": 12,
+      "total": 13,
+      "critical_fails": 0,
+      "error_fails": 0,
+      "warn_fails": 1,
+      "note": "QC-007 WARN: STEEPs keyword matching flagged 5 signals for LLM review (classifications are contextually correct)"
+    }
+  },
+  "human_checkpoints": {
+    "mode": "FULL_AUTOPILOT",
+    "all_auto_approved": true
+  }
+}

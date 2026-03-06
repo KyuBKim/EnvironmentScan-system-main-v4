@@ -1,0 +1,146 @@
+{
+  "report_path": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-03-06-ko.md",
+  "ranked_path": "env-scanning/wf2-arxiv/analysis/priority-ranked-2026-03-06.json",
+  "language": "ko",
+  "overall_status": "WARN",
+  "summary": {
+    "total_checks": 13,
+    "passed": 5,
+    "critical_failures": 0,
+    "error_failures": 5,
+    "warn_failures": 3
+  },
+  "checks": [
+    {
+      "check_id": "QC-001",
+      "level": "CRITICAL",
+      "description": "Priority order consistency (report vs ranked JSON)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check_id": "QC-002",
+      "level": "ERROR",
+      "description": "Executive Summary top-3 match",
+      "passed": false,
+      "detail": "Rank 1: 'Efficient Refusal Ablation in LLM through Optimal Transport' — only 2/6 keywords found in Sec 1\nRank 2: 'Dual-Modality Multi-Stage Adversarial Safety Training: Robustifying Multimodal Web Agents Against Cross-Modal Attacks' — only 0/14 keywords found in Sec 1\nRank 3: 'Turning Trust to Transactions: Tracking Affiliate Marketing and FTC Compliance in YouTube's Influencer Economy' — only 0/10 keywords found in Sec 1",
+      "remedy": "Section 1 must summarize all top-3 signals from the priority ranking."
+    },
+    {
+      "check_id": "QC-003",
+      "level": "CRITICAL",
+      "description": "pSST badge accuracy (score/grade consistency)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check_id": "QC-004",
+      "level": "ERROR",
+      "description": "Source dates within scan window",
+      "passed": true,
+      "detail": "No scan-window JSON provided — check skipped."
+    },
+    {
+      "check_id": "QC-005",
+      "level": "ERROR",
+      "description": "Cross-impact reference validity (Section 4 ↔ Section 2)",
+      "passed": false,
+      "detail": "'AI 안전 공격-방어 연결고리 (신호 1' (best JW: 0.62, keyword: 0%) — no matching signal in Section 2\n'신호 2)' (best JW: 0.57, keyword: 0%) — no matching signal in Section 2\n'노동시장 AI 영향 연쇄 (신호 4' (best JW: 0.55, keyword: 0%) — no matching signal in Section 2\n'신호 6)' (best JW: 0.57, keyword: 0%) — no matching signal in Section 2\n'규제 거버넌스 클러스터 (신호 3' (best JW: 0.49, keyword: 0%) — no matching signal in Section 2\n'신호 7' (best JW: 0.57, keyword: 0%) — no matching signal in Section 2\n'신호 12' (best JW: 0.54, keyword: 0%) — no matching signal in Section 2\n'신호 13' (best JW: 0.54, keyword: 0%) — no matching signal in Section 2\n'기후 지능 수렴 (신호 5' (best JW: 0.50, keyword: 0%) — no matching signal in Section 2\n'신호 8)' (best JW: 0.57, keyword: 0%) — no matching signal in Section 2",
+      "remedy": "Section 4 cross-impact pairs must reference actual signals from Section 2."
+    },
+    {
+      "check_id": "QC-006",
+      "level": "ERROR",
+      "description": "Field depth minimum (per-field content analysis)",
+      "passed": false,
+      "detail": "Priority 2: **추론**: 1 sentences (min 2)\nPriority 6: **상세 설명**: 2 sentences (min 3)\nPriority 7: **상세 설명**: 2 sentences (min 3)\nPriority 9: **추론**: 1 sentences (min 2)\nPriority 10: **상세 설명**: 2 sentences (min 3)",
+      "remedy": "Expand shallow fields: Detailed Description needs >=3 sentences, Inference >=2, Stakeholders >=3 items, Monitoring Indicators >=3 items.",
+      "failed_signal_ids": [
+        "priority-2",
+        "priority-6",
+        "priority-7",
+        "priority-9",
+        "priority-10"
+      ]
+    },
+    {
+      "check_id": "QC-007",
+      "level": "WARN",
+      "description": "STEEPs classification vs content consistency (flags for LLM review)",
+      "passed": false,
+      "detail": "Priority 1: classified as s_spiritual but only 0 content keywords found (min 2)\nPriority 2: classified as T_Technological but only 1 content keywords found (min 2)\nPriority 3: classified as S_Social but only 1 content keywords found (min 2)\nPriority 7: classified as S_Social but only 1 content keywords found (min 2)\nPriority 8: classified as E_Environmental but only 1 content keywords found (min 2)",
+      "remedy": "Review flagged signals: classification may not match actual content. LLM quality-reviewer should assess these cases.",
+      "failed_signal_ids": [
+        "priority-1",
+        "priority-2",
+        "priority-3",
+        "priority-7",
+        "priority-8",
+        "priority-8",
+        "priority-9",
+        "priority-9"
+      ]
+    },
+    {
+      "check_id": "QC-008",
+      "level": "CRITICAL",
+      "description": "Intra-report duplicate detection (Jaro-Winkler >= 0.85)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check_id": "QC-009",
+      "level": "ERROR",
+      "description": "Quantitative grounding (numeric values in Quantitative Metrics)",
+      "passed": false,
+      "detail": "Priority 1: '정량 지표' has 1 numeric value(s) (min 2). Content: \"공격 성공률 +11% 향상; 특정 레이어 클러스터에서 거부 메커니즘 식별; 여러 LLM 아키텍처에서 재현 가능...\"\nPriority 2: '정량 지표' has 0 numeric value(s) (min 2). Content: \"작업 완료율 2배 향상; MiniWob++ 벤치마크에서 교차 모달 공격 완화 검증; 적대적 커리큘럼의 다단계 훈련 파이프라인...\"\nPriority 3: '정량 지표' has 1 numeric value(s) (min 2). Content: \"200만 개 동영상 분석; 540K 크리에이터 조사; 콘텐츠 카테고리별 준수율 정량화; 공시 메커니즘 효과성 측정...\"\nPriority 5: '정량 지표' has 1 numeric value(s) (min 2). Content: \"시뮬레이션된 ENSO 변화의 ~90% 설명; 일시적 강화 단계 정량화; 장기 쇠퇴 궤적 모델링...\"\nPriority 6: '정량 지표' has 0 numeric value(s) (min 2). Content: \"AI 대 인간 평가 조건에서 양의 증가와 질의 감소 측정; 무작위 배정의 통제된 실험 설계...\"",
+      "remedy": "Each signal's Quantitative Metrics field must contain at least 2 distinct numeric values (e.g., dollar amounts, percentages, counts).",
+      "failed_signal_ids": [
+        "priority-1",
+        "priority-2",
+        "priority-3",
+        "priority-5",
+        "priority-6",
+        "priority-7",
+        "priority-8",
+        "priority-9",
+        "priority-10"
+      ]
+    },
+    {
+      "check_id": "QC-010",
+      "level": "WARN",
+      "description": "Vague language blocklist (Impact/Inference specificity)",
+      "passed": false,
+      "detail": "Priority 1: **추론**: found 1 vague phrase(s): '향후'\nPriority 5: **추론**: found 1 vague phrase(s): '향후'",
+      "remedy": "Replace vague phrases with specific, measurable statements. Avoid 'significant impact', 'will be important', 'remains to be seen' etc.",
+      "failed_signal_ids": [
+        "priority-1",
+        "priority-5"
+      ]
+    },
+    {
+      "check_id": "QC-011",
+      "level": "ERROR",
+      "description": "Cross-signal synthesis in Section 5 (≥2 signal refs per implication)",
+      "passed": false,
+      "detail": "Section 5.1 item 1: only 0 signal reference(s) detected (explicit: [], keyword: [])\nSection 5.1 item 2: only 0 signal reference(s) detected (explicit: [], keyword: [])\nSection 5.1 item 3: only 0 signal reference(s) detected (explicit: [], keyword: [])\nSection 5.2 item 1: only 0 signal reference(s) detected (explicit: [], keyword: [])\nSection 5.2 item 2: only 0 signal reference(s) detected (explicit: [], keyword: [])",
+      "remedy": "Each strategic implication in Section 5.1/5.2 must synthesize insights from at least 2 signals. Add explicit signal references (e.g., 'Signals 3, 7')."
+    },
+    {
+      "check_id": "QC-012",
+      "level": "WARN",
+      "description": "Time horizon keywords in Section 5",
+      "passed": false,
+      "detail": "Found 2 time keyword(s): '즉시', '중기'",
+      "remedy": "Section 5 must contain temporal framing: use specific timeframes (e.g., '0-6 months', 'by 2028', 'within the next year')."
+    },
+    {
+      "check_id": "QC-013",
+      "level": "WARN",
+      "description": "Action verb presence in Section 5",
+      "passed": true,
+      "detail": "Found 8 action verbs across Section 5."
+    }
+  ]
+}

@@ -1,0 +1,2233 @@
+{
+  "metadata": {
+    "workflow": "wf4-multiglobal-news",
+    "scan_date": "2026-03-06",
+    "phase": "impact-assessment",
+    "total_signals": 42,
+    "analyst": "phase2-analyst (unified Steps 2.1+2.2)"
+  },
+  "items": [
+    {
+      "id": "news-20260306-nytimes-001",
+      "title": "U.S. and Israel Strike Iran Overnight, Targeting Ballistic Missile Sites",
+      "impact_score": 5,
+      "impact_direction": "negative",
+      "impact_description": "Major military escalation with potential to reshape Middle East geopolitics, disrupt global energy markets, and trigger broader alliance realignments",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "E",
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "RED",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Rapid escalation cycle with no diplomatic off-ramp visible; each day brings new fronts (naval, air, proxy)"
+      },
+      "psst_dimensions": {
+        "SR": 95,
+        "TC": 90,
+        "DC": 85,
+        "ES": 95,
+        "CC": 90,
+        "IC": 95
+      }
+    },
+    {
+      "id": "news-20260306-wsj-001",
+      "title": "Strait of Hormuz Traffic Drops 90% as Iran Blockade Disrupts Global Oil Supply",
+      "impact_score": 5,
+      "impact_direction": "negative",
+      "impact_description": "90% traffic drop represents near-total disruption of the world's most critical oil chokepoint; $29M supertanker costs are unprecedented",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 4.5,
+      "cross_steeps": [
+        "P",
+        "T"
+      ],
+      "tipping_point": {
+        "alert_level": "RED",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Quantitative data (90% drop, record charter costs) confirms systemic disruption already occurring"
+      },
+      "psst_dimensions": {
+        "SR": 98,
+        "TC": 95,
+        "DC": 90,
+        "ES": 95,
+        "CC": 95,
+        "IC": 98
+      }
+    },
+    {
+      "id": "news-20260306-bbc-001",
+      "title": "US Submarine Sinks Iranian Warship in Indian Ocean, 87 Dead",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "Naval warfare in the Indian Ocean near Sri Lanka extends the conflict far beyond the Middle East theater, threatening Indian Ocean shipping lanes",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 4.2,
+      "cross_steeps": [
+        "E",
+        "s"
+      ],
+      "tipping_point": {
+        "alert_level": "RED",
+        "pattern": "Flickering",
+        "evidence": "Conflict expanding geographically to new maritime theaters"
+      },
+      "psst_dimensions": {
+        "SR": 92,
+        "TC": 88,
+        "DC": 85,
+        "ES": 90,
+        "CC": 88,
+        "IC": 92
+      }
+    },
+    {
+      "id": "news-20260306-reuters-001",
+      "title": "NATO Intercepts Iranian Ballistic Missile Headed for Turkey",
+      "impact_score": 5,
+      "impact_direction": "negative",
+      "impact_description": "First NATO defensive action in the Iran conflict could trigger Article 5 collective defense, transforming a regional war into a NATO-Iran confrontation",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 4.8,
+      "cross_steeps": [
+        "P",
+        "E"
+      ],
+      "tipping_point": {
+        "alert_level": "RED",
+        "pattern": "Critical Slowing Down",
+        "evidence": "NATO directly involved for first time; Article 5 discussion threshold crossed"
+      },
+      "psst_dimensions": {
+        "SR": 96,
+        "TC": 92,
+        "DC": 88,
+        "ES": 95,
+        "CC": 92,
+        "IC": 96
+      }
+    },
+    {
+      "id": "news-20260306-apnews-001",
+      "title": "Senate Blocks Bid to Limit Trump's Iran War Powers, 53-47",
+      "impact_score": 3,
+      "impact_direction": "negative",
+      "impact_description": "Precedent for executive war-making without congressional authorization has long-term implications for US democratic governance",
+      "probability": 5.0,
+      "urgency": 4.0,
+      "novelty_score": 3.0,
+      "cross_steeps": [
+        "s"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "none",
+        "evidence": "Institutional check failed; war powers precedent set"
+      },
+      "psst_dimensions": {
+        "SR": 80,
+        "TC": 75,
+        "DC": 70,
+        "ES": 78,
+        "CC": 72,
+        "IC": 80
+      }
+    },
+    {
+      "id": "news-20260306-politico-001",
+      "title": "Spain Rejects White House Claim of Iran War Support, Bars Use of Military Bases",
+      "impact_score": 3,
+      "impact_direction": "negative",
+      "impact_description": "NATO alliance fracture signal; Spain's base denial could trigger cascade of European allied dissent",
+      "probability": 4.0,
+      "urgency": 4.0,
+      "novelty_score": 3.8,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "Flickering",
+        "evidence": "Alliance cohesion oscillating between support and dissent"
+      },
+      "psst_dimensions": {
+        "SR": 82,
+        "TC": 78,
+        "DC": 75,
+        "ES": 80,
+        "CC": 76,
+        "IC": 82
+      }
+    },
+    {
+      "id": "news-20260306-ft-001",
+      "title": "Qatar Halts LNG Exports, European and Asian Gas Prices Skyrocket",
+      "impact_score": 5,
+      "impact_direction": "negative",
+      "impact_description": "Compound energy supply disruption: Hormuz blockade + Qatar LNG halt + Israel gas shutdown creates unprecedented multi-source energy crisis",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 4.4,
+      "cross_steeps": [
+        "P",
+        "E_Environmental"
+      ],
+      "tipping_point": {
+        "alert_level": "RED",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Multiple simultaneous energy supply disruptions compound into systemic crisis"
+      },
+      "psst_dimensions": {
+        "SR": 95,
+        "TC": 90,
+        "DC": 88,
+        "ES": 92,
+        "CC": 90,
+        "IC": 95
+      }
+    },
+    {
+      "id": "news-20260306-aljazeera-001",
+      "title": "Kurdish Militias Form Coalition, Position Thousands of Fighters Along Iran-Iraq Border",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "Kurdish mobilization opens internal front against Iran; could destabilize Iraq and Turkey as well given Kurdish populations across borders",
+      "probability": 3.5,
+      "urgency": 4.0,
+      "novelty_score": 4.0,
+      "cross_steeps": [
+        "S"
+      ],
+      "tipping_point": {
+        "alert_level": "ORANGE",
+        "pattern": "Flickering",
+        "evidence": "Ethnic/separatist movements exploiting state weakness is a tipping point precursor"
+      },
+      "psst_dimensions": {
+        "SR": 85,
+        "TC": 82,
+        "DC": 78,
+        "ES": 85,
+        "CC": 80,
+        "IC": 85
+      }
+    },
+    {
+      "id": "news-20260306-scmp-001",
+      "title": "China Sets Lowest Growth Target in Decades at 4.5-5% for 2026",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "China's structural slowdown confirmed at policy level; lowest growth target signals acceptance of 'new normal' with global trade implications",
+      "probability": 4.8,
+      "urgency": 3.0,
+      "novelty_score": 3.0,
+      "cross_steeps": [
+        "P",
+        "S"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Downward trajectory in growth targets over multiple years"
+      },
+      "psst_dimensions": {
+        "SR": 88,
+        "TC": 85,
+        "DC": 80,
+        "ES": 85,
+        "CC": 82,
+        "IC": 88
+      }
+    },
+    {
+      "id": "news-20260306-thepaper-001",
+      "title": "China Moves to Halt Fuel Exports as Gulf Supply Tightens",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "China's fuel export halt signals strategic hoarding behavior; could cascade into regional fuel shortages across Asia",
+      "probability": 4.5,
+      "urgency": 5.0,
+      "novelty_score": 4.0,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "ORANGE",
+        "pattern": "Critical Slowing Down",
+        "evidence": "State-directed market intervention indicates perceived crisis severity"
+      },
+      "psst_dimensions": {
+        "SR": 88,
+        "TC": 85,
+        "DC": 82,
+        "ES": 88,
+        "CC": 85,
+        "IC": 88
+      }
+    },
+    {
+      "id": "news-20260306-nikkei-001",
+      "title": "Japan GDP Forecast Slashed to 0.9% on Tariffs and China Tensions",
+      "impact_score": 3,
+      "impact_direction": "negative",
+      "impact_description": "Japan's economic growth continues to decelerate under dual pressure of US tariffs and China tensions; rare earth restrictions add technology supply risk",
+      "probability": 4.5,
+      "urgency": 3.0,
+      "novelty_score": 2.5,
+      "cross_steeps": [
+        "P",
+        "T"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "none",
+        "evidence": "Sustained downward revision pattern"
+      },
+      "psst_dimensions": {
+        "SR": 78,
+        "TC": 75,
+        "DC": 72,
+        "ES": 78,
+        "CC": 75,
+        "IC": 78
+      }
+    },
+    {
+      "id": "news-20260306-handelsblatt-001",
+      "title": "Germany Faces March Deadline for Climate Action Programme as AfD Surges in Polls",
+      "impact_score": 3,
+      "impact_direction": "mixed",
+      "impact_description": "Tension between climate policy deadlines and far-right populist surge threatens Europe's green transition leadership",
+      "probability": 4.2,
+      "urgency": 4.0,
+      "novelty_score": 3.2,
+      "cross_steeps": [
+        "P",
+        "E"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "Flickering",
+        "evidence": "Political oscillation between green ambition and populist resistance"
+      },
+      "psst_dimensions": {
+        "SR": 80,
+        "TC": 78,
+        "DC": 75,
+        "ES": 80,
+        "CC": 78,
+        "IC": 80
+      }
+    },
+    {
+      "id": "news-20260306-lemonde-001",
+      "title": "France and Germany Pledge Energy Policy Alignment for European Grid Integration",
+      "impact_score": 3,
+      "impact_direction": "positive",
+      "impact_description": "Franco-German energy alignment could accelerate European energy independence; hydrogen infrastructure is a structural enabler for decarbonization",
+      "probability": 4.0,
+      "urgency": 3.0,
+      "novelty_score": 3.0,
+      "cross_steeps": [
+        "E",
+        "T"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Constructive policy response to energy crisis"
+      },
+      "psst_dimensions": {
+        "SR": 75,
+        "TC": 72,
+        "DC": 70,
+        "ES": 75,
+        "CC": 72,
+        "IC": 75
+      }
+    },
+    {
+      "id": "news-20260306-rt-001",
+      "title": "Putin Floats Cutting Europe Gas Sales, Redirecting to Premium Asian Markets",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "Russia exploiting energy vulnerability as geopolitical weapon; compound crisis scenario (Iran + Russia) could push Europe into energy emergency",
+      "probability": 3.0,
+      "urgency": 5.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "ORANGE",
+        "pattern": "Flickering",
+        "evidence": "Russia oscillating between threats and continued supply"
+      },
+      "psst_dimensions": {
+        "SR": 85,
+        "TC": 82,
+        "DC": 78,
+        "ES": 85,
+        "CC": 82,
+        "IC": 85
+      }
+    },
+    {
+      "id": "news-20260306-elfinanciero-001",
+      "title": "Russian LNG Tanker Explodes and Sinks in Mediterranean Off Libya",
+      "impact_score": 3,
+      "impact_direction": "negative",
+      "impact_description": "LNG tanker loss during global energy crisis compounds supply tightness; Mediterranean maritime security deterioration adds shipping insurance costs",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "E_Environmental"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "none",
+        "evidence": "Individual incident but part of broader pattern of maritime disruption"
+      },
+      "psst_dimensions": {
+        "SR": 78,
+        "TC": 75,
+        "DC": 72,
+        "ES": 78,
+        "CC": 75,
+        "IC": 78
+      }
+    },
+    {
+      "id": "news-20260306-chosun-001",
+      "title": "KOSPI Circuit Breakers Triggered as Iran Shock Hits Korean Markets",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "Circuit breaker activation signals severe market stress; 100 trillion won fund deployment indicates crisis-level government response",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 3.8,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "RED",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Circuit breaker = systemic stress indicator; government emergency fund = crisis acknowledgment"
+      },
+      "psst_dimensions": {
+        "SR": 90,
+        "TC": 88,
+        "DC": 85,
+        "ES": 90,
+        "CC": 88,
+        "IC": 90
+      }
+    },
+    {
+      "id": "news-20260306-mk-001",
+      "title": "Korea Triples AI Budget to 10.1 Trillion Won, Targets Top-3 AI Power Status",
+      "impact_score": 4,
+      "impact_direction": "positive",
+      "impact_description": "3x AI budget increase represents paradigm-level national technology policy shift; could reshape Korea's position in global AI competition",
+      "probability": 4.5,
+      "urgency": 3.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "E",
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Constructive policy signal"
+      },
+      "psst_dimensions": {
+        "SR": 85,
+        "TC": 82,
+        "DC": 78,
+        "ES": 85,
+        "CC": 80,
+        "IC": 85
+      }
+    },
+    {
+      "id": "news-20260306-caixin-001",
+      "title": "China Plans 300 Billion Yuan Special Bonds to Recapitalize Major Banks",
+      "impact_score": 4,
+      "impact_direction": "mixed",
+      "impact_description": "$44B bank recapitalization signals systemic financial stress in China; necessary stabilization but reveals depth of property crisis contagion",
+      "probability": 4.8,
+      "urgency": 4.0,
+      "novelty_score": 3.2,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Government forced into large-scale bank recapitalization"
+      },
+      "psst_dimensions": {
+        "SR": 85,
+        "TC": 82,
+        "DC": 78,
+        "ES": 85,
+        "CC": 82,
+        "IC": 85
+      }
+    },
+    {
+      "id": "news-20260306-techcrunch-001",
+      "title": "FDA Grants Breakthrough Designation to Generative AI Chatbot for Surgical Patients",
+      "impact_score": 3,
+      "impact_direction": "positive",
+      "impact_description": "First FDA breakthrough designation for generative AI in healthcare establishes regulatory precedent; could accelerate AI medical device approvals",
+      "probability": 4.2,
+      "urgency": 3.0,
+      "novelty_score": 4.2,
+      "cross_steeps": [
+        "S",
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Regulatory framework evolution"
+      },
+      "psst_dimensions": {
+        "SR": 82,
+        "TC": 80,
+        "DC": 75,
+        "ES": 82,
+        "CC": 78,
+        "IC": 82
+      }
+    },
+    {
+      "id": "news-20260306-arstechnica-001",
+      "title": "China's Five-Year Plan Targets Quantum Leadership and AI Expansion",
+      "impact_score": 4,
+      "impact_direction": "mixed",
+      "impact_description": "China's strategic technology investment plan intensifies global tech competition; space-earth quantum communication network is a paradigm-level infrastructure vision",
+      "probability": 4.2,
+      "urgency": 3.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "P",
+        "E"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Long-term strategic plan"
+      },
+      "psst_dimensions": {
+        "SR": 85,
+        "TC": 82,
+        "DC": 78,
+        "ES": 82,
+        "CC": 80,
+        "IC": 85
+      }
+    },
+    {
+      "id": "news-20260306-koreaherald-001",
+      "title": "Seoul Home Prices Projected to Rise 4.2% in 2026 Amid Supply Cliff",
+      "impact_score": 3,
+      "impact_direction": "negative",
+      "impact_description": "Housing affordability crisis in Seoul continues; supply cliff will intensify social inequality pressures",
+      "probability": 4.5,
+      "urgency": 3.0,
+      "novelty_score": 2.0,
+      "cross_steeps": [
+        "E"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Continuing trend"
+      },
+      "psst_dimensions": {
+        "SR": 72,
+        "TC": 70,
+        "DC": 68,
+        "ES": 72,
+        "CC": 70,
+        "IC": 72
+      }
+    },
+    {
+      "id": "news-20260306-nknews-001",
+      "title": "China-Japan Diplomatic Crisis Escalates with Rare Earth Export Restrictions",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "China-Japan diplomatic crisis with rare earth weaponization threatens global technology supply chains; accelerated Japanese defense spending signals security paradigm shift",
+      "probability": 4.5,
+      "urgency": 4.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "E",
+        "T"
+      ],
+      "tipping_point": {
+        "alert_level": "ORANGE",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Escalation ladder: economic sanctions -> cultural bans -> export controls -> defense buildup"
+      },
+      "psst_dimensions": {
+        "SR": 88,
+        "TC": 85,
+        "DC": 82,
+        "ES": 88,
+        "CC": 85,
+        "IC": 88
+      }
+    },
+    {
+      "id": "news-20260306-straitstimes-001",
+      "title": "DP World Suspends Jebel Ali Port Operations After Drone Strike Fire",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "Jebel Ali is the world's 9th busiest container port; suspension disrupts global supply chains and Gulf commercial hub status",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 4.0,
+      "cross_steeps": [
+        "P",
+        "T"
+      ],
+      "tipping_point": {
+        "alert_level": "RED",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Major commercial infrastructure directly impacted by conflict"
+      },
+      "psst_dimensions": {
+        "SR": 90,
+        "TC": 88,
+        "DC": 85,
+        "ES": 90,
+        "CC": 88,
+        "IC": 90
+      }
+    },
+    {
+      "id": "news-20260306-timesofisrael-001",
+      "title": "Israel Halts Gas Production at Karish and Leviathan Fields",
+      "impact_score": 3,
+      "impact_direction": "negative",
+      "impact_description": "Israeli gas shutdown cascades to Egypt and Jordan energy supply; compounds regional energy crisis beyond Hormuz",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "ORANGE",
+        "pattern": "none",
+        "evidence": "Energy supply disruption spreading to neighboring countries"
+      },
+      "psst_dimensions": {
+        "SR": 82,
+        "TC": 78,
+        "DC": 75,
+        "ES": 82,
+        "CC": 78,
+        "IC": 82
+      }
+    },
+    {
+      "id": "news-20260306-globeandmail-001",
+      "title": "Ocean Levels Rising Far Faster Than Government Assessments Predicted",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "30cm underestimation of baseline sea levels has massive implications for coastal infrastructure planning affecting billions; paradigm-shifting scientific finding",
+      "probability": 4.2,
+      "urgency": 2.0,
+      "novelty_score": 4.5,
+      "cross_steeps": [
+        "S",
+        "E"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Scientific assessments consistently revised upward over time"
+      },
+      "psst_dimensions": {
+        "SR": 85,
+        "TC": 82,
+        "DC": 78,
+        "ES": 88,
+        "CC": 82,
+        "IC": 85
+      }
+    },
+    {
+      "id": "news-20260306-japantimes-001",
+      "title": "Japan National Museums to Implement Dual-Pricing System for Foreign Tourists",
+      "impact_score": 2,
+      "impact_direction": "mixed",
+      "impact_description": "Dual-pricing signals a broader trend of countries monetizing overtourism; ethical implications for cultural access",
+      "probability": 4.5,
+      "urgency": 2.0,
+      "novelty_score": 3.0,
+      "cross_steeps": [
+        "E",
+        "s"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Policy trend"
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "TC": 62,
+        "DC": 60,
+        "ES": 65,
+        "CC": 62,
+        "IC": 65
+      }
+    },
+    {
+      "id": "news-20260306-bloomberg-001",
+      "title": "ISM Services PMI Surges to 56.1, Fastest US Services Expansion Since Mid-2022",
+      "impact_score": 3,
+      "impact_direction": "mixed",
+      "impact_description": "Strong US services data contradicts recession fears but complicates Fed rate policy during energy shock; stagflation risk",
+      "probability": 5.0,
+      "urgency": 4.0,
+      "novelty_score": 2.5,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Economic data point"
+      },
+      "psst_dimensions": {
+        "SR": 75,
+        "TC": 72,
+        "DC": 70,
+        "ES": 75,
+        "CC": 72,
+        "IC": 75
+      }
+    },
+    {
+      "id": "news-20260306-sedaily-001",
+      "title": "Korea Declares 'Startup-Centered Society' in Structural Growth Shift",
+      "impact_score": 3,
+      "impact_direction": "positive",
+      "impact_description": "Structural shift from chaebol-dominated to startup-driven growth could reshape Korea's economic model; signals global trend of innovation policy reform",
+      "probability": 4.0,
+      "urgency": 3.0,
+      "novelty_score": 3.2,
+      "cross_steeps": [
+        "T",
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Policy announcement"
+      },
+      "psst_dimensions": {
+        "SR": 78,
+        "TC": 75,
+        "DC": 72,
+        "ES": 78,
+        "CC": 75,
+        "IC": 78
+      }
+    },
+    {
+      "id": "news-20260306-zdnet-001",
+      "title": "Huawei Launches AI Data Platform for Enterprise AI Adoption Acceleration",
+      "impact_score": 3,
+      "impact_direction": "positive",
+      "impact_description": "Huawei's 'Agentic Internet' concept signals next phase of AI-network convergence; enterprise AI platform democratizes adoption",
+      "probability": 4.0,
+      "urgency": 3.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "E"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Technology platform launch"
+      },
+      "psst_dimensions": {
+        "SR": 75,
+        "TC": 72,
+        "DC": 70,
+        "ES": 75,
+        "CC": 72,
+        "IC": 75
+      }
+    },
+    {
+      "id": "news-20260306-arabnews-001",
+      "title": "Brent Crude Approaches $100 as Prolonged Hormuz Disruption Scenario Materializes",
+      "impact_score": 5,
+      "impact_direction": "negative",
+      "impact_description": "Oil approaching $100/bbl + gas at 60 EUR/MWh creates compound stagflation pressure globally; central banks trapped between inflation and growth",
+      "probability": 4.2,
+      "urgency": 5.0,
+      "novelty_score": 3.8,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "RED",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Price approaching psychologically critical $100 threshold"
+      },
+      "psst_dimensions": {
+        "SR": 92,
+        "TC": 90,
+        "DC": 88,
+        "ES": 92,
+        "CC": 90,
+        "IC": 92
+      }
+    },
+    {
+      "id": "news-20260306-aitimes-001",
+      "title": "March 2026 Federal Deadlines Set to Reshape US AI Regulatory Landscape",
+      "impact_score": 3,
+      "impact_direction": "mixed",
+      "impact_description": "Federal-state AI regulatory tension could fragment US innovation landscape; EU code of practice sets global precedent for AI content governance",
+      "probability": 4.5,
+      "urgency": 4.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "T",
+        "s"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Regulatory convergence"
+      },
+      "psst_dimensions": {
+        "SR": 80,
+        "TC": 78,
+        "DC": 75,
+        "ES": 80,
+        "CC": 78,
+        "IC": 80
+      }
+    },
+    {
+      "id": "news-20260306-donga-001",
+      "title": "Brazil Minas Gerais Floods Kill 72 as Climate-Driven Extreme Weather Intensifies",
+      "impact_score": 3,
+      "impact_direction": "negative",
+      "impact_description": "Climate-driven extreme weather events intensifying in frequency and severity across South America",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 2.5,
+      "cross_steeps": [
+        "S"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "none",
+        "evidence": "Pattern of escalating climate disasters"
+      },
+      "psst_dimensions": {
+        "SR": 75,
+        "TC": 72,
+        "DC": 70,
+        "ES": 78,
+        "CC": 72,
+        "IC": 75
+      }
+    },
+    {
+      "id": "news-20260306-bloter-001",
+      "title": "Quantum Infrastructure Becomes Battleground as Hardware Alone No Longer Drives Progress",
+      "impact_score": 3,
+      "impact_direction": "positive",
+      "impact_description": "Quantum industry maturation from hardware to infrastructure signals transition from research to real-world deployment phase",
+      "probability": 4.0,
+      "urgency": 3.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "E"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Industry maturation signal"
+      },
+      "psst_dimensions": {
+        "SR": 78,
+        "TC": 75,
+        "DC": 72,
+        "ES": 78,
+        "CC": 75,
+        "IC": 78
+      }
+    },
+    {
+      "id": "news-20260306-khan-001",
+      "title": "Zimbabwe Bans All Raw Mineral and Lithium Concentrate Exports",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "Resource nationalism in critical minerals could cascade; if other African lithium producers follow, global EV supply chain faces structural disruption",
+      "probability": 3.8,
+      "urgency": 3.0,
+      "novelty_score": 4.2,
+      "cross_steeps": [
+        "P",
+        "T",
+        "E_Environmental"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "Flickering",
+        "evidence": "Resource nationalism sentiment oscillating across African mining nations"
+      },
+      "psst_dimensions": {
+        "SR": 85,
+        "TC": 82,
+        "DC": 78,
+        "ES": 85,
+        "CC": 82,
+        "IC": 85
+      }
+    },
+    {
+      "id": "news-20260306-hankyung-001",
+      "title": "Trump Disavows $220M Border Security Ad Campaign Featuring DHS Secretary",
+      "impact_score": 2,
+      "impact_direction": "negative",
+      "impact_description": "Internal governance tensions within US administration; spending accountability questions",
+      "probability": 5.0,
+      "urgency": 4.0,
+      "novelty_score": 2.0,
+      "cross_steeps": [],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Governance incident"
+      },
+      "psst_dimensions": {
+        "SR": 60,
+        "TC": 58,
+        "DC": 55,
+        "ES": 60,
+        "CC": 58,
+        "IC": 60
+      }
+    },
+    {
+      "id": "news-20260306-edaily-001",
+      "title": "South Africa Declares 2026 Budget the Beginning of Economic Recovery",
+      "impact_score": 2,
+      "impact_direction": "mixed",
+      "impact_description": "South Africa economic recovery narrative tested by energy price shocks from Middle East conflict",
+      "probability": 3.5,
+      "urgency": 3.0,
+      "novelty_score": 2.0,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Economic data point"
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "TC": 62,
+        "DC": 60,
+        "ES": 65,
+        "CC": 62,
+        "IC": 65
+      }
+    },
+    {
+      "id": "news-20260306-mt-001",
+      "title": "Brazil's Economy Grows Just 2.3% in 2025, Weakest Since Pandemic",
+      "impact_score": 2,
+      "impact_direction": "negative",
+      "impact_description": "Brazil's growth slowdown reflects broader emerging market challenges from high interest rates",
+      "probability": 5.0,
+      "urgency": 3.0,
+      "novelty_score": 2.0,
+      "cross_steeps": [],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Economic data"
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "TC": 62,
+        "DC": 60,
+        "ES": 65,
+        "CC": 62,
+        "IC": 65
+      }
+    },
+    {
+      "id": "news-20260306-sciencetimes-001",
+      "title": "New Privacy Laws and AI Regulations Converge Across US States in 2026",
+      "impact_score": 3,
+      "impact_direction": "mixed",
+      "impact_description": "Converging privacy and AI regulations create compliance complexity for tech companies but strengthen consumer protections",
+      "probability": 5.0,
+      "urgency": 4.0,
+      "novelty_score": 2.8,
+      "cross_steeps": [
+        "T",
+        "s"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Regulatory evolution"
+      },
+      "psst_dimensions": {
+        "SR": 75,
+        "TC": 72,
+        "DC": 70,
+        "ES": 75,
+        "CC": 72,
+        "IC": 75
+      }
+    },
+    {
+      "id": "news-20260306-sisain-001",
+      "title": "Fukushima Pay-It-Forward Initiative Spreads to 130 Stores as Community Resilience Model",
+      "impact_score": 2,
+      "impact_direction": "positive",
+      "impact_description": "Community-driven resilience model represents counter-trend to atomized crisis response; could scale as social innovation paradigm",
+      "probability": 3.0,
+      "urgency": 2.0,
+      "novelty_score": 4.0,
+      "cross_steeps": [
+        "S"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Social innovation"
+      },
+      "psst_dimensions": {
+        "SR": 68,
+        "TC": 65,
+        "DC": 62,
+        "ES": 70,
+        "CC": 65,
+        "IC": 68
+      }
+    },
+    {
+      "id": "news-20260306-businesspost-001",
+      "title": "Quantum Computing and National Security: The Intersection Deepens in 2026",
+      "impact_score": 3,
+      "impact_direction": "mixed",
+      "impact_description": "Quantum-security intersection accelerates arms race dynamics; 'harvest now, decrypt later' poses existential risk to current encryption",
+      "probability": 4.0,
+      "urgency": 3.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "none",
+        "evidence": "Approaching quantum cryptographic threat horizon"
+      },
+      "psst_dimensions": {
+        "SR": 80,
+        "TC": 78,
+        "DC": 75,
+        "ES": 80,
+        "CC": 78,
+        "IC": 80
+      }
+    },
+    {
+      "id": "news-20260306-hani-001",
+      "title": "Blackout Leaves Millions Without Power in Cuba's Western Region",
+      "impact_score": 2,
+      "impact_direction": "negative",
+      "impact_description": "Cuba's infrastructure collapse is a canary signal for other island/vulnerable economies during global energy price shock",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 2.5,
+      "cross_steeps": [
+        "S"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Recurring infrastructure failure"
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "TC": 62,
+        "DC": 60,
+        "ES": 65,
+        "CC": 62,
+        "IC": 65
+      }
+    },
+    {
+      "id": "news-20260306-joongang-001",
+      "title": "Korea-China Relations Enter 'Full Restoration' Phase After Lee-Xi Summit",
+      "impact_score": 3,
+      "impact_direction": "positive",
+      "impact_description": "Korea-China diplomatic restoration could reshape East Asian geopolitics amid US-China competition; cultural exchange resumption has soft power implications",
+      "probability": 3.5,
+      "urgency": 3.0,
+      "novelty_score": 3.2,
+      "cross_steeps": [
+        "E",
+        "S"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Diplomatic normalization"
+      },
+      "psst_dimensions": {
+        "SR": 78,
+        "TC": 75,
+        "DC": 72,
+        "ES": 78,
+        "CC": 75,
+        "IC": 78
+      }
+    }
+  ],
+  "signals": [
+    {
+      "id": "news-20260306-nytimes-001",
+      "title": "U.S. and Israel Strike Iran Overnight, Targeting Ballistic Missile Sites",
+      "impact_score": 5,
+      "impact_direction": "negative",
+      "impact_description": "Major military escalation with potential to reshape Middle East geopolitics, disrupt global energy markets, and trigger broader alliance realignments",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "E",
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "RED",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Rapid escalation cycle with no diplomatic off-ramp visible; each day brings new fronts (naval, air, proxy)"
+      },
+      "psst_dimensions": {
+        "SR": 95,
+        "TC": 90,
+        "DC": 85,
+        "ES": 95,
+        "CC": 90,
+        "IC": 95
+      }
+    },
+    {
+      "id": "news-20260306-wsj-001",
+      "title": "Strait of Hormuz Traffic Drops 90% as Iran Blockade Disrupts Global Oil Supply",
+      "impact_score": 5,
+      "impact_direction": "negative",
+      "impact_description": "90% traffic drop represents near-total disruption of the world's most critical oil chokepoint; $29M supertanker costs are unprecedented",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 4.5,
+      "cross_steeps": [
+        "P",
+        "T"
+      ],
+      "tipping_point": {
+        "alert_level": "RED",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Quantitative data (90% drop, record charter costs) confirms systemic disruption already occurring"
+      },
+      "psst_dimensions": {
+        "SR": 98,
+        "TC": 95,
+        "DC": 90,
+        "ES": 95,
+        "CC": 95,
+        "IC": 98
+      }
+    },
+    {
+      "id": "news-20260306-bbc-001",
+      "title": "US Submarine Sinks Iranian Warship in Indian Ocean, 87 Dead",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "Naval warfare in the Indian Ocean near Sri Lanka extends the conflict far beyond the Middle East theater, threatening Indian Ocean shipping lanes",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 4.2,
+      "cross_steeps": [
+        "E",
+        "s"
+      ],
+      "tipping_point": {
+        "alert_level": "RED",
+        "pattern": "Flickering",
+        "evidence": "Conflict expanding geographically to new maritime theaters"
+      },
+      "psst_dimensions": {
+        "SR": 92,
+        "TC": 88,
+        "DC": 85,
+        "ES": 90,
+        "CC": 88,
+        "IC": 92
+      }
+    },
+    {
+      "id": "news-20260306-reuters-001",
+      "title": "NATO Intercepts Iranian Ballistic Missile Headed for Turkey",
+      "impact_score": 5,
+      "impact_direction": "negative",
+      "impact_description": "First NATO defensive action in the Iran conflict could trigger Article 5 collective defense, transforming a regional war into a NATO-Iran confrontation",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 4.8,
+      "cross_steeps": [
+        "P",
+        "E"
+      ],
+      "tipping_point": {
+        "alert_level": "RED",
+        "pattern": "Critical Slowing Down",
+        "evidence": "NATO directly involved for first time; Article 5 discussion threshold crossed"
+      },
+      "psst_dimensions": {
+        "SR": 96,
+        "TC": 92,
+        "DC": 88,
+        "ES": 95,
+        "CC": 92,
+        "IC": 96
+      }
+    },
+    {
+      "id": "news-20260306-apnews-001",
+      "title": "Senate Blocks Bid to Limit Trump's Iran War Powers, 53-47",
+      "impact_score": 3,
+      "impact_direction": "negative",
+      "impact_description": "Precedent for executive war-making without congressional authorization has long-term implications for US democratic governance",
+      "probability": 5.0,
+      "urgency": 4.0,
+      "novelty_score": 3.0,
+      "cross_steeps": [
+        "s"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "none",
+        "evidence": "Institutional check failed; war powers precedent set"
+      },
+      "psst_dimensions": {
+        "SR": 80,
+        "TC": 75,
+        "DC": 70,
+        "ES": 78,
+        "CC": 72,
+        "IC": 80
+      }
+    },
+    {
+      "id": "news-20260306-politico-001",
+      "title": "Spain Rejects White House Claim of Iran War Support, Bars Use of Military Bases",
+      "impact_score": 3,
+      "impact_direction": "negative",
+      "impact_description": "NATO alliance fracture signal; Spain's base denial could trigger cascade of European allied dissent",
+      "probability": 4.0,
+      "urgency": 4.0,
+      "novelty_score": 3.8,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "Flickering",
+        "evidence": "Alliance cohesion oscillating between support and dissent"
+      },
+      "psst_dimensions": {
+        "SR": 82,
+        "TC": 78,
+        "DC": 75,
+        "ES": 80,
+        "CC": 76,
+        "IC": 82
+      }
+    },
+    {
+      "id": "news-20260306-ft-001",
+      "title": "Qatar Halts LNG Exports, European and Asian Gas Prices Skyrocket",
+      "impact_score": 5,
+      "impact_direction": "negative",
+      "impact_description": "Compound energy supply disruption: Hormuz blockade + Qatar LNG halt + Israel gas shutdown creates unprecedented multi-source energy crisis",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 4.4,
+      "cross_steeps": [
+        "P",
+        "E_Environmental"
+      ],
+      "tipping_point": {
+        "alert_level": "RED",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Multiple simultaneous energy supply disruptions compound into systemic crisis"
+      },
+      "psst_dimensions": {
+        "SR": 95,
+        "TC": 90,
+        "DC": 88,
+        "ES": 92,
+        "CC": 90,
+        "IC": 95
+      }
+    },
+    {
+      "id": "news-20260306-aljazeera-001",
+      "title": "Kurdish Militias Form Coalition, Position Thousands of Fighters Along Iran-Iraq Border",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "Kurdish mobilization opens internal front against Iran; could destabilize Iraq and Turkey as well given Kurdish populations across borders",
+      "probability": 3.5,
+      "urgency": 4.0,
+      "novelty_score": 4.0,
+      "cross_steeps": [
+        "S"
+      ],
+      "tipping_point": {
+        "alert_level": "ORANGE",
+        "pattern": "Flickering",
+        "evidence": "Ethnic/separatist movements exploiting state weakness is a tipping point precursor"
+      },
+      "psst_dimensions": {
+        "SR": 85,
+        "TC": 82,
+        "DC": 78,
+        "ES": 85,
+        "CC": 80,
+        "IC": 85
+      }
+    },
+    {
+      "id": "news-20260306-scmp-001",
+      "title": "China Sets Lowest Growth Target in Decades at 4.5-5% for 2026",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "China's structural slowdown confirmed at policy level; lowest growth target signals acceptance of 'new normal' with global trade implications",
+      "probability": 4.8,
+      "urgency": 3.0,
+      "novelty_score": 3.0,
+      "cross_steeps": [
+        "P",
+        "S"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Downward trajectory in growth targets over multiple years"
+      },
+      "psst_dimensions": {
+        "SR": 88,
+        "TC": 85,
+        "DC": 80,
+        "ES": 85,
+        "CC": 82,
+        "IC": 88
+      }
+    },
+    {
+      "id": "news-20260306-thepaper-001",
+      "title": "China Moves to Halt Fuel Exports as Gulf Supply Tightens",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "China's fuel export halt signals strategic hoarding behavior; could cascade into regional fuel shortages across Asia",
+      "probability": 4.5,
+      "urgency": 5.0,
+      "novelty_score": 4.0,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "ORANGE",
+        "pattern": "Critical Slowing Down",
+        "evidence": "State-directed market intervention indicates perceived crisis severity"
+      },
+      "psst_dimensions": {
+        "SR": 88,
+        "TC": 85,
+        "DC": 82,
+        "ES": 88,
+        "CC": 85,
+        "IC": 88
+      }
+    },
+    {
+      "id": "news-20260306-nikkei-001",
+      "title": "Japan GDP Forecast Slashed to 0.9% on Tariffs and China Tensions",
+      "impact_score": 3,
+      "impact_direction": "negative",
+      "impact_description": "Japan's economic growth continues to decelerate under dual pressure of US tariffs and China tensions; rare earth restrictions add technology supply risk",
+      "probability": 4.5,
+      "urgency": 3.0,
+      "novelty_score": 2.5,
+      "cross_steeps": [
+        "P",
+        "T"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "none",
+        "evidence": "Sustained downward revision pattern"
+      },
+      "psst_dimensions": {
+        "SR": 78,
+        "TC": 75,
+        "DC": 72,
+        "ES": 78,
+        "CC": 75,
+        "IC": 78
+      }
+    },
+    {
+      "id": "news-20260306-handelsblatt-001",
+      "title": "Germany Faces March Deadline for Climate Action Programme as AfD Surges in Polls",
+      "impact_score": 3,
+      "impact_direction": "mixed",
+      "impact_description": "Tension between climate policy deadlines and far-right populist surge threatens Europe's green transition leadership",
+      "probability": 4.2,
+      "urgency": 4.0,
+      "novelty_score": 3.2,
+      "cross_steeps": [
+        "P",
+        "E"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "Flickering",
+        "evidence": "Political oscillation between green ambition and populist resistance"
+      },
+      "psst_dimensions": {
+        "SR": 80,
+        "TC": 78,
+        "DC": 75,
+        "ES": 80,
+        "CC": 78,
+        "IC": 80
+      }
+    },
+    {
+      "id": "news-20260306-lemonde-001",
+      "title": "France and Germany Pledge Energy Policy Alignment for European Grid Integration",
+      "impact_score": 3,
+      "impact_direction": "positive",
+      "impact_description": "Franco-German energy alignment could accelerate European energy independence; hydrogen infrastructure is a structural enabler for decarbonization",
+      "probability": 4.0,
+      "urgency": 3.0,
+      "novelty_score": 3.0,
+      "cross_steeps": [
+        "E",
+        "T"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Constructive policy response to energy crisis"
+      },
+      "psst_dimensions": {
+        "SR": 75,
+        "TC": 72,
+        "DC": 70,
+        "ES": 75,
+        "CC": 72,
+        "IC": 75
+      }
+    },
+    {
+      "id": "news-20260306-rt-001",
+      "title": "Putin Floats Cutting Europe Gas Sales, Redirecting to Premium Asian Markets",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "Russia exploiting energy vulnerability as geopolitical weapon; compound crisis scenario (Iran + Russia) could push Europe into energy emergency",
+      "probability": 3.0,
+      "urgency": 5.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "ORANGE",
+        "pattern": "Flickering",
+        "evidence": "Russia oscillating between threats and continued supply"
+      },
+      "psst_dimensions": {
+        "SR": 85,
+        "TC": 82,
+        "DC": 78,
+        "ES": 85,
+        "CC": 82,
+        "IC": 85
+      }
+    },
+    {
+      "id": "news-20260306-elfinanciero-001",
+      "title": "Russian LNG Tanker Explodes and Sinks in Mediterranean Off Libya",
+      "impact_score": 3,
+      "impact_direction": "negative",
+      "impact_description": "LNG tanker loss during global energy crisis compounds supply tightness; Mediterranean maritime security deterioration adds shipping insurance costs",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "E_Environmental"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "none",
+        "evidence": "Individual incident but part of broader pattern of maritime disruption"
+      },
+      "psst_dimensions": {
+        "SR": 78,
+        "TC": 75,
+        "DC": 72,
+        "ES": 78,
+        "CC": 75,
+        "IC": 78
+      }
+    },
+    {
+      "id": "news-20260306-chosun-001",
+      "title": "KOSPI Circuit Breakers Triggered as Iran Shock Hits Korean Markets",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "Circuit breaker activation signals severe market stress; 100 trillion won fund deployment indicates crisis-level government response",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 3.8,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "RED",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Circuit breaker = systemic stress indicator; government emergency fund = crisis acknowledgment"
+      },
+      "psst_dimensions": {
+        "SR": 90,
+        "TC": 88,
+        "DC": 85,
+        "ES": 90,
+        "CC": 88,
+        "IC": 90
+      }
+    },
+    {
+      "id": "news-20260306-mk-001",
+      "title": "Korea Triples AI Budget to 10.1 Trillion Won, Targets Top-3 AI Power Status",
+      "impact_score": 4,
+      "impact_direction": "positive",
+      "impact_description": "3x AI budget increase represents paradigm-level national technology policy shift; could reshape Korea's position in global AI competition",
+      "probability": 4.5,
+      "urgency": 3.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "E",
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Constructive policy signal"
+      },
+      "psst_dimensions": {
+        "SR": 85,
+        "TC": 82,
+        "DC": 78,
+        "ES": 85,
+        "CC": 80,
+        "IC": 85
+      }
+    },
+    {
+      "id": "news-20260306-caixin-001",
+      "title": "China Plans 300 Billion Yuan Special Bonds to Recapitalize Major Banks",
+      "impact_score": 4,
+      "impact_direction": "mixed",
+      "impact_description": "$44B bank recapitalization signals systemic financial stress in China; necessary stabilization but reveals depth of property crisis contagion",
+      "probability": 4.8,
+      "urgency": 4.0,
+      "novelty_score": 3.2,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Government forced into large-scale bank recapitalization"
+      },
+      "psst_dimensions": {
+        "SR": 85,
+        "TC": 82,
+        "DC": 78,
+        "ES": 85,
+        "CC": 82,
+        "IC": 85
+      }
+    },
+    {
+      "id": "news-20260306-techcrunch-001",
+      "title": "FDA Grants Breakthrough Designation to Generative AI Chatbot for Surgical Patients",
+      "impact_score": 3,
+      "impact_direction": "positive",
+      "impact_description": "First FDA breakthrough designation for generative AI in healthcare establishes regulatory precedent; could accelerate AI medical device approvals",
+      "probability": 4.2,
+      "urgency": 3.0,
+      "novelty_score": 4.2,
+      "cross_steeps": [
+        "S",
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Regulatory framework evolution"
+      },
+      "psst_dimensions": {
+        "SR": 82,
+        "TC": 80,
+        "DC": 75,
+        "ES": 82,
+        "CC": 78,
+        "IC": 82
+      }
+    },
+    {
+      "id": "news-20260306-arstechnica-001",
+      "title": "China's Five-Year Plan Targets Quantum Leadership and AI Expansion",
+      "impact_score": 4,
+      "impact_direction": "mixed",
+      "impact_description": "China's strategic technology investment plan intensifies global tech competition; space-earth quantum communication network is a paradigm-level infrastructure vision",
+      "probability": 4.2,
+      "urgency": 3.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "P",
+        "E"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Long-term strategic plan"
+      },
+      "psst_dimensions": {
+        "SR": 85,
+        "TC": 82,
+        "DC": 78,
+        "ES": 82,
+        "CC": 80,
+        "IC": 85
+      }
+    },
+    {
+      "id": "news-20260306-koreaherald-001",
+      "title": "Seoul Home Prices Projected to Rise 4.2% in 2026 Amid Supply Cliff",
+      "impact_score": 3,
+      "impact_direction": "negative",
+      "impact_description": "Housing affordability crisis in Seoul continues; supply cliff will intensify social inequality pressures",
+      "probability": 4.5,
+      "urgency": 3.0,
+      "novelty_score": 2.0,
+      "cross_steeps": [
+        "E"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Continuing trend"
+      },
+      "psst_dimensions": {
+        "SR": 72,
+        "TC": 70,
+        "DC": 68,
+        "ES": 72,
+        "CC": 70,
+        "IC": 72
+      }
+    },
+    {
+      "id": "news-20260306-nknews-001",
+      "title": "China-Japan Diplomatic Crisis Escalates with Rare Earth Export Restrictions",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "China-Japan diplomatic crisis with rare earth weaponization threatens global technology supply chains; accelerated Japanese defense spending signals security paradigm shift",
+      "probability": 4.5,
+      "urgency": 4.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "E",
+        "T"
+      ],
+      "tipping_point": {
+        "alert_level": "ORANGE",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Escalation ladder: economic sanctions -> cultural bans -> export controls -> defense buildup"
+      },
+      "psst_dimensions": {
+        "SR": 88,
+        "TC": 85,
+        "DC": 82,
+        "ES": 88,
+        "CC": 85,
+        "IC": 88
+      }
+    },
+    {
+      "id": "news-20260306-straitstimes-001",
+      "title": "DP World Suspends Jebel Ali Port Operations After Drone Strike Fire",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "Jebel Ali is the world's 9th busiest container port; suspension disrupts global supply chains and Gulf commercial hub status",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 4.0,
+      "cross_steeps": [
+        "P",
+        "T"
+      ],
+      "tipping_point": {
+        "alert_level": "RED",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Major commercial infrastructure directly impacted by conflict"
+      },
+      "psst_dimensions": {
+        "SR": 90,
+        "TC": 88,
+        "DC": 85,
+        "ES": 90,
+        "CC": 88,
+        "IC": 90
+      }
+    },
+    {
+      "id": "news-20260306-timesofisrael-001",
+      "title": "Israel Halts Gas Production at Karish and Leviathan Fields",
+      "impact_score": 3,
+      "impact_direction": "negative",
+      "impact_description": "Israeli gas shutdown cascades to Egypt and Jordan energy supply; compounds regional energy crisis beyond Hormuz",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "ORANGE",
+        "pattern": "none",
+        "evidence": "Energy supply disruption spreading to neighboring countries"
+      },
+      "psst_dimensions": {
+        "SR": 82,
+        "TC": 78,
+        "DC": 75,
+        "ES": 82,
+        "CC": 78,
+        "IC": 82
+      }
+    },
+    {
+      "id": "news-20260306-globeandmail-001",
+      "title": "Ocean Levels Rising Far Faster Than Government Assessments Predicted",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "30cm underestimation of baseline sea levels has massive implications for coastal infrastructure planning affecting billions; paradigm-shifting scientific finding",
+      "probability": 4.2,
+      "urgency": 2.0,
+      "novelty_score": 4.5,
+      "cross_steeps": [
+        "S",
+        "E"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Scientific assessments consistently revised upward over time"
+      },
+      "psst_dimensions": {
+        "SR": 85,
+        "TC": 82,
+        "DC": 78,
+        "ES": 88,
+        "CC": 82,
+        "IC": 85
+      }
+    },
+    {
+      "id": "news-20260306-japantimes-001",
+      "title": "Japan National Museums to Implement Dual-Pricing System for Foreign Tourists",
+      "impact_score": 2,
+      "impact_direction": "mixed",
+      "impact_description": "Dual-pricing signals a broader trend of countries monetizing overtourism; ethical implications for cultural access",
+      "probability": 4.5,
+      "urgency": 2.0,
+      "novelty_score": 3.0,
+      "cross_steeps": [
+        "E",
+        "s"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Policy trend"
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "TC": 62,
+        "DC": 60,
+        "ES": 65,
+        "CC": 62,
+        "IC": 65
+      }
+    },
+    {
+      "id": "news-20260306-bloomberg-001",
+      "title": "ISM Services PMI Surges to 56.1, Fastest US Services Expansion Since Mid-2022",
+      "impact_score": 3,
+      "impact_direction": "mixed",
+      "impact_description": "Strong US services data contradicts recession fears but complicates Fed rate policy during energy shock; stagflation risk",
+      "probability": 5.0,
+      "urgency": 4.0,
+      "novelty_score": 2.5,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Economic data point"
+      },
+      "psst_dimensions": {
+        "SR": 75,
+        "TC": 72,
+        "DC": 70,
+        "ES": 75,
+        "CC": 72,
+        "IC": 75
+      }
+    },
+    {
+      "id": "news-20260306-sedaily-001",
+      "title": "Korea Declares 'Startup-Centered Society' in Structural Growth Shift",
+      "impact_score": 3,
+      "impact_direction": "positive",
+      "impact_description": "Structural shift from chaebol-dominated to startup-driven growth could reshape Korea's economic model; signals global trend of innovation policy reform",
+      "probability": 4.0,
+      "urgency": 3.0,
+      "novelty_score": 3.2,
+      "cross_steeps": [
+        "T",
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Policy announcement"
+      },
+      "psst_dimensions": {
+        "SR": 78,
+        "TC": 75,
+        "DC": 72,
+        "ES": 78,
+        "CC": 75,
+        "IC": 78
+      }
+    },
+    {
+      "id": "news-20260306-zdnet-001",
+      "title": "Huawei Launches AI Data Platform for Enterprise AI Adoption Acceleration",
+      "impact_score": 3,
+      "impact_direction": "positive",
+      "impact_description": "Huawei's 'Agentic Internet' concept signals next phase of AI-network convergence; enterprise AI platform democratizes adoption",
+      "probability": 4.0,
+      "urgency": 3.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "E"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Technology platform launch"
+      },
+      "psst_dimensions": {
+        "SR": 75,
+        "TC": 72,
+        "DC": 70,
+        "ES": 75,
+        "CC": 72,
+        "IC": 75
+      }
+    },
+    {
+      "id": "news-20260306-arabnews-001",
+      "title": "Brent Crude Approaches $100 as Prolonged Hormuz Disruption Scenario Materializes",
+      "impact_score": 5,
+      "impact_direction": "negative",
+      "impact_description": "Oil approaching $100/bbl + gas at 60 EUR/MWh creates compound stagflation pressure globally; central banks trapped between inflation and growth",
+      "probability": 4.2,
+      "urgency": 5.0,
+      "novelty_score": 3.8,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "RED",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Price approaching psychologically critical $100 threshold"
+      },
+      "psst_dimensions": {
+        "SR": 92,
+        "TC": 90,
+        "DC": 88,
+        "ES": 92,
+        "CC": 90,
+        "IC": 92
+      }
+    },
+    {
+      "id": "news-20260306-aitimes-001",
+      "title": "March 2026 Federal Deadlines Set to Reshape US AI Regulatory Landscape",
+      "impact_score": 3,
+      "impact_direction": "mixed",
+      "impact_description": "Federal-state AI regulatory tension could fragment US innovation landscape; EU code of practice sets global precedent for AI content governance",
+      "probability": 4.5,
+      "urgency": 4.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "T",
+        "s"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Regulatory convergence"
+      },
+      "psst_dimensions": {
+        "SR": 80,
+        "TC": 78,
+        "DC": 75,
+        "ES": 80,
+        "CC": 78,
+        "IC": 80
+      }
+    },
+    {
+      "id": "news-20260306-donga-001",
+      "title": "Brazil Minas Gerais Floods Kill 72 as Climate-Driven Extreme Weather Intensifies",
+      "impact_score": 3,
+      "impact_direction": "negative",
+      "impact_description": "Climate-driven extreme weather events intensifying in frequency and severity across South America",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 2.5,
+      "cross_steeps": [
+        "S"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "none",
+        "evidence": "Pattern of escalating climate disasters"
+      },
+      "psst_dimensions": {
+        "SR": 75,
+        "TC": 72,
+        "DC": 70,
+        "ES": 78,
+        "CC": 72,
+        "IC": 75
+      }
+    },
+    {
+      "id": "news-20260306-bloter-001",
+      "title": "Quantum Infrastructure Becomes Battleground as Hardware Alone No Longer Drives Progress",
+      "impact_score": 3,
+      "impact_direction": "positive",
+      "impact_description": "Quantum industry maturation from hardware to infrastructure signals transition from research to real-world deployment phase",
+      "probability": 4.0,
+      "urgency": 3.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "E"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Industry maturation signal"
+      },
+      "psst_dimensions": {
+        "SR": 78,
+        "TC": 75,
+        "DC": 72,
+        "ES": 78,
+        "CC": 75,
+        "IC": 78
+      }
+    },
+    {
+      "id": "news-20260306-khan-001",
+      "title": "Zimbabwe Bans All Raw Mineral and Lithium Concentrate Exports",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "Resource nationalism in critical minerals could cascade; if other African lithium producers follow, global EV supply chain faces structural disruption",
+      "probability": 3.8,
+      "urgency": 3.0,
+      "novelty_score": 4.2,
+      "cross_steeps": [
+        "P",
+        "T",
+        "E_Environmental"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "Flickering",
+        "evidence": "Resource nationalism sentiment oscillating across African mining nations"
+      },
+      "psst_dimensions": {
+        "SR": 85,
+        "TC": 82,
+        "DC": 78,
+        "ES": 85,
+        "CC": 82,
+        "IC": 85
+      }
+    },
+    {
+      "id": "news-20260306-hankyung-001",
+      "title": "Trump Disavows $220M Border Security Ad Campaign Featuring DHS Secretary",
+      "impact_score": 2,
+      "impact_direction": "negative",
+      "impact_description": "Internal governance tensions within US administration; spending accountability questions",
+      "probability": 5.0,
+      "urgency": 4.0,
+      "novelty_score": 2.0,
+      "cross_steeps": [],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Governance incident"
+      },
+      "psst_dimensions": {
+        "SR": 60,
+        "TC": 58,
+        "DC": 55,
+        "ES": 60,
+        "CC": 58,
+        "IC": 60
+      }
+    },
+    {
+      "id": "news-20260306-edaily-001",
+      "title": "South Africa Declares 2026 Budget the Beginning of Economic Recovery",
+      "impact_score": 2,
+      "impact_direction": "mixed",
+      "impact_description": "South Africa economic recovery narrative tested by energy price shocks from Middle East conflict",
+      "probability": 3.5,
+      "urgency": 3.0,
+      "novelty_score": 2.0,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Economic data point"
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "TC": 62,
+        "DC": 60,
+        "ES": 65,
+        "CC": 62,
+        "IC": 65
+      }
+    },
+    {
+      "id": "news-20260306-mt-001",
+      "title": "Brazil's Economy Grows Just 2.3% in 2025, Weakest Since Pandemic",
+      "impact_score": 2,
+      "impact_direction": "negative",
+      "impact_description": "Brazil's growth slowdown reflects broader emerging market challenges from high interest rates",
+      "probability": 5.0,
+      "urgency": 3.0,
+      "novelty_score": 2.0,
+      "cross_steeps": [],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Economic data"
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "TC": 62,
+        "DC": 60,
+        "ES": 65,
+        "CC": 62,
+        "IC": 65
+      }
+    },
+    {
+      "id": "news-20260306-sciencetimes-001",
+      "title": "New Privacy Laws and AI Regulations Converge Across US States in 2026",
+      "impact_score": 3,
+      "impact_direction": "mixed",
+      "impact_description": "Converging privacy and AI regulations create compliance complexity for tech companies but strengthen consumer protections",
+      "probability": 5.0,
+      "urgency": 4.0,
+      "novelty_score": 2.8,
+      "cross_steeps": [
+        "T",
+        "s"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Regulatory evolution"
+      },
+      "psst_dimensions": {
+        "SR": 75,
+        "TC": 72,
+        "DC": 70,
+        "ES": 75,
+        "CC": 72,
+        "IC": 75
+      }
+    },
+    {
+      "id": "news-20260306-sisain-001",
+      "title": "Fukushima Pay-It-Forward Initiative Spreads to 130 Stores as Community Resilience Model",
+      "impact_score": 2,
+      "impact_direction": "positive",
+      "impact_description": "Community-driven resilience model represents counter-trend to atomized crisis response; could scale as social innovation paradigm",
+      "probability": 3.0,
+      "urgency": 2.0,
+      "novelty_score": 4.0,
+      "cross_steeps": [
+        "S"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Social innovation"
+      },
+      "psst_dimensions": {
+        "SR": 68,
+        "TC": 65,
+        "DC": 62,
+        "ES": 70,
+        "CC": 65,
+        "IC": 68
+      }
+    },
+    {
+      "id": "news-20260306-businesspost-001",
+      "title": "Quantum Computing and National Security: The Intersection Deepens in 2026",
+      "impact_score": 3,
+      "impact_direction": "mixed",
+      "impact_description": "Quantum-security intersection accelerates arms race dynamics; 'harvest now, decrypt later' poses existential risk to current encryption",
+      "probability": 4.0,
+      "urgency": 3.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "none",
+        "evidence": "Approaching quantum cryptographic threat horizon"
+      },
+      "psst_dimensions": {
+        "SR": 80,
+        "TC": 78,
+        "DC": 75,
+        "ES": 80,
+        "CC": 78,
+        "IC": 80
+      }
+    },
+    {
+      "id": "news-20260306-hani-001",
+      "title": "Blackout Leaves Millions Without Power in Cuba's Western Region",
+      "impact_score": 2,
+      "impact_direction": "negative",
+      "impact_description": "Cuba's infrastructure collapse is a canary signal for other island/vulnerable economies during global energy price shock",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 2.5,
+      "cross_steeps": [
+        "S"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Recurring infrastructure failure"
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "TC": 62,
+        "DC": 60,
+        "ES": 65,
+        "CC": 62,
+        "IC": 65
+      }
+    },
+    {
+      "id": "news-20260306-joongang-001",
+      "title": "Korea-China Relations Enter 'Full Restoration' Phase After Lee-Xi Summit",
+      "impact_score": 3,
+      "impact_direction": "positive",
+      "impact_description": "Korea-China diplomatic restoration could reshape East Asian geopolitics amid US-China competition; cultural exchange resumption has soft power implications",
+      "probability": 3.5,
+      "urgency": 3.0,
+      "novelty_score": 3.2,
+      "cross_steeps": [
+        "E",
+        "S"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Diplomatic normalization"
+      },
+      "psst_dimensions": {
+        "SR": 78,
+        "TC": 75,
+        "DC": 72,
+        "ES": 78,
+        "CC": 75,
+        "IC": 78
+      }
+    }
+  ]
+}

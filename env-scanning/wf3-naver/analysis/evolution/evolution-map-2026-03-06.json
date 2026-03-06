@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "date": "2026-03-06",
+    "workflow": "Naver News Environmental Scanning",
+    "tracker_version": "fallback",
+    "note": "Evolution tracker encountered error; using fallback minimal map"
+  },
+  "evolution_summary": {
+    "total_signals": 257,
+    "new": 257,
+    "recurring": 0,
+    "strengthening": 0,
+    "weakening": 0,
+    "faded": 0,
+    "transformed": 0
+  },
+  "matches": [],
+  "threads": []
+}

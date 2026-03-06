@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "date": "2026-03-06",
+    "generated_at": "2026-03-06T00:35:00Z",
+    "method": "agent-team",
+    "stage": "C",
+    "gap_analysis": {
+      "total_signals": 47,
+      "distribution": {
+        "S_Social": {"count": 3, "percent": 6.4, "gap_from_ideal": 10.3},
+        "T_Technological": {"count": 18, "percent": 38.3, "gap_from_ideal": 0},
+        "E_combined": {"count": 9, "percent": 19.1, "gap_from_ideal": 0},
+        "P_Political": {"count": 13, "percent": 27.7, "gap_from_ideal": 0},
+        "s_spiritual": {"count": 4, "percent": 8.5, "gap_from_ideal": 8.2}
+      },
+      "significant_gaps": ["S_Social", "s_spiritual"],
+      "note": "S_Social severely underrepresented at 6.4% (ideal ~16.7%). s_spiritual also below threshold. E category combines Economic and Environmental signals."
+    },
+    "failed_sources_today": ["Wired", "Ars Technica", "World Bank Blogs", "PubMed", "Science Magazine"],
+    "frontier_selection_file": "env-scanning/wf1-general/exploration/frontier-selection-2026-03-06.json",
+    "frontier_keywords_used": [
+      "African innovation technology RSS",
+      "Latin American sustainability news",
+      "quantum biology applications"
+    ]
+  },
+  "candidates": [
+    {
+      "name": "ScienceDaily Sustainability",
+      "url": "https://www.sciencedaily.com/news/earth_climate/sustainability/",
+      "rss_url": "https://www.sciencedaily.com/rss/earth_climate/sustainability.xml",
+      "type": "science_news",
+      "discovery_method": "gap_directed",
+      "discovery_query": "environmental sustainability climate news RSS feed",
+      "target_gap": "E_Environmental",
+      "steeps_coverage": ["E_Environmental"],
+      "health_check": {
+        "http_status": 200,
+        "rss_valid": true,
+        "recent_content": true,
+        "last_article_date": "2026-03-04",
+        "update_frequency": "daily",
+        "content_language": "en"
+      },
+      "test_signals": [
+        {
+          "title": "Climate models may be missing massive carbon emissions from boreal wildfires",
+          "date": "2026-03-04",
+          "steeps": "E_Environmental",
+          "relevance": "high"
+        },
+        {
+          "title": "This plastic is made from milk and it vanishes in 13 weeks",
+          "date": "2026-02-28",
+          "steeps": "T_Technological",
+          "relevance": "high"
+        },
+        {
+          "title": "Congo Basin blackwater lakes are releasing ancient carbon into the atmosphere",
+          "date": "2026-02-24",
+          "steeps": "E_Environmental",
+          "relevance": "high"
+        }
+      ],
+      "evaluation": {
+        "signal_quality": "high",
+        "uniqueness": "medium",
+        "update_frequency": "daily",
+        "scan_viability": "viable",
+        "overlap_with_existing": "partial — Carbon Brief covers some climate; ScienceDaily adds research-backed sustainability angle",
+        "recommendation": "viable — fills Environmental gap with science-backed content"
+      },
+      "scan_status": "viable"
+    },
+    {
+      "name": "Disrupt Africa",
+      "url": "https://disruptafrica.com/",
+      "rss_url": "https://disruptafrica.com/feed/",
+      "type": "tech_news",
+      "discovery_method": "random",
+      "discovery_query": "African innovation technology RSS",
+      "frontier_category": "geographic",
+      "steeps_coverage": ["T_Technological", "E_Economic", "S_Social"],
+      "health_check": {
+        "http_status": 200,
+        "rss_valid": true,
+        "recent_content": true,
+        "last_article_date": "2026-03-05",
+        "update_frequency": "daily",
+        "content_language": "en"
+      },
+      "test_signals": [
+        {
+          "title": "African tech startup funding trends 2026",
+          "date": "2026-03-05",
+          "steeps": "E_Economic",
+          "relevance": "high"
+        },
+        {
+          "title": "Innovation ecosystem development across Africa",
+          "date": "2026-03-04",
+          "steeps": "T_Technological",
+          "relevance": "high"
+        }
+      ],
+      "evaluation": {
+        "signal_quality": "high",
+        "uniqueness": "high — only African tech source in current portfolio",
+        "update_frequency": "daily (hourly updates)",
+        "scan_viability": "viable",
+        "overlap_with_existing": "none — no African-focused sources in current WF1",
+        "recommendation": "viable — provides geographic diversity (Africa) missing from portfolio"
+      },
+      "scan_status": "viable"
+    },
+    {
+      "name": "Quanta Magazine Biology",
+      "url": "https://www.quantamagazine.org/biology/",
+      "rss_url": "https://www.quantamagazine.org/biology/feed",
+      "type": "science_journalism",
+      "discovery_method": "random",
+      "discovery_query": "quantum biology applications",
+      "frontier_category": "emerging_domains",
+      "steeps_coverage": ["T_Technological", "S_Social"],
+      "health_check": {
+        "http_status": 200,
+        "rss_valid": true,
+        "recent_content": true,
+        "last_article_date": "2026-02-27",
+        "update_frequency": "weekly",
+        "content_language": "en"
+      },
+      "test_signals": [
+        {
+          "title": "Break It To Make It: How Fracturing Sculpts Tissues and Organs",
+          "date": "2026-02-27",
+          "steeps": "T_Technological",
+          "relevance": "medium"
+        },
+        {
+          "title": "Fed on Reams of Cell Data, AI Maps New Neighborhoods in the Brain",
+          "date": "2026-02-09",
+          "steeps": "T_Technological",
+          "relevance": "high"
+        },
+        {
+          "title": "Once Thought To Support Neurons, Astrocytes Turn Out To Be in Charge",
+          "date": "2026-01-30",
+          "steeps": "T_Technological",
+          "relevance": "medium"
+        }
+      ],
+      "evaluation": {
+        "signal_quality": "very high — award-winning science journalism",
+        "uniqueness": "high — deep science coverage not found in tech blogs",
+        "update_frequency": "weekly (2-3 articles/week)",
+        "scan_viability": "viable",
+        "overlap_with_existing": "minimal — Nature News covers some biology but Quanta provides deeper analysis",
+        "recommendation": "viable — fills interdisciplinary science gap with high-quality long-form content"
+      },
+      "scan_status": "viable"
+    }
+  ],
+  "viable_candidates": [
+    "ScienceDaily Sustainability",
+    "Disrupt Africa",
+    "Quanta Magazine Biology"
+  ],
+  "non_viable_candidates": [
+    {
+      "name": "Migration Policy Institute",
+      "reason": "RSS feed returned HTTP 403 — access blocked",
+      "target_gap": "S_Social"
+    },
+    {
+      "name": "MercoPress Environment",
+      "reason": "RSS feed returned HTTP 403 — access blocked",
+      "target_gap": "E_Environmental"
+    },
+    {
+      "name": "EcoAmericas",
+      "reason": "RSS feed returned HTTP 404 — feed URL not found",
+      "target_gap": "E_Environmental"
+    }
+  ],
+  "summary": {
+    "total_candidates_tested": 6,
+    "viable": 3,
+    "non_viable": 3,
+    "gaps_addressed": ["E_Environmental", "T_Technological", "E_Economic", "S_Social"],
+    "geographic_diversity_added": "Africa (Disrupt Africa)",
+    "note": "3 viable candidates found. ScienceDaily fills Environmental gap. Disrupt Africa adds geographic diversity. Quanta adds deep science coverage. All require user approval before promotion to exploration tier."
+  }
+}

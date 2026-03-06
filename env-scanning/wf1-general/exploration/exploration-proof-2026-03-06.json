@@ -1,0 +1,117 @@
+{
+  "date": "2026-03-06",
+  "gate_id": "EXPLO-GATE-2026-03-06",
+  "gate_decision": "pass",
+  "execution_status": "completed",
+  "exploration_date": "2026-03-06",
+  "execution_timestamp": "2026-03-06T00:35:00Z",
+  "stage": "C",
+  "status": "completed",
+  "method": "agent-team",
+  "time_budget_minutes": 40,
+  "time_used_minutes": 12,
+  "scan_window": {
+    "start": "2026-03-05T00:00:00Z",
+    "end": "2026-03-06T00:00:00Z"
+  },
+  "coverage_analysis": {
+    "steeps_coverage": {
+      "S_Social": 0.064,
+      "T_Technological": 0.383,
+      "E_combined": 0.191,
+      "P_Political": 0.277,
+      "s_spiritual": 0.085
+    },
+    "gaps_identified": ["S_Social", "s_spiritual"],
+    "gap_threshold": 0.15,
+    "note": "S_Social at 6.4% is the most significant gap (ideal ~16.7%). s_spiritual at 8.5% also below threshold. T and P are over-represented. 5 sources failed today (Wired, Ars Technica, World Bank Blogs, PubMed, Science Magazine)."
+  },
+  "frontier_selection": {
+    "script": "env-scanning/core/frontier_selector.py",
+    "selection_file": "env-scanning/wf1-general/exploration/frontier-selection-2026-03-06.json",
+    "frontiers_evaluated": 3,
+    "keywords_selected": [
+      "African innovation technology RSS",
+      "Latin American sustainability news",
+      "quantum biology applications"
+    ],
+    "method": "weighted_random",
+    "eligible_keywords": 23,
+    "result": "3_keywords_selected"
+  },
+  "discovery_alpha": {
+    "method": "gap_directed",
+    "gaps_targeted": ["S_Social", "E_Environmental"],
+    "candidates_found": 3,
+    "viable": 1,
+    "non_viable": 2,
+    "viable_candidates": ["ScienceDaily Sustainability"],
+    "non_viable_candidates": [
+      {"name": "Migration Policy Institute", "reason": "HTTP 403"},
+      {"name": "EcoAmericas", "reason": "HTTP 404"}
+    ]
+  },
+  "discovery_beta": {
+    "method": "random_frontier",
+    "keywords_used": ["African innovation technology RSS", "Latin American sustainability news", "quantum biology applications"],
+    "candidates_found": 3,
+    "viable": 2,
+    "non_viable": 1,
+    "viable_candidates": ["Disrupt Africa", "Quanta Magazine Biology"],
+    "non_viable_candidates": [
+      {"name": "MercoPress Environment", "reason": "HTTP 403"}
+    ]
+  },
+  "candidates_tested": 6,
+  "candidates_viable": 3,
+  "candidates_promoted": 0,
+  "candidates_file": "env-scanning/wf1-general/exploration/candidates/exploration-candidates-2026-03-06.json",
+  "viable_candidates_summary": [
+    {
+      "name": "ScienceDaily Sustainability",
+      "rss_url": "https://www.sciencedaily.com/rss/earth_climate/sustainability.xml",
+      "discovery": "gap_directed",
+      "gap_addressed": "E_Environmental",
+      "http_status": 200,
+      "rss_valid": true,
+      "signal_quality": "high"
+    },
+    {
+      "name": "Disrupt Africa",
+      "rss_url": "https://disruptafrica.com/feed/",
+      "discovery": "random_frontier",
+      "gap_addressed": "geographic_diversity",
+      "http_status": 200,
+      "rss_valid": true,
+      "signal_quality": "high"
+    },
+    {
+      "name": "Quanta Magazine Biology",
+      "rss_url": "https://www.quantamagazine.org/biology/feed",
+      "discovery": "random_frontier",
+      "gap_addressed": "interdisciplinary_science",
+      "http_status": 200,
+      "rss_valid": true,
+      "signal_quality": "very_high"
+    }
+  ],
+  "exploration_signals": [],
+  "learning_applied": true,
+  "learning_hints": {
+    "from_history": "7 previous scans analyzed. Last successful candidate discovery was 2026-02-15 (19 days ago). Gap-directed queries with specific domain keywords have highest success rate.",
+    "strategy_adjustments": "Targeted Environmental and Social gaps specifically. Used geographic frontier keywords for diversity."
+  },
+  "execution_proof": {
+    "anchor_file": "env-scanning/wf1-general/exploration/frontier-selection-2026-03-06.json",
+    "candidates_file": "env-scanning/wf1-general/exploration/candidates/exploration-candidates-2026-03-06.json",
+    "proof_type": "exploration_completed",
+    "verifiable": true
+  },
+  "notes": [
+    "3 viable candidates found — first successful discovery since 2026-02-15",
+    "All candidates require user approval before promotion to exploration tier",
+    "ScienceDaily fills Environmental gap; Disrupt Africa adds African geographic diversity; Quanta adds deep science",
+    "5 WF1 sources failed today — replacement candidates partially address this (ScienceDaily can supplement Science Magazine)",
+    "frontier_selector.py has minor bug: exit code 1 despite SUCCESS status (UnboundLocalError on line 356)"
+  ]
+}

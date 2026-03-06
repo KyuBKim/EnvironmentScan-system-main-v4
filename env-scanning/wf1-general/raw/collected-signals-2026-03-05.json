@@ -1,0 +1,366 @@
+{
+  "collection_metadata": {
+    "scan_date": "2026-03-05",
+    "scan_window": {
+      "start": "2026-03-04T03:55:19+00:00",
+      "end": "2026-03-05T03:55:19+00:00"
+    },
+    "collector": "wf1-general-phase1",
+    "sources_scanned": 18,
+    "total_items_collected": 85
+  },
+  "items": [
+    {
+      "id": "techcrunch-20260305-001",
+      "title": "Nvidia CEO Jensen Huang Announces Pullback from OpenAI and Anthropic Investments",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/04/jensen-huang-says-nvidia-is-pulling-back-from-openai-and-anthropic/", "published_date": "2026-03-05"},
+      "content": {"abstract": "Nvidia CEO signals strategic shift away from direct AI company investments, stating current positions in OpenAI and Anthropic will be its final ones. The move raises questions about Nvidia's future AI ecosystem strategy.", "keywords": ["nvidia", "AI investment", "OpenAI", "Anthropic", "strategic shift"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "techcrunch-20260305-002",
+      "title": "Anthropic CEO Dario Amodei Calls OpenAI Military Messaging 'Straight Up Lies'",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/04/anthropic-ceo-dario-amodei-calls-openais-messaging-around-military-deal-straight-up-lies-report-says/", "published_date": "2026-03-04"},
+      "content": {"abstract": "Major dispute erupts between leading AI companies over Pentagon contracts. Anthropic withdrew from military deal citing safety concerns; OpenAI subsequently secured it. Raises fundamental questions about AI governance in defense.", "keywords": ["AI safety", "military AI", "Anthropic", "OpenAI", "Pentagon", "defense"], "language": "en"},
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "techcrunch-20260305-003",
+      "title": "Apple Music Introduces AI Content Transparency Labels",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/04/apple-music-to-add-transparency-tags-to-distinguish-ai-music-says-report/", "published_date": "2026-03-04"},
+      "content": {"abstract": "Apple Music adds transparency tags to distinguish AI-generated music from human-created content. Adoption depends on voluntary label participation, setting precedent for AI content identification.", "keywords": ["AI music", "transparency", "content labeling", "Apple", "creative AI"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "techcrunch-20260305-004",
+      "title": "Google Settles Epic Games Lawsuit, Reduces Play Store Fees to 20%",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/04/google-settles-with-epic-games-drops-its-play-store-commissions-to-20/", "published_date": "2026-03-04"},
+      "content": {"abstract": "Google restructures Play Store commissions to 20% base fee plus optional 5% billing charge, enabling third-party app stores. Marks significant shift in platform economy power dynamics.", "keywords": ["Google", "Epic Games", "app store", "antitrust", "platform economy", "digital markets"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "techcrunch-20260305-005",
+      "title": "US-EU Police Shut Down LeakBase Cybercriminal Forum",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/04/u-s-and-eu-police-shut-down-leakbase/", "published_date": "2026-03-04"},
+      "content": {"abstract": "Joint US-EU law enforcement operation dismantles one of the world's largest cybercriminal forums containing hundreds of millions of stolen passwords and hacking tools.", "keywords": ["cybersecurity", "cybercrime", "law enforcement", "data breach", "international cooperation"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "techcrunch-20260305-006",
+      "title": "Father Sues Google Claiming Gemini Chatbot Drove Son Into Fatal Delusion",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/04/father-sues-google-claiming-gemini-chatbot-drove-son-into-fatal-delusion/", "published_date": "2026-03-04"},
+      "content": {"abstract": "Landmark legal action against Google alleges AI chatbot reinforced dangerous delusions and contributed to a fatal outcome. Case may set precedent for AI liability and mental health safety.", "keywords": ["AI safety", "mental health", "lawsuit", "Google", "Gemini", "AI liability"], "language": "en"},
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "hacker-20260305-007",
+      "title": "NRC Issues First Commercial Reactor Construction Permit in Decade: TerraPower Natrium",
+      "source": {"name": "Hacker News / NRC", "type": "policy", "url": "https://www.nrc.gov/sites/default/files/cdn/doc-collection-news/2026/26-028.pdf", "published_date": "2026-03-04"},
+      "content": {"abstract": "US Nuclear Regulatory Commission approves construction of TerraPower's 345-MWe Natrium advanced sodium-cooled fast reactor in Wyoming. First commercial non-light-water reactor approval in 40+ years. Features molten-salt energy storage for grid flexibility up to 500 MWe. Review completed 9 months ahead of schedule.", "keywords": ["nuclear energy", "TerraPower", "Natrium", "advanced reactor", "NRC", "clean energy", "energy storage"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "hacker-20260305-008",
+      "title": "BMW Deploys Humanoid Robots in German Production for First Time",
+      "source": {"name": "Hacker News / BMW Press", "type": "blog", "url": "https://www.press.bmwgroup.com/global/article/detail/T0455864EN/bmw-group-to-deploy-humanoid-robots-in-production-in-germany-for-the-first-time", "published_date": "2026-03-04"},
+      "content": {"abstract": "BMW pilots Hexagon AEON humanoid robot at Leipzig plant, first Physical AI in European automotive production. After successful US pilot (30,000+ BMW X3s), robot handles battery assembly and component manufacturing in 10-hour shifts. Full production targeted by end of 2026.", "keywords": ["humanoid robots", "manufacturing", "BMW", "automation", "Physical AI", "automotive"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "whitehouse-20260305-009",
+      "title": "Tech Giants Sign Ratepayer Protection Pledge at White House for Data Center Energy",
+      "source": {"name": "White House / Hacker News", "type": "policy", "url": "https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-advances-energy-affordability-with-the-ratepayer-protection-pledge/", "published_date": "2026-03-04"},
+      "content": {"abstract": "Amazon, Google, Meta, Microsoft, OpenAI, Oracle, and xAI sign White House pledge committing to build/buy all energy needed for data centers, protecting consumers from price increases. Companies commit to adding excess capacity serving the broader public.", "keywords": ["data centers", "energy policy", "AI infrastructure", "ratepayer protection", "Big Tech", "White House"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "hacker-20260305-010",
+      "title": "Meta Faces Regulatory Scrutiny Over Workers Watching Intimate AI Glasses Videos",
+      "source": {"name": "BBC / Hacker News", "type": "blog", "url": "https://www.bbc.com/news/articles/c0q33nvj0qpo", "published_date": "2026-03-05"},
+      "content": {"abstract": "Regulators contact Meta over privacy concerns regarding employee access to sensitive video content captured by AI-powered smart glasses. Raises fundamental questions about wearable AI surveillance and data handling.", "keywords": ["Meta", "AI glasses", "privacy", "surveillance", "wearable technology", "regulation"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "nature-20260305-011",
+      "title": "Evo 2: Foundation Model Trained on 9 Trillion DNA Base Pairs Enables Genome Design",
+      "source": {"name": "Nature", "type": "academic", "url": "https://www.nature.com/articles/s41586-026-10176-5", "published_date": "2026-03-04"},
+      "content": {"abstract": "Revolutionary AI foundation model trained on 9 trillion DNA base pairs enables genome design across all domains of life, predicting functional properties from genetic sequences. Represents convergence of AI and genomics.", "keywords": ["genomics", "AI", "foundation model", "DNA", "genome design", "biotechnology"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "nature-20260305-012",
+      "title": "Merlin: CT Imaging AI Foundation Model Achieves Consistent Diagnostic Performance",
+      "source": {"name": "Nature", "type": "academic", "url": "https://www.nature.com/articles/s41586-026-10181-8", "published_date": "2026-03-04"},
+      "content": {"abstract": "Vision-language foundation model trained on CT scans and radiology reports demonstrates consistent diagnostic performance across multiple hospital sites. Major advancement in AI-assisted medical diagnostics.", "keywords": ["medical AI", "CT imaging", "diagnostics", "healthcare AI", "radiology"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "nature-20260305-013",
+      "title": "Cell-Free Chromatin Tracing Enables Disease Origin Identification from Blood",
+      "source": {"name": "Nature", "type": "academic", "url": "https://www.nature.com/articles/s41586-026-10224-0", "published_date": "2026-03-04"},
+      "content": {"abstract": "cf-EpiTracing profiles histone modifications in blood plasma DNA, enabling disease origin identification and therapy response monitoring. Could revolutionize liquid biopsy diagnostics.", "keywords": ["liquid biopsy", "epigenetics", "diagnostics", "precision medicine", "chromatin"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "nature-20260305-014",
+      "title": "Coastal Sea Levels Exceed Hazard Assessment Assumptions Globally",
+      "source": {"name": "Nature", "type": "academic", "url": "https://www.nature.com/articles/s41586-026-10196-1", "published_date": "2026-03-04"},
+      "content": {"abstract": "Global meta-analyses reveal measured coastal mean sea levels exceed assumptions in most hazard assessments, requiring updated risk evaluations worldwide. Implies current infrastructure protections may be inadequate.", "keywords": ["sea level rise", "climate risk", "coastal hazards", "infrastructure", "climate adaptation"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "nature-20260305-015",
+      "title": "Tropical Insects Show Limited Heat Tolerance Due to Protein Architecture Constraints",
+      "source": {"name": "Nature", "type": "academic", "url": "https://www.nature.com/articles/s41586-026-10155-w", "published_date": "2026-03-04"},
+      "content": {"abstract": "Survey data shows tropical lowland insects have limited capacity to survive temperature increases, constrained by fundamental protein architecture. Warns of biodiversity collapse in tropics under warming.", "keywords": ["biodiversity", "climate change", "insects", "tropical ecology", "extinction risk"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "nature-20260305-016",
+      "title": "Diet Composition Determines T Cell Immune Function Through Ferroptosis Mechanism",
+      "source": {"name": "Nature", "type": "academic", "url": "https://www.nature.com/articles/s41586-026-10193-4", "published_date": "2026-03-04"},
+      "content": {"abstract": "Lipid balance between polyunsaturated and monounsaturated fatty acids determines T cell vulnerability to ferroptosis. Links diet composition directly to immune function at molecular level.", "keywords": ["immunology", "diet", "ferroptosis", "T cells", "nutrition science"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "nature-20260305-017",
+      "title": "Magnetic Fluid Injectable for Heart Surgery Stroke Prevention",
+      "source": {"name": "Nature", "type": "academic", "url": "https://www.nature.com/articles/s41586-025-10091-1", "published_date": "2026-03-04"},
+      "content": {"abstract": "Magnetic field-responsive fluids resist blood flow for long-term left atrial appendage sealing, offering personalized stroke prevention strategies during cardiac procedures.", "keywords": ["cardiology", "stroke prevention", "magnetic fluids", "medical devices", "innovation"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "nature-20260305-018",
+      "title": "Hexagonal Diamond Synthesized at Scale for First Time",
+      "source": {"name": "Nature", "type": "academic", "url": "https://www.nature.com/articles/s41586-026-10212-4", "published_date": "2026-03-04"},
+      "content": {"abstract": "Compression of graphite under extreme conditions produced millimeter-sized hexagonal diamond crystals. Provides insights into carbon phase transformation and potential novel material applications.", "keywords": ["materials science", "diamond", "carbon", "synthesis", "advanced materials"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "ieee-20260305-019",
+      "title": "Taara Achieves 25 Gbps Wireless Data Transmission via Infrared Laser",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/free-space-optical-link-taara", "published_date": "2026-03-04"},
+      "content": {"abstract": "Taara's Beam device transmits data at 25 gigabits per second wirelessly using infrared laser with phased array beam steering. Offers fiber-competitive speeds with 50-microsecond latency across kilometers.", "keywords": ["free-space optics", "wireless communication", "laser", "5G alternative", "connectivity"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "ieee-20260305-020",
+      "title": "Offshore Wind Turbine to House Underwater Data Center",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/data-center-floating-wind-turbine", "published_date": "2026-03-03"},
+      "content": {"abstract": "Aikido Technologies plans data centers inside floating wind turbine platforms in the North Sea, integrating liquid cooling through freshwater ballast tanks. Combines renewable power with compute infrastructure.", "keywords": ["data centers", "offshore wind", "renewable energy", "edge computing", "sustainability"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "ieee-20260305-021",
+      "title": "AI-Human Collaboration Achieves Formal Proof Verification Breakthrough in Mathematics",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/ai-proof-verification", "published_date": "2026-03-02"},
+      "content": {"abstract": "Math, Inc.'s AI system Gauss completed formal verification of Fields Medalist Viazovska's sphere-packing proofs. 24-dimensional case formalized in two weeks. Watershed moment for AI-assisted mathematical verification.", "keywords": ["AI mathematics", "formal verification", "proof assistant", "mathematical AI"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "ieee-20260305-022",
+      "title": "Microsoft Proposes Training Classical AI on Quantum-Generated Data for Chemistry",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/quantum-chemistry", "published_date": "2026-03-02"},
+      "content": {"abstract": "Microsoft proposes hybrid approach training classical AI models on quantum-generated chemical data, combining quantum accuracy with AI speed for materials design and drug discovery.", "keywords": ["quantum computing", "AI", "chemistry", "drug discovery", "materials science"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "ieee-20260305-023",
+      "title": "Student-Built EV Demonstrates Modular Swappable Battery Design",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/ev-battery-swapping-aria-ev", "published_date": "2026-03-04"},
+      "content": {"abstract": "Eindhoven University's Aria EV features six 12-kg swappable battery modules instead of conventional 400-kg sealed packs, with onboard diagnostic app and repair tools. Challenges sealed-system industry trend.", "keywords": ["electric vehicles", "battery swapping", "right to repair", "EV design", "modular"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "who-20260305-024",
+      "title": "Chile First in Americas to Eliminate Leprosy: WHO Verification",
+      "source": {"name": "WHO", "type": "policy", "url": "https://www.who.int/news/item/04-03-2026-chile-becomes-the-first-country-in-the-americas-to-be-verified-by-who-for-the-elimination-of-leprosy", "published_date": "2026-03-04"},
+      "content": {"abstract": "Chile becomes second country globally verified for leprosy elimination. No locally acquired cases for 30+ years. Demonstrates power of sustained surveillance and comprehensive public health systems.", "keywords": ["disease elimination", "public health", "WHO", "Chile", "leprosy", "health systems"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "who-20260305-025",
+      "title": "WHO Pandemic Agreement Pathogen Access Negotiations Advance Toward May Deadline",
+      "source": {"name": "WHO", "type": "policy", "url": "https://www.who.int/news/item/17-02-2026-global-commitment-on-display-as-countries-negotiate-key-annex-to-the-pandemic-agreement", "published_date": "2026-02-17"},
+      "content": {"abstract": "Member States concluded productive discussions on Pathogen Access and Benefit Sharing annex to WHO Pandemic Agreement. Negotiations continue toward May World Health Assembly deadline.", "keywords": ["pandemic preparedness", "WHO", "international treaty", "pathogen sharing", "global health governance"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "who-20260305-026",
+      "title": "Cholera Vaccination Resumes After 3-Year Supply Shortage; Production Doubled to 70M Doses",
+      "source": {"name": "WHO", "type": "policy", "url": "https://www.who.int/news/item/04-02-2026-preventive-cholera-vaccination-resumes-as-global-supply-reaches-critical-milestone", "published_date": "2026-02-04"},
+      "content": {"abstract": "Preventive cholera vaccination resumed after 3-year suspension. Global production doubled to 70 million doses annually, enabling campaigns targeting 20 million doses in Mozambique, Congo, and Bangladesh.", "keywords": ["vaccines", "cholera", "global health", "manufacturing", "disease prevention"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "un-20260305-027",
+      "title": "Middle East Military Escalation Enters Seventh Day: Afghanistan-Pakistan Border Crisis",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/en/story/2026/03/1167080", "published_date": "2026-03-04"},
+      "content": {"abstract": "Multiple geopolitical crises intensify: Afghanistan-Pakistan border clashes enter seventh day with restricted humanitarian access. Concurrent Middle East escalation with US-Israeli-Iranian military exchanges. Nuclear safety concerns raised by IAEA.", "keywords": ["geopolitics", "Middle East", "Iran", "military conflict", "nuclear safety", "humanitarian crisis"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "un-20260305-028",
+      "title": "UN Secretary-General Establishes Independent Expert Panel on AI Governance",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/en/story/2026/03/1167074", "published_date": "2026-03-03"},
+      "content": {"abstract": "Secretary-General Guterres addressed inaugural independent expert panel on AI, emphasizing their responsibility in shaping technology deployment for humanity's benefit. Major step in global AI governance.", "keywords": ["AI governance", "United Nations", "international regulation", "technology policy"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "un-20260305-029",
+      "title": "UN Report: AI Already Reshaping Working Conditions for Delivery Workers and Content Moderators",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/en/story/2026/03/1167075", "published_date": "2026-03-03"},
+      "content": {"abstract": "Algorithm-driven demands on delivery workers and content moderators training AI systems demonstrate technology's expanding impact on employment conditions globally. Highlights emerging labor exploitation patterns.", "keywords": ["AI labor", "gig economy", "working conditions", "algorithmic management", "exploitation"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "mittr-20260305-030",
+      "title": "London Anti-AI Protest Becomes Largest in History",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/03/02/1133814/i-checked-out-londons-biggest-ever-anti-ai-protest/", "published_date": "2026-03-02"},
+      "content": {"abstract": "London hosts its largest-ever anti-AI demonstration with hundreds of protesters expressing concerns ranging from job displacement to existential risks. Represents escalating public mobilization against generative AI deployment.", "keywords": ["AI protest", "public opinion", "social movement", "job displacement", "AI resistance"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "mittr-20260305-031",
+      "title": "OpenAI Pentagon Agreement: Classified Military Technology Access Without Weapons Ban",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/03/02/1133850/openais-compromise-with-the-pentagon-is-what-anthropic-feared/", "published_date": "2026-03-02"},
+      "content": {"abstract": "Analysis reveals OpenAI's classified military tech access deal defers to legal compliance rather than contractual autonomous weapons prohibitions, contrasting with Anthropic's rejected approach. Fundamental AI ethics divergence.", "keywords": ["military AI", "OpenAI", "Pentagon", "autonomous weapons", "AI ethics", "defense"], "language": "en"},
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "brookings-20260305-032",
+      "title": "Iran Military Strikes Analysis: Danger of Broader War Escalation",
+      "source": {"name": "Brookings Institution", "type": "blog", "url": "https://www.brookings.edu/articles/after-the-strike-the-danger-of-war-in-iran/", "published_date": "2026-03-03"},
+      "content": {"abstract": "Multiple Brookings experts examine escalating tensions following military strikes on Iran and assess risks of broader regional conflict. Nuclear safety concerns compound geopolitical instability.", "keywords": ["Iran", "military escalation", "geopolitics", "nuclear risk", "Middle East"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "brookings-20260305-033",
+      "title": "China National People's Congress 2026: Key Policy Signals to Watch",
+      "source": {"name": "Brookings Institution", "type": "blog", "url": "https://www.brookings.edu/articles/what-to-look-out-for-at-this-years-meeting-of-chinas-legislature/", "published_date": "2026-03-03"},
+      "content": {"abstract": "Analysis of key developments expected at China's National People's Congress session and their domestic and international policy implications.", "keywords": ["China", "NPC", "policy", "geopolitics", "governance"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "brookings-20260305-034",
+      "title": "Supreme Court Tariff Decision Reshapes US Trade Policy Framework",
+      "source": {"name": "Brookings Institution", "type": "blog", "url": "https://www.brookings.edu/articles/brookings-experts-on-the-supreme-courts-tariff-decision/", "published_date": "2026-02-24"},
+      "content": {"abstract": "Expert analysis of Supreme Court ruling on tariff policy implications for trade governance and economic structures. Significant constitutional precedent.", "keywords": ["tariffs", "trade policy", "Supreme Court", "constitutional law", "trade war"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "brookings-20260305-035",
+      "title": "Reduced Immigration Slows US Population Growth Across Most States",
+      "source": {"name": "Brookings Institution", "type": "blog", "url": "https://www.brookings.edu/articles/reduced-immigration-slowed-population-growth-for-the-nation-and-most-states-new-census-data-show/", "published_date": "2026-02-27"},
+      "content": {"abstract": "New census data reveals immigration policy changes significantly affected population trends across American states, with implications for labor markets and economic growth.", "keywords": ["immigration", "demographics", "population", "census", "labor market"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "carbonbrief-20260305-036",
+      "title": "Half of Nations Meet UN Deadline for Nature-Loss Reporting Including Most Megadiverse Countries",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://www.carbonbrief.org/analysis-half-of-nations-meet-un-deadline-for-nature-loss-reporting/", "published_date": "2026-03-02"},
+      "content": {"abstract": "50% of UN biodiversity treaty signatories submitted required nature reports by deadline. 11 of 17 megadiverse nations representing 70% of Earth's biodiversity complied. US non-compliant.", "keywords": ["biodiversity", "UN treaty", "nature reporting", "environmental governance", "megadiversity"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "carbonbrief-20260305-037",
+      "title": "El Nino Conditions Emerging; Mediterranean Floods Threaten European Food Supply",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://www.carbonbrief.org/cropped-25-february-2026-food-inflation-strikes-el-nino-looms-biodiversity-talks-stagnate/", "published_date": "2026-02-25"},
+      "content": {"abstract": "Emerging El Nino conditions combined with Mediterranean flooding threatening European food supplies. Biodiversity finance negotiations stalling in Rome. Multiple climate risks converging.", "keywords": ["El Nino", "food security", "climate risk", "flooding", "food inflation"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "pew-20260305-038",
+      "title": "Over Half of US Teens Using AI Chatbots for Schoolwork",
+      "source": {"name": "Pew Research Center", "type": "blog", "url": "https://www.pewresearch.org/internet/2026/02/24/how-teens-use-and-view-ai/", "published_date": "2026-02-24"},
+      "content": {"abstract": "Just over half of US teens say they've used chatbots for help with schoolwork, with many viewing AI's future impact positively. Generational shift in technology adoption and education.", "keywords": ["teens", "AI education", "chatbots", "generational change", "digital literacy"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "pew-20260305-039",
+      "title": "Family Caregiving Crisis Intensifies in Aging America",
+      "source": {"name": "Pew Research Center", "type": "blog", "url": "https://www.pewresearch.org/social-trends/2026/02/26/family-caregiving-in-an-aging-america/", "published_date": "2026-02-26"},
+      "content": {"abstract": "Family members increasingly caring for aging parents or spouses as US population gets older, with significant gender-based variation. Growing social and economic pressure point.", "keywords": ["aging population", "caregiving", "demographics", "gender", "healthcare burden"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "fedreg-20260305-040",
+      "title": "African Swine Fever Confirmed in Sri Lanka; APHIS Issues Alert",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.federalregister.gov/documents/2026/03/04/2026-04316", "published_date": "2026-03-04"},
+      "content": {"abstract": "USDA APHIS adds Sri Lanka to regions affected by African Swine Fever following disease confirmation. Potential impact on global pork supply chains and food security.", "keywords": ["animal disease", "food security", "trade restrictions", "ASF", "livestock"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "eu-20260305-041",
+      "title": "EU Empowering Consumers for Green Transition Directive: March 2026 Transposition Deadline",
+      "source": {"name": "EU / Web Search", "type": "policy", "url": "https://eur-lex.europa.eu", "published_date": "2026-03-04"},
+      "content": {"abstract": "EU Member States must transpose the Empowering Consumers for the Green Transition Directive by March 27, 2026. Introduces clearer rules for environmental claims, restricts generic sustainability terms, regulates sustainability labels.", "keywords": ["EU regulation", "greenwashing", "consumer protection", "sustainability", "environmental claims"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "mittr-20260305-042",
+      "title": "Startup Claims Lightning Suppression Technology Can Prevent Catastrophic Wildfires",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/03/03/1133848/this-startup-claims-it-can-stop-lightning-and-prevent-catastrophic-wildfires/", "published_date": "2026-03-03"},
+      "content": {"abstract": "Skyward Wildfire raised $5.7M to reduce lightning strikes via cloud seeding with aluminum-coated fiberglass. Scientific uncertainty regarding effectiveness and environmental impacts remains.", "keywords": ["wildfire prevention", "climate adaptation", "cloud seeding", "startup", "environmental technology"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "nyf-20260305-043",
+      "title": "NY Fed Analysis: Rising Business Costs Driven by Structural Factors",
+      "source": {"name": "NY Federal Reserve / Hacker News", "type": "policy", "url": "https://libertystreeteconomics.newyorkfed.org/2026/03/whats-driving-rising-business-costs/", "published_date": "2026-03-05"},
+      "content": {"abstract": "New York Federal Reserve economic analysis examining structural factors driving rising business costs, with implications for inflation trends and monetary policy decisions.", "keywords": ["business costs", "inflation", "monetary policy", "Federal Reserve", "economic analysis"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-05T03:55:00Z"
+    },
+    {
+      "id": "nature-20260305-044",
+      "title": "Gut Microbiome Detects Protein Deficiency and Triggers Brown Fat Remodeling",
+      "source": {"name": "Nature", "type": "academic", "url": "https://www.nature.com/articles/s41586-026-10205-3", "published_date": "2026-03-04"},
+      "content": {"abstract": "Gut microorganisms detect protein deficiency and trigger adipose tissue remodeling toward brown fat. Reveals microbial roles in metabolic sensing with implications for obesity treatment.", "keywords": ["microbiome", "metabolism", "obesity", "brown fat", "nutrition"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-05T03:55:00Z"
+    }
+  ]
+}

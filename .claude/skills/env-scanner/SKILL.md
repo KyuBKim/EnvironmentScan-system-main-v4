@@ -204,6 +204,8 @@ Each workflow (WF1, WF2, WF3, WF4) follows the same 3-phase structure:
 
 ### Integrated — `env-scanning/integrated/`
 - Report: `reports/daily/integrated-scan-{date}.md`
+- Timeline Map: `reports/daily/timeline-map-{date}.md` (enhanced signal evolution analysis)
+- Timeline Summary: `reports/daily/timeline-summary-{date}.txt` (embedded in integrated report §7.6)
 - Archive: `reports/archive/{year}/{month}/`
 
 ### Self-Improvement (per workflow)

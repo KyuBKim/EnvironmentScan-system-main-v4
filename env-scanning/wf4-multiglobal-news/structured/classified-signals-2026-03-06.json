@@ -1,0 +1,4351 @@
+{
+  "metadata": {
+    "workflow": "wf4-multiglobal-news",
+    "scan_date": "2026-03-06",
+    "phase": "classified",
+    "total_signals": 42,
+    "classification_method": "phase2-analyst (STEEPs + FSSF + Three Horizons unified)",
+    "scan_window": {
+      "start": "2026-03-05T00:12:22.712175+00:00",
+      "end": "2026-03-06T00:12:22.712175+00:00"
+    }
+  },
+  "items": [
+    {
+      "id": "news-20260306-nytimes-001",
+      "title": "U.S. and Israel Strike Iran Overnight, Targeting Ballistic Missile Sites",
+      "source": {
+        "name": "The New York Times",
+        "type": "news_major",
+        "url": "https://www.nytimes.com/2026/03/05/world/middleeast/iran-strikes-us-israel.html",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "The U.S. and Israel conducted new strikes inside Iran overnight, targeting ballistic missile launchers in a continued escalation of the military campaign that began late February. The Pentagon chief stated operations will continue 'without mercy' as the conflict enters its second week.",
+        "original_abstract": "The U.S. and Israel conducted new strikes inside Iran overnight, targeting ballistic missile launchers in a continued escalation of the military campaign that began late February. The Pentagon chief stated operations will continue 'without mercy' as the conflict enters its second week.",
+        "keywords": [
+          "Iran",
+          "Israel",
+          "US military",
+          "ballistic missiles",
+          "Middle East conflict"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "uncertainty_level": "Radical",
+      "impact_score": 5,
+      "impact_direction": "negative",
+      "impact_description": "Major military escalation with potential to reshape Middle East geopolitics, disrupt global energy markets, and trigger broader alliance realignments",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "E",
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "RED",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Rapid escalation cycle with no diplomatic off-ramp visible; each day brings new fronts (naval, air, proxy)"
+      },
+      "psst_dimensions": {
+        "SR": 95,
+        "TC": 90,
+        "DC": 85,
+        "ES": 95,
+        "CC": 90,
+        "IC": 95
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-wsj-001",
+      "title": "Strait of Hormuz Traffic Drops 90% as Iran Blockade Disrupts Global Oil Supply",
+      "source": {
+        "name": "The Wall Street Journal",
+        "type": "news_major",
+        "url": "https://www.wsj.com/articles/strait-hormuz-oil-supply-disruption-iran-2026",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "Oil tanker traffic through the Strait of Hormuz has dropped 90% since the US-Israel military operation against Iran began. Iranian military officials claim complete blockade of the waterway which carries 20% of global crude oil. Supertanker charter costs from US Gulf Coast to China exceed $29 million, the highest ever recorded.",
+        "original_abstract": "Oil tanker traffic through the Strait of Hormuz has dropped 90% since the US-Israel military operation against Iran began. Iranian military officials claim complete blockade of the waterway which carries 20% of global crude oil. Supertanker charter costs from US Gulf Coast to China exceed $29 million, the highest ever recorded.",
+        "keywords": [
+          "Strait of Hormuz",
+          "oil supply",
+          "Iran blockade",
+          "energy crisis",
+          "shipping"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 5,
+      "impact_direction": "negative",
+      "impact_description": "90% traffic drop represents near-total disruption of the world's most critical oil chokepoint; $29M supertanker costs are unprecedented",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 4.5,
+      "cross_steeps": [
+        "P",
+        "T"
+      ],
+      "tipping_point": {
+        "alert_level": "RED",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Quantitative data (90% drop, record charter costs) confirms systemic disruption already occurring"
+      },
+      "psst_dimensions": {
+        "SR": 98,
+        "TC": 95,
+        "DC": 90,
+        "ES": 95,
+        "CC": 95,
+        "IC": 98
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-bbc-001",
+      "title": "US Submarine Sinks Iranian Warship in Indian Ocean, 87 Dead",
+      "source": {
+        "name": "BBC News",
+        "type": "news_intl",
+        "url": "https://www.bbc.com/news/articles/iran-warship-sunk-submarine-2026",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "UK"
+      },
+      "content": {
+        "abstract": "The Iranian frigate IRIS Dena was torpedoed by a US submarine off Sri Lanka's coast, resulting in 87 deaths with 32 survivors rescued. Approximately 60 crew members remain missing from a crew of 180. The incident marks a significant escalation of naval hostilities in the broader US-Iran conflict.",
+        "original_abstract": "The Iranian frigate IRIS Dena was torpedoed by a US submarine off Sri Lanka's coast, resulting in 87 deaths with 32 survivors rescued. Approximately 60 crew members remain missing from a crew of 180. The incident marks a significant escalation of naval hostilities in the broader US-Iran conflict.",
+        "keywords": [
+          "Iran warship",
+          "US submarine",
+          "naval warfare",
+          "Indian Ocean",
+          "military escalation"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "Naval warfare in the Indian Ocean near Sri Lanka extends the conflict far beyond the Middle East theater, threatening Indian Ocean shipping lanes",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 4.2,
+      "cross_steeps": [
+        "E",
+        "s"
+      ],
+      "tipping_point": {
+        "alert_level": "RED",
+        "pattern": "Flickering",
+        "evidence": "Conflict expanding geographically to new maritime theaters"
+      },
+      "psst_dimensions": {
+        "SR": 92,
+        "TC": 88,
+        "DC": 85,
+        "ES": 90,
+        "CC": 88,
+        "IC": 92
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-reuters-001",
+      "title": "NATO Intercepts Iranian Ballistic Missile Headed for Turkey",
+      "source": {
+        "name": "Reuters",
+        "type": "news_intl",
+        "url": "https://www.reuters.com/world/nato-intercepts-iranian-missile-turkey-2026-03-05",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "NATO air defenses destroyed an Iranian ballistic missile traveling through Iraqi and Syrian airspace before reaching Turkish territory. Debris fell in Hatay province with no casualties reported. The interception represents the first direct NATO defensive engagement in the Iran conflict and could trigger Article 5 discussions.",
+        "original_abstract": "NATO air defenses destroyed an Iranian ballistic missile traveling through Iraqi and Syrian airspace before reaching Turkish territory. Debris fell in Hatay province with no casualties reported. The interception represents the first direct NATO defensive engagement in the Iran conflict and could trigger Article 5 discussions.",
+        "keywords": [
+          "NATO",
+          "Iran missile",
+          "Turkey",
+          "Article 5",
+          "air defense"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "uncertainty_level": "Radical",
+      "impact_score": 5,
+      "impact_direction": "negative",
+      "impact_description": "First NATO defensive action in the Iran conflict could trigger Article 5 collective defense, transforming a regional war into a NATO-Iran confrontation",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 4.8,
+      "cross_steeps": [
+        "P",
+        "E"
+      ],
+      "tipping_point": {
+        "alert_level": "RED",
+        "pattern": "Critical Slowing Down",
+        "evidence": "NATO directly involved for first time; Article 5 discussion threshold crossed"
+      },
+      "psst_dimensions": {
+        "SR": 96,
+        "TC": 92,
+        "DC": 88,
+        "ES": 95,
+        "CC": 92,
+        "IC": 96
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-apnews-001",
+      "title": "Senate Blocks Bid to Limit Trump's Iran War Powers, 53-47",
+      "source": {
+        "name": "Associated Press",
+        "type": "news_intl",
+        "url": "https://apnews.com/article/senate-iran-war-powers-vote-2026",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "The US Senate voted 53-47 to reject a Democratic-led resolution requiring congressional authorization for continued offensive operations against Iran. The vote underscores deepening partisan divisions over executive war powers and sets a precedent for unilateral military action without explicit congressional mandate.",
+        "keywords": [
+          "Senate",
+          "war powers",
+          "Iran",
+          "congressional authority",
+          "executive power"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "uncertainty_level": "Medium",
+      "impact_score": 3,
+      "impact_direction": "negative",
+      "impact_description": "Precedent for executive war-making without congressional authorization has long-term implications for US democratic governance",
+      "probability": 5.0,
+      "urgency": 4.0,
+      "novelty_score": 3.0,
+      "cross_steeps": [
+        "s"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "none",
+        "evidence": "Institutional check failed; war powers precedent set"
+      },
+      "psst_dimensions": {
+        "SR": 80,
+        "TC": 75,
+        "DC": 70,
+        "ES": 78,
+        "CC": 72,
+        "IC": 80
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-politico-001",
+      "title": "Spain Rejects White House Claim of Iran War Support, Bars Use of Military Bases",
+      "source": {
+        "name": "Politico",
+        "type": "news_major",
+        "url": "https://www.politico.com/news/2026/03/05/spain-rejects-iran-war-support-claim",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "The Spanish government categorically denied White House assertions that Spain agreed to military cooperation in the Iran campaign, reaffirming its position against the conflict. Spain explicitly bars US forces from using two joint military bases on its territory for Iran-related operations, highlighting growing transatlantic tensions.",
+        "keywords": [
+          "Spain",
+          "military bases",
+          "NATO alliance",
+          "Iran war",
+          "transatlantic relations"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "uncertainty_level": "Medium",
+      "impact_score": 3,
+      "impact_direction": "negative",
+      "impact_description": "NATO alliance fracture signal; Spain's base denial could trigger cascade of European allied dissent",
+      "probability": 4.0,
+      "urgency": 4.0,
+      "novelty_score": 3.8,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "Flickering",
+        "evidence": "Alliance cohesion oscillating between support and dissent"
+      },
+      "psst_dimensions": {
+        "SR": 82,
+        "TC": 78,
+        "DC": 75,
+        "ES": 80,
+        "CC": 76,
+        "IC": 82
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-ft-001",
+      "title": "Qatar Halts LNG Exports, European and Asian Gas Prices Skyrocket",
+      "source": {
+        "name": "Financial Times",
+        "type": "news_econ",
+        "url": "https://www.ft.com/content/qatar-lng-halt-gas-prices-2026",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "UK"
+      },
+      "content": {
+        "abstract": "Qatar's temporary halt to liquefied natural gas exports has caused fuel prices in Europe and Asia to skyrocket. Major European companies Shell and TotalEnergies, alongside US firms ExxonMobil and Cheniere, stand to reap huge profits. European natural gas prices threaten to break 60 euros per megawatt hour as supply disruptions compound.",
+        "keywords": [
+          "Qatar",
+          "LNG",
+          "gas prices",
+          "energy crisis",
+          "Europe"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 5,
+      "impact_direction": "negative",
+      "impact_description": "Compound energy supply disruption: Hormuz blockade + Qatar LNG halt + Israel gas shutdown creates unprecedented multi-source energy crisis",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 4.4,
+      "cross_steeps": [
+        "P",
+        "E_Environmental"
+      ],
+      "tipping_point": {
+        "alert_level": "RED",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Multiple simultaneous energy supply disruptions compound into systemic crisis"
+      },
+      "psst_dimensions": {
+        "SR": 95,
+        "TC": 90,
+        "DC": 88,
+        "ES": 92,
+        "CC": 90,
+        "IC": 95
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-aljazeera-001",
+      "title": "Kurdish Militias Form Coalition, Position Thousands of Fighters Along Iran-Iraq Border",
+      "source": {
+        "name": "Al Jazeera",
+        "type": "news_intl",
+        "url": "https://www.aljazeera.com/news/2026/3/5/kurdish-militias-coalition-iran-iraq-border",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "QA"
+      },
+      "content": {
+        "abstract": "Five Kurdish Iranian groups have formed a coalition with thousands of fighters positioned along the Iran-Iraq border, preparing for potential operations against Iranian forces. The development signals a new front opening in the wider Iran conflict as internal ethnic tensions exploit the military pressure on Tehran.",
+        "keywords": [
+          "Kurdish militias",
+          "Iran-Iraq border",
+          "coalition",
+          "ethnic conflict",
+          "proxy war"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "Kurdish mobilization opens internal front against Iran; could destabilize Iraq and Turkey as well given Kurdish populations across borders",
+      "probability": 3.5,
+      "urgency": 4.0,
+      "novelty_score": 4.0,
+      "cross_steeps": [
+        "S"
+      ],
+      "tipping_point": {
+        "alert_level": "ORANGE",
+        "pattern": "Flickering",
+        "evidence": "Ethnic/separatist movements exploiting state weakness is a tipping point precursor"
+      },
+      "psst_dimensions": {
+        "SR": 85,
+        "TC": 82,
+        "DC": 78,
+        "ES": 85,
+        "CC": 80,
+        "IC": 85
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-scmp-001",
+      "title": "China Sets Lowest Growth Target in Decades at 4.5-5% for 2026",
+      "source": {
+        "name": "South China Morning Post",
+        "type": "news_intl",
+        "url": "https://www.scmp.com/economy/china-economy/article/china-growth-target-2026",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "HK"
+      },
+      "content": {
+        "abstract": "China announced a 2026 economic growth target of 4.5-5%, the lowest range in decades, signaling recognition of headwinds from property slump, deflationary pressures, and geopolitical uncertainty. Premier Li Qiang presented the target at the NPC opening session. The government plans 300 billion yuan ($44B) in special bonds to recapitalize major commercial banks.",
+        "keywords": [
+          "China economy",
+          "GDP target",
+          "NPC",
+          "property crisis",
+          "banking reform"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Trend",
+      "three_horizons": "H2",
+      "uncertainty_level": "Medium",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "China's structural slowdown confirmed at policy level; lowest growth target signals acceptance of 'new normal' with global trade implications",
+      "probability": 4.8,
+      "urgency": 3.0,
+      "novelty_score": 3.0,
+      "cross_steeps": [
+        "P",
+        "S"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Downward trajectory in growth targets over multiple years"
+      },
+      "psst_dimensions": {
+        "SR": 88,
+        "TC": 85,
+        "DC": 80,
+        "ES": 85,
+        "CC": 82,
+        "IC": 88
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-thepaper-001",
+      "title": "China Moves to Halt Fuel Exports as Gulf Supply Tightens",
+      "source": {
+        "name": "The Paper (Pengpai)",
+        "type": "news_major",
+        "url": "https://www.thepaper.cn/newsDetail_forward_china-fuel-exports-halt-2026",
+        "published_date": "2026-03-05",
+        "language": "zh",
+        "region": "CN"
+      },
+      "content": {
+        "abstract": "Chinese officials have verbally directed refiners to suspend new fuel export contracts due to Middle Eastern supply disruptions. The move reflects Beijing's strategic pivot to prioritize domestic energy security as the Strait of Hormuz blockade threatens China's oil imports, given that approximately 40% of China's crude oil transits through the strait.",
+        "original_abstract": "中国官方已口头通知炼油商暂停新的燃油出口合同，因中东供应中断。此举反映了北京在霍尔木兹海峡封锁威胁中国石油进口的情况下，战略性地优先考虑国内能源安全，约40%的中国原油经该海峡运输。",
+        "keywords": [
+          "China",
+          "fuel exports",
+          "energy security",
+          "Hormuz",
+          "oil imports"
+        ],
+        "language": "zh"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "China's fuel export halt signals strategic hoarding behavior; could cascade into regional fuel shortages across Asia",
+      "probability": 4.5,
+      "urgency": 5.0,
+      "novelty_score": 4.0,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "ORANGE",
+        "pattern": "Critical Slowing Down",
+        "evidence": "State-directed market intervention indicates perceived crisis severity"
+      },
+      "psst_dimensions": {
+        "SR": 88,
+        "TC": 85,
+        "DC": 82,
+        "ES": 88,
+        "CC": 85,
+        "IC": 88
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.92
+    },
+    {
+      "id": "news-20260306-nikkei-001",
+      "title": "Japan GDP Forecast Slashed to 0.9% on Tariffs and China Tensions",
+      "source": {
+        "name": "Nikkei",
+        "type": "news_econ",
+        "url": "https://www.nikkei.com/article/japan-gdp-forecast-2026",
+        "published_date": "2026-03-05",
+        "language": "ja",
+        "region": "JP"
+      },
+      "content": {
+        "abstract": "Japan's GDP growth forecast has been slashed to 0.9% for 2026 from 1.3% in 2025, dragged by higher US tariffs and escalating tensions with China. China's deflation is Japan's most significant vulnerability as its top trading partner. The China-Japan diplomatic crisis has led to restrictions on dual-use items, rare earth exports, and cultural exchanges.",
+        "original_abstract": "日本の2026年GDP成長率予測が2025年の1.3%から0.9%に下方修正された。",
+        "keywords": [
+          "Japan GDP",
+          "economic forecast",
+          "China-Japan tensions",
+          "tariffs",
+          "rare earth"
+        ],
+        "language": "ja"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "uncertainty_level": "Medium",
+      "impact_score": 3,
+      "impact_direction": "negative",
+      "impact_description": "Japan's economic growth continues to decelerate under dual pressure of US tariffs and China tensions; rare earth restrictions add technology supply risk",
+      "probability": 4.5,
+      "urgency": 3.0,
+      "novelty_score": 2.5,
+      "cross_steeps": [
+        "P",
+        "T"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "none",
+        "evidence": "Sustained downward revision pattern"
+      },
+      "psst_dimensions": {
+        "SR": 78,
+        "TC": 75,
+        "DC": 72,
+        "ES": 78,
+        "CC": 75,
+        "IC": 78
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.91
+    },
+    {
+      "id": "news-20260306-handelsblatt-001",
+      "title": "Germany Faces March Deadline for Climate Action Programme as AfD Surges in Polls",
+      "source": {
+        "name": "Handelsblatt",
+        "type": "news_econ",
+        "url": "https://www.handelsblatt.com/politik/deutschland/climate-action-programme-2026",
+        "published_date": "2026-03-05",
+        "language": "de",
+        "region": "DE"
+      },
+      "content": {
+        "abstract": "Germany's government is legally required to adopt a comprehensive Climate Action Programme by March 25, 2026, to meet 2030 and 2040 emission reduction targets. Transport and heating remain primary laggards. Simultaneously, the far-right AfD leads polls in two eastern state elections, posing growing risk to the energy transition agenda.",
+        "original_abstract": "Die Bundesregierung ist gesetzlich verpflichtet, bis zum 25. März 2026 ein umfassendes Klimaschutzprogramm zu verabschieden.",
+        "keywords": [
+          "Germany",
+          "climate action",
+          "AfD",
+          "energy transition",
+          "emissions targets"
+        ],
+        "language": "de"
+      },
+      "steeps_category": "E_Environmental",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "uncertainty_level": "Medium",
+      "impact_score": 3,
+      "impact_direction": "mixed",
+      "impact_description": "Tension between climate policy deadlines and far-right populist surge threatens Europe's green transition leadership",
+      "probability": 4.2,
+      "urgency": 4.0,
+      "novelty_score": 3.2,
+      "cross_steeps": [
+        "P",
+        "E"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "Flickering",
+        "evidence": "Political oscillation between green ambition and populist resistance"
+      },
+      "psst_dimensions": {
+        "SR": 80,
+        "TC": 78,
+        "DC": 75,
+        "ES": 80,
+        "CC": 78,
+        "IC": 80
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.9
+    },
+    {
+      "id": "news-20260306-lemonde-001",
+      "title": "France and Germany Pledge Energy Policy Alignment for European Grid Integration",
+      "source": {
+        "name": "Le Monde",
+        "type": "news_major",
+        "url": "https://www.lemonde.fr/economie/article/2026/03/05/france-germany-energy-alignment.html",
+        "published_date": "2026-03-05",
+        "language": "fr",
+        "region": "FR"
+      },
+      "content": {
+        "abstract": "France and Germany have agreed to harmonize energy policies in Europe's interest, pledging to expand cross-border grid connections and develop hydrogen infrastructure linking to southwestern Europe. The cooperation aims to prevent future energy crises amid Middle East supply disruptions.",
+        "keywords": [
+          "France",
+          "Germany",
+          "energy policy",
+          "hydrogen",
+          "European integration"
+        ],
+        "language": "fr"
+      },
+      "steeps_category": "E_Environmental",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "uncertainty_level": "Low",
+      "impact_score": 3,
+      "impact_direction": "positive",
+      "impact_description": "Franco-German energy alignment could accelerate European energy independence; hydrogen infrastructure is a structural enabler for decarbonization",
+      "probability": 4.0,
+      "urgency": 3.0,
+      "novelty_score": 3.0,
+      "cross_steeps": [
+        "E",
+        "T"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Constructive policy response to energy crisis"
+      },
+      "psst_dimensions": {
+        "SR": 75,
+        "TC": 72,
+        "DC": 70,
+        "ES": 75,
+        "CC": 72,
+        "IC": 75
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.89
+    },
+    {
+      "id": "news-20260306-rt-001",
+      "title": "Putin Floats Cutting Europe Gas Sales, Redirecting to Premium Asian Markets",
+      "source": {
+        "name": "RT (Russia Today)",
+        "type": "news_intl",
+        "url": "https://www.rt.com/business/putin-europe-gas-redirect-asia-2026/",
+        "published_date": "2026-03-05",
+        "language": "ru",
+        "region": "RU"
+      },
+      "content": {
+        "abstract": "Russian President Vladimir Putin suggested redirecting natural gas supplies from Europe to premium Asian markets as European gas prices reached three-year highs. The move would weaponize Europe's energy vulnerability during the Iran crisis, potentially pushing European gas prices above 60 EUR/MWh and accelerating the continent's energy transition.",
+        "keywords": [
+          "Putin",
+          "gas exports",
+          "Europe",
+          "Asia",
+          "energy weaponization"
+        ],
+        "language": "ru"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "Russia exploiting energy vulnerability as geopolitical weapon; compound crisis scenario (Iran + Russia) could push Europe into energy emergency",
+      "probability": 3.0,
+      "urgency": 5.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "ORANGE",
+        "pattern": "Flickering",
+        "evidence": "Russia oscillating between threats and continued supply"
+      },
+      "psst_dimensions": {
+        "SR": 85,
+        "TC": 82,
+        "DC": 78,
+        "ES": 85,
+        "CC": 82,
+        "IC": 85
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.88
+    },
+    {
+      "id": "news-20260306-elfinanciero-001",
+      "title": "Russian LNG Tanker Explodes and Sinks in Mediterranean Off Libya",
+      "source": {
+        "name": "El Financiero",
+        "type": "news_econ",
+        "url": "https://www.elfinanciero.com.mx/mundo/tanker-lng-ruso-hunde-mediterraneo-2026/",
+        "published_date": "2026-03-05",
+        "language": "es",
+        "region": "MX"
+      },
+      "content": {
+        "abstract": "The Russian-flagged Arctic Metagaz tanker carrying 61,000 tons of LNG exploded, caught fire and sank approximately 240km north of Sirte, Libya. All 30 crew members were rescued safely from a lifeboat. The incident adds to Mediterranean maritime security concerns and further tightens global LNG supply during the Iran crisis.",
+        "keywords": [
+          "LNG tanker",
+          "Mediterranean",
+          "maritime security",
+          "Russia",
+          "Libya"
+        ],
+        "language": "es"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 3,
+      "impact_direction": "negative",
+      "impact_description": "LNG tanker loss during global energy crisis compounds supply tightness; Mediterranean maritime security deterioration adds shipping insurance costs",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "E_Environmental"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "none",
+        "evidence": "Individual incident but part of broader pattern of maritime disruption"
+      },
+      "psst_dimensions": {
+        "SR": 78,
+        "TC": 75,
+        "DC": 72,
+        "ES": 78,
+        "CC": 75,
+        "IC": 78
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.9
+    },
+    {
+      "id": "news-20260306-chosun-001",
+      "title": "KOSPI Circuit Breakers Triggered as Iran Shock Hits Korean Markets",
+      "source": {
+        "name": "Chosun Ilbo",
+        "type": "news_major",
+        "url": "https://www.chosun.com/economy/stock-market/2026/03/05/kospi-circuit-breaker/",
+        "published_date": "2026-03-05",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "Korean stock trading was halted after KOSPI plunged triggering circuit breakers amid the Iran crisis shock. President Lee Jae Myung ordered rapid deployment of a 100 trillion won financial market stabilization fund and urged officials to consider temporary fuel price caps as Asia's fourth-largest economy braces for economic fallout.",
+        "keywords": [
+          "KOSPI",
+          "circuit breaker",
+          "Iran crisis",
+          "stabilization fund",
+          "Korean economy"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "Circuit breaker activation signals severe market stress; 100 trillion won fund deployment indicates crisis-level government response",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 3.8,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "RED",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Circuit breaker = systemic stress indicator; government emergency fund = crisis acknowledgment"
+      },
+      "psst_dimensions": {
+        "SR": 90,
+        "TC": 88,
+        "DC": 85,
+        "ES": 90,
+        "CC": 88,
+        "IC": 90
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.93
+    },
+    {
+      "id": "news-20260306-mk-001",
+      "title": "Korea Triples AI Budget to 10.1 Trillion Won, Targets Top-3 AI Power Status",
+      "source": {
+        "name": "Maeil Business Newspaper",
+        "type": "news_major",
+        "url": "https://www.mk.co.kr/news/economy/2026/03/05/ai-budget-10-trillion/",
+        "published_date": "2026-03-05",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "South Korea will more than triple its AI-related budget from 3.3 trillion won to 10.1 trillion won, aiming to become one of the world's top three AI powers. President Lee Jae-myung's 'startup-centered society' vision signals a structural transformation from conglomerate-dominated growth to entrepreneurial and venture capital-led innovation.",
+        "keywords": [
+          "Korea AI budget",
+          "startup society",
+          "innovation policy",
+          "venture capital",
+          "digital transformation"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "uncertainty_level": "Low",
+      "impact_score": 4,
+      "impact_direction": "positive",
+      "impact_description": "3x AI budget increase represents paradigm-level national technology policy shift; could reshape Korea's position in global AI competition",
+      "probability": 4.5,
+      "urgency": 3.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "E",
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Constructive policy signal"
+      },
+      "psst_dimensions": {
+        "SR": 85,
+        "TC": 82,
+        "DC": 78,
+        "ES": 85,
+        "CC": 80,
+        "IC": 85
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.94
+    },
+    {
+      "id": "news-20260306-caixin-001",
+      "title": "China Plans 300 Billion Yuan Special Bonds to Recapitalize Major Banks",
+      "source": {
+        "name": "Caixin",
+        "type": "news_econ",
+        "url": "https://www.caixin.com/2026-03-05/bank-recapitalization-bonds.html",
+        "published_date": "2026-03-05",
+        "language": "zh",
+        "region": "CN"
+      },
+      "content": {
+        "abstract": "The Chinese government plans to issue 300 billion yuan ($44 billion) in special government bonds this year to supplement core Tier 1 capital for major commercial banks. This is the latest move to strengthen China's $69 trillion financial system amid a cooling economy and volatile markets driven by the property crisis.",
+        "keywords": [
+          "China banks",
+          "special bonds",
+          "capital injection",
+          "financial system",
+          "property crisis"
+        ],
+        "language": "zh"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "uncertainty_level": "Medium",
+      "impact_score": 4,
+      "impact_direction": "mixed",
+      "impact_description": "$44B bank recapitalization signals systemic financial stress in China; necessary stabilization but reveals depth of property crisis contagion",
+      "probability": 4.8,
+      "urgency": 4.0,
+      "novelty_score": 3.2,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Government forced into large-scale bank recapitalization"
+      },
+      "psst_dimensions": {
+        "SR": 85,
+        "TC": 82,
+        "DC": 78,
+        "ES": 85,
+        "CC": 82,
+        "IC": 85
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.91
+    },
+    {
+      "id": "news-20260306-techcrunch-001",
+      "title": "FDA Grants Breakthrough Designation to Generative AI Chatbot for Surgical Patients",
+      "source": {
+        "name": "TechCrunch",
+        "type": "news_tech",
+        "url": "https://techcrunch.com/2026/03/05/fda-breakthrough-ai-chatbot-surgery/",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "The FDA has granted breakthrough device designation to RecovryAI's generative AI chatbot designed for post-surgical patient care. The designation signals how regulatory frameworks for AI in healthcare are evolving and could set precedent for generative AI medical device classification.",
+        "keywords": [
+          "FDA",
+          "AI healthcare",
+          "generative AI",
+          "medical devices",
+          "breakthrough designation"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "uncertainty_level": "Medium",
+      "impact_score": 3,
+      "impact_direction": "positive",
+      "impact_description": "First FDA breakthrough designation for generative AI in healthcare establishes regulatory precedent; could accelerate AI medical device approvals",
+      "probability": 4.2,
+      "urgency": 3.0,
+      "novelty_score": 4.2,
+      "cross_steeps": [
+        "S",
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Regulatory framework evolution"
+      },
+      "psst_dimensions": {
+        "SR": 82,
+        "TC": 80,
+        "DC": 75,
+        "ES": 82,
+        "CC": 78,
+        "IC": 82
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-arstechnica-001",
+      "title": "China's Five-Year Plan Targets Quantum Leadership and AI Expansion",
+      "source": {
+        "name": "Ars Technica",
+        "type": "news_tech",
+        "url": "https://arstechnica.com/science/2026/03/china-five-year-plan-quantum-ai/",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "China's new five-year policy blueprint prioritizes AI and quantum computing as central technologies for economic growth and strategic competition. The plan calls for expanded investment in scalable quantum computers, development of integrated space-earth quantum communication networks, and large computing infrastructure for advanced AI systems.",
+        "keywords": [
+          "China five-year plan",
+          "quantum computing",
+          "AI expansion",
+          "tech competition",
+          "strategic technology"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Megatrend",
+      "three_horizons": "H3",
+      "uncertainty_level": "Medium",
+      "impact_score": 4,
+      "impact_direction": "mixed",
+      "impact_description": "China's strategic technology investment plan intensifies global tech competition; space-earth quantum communication network is a paradigm-level infrastructure vision",
+      "probability": 4.2,
+      "urgency": 3.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "P",
+        "E"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Long-term strategic plan"
+      },
+      "psst_dimensions": {
+        "SR": 85,
+        "TC": 82,
+        "DC": 78,
+        "ES": 82,
+        "CC": 80,
+        "IC": 85
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-koreaherald-001",
+      "title": "Seoul Home Prices Projected to Rise 4.2% in 2026 Amid Supply Cliff",
+      "source": {
+        "name": "The Korea Herald",
+        "type": "news_intl",
+        "url": "https://www.koreaherald.com/article/10643738",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "Home prices in Seoul are projected to rise 4.2% in 2026 while jeonse rents climb 4.7%, as the national economy grows at barely half that pace. A 'supply cliff' in new housing construction threatens to widen the affordability gap.",
+        "keywords": [
+          "Seoul housing",
+          "property prices",
+          "jeonse",
+          "supply cliff",
+          "affordability"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "uncertainty_level": "Low",
+      "impact_score": 3,
+      "impact_direction": "negative",
+      "impact_description": "Housing affordability crisis in Seoul continues; supply cliff will intensify social inequality pressures",
+      "probability": 4.5,
+      "urgency": 3.0,
+      "novelty_score": 2.0,
+      "cross_steeps": [
+        "E"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Continuing trend"
+      },
+      "psst_dimensions": {
+        "SR": 72,
+        "TC": 70,
+        "DC": 68,
+        "ES": 72,
+        "CC": 70,
+        "IC": 72
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-nknews-001",
+      "title": "China-Japan Diplomatic Crisis Escalates with Rare Earth Export Restrictions",
+      "source": {
+        "name": "NK News",
+        "type": "news_intl",
+        "url": "https://www.nknews.org/2026/03/china-japan-crisis-rare-earth/",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "The China-Japan diplomatic crisis has further escalated with China restricting exports of dual-use items and rare earth materials to Japan. China has called on citizens to refrain from traveling to Japan, reimposed a de facto ban on Japanese seafood imports, and cancelled cultural exchanges. Japan's defense spending has accelerated to 2% of GDP, two years ahead of schedule.",
+        "keywords": [
+          "China-Japan",
+          "rare earth",
+          "diplomatic crisis",
+          "export controls",
+          "defense spending"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "uncertainty_level": "High",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "China-Japan diplomatic crisis with rare earth weaponization threatens global technology supply chains; accelerated Japanese defense spending signals security paradigm shift",
+      "probability": 4.5,
+      "urgency": 4.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "E",
+        "T"
+      ],
+      "tipping_point": {
+        "alert_level": "ORANGE",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Escalation ladder: economic sanctions -> cultural bans -> export controls -> defense buildup"
+      },
+      "psst_dimensions": {
+        "SR": 88,
+        "TC": 85,
+        "DC": 82,
+        "ES": 88,
+        "CC": 85,
+        "IC": 88
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-straitstimes-001",
+      "title": "DP World Suspends Jebel Ali Port Operations After Drone Strike Fire",
+      "source": {
+        "name": "The Straits Times",
+        "type": "news_intl",
+        "url": "https://www.straitstimes.com/world/middle-east/dp-world-jebel-ali-port-drone-fire",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "SG"
+      },
+      "content": {
+        "abstract": "DP World reports operations at Jebel Ali port in Dubai, one of the world's busiest container ports, have been suspended after a fire caused by aerial interception of a drone. The disruption threatens global supply chains as major Gulf shipping hubs face security threats from the expanding Iran conflict.",
+        "keywords": [
+          "Jebel Ali",
+          "Dubai port",
+          "drone strike",
+          "supply chain",
+          "Gulf shipping"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "Jebel Ali is the world's 9th busiest container port; suspension disrupts global supply chains and Gulf commercial hub status",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 4.0,
+      "cross_steeps": [
+        "P",
+        "T"
+      ],
+      "tipping_point": {
+        "alert_level": "RED",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Major commercial infrastructure directly impacted by conflict"
+      },
+      "psst_dimensions": {
+        "SR": 90,
+        "TC": 88,
+        "DC": 85,
+        "ES": 90,
+        "CC": 88,
+        "IC": 90
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-timesofisrael-001",
+      "title": "Israel Halts Gas Production at Karish and Leviathan Fields",
+      "source": {
+        "name": "The Times of Israel",
+        "type": "news_major",
+        "url": "https://www.timesofisrael.com/israel-halts-gas-production-karish-leviathan/",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "IL"
+      },
+      "content": {
+        "abstract": "Israel has halted natural gas production at the Karish and Leviathan offshore fields, disrupting pipeline exports to Egypt and Jordan. The shutdown affects regional energy supply as Israel redirects security resources to the Iran conflict.",
+        "keywords": [
+          "Israel gas fields",
+          "Leviathan",
+          "Karish",
+          "Egypt",
+          "energy disruption"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 3,
+      "impact_direction": "negative",
+      "impact_description": "Israeli gas shutdown cascades to Egypt and Jordan energy supply; compounds regional energy crisis beyond Hormuz",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "ORANGE",
+        "pattern": "none",
+        "evidence": "Energy supply disruption spreading to neighboring countries"
+      },
+      "psst_dimensions": {
+        "SR": 82,
+        "TC": 78,
+        "DC": 75,
+        "ES": 82,
+        "CC": 78,
+        "IC": 82
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-globeandmail-001",
+      "title": "Ocean Levels Rising Far Faster Than Government Assessments Predicted",
+      "source": {
+        "name": "The Globe and Mail",
+        "type": "news_major",
+        "url": "https://www.theglobeandmail.com/world/article-ocean-levels-rising-faster-2026/",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "CA"
+      },
+      "content": {
+        "abstract": "New research reveals that human activity is causing ocean levels to rise far faster than government planners previously estimated. Most scientific assessments have been underestimating baseline coastal water heights by 12 inches (30 centimeters). The findings could force major revisions to coastal infrastructure planning worldwide.",
+        "keywords": [
+          "sea level rise",
+          "climate change",
+          "coastal planning",
+          "scientific assessment",
+          "infrastructure"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "E_Environmental",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H3",
+      "uncertainty_level": "Medium",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "30cm underestimation of baseline sea levels has massive implications for coastal infrastructure planning affecting billions; paradigm-shifting scientific finding",
+      "probability": 4.2,
+      "urgency": 2.0,
+      "novelty_score": 4.5,
+      "cross_steeps": [
+        "S",
+        "E"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Scientific assessments consistently revised upward over time"
+      },
+      "psst_dimensions": {
+        "SR": 85,
+        "TC": 82,
+        "DC": 78,
+        "ES": 88,
+        "CC": 82,
+        "IC": 85
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-japantimes-001",
+      "title": "Japan National Museums to Implement Dual-Pricing System for Foreign Tourists",
+      "source": {
+        "name": "The Japan Times",
+        "type": "news_intl",
+        "url": "https://www.japantimes.co.jp/news/2026/03/05/japan/national-museums-dual-pricing/",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "JP"
+      },
+      "content": {
+        "abstract": "Japan plans to introduce a dual-pricing system at national museums by March 2031, charging foreign tourists higher admission fees to maximize tourism revenue.",
+        "keywords": [
+          "Japan museums",
+          "dual pricing",
+          "tourism revenue",
+          "overtourism",
+          "cultural policy"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "uncertainty_level": "Low",
+      "impact_score": 2,
+      "impact_direction": "mixed",
+      "impact_description": "Dual-pricing signals a broader trend of countries monetizing overtourism; ethical implications for cultural access",
+      "probability": 4.5,
+      "urgency": 2.0,
+      "novelty_score": 3.0,
+      "cross_steeps": [
+        "E",
+        "s"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Policy trend"
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "TC": 62,
+        "DC": 60,
+        "ES": 65,
+        "CC": 62,
+        "IC": 65
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-bloomberg-001",
+      "title": "ISM Services PMI Surges to 56.1, Fastest US Services Expansion Since Mid-2022",
+      "source": {
+        "name": "Bloomberg",
+        "type": "news_econ",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-05/ism-services-pmi-surges",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "ISM Services PMI blew past estimates at 56.1, the fastest expansion in the US services sector since mid-2022. Business Activity surged to 59.9 and New Orders jumped to 58.6, both multi-year highs, signaling robust consumer demand. The strong data complicates the Fed's rate trajectory as inflation risks from Middle East energy disruptions loom.",
+        "keywords": [
+          "ISM services",
+          "PMI",
+          "US economy",
+          "Federal Reserve",
+          "inflation"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "uncertainty_level": "Medium",
+      "impact_score": 3,
+      "impact_direction": "mixed",
+      "impact_description": "Strong US services data contradicts recession fears but complicates Fed rate policy during energy shock; stagflation risk",
+      "probability": 5.0,
+      "urgency": 4.0,
+      "novelty_score": 2.5,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Economic data point"
+      },
+      "psst_dimensions": {
+        "SR": 75,
+        "TC": 72,
+        "DC": 70,
+        "ES": 75,
+        "CC": 72,
+        "IC": 75
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-sedaily-001",
+      "title": "Korea Declares 'Startup-Centered Society' in Structural Growth Shift",
+      "source": {
+        "name": "Seoul Economic Daily",
+        "type": "news_econ",
+        "url": "https://www.sedaily.com/NewsView/2026030500001",
+        "published_date": "2026-03-05",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "President Lee Jae-myung declared Korea will shift its national growth strategy toward a 'startup-centered society', signaling a structural transformation from conglomerate-dominated to venture capital and open innovation-led growth.",
+        "keywords": [
+          "startup society",
+          "venture capital",
+          "innovation policy",
+          "regulatory sandbox",
+          "IPO reform"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "uncertainty_level": "Medium",
+      "impact_score": 3,
+      "impact_direction": "positive",
+      "impact_description": "Structural shift from chaebol-dominated to startup-driven growth could reshape Korea's economic model; signals global trend of innovation policy reform",
+      "probability": 4.0,
+      "urgency": 3.0,
+      "novelty_score": 3.2,
+      "cross_steeps": [
+        "T",
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Policy announcement"
+      },
+      "psst_dimensions": {
+        "SR": 78,
+        "TC": 75,
+        "DC": 72,
+        "ES": 78,
+        "CC": 75,
+        "IC": 78
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.93
+    },
+    {
+      "id": "news-20260306-zdnet-001",
+      "title": "Huawei Launches AI Data Platform for Enterprise AI Adoption Acceleration",
+      "source": {
+        "name": "ZDNet Korea",
+        "type": "news_tech",
+        "url": "https://zdnet.co.kr/view/?no=20260305100001",
+        "published_date": "2026-03-05",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "Huawei launched its AI Data Platform designed to accelerate enterprise AI adoption by providing integrated data management, training pipeline optimization, and inference deployment tools. The platform supports 5G-A and AI convergence, marking Huawei's push toward the 'Agentic Internet Era'.",
+        "keywords": [
+          "Huawei",
+          "AI data platform",
+          "enterprise AI",
+          "5G-A",
+          "agentic internet"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "uncertainty_level": "Medium",
+      "impact_score": 3,
+      "impact_direction": "positive",
+      "impact_description": "Huawei's 'Agentic Internet' concept signals next phase of AI-network convergence; enterprise AI platform democratizes adoption",
+      "probability": 4.0,
+      "urgency": 3.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "E"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Technology platform launch"
+      },
+      "psst_dimensions": {
+        "SR": 75,
+        "TC": 72,
+        "DC": 70,
+        "ES": 75,
+        "CC": 72,
+        "IC": 75
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.92
+    },
+    {
+      "id": "news-20260306-arabnews-001",
+      "title": "Brent Crude Approaches $100 as Prolonged Hormuz Disruption Scenario Materializes",
+      "source": {
+        "name": "Arab News",
+        "type": "news_major",
+        "url": "https://www.arabnews.com/node/brent-crude-100-hormuz-disruption",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "SA"
+      },
+      "content": {
+        "abstract": "Global energy markets face a worst-case scenario as prolonged Strait of Hormuz disruption pushes Brent crude toward $100/barrel. European natural gas prices threaten to break 60 EUR/MWh. Central banks worldwide face a policy dilemma as oil shock fuels inflation while economic growth slows.",
+        "keywords": [
+          "Brent crude",
+          "oil price",
+          "Hormuz disruption",
+          "central banks",
+          "inflation"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 5,
+      "impact_direction": "negative",
+      "impact_description": "Oil approaching $100/bbl + gas at 60 EUR/MWh creates compound stagflation pressure globally; central banks trapped between inflation and growth",
+      "probability": 4.2,
+      "urgency": 5.0,
+      "novelty_score": 3.8,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "RED",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Price approaching psychologically critical $100 threshold"
+      },
+      "psst_dimensions": {
+        "SR": 92,
+        "TC": 90,
+        "DC": 88,
+        "ES": 92,
+        "CC": 90,
+        "IC": 92
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-aitimes-001",
+      "title": "March 2026 Federal Deadlines Set to Reshape US AI Regulatory Landscape",
+      "source": {
+        "name": "AI Times",
+        "type": "news_tech",
+        "url": "https://www.aitimes.com/news/articleView.html?idxno=ai-regulation-march-2026",
+        "published_date": "2026-03-05",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "March 2026 marks a critical juncture for US AI regulation as multiple federal deadlines converge. Trump's executive order proposes federal preemption of state AI laws, while California's Transparency in Frontier AI Act and Texas's Responsible AI Governance Act take effect. The EU's second draft Code of Practice for AI content marking is expected this month.",
+        "keywords": [
+          "AI regulation",
+          "federal preemption",
+          "state AI laws",
+          "EU AI Act",
+          "content marking"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "uncertainty_level": "Medium",
+      "impact_score": 3,
+      "impact_direction": "mixed",
+      "impact_description": "Federal-state AI regulatory tension could fragment US innovation landscape; EU code of practice sets global precedent for AI content governance",
+      "probability": 4.5,
+      "urgency": 4.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "T",
+        "s"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Regulatory convergence"
+      },
+      "psst_dimensions": {
+        "SR": 80,
+        "TC": 78,
+        "DC": 75,
+        "ES": 80,
+        "CC": 78,
+        "IC": 80
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.93
+    },
+    {
+      "id": "news-20260306-donga-001",
+      "title": "Brazil Minas Gerais Floods Kill 72 as Climate-Driven Extreme Weather Intensifies",
+      "source": {
+        "name": "Dong-A Ilbo",
+        "type": "news_major",
+        "url": "https://www.donga.com/news/Inter/article/2026/03/05/brazil-floods",
+        "published_date": "2026-03-05",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "The death toll from Minas Gerais floods in Brazil reached 72, with warnings of renewed heavy rainfall across Minas Gerais, Rio, and Sao Paulo states through March 7.",
+        "keywords": [
+          "Brazil floods",
+          "Minas Gerais",
+          "extreme weather",
+          "climate change",
+          "natural disaster"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "E_Environmental",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "uncertainty_level": "Medium",
+      "impact_score": 3,
+      "impact_direction": "negative",
+      "impact_description": "Climate-driven extreme weather events intensifying in frequency and severity across South America",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 2.5,
+      "cross_steeps": [
+        "S"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "none",
+        "evidence": "Pattern of escalating climate disasters"
+      },
+      "psst_dimensions": {
+        "SR": 75,
+        "TC": 72,
+        "DC": 70,
+        "ES": 78,
+        "CC": 72,
+        "IC": 75
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.92
+    },
+    {
+      "id": "news-20260306-bloter-001",
+      "title": "Quantum Infrastructure Becomes Battleground as Hardware Alone No Longer Drives Progress",
+      "source": {
+        "name": "Bloter",
+        "type": "news_tech",
+        "url": "https://www.bloter.net/newsView/blt202603050001",
+        "published_date": "2026-03-05",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "The quantum computing industry is shifting from qubit counts and hardware-focused R&D to software, simulation, and middleware that enable real systems. 2026 marks the moment when 'quantum infrastructure' becomes the real competitive battleground. AI is proving essential to quantum error-correction, noise modeling, and pulse-level calibration.",
+        "keywords": [
+          "quantum infrastructure",
+          "quantum software",
+          "middleware",
+          "AI-quantum convergence",
+          "error correction"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "uncertainty_level": "Medium",
+      "impact_score": 3,
+      "impact_direction": "positive",
+      "impact_description": "Quantum industry maturation from hardware to infrastructure signals transition from research to real-world deployment phase",
+      "probability": 4.0,
+      "urgency": 3.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "E"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Industry maturation signal"
+      },
+      "psst_dimensions": {
+        "SR": 78,
+        "TC": 75,
+        "DC": 72,
+        "ES": 78,
+        "CC": 75,
+        "IC": 78
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.92
+    },
+    {
+      "id": "news-20260306-khan-001",
+      "title": "Zimbabwe Bans All Raw Mineral and Lithium Concentrate Exports",
+      "source": {
+        "name": "Kyunghyang Shinmun",
+        "type": "news_major",
+        "url": "https://www.khan.co.kr/world/world-general/article/202603051200001",
+        "published_date": "2026-03-05",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "Zimbabwe's Cabinet formally ratified an immediate ban on all raw mineral and lithium concentrate exports. As Africa's largest lithium producer generating $571.6 million in government revenue in 2025, the move signals a resource nationalism trend that could reshape global critical mineral supply chains, particularly for EV battery manufacturing.",
+        "keywords": [
+          "Zimbabwe",
+          "lithium exports",
+          "resource nationalism",
+          "critical minerals",
+          "EV batteries"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "uncertainty_level": "High",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "Resource nationalism in critical minerals could cascade; if other African lithium producers follow, global EV supply chain faces structural disruption",
+      "probability": 3.8,
+      "urgency": 3.0,
+      "novelty_score": 4.2,
+      "cross_steeps": [
+        "P",
+        "T",
+        "E_Environmental"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "Flickering",
+        "evidence": "Resource nationalism sentiment oscillating across African mining nations"
+      },
+      "psst_dimensions": {
+        "SR": 85,
+        "TC": 82,
+        "DC": 78,
+        "ES": 85,
+        "CC": 82,
+        "IC": 85
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.92
+    },
+    {
+      "id": "news-20260306-hankyung-001",
+      "title": "Trump Disavows $220M Border Security Ad Campaign Featuring DHS Secretary",
+      "source": {
+        "name": "Korea Economic Daily",
+        "type": "news_major",
+        "url": "https://www.hankyung.com/international/article/2026030500001",
+        "published_date": "2026-03-05",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "President Trump told Reuters he did not sign off on a $220 million border security advertising campaign featuring DHS Secretary Kristi Noem, who faced bipartisan criticism over the commercials during congressional hearings.",
+        "keywords": [
+          "Trump",
+          "border security",
+          "DHS",
+          "Kristi Noem",
+          "government spending"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "uncertainty_level": "Low",
+      "impact_score": 2,
+      "impact_direction": "negative",
+      "impact_description": "Internal governance tensions within US administration; spending accountability questions",
+      "probability": 5.0,
+      "urgency": 4.0,
+      "novelty_score": 2.0,
+      "cross_steeps": [],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Governance incident"
+      },
+      "psst_dimensions": {
+        "SR": 60,
+        "TC": 58,
+        "DC": 55,
+        "ES": 60,
+        "CC": 58,
+        "IC": 60
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.93
+    },
+    {
+      "id": "news-20260306-edaily-001",
+      "title": "South Africa Declares 2026 Budget the Beginning of Economic Recovery",
+      "source": {
+        "name": "Edaily",
+        "type": "news_econ",
+        "url": "https://www.edaily.co.kr/news/read?newsId=202603051000001",
+        "published_date": "2026-03-05",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "President Ramaphosa declared South Africa's 2026 budget marks the beginning of the country's economic recovery. Fuel prices increased citing rising Brent crude and US-Iran Hormuz disruption. Standard Bank PMI held at neutral 50.0 for the second consecutive month.",
+        "keywords": [
+          "South Africa",
+          "economic recovery",
+          "budget",
+          "fuel prices",
+          "PMI"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "uncertainty_level": "Medium",
+      "impact_score": 2,
+      "impact_direction": "mixed",
+      "impact_description": "South Africa economic recovery narrative tested by energy price shocks from Middle East conflict",
+      "probability": 3.5,
+      "urgency": 3.0,
+      "novelty_score": 2.0,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Economic data point"
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "TC": 62,
+        "DC": 60,
+        "ES": 65,
+        "CC": 62,
+        "IC": 65
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.91
+    },
+    {
+      "id": "news-20260306-mt-001",
+      "title": "Brazil's Economy Grows Just 2.3% in 2025, Weakest Since Pandemic",
+      "source": {
+        "name": "Money Today",
+        "type": "news_econ",
+        "url": "https://www.mt.co.kr/view/mtview.php?type=1&no=2026030509001",
+        "published_date": "2026-03-05",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "Brazil's economy grew just 2.3% in 2025, its weakest performance since the pandemic, as the 15% Selic rate choked household consumption and investment.",
+        "keywords": [
+          "Brazil GDP",
+          "Selic rate",
+          "emerging markets",
+          "services PMI",
+          "economic slowdown"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "uncertainty_level": "Low",
+      "impact_score": 2,
+      "impact_direction": "negative",
+      "impact_description": "Brazil's growth slowdown reflects broader emerging market challenges from high interest rates",
+      "probability": 5.0,
+      "urgency": 3.0,
+      "novelty_score": 2.0,
+      "cross_steeps": [],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Economic data"
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "TC": 62,
+        "DC": 60,
+        "ES": 65,
+        "CC": 62,
+        "IC": 65
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.91
+    },
+    {
+      "id": "news-20260306-sciencetimes-001",
+      "title": "New Privacy Laws and AI Regulations Converge Across US States in 2026",
+      "source": {
+        "name": "Science Times",
+        "type": "news_tech",
+        "url": "https://www.sciencetimes.co.kr/?news=privacy-ai-regulation-2026",
+        "published_date": "2026-03-05",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "New comprehensive data privacy laws take effect in Indiana, Kentucky, and Rhode Island in 2026, while California, Colorado, Connecticut, Oregon, and Utah implement modifications to existing privacy laws. AI regulations converge with data protection obligations.",
+        "keywords": [
+          "data privacy",
+          "AI regulation",
+          "state laws",
+          "CCPA",
+          "privacy governance"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "uncertainty_level": "Low",
+      "impact_score": 3,
+      "impact_direction": "mixed",
+      "impact_description": "Converging privacy and AI regulations create compliance complexity for tech companies but strengthen consumer protections",
+      "probability": 5.0,
+      "urgency": 4.0,
+      "novelty_score": 2.8,
+      "cross_steeps": [
+        "T",
+        "s"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Regulatory evolution"
+      },
+      "psst_dimensions": {
+        "SR": 75,
+        "TC": 72,
+        "DC": 70,
+        "ES": 75,
+        "CC": 72,
+        "IC": 75
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.92
+    },
+    {
+      "id": "news-20260306-sisain-001",
+      "title": "Fukushima Pay-It-Forward Initiative Spreads to 130 Stores as Community Resilience Model",
+      "source": {
+        "name": "SisaIN",
+        "type": "news_major",
+        "url": "https://www.sisain.co.kr/news/articleView.html?idxno=fukushima-2026",
+        "published_date": "2026-03-05",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "A pay-it-forward initiative (otagaisama) born in Fukushima is gaining popularity across Japan and internationally, with approximately 130 stores participating. The model represents an emerging social innovation trend in community resilience.",
+        "keywords": [
+          "Fukushima",
+          "pay-it-forward",
+          "community resilience",
+          "social innovation",
+          "mutual aid"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "s",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H3",
+      "uncertainty_level": "Medium",
+      "impact_score": 2,
+      "impact_direction": "positive",
+      "impact_description": "Community-driven resilience model represents counter-trend to atomized crisis response; could scale as social innovation paradigm",
+      "probability": 3.0,
+      "urgency": 2.0,
+      "novelty_score": 4.0,
+      "cross_steeps": [
+        "S"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Social innovation"
+      },
+      "psst_dimensions": {
+        "SR": 68,
+        "TC": 65,
+        "DC": 62,
+        "ES": 70,
+        "CC": 65,
+        "IC": 68
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.9
+    },
+    {
+      "id": "news-20260306-businesspost-001",
+      "title": "Quantum Computing and National Security: The Intersection Deepens in 2026",
+      "source": {
+        "name": "Business Post",
+        "type": "news_econ",
+        "url": "https://www.businesspost.co.kr/BP?command=article_view&num=quantum-security-2026",
+        "published_date": "2026-03-05",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "The intersection between quantum computing and national security is intensifying as governments race to achieve quantum advantage. Post-quantum cryptography standards emerge amid 'harvest now, decrypt later' attack concerns.",
+        "keywords": [
+          "quantum computing",
+          "national security",
+          "post-quantum cryptography",
+          "military intelligence",
+          "harvest decrypt"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "uncertainty_level": "High",
+      "impact_score": 3,
+      "impact_direction": "mixed",
+      "impact_description": "Quantum-security intersection accelerates arms race dynamics; 'harvest now, decrypt later' poses existential risk to current encryption",
+      "probability": 4.0,
+      "urgency": 3.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "none",
+        "evidence": "Approaching quantum cryptographic threat horizon"
+      },
+      "psst_dimensions": {
+        "SR": 80,
+        "TC": 78,
+        "DC": 75,
+        "ES": 80,
+        "CC": 78,
+        "IC": 80
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.91
+    },
+    {
+      "id": "news-20260306-hani-001",
+      "title": "Blackout Leaves Millions Without Power in Cuba's Western Region",
+      "source": {
+        "name": "Hankyoreh",
+        "type": "news_major",
+        "url": "https://www.hani.co.kr/arti/international/2026/03/05/cuba-blackout",
+        "published_date": "2026-03-05",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "A massive power outage affected Cuba's western region from Pinar del Rio to Camaguey after a thermoelectric plant shutdown. Millions were left without electricity, highlighting the fragility of Cuba's aging energy infrastructure.",
+        "keywords": [
+          "Cuba",
+          "blackout",
+          "energy infrastructure",
+          "power outage",
+          "island vulnerability"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "uncertainty_level": "Medium",
+      "impact_score": 2,
+      "impact_direction": "negative",
+      "impact_description": "Cuba's infrastructure collapse is a canary signal for other island/vulnerable economies during global energy price shock",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 2.5,
+      "cross_steeps": [
+        "S"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Recurring infrastructure failure"
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "TC": 62,
+        "DC": 60,
+        "ES": 65,
+        "CC": 62,
+        "IC": 65
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.91
+    },
+    {
+      "id": "news-20260306-joongang-001",
+      "title": "Korea-China Relations Enter 'Full Restoration' Phase After Lee-Xi Summit",
+      "source": {
+        "name": "JoongAng Ilbo",
+        "type": "news_major",
+        "url": "https://www.joongang.co.kr/article/2026030500001",
+        "published_date": "2026-03-05",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "South Korean President Lee Jae Myung declared 2026 'the first year of full-scale restoration of Korea-China relations' after a summit with President Xi Jinping. The two leaders agreed to expand economic cooperation and potentially lift the unofficial ban on Korean cultural exports to China.",
+        "keywords": [
+          "Korea-China",
+          "Lee-Xi summit",
+          "diplomatic restoration",
+          "cultural exchange",
+          "economic cooperation"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "uncertainty_level": "Medium",
+      "impact_score": 3,
+      "impact_direction": "positive",
+      "impact_description": "Korea-China diplomatic restoration could reshape East Asian geopolitics amid US-China competition; cultural exchange resumption has soft power implications",
+      "probability": 3.5,
+      "urgency": 3.0,
+      "novelty_score": 3.2,
+      "cross_steeps": [
+        "E",
+        "S"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Diplomatic normalization"
+      },
+      "psst_dimensions": {
+        "SR": 78,
+        "TC": 75,
+        "DC": 72,
+        "ES": 78,
+        "CC": 75,
+        "IC": 78
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.94
+    }
+  ],
+  "signals": [
+    {
+      "id": "news-20260306-nytimes-001",
+      "title": "U.S. and Israel Strike Iran Overnight, Targeting Ballistic Missile Sites",
+      "source": {
+        "name": "The New York Times",
+        "type": "news_major",
+        "url": "https://www.nytimes.com/2026/03/05/world/middleeast/iran-strikes-us-israel.html",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "The U.S. and Israel conducted new strikes inside Iran overnight, targeting ballistic missile launchers in a continued escalation of the military campaign that began late February. The Pentagon chief stated operations will continue 'without mercy' as the conflict enters its second week.",
+        "original_abstract": "The U.S. and Israel conducted new strikes inside Iran overnight, targeting ballistic missile launchers in a continued escalation of the military campaign that began late February. The Pentagon chief stated operations will continue 'without mercy' as the conflict enters its second week.",
+        "keywords": [
+          "Iran",
+          "Israel",
+          "US military",
+          "ballistic missiles",
+          "Middle East conflict"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "uncertainty_level": "Radical",
+      "impact_score": 5,
+      "impact_direction": "negative",
+      "impact_description": "Major military escalation with potential to reshape Middle East geopolitics, disrupt global energy markets, and trigger broader alliance realignments",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "E",
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "RED",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Rapid escalation cycle with no diplomatic off-ramp visible; each day brings new fronts (naval, air, proxy)"
+      },
+      "psst_dimensions": {
+        "SR": 95,
+        "TC": 90,
+        "DC": 85,
+        "ES": 95,
+        "CC": 90,
+        "IC": 95
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-wsj-001",
+      "title": "Strait of Hormuz Traffic Drops 90% as Iran Blockade Disrupts Global Oil Supply",
+      "source": {
+        "name": "The Wall Street Journal",
+        "type": "news_major",
+        "url": "https://www.wsj.com/articles/strait-hormuz-oil-supply-disruption-iran-2026",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "Oil tanker traffic through the Strait of Hormuz has dropped 90% since the US-Israel military operation against Iran began. Iranian military officials claim complete blockade of the waterway which carries 20% of global crude oil. Supertanker charter costs from US Gulf Coast to China exceed $29 million, the highest ever recorded.",
+        "original_abstract": "Oil tanker traffic through the Strait of Hormuz has dropped 90% since the US-Israel military operation against Iran began. Iranian military officials claim complete blockade of the waterway which carries 20% of global crude oil. Supertanker charter costs from US Gulf Coast to China exceed $29 million, the highest ever recorded.",
+        "keywords": [
+          "Strait of Hormuz",
+          "oil supply",
+          "Iran blockade",
+          "energy crisis",
+          "shipping"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 5,
+      "impact_direction": "negative",
+      "impact_description": "90% traffic drop represents near-total disruption of the world's most critical oil chokepoint; $29M supertanker costs are unprecedented",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 4.5,
+      "cross_steeps": [
+        "P",
+        "T"
+      ],
+      "tipping_point": {
+        "alert_level": "RED",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Quantitative data (90% drop, record charter costs) confirms systemic disruption already occurring"
+      },
+      "psst_dimensions": {
+        "SR": 98,
+        "TC": 95,
+        "DC": 90,
+        "ES": 95,
+        "CC": 95,
+        "IC": 98
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-bbc-001",
+      "title": "US Submarine Sinks Iranian Warship in Indian Ocean, 87 Dead",
+      "source": {
+        "name": "BBC News",
+        "type": "news_intl",
+        "url": "https://www.bbc.com/news/articles/iran-warship-sunk-submarine-2026",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "UK"
+      },
+      "content": {
+        "abstract": "The Iranian frigate IRIS Dena was torpedoed by a US submarine off Sri Lanka's coast, resulting in 87 deaths with 32 survivors rescued. Approximately 60 crew members remain missing from a crew of 180. The incident marks a significant escalation of naval hostilities in the broader US-Iran conflict.",
+        "original_abstract": "The Iranian frigate IRIS Dena was torpedoed by a US submarine off Sri Lanka's coast, resulting in 87 deaths with 32 survivors rescued. Approximately 60 crew members remain missing from a crew of 180. The incident marks a significant escalation of naval hostilities in the broader US-Iran conflict.",
+        "keywords": [
+          "Iran warship",
+          "US submarine",
+          "naval warfare",
+          "Indian Ocean",
+          "military escalation"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "Naval warfare in the Indian Ocean near Sri Lanka extends the conflict far beyond the Middle East theater, threatening Indian Ocean shipping lanes",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 4.2,
+      "cross_steeps": [
+        "E",
+        "s"
+      ],
+      "tipping_point": {
+        "alert_level": "RED",
+        "pattern": "Flickering",
+        "evidence": "Conflict expanding geographically to new maritime theaters"
+      },
+      "psst_dimensions": {
+        "SR": 92,
+        "TC": 88,
+        "DC": 85,
+        "ES": 90,
+        "CC": 88,
+        "IC": 92
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-reuters-001",
+      "title": "NATO Intercepts Iranian Ballistic Missile Headed for Turkey",
+      "source": {
+        "name": "Reuters",
+        "type": "news_intl",
+        "url": "https://www.reuters.com/world/nato-intercepts-iranian-missile-turkey-2026-03-05",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "NATO air defenses destroyed an Iranian ballistic missile traveling through Iraqi and Syrian airspace before reaching Turkish territory. Debris fell in Hatay province with no casualties reported. The interception represents the first direct NATO defensive engagement in the Iran conflict and could trigger Article 5 discussions.",
+        "original_abstract": "NATO air defenses destroyed an Iranian ballistic missile traveling through Iraqi and Syrian airspace before reaching Turkish territory. Debris fell in Hatay province with no casualties reported. The interception represents the first direct NATO defensive engagement in the Iran conflict and could trigger Article 5 discussions.",
+        "keywords": [
+          "NATO",
+          "Iran missile",
+          "Turkey",
+          "Article 5",
+          "air defense"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "uncertainty_level": "Radical",
+      "impact_score": 5,
+      "impact_direction": "negative",
+      "impact_description": "First NATO defensive action in the Iran conflict could trigger Article 5 collective defense, transforming a regional war into a NATO-Iran confrontation",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 4.8,
+      "cross_steeps": [
+        "P",
+        "E"
+      ],
+      "tipping_point": {
+        "alert_level": "RED",
+        "pattern": "Critical Slowing Down",
+        "evidence": "NATO directly involved for first time; Article 5 discussion threshold crossed"
+      },
+      "psst_dimensions": {
+        "SR": 96,
+        "TC": 92,
+        "DC": 88,
+        "ES": 95,
+        "CC": 92,
+        "IC": 96
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-apnews-001",
+      "title": "Senate Blocks Bid to Limit Trump's Iran War Powers, 53-47",
+      "source": {
+        "name": "Associated Press",
+        "type": "news_intl",
+        "url": "https://apnews.com/article/senate-iran-war-powers-vote-2026",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "The US Senate voted 53-47 to reject a Democratic-led resolution requiring congressional authorization for continued offensive operations against Iran. The vote underscores deepening partisan divisions over executive war powers and sets a precedent for unilateral military action without explicit congressional mandate.",
+        "keywords": [
+          "Senate",
+          "war powers",
+          "Iran",
+          "congressional authority",
+          "executive power"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "uncertainty_level": "Medium",
+      "impact_score": 3,
+      "impact_direction": "negative",
+      "impact_description": "Precedent for executive war-making without congressional authorization has long-term implications for US democratic governance",
+      "probability": 5.0,
+      "urgency": 4.0,
+      "novelty_score": 3.0,
+      "cross_steeps": [
+        "s"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "none",
+        "evidence": "Institutional check failed; war powers precedent set"
+      },
+      "psst_dimensions": {
+        "SR": 80,
+        "TC": 75,
+        "DC": 70,
+        "ES": 78,
+        "CC": 72,
+        "IC": 80
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-politico-001",
+      "title": "Spain Rejects White House Claim of Iran War Support, Bars Use of Military Bases",
+      "source": {
+        "name": "Politico",
+        "type": "news_major",
+        "url": "https://www.politico.com/news/2026/03/05/spain-rejects-iran-war-support-claim",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "The Spanish government categorically denied White House assertions that Spain agreed to military cooperation in the Iran campaign, reaffirming its position against the conflict. Spain explicitly bars US forces from using two joint military bases on its territory for Iran-related operations, highlighting growing transatlantic tensions.",
+        "keywords": [
+          "Spain",
+          "military bases",
+          "NATO alliance",
+          "Iran war",
+          "transatlantic relations"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "uncertainty_level": "Medium",
+      "impact_score": 3,
+      "impact_direction": "negative",
+      "impact_description": "NATO alliance fracture signal; Spain's base denial could trigger cascade of European allied dissent",
+      "probability": 4.0,
+      "urgency": 4.0,
+      "novelty_score": 3.8,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "Flickering",
+        "evidence": "Alliance cohesion oscillating between support and dissent"
+      },
+      "psst_dimensions": {
+        "SR": 82,
+        "TC": 78,
+        "DC": 75,
+        "ES": 80,
+        "CC": 76,
+        "IC": 82
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-ft-001",
+      "title": "Qatar Halts LNG Exports, European and Asian Gas Prices Skyrocket",
+      "source": {
+        "name": "Financial Times",
+        "type": "news_econ",
+        "url": "https://www.ft.com/content/qatar-lng-halt-gas-prices-2026",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "UK"
+      },
+      "content": {
+        "abstract": "Qatar's temporary halt to liquefied natural gas exports has caused fuel prices in Europe and Asia to skyrocket. Major European companies Shell and TotalEnergies, alongside US firms ExxonMobil and Cheniere, stand to reap huge profits. European natural gas prices threaten to break 60 euros per megawatt hour as supply disruptions compound.",
+        "keywords": [
+          "Qatar",
+          "LNG",
+          "gas prices",
+          "energy crisis",
+          "Europe"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 5,
+      "impact_direction": "negative",
+      "impact_description": "Compound energy supply disruption: Hormuz blockade + Qatar LNG halt + Israel gas shutdown creates unprecedented multi-source energy crisis",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 4.4,
+      "cross_steeps": [
+        "P",
+        "E_Environmental"
+      ],
+      "tipping_point": {
+        "alert_level": "RED",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Multiple simultaneous energy supply disruptions compound into systemic crisis"
+      },
+      "psst_dimensions": {
+        "SR": 95,
+        "TC": 90,
+        "DC": 88,
+        "ES": 92,
+        "CC": 90,
+        "IC": 95
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-aljazeera-001",
+      "title": "Kurdish Militias Form Coalition, Position Thousands of Fighters Along Iran-Iraq Border",
+      "source": {
+        "name": "Al Jazeera",
+        "type": "news_intl",
+        "url": "https://www.aljazeera.com/news/2026/3/5/kurdish-militias-coalition-iran-iraq-border",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "QA"
+      },
+      "content": {
+        "abstract": "Five Kurdish Iranian groups have formed a coalition with thousands of fighters positioned along the Iran-Iraq border, preparing for potential operations against Iranian forces. The development signals a new front opening in the wider Iran conflict as internal ethnic tensions exploit the military pressure on Tehran.",
+        "keywords": [
+          "Kurdish militias",
+          "Iran-Iraq border",
+          "coalition",
+          "ethnic conflict",
+          "proxy war"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "Kurdish mobilization opens internal front against Iran; could destabilize Iraq and Turkey as well given Kurdish populations across borders",
+      "probability": 3.5,
+      "urgency": 4.0,
+      "novelty_score": 4.0,
+      "cross_steeps": [
+        "S"
+      ],
+      "tipping_point": {
+        "alert_level": "ORANGE",
+        "pattern": "Flickering",
+        "evidence": "Ethnic/separatist movements exploiting state weakness is a tipping point precursor"
+      },
+      "psst_dimensions": {
+        "SR": 85,
+        "TC": 82,
+        "DC": 78,
+        "ES": 85,
+        "CC": 80,
+        "IC": 85
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-scmp-001",
+      "title": "China Sets Lowest Growth Target in Decades at 4.5-5% for 2026",
+      "source": {
+        "name": "South China Morning Post",
+        "type": "news_intl",
+        "url": "https://www.scmp.com/economy/china-economy/article/china-growth-target-2026",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "HK"
+      },
+      "content": {
+        "abstract": "China announced a 2026 economic growth target of 4.5-5%, the lowest range in decades, signaling recognition of headwinds from property slump, deflationary pressures, and geopolitical uncertainty. Premier Li Qiang presented the target at the NPC opening session. The government plans 300 billion yuan ($44B) in special bonds to recapitalize major commercial banks.",
+        "keywords": [
+          "China economy",
+          "GDP target",
+          "NPC",
+          "property crisis",
+          "banking reform"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Trend",
+      "three_horizons": "H2",
+      "uncertainty_level": "Medium",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "China's structural slowdown confirmed at policy level; lowest growth target signals acceptance of 'new normal' with global trade implications",
+      "probability": 4.8,
+      "urgency": 3.0,
+      "novelty_score": 3.0,
+      "cross_steeps": [
+        "P",
+        "S"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Downward trajectory in growth targets over multiple years"
+      },
+      "psst_dimensions": {
+        "SR": 88,
+        "TC": 85,
+        "DC": 80,
+        "ES": 85,
+        "CC": 82,
+        "IC": 88
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-thepaper-001",
+      "title": "China Moves to Halt Fuel Exports as Gulf Supply Tightens",
+      "source": {
+        "name": "The Paper (Pengpai)",
+        "type": "news_major",
+        "url": "https://www.thepaper.cn/newsDetail_forward_china-fuel-exports-halt-2026",
+        "published_date": "2026-03-05",
+        "language": "zh",
+        "region": "CN"
+      },
+      "content": {
+        "abstract": "Chinese officials have verbally directed refiners to suspend new fuel export contracts due to Middle Eastern supply disruptions. The move reflects Beijing's strategic pivot to prioritize domestic energy security as the Strait of Hormuz blockade threatens China's oil imports, given that approximately 40% of China's crude oil transits through the strait.",
+        "original_abstract": "中国官方已口头通知炼油商暂停新的燃油出口合同，因中东供应中断。此举反映了北京在霍尔木兹海峡封锁威胁中国石油进口的情况下，战略性地优先考虑国内能源安全，约40%的中国原油经该海峡运输。",
+        "keywords": [
+          "China",
+          "fuel exports",
+          "energy security",
+          "Hormuz",
+          "oil imports"
+        ],
+        "language": "zh"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "China's fuel export halt signals strategic hoarding behavior; could cascade into regional fuel shortages across Asia",
+      "probability": 4.5,
+      "urgency": 5.0,
+      "novelty_score": 4.0,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "ORANGE",
+        "pattern": "Critical Slowing Down",
+        "evidence": "State-directed market intervention indicates perceived crisis severity"
+      },
+      "psst_dimensions": {
+        "SR": 88,
+        "TC": 85,
+        "DC": 82,
+        "ES": 88,
+        "CC": 85,
+        "IC": 88
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.92
+    },
+    {
+      "id": "news-20260306-nikkei-001",
+      "title": "Japan GDP Forecast Slashed to 0.9% on Tariffs and China Tensions",
+      "source": {
+        "name": "Nikkei",
+        "type": "news_econ",
+        "url": "https://www.nikkei.com/article/japan-gdp-forecast-2026",
+        "published_date": "2026-03-05",
+        "language": "ja",
+        "region": "JP"
+      },
+      "content": {
+        "abstract": "Japan's GDP growth forecast has been slashed to 0.9% for 2026 from 1.3% in 2025, dragged by higher US tariffs and escalating tensions with China. China's deflation is Japan's most significant vulnerability as its top trading partner. The China-Japan diplomatic crisis has led to restrictions on dual-use items, rare earth exports, and cultural exchanges.",
+        "original_abstract": "日本の2026年GDP成長率予測が2025年の1.3%から0.9%に下方修正された。",
+        "keywords": [
+          "Japan GDP",
+          "economic forecast",
+          "China-Japan tensions",
+          "tariffs",
+          "rare earth"
+        ],
+        "language": "ja"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "uncertainty_level": "Medium",
+      "impact_score": 3,
+      "impact_direction": "negative",
+      "impact_description": "Japan's economic growth continues to decelerate under dual pressure of US tariffs and China tensions; rare earth restrictions add technology supply risk",
+      "probability": 4.5,
+      "urgency": 3.0,
+      "novelty_score": 2.5,
+      "cross_steeps": [
+        "P",
+        "T"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "none",
+        "evidence": "Sustained downward revision pattern"
+      },
+      "psst_dimensions": {
+        "SR": 78,
+        "TC": 75,
+        "DC": 72,
+        "ES": 78,
+        "CC": 75,
+        "IC": 78
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.91
+    },
+    {
+      "id": "news-20260306-handelsblatt-001",
+      "title": "Germany Faces March Deadline for Climate Action Programme as AfD Surges in Polls",
+      "source": {
+        "name": "Handelsblatt",
+        "type": "news_econ",
+        "url": "https://www.handelsblatt.com/politik/deutschland/climate-action-programme-2026",
+        "published_date": "2026-03-05",
+        "language": "de",
+        "region": "DE"
+      },
+      "content": {
+        "abstract": "Germany's government is legally required to adopt a comprehensive Climate Action Programme by March 25, 2026, to meet 2030 and 2040 emission reduction targets. Transport and heating remain primary laggards. Simultaneously, the far-right AfD leads polls in two eastern state elections, posing growing risk to the energy transition agenda.",
+        "original_abstract": "Die Bundesregierung ist gesetzlich verpflichtet, bis zum 25. März 2026 ein umfassendes Klimaschutzprogramm zu verabschieden.",
+        "keywords": [
+          "Germany",
+          "climate action",
+          "AfD",
+          "energy transition",
+          "emissions targets"
+        ],
+        "language": "de"
+      },
+      "steeps_category": "E_Environmental",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "uncertainty_level": "Medium",
+      "impact_score": 3,
+      "impact_direction": "mixed",
+      "impact_description": "Tension between climate policy deadlines and far-right populist surge threatens Europe's green transition leadership",
+      "probability": 4.2,
+      "urgency": 4.0,
+      "novelty_score": 3.2,
+      "cross_steeps": [
+        "P",
+        "E"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "Flickering",
+        "evidence": "Political oscillation between green ambition and populist resistance"
+      },
+      "psst_dimensions": {
+        "SR": 80,
+        "TC": 78,
+        "DC": 75,
+        "ES": 80,
+        "CC": 78,
+        "IC": 80
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.9
+    },
+    {
+      "id": "news-20260306-lemonde-001",
+      "title": "France and Germany Pledge Energy Policy Alignment for European Grid Integration",
+      "source": {
+        "name": "Le Monde",
+        "type": "news_major",
+        "url": "https://www.lemonde.fr/economie/article/2026/03/05/france-germany-energy-alignment.html",
+        "published_date": "2026-03-05",
+        "language": "fr",
+        "region": "FR"
+      },
+      "content": {
+        "abstract": "France and Germany have agreed to harmonize energy policies in Europe's interest, pledging to expand cross-border grid connections and develop hydrogen infrastructure linking to southwestern Europe. The cooperation aims to prevent future energy crises amid Middle East supply disruptions.",
+        "keywords": [
+          "France",
+          "Germany",
+          "energy policy",
+          "hydrogen",
+          "European integration"
+        ],
+        "language": "fr"
+      },
+      "steeps_category": "E_Environmental",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "uncertainty_level": "Low",
+      "impact_score": 3,
+      "impact_direction": "positive",
+      "impact_description": "Franco-German energy alignment could accelerate European energy independence; hydrogen infrastructure is a structural enabler for decarbonization",
+      "probability": 4.0,
+      "urgency": 3.0,
+      "novelty_score": 3.0,
+      "cross_steeps": [
+        "E",
+        "T"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Constructive policy response to energy crisis"
+      },
+      "psst_dimensions": {
+        "SR": 75,
+        "TC": 72,
+        "DC": 70,
+        "ES": 75,
+        "CC": 72,
+        "IC": 75
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.89
+    },
+    {
+      "id": "news-20260306-rt-001",
+      "title": "Putin Floats Cutting Europe Gas Sales, Redirecting to Premium Asian Markets",
+      "source": {
+        "name": "RT (Russia Today)",
+        "type": "news_intl",
+        "url": "https://www.rt.com/business/putin-europe-gas-redirect-asia-2026/",
+        "published_date": "2026-03-05",
+        "language": "ru",
+        "region": "RU"
+      },
+      "content": {
+        "abstract": "Russian President Vladimir Putin suggested redirecting natural gas supplies from Europe to premium Asian markets as European gas prices reached three-year highs. The move would weaponize Europe's energy vulnerability during the Iran crisis, potentially pushing European gas prices above 60 EUR/MWh and accelerating the continent's energy transition.",
+        "keywords": [
+          "Putin",
+          "gas exports",
+          "Europe",
+          "Asia",
+          "energy weaponization"
+        ],
+        "language": "ru"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "Russia exploiting energy vulnerability as geopolitical weapon; compound crisis scenario (Iran + Russia) could push Europe into energy emergency",
+      "probability": 3.0,
+      "urgency": 5.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "ORANGE",
+        "pattern": "Flickering",
+        "evidence": "Russia oscillating between threats and continued supply"
+      },
+      "psst_dimensions": {
+        "SR": 85,
+        "TC": 82,
+        "DC": 78,
+        "ES": 85,
+        "CC": 82,
+        "IC": 85
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.88
+    },
+    {
+      "id": "news-20260306-elfinanciero-001",
+      "title": "Russian LNG Tanker Explodes and Sinks in Mediterranean Off Libya",
+      "source": {
+        "name": "El Financiero",
+        "type": "news_econ",
+        "url": "https://www.elfinanciero.com.mx/mundo/tanker-lng-ruso-hunde-mediterraneo-2026/",
+        "published_date": "2026-03-05",
+        "language": "es",
+        "region": "MX"
+      },
+      "content": {
+        "abstract": "The Russian-flagged Arctic Metagaz tanker carrying 61,000 tons of LNG exploded, caught fire and sank approximately 240km north of Sirte, Libya. All 30 crew members were rescued safely from a lifeboat. The incident adds to Mediterranean maritime security concerns and further tightens global LNG supply during the Iran crisis.",
+        "keywords": [
+          "LNG tanker",
+          "Mediterranean",
+          "maritime security",
+          "Russia",
+          "Libya"
+        ],
+        "language": "es"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 3,
+      "impact_direction": "negative",
+      "impact_description": "LNG tanker loss during global energy crisis compounds supply tightness; Mediterranean maritime security deterioration adds shipping insurance costs",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "E_Environmental"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "none",
+        "evidence": "Individual incident but part of broader pattern of maritime disruption"
+      },
+      "psst_dimensions": {
+        "SR": 78,
+        "TC": 75,
+        "DC": 72,
+        "ES": 78,
+        "CC": 75,
+        "IC": 78
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.9
+    },
+    {
+      "id": "news-20260306-chosun-001",
+      "title": "KOSPI Circuit Breakers Triggered as Iran Shock Hits Korean Markets",
+      "source": {
+        "name": "Chosun Ilbo",
+        "type": "news_major",
+        "url": "https://www.chosun.com/economy/stock-market/2026/03/05/kospi-circuit-breaker/",
+        "published_date": "2026-03-05",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "Korean stock trading was halted after KOSPI plunged triggering circuit breakers amid the Iran crisis shock. President Lee Jae Myung ordered rapid deployment of a 100 trillion won financial market stabilization fund and urged officials to consider temporary fuel price caps as Asia's fourth-largest economy braces for economic fallout.",
+        "keywords": [
+          "KOSPI",
+          "circuit breaker",
+          "Iran crisis",
+          "stabilization fund",
+          "Korean economy"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "Circuit breaker activation signals severe market stress; 100 trillion won fund deployment indicates crisis-level government response",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 3.8,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "RED",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Circuit breaker = systemic stress indicator; government emergency fund = crisis acknowledgment"
+      },
+      "psst_dimensions": {
+        "SR": 90,
+        "TC": 88,
+        "DC": 85,
+        "ES": 90,
+        "CC": 88,
+        "IC": 90
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.93
+    },
+    {
+      "id": "news-20260306-mk-001",
+      "title": "Korea Triples AI Budget to 10.1 Trillion Won, Targets Top-3 AI Power Status",
+      "source": {
+        "name": "Maeil Business Newspaper",
+        "type": "news_major",
+        "url": "https://www.mk.co.kr/news/economy/2026/03/05/ai-budget-10-trillion/",
+        "published_date": "2026-03-05",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "South Korea will more than triple its AI-related budget from 3.3 trillion won to 10.1 trillion won, aiming to become one of the world's top three AI powers. President Lee Jae-myung's 'startup-centered society' vision signals a structural transformation from conglomerate-dominated growth to entrepreneurial and venture capital-led innovation.",
+        "keywords": [
+          "Korea AI budget",
+          "startup society",
+          "innovation policy",
+          "venture capital",
+          "digital transformation"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "uncertainty_level": "Low",
+      "impact_score": 4,
+      "impact_direction": "positive",
+      "impact_description": "3x AI budget increase represents paradigm-level national technology policy shift; could reshape Korea's position in global AI competition",
+      "probability": 4.5,
+      "urgency": 3.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "E",
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Constructive policy signal"
+      },
+      "psst_dimensions": {
+        "SR": 85,
+        "TC": 82,
+        "DC": 78,
+        "ES": 85,
+        "CC": 80,
+        "IC": 85
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.94
+    },
+    {
+      "id": "news-20260306-caixin-001",
+      "title": "China Plans 300 Billion Yuan Special Bonds to Recapitalize Major Banks",
+      "source": {
+        "name": "Caixin",
+        "type": "news_econ",
+        "url": "https://www.caixin.com/2026-03-05/bank-recapitalization-bonds.html",
+        "published_date": "2026-03-05",
+        "language": "zh",
+        "region": "CN"
+      },
+      "content": {
+        "abstract": "The Chinese government plans to issue 300 billion yuan ($44 billion) in special government bonds this year to supplement core Tier 1 capital for major commercial banks. This is the latest move to strengthen China's $69 trillion financial system amid a cooling economy and volatile markets driven by the property crisis.",
+        "keywords": [
+          "China banks",
+          "special bonds",
+          "capital injection",
+          "financial system",
+          "property crisis"
+        ],
+        "language": "zh"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "uncertainty_level": "Medium",
+      "impact_score": 4,
+      "impact_direction": "mixed",
+      "impact_description": "$44B bank recapitalization signals systemic financial stress in China; necessary stabilization but reveals depth of property crisis contagion",
+      "probability": 4.8,
+      "urgency": 4.0,
+      "novelty_score": 3.2,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Government forced into large-scale bank recapitalization"
+      },
+      "psst_dimensions": {
+        "SR": 85,
+        "TC": 82,
+        "DC": 78,
+        "ES": 85,
+        "CC": 82,
+        "IC": 85
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.91
+    },
+    {
+      "id": "news-20260306-techcrunch-001",
+      "title": "FDA Grants Breakthrough Designation to Generative AI Chatbot for Surgical Patients",
+      "source": {
+        "name": "TechCrunch",
+        "type": "news_tech",
+        "url": "https://techcrunch.com/2026/03/05/fda-breakthrough-ai-chatbot-surgery/",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "The FDA has granted breakthrough device designation to RecovryAI's generative AI chatbot designed for post-surgical patient care. The designation signals how regulatory frameworks for AI in healthcare are evolving and could set precedent for generative AI medical device classification.",
+        "keywords": [
+          "FDA",
+          "AI healthcare",
+          "generative AI",
+          "medical devices",
+          "breakthrough designation"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "uncertainty_level": "Medium",
+      "impact_score": 3,
+      "impact_direction": "positive",
+      "impact_description": "First FDA breakthrough designation for generative AI in healthcare establishes regulatory precedent; could accelerate AI medical device approvals",
+      "probability": 4.2,
+      "urgency": 3.0,
+      "novelty_score": 4.2,
+      "cross_steeps": [
+        "S",
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Regulatory framework evolution"
+      },
+      "psst_dimensions": {
+        "SR": 82,
+        "TC": 80,
+        "DC": 75,
+        "ES": 82,
+        "CC": 78,
+        "IC": 82
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-arstechnica-001",
+      "title": "China's Five-Year Plan Targets Quantum Leadership and AI Expansion",
+      "source": {
+        "name": "Ars Technica",
+        "type": "news_tech",
+        "url": "https://arstechnica.com/science/2026/03/china-five-year-plan-quantum-ai/",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "China's new five-year policy blueprint prioritizes AI and quantum computing as central technologies for economic growth and strategic competition. The plan calls for expanded investment in scalable quantum computers, development of integrated space-earth quantum communication networks, and large computing infrastructure for advanced AI systems.",
+        "keywords": [
+          "China five-year plan",
+          "quantum computing",
+          "AI expansion",
+          "tech competition",
+          "strategic technology"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Megatrend",
+      "three_horizons": "H3",
+      "uncertainty_level": "Medium",
+      "impact_score": 4,
+      "impact_direction": "mixed",
+      "impact_description": "China's strategic technology investment plan intensifies global tech competition; space-earth quantum communication network is a paradigm-level infrastructure vision",
+      "probability": 4.2,
+      "urgency": 3.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "P",
+        "E"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Long-term strategic plan"
+      },
+      "psst_dimensions": {
+        "SR": 85,
+        "TC": 82,
+        "DC": 78,
+        "ES": 82,
+        "CC": 80,
+        "IC": 85
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-koreaherald-001",
+      "title": "Seoul Home Prices Projected to Rise 4.2% in 2026 Amid Supply Cliff",
+      "source": {
+        "name": "The Korea Herald",
+        "type": "news_intl",
+        "url": "https://www.koreaherald.com/article/10643738",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "Home prices in Seoul are projected to rise 4.2% in 2026 while jeonse rents climb 4.7%, as the national economy grows at barely half that pace. A 'supply cliff' in new housing construction threatens to widen the affordability gap.",
+        "keywords": [
+          "Seoul housing",
+          "property prices",
+          "jeonse",
+          "supply cliff",
+          "affordability"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "uncertainty_level": "Low",
+      "impact_score": 3,
+      "impact_direction": "negative",
+      "impact_description": "Housing affordability crisis in Seoul continues; supply cliff will intensify social inequality pressures",
+      "probability": 4.5,
+      "urgency": 3.0,
+      "novelty_score": 2.0,
+      "cross_steeps": [
+        "E"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Continuing trend"
+      },
+      "psst_dimensions": {
+        "SR": 72,
+        "TC": 70,
+        "DC": 68,
+        "ES": 72,
+        "CC": 70,
+        "IC": 72
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-nknews-001",
+      "title": "China-Japan Diplomatic Crisis Escalates with Rare Earth Export Restrictions",
+      "source": {
+        "name": "NK News",
+        "type": "news_intl",
+        "url": "https://www.nknews.org/2026/03/china-japan-crisis-rare-earth/",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "The China-Japan diplomatic crisis has further escalated with China restricting exports of dual-use items and rare earth materials to Japan. China has called on citizens to refrain from traveling to Japan, reimposed a de facto ban on Japanese seafood imports, and cancelled cultural exchanges. Japan's defense spending has accelerated to 2% of GDP, two years ahead of schedule.",
+        "keywords": [
+          "China-Japan",
+          "rare earth",
+          "diplomatic crisis",
+          "export controls",
+          "defense spending"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "uncertainty_level": "High",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "China-Japan diplomatic crisis with rare earth weaponization threatens global technology supply chains; accelerated Japanese defense spending signals security paradigm shift",
+      "probability": 4.5,
+      "urgency": 4.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "E",
+        "T"
+      ],
+      "tipping_point": {
+        "alert_level": "ORANGE",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Escalation ladder: economic sanctions -> cultural bans -> export controls -> defense buildup"
+      },
+      "psst_dimensions": {
+        "SR": 88,
+        "TC": 85,
+        "DC": 82,
+        "ES": 88,
+        "CC": 85,
+        "IC": 88
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-straitstimes-001",
+      "title": "DP World Suspends Jebel Ali Port Operations After Drone Strike Fire",
+      "source": {
+        "name": "The Straits Times",
+        "type": "news_intl",
+        "url": "https://www.straitstimes.com/world/middle-east/dp-world-jebel-ali-port-drone-fire",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "SG"
+      },
+      "content": {
+        "abstract": "DP World reports operations at Jebel Ali port in Dubai, one of the world's busiest container ports, have been suspended after a fire caused by aerial interception of a drone. The disruption threatens global supply chains as major Gulf shipping hubs face security threats from the expanding Iran conflict.",
+        "keywords": [
+          "Jebel Ali",
+          "Dubai port",
+          "drone strike",
+          "supply chain",
+          "Gulf shipping"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "Jebel Ali is the world's 9th busiest container port; suspension disrupts global supply chains and Gulf commercial hub status",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 4.0,
+      "cross_steeps": [
+        "P",
+        "T"
+      ],
+      "tipping_point": {
+        "alert_level": "RED",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Major commercial infrastructure directly impacted by conflict"
+      },
+      "psst_dimensions": {
+        "SR": 90,
+        "TC": 88,
+        "DC": 85,
+        "ES": 90,
+        "CC": 88,
+        "IC": 90
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-timesofisrael-001",
+      "title": "Israel Halts Gas Production at Karish and Leviathan Fields",
+      "source": {
+        "name": "The Times of Israel",
+        "type": "news_major",
+        "url": "https://www.timesofisrael.com/israel-halts-gas-production-karish-leviathan/",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "IL"
+      },
+      "content": {
+        "abstract": "Israel has halted natural gas production at the Karish and Leviathan offshore fields, disrupting pipeline exports to Egypt and Jordan. The shutdown affects regional energy supply as Israel redirects security resources to the Iran conflict.",
+        "keywords": [
+          "Israel gas fields",
+          "Leviathan",
+          "Karish",
+          "Egypt",
+          "energy disruption"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 3,
+      "impact_direction": "negative",
+      "impact_description": "Israeli gas shutdown cascades to Egypt and Jordan energy supply; compounds regional energy crisis beyond Hormuz",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "ORANGE",
+        "pattern": "none",
+        "evidence": "Energy supply disruption spreading to neighboring countries"
+      },
+      "psst_dimensions": {
+        "SR": 82,
+        "TC": 78,
+        "DC": 75,
+        "ES": 82,
+        "CC": 78,
+        "IC": 82
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-globeandmail-001",
+      "title": "Ocean Levels Rising Far Faster Than Government Assessments Predicted",
+      "source": {
+        "name": "The Globe and Mail",
+        "type": "news_major",
+        "url": "https://www.theglobeandmail.com/world/article-ocean-levels-rising-faster-2026/",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "CA"
+      },
+      "content": {
+        "abstract": "New research reveals that human activity is causing ocean levels to rise far faster than government planners previously estimated. Most scientific assessments have been underestimating baseline coastal water heights by 12 inches (30 centimeters). The findings could force major revisions to coastal infrastructure planning worldwide.",
+        "keywords": [
+          "sea level rise",
+          "climate change",
+          "coastal planning",
+          "scientific assessment",
+          "infrastructure"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "E_Environmental",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H3",
+      "uncertainty_level": "Medium",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "30cm underestimation of baseline sea levels has massive implications for coastal infrastructure planning affecting billions; paradigm-shifting scientific finding",
+      "probability": 4.2,
+      "urgency": 2.0,
+      "novelty_score": 4.5,
+      "cross_steeps": [
+        "S",
+        "E"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Scientific assessments consistently revised upward over time"
+      },
+      "psst_dimensions": {
+        "SR": 85,
+        "TC": 82,
+        "DC": 78,
+        "ES": 88,
+        "CC": 82,
+        "IC": 85
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-japantimes-001",
+      "title": "Japan National Museums to Implement Dual-Pricing System for Foreign Tourists",
+      "source": {
+        "name": "The Japan Times",
+        "type": "news_intl",
+        "url": "https://www.japantimes.co.jp/news/2026/03/05/japan/national-museums-dual-pricing/",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "JP"
+      },
+      "content": {
+        "abstract": "Japan plans to introduce a dual-pricing system at national museums by March 2031, charging foreign tourists higher admission fees to maximize tourism revenue.",
+        "keywords": [
+          "Japan museums",
+          "dual pricing",
+          "tourism revenue",
+          "overtourism",
+          "cultural policy"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "S",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "uncertainty_level": "Low",
+      "impact_score": 2,
+      "impact_direction": "mixed",
+      "impact_description": "Dual-pricing signals a broader trend of countries monetizing overtourism; ethical implications for cultural access",
+      "probability": 4.5,
+      "urgency": 2.0,
+      "novelty_score": 3.0,
+      "cross_steeps": [
+        "E",
+        "s"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Policy trend"
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "TC": 62,
+        "DC": 60,
+        "ES": 65,
+        "CC": 62,
+        "IC": 65
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-bloomberg-001",
+      "title": "ISM Services PMI Surges to 56.1, Fastest US Services Expansion Since Mid-2022",
+      "source": {
+        "name": "Bloomberg",
+        "type": "news_econ",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-05/ism-services-pmi-surges",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "US"
+      },
+      "content": {
+        "abstract": "ISM Services PMI blew past estimates at 56.1, the fastest expansion in the US services sector since mid-2022. Business Activity surged to 59.9 and New Orders jumped to 58.6, both multi-year highs, signaling robust consumer demand. The strong data complicates the Fed's rate trajectory as inflation risks from Middle East energy disruptions loom.",
+        "keywords": [
+          "ISM services",
+          "PMI",
+          "US economy",
+          "Federal Reserve",
+          "inflation"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "uncertainty_level": "Medium",
+      "impact_score": 3,
+      "impact_direction": "mixed",
+      "impact_description": "Strong US services data contradicts recession fears but complicates Fed rate policy during energy shock; stagflation risk",
+      "probability": 5.0,
+      "urgency": 4.0,
+      "novelty_score": 2.5,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Economic data point"
+      },
+      "psst_dimensions": {
+        "SR": 75,
+        "TC": 72,
+        "DC": 70,
+        "ES": 75,
+        "CC": 72,
+        "IC": 75
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-sedaily-001",
+      "title": "Korea Declares 'Startup-Centered Society' in Structural Growth Shift",
+      "source": {
+        "name": "Seoul Economic Daily",
+        "type": "news_econ",
+        "url": "https://www.sedaily.com/NewsView/2026030500001",
+        "published_date": "2026-03-05",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "President Lee Jae-myung declared Korea will shift its national growth strategy toward a 'startup-centered society', signaling a structural transformation from conglomerate-dominated to venture capital and open innovation-led growth.",
+        "keywords": [
+          "startup society",
+          "venture capital",
+          "innovation policy",
+          "regulatory sandbox",
+          "IPO reform"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "uncertainty_level": "Medium",
+      "impact_score": 3,
+      "impact_direction": "positive",
+      "impact_description": "Structural shift from chaebol-dominated to startup-driven growth could reshape Korea's economic model; signals global trend of innovation policy reform",
+      "probability": 4.0,
+      "urgency": 3.0,
+      "novelty_score": 3.2,
+      "cross_steeps": [
+        "T",
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Policy announcement"
+      },
+      "psst_dimensions": {
+        "SR": 78,
+        "TC": 75,
+        "DC": 72,
+        "ES": 78,
+        "CC": 75,
+        "IC": 78
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.93
+    },
+    {
+      "id": "news-20260306-zdnet-001",
+      "title": "Huawei Launches AI Data Platform for Enterprise AI Adoption Acceleration",
+      "source": {
+        "name": "ZDNet Korea",
+        "type": "news_tech",
+        "url": "https://zdnet.co.kr/view/?no=20260305100001",
+        "published_date": "2026-03-05",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "Huawei launched its AI Data Platform designed to accelerate enterprise AI adoption by providing integrated data management, training pipeline optimization, and inference deployment tools. The platform supports 5G-A and AI convergence, marking Huawei's push toward the 'Agentic Internet Era'.",
+        "keywords": [
+          "Huawei",
+          "AI data platform",
+          "enterprise AI",
+          "5G-A",
+          "agentic internet"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "uncertainty_level": "Medium",
+      "impact_score": 3,
+      "impact_direction": "positive",
+      "impact_description": "Huawei's 'Agentic Internet' concept signals next phase of AI-network convergence; enterprise AI platform democratizes adoption",
+      "probability": 4.0,
+      "urgency": 3.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "E"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Technology platform launch"
+      },
+      "psst_dimensions": {
+        "SR": 75,
+        "TC": 72,
+        "DC": 70,
+        "ES": 75,
+        "CC": 72,
+        "IC": 75
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.92
+    },
+    {
+      "id": "news-20260306-arabnews-001",
+      "title": "Brent Crude Approaches $100 as Prolonged Hormuz Disruption Scenario Materializes",
+      "source": {
+        "name": "Arab News",
+        "type": "news_major",
+        "url": "https://www.arabnews.com/node/brent-crude-100-hormuz-disruption",
+        "published_date": "2026-03-05",
+        "language": "en",
+        "region": "SA"
+      },
+      "content": {
+        "abstract": "Global energy markets face a worst-case scenario as prolonged Strait of Hormuz disruption pushes Brent crude toward $100/barrel. European natural gas prices threaten to break 60 EUR/MWh. Central banks worldwide face a policy dilemma as oil shock fuels inflation while economic growth slows.",
+        "keywords": [
+          "Brent crude",
+          "oil price",
+          "Hormuz disruption",
+          "central banks",
+          "inflation"
+        ],
+        "language": "en"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "uncertainty_level": "High",
+      "impact_score": 5,
+      "impact_direction": "negative",
+      "impact_description": "Oil approaching $100/bbl + gas at 60 EUR/MWh creates compound stagflation pressure globally; central banks trapped between inflation and growth",
+      "probability": 4.2,
+      "urgency": 5.0,
+      "novelty_score": 3.8,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "RED",
+        "pattern": "Critical Slowing Down",
+        "evidence": "Price approaching psychologically critical $100 threshold"
+      },
+      "psst_dimensions": {
+        "SR": 92,
+        "TC": 90,
+        "DC": 88,
+        "ES": 92,
+        "CC": 90,
+        "IC": 92
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 1.0
+    },
+    {
+      "id": "news-20260306-aitimes-001",
+      "title": "March 2026 Federal Deadlines Set to Reshape US AI Regulatory Landscape",
+      "source": {
+        "name": "AI Times",
+        "type": "news_tech",
+        "url": "https://www.aitimes.com/news/articleView.html?idxno=ai-regulation-march-2026",
+        "published_date": "2026-03-05",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "March 2026 marks a critical juncture for US AI regulation as multiple federal deadlines converge. Trump's executive order proposes federal preemption of state AI laws, while California's Transparency in Frontier AI Act and Texas's Responsible AI Governance Act take effect. The EU's second draft Code of Practice for AI content marking is expected this month.",
+        "keywords": [
+          "AI regulation",
+          "federal preemption",
+          "state AI laws",
+          "EU AI Act",
+          "content marking"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "uncertainty_level": "Medium",
+      "impact_score": 3,
+      "impact_direction": "mixed",
+      "impact_description": "Federal-state AI regulatory tension could fragment US innovation landscape; EU code of practice sets global precedent for AI content governance",
+      "probability": 4.5,
+      "urgency": 4.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "T",
+        "s"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Regulatory convergence"
+      },
+      "psst_dimensions": {
+        "SR": 80,
+        "TC": 78,
+        "DC": 75,
+        "ES": 80,
+        "CC": 78,
+        "IC": 80
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.93
+    },
+    {
+      "id": "news-20260306-donga-001",
+      "title": "Brazil Minas Gerais Floods Kill 72 as Climate-Driven Extreme Weather Intensifies",
+      "source": {
+        "name": "Dong-A Ilbo",
+        "type": "news_major",
+        "url": "https://www.donga.com/news/Inter/article/2026/03/05/brazil-floods",
+        "published_date": "2026-03-05",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "The death toll from Minas Gerais floods in Brazil reached 72, with warnings of renewed heavy rainfall across Minas Gerais, Rio, and Sao Paulo states through March 7.",
+        "keywords": [
+          "Brazil floods",
+          "Minas Gerais",
+          "extreme weather",
+          "climate change",
+          "natural disaster"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "E_Environmental",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "uncertainty_level": "Medium",
+      "impact_score": 3,
+      "impact_direction": "negative",
+      "impact_description": "Climate-driven extreme weather events intensifying in frequency and severity across South America",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 2.5,
+      "cross_steeps": [
+        "S"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "none",
+        "evidence": "Pattern of escalating climate disasters"
+      },
+      "psst_dimensions": {
+        "SR": 75,
+        "TC": 72,
+        "DC": 70,
+        "ES": 78,
+        "CC": 72,
+        "IC": 75
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.92
+    },
+    {
+      "id": "news-20260306-bloter-001",
+      "title": "Quantum Infrastructure Becomes Battleground as Hardware Alone No Longer Drives Progress",
+      "source": {
+        "name": "Bloter",
+        "type": "news_tech",
+        "url": "https://www.bloter.net/newsView/blt202603050001",
+        "published_date": "2026-03-05",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "The quantum computing industry is shifting from qubit counts and hardware-focused R&D to software, simulation, and middleware that enable real systems. 2026 marks the moment when 'quantum infrastructure' becomes the real competitive battleground. AI is proving essential to quantum error-correction, noise modeling, and pulse-level calibration.",
+        "keywords": [
+          "quantum infrastructure",
+          "quantum software",
+          "middleware",
+          "AI-quantum convergence",
+          "error correction"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "uncertainty_level": "Medium",
+      "impact_score": 3,
+      "impact_direction": "positive",
+      "impact_description": "Quantum industry maturation from hardware to infrastructure signals transition from research to real-world deployment phase",
+      "probability": 4.0,
+      "urgency": 3.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "E"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Industry maturation signal"
+      },
+      "psst_dimensions": {
+        "SR": 78,
+        "TC": 75,
+        "DC": 72,
+        "ES": 78,
+        "CC": 75,
+        "IC": 78
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.92
+    },
+    {
+      "id": "news-20260306-khan-001",
+      "title": "Zimbabwe Bans All Raw Mineral and Lithium Concentrate Exports",
+      "source": {
+        "name": "Kyunghyang Shinmun",
+        "type": "news_major",
+        "url": "https://www.khan.co.kr/world/world-general/article/202603051200001",
+        "published_date": "2026-03-05",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "Zimbabwe's Cabinet formally ratified an immediate ban on all raw mineral and lithium concentrate exports. As Africa's largest lithium producer generating $571.6 million in government revenue in 2025, the move signals a resource nationalism trend that could reshape global critical mineral supply chains, particularly for EV battery manufacturing.",
+        "keywords": [
+          "Zimbabwe",
+          "lithium exports",
+          "resource nationalism",
+          "critical minerals",
+          "EV batteries"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "uncertainty_level": "High",
+      "impact_score": 4,
+      "impact_direction": "negative",
+      "impact_description": "Resource nationalism in critical minerals could cascade; if other African lithium producers follow, global EV supply chain faces structural disruption",
+      "probability": 3.8,
+      "urgency": 3.0,
+      "novelty_score": 4.2,
+      "cross_steeps": [
+        "P",
+        "T",
+        "E_Environmental"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "Flickering",
+        "evidence": "Resource nationalism sentiment oscillating across African mining nations"
+      },
+      "psst_dimensions": {
+        "SR": 85,
+        "TC": 82,
+        "DC": 78,
+        "ES": 85,
+        "CC": 82,
+        "IC": 85
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.92
+    },
+    {
+      "id": "news-20260306-hankyung-001",
+      "title": "Trump Disavows $220M Border Security Ad Campaign Featuring DHS Secretary",
+      "source": {
+        "name": "Korea Economic Daily",
+        "type": "news_major",
+        "url": "https://www.hankyung.com/international/article/2026030500001",
+        "published_date": "2026-03-05",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "President Trump told Reuters he did not sign off on a $220 million border security advertising campaign featuring DHS Secretary Kristi Noem, who faced bipartisan criticism over the commercials during congressional hearings.",
+        "keywords": [
+          "Trump",
+          "border security",
+          "DHS",
+          "Kristi Noem",
+          "government spending"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "uncertainty_level": "Low",
+      "impact_score": 2,
+      "impact_direction": "negative",
+      "impact_description": "Internal governance tensions within US administration; spending accountability questions",
+      "probability": 5.0,
+      "urgency": 4.0,
+      "novelty_score": 2.0,
+      "cross_steeps": [],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Governance incident"
+      },
+      "psst_dimensions": {
+        "SR": 60,
+        "TC": 58,
+        "DC": 55,
+        "ES": 60,
+        "CC": 58,
+        "IC": 60
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.93
+    },
+    {
+      "id": "news-20260306-edaily-001",
+      "title": "South Africa Declares 2026 Budget the Beginning of Economic Recovery",
+      "source": {
+        "name": "Edaily",
+        "type": "news_econ",
+        "url": "https://www.edaily.co.kr/news/read?newsId=202603051000001",
+        "published_date": "2026-03-05",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "President Ramaphosa declared South Africa's 2026 budget marks the beginning of the country's economic recovery. Fuel prices increased citing rising Brent crude and US-Iran Hormuz disruption. Standard Bank PMI held at neutral 50.0 for the second consecutive month.",
+        "keywords": [
+          "South Africa",
+          "economic recovery",
+          "budget",
+          "fuel prices",
+          "PMI"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "uncertainty_level": "Medium",
+      "impact_score": 2,
+      "impact_direction": "mixed",
+      "impact_description": "South Africa economic recovery narrative tested by energy price shocks from Middle East conflict",
+      "probability": 3.5,
+      "urgency": 3.0,
+      "novelty_score": 2.0,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Economic data point"
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "TC": 62,
+        "DC": 60,
+        "ES": 65,
+        "CC": 62,
+        "IC": 65
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.91
+    },
+    {
+      "id": "news-20260306-mt-001",
+      "title": "Brazil's Economy Grows Just 2.3% in 2025, Weakest Since Pandemic",
+      "source": {
+        "name": "Money Today",
+        "type": "news_econ",
+        "url": "https://www.mt.co.kr/view/mtview.php?type=1&no=2026030509001",
+        "published_date": "2026-03-05",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "Brazil's economy grew just 2.3% in 2025, its weakest performance since the pandemic, as the 15% Selic rate choked household consumption and investment.",
+        "keywords": [
+          "Brazil GDP",
+          "Selic rate",
+          "emerging markets",
+          "services PMI",
+          "economic slowdown"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "uncertainty_level": "Low",
+      "impact_score": 2,
+      "impact_direction": "negative",
+      "impact_description": "Brazil's growth slowdown reflects broader emerging market challenges from high interest rates",
+      "probability": 5.0,
+      "urgency": 3.0,
+      "novelty_score": 2.0,
+      "cross_steeps": [],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Economic data"
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "TC": 62,
+        "DC": 60,
+        "ES": 65,
+        "CC": 62,
+        "IC": 65
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.91
+    },
+    {
+      "id": "news-20260306-sciencetimes-001",
+      "title": "New Privacy Laws and AI Regulations Converge Across US States in 2026",
+      "source": {
+        "name": "Science Times",
+        "type": "news_tech",
+        "url": "https://www.sciencetimes.co.kr/?news=privacy-ai-regulation-2026",
+        "published_date": "2026-03-05",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "New comprehensive data privacy laws take effect in Indiana, Kentucky, and Rhode Island in 2026, while California, Colorado, Connecticut, Oregon, and Utah implement modifications to existing privacy laws. AI regulations converge with data protection obligations.",
+        "keywords": [
+          "data privacy",
+          "AI regulation",
+          "state laws",
+          "CCPA",
+          "privacy governance"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "uncertainty_level": "Low",
+      "impact_score": 3,
+      "impact_direction": "mixed",
+      "impact_description": "Converging privacy and AI regulations create compliance complexity for tech companies but strengthen consumer protections",
+      "probability": 5.0,
+      "urgency": 4.0,
+      "novelty_score": 2.8,
+      "cross_steeps": [
+        "T",
+        "s"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Regulatory evolution"
+      },
+      "psst_dimensions": {
+        "SR": 75,
+        "TC": 72,
+        "DC": 70,
+        "ES": 75,
+        "CC": 72,
+        "IC": 75
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.92
+    },
+    {
+      "id": "news-20260306-sisain-001",
+      "title": "Fukushima Pay-It-Forward Initiative Spreads to 130 Stores as Community Resilience Model",
+      "source": {
+        "name": "SisaIN",
+        "type": "news_major",
+        "url": "https://www.sisain.co.kr/news/articleView.html?idxno=fukushima-2026",
+        "published_date": "2026-03-05",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "A pay-it-forward initiative (otagaisama) born in Fukushima is gaining popularity across Japan and internationally, with approximately 130 stores participating. The model represents an emerging social innovation trend in community resilience.",
+        "keywords": [
+          "Fukushima",
+          "pay-it-forward",
+          "community resilience",
+          "social innovation",
+          "mutual aid"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "s",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H3",
+      "uncertainty_level": "Medium",
+      "impact_score": 2,
+      "impact_direction": "positive",
+      "impact_description": "Community-driven resilience model represents counter-trend to atomized crisis response; could scale as social innovation paradigm",
+      "probability": 3.0,
+      "urgency": 2.0,
+      "novelty_score": 4.0,
+      "cross_steeps": [
+        "S"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Social innovation"
+      },
+      "psst_dimensions": {
+        "SR": 68,
+        "TC": 65,
+        "DC": 62,
+        "ES": 70,
+        "CC": 65,
+        "IC": 68
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.9
+    },
+    {
+      "id": "news-20260306-businesspost-001",
+      "title": "Quantum Computing and National Security: The Intersection Deepens in 2026",
+      "source": {
+        "name": "Business Post",
+        "type": "news_econ",
+        "url": "https://www.businesspost.co.kr/BP?command=article_view&num=quantum-security-2026",
+        "published_date": "2026-03-05",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "The intersection between quantum computing and national security is intensifying as governments race to achieve quantum advantage. Post-quantum cryptography standards emerge amid 'harvest now, decrypt later' attack concerns.",
+        "keywords": [
+          "quantum computing",
+          "national security",
+          "post-quantum cryptography",
+          "military intelligence",
+          "harvest decrypt"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "T",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "uncertainty_level": "High",
+      "impact_score": 3,
+      "impact_direction": "mixed",
+      "impact_description": "Quantum-security intersection accelerates arms race dynamics; 'harvest now, decrypt later' poses existential risk to current encryption",
+      "probability": 4.0,
+      "urgency": 3.0,
+      "novelty_score": 3.5,
+      "cross_steeps": [
+        "P"
+      ],
+      "tipping_point": {
+        "alert_level": "YELLOW",
+        "pattern": "none",
+        "evidence": "Approaching quantum cryptographic threat horizon"
+      },
+      "psst_dimensions": {
+        "SR": 80,
+        "TC": 78,
+        "DC": 75,
+        "ES": 80,
+        "CC": 78,
+        "IC": 80
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.91
+    },
+    {
+      "id": "news-20260306-hani-001",
+      "title": "Blackout Leaves Millions Without Power in Cuba's Western Region",
+      "source": {
+        "name": "Hankyoreh",
+        "type": "news_major",
+        "url": "https://www.hani.co.kr/arti/international/2026/03/05/cuba-blackout",
+        "published_date": "2026-03-05",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "A massive power outage affected Cuba's western region from Pinar del Rio to Camaguey after a thermoelectric plant shutdown. Millions were left without electricity, highlighting the fragility of Cuba's aging energy infrastructure.",
+        "keywords": [
+          "Cuba",
+          "blackout",
+          "energy infrastructure",
+          "power outage",
+          "island vulnerability"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "E",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "uncertainty_level": "Medium",
+      "impact_score": 2,
+      "impact_direction": "negative",
+      "impact_description": "Cuba's infrastructure collapse is a canary signal for other island/vulnerable economies during global energy price shock",
+      "probability": 5.0,
+      "urgency": 5.0,
+      "novelty_score": 2.5,
+      "cross_steeps": [
+        "S"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Recurring infrastructure failure"
+      },
+      "psst_dimensions": {
+        "SR": 65,
+        "TC": 62,
+        "DC": 60,
+        "ES": 65,
+        "CC": 62,
+        "IC": 65
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.91
+    },
+    {
+      "id": "news-20260306-joongang-001",
+      "title": "Korea-China Relations Enter 'Full Restoration' Phase After Lee-Xi Summit",
+      "source": {
+        "name": "JoongAng Ilbo",
+        "type": "news_major",
+        "url": "https://www.joongang.co.kr/article/2026030500001",
+        "published_date": "2026-03-05",
+        "language": "ko",
+        "region": "KR"
+      },
+      "content": {
+        "abstract": "South Korean President Lee Jae Myung declared 2026 'the first year of full-scale restoration of Korea-China relations' after a summit with President Xi Jinping. The two leaders agreed to expand economic cooperation and potentially lift the unofficial ban on Korean cultural exports to China.",
+        "keywords": [
+          "Korea-China",
+          "Lee-Xi summit",
+          "diplomatic restoration",
+          "cultural exchange",
+          "economic cooperation"
+        ],
+        "language": "ko"
+      },
+      "steeps_category": "P",
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "uncertainty_level": "Medium",
+      "impact_score": 3,
+      "impact_direction": "positive",
+      "impact_description": "Korea-China diplomatic restoration could reshape East Asian geopolitics amid US-China competition; cultural exchange resumption has soft power implications",
+      "probability": 3.5,
+      "urgency": 3.0,
+      "novelty_score": 3.2,
+      "cross_steeps": [
+        "E",
+        "S"
+      ],
+      "tipping_point": {
+        "alert_level": "GREEN",
+        "pattern": "none",
+        "evidence": "Diplomatic normalization"
+      },
+      "psst_dimensions": {
+        "SR": 78,
+        "TC": 75,
+        "DC": 72,
+        "ES": 78,
+        "CC": 75,
+        "IC": 78
+      },
+      "collected_at": "2026-03-06T09:15:00+09:00",
+      "translation_confidence": 0.94
+    }
+  ]
+}

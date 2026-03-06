@@ -438,7 +438,8 @@ def _extract_previous_signals(
     # Phase 1: Collect all URL→signal_id mappings
     url_to_ids: Dict[str, List[str]] = {}
     for sig in signals:
-        url = sig.get("url", "") or sig.get("source", {}).get("url", "")
+        source_val = sig.get("source", "")
+        url = sig.get("url", "") or sig.get("source_url", "") or (source_val.get("url", "") if isinstance(source_val, dict) else "")
         if url:
             norm = normalize_url(url)
             if norm:

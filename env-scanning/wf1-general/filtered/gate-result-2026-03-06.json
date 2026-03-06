@@ -1,0 +1,253 @@
+{
+  "gate_id": "dedup_gate.py",
+  "gate_version": "2.0.0",
+  "checked_at": "2026-03-06T00:18:42.687463+00:00",
+  "workflow": "wf1-general",
+  "signals_file": "env-scanning/wf1-general/raw/collected-signals-2026-03-06.json",
+  "previous_file": "env-scanning/wf1-general/signals/database.json",
+  "gate_status": "PASS_WITH_REMOVAL",
+  "gate_message": "1 definite duplicate(s) removed. 26 uncertain signal(s) flagged for LLM review. 21 definite new signal(s) passed.",
+  "thresholds": {
+    "url_exact": 1.0,
+    "topic_fingerprint_definite": 0.6,
+    "topic_fingerprint_uncertain": 0.3,
+    "title_similarity_definite": 0.9,
+    "title_similarity_uncertain": 0.8,
+    "entity_overlap_definite": 0.85,
+    "entity_overlap_uncertain": 0.7
+  },
+  "enforce": "strict",
+  "statistics": {
+    "total_input": 48,
+    "definite_new": 21,
+    "definite_duplicates": 1,
+    "uncertain": 26,
+    "pass_through": 47
+  },
+  "stage_breakdown": {
+    "A_url": 0,
+    "B_topic": 1,
+    "C_title": 0,
+    "D_entity": 0
+  },
+  "duplicates": [
+    {
+      "signal_id": "ieee-20260306-005",
+      "signal_title": "Quantum data to teach AI better chemistry — Microsoft approach",
+      "matched_signal_id": "nat-20260226-006",
+      "matched_title": "Triplet Superconductor Discovery for Quantum Computing",
+      "stage": "B_topic",
+      "score": 0.6
+    }
+  ],
+  "uncertain_signals": [
+    {
+      "signal_id": "tc-20260306-002",
+      "signal_title": "US reportedly considering sweeping new chip export controls",
+      "matched_signal_id": "brookings-20260227-002",
+      "matched_title": "Chip Export Controls May Be Right If Superintelligence Isn't Imminent",
+      "stage": "B_topic",
+      "score": 0.375
+    },
+    {
+      "signal_id": "tc-20260306-003",
+      "signal_title": "BYD rolls out EV batteries with 5-minute flash charging",
+      "matched_signal_id": "carbon-brief-6b657ed4756f",
+      "matched_title": "Analysis: EVs just outsold petrol cars in EU for first time ever",
+      "stage": "B_topic",
+      "score": 0.375
+    },
+    {
+      "signal_id": "tc-20260306-004",
+      "signal_title": "Pentagon labels Anthropic a supply-chain risk",
+      "matched_signal_id": "techcrunch-20260228-003",
+      "matched_title": "Pentagon designates Anthropic as supply-chain risk — first-ever for US company",
+      "stage": "C_title",
+      "score": 0.8205
+    },
+    {
+      "signal_id": "tc-20260306-005",
+      "signal_title": "OpenAI launches GPT-5.4 with Pro and Thinking versions",
+      "matched_signal_id": "techcrunch-1d09a0621d61",
+      "matched_title": "OpenClaw’s AI assistants are now building their own social network",
+      "stage": "C_title",
+      "score": 0.8099
+    },
+    {
+      "signal_id": "mitr-20260306-002",
+      "signal_title": "Anthropic's Claude used to identify military targets for US strikes on Iran",
+      "matched_signal_id": "nature-20260227-001",
+      "matched_title": "Antarctica's Hektoria Glacier Retreats 8km in Two Months — Record Collapse",
+      "stage": "C_title",
+      "score": 0.8061
+    },
+    {
+      "signal_id": "mitr-20260306-004",
+      "signal_title": "OpenAI secures Pentagon deal for classified military use",
+      "matched_signal_id": "techcrunch-8807311fdd5e",
+      "matched_title": "OpenAI’s Sora app is struggling after its stellar launch",
+      "stage": "C_title",
+      "score": 0.8281
+    },
+    {
+      "signal_id": "fr-20260306-001",
+      "signal_title": "EPA proposes delaying Clean Water Act hazardous substance response plans",
+      "matched_signal_id": "wf1-20260218-030",
+      "matched_title": "Colorado AI Act: Algorithmic Discrimination Requirements",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "fr-20260306-004",
+      "signal_title": "ITC investigation into display devices and streaming components",
+      "matched_signal_id": "federal-register-de6ca9e312be",
+      "matched_title": "Certain Rechargeable Batteries and Components Thereof; Notice of a Commission Determination To Issue a Limited Exclusion Order; Termination of Investigation",
+      "stage": "B_topic",
+      "score": 0.4286
+    },
+    {
+      "signal_id": "nat-20260306-004",
+      "signal_title": "Tropical insects face critical thermal tolerance limits from climate warming",
+      "matched_signal_id": "nasa-20260226-025",
+      "matched_title": "Climate Warming Rate Accelerated to 0.25C Per Decade",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "nat-20260306-006",
+      "signal_title": "Cancer metastasis: Glucocorticoid receptor activation drives immune evasion",
+      "matched_signal_id": "wf1-20260212-008",
+      "matched_title": "WHO: 40% of Cancer Cases Preventable",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "ieee-20260306-002",
+      "signal_title": "Offshore wind turbine to house underwater data center",
+      "matched_signal_id": "wf1-20260218-043",
+      "matched_title": "Denmark Ranks #1 in Climate Action; Offshore Energy Leadership",
+      "stage": "B_topic",
+      "score": 0.4
+    },
+    {
+      "signal_id": "un-20260306-002",
+      "signal_title": "Women's rights regressing worldwide — UN gender equality chief warns",
+      "matched_signal_id": "un-20260226-009",
+      "matched_title": "UN Chief: Human Rights Under Full-Scale Attack",
+      "stage": "B_topic",
+      "score": 0.4
+    },
+    {
+      "signal_id": "un-20260306-003",
+      "signal_title": "How AI is already reshaping working conditions globally",
+      "matched_signal_id": "pew-immigration-views",
+      "matched_title": "How Americans view key Trump administration immigration policies",
+      "stage": "C_title",
+      "score": 0.8287
+    },
+    {
+      "signal_id": "un-20260306-004",
+      "signal_title": "UN chief urges AI advisory group: 'The world looks to you for clarity'",
+      "matched_signal_id": "un-news-a3faf2601565",
+      "matched_title": "UN chief ‘deeply concerned’ by escalation of violence in South Sudan",
+      "stage": "C_title",
+      "score": 0.8168
+    },
+    {
+      "signal_id": "un-20260306-005",
+      "signal_title": "Iran crisis: Schoolgirls killed, thousands displaced, aid compromised",
+      "matched_signal_id": "wf1-20260218-012",
+      "matched_title": "Sudan Crisis: UNHCR Appeals $1.6B for Displacement",
+      "stage": "B_topic",
+      "score": 0.4286
+    },
+    {
+      "signal_id": "brk-20260306-001",
+      "signal_title": "Limits of tariff-driven economic statecraft after IEEPA Supreme Court ruling",
+      "matched_signal_id": "usfr-20260226-008",
+      "matched_title": "US Supreme Court Strikes Down IEEPA Tariff Authority",
+      "stage": "B_topic",
+      "score": 0.4286
+    },
+    {
+      "signal_id": "brk-20260306-002",
+      "signal_title": "After the strike: The danger of broader war in Iran",
+      "matched_signal_id": "security-20260215-024",
+      "matched_title": "Last US-Russia nuclear arms control treaty set to expire amid rising tensions",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "brk-20260306-003",
+      "signal_title": "China's National People's Congress: Key political and economic priorities",
+      "matched_signal_id": "wf1-20260219-014",
+      "matched_title": "China Critical Minerals Weaponization Reshapes Geopolitics",
+      "stage": "C_title",
+      "score": 0.8429
+    },
+    {
+      "signal_id": "pew-20260306-001",
+      "signal_title": "Americans rank highest in viewing fellow citizens as morally bad — 25-country survey",
+      "matched_signal_id": "pew-20260215-026",
+      "matched_title": "Americans' views of economy remain negative one year into Trump's second term",
+      "stage": "C_title",
+      "score": 0.828
+    },
+    {
+      "signal_id": "hn-20260306-001",
+      "signal_title": "GitHub issue titles compromise 4,000 developer machines via AI tool injection",
+      "matched_signal_id": "wf1-20260218-015",
+      "matched_title": "HBM Scarcity: Bottleneck in AI Supply Chain",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "hn-20260306-002",
+      "signal_title": "Anthropic research: AI labor market impacts — 14% reduction in young worker job entry",
+      "matched_signal_id": "nature-20260227-001",
+      "matched_title": "Antarctica's Hektoria Glacier Retreats 8km in Two Months — Record Collapse",
+      "stage": "C_title",
+      "score": 0.8049
+    },
+    {
+      "signal_id": "hn-20260306-004",
+      "signal_title": "OpenTitan open-source security chip enters production — Google",
+      "matched_signal_id": "techcrunch-20260228-001",
+      "matched_title": "OpenAI raises $110B in one of the largest private funding rounds in history",
+      "stage": "C_title",
+      "score": 0.8016
+    },
+    {
+      "signal_id": "cb-20260306-002",
+      "signal_title": "EU Industrial Accelerator Act: Made in Europe rules for climate action",
+      "matched_signal_id": "carbon-20260227-003",
+      "matched_title": "EU Climate Advisory Board Urges Countries to Prepare for 3C Warming",
+      "stage": "C_title",
+      "score": 0.8191
+    },
+    {
+      "signal_id": "cb-20260306-003",
+      "signal_title": "China reveals new five-year climate goals at Two Sessions — 3.8% carbon intensity reduction",
+      "matched_signal_id": "wf1-20260210-011",
+      "matched_title": "China Deployed 300+ GW Solar/Wind in 2025 -- Exceeding Total US Renewable History",
+      "stage": "C_title",
+      "score": 0.8087
+    },
+    {
+      "signal_id": "aeon-20260306-001",
+      "signal_title": "The insurance catastrophe: Climate change renders regions uninsurable",
+      "matched_signal_id": "brookings-postal-infrastructure",
+      "matched_title": "The postal network as economic infrastructure: Evidence from rural small businesses",
+      "stage": "C_title",
+      "score": 0.8452
+    },
+    {
+      "signal_id": "aeon-20260306-002",
+      "signal_title": "Instrumentalisation crisis: Everything becoming a means to an end",
+      "matched_signal_id": "wf1-20260210-009",
+      "matched_title": "AI Ethics Crisis: Society Underprepared for Psychological Effects of AI",
+      "stage": "B_topic",
+      "score": 0.3333
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "engine_version": "1.4.0",
+  "computed_at": "2026-03-06T03:14:45Z",
+  "source_file": "env-scanning/wf4-multiglobal-news/structured/classified-signals-2026-03-06.json",
+  "workflow_type": "multiglobal-news",
+  "total_signals": 42,
+  "raw_distributions": {
+    "steeps": {
+      "E": 0,
+      "T": 0,
+      "S": 0,
+      "P": 0,
+      "E_Environmental": 0,
+      "s": 0
+    },
+    "fssf": {
+      "Weak Signal": 6,
+      "Wild Card": 3,
+      "Discontinuity": 6,
+      "Driver": 6,
+      "Emerging Issue": 8,
+      "Precursor Event": 4,
+      "Trend": 8,
+      "Megatrend": 1
+    },
+    "horizons": {
+      "H1": 0,
+      "H2": 0,
+      "H3": 0
+    },
+    "tipping_point_alerts": {
+      "RED": {
+        "count": 8,
+        "signals": [
+          "U.S. and Israel Strike Iran Overnight, Targeting Ballistic Missile Sites",
+          "Strait of Hormuz Traffic Drops 90% as Iran Blockade Disrupts Global Oil Supply",
+          "US Submarine Sinks Iranian Warship in Indian Ocean, 87 Dead",
+          "NATO Intercepts Iranian Ballistic Missile Headed for Turkey",
+          "Qatar Halts LNG Exports, European and Asian Gas Prices Skyrocket",
+          "KOSPI Circuit Breakers Triggered as Iran Shock Hits Korean Markets",
+          "DP World Suspends Jebel Ali Port Operations After Drone Strike Fire",
+          "Brent Crude Approaches $100 as Prolonged Hormuz Disruption Scenario Materializes"
+        ]
+      },
+      "ORANGE": {
+        "count": 5,
+        "signals": [
+          "Kurdish Militias Form Coalition, Position Thousands of Fighters Along Iran-Iraq Border",
+          "China Moves to Halt Fuel Exports as Gulf Supply Tightens",
+          "Putin Floats Cutting Europe Gas Sales, Redirecting to Premium Asian Markets",
+          "China-Japan Diplomatic Crisis Escalates with Rare Earth Export Restrictions",
+          "Israel Halts Gas Production at Karish and Leviathan Fields"
+        ]
+      },
+      "YELLOW": {
+        "count": 11,
+        "signals": [
+          "Senate Blocks Bid to Limit Trump's Iran War Powers, 53-47",
+          "Spain Rejects White House Claim of Iran War Support, Bars Use of Military Bases",
+          "China Sets Lowest Growth Target in Decades at 4.5-5% for 2026",
+          "Japan GDP Forecast Slashed to 0.9% on Tariffs and China Tensions",
+          "Germany Faces March Deadline for Climate Action Programme as AfD Surges in Polls",
+          "Russian LNG Tanker Explodes and Sinks in Mediterranean Off Libya",
+          "China Plans 300 Billion Yuan Special Bonds to Recapitalize Major Banks",
+          "Ocean Levels Rising Far Faster Than Government Assessments Predicted",
+          "Brazil Minas Gerais Floods Kill 72 as Climate-Driven Extreme Weather Intensifies",
+          "Zimbabwe Bans All Raw Mineral and Lithium Concentrate Exports",
+          "Quantum Computing and National Security: The Intersection Deepens in 2026"
+        ]
+      },
+      "GREEN": {
+        "count": 18,
+        "signals": [
+          "France and Germany Pledge Energy Policy Alignment for European Grid Integration",
+          "Korea Triples AI Budget to 10.1 Trillion Won, Targets Top-3 AI Power Status",
+          "FDA Grants Breakthrough Designation to Generative AI Chatbot for Surgical Patients",
+          "China's Five-Year Plan Targets Quantum Leadership and AI Expansion",
+          "Seoul Home Prices Projected to Rise 4.2% in 2026 Amid Supply Cliff",
+          "Japan National Museums to Implement Dual-Pricing System for Foreign Tourists",
+          "ISM Services PMI Surges to 56.1, Fastest US Services Expansion Since Mid-2022",
+          "Korea Declares 'Startup-Centered Society' in Structural Growth Shift",
+          "Huawei Launches AI Data Platform for Enterprise AI Adoption Acceleration",
+          "March 2026 Federal Deadlines Set to Reshape US AI Regulatory Landscape",
+          "Quantum Infrastructure Becomes Battleground as Hardware Alone No Longer Drives Progress",
+          "Trump Disavows $220M Border Security Ad Campaign Featuring DHS Secretary",
+          "South Africa Declares 2026 Budget the Beginning of Economic Recovery",
+          "Brazil's Economy Grows Just 2.3% in 2025, Weakest Since Pandemic",
+          "New Privacy Laws and AI Regulations Converge Across US States in 2026",
+          "Fukushima Pay-It-Forward Initiative Spreads to 130 Stores as Community Resilience Model",
+          "Blackout Leaves Millions Without Power in Cuba's Western Region",
+          "Korea-China Relations Enter 'Full Restoration' Phase After Lee-Xi Summit"
+        ]
+      }
+    },
+    "psst_grades": {
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "evolution": {
+      "new": 0,
+      "recurring": 0,
+      "strengthening": 0,
+      "weakening": 0,
+      "faded": 0,
+      "transformed": 0,
+      "active_threads": 0
+    },
+    "crawl": {
+      "total_sites_attempted": 44,
+      "sites_succeeded": 38,
+      "sites_failed": 6,
+      "failed_sites": [
+        "caixin_partial",
+        "businesspost_partial",
+        "bloomberg_partial",
+        "handelsblatt_partial",
+        "nikkei_partial",
+        "ft_partial"
+      ],
+      "articles_by_language": {
+        "en": 20,
+        "ko": 14,
+        "zh": 2,
+        "ja": 1,
+        "de": 1,
+        "fr": 1,
+        "ru": 1,
+        "es": 1
+      },
+      "articles_by_region": {
+        "US": 9,
+        "KR": 14,
+        "UK": 2,
+        "CN": 2,
+        "JP": 1,
+        "DE": 1,
+        "FR": 1,
+        "RU": 1,
+        "QA": 1,
+        "IL": 1,
+        "SG": 1,
+        "HK": 1,
+        "CA": 1,
+        "SA": 1,
+        "MX": 1,
+        "ME_Other": 3
+      },
+      "paywall_results": {
+        "rss_feed_success": 4,
+        "headline_only": 2,
+        "total_war_sites_attempted": 7
+      }
+    }
+  },
+  "placeholders": {
+    "TOTAL_NEW_SIGNALS": "42",
+    "DOMAIN_DISTRIBUTION": "",
+    "TOP_PRIORITY_COUNT": "28",
+    "FSSF_WEAK_SIGNAL_COUNT": "6",
+    "FSSF_WEAK_SIGNAL_PCT": "14%",
+    "FSSF_WILD_CARD_COUNT": "3",
+    "FSSF_WILD_CARD_PCT": "7%",
+    "FSSF_DISCONTINUITY_COUNT": "6",
+    "FSSF_DISCONTINUITY_PCT": "14%",
+    "FSSF_DRIVER_COUNT": "6",
+    "FSSF_DRIVER_PCT": "14%",
+    "FSSF_EMERGING_ISSUE_COUNT": "8",
+    "FSSF_EMERGING_ISSUE_PCT": "19%",
+    "FSSF_PRECURSOR_COUNT": "4",
+    "FSSF_PRECURSOR_PCT": "10%",
+    "FSSF_TREND_COUNT": "8",
+    "FSSF_TREND_PCT": "19%",
+    "FSSF_MEGATREND_COUNT": "1",
+    "FSSF_MEGATREND_PCT": "2%",
+    "FSSF_DIST_WS_COUNT": "6",
+    "FSSF_DIST_WC_COUNT": "3",
+    "FSSF_DIST_DC_COUNT": "6",
+    "FSSF_DIST_DR_COUNT": "6",
+    "FSSF_DIST_EI_COUNT": "8",
+    "FSSF_DIST_PE_COUNT": "4",
+    "FSSF_DIST_TR_COUNT": "8",
+    "FSSF_DIST_MT_COUNT": "1",
+    "H1_COUNT": "0",
+    "H1_PCT": "0%",
+    "H2_COUNT": "0",
+    "H2_PCT": "0%",
+    "H3_COUNT": "0",
+    "H3_PCT": "0%",
+    "TIPPING_POINT_ALERT_SUMMARY": "| RED | 8 | U.S. and Israel Strike Iran Overnight, Targeting Ballistic Missile Sites, Strait of Hormuz Traffic Drops 90% as Iran Blockade Disrupts Global Oil Supply, US Submarine Sinks Iranian Warship in Indian Ocean, 87 Dead and 5 |\n| ORANGE | 5 | Kurdish Militias Form Coalition, Position Thousands of Fighters Along Iran-Iraq Border, China Moves to Halt Fuel Exports as Gulf Supply Tightens, Putin Floats Cutting Europe Gas Sales, Redirecting to Premium Asian Markets and 2 |\n| YELLOW | 11 | Senate Blocks Bid to Limit Trump's Iran War Powers, 53-47, Spain Rejects White House Claim of Iran War Support, Bars Use of Military Bases, China Sets Lowest Growth Target in Decades at 4.5-5% for 2026 and 8 |\n| GREEN | 18 | France and Germany Pledge Energy Policy Alignment for European Grid Integration, Korea Triples AI Budget to 10.1 Trillion Won, Targets Top-3 AI Power Status, FDA Grants Breakthrough Designation to Generative AI Chatbot for Surgical Patients and 15 |",
+    "EVOLUTION_ACTIVE_THREADS": "0",
+    "EVOLUTION_NEW_COUNT": "0",
+    "EVOLUTION_NEW_PCT": "0%",
+    "EVOLUTION_RECURRING_COUNT": "0",
+    "EVOLUTION_RECURRING_PCT": "0%",
+    "EVOLUTION_STRENGTHENING_COUNT": "0",
+    "EVOLUTION_STRENGTHENING_PCT": "0%",
+    "EVOLUTION_WEAKENING_COUNT": "0",
+    "EVOLUTION_WEAKENING_PCT": "0%",
+    "EVOLUTION_FADED_COUNT": "0",
+    "EVOLUTION_FADED_PCT": "—",
+    "EVOLUTION_TABLE_STRENGTHENING": "N/A",
+    "EVOLUTION_TABLE_WEAKENING": "N/A",
+    "TOTAL_SITES_CRAWLED": "1",
+    "TOTAL_SITES_SUCCEEDED": "1",
+    "TOTAL_SITES_FAILED": "0",
+    "TOTAL_ARTICLES": "44",
+    "CRAWL_DATETIME": "N/A",
+    "SN_RATIO": "44:44",
+    "DEFENSE_LOG_TABLE": "N/A",
+    "BY_LANGUAGE_EN": "20",
+    "BY_LANGUAGE_ZH": "2",
+    "BY_LANGUAGE_JA": "1",
+    "BY_LANGUAGE_DE": "1",
+    "BY_LANGUAGE_FR": "1",
+    "BY_LANGUAGE_RU": "1",
+    "BY_LANGUAGE_KO": "17",
+    "BY_LANGUAGE_OTHER": "1",
+    "CRAWL_SITE_TABLE": "| Site | Language | Articles | Strategy | Success Rate |\n|------|----------|----------|----------|--------------|\n| unknown | — | 44 | — | 100% |",
+    "TRANSLATION_TOTAL": "24",
+    "TRANSLATION_FAILED": "0",
+    "TRANSLATION_STATS_TABLE": "| Language | Total | Translated | Failed | Avg Confidence |\n|----------|-------|------------|--------|----------------|\n| de | 1 | 1 | 0 | 1.00 |\n| en | 20 | 0 | 0 | N/A |\n| es | 1 | 1 | 0 | 1.00 |\n| fr | 1 | 1 | 0 | 1.00 |\n| ja | 1 | 1 | 0 | 1.00 |\n| ko | 17 | 17 | 0 | 1.00 |\n| ru | 1 | 1 | 0 | 1.00 |\n| zh | 2 | 2 | 0 | 1.00 |"
+  }
+}

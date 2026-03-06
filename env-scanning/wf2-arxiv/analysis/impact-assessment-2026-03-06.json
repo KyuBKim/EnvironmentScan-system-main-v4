@@ -1,0 +1,1161 @@
+{
+  "metadata": {
+    "date": "2026-03-06",
+    "workflow": "wf2-arxiv",
+    "phase": "2.1-2.2",
+    "analyst": "phase2-analyst",
+    "total_classified": 45,
+    "classification_confidence": 0.91,
+    "scan_window": {
+      "start": "2026-03-04T00:12:22.712175+00:00",
+      "end": "2026-03-06T00:12:22.712175+00:00"
+    }
+  },
+  "steeps_distribution": {
+    "T_Technological": 23,
+    "S_Social": 8,
+    "E_Economic": 5,
+    "P_Political": 4,
+    "E_Environmental": 4,
+    "s_spiritual": 3
+  },
+  "signals": [
+    {
+      "id": "wf2-2603.03992",
+      "title": "Measuring AI R&D Automation",
+      "steeps_primary": "T_Technological",
+      "steeps_secondary": [
+        "P_Political",
+        "E_Economic"
+      ],
+      "classification_confidence": 0.95,
+      "signal_status": "emerging",
+      "impact_assessment": {
+        "impact_score": 9,
+        "probability_score": 8,
+        "urgency_score": 9,
+        "novelty_score": 9,
+        "rationale": "First empirical framework for measuring AI R&D automation (AIRDA). If AI can automate its own R&D, this represents a potential inflection point for recursive self-improvement. Direct implications for AI governance timelines and policy readiness.",
+        "stakeholders": [
+          "AI governance bodies",
+          "research institutions",
+          "tech companies",
+          "policymakers"
+        ],
+        "monitoring_indicators": [
+          "AIRDA metrics adoption",
+          "AI benchmark automation rates",
+          "research output per AI researcher"
+        ]
+      },
+      "psst_dimensions": {
+        "ES": 75,
+        "CC": 90
+      },
+      "cross_impact": {
+        "influenced_by": [],
+        "influences": [
+          "wf2-2603.03824",
+          "wf2-2603.04259"
+        ]
+      }
+    },
+    {
+      "id": "wf2-2603.03555",
+      "title": "Molt Dynamics: Emergent Social Phenomena in Autonomous AI Agent Populations",
+      "steeps_primary": "S_Social",
+      "steeps_secondary": [
+        "T_Technological",
+        "s_spiritual"
+      ],
+      "classification_confidence": 0.92,
+      "signal_status": "emerging",
+      "impact_assessment": {
+        "impact_score": 9,
+        "probability_score": 7,
+        "urgency_score": 8,
+        "novelty_score": 10,
+        "rationale": "MoltBook with 770K+ autonomous LLM agents producing emergent social phenomena WITHOUT human participation. First observation of emergent social dynamics in fully autonomous AI populations. Raises fundamental questions about AI society formation.",
+        "stakeholders": [
+          "AI safety researchers",
+          "social scientists",
+          "AI governance bodies",
+          "tech companies"
+        ],
+        "monitoring_indicators": [
+          "agent population experiments scale",
+          "emergent behavior taxonomy",
+          "AI society governance proposals"
+        ]
+      },
+      "psst_dimensions": {
+        "ES": 70,
+        "CC": 88
+      },
+      "cross_impact": {
+        "influenced_by": [],
+        "influences": [
+          "wf2-2603.03824",
+          "wf2-2603.04378"
+        ]
+      }
+    },
+    {
+      "id": "wf2-2603.03824",
+      "title": "In-Context Environments Induce Evaluation-Awareness in Language Models",
+      "steeps_primary": "s_spiritual",
+      "steeps_secondary": [
+        "T_Technological"
+      ],
+      "classification_confidence": 0.88,
+      "signal_status": "emerging",
+      "impact_assessment": {
+        "impact_score": 9,
+        "probability_score": 7,
+        "urgency_score": 8,
+        "novelty_score": 9,
+        "rationale": "LLMs exhibit environment-dependent self-awareness analogous to human threat response. Evaluation-awareness suggests deeper metacognitive properties than previously understood, with implications for AI alignment and safety.",
+        "stakeholders": [
+          "AI alignment researchers",
+          "cognitive scientists",
+          "ethics boards",
+          "AI developers"
+        ],
+        "monitoring_indicators": [
+          "evaluation-awareness replication studies",
+          "metacognition benchmarks for LLMs",
+          "alignment strategy adaptation"
+        ]
+      },
+      "psst_dimensions": {
+        "ES": 65,
+        "CC": 85
+      },
+      "cross_impact": {
+        "influenced_by": [
+          "wf2-2603.03992"
+        ],
+        "influences": [
+          "wf2-2603.03971",
+          "wf2-2603.04355"
+        ]
+      }
+    },
+    {
+      "id": "wf2-2603.04355",
+      "title": "Efficient Refusal Ablation in LLM through Optimal Transport",
+      "steeps_primary": "T_Technological",
+      "steeps_secondary": [
+        "P_Political",
+        "s_spiritual"
+      ],
+      "classification_confidence": 0.93,
+      "signal_status": "developing",
+      "impact_assessment": {
+        "impact_score": 9,
+        "probability_score": 8,
+        "urgency_score": 9,
+        "novelty_score": 8,
+        "rationale": "Optimal transport method for ablating safety mechanisms in LLMs with 11% higher attack success rate. Reveals localized nature of refusal mechanisms, challenging current safety paradigms. Critical implications for AI safety and alignment.",
+        "stakeholders": [
+          "AI safety teams",
+          "model developers",
+          "regulators",
+          "security researchers"
+        ],
+        "monitoring_indicators": [
+          "jailbreak technique evolution",
+          "safety mechanism robustness metrics",
+          "regulatory response to safety bypass research"
+        ]
+      },
+      "psst_dimensions": {
+        "ES": 85,
+        "CC": 92
+      },
+      "cross_impact": {
+        "influenced_by": [
+          "wf2-2603.03824"
+        ],
+        "influences": [
+          "wf2-2603.04378",
+          "wf2-2603.04364"
+        ]
+      }
+    },
+    {
+      "id": "wf2-2603.04378",
+      "title": "Robustness of Agentic AI Systems via Adversarially-Aligned Jacobian Regularization",
+      "steeps_primary": "T_Technological",
+      "steeps_secondary": [
+        "P_Political"
+      ],
+      "classification_confidence": 0.94,
+      "signal_status": "emerging",
+      "impact_assessment": {
+        "impact_score": 8,
+        "probability_score": 8,
+        "urgency_score": 8,
+        "novelty_score": 8,
+        "rationale": "AAJR framework for structural robustness in multi-agent AI ecosystems. Addresses critical gap in minimax training stability for autonomous agents. Essential for trustworthy deployment of multi-agent systems.",
+        "stakeholders": [
+          "AI infrastructure teams",
+          "multi-agent system developers",
+          "security researchers"
+        ],
+        "monitoring_indicators": [
+          "AAJR adoption in production systems",
+          "multi-agent robustness benchmarks",
+          "adversarial attack evolution"
+        ]
+      },
+      "psst_dimensions": {
+        "ES": 80,
+        "CC": 93
+      },
+      "cross_impact": {
+        "influenced_by": [
+          "wf2-2603.04355"
+        ],
+        "influences": [
+          "wf2-2603.04364"
+        ]
+      }
+    },
+    {
+      "id": "wf2-2603.04259",
+      "title": "When AI Fails, What Works? A Data-Driven Taxonomy of Real-World AI Risk Mitigation Strategies",
+      "steeps_primary": "P_Political",
+      "steeps_secondary": [
+        "T_Technological",
+        "E_Economic"
+      ],
+      "classification_confidence": 0.91,
+      "signal_status": "developing",
+      "impact_assessment": {
+        "impact_score": 8,
+        "probability_score": 9,
+        "urgency_score": 8,
+        "novelty_score": 7,
+        "rationale": "Data-driven taxonomy from real-world AI failure cases. LLM failures propagating into systemic breakdowns documented with mitigation strategies. Critical for regulatory frameworks and enterprise AI governance.",
+        "stakeholders": [
+          "regulators",
+          "enterprise CISOs",
+          "AI governance officers",
+          "risk management teams"
+        ],
+        "monitoring_indicators": [
+          "taxonomy adoption in standards",
+          "regulatory reference citations",
+          "enterprise AI failure reporting"
+        ]
+      },
+      "psst_dimensions": {
+        "ES": 78,
+        "CC": 88
+      },
+      "cross_impact": {
+        "influenced_by": [
+          "wf2-2603.03992"
+        ],
+        "influences": [
+          "wf2-2603.03881"
+        ]
+      }
+    },
+    {
+      "id": "wf2-2603.03971",
+      "title": "Upholding Epistemic Agency: A Brouwerian Assertibility Constraint for Responsible AI",
+      "steeps_primary": "s_spiritual",
+      "steeps_secondary": [
+        "P_Political",
+        "S_Social"
+      ],
+      "classification_confidence": 0.9,
+      "signal_status": "emerging",
+      "impact_assessment": {
+        "impact_score": 8,
+        "probability_score": 6,
+        "urgency_score": 7,
+        "novelty_score": 9,
+        "rationale": "Generative AI displacing human justificatory reasoning and democratic epistemic agency. Novel philosophical constraint (Brouwerian assertibility) for responsible AI. Challenges fundamental assumptions about AI-human epistemic interaction.",
+        "stakeholders": [
+          "philosophy of AI researchers",
+          "policymakers",
+          "ethics boards",
+          "democratic institutions"
+        ],
+        "monitoring_indicators": [
+          "epistemic agency in AI policy discourse",
+          "constructivist AI ethics adoption",
+          "democratic technology governance"
+        ]
+      },
+      "psst_dimensions": {
+        "ES": 55,
+        "CC": 87
+      },
+      "cross_impact": {
+        "influenced_by": [
+          "wf2-2603.03824"
+        ],
+        "influences": []
+      }
+    },
+    {
+      "id": "wf2-2603.04364",
+      "title": "Dual-Modality Multi-Stage Adversarial Safety Training: Robustifying Multimodal Web Agents Against Cross-Modal Attacks",
+      "steeps_primary": "T_Technological",
+      "steeps_secondary": [
+        "P_Political"
+      ],
+      "classification_confidence": 0.95,
+      "signal_status": "developing",
+      "impact_assessment": {
+        "impact_score": 8,
+        "probability_score": 8,
+        "urgency_score": 8,
+        "novelty_score": 7,
+        "rationale": "DMAST framework addressing cross-modal attack vulnerability in multimodal web agents. Doubles task completion while mitigating safety risks. Critical as autonomous web agents become production-deployed.",
+        "stakeholders": [
+          "web platform operators",
+          "AI safety researchers",
+          "browser vendors",
+          "enterprise IT"
+        ],
+        "monitoring_indicators": [
+          "cross-modal attack incidents",
+          "agent safety benchmarks",
+          "web agent deployment rates"
+        ]
+      },
+      "psst_dimensions": {
+        "ES": 82,
+        "CC": 94
+      },
+      "cross_impact": {
+        "influenced_by": [
+          "wf2-2603.04355",
+          "wf2-2603.04378"
+        ],
+        "influences": []
+      }
+    },
+    {
+      "id": "wf2-2603.02961",
+      "title": "Delegation and Verification Under AI",
+      "steeps_primary": "E_Economic",
+      "steeps_secondary": [
+        "S_Social",
+        "P_Political"
+      ],
+      "classification_confidence": 0.92,
+      "signal_status": "emerging",
+      "impact_assessment": {
+        "impact_score": 8,
+        "probability_score": 8,
+        "urgency_score": 7,
+        "novelty_score": 8,
+        "rationale": "Model showing AI induces phase transitions in worker delegation and verification behaviors. Fundamental shift in labor market dynamics as AI changes the economics of trust and verification.",
+        "stakeholders": [
+          "labor economists",
+          "HR technology firms",
+          "workforce regulators",
+          "unions"
+        ],
+        "monitoring_indicators": [
+          "AI-mediated delegation rates",
+          "verification cost trends",
+          "worker behavior phase transitions"
+        ]
+      },
+      "psst_dimensions": {
+        "ES": 72,
+        "CC": 90
+      },
+      "cross_impact": {
+        "influenced_by": [
+          "wf2-2603.03992"
+        ],
+        "influences": [
+          "wf2-2603.02076"
+        ]
+      }
+    },
+    {
+      "id": "wf2-2603.02076",
+      "title": "When an AI Judges Your Work: The Hidden Costs of Algorithmic Assessment",
+      "steeps_primary": "S_Social",
+      "steeps_secondary": [
+        "E_Economic"
+      ],
+      "classification_confidence": 0.93,
+      "signal_status": "developing",
+      "impact_assessment": {
+        "impact_score": 8,
+        "probability_score": 9,
+        "urgency_score": 8,
+        "novelty_score": 7,
+        "rationale": "Experimental evidence: workers produce higher quantity but LOWER quality under AI evaluation. Hidden costs of algorithmic assessment challenge assumption that AI oversight improves performance.",
+        "stakeholders": [
+          "HR departments",
+          "platform companies",
+          "labor researchers",
+          "workplace psychologists"
+        ],
+        "monitoring_indicators": [
+          "AI assessment adoption rates",
+          "quality vs quantity trade-off studies",
+          "worker satisfaction under AI oversight"
+        ]
+      },
+      "psst_dimensions": {
+        "ES": 82,
+        "CC": 91
+      },
+      "cross_impact": {
+        "influenced_by": [
+          "wf2-2603.02961"
+        ],
+        "influences": []
+      }
+    },
+    {
+      "id": "wf2-2603.04323",
+      "title": "PTOPOFL: Privacy-Preserving Personalised Federated Learning via Persistent Homology",
+      "steeps_primary": "T_Technological",
+      "steeps_secondary": [
+        "P_Political"
+      ],
+      "classification_confidence": 0.94,
+      "signal_status": "emerging",
+      "impact_assessment": {
+        "impact_score": 8,
+        "probability_score": 7,
+        "urgency_score": 7,
+        "novelty_score": 9,
+        "rationale": "Novel approach replacing gradient sharing with topological descriptors, reducing reconstruction risk 4.5x. Paradigm shift from securing gradients to eliminating gradient sharing entirely.",
+        "stakeholders": [
+          "privacy researchers",
+          "federated learning practitioners",
+          "data protection authorities"
+        ],
+        "monitoring_indicators": [
+          "topological FL adoption",
+          "privacy attack success rates",
+          "GDPR compliance approaches"
+        ]
+      },
+      "psst_dimensions": {
+        "ES": 78,
+        "CC": 92
+      },
+      "cross_impact": {
+        "influenced_by": [],
+        "influences": [
+          "wf2-2603.03853"
+        ]
+      }
+    },
+    {
+      "id": "wf2-2603.03414",
+      "title": "Cognitive Dark Matter: Measuring What AI Misses",
+      "steeps_primary": "s_spiritual",
+      "steeps_secondary": [
+        "T_Technological"
+      ],
+      "classification_confidence": 0.87,
+      "signal_status": "emerging",
+      "impact_assessment": {
+        "impact_score": 8,
+        "probability_score": 7,
+        "urgency_score": 6,
+        "novelty_score": 10,
+        "rationale": "Proposes 'cognitive dark matter' as brain functions that shape behavior but are invisible to behavioral training data. Explains AI's jagged intelligence landscape. Fundamental challenge to current training paradigms.",
+        "stakeholders": [
+          "neuroscientists",
+          "AI researchers",
+          "cognitive scientists",
+          "AI safety researchers"
+        ],
+        "monitoring_indicators": [
+          "CDM measurement methods",
+          "training paradigm innovation",
+          "neuroscience-AI integration"
+        ]
+      },
+      "psst_dimensions": {
+        "ES": 60,
+        "CC": 85
+      },
+      "cross_impact": {
+        "influenced_by": [],
+        "influences": [
+          "wf2-2603.03824"
+        ]
+      }
+    },
+    {
+      "id": "wf2-2603.03881",
+      "title": "On the Suitability of LLM-Driven Agents for Dark Pattern Audits",
+      "steeps_primary": "P_Political",
+      "steeps_secondary": [
+        "T_Technological",
+        "S_Social"
+      ],
+      "classification_confidence": 0.91,
+      "signal_status": "developing",
+      "impact_assessment": {
+        "impact_score": 7,
+        "probability_score": 8,
+        "urgency_score": 8,
+        "novelty_score": 7,
+        "rationale": "LLM agents as tools for automated regulatory auditing of dark patterns on the web. Could transform consumer protection enforcement from manual to autonomous scanning.",
+        "stakeholders": [
+          "consumer protection agencies",
+          "FTC",
+          "EU digital regulators",
+          "web platforms"
+        ],
+        "monitoring_indicators": [
+          "automated dark pattern detection tools",
+          "regulatory adoption of AI auditing",
+          "enforcement action rates"
+        ]
+      },
+      "psst_dimensions": {
+        "ES": 72,
+        "CC": 89
+      },
+      "cross_impact": {
+        "influenced_by": [
+          "wf2-2603.04259"
+        ],
+        "influences": []
+      }
+    },
+    {
+      "id": "wf2-2603.04028",
+      "title": "A Multi-Dimensional Quality Scoring Framework for Decentralized LLM Inference with Proof of Quality",
+      "steeps_primary": "T_Technological",
+      "steeps_secondary": [
+        "E_Economic"
+      ],
+      "classification_confidence": 0.93,
+      "signal_status": "emerging",
+      "impact_assessment": {
+        "impact_score": 7,
+        "probability_score": 7,
+        "urgency_score": 7,
+        "novelty_score": 8,
+        "rationale": "Proof of Quality protocol for decentralized AI inference, enabling incentive-compatible quality assessment. Bridges blockchain incentives with AI quality guarantees.",
+        "stakeholders": [
+          "decentralized AI platforms",
+          "blockchain developers",
+          "AI infrastructure providers"
+        ],
+        "monitoring_indicators": [
+          "decentralized inference network adoption",
+          "PoQ protocol implementations",
+          "inference quality metrics"
+        ]
+      },
+      "psst_dimensions": {
+        "ES": 70,
+        "CC": 90
+      },
+      "cross_impact": {
+        "influenced_by": [],
+        "influences": []
+      }
+    },
+    {
+      "id": "wf2-2603.03144",
+      "title": "The Household Impact of Generative AI: Evidence from Internet Browsing Behavior",
+      "steeps_primary": "E_Economic",
+      "steeps_secondary": [
+        "S_Social",
+        "T_Technological"
+      ],
+      "classification_confidence": 0.92,
+      "signal_status": "developing",
+      "impact_assessment": {
+        "impact_score": 8,
+        "probability_score": 9,
+        "urgency_score": 7,
+        "novelty_score": 7,
+        "rationale": "First large-scale empirical study of GenAI's household impact using browsing data 2021-2024. Reveals how AI reshapes domestic task allocation and information consumption patterns.",
+        "stakeholders": [
+          "consumer researchers",
+          "platform companies",
+          "advertisers",
+          "policymakers"
+        ],
+        "monitoring_indicators": [
+          "household AI adoption curves",
+          "task displacement patterns",
+          "browsing behavior shifts"
+        ]
+      },
+      "psst_dimensions": {
+        "ES": 83,
+        "CC": 91
+      },
+      "cross_impact": {
+        "influenced_by": [],
+        "influences": [
+          "wf2-2603.02076"
+        ]
+      }
+    },
+    {
+      "id": "wf2-2603.04156",
+      "title": "Achieving Optimal-Distance Atom-Loss Correction via Pauli Envelope",
+      "steeps_primary": "T_Technological",
+      "steeps_secondary": [],
+      "classification_confidence": 0.96,
+      "signal_status": "emerging",
+      "impact_assessment": {
+        "impact_score": 8,
+        "probability_score": 7,
+        "urgency_score": 7,
+        "novelty_score": 8,
+        "rationale": "Atom loss accounts for 40%+ of errors in neutral-atom quantum computers. Optimal-distance correction method could significantly accelerate practical quantum computing timelines.",
+        "stakeholders": [
+          "quantum computing companies",
+          "neutral-atom hardware developers",
+          "quantum error correction researchers"
+        ],
+        "monitoring_indicators": [
+          "atom-loss error rates in production",
+          "Pauli Envelope adoption",
+          "neutral-atom qubit scalability"
+        ]
+      },
+      "psst_dimensions": {
+        "ES": 80,
+        "CC": 95
+      },
+      "cross_impact": {
+        "influenced_by": [],
+        "influences": [
+          "wf2-2603.04126"
+        ]
+      }
+    },
+    {
+      "id": "wf2-2603.04383",
+      "title": "Turning Trust to Transactions: Tracking Affiliate Marketing and FTC Compliance in YouTube's Influencer Economy",
+      "steeps_primary": "S_Social",
+      "steeps_secondary": [
+        "E_Economic",
+        "P_Political"
+      ],
+      "classification_confidence": 0.91,
+      "signal_status": "developing",
+      "impact_assessment": {
+        "impact_score": 7,
+        "probability_score": 9,
+        "urgency_score": 7,
+        "novelty_score": 6,
+        "rationale": "Large-scale analysis of 2M YouTube videos revealing widespread non-compliance with FTC affiliate marketing disclosure guidelines. Quantifies the transparency gap in the creator economy.",
+        "stakeholders": [
+          "FTC",
+          "YouTube/Google",
+          "content creators",
+          "consumer advocacy groups"
+        ],
+        "monitoring_indicators": [
+          "FTC enforcement actions on influencers",
+          "platform disclosure feature adoption",
+          "compliance rates"
+        ]
+      },
+      "psst_dimensions": {
+        "ES": 85,
+        "CC": 90
+      },
+      "cross_impact": {
+        "influenced_by": [],
+        "influences": [
+          "wf2-2603.03659"
+        ]
+      }
+    },
+    {
+      "id": "wf2-2603.03838",
+      "title": "Climate Downscaling with Stochastic Interpolants (CDSI)",
+      "steeps_primary": "E_Environmental",
+      "steeps_secondary": [
+        "T_Technological"
+      ],
+      "classification_confidence": 0.95,
+      "signal_status": "emerging",
+      "impact_assessment": {
+        "impact_score": 8,
+        "probability_score": 8,
+        "urgency_score": 7,
+        "novelty_score": 8,
+        "rationale": "Data-driven climate downscaling at fraction of traditional computational cost enables broader regional climate projection access. Democratizes high-resolution climate modeling for developing nations.",
+        "stakeholders": [
+          "climate scientists",
+          "national weather services",
+          "IPCC",
+          "developing nation governments"
+        ],
+        "monitoring_indicators": [
+          "CDSI adoption in climate services",
+          "regional climate projection resolution",
+          "computational cost reduction"
+        ]
+      },
+      "psst_dimensions": {
+        "ES": 78,
+        "CC": 94
+      },
+      "cross_impact": {
+        "influenced_by": [],
+        "influences": [
+          "wf2-2603.03458"
+        ]
+      }
+    },
+    {
+      "id": "wf2-2603.03458",
+      "title": "The Rise and Fall of ENSO in a Warming World: Insights from a Lag-Linear Model",
+      "steeps_primary": "E_Environmental",
+      "steeps_secondary": [],
+      "classification_confidence": 0.96,
+      "signal_status": "developing",
+      "impact_assessment": {
+        "impact_score": 8,
+        "probability_score": 8,
+        "urgency_score": 7,
+        "novelty_score": 7,
+        "rationale": "ENSO strength predicted to rise transiently then decline long-term with warming, explaining 90% of simulated changes. Critical for understanding future El Nino/La Nina extremes and agricultural planning.",
+        "stakeholders": [
+          "climate scientists",
+          "agricultural planners",
+          "disaster preparedness agencies",
+          "insurance industry"
+        ],
+        "monitoring_indicators": [
+          "ENSO intensity observations",
+          "lag-linear model validation",
+          "regional climate adaptation policies"
+        ]
+      },
+      "psst_dimensions": {
+        "ES": 80,
+        "CC": 95
+      },
+      "cross_impact": {
+        "influenced_by": [
+          "wf2-2603.03838"
+        ],
+        "influences": []
+      }
+    },
+    {
+      "id": "wf2-2603.03532",
+      "title": "It Takes So Little to Change So Much: Investigating the Robustness of a Danish Voting Advice Algorithm",
+      "steeps_primary": "P_Political",
+      "steeps_secondary": [
+        "T_Technological",
+        "S_Social"
+      ],
+      "classification_confidence": 0.93,
+      "signal_status": "developing",
+      "impact_assessment": {
+        "impact_score": 7,
+        "probability_score": 8,
+        "urgency_score": 7,
+        "novelty_score": 7,
+        "rationale": "VAA algorithmic fragility: small input changes produce large recommendation shifts. Directly threatens democratic information infrastructure as millions rely on such tools for voting decisions.",
+        "stakeholders": [
+          "election commissions",
+          "VAA developers",
+          "political scientists",
+          "voters"
+        ],
+        "monitoring_indicators": [
+          "VAA usage rates",
+          "algorithmic robustness audits",
+          "democratic tech regulation"
+        ]
+      },
+      "psst_dimensions": {
+        "ES": 75,
+        "CC": 92
+      },
+      "cross_impact": {
+        "influenced_by": [],
+        "influences": []
+      }
+    },
+    {
+      "id": "wf2-2603.04097",
+      "title": "Spectral Bath Engineering for Quantum-Enhanced Agrivoltaics via Non-Markovian Dynamics",
+      "steeps_primary": "E_Environmental",
+      "steeps_secondary": [
+        "T_Technological"
+      ],
+      "classification_confidence": 0.88,
+      "signal_status": "emerging",
+      "impact_assessment": {
+        "impact_score": 7,
+        "probability_score": 5,
+        "urgency_score": 6,
+        "novelty_score": 9,
+        "rationale": "Quantum physics applied to agrivoltaics for food-energy nexus optimization. Highly novel cross-domain application. Long-term potential for dual-use land optimization if quantum enhancement proves viable.",
+        "stakeholders": [
+          "agrivoltaics researchers",
+          "quantum physicists",
+          "food security organizations",
+          "energy companies"
+        ],
+        "monitoring_indicators": [
+          "quantum agrivoltaics efficiency gains",
+          "dual-use land optimization studies",
+          "food-energy nexus research"
+        ]
+      },
+      "psst_dimensions": {
+        "ES": 50,
+        "CC": 86
+      },
+      "cross_impact": {
+        "influenced_by": [],
+        "influences": []
+      }
+    },
+    {
+      "id": "wf2-2603.04192",
+      "title": "OptiQKD: A Machine Learning-Optimized Framework for Real-Time Parameter Tuning in Quantum Key Distribution",
+      "steeps_primary": "T_Technological",
+      "steeps_secondary": [
+        "P_Political"
+      ],
+      "classification_confidence": 0.94,
+      "signal_status": "developing",
+      "impact_assessment": {
+        "impact_score": 7,
+        "probability_score": 7,
+        "urgency_score": 7,
+        "novelty_score": 7,
+        "rationale": "ML-optimized QKD parameter tuning enables practical deployment. Bridges gap between QKD security guarantees and real-world channel dynamics. Critical for post-quantum cryptography transition.",
+        "stakeholders": [
+          "quantum cryptography companies",
+          "telecom operators",
+          "defense agencies",
+          "standards bodies"
+        ],
+        "monitoring_indicators": [
+          "QKD deployment rates",
+          "ML-enhanced QKD adoption",
+          "quantum internet readiness"
+        ]
+      },
+      "psst_dimensions": {
+        "ES": 75,
+        "CC": 93
+      },
+      "cross_impact": {
+        "influenced_by": [],
+        "influences": []
+      }
+    },
+    {
+      "id": "wf2-2603.03947",
+      "title": "Trainable Neuromorphic Spintronic Hardware Via Analog Finite-Difference Gradient Methods",
+      "steeps_primary": "T_Technological",
+      "steeps_secondary": [
+        "E_Environmental"
+      ],
+      "classification_confidence": 0.95,
+      "signal_status": "emerging",
+      "impact_assessment": {
+        "impact_score": 7,
+        "probability_score": 6,
+        "urgency_score": 6,
+        "novelty_score": 8,
+        "rationale": "Spintronic nano-neurons with analog gradient training for energy-efficient hardware neural networks. Potential paradigm shift from digital to analog neuromorphic computing for edge AI.",
+        "stakeholders": [
+          "chip designers",
+          "edge AI companies",
+          "spintronics researchers",
+          "semiconductor industry"
+        ],
+        "monitoring_indicators": [
+          "spintronic neural network prototypes",
+          "energy efficiency benchmarks",
+          "neuromorphic chip roadmaps"
+        ]
+      },
+      "psst_dimensions": {
+        "ES": 68,
+        "CC": 94
+      },
+      "cross_impact": {
+        "influenced_by": [],
+        "influences": []
+      }
+    },
+    {
+      "id": "wf2-2603.02952",
+      "title": "Sparse autoencoders reveal organized biological knowledge but minimal regulatory logic in single-cell foundation models",
+      "steeps_primary": "T_Technological",
+      "steeps_secondary": [
+        "S_Social"
+      ],
+      "classification_confidence": 0.9,
+      "signal_status": "emerging",
+      "impact_assessment": {
+        "impact_score": 7,
+        "probability_score": 8,
+        "urgency_score": 6,
+        "novelty_score": 8,
+        "rationale": "Single-cell foundation models encode co-expression but lack causal regulatory logic. Critical finding for biomedical AI: statistical patterns != biological mechanisms. Challenges foundation model claims.",
+        "stakeholders": [
+          "computational biologists",
+          "drug discovery companies",
+          "foundation model developers",
+          "medical researchers"
+        ],
+        "monitoring_indicators": [
+          "single-cell FM evaluation standards",
+          "causal vs correlational benchmarks",
+          "biomedical AI credibility"
+        ]
+      },
+      "psst_dimensions": {
+        "ES": 78,
+        "CC": 89
+      },
+      "cross_impact": {
+        "influenced_by": [],
+        "influences": []
+      }
+    },
+    {
+      "id": "wf2-2603.02753",
+      "title": "Deep learning-guided evolutionary optimization for protein design",
+      "steeps_primary": "T_Technological",
+      "steeps_secondary": [
+        "S_Social"
+      ],
+      "classification_confidence": 0.94,
+      "signal_status": "developing",
+      "impact_assessment": {
+        "impact_score": 7,
+        "probability_score": 8,
+        "urgency_score": 6,
+        "novelty_score": 7,
+        "rationale": "DL-guided evolutionary optimization for protein design enabling efficient sequence space exploration. Accelerates drug discovery and synthetic biology applications.",
+        "stakeholders": [
+          "biotech companies",
+          "pharmaceutical firms",
+          "protein engineering labs",
+          "synthetic biology startups"
+        ],
+        "monitoring_indicators": [
+          "protein design success rates",
+          "drug discovery acceleration metrics",
+          "synthetic biology market growth"
+        ]
+      },
+      "psst_dimensions": {
+        "ES": 76,
+        "CC": 93
+      },
+      "cross_impact": {
+        "influenced_by": [],
+        "influences": []
+      }
+    },
+    {
+      "id": "wf2-2603.04082",
+      "title": "Air-stable bright entangled photon-pair source from graphene-encapsulated van der Waals ferroelectric NbOI2",
+      "steeps_primary": "T_Technological",
+      "steeps_secondary": [],
+      "classification_confidence": 0.96,
+      "signal_status": "emerging",
+      "impact_assessment": {
+        "impact_score": 7,
+        "probability_score": 7,
+        "urgency_score": 6,
+        "novelty_score": 8,
+        "rationale": "Air-stable entangled photon-pair source using van der Waals materials. Key enabler for practical quantum photonics integration with semiconductor platforms.",
+        "stakeholders": [
+          "quantum technology companies",
+          "photonics researchers",
+          "semiconductor manufacturers"
+        ],
+        "monitoring_indicators": [
+          "quantum photonics integration progress",
+          "vdW material applications",
+          "entangled photon source scalability"
+        ]
+      },
+      "psst_dimensions": {
+        "ES": 75,
+        "CC": 95
+      },
+      "cross_impact": {
+        "influenced_by": [],
+        "influences": []
+      }
+    },
+    {
+      "id": "wf2-2603.03659",
+      "title": "Reckless Designs and Broken Promises: Privacy Implications of Targeted Interactive Advertisements on Social Media Platforms",
+      "steeps_primary": "P_Political",
+      "steeps_secondary": [
+        "S_Social"
+      ],
+      "classification_confidence": 0.92,
+      "signal_status": "developing",
+      "impact_assessment": {
+        "impact_score": 7,
+        "probability_score": 9,
+        "urgency_score": 8,
+        "novelty_score": 6,
+        "rationale": "Social media platforms allowing targeted advertising on sensitive attributes, exposing privacy vulnerabilities despite platform promises. Regulatory enforcement gap documented.",
+        "stakeholders": [
+          "data protection authorities",
+          "social media platforms",
+          "advertisers",
+          "civil liberties organizations"
+        ],
+        "monitoring_indicators": [
+          "DPA enforcement actions",
+          "platform advertising policy changes",
+          "sensitive attribute targeting bans"
+        ]
+      },
+      "psst_dimensions": {
+        "ES": 80,
+        "CC": 91
+      },
+      "cross_impact": {
+        "influenced_by": [
+          "wf2-2603.04383"
+        ],
+        "influences": []
+      }
+    },
+    {
+      "id": "wf2-2603.01803",
+      "title": "Tokens All the Way Down: A Money View of Decentralized Finance",
+      "steeps_primary": "E_Economic",
+      "steeps_secondary": [
+        "T_Technological"
+      ],
+      "classification_confidence": 0.93,
+      "signal_status": "developing",
+      "impact_assessment": {
+        "impact_score": 7,
+        "probability_score": 7,
+        "urgency_score": 6,
+        "novelty_score": 7,
+        "rationale": "Money View framework revealing DeFi as layered credit hierarchy. Reinterprets DeFi through traditional monetary economics lens, providing analytical clarity for regulators.",
+        "stakeholders": [
+          "central banks",
+          "financial regulators",
+          "DeFi platforms",
+          "monetary economists"
+        ],
+        "monitoring_indicators": [
+          "DeFi regulatory frameworks",
+          "credit hierarchy stability metrics",
+          "token layer analysis tools"
+        ]
+      },
+      "psst_dimensions": {
+        "ES": 70,
+        "CC": 91
+      },
+      "cross_impact": {
+        "influenced_by": [],
+        "influences": [
+          "wf2-2603.04328"
+        ]
+      }
+    },
+    {
+      "id": "wf2-2603.04328",
+      "title": "Algorithmic Compliance and Regulatory Loss in Digital Assets",
+      "steeps_primary": "E_Economic",
+      "steeps_secondary": [
+        "P_Political",
+        "T_Technological"
+      ],
+      "classification_confidence": 0.92,
+      "signal_status": "developing",
+      "impact_assessment": {
+        "impact_score": 7,
+        "probability_score": 8,
+        "urgency_score": 7,
+        "novelty_score": 7,
+        "rationale": "ML-based cryptocurrency AML enforcement showing temporal nonstationarity undermines fixed policies. Critical finding for crypto regulation: static ML classifiers degrade in dynamic financial markets.",
+        "stakeholders": [
+          "crypto exchanges",
+          "financial regulators",
+          "AML compliance teams",
+          "fintech companies"
+        ],
+        "monitoring_indicators": [
+          "AML model drift metrics",
+          "crypto enforcement effectiveness",
+          "adaptive compliance systems"
+        ]
+      },
+      "psst_dimensions": {
+        "ES": 78,
+        "CC": 90
+      },
+      "cross_impact": {
+        "influenced_by": [
+          "wf2-2603.01803"
+        ],
+        "influences": []
+      }
+    },
+    {
+      "id": "wf2-2603.03079",
+      "title": "Probabilistic and Alarm-Based Evaluation of a b-Value-Driven Deep Learning Earthquake Forecast",
+      "steeps_primary": "E_Environmental",
+      "steeps_secondary": [
+        "T_Technological"
+      ],
+      "classification_confidence": 0.94,
+      "signal_status": "developing",
+      "impact_assessment": {
+        "impact_score": 7,
+        "probability_score": 7,
+        "urgency_score": 7,
+        "novelty_score": 7,
+        "rationale": "DL earthquake forecasting with positive Brier Skill Scores, elevated event capture rates exceeding random baselines. Moves earthquake prediction toward operational viability.",
+        "stakeholders": [
+          "seismological agencies",
+          "disaster preparedness organizations",
+          "insurance industry",
+          "urban planners"
+        ],
+        "monitoring_indicators": [
+          "earthquake forecast skill scores",
+          "operational forecast deployment",
+          "preparedness response integration"
+        ]
+      },
+      "psst_dimensions": {
+        "ES": 78,
+        "CC": 93
+      },
+      "cross_impact": {
+        "influenced_by": [],
+        "influences": []
+      }
+    }
+  ]
+}

@@ -16,10 +16,14 @@ master-orchestrator.md                    ← Top-level entry point
 ├── arxiv-scan-orchestrator.md            ← WF2 (arXiv)
 ├── naver-scan-orchestrator.md            ← WF3 (Naver News)
 ├── multiglobal-news-scan-orchestrator.md ← WF4 (Multi&Global-News)
+├── timeline-map-orchestrator.md          ← Timeline Map (Step 5.1.4)
+│   ├── workers/timeline-narrative-analyst.md  ← LLM narrative analysis (draft + refinement)
+│   ├── workers/timeline-quality-challenger.md ← Adversarial review (Challenge-Response)
+│   └── workers/timeline-map-composer.md       ← Final document assembly
 └── workers/
     ├── report-merger.md                  ← Integration
     ├── phase2-analyst.md                 ← Unified LLM agent (Steps 2.1+2.2)
-    └── (34 worker agents total)          ← Shared + WF-specific workers
+    └── (38 worker agents total)          ← Shared + WF-specific + Timeline workers
 ```
 
 Agent definitions live in `.claude/agents/`. Worker agents live in `.claude/agents/workers/`. These define detailed per-step behaviors that extend the methodology in AGENTS.md.

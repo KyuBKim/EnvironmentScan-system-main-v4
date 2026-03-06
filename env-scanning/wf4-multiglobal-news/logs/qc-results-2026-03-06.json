@@ -1,0 +1,20 @@
+{
+  "report_path": "env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-03-06.md",
+  "ranked_path": "env-scanning/wf4-multiglobal-news/analysis/priority-ranked-2026-03-06.json",
+  "language": "en",
+  "overall_status": "PASS",
+  "summary": {
+    "total_checks": 13,
+    "passed": 13,
+    "critical_failures": 0,
+    "error_failures": 0,
+    "warn_failures": 0
+  },
+  "l2a_status": "PASS",
+  "l2a_checks": 20,
+  "l2a_passed": 20,
+  "l2b_status": "PASS",
+  "l2b_checks": 13,
+  "l2b_passed": 13,
+  "validated_at": "2026-03-06T03:25:00+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "date": "2026-03-05",
+    "workflow": "wf3-naver",
+    "tracker_version": "fallback",
+    "status": "degraded",
+    "note": "Evolution tracker encountered data format error; using fallback"
+  },
+  "evolution_summary": {
+    "total_signals": 15,
+    "new": 15,
+    "recurring": 0,
+    "strengthening": 0,
+    "weakening": 0,
+    "faded": 0,
+    "transformed": 0
+  },
+  "threads": [],
+  "active_threads": 0
+}

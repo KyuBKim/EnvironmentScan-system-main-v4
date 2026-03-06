@@ -1,9 +1,9 @@
-# Decision Log -- WF4 Implementation
+# Decision Log
 
-> Architectural decisions made during the implementation of WF4 (Multi&Global-News Environmental Scanning).
+> Architectural decisions made during the evolution of the Quadruple Environmental Scanning System.
 >
-> System: Quadruple Environmental Scanning System v2.5.0
-> Period: 2026-02-24
+> System: Quadruple Environmental Scanning System v3.1.0
+> Period: 2026-02-24 ~ 2026-03-06
 
 ---
 
@@ -269,6 +269,59 @@ Examples:
 
 ---
 
+## DEC-015: Challenge-Response Pattern for Timeline Map Narratives
+
+**Date**: 2026-03-06
+**Context**: The Timeline Map requires cross-theme strategic synthesis — identifying compound effects like "tariff war + semiconductor regulation → supply chain crisis." This cross-theme insight is the core quality differentiator of the Timeline Map. The question is which agent pattern produces the highest quality: Sub-agent, Agent-Teams, or a new pattern.
+
+**Decision**: Use **Challenge-Response** pattern — a dedicated adversarial reviewer (`@timeline-quality-challenger`) reviews the draft narratives from `@timeline-narrative-analyst`, and the analyst then refines based on challenges. This is NOT Agent-Teams and NOT simple self-review.
+
+**Rationale**: Cross-theme synthesis requires **all themes in one context window**. Agent-Teams would fragment context across members, destroying the ability to identify theme interactions. A single sub-agent produces adequate quality but lacks peer review. Challenge-Response preserves unified context while adding adversarial quality assurance — mirroring academic peer review.
+
+**Alternatives Considered**:
+- Agent-Teams (3+ members per theme) — Context fragmentation destroys cross-theme insight
+- Single sub-agent without review — No adversarial testing of narrative quality
+- Self-review (same agent reviews its own work) — Blind spot persistence; separate agent detects more issues
+
+**Impact**: Phase B expanded from B1 to B1-B4. New agent: `timeline-quality-challenger.md` (5 challenge dimensions, severity calibration: must_address/should_consider/minor). Challenger targets 3-8 challenges per review cycle. `must_address_count` gates whether refinement (B3) is mandatory.
+
+---
+
+## DEC-016: Python Narrative Gate (`narrative_gate.py`) for Phase B4
+
+**Date**: 2026-03-06
+**Context**: Phase B4 "Narrative Gate" was initially described as LLM instructions in the orchestrator. The 2nd Critical Reflection identified this as a Python 원천봉쇄 gap — structural verification of narratives (required fields, date counts, numeric consistency) is deterministic and should be Python-enforced, not LLM-instructed.
+
+**Decision**: Implement `narrative_gate.py` as an actual Python script with 5 checks (NG-001~005). The orchestrator invokes it via CLI, not via LLM instructions.
+
+**Rationale**: "계산은 Python이, 판단은 LLM이" — checking whether a JSON field exists, counting date patterns, verifying set membership are all deterministic operations. An LLM might incorrectly pass narratives with missing fields or insufficient date references. Python cannot make these mistakes.
+
+**Alternatives Considered**:
+- Keep as LLM instructions in orchestrator — Hallucination risk for structural checks
+- Add checks to existing validate_timeline_map_quality.py — That script validates the final report, not the intermediate narratives; different lifecycle stage
+
+**Impact**: `narrative_gate.py` added (5 checks: NG-001 required fields, NG-002 numeric consistency, NG-003 ≥2 date refs, NG-004 synthesis requirements, NG-005 refinement completeness). SOT path: `narrative_gate_script`. SOT-059 validates its existence. Orchestrator B4 invokes Python CLI.
+
+---
+
+## DEC-017: Timeline Map L2b Quality Defense Parity (TQ-009~011)
+
+**Date**: 2026-03-06
+**Context**: The Timeline Map's L2b validator (`validate_timeline_map_quality.py`) had 8 cross-reference checks (TQ-001~008). The 2nd Critical Reflection identified 3 PB verbatim verification gaps: PB-1 (ASCII timelines), PB-2 (cross-WF table numeric cells), and PB-3 (lead-lag days). These are the most critical Python 원천봉쇄 boundaries — if the LLM modifies these values, the entire pre-rendering pipeline is compromised.
+
+**Decision**: Add TQ-009 (PB-1 ASCII verbatim match), TQ-010 (PB-2 table cell match), TQ-011 (PB-3 lead-lag citation accuracy) — all CRITICAL severity.
+
+**Rationale**: PB-1~3 represent the hardest Python 원천봉쇄 boundary: ASCII art (PB-1), numeric table cells (PB-2), and cited numeric values (PB-3) must be character-for-character identical to what Python generated. Without programmatic verification, there is no way to guarantee the LLM copied them verbatim. A single altered digit in a table cell could change a decision-maker's interpretation.
+
+**Alternatives Considered**:
+- Trust the LLM instructions (PB rules in agent spec) — Instructions are advisory; programmatic verification is mandatory
+- Manual spot-check by human reviewer — Humans miss single-digit changes in dense tables
+- Hash-based verification — Too rigid; report formatting may add whitespace around PB content
+
+**Impact**: `validate_timeline_map_quality.py` upgraded to v1.1.0 (8→11 checks). TQ-009 uses line-by-line comparison with whitespace normalization. TQ-010 extracts numeric cells from both expected and actual tables. TQ-011 verifies cited lag_days values against `lead_lag_computed` data.
+
+---
+
 ## Summary
 
 | ID | Decision | Key Rationale |
@@ -287,9 +340,12 @@ Examples:
 | DEC-012 | Unified `phase2-analyst.md` (Steps 2.1+2.2) | Unified context = better quality; Python handles 2.3 |
 | DEC-013 | 4-Layer Quality Defense (L2b + L3) | Python checks verifiable; LLM checks semantic |
 | DEC-014 | Integrated/weekly stats preparation (Step 5.1.2.5) | Real stats from Python, not LLM-generated placeholders |
+| DEC-015 | Challenge-Response for Timeline Map narratives | Unified context + adversarial review = highest quality |
+| DEC-016 | Python narrative gate (`narrative_gate.py`) for B4 | Structural verification must be Python, not LLM |
+| DEC-017 | Timeline Map L2b parity (TQ-009~011) | PB-1/2/3 verbatim verification is non-negotiable |
 
 ---
 
-**Document Version**: 2.0
-**Last Updated**: 2026-03-02
-**System Version**: Quadruple Workflow System v2.5.0
+**Document Version**: 3.0
+**Last Updated**: 2026-03-06
+**System Version**: Quadruple Workflow System v3.1.0

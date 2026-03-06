@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-06T13:00:00+09:00",
+    "date": "2026-03-06",
+    "system_version": "2.5.0"
+  },
+  "workflow_statistics": {
+    "wf1-general": {
+      "total_signals": 47,
+      "sources_active": 13,
+      "sources_failed": 5,
+      "steeps_distribution": {"T": 18, "P": 13, "E": 9, "s": 4, "S": 3},
+      "avg_psst": 31.3,
+      "psst_grade_distribution": {"A": 0, "B": 0, "C": 0, "D": 47},
+      "evolution": {"new": 47, "strengthening": 0, "recurring": 0, "weakening": 0, "faded": 67},
+      "top_signal": "Evo 2: AI Trained on 9 Trillion DNA Base Pairs"
+    },
+    "wf2-arxiv": {
+      "total_signals": 30,
+      "sources_active": 1,
+      "sources_failed": 0,
+      "steeps_distribution": {"T": 13, "S": 5, "E_econ": 4, "P": 4, "E_env": 4, "s": 3},
+      "avg_psst": 70.1,
+      "psst_grade_distribution": {"A": 0, "B": 15, "C": 15, "D": 0},
+      "evolution": {"new": 11, "strengthening": 0, "recurring": 14, "weakening": 5, "faded": 0},
+      "top_signal": "Efficient Refusal Ablation in LLM through Optimal Transport"
+    },
+    "wf3-naver": {
+      "total_signals": 257,
+      "sources_active": 1,
+      "sources_failed": 0,
+      "steeps_distribution": {"P": 101, "T": 57, "E": 34, "s": 33, "S": 28, "E_env": 4},
+      "avg_psst": 34.8,
+      "psst_grade_distribution": {"A": 0, "B": 0, "C": 0, "D": 257},
+      "fssf_distribution": {"Trend": 118, "Wild Card": 67, "Weak Signal": 24, "Precursor Event": 14, "Emerging Issue": 13, "Driver": 11, "Discontinuity": 10, "Megatrend": 0},
+      "three_horizons": {"H1": 221, "H2": 36, "H3": 0},
+      "tipping_points": {"RED": 6, "ORANGE": 8, "YELLOW": 14, "GREEN": 229},
+      "evolution": {"new": 257, "strengthening": 0, "recurring": 0, "weakening": 0, "faded": 0},
+      "top_signal": "Hormuz Strait Completely Blocked"
+    },
+    "wf4-multiglobal-news": {
+      "total_signals": 42,
+      "sources_active": 38,
+      "sources_failed": 6,
+      "languages_covered": 8,
+      "steeps_distribution": {"E": 18, "P": 11, "T": 6, "E_env": 4, "S": 2, "s": 1},
+      "avg_psst": 74.2,
+      "psst_grade_distribution": {"A": 4, "B": 32, "C": 6, "D": 0},
+      "fssf_distribution": {"Trend": 8, "Emerging Issue": 8, "Weak Signal": 6, "Driver": 6, "Discontinuity": 6, "Precursor Event": 4, "Wild Card": 3, "Megatrend": 1},
+      "three_horizons": {"H1": 23, "H2": 16, "H3": 3},
+      "tipping_points": {"RED": 8, "ORANGE": 5, "YELLOW": 11, "GREEN": 18},
+      "evolution": {"new": 42, "strengthening": 0, "recurring": 0, "weakening": 0, "faded": 0},
+      "top_signal": "NATO Intercepts Iranian Ballistic Missile Headed for Turkey"
+    }
+  },
+  "integrated_statistics": {
+    "total_combined_signals": 376,
+    "top_20_selected": 20,
+    "cross_wf_reinforced": 5,
+    "cross_wf_contradictions": 2,
+    "academic_early_signals": 4,
+    "wf3_exclusive": 7,
+    "wf4_exclusive": 8,
+    "overall_steeps_distribution": {
+      "Political": 129,
+      "Technological": 94,
+      "Economic": 65,
+      "spiritual": 41,
+      "Social": 38,
+      "Environmental": 12
+    },
+    "combined_tipping_points": {
+      "RED": 14,
+      "ORANGE": 13,
+      "YELLOW": 25,
+      "GREEN": 247
+    },
+    "overall_assessment": "CRISIS-DOMINATED scan period with unprecedented 14 simultaneous RED tipping point alerts across WF3 and WF4. The Iran-Middle East conflict cascade dominates all four workflows, creating multi-domain contagion across military, energy, financial, and geopolitical systems. WF2 academic signals provide critical counterpoint with long-term AI safety and climate research findings."
+  }
+}

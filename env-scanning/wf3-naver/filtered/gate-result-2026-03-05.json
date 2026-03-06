@@ -1,0 +1,189 @@
+{
+  "gate_id": "dedup_gate.py",
+  "gate_version": "2.0.0",
+  "checked_at": "2026-03-05T05:28:50.779841+00:00",
+  "workflow": "wf3-naver",
+  "signals_file": "env-scanning/wf3-naver/raw/daily-crawl-2026-03-05.json",
+  "previous_file": "env-scanning/wf3-naver/signals/snapshots/database-2026-03-05-pre-update.json",
+  "gate_status": "PASS_WITH_REMOVAL",
+  "gate_message": "10 definite duplicate(s) removed. 9 uncertain signal(s) flagged for LLM review. 250 definite new signal(s) passed.",
+  "thresholds": {
+    "url_exact": 1.0,
+    "topic_fingerprint_definite": 0.6,
+    "topic_fingerprint_uncertain": 0.3,
+    "title_similarity_definite": 0.9,
+    "title_similarity_uncertain": 0.8,
+    "entity_overlap_definite": 0.85,
+    "entity_overlap_uncertain": 0.7
+  },
+  "enforce": "strict",
+  "statistics": {
+    "total_input": 269,
+    "definite_new": 250,
+    "definite_duplicates": 10,
+    "uncertain": 9,
+    "pass_through": 259
+  },
+  "stage_breakdown": {
+    "A_url": 0,
+    "B_topic": 5,
+    "C_title": 0,
+    "D_entity": 5
+  },
+  "duplicates": [
+    {
+      "signal_id": "naver-20260305-100-017",
+      "signal_title": "주한이란대사 \"미·이스라엘 공격 대응은 보복이 아니라 정당 방위\" [뉴시스Pic]",
+      "matched_signal_id": "naver-20260228-104-001",
+      "matched_title": "트럼프, 이란 전격 공습 확인 — 미-이스라엘 '유다의 방패 작전' 개시",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260305-101-047",
+      "signal_title": "폭락 하루 만에 급반등…코스피·코스닥 동시 매수 사이드카 발동",
+      "matched_signal_id": "naver-20260206-101-019",
+      "matched_title": "코스피 '검은 금요일' -- 사이드카 3회, 5% 급락",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260305-101-049",
+      "signal_title": "中 푸리에 “휴머노이드, 향후 캐즘 뚫어야…실제 가정 진입이 핵심” [배터리레이다]",
+      "matched_signal_id": "naver-20260225-105-004",
+      "matched_title": "K로봇 리더에 삼성 오준호 단장… 휴머노이드 생태계 키운다",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260305-101-069",
+      "signal_title": "“이란 미사일 90% 이상 요격”…UAE, 천궁-Ⅱ 추가 구매 긴급 요청",
+      "matched_signal_id": "naver-20260226-100-003",
+      "matched_title": "UAE 강훈식 실장 방문, 650억불 경제패키지…방산 협력만 350억불",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260305-105-242",
+      "signal_title": "AI가 나 몰래 데이터유출…‘아이덴티티 보안’ 중요성 높아지는 이유",
+      "matched_signal_id": "naver-20260206-105-037",
+      "matched_title": "AI가 관상동맥 시술 1분 만에 판단",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260305-105-247",
+      "signal_title": "“AI는 소프트웨어로 못 막는다”…정석근 CTO가 꺼낸 승부수는 ‘데이터센터 풀스택",
+      "matched_signal_id": "naver-20260209-TOP-012",
+      "matched_title": "AI 데이터센터 전력 소비 2배 -- 한국 전력망 수용 한계",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260305-105-259",
+      "signal_title": "피부에 AI 무선 전자패치 붙여 혈류 상태 실시간 측정",
+      "matched_signal_id": "naver-20260209-TOP-002",
+      "matched_title": "글로벌 빅테크 AI 투자 966조원(6600억달러) -- 수익성 우려 확산",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260305-105-260",
+      "signal_title": "“AI 아내가 죽음 부추겼다”…구글 제미나이 피소",
+      "matched_signal_id": "naver-20260209-TOP-002",
+      "matched_title": "글로벌 빅테크 AI 투자 966조원(6600억달러) -- 수익성 우려 확산",
+      "stage": "D_entity",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260305-105-263",
+      "signal_title": "\"아이폰, 보안때문에 썼는데\"…'코루나' 악성코드, 해커 조직 손에",
+      "matched_signal_id": "naver-20260213-TOP-008",
+      "matched_title": "구글 AI 기반 악성코드 실전 투입 경고 -- LLM 호출 자가 변형 맬웨어 등장",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "naver-20260305-105-265",
+      "signal_title": "\"AI 학습도 자체 칩으로” 메타, 반도체 기술 자립 속도 낸다",
+      "matched_signal_id": "naver-20260209-TOP-002",
+      "matched_title": "글로벌 빅테크 AI 투자 966조원(6600억달러) -- 수익성 우려 확산",
+      "stage": "D_entity",
+      "score": 1.0
+    }
+  ],
+  "uncertain_signals": [
+    {
+      "signal_id": "naver-20260305-101-059",
+      "signal_title": "SK하이닉스, ‘MWC 2026’서 HBM4 등 AI 메모리 솔루션 대거 공개",
+      "matched_signal_id": "naver-20260212-TOP-007",
+      "matched_title": "마이크론 HBM4 양산",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260305-101-076",
+      "signal_title": "SK하이닉스, MWC 참가...HBM4 등 AI 메모리 대거 선봬",
+      "matched_signal_id": "naver-20260225-105-001",
+      "matched_title": "SK하이닉스, 용인 클러스터 1기 팹에 21.6조 투자 의결",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260305-101-077",
+      "signal_title": "최태원 SK 회장, 엔비디아 젠슨황 보러 GTC 간다…HBM 협력 논의 예상",
+      "matched_signal_id": "naver-20260225-101-002",
+      "matched_title": "'엔비디아 의존도 낮춰라'…AMD, 메타와 600억달러 규모 AI칩 공급 계약",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260305-101-086",
+      "signal_title": "스맥, 삼성전자 DS 반도체 공정장비 수주 개시",
+      "matched_signal_id": "naver-20260209-TOP-001",
+      "matched_title": "삼성전자 HBM4 세계 최초 양산 출하 -- AI 수익화의 핵심 공급망 입증",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "naver-20260305-101-087",
+      "signal_title": "“국제유가 2주 뒤에 반영된다면서 왜 벌써?”… 정부, ‘담합’ 의혹 점검 나선다 [수민이가 화났어요]",
+      "matched_signal_id": "naver-20260219-104-001",
+      "matched_title": "트럼프 '10일내 이란 공격 결정' — 국제유가 4.6% 급등, 밴스 '이란 레드라인 불응' 확인",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "naver-20260305-104-200",
+      "signal_title": "[영상] 이스라엘 공군, 역사 썼다…“F-35 전투기로 유인기 최초 격추” [밀리터리+]",
+      "matched_signal_id": "naver-20260216-TOP-001",
+      "matched_title": "트럼프-네타냐후, 이란 대중국 석유수출 차단 합의 -- '협상 결렬시 이스라엘 이란 공격 지지'",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "naver-20260305-104-204",
+      "signal_title": "이스라엘 대사 \"북핵 문제서 교훈…이란 핵개발 용인 없다\" [미국-이란 전쟁]",
+      "matched_signal_id": "naver-20260216-TOP-001",
+      "matched_title": "트럼프-네타냐후, 이란 대중국 석유수출 차단 합의 -- '협상 결렬시 이스라엘 이란 공격 지지'",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "naver-20260305-105-226",
+      "signal_title": "“심혈관 질환 조기 진단” KAIST, 스마트워치 ‘전자패치’ 개발",
+      "matched_signal_id": "naver-20260219-105-003",
+      "matched_title": "메타·애플·오픈AI 'AI 디바이스' 3파전 — 메타 '말리부2' 스마트워치, 눈·귀·손목 통합 AI 디바이스 경쟁 격화",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "naver-20260305-105-240",
+      "signal_title": "“땡큐 HBM” SK하이닉스, 설비투자 늘렸는데도 재무건전성 '쑥'",
+      "matched_signal_id": "naver-20260225-105-001",
+      "matched_title": "SK하이닉스, 용인 클러스터 1기 팹에 21.6조 투자 의결",
+      "stage": "B_topic",
+      "score": 0.3333
+    }
+  ]
+}

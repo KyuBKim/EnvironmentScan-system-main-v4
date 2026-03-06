@@ -1,0 +1,113 @@
+{
+  "report_path": "env-scanning/wf3-naver/reports/daily/environmental-scan-2026-03-06-ko.md",
+  "ranked_path": "env-scanning/wf3-naver/analysis/priority-ranked-2026-03-06.json",
+  "language": "ko",
+  "overall_status": "WARN",
+  "summary": {
+    "total_checks": 13,
+    "passed": 11,
+    "critical_failures": 0,
+    "error_failures": 1,
+    "warn_failures": 1
+  },
+  "checks": [
+    {
+      "check_id": "QC-001",
+      "level": "CRITICAL",
+      "description": "Priority order consistency (report vs ranked JSON)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check_id": "QC-002",
+      "level": "ERROR",
+      "description": "Executive Summary top-3 match",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check_id": "QC-003",
+      "level": "CRITICAL",
+      "description": "pSST badge accuracy (score/grade consistency)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check_id": "QC-004",
+      "level": "ERROR",
+      "description": "Source dates within scan window",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check_id": "QC-005",
+      "level": "ERROR",
+      "description": "Cross-impact reference validity (Section 4 ↔ Section 2)",
+      "passed": false,
+      "detail": "'- 이란-미국 전쟁 확대' (best JW: 0.60, keyword: 0%) — no matching signal in Section 2\n'한국 소비자물가 압력' (best JW: 0.47, keyword: 0%) — no matching signal in Section 2\n'방산 수출' (best JW: 0.49, keyword: 0%) — no matching signal in Section 2\n'소비자물가' (best JW: 0.42, keyword: 0%) — no matching signal in Section 2",
+      "remedy": "Section 4 cross-impact pairs must reference actual signals from Section 2."
+    },
+    {
+      "check_id": "QC-006",
+      "level": "ERROR",
+      "description": "Field depth minimum (per-field content analysis)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check_id": "QC-007",
+      "level": "WARN",
+      "description": "STEEPs classification vs content consistency (flags for LLM review)",
+      "passed": false,
+      "detail": "Priority 1: classified as E_Environmental but only 1 content keywords found (min 2)\nPriority 4: classified as S_Social but only 1 content keywords found (min 2)\nPriority 7: classified as T_Technological but only 1 content keywords found (min 2)",
+      "remedy": "Review flagged signals: classification may not match actual content. LLM quality-reviewer should assess these cases.",
+      "failed_signal_ids": [
+        "priority-1",
+        "priority-4",
+        "priority-7"
+      ]
+    },
+    {
+      "check_id": "QC-008",
+      "level": "CRITICAL",
+      "description": "Intra-report duplicate detection (Jaro-Winkler >= 0.85)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check_id": "QC-009",
+      "level": "ERROR",
+      "description": "Quantitative grounding (numeric values in Quantitative Metrics)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check_id": "QC-010",
+      "level": "WARN",
+      "description": "Vague language blocklist (Impact/Inference specificity)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check_id": "QC-011",
+      "level": "ERROR",
+      "description": "Cross-signal synthesis in Section 5 (≥2 signal refs per implication)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check_id": "QC-012",
+      "level": "WARN",
+      "description": "Time horizon keywords in Section 5",
+      "passed": true,
+      "detail": "Found 4 time keywords across Section 5."
+    },
+    {
+      "check_id": "QC-013",
+      "level": "WARN",
+      "description": "Action verb presence in Section 5",
+      "passed": true,
+      "detail": "Found 15 action verbs across Section 5."
+    }
+  ]
+}

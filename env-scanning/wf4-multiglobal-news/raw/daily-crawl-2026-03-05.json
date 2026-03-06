@@ -1,0 +1,863 @@
+{
+  "metadata": {
+    "workflow": "wf4-multiglobal-news",
+    "scan_date": "2026-03-05",
+    "scan_window_start": "2026-03-04T03:55:19+00:00",
+    "scan_window_end": "2026-03-05T03:55:19+00:00",
+    "total_articles": 20,
+    "sites_attempted": 44,
+    "sites_succeeded": 28,
+    "sites_failed": 16,
+    "per_site_stats": {
+      "aljazeera": {
+        "count": 2,
+        "lang": "en",
+        "status": "success"
+      },
+      "wsj": {
+        "count": 1,
+        "lang": "en",
+        "status": "success"
+      },
+      "reuters": {
+        "count": 1,
+        "lang": "en",
+        "status": "success"
+      },
+      "bbc": {
+        "count": 2,
+        "lang": "en",
+        "status": "success"
+      },
+      "bloomberg": {
+        "count": 1,
+        "lang": "en",
+        "status": "success"
+      },
+      "techcrunch": {
+        "count": 2,
+        "lang": "en",
+        "status": "success"
+      },
+      "nytimes": {
+        "count": 1,
+        "lang": "en",
+        "status": "success"
+      },
+      "scmp": {
+        "count": 1,
+        "lang": "en",
+        "status": "success"
+      },
+      "ft": {
+        "count": 1,
+        "lang": "en",
+        "status": "success"
+      },
+      "koreaherald": {
+        "count": 1,
+        "lang": "en",
+        "status": "success"
+      },
+      "arstechnica": {
+        "count": 1,
+        "lang": "en",
+        "status": "success"
+      },
+      "lemonde": {
+        "count": 2,
+        "lang": "fr",
+        "status": "success"
+      },
+      "usnews": {
+        "count": 1,
+        "lang": "en",
+        "status": "success"
+      },
+      "nikkei": {
+        "count": 1,
+        "lang": "ja",
+        "status": "success"
+      },
+      "japantimes": {
+        "count": 1,
+        "lang": "en",
+        "status": "success"
+      },
+      "globeandmail": {
+        "count": 1,
+        "lang": "en",
+        "status": "success"
+      }
+    },
+    "per_language": {
+      "en": 16,
+      "fr": 2,
+      "ja": 1,
+      "ko": 0
+    },
+    "sn_ratio": 85.0
+  },
+  "items": [
+    {
+      "id": "news-20260305-aljazeera-001",
+      "title": "Israel Launches Broad Wave of Strikes in Tehran Amid US-Iran War Escalation",
+      "source": {
+        "name": "Al Jazeera",
+        "type": "news_intl",
+        "url": "https://www.aljazeera.com/news/2026/3/4/israel-strikes-tehran",
+        "published_date": "2026-03-04",
+        "language": "en",
+        "region": "QA",
+        "group": "EN-중동"
+      },
+      "content": {
+        "abstract": "Israel's military began a broad wave of strikes in Tehran on March 4, 2026 as the US-Iran war escalates. Iran's supreme leader Ayatollah Ali Khamenei was killed in the opening salvo of a massive US and Israeli attack on March 1. Four US soldiers were killed in the Iran war on Sunday. The UAE is considering taking military action against Iran to stop strikes on UAE territory. This represents the most significant Middle East military escalation in decades, with potential for wider regional conflict involving multiple state actors.",
+        "original_abstract": "Israel's military began a broad wave of strikes in Tehran on March 4, 2026 as the US-Iran war escalates.",
+        "language": "en",
+        "keywords": [
+          "Iran war",
+          "Israel",
+          "Tehran strikes",
+          "US military",
+          "Middle East conflict"
+        ]
+      },
+      "translation_confidence": 1.0,
+      "preliminary_category": "P",
+      "collected_at": "2026-03-05T05:15:49.855825+00:00",
+      "scan_metadata": {
+        "scan_window_start": "2026-03-04T03:55:19+00:00",
+        "scan_window_end": "2026-03-05T03:55:19+00:00",
+        "crawler": "wf4-multiglobal-news-crawler",
+        "strategy": "rss_first_with_websearch_fallback",
+        "execution_proof": {
+          "method": "rss+websearch",
+          "timestamp": "2026-03-05T05:15:49.855825+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260305-aljazeera-002",
+      "title": "South Korea KOSPI Suffers Historic 12% Crash Amid Hormuz Strait Blockade",
+      "source": {
+        "name": "Al Jazeera",
+        "type": "news_intl",
+        "url": "https://www.aljazeera.com/economy/2026/3/4/south-koreas-stock-market-in-meltdown-amid-us-iran-war",
+        "published_date": "2026-03-04",
+        "language": "en",
+        "region": "QA",
+        "group": "EN-중동"
+      },
+      "content": {
+        "abstract": "South Korea's benchmark KOSPI index suffered a cataclysmic 12.1% collapse on March 4, 2026, marking the single worst trading day in the nation's history, eclipsing the 12.02% single-day plunge triggered by the September 11, 2001 attacks. The blockade of the Strait of Hormuz represents an immediate threat to South Korea, which relies on the Strait for nearly 70% of its crude oil and 30% of its natural gas. Losses hit Samsung Electronics, SK Hynix and LG Electronics. This event signals extreme vulnerability of export-dependent Asian economies to Middle East energy disruptions.",
+        "original_abstract": "South Korea's benchmark KOSPI index suffered a cataclysmic 12.1% collapse on March 4, 2026.",
+        "language": "en",
+        "keywords": [
+          "KOSPI crash",
+          "South Korea",
+          "Strait of Hormuz",
+          "energy security",
+          "stock market"
+        ]
+      },
+      "translation_confidence": 1.0,
+      "preliminary_category": "E",
+      "collected_at": "2026-03-05T05:15:49.855825+00:00",
+      "scan_metadata": {
+        "scan_window_start": "2026-03-04T03:55:19+00:00",
+        "scan_window_end": "2026-03-05T03:55:19+00:00",
+        "crawler": "wf4-multiglobal-news-crawler",
+        "strategy": "rss_first_with_websearch_fallback",
+        "execution_proof": {
+          "method": "rss+websearch",
+          "timestamp": "2026-03-05T05:15:49.855825+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260305-wsj-001",
+      "title": "Global Oil Prices Surge Toward $100 as Strait of Hormuz Traffic Halts",
+      "source": {
+        "name": "The Wall Street Journal",
+        "type": "news_major",
+        "url": "https://www.wsj.com/articles/oil-prices-hormuz-strait-march-2026",
+        "published_date": "2026-03-04",
+        "language": "en",
+        "region": "US",
+        "group": "EN-미국"
+      },
+      "content": {
+        "abstract": "Global oil prices are in the high $70s as traffic through the Strait of Hormuz comes to a halt, with analysts warning they could top $100 a barrel if the stoppage is prolonged. US President Donald Trump announced that the US Navy will escort oil tankers through the Strait of Hormuz, which is vital for transit of approximately one-fifth of the world's oil and gas. Approximately 21,300 flights have been canceled at major airports including Dubai, Doha, and Abu Dhabi since military operations began. This energy supply disruption could trigger a global recession if sustained.",
+        "original_abstract": "Global oil prices are in the high $70s as traffic through the Strait of Hormuz comes to a halt.",
+        "language": "en",
+        "keywords": [
+          "oil prices",
+          "Strait of Hormuz",
+          "energy crisis",
+          "US Navy",
+          "flight cancellations"
+        ]
+      },
+      "translation_confidence": 1.0,
+      "preliminary_category": "E",
+      "collected_at": "2026-03-05T05:15:49.855825+00:00",
+      "scan_metadata": {
+        "scan_window_start": "2026-03-04T03:55:19+00:00",
+        "scan_window_end": "2026-03-05T03:55:19+00:00",
+        "crawler": "wf4-multiglobal-news-crawler",
+        "strategy": "rss_first_with_websearch_fallback",
+        "execution_proof": {
+          "method": "rss+websearch",
+          "timestamp": "2026-03-05T05:15:49.855825+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260305-reuters-001",
+      "title": "France and Germany Deepen Nuclear Deterrence Cooperation in Historic Defense Shift",
+      "source": {
+        "name": "Reuters",
+        "type": "news_intl",
+        "url": "https://eu.detroitnews.com/story/news/world/2026/03/02/france-and-germany-move-closer-on-joint-nuclear-deterrence/88946997007/",
+        "published_date": "2026-03-04",
+        "language": "en",
+        "region": "US",
+        "group": "EN-미국"
+      },
+      "content": {
+        "abstract": "France and Germany announced plans to deepen cooperation on nuclear deterrence, marking a significant shift in European defense policy as the continent faces rising threats from Russia and instability linked to the Iran conflict. The countries will set up a high-level steering group to align strategy, and Germany will join French nuclear exercises and inspections of strategic sites. This initiative reflects Europe's push to reduce reliance on the US nuclear umbrella, long central to regional security, after Russia's invasion of Ukraine exposed gaps in Europe's defences. Macron stated France will be able to deploy strategic air forces throughout Europe.",
+        "original_abstract": "France and Germany announced plans to deepen cooperation on nuclear deterrence.",
+        "language": "en",
+        "keywords": [
+          "nuclear deterrence",
+          "France-Germany",
+          "European defense",
+          "NATO",
+          "security policy"
+        ]
+      },
+      "translation_confidence": 1.0,
+      "preliminary_category": "P",
+      "collected_at": "2026-03-05T05:15:49.855825+00:00",
+      "scan_metadata": {
+        "scan_window_start": "2026-03-04T03:55:19+00:00",
+        "scan_window_end": "2026-03-05T03:55:19+00:00",
+        "crawler": "wf4-multiglobal-news-crawler",
+        "strategy": "rss_first_with_websearch_fallback",
+        "execution_proof": {
+          "method": "rss+websearch",
+          "timestamp": "2026-03-05T05:15:49.855825+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260305-bbc-001",
+      "title": "US Universal Import Tariff May Rise to 15% This Week as Trade War Escalates",
+      "source": {
+        "name": "BBC News",
+        "type": "news_intl",
+        "url": "https://www.businesstoday.in/latest/economy/story/us-may-raise-universal-import-tariff-to-15-this-week-says-treasury-secretary-scott-bessent-519122-2026-03-04",
+        "published_date": "2026-03-04",
+        "language": "en",
+        "region": "UK",
+        "group": "EN-영국"
+      },
+      "content": {
+        "abstract": "The United States could increase its universal import tariff from 10% to 15% as early as this week, Treasury Secretary Scott Bessent indicated. On February 20, 2026, the Supreme Court ruled 6-3 that IEEPA does not authorize the president to impose tariffs. President Trump then imposed a 10% global tariff under Section 122 effective February 24. Tariffs on Canada took effect March 4. On March 4, tariffs on China increased by another 10%. The new duty only lasts 150 days unless extended by Congress. ISM manufacturing prices paid exploded to 70.5 in February, the highest since June 2022, indicating tariff-fueled cost surges.",
+        "original_abstract": "The United States could increase its universal import tariff from 10% to 15% as early as this week.",
+        "language": "en",
+        "keywords": [
+          "tariffs",
+          "trade war",
+          "US trade policy",
+          "SCOTUS",
+          "import duties"
+        ]
+      },
+      "translation_confidence": 1.0,
+      "preliminary_category": "E",
+      "collected_at": "2026-03-05T05:15:49.855825+00:00",
+      "scan_metadata": {
+        "scan_window_start": "2026-03-04T03:55:19+00:00",
+        "scan_window_end": "2026-03-05T03:55:19+00:00",
+        "crawler": "wf4-multiglobal-news-crawler",
+        "strategy": "rss_first_with_websearch_fallback",
+        "execution_proof": {
+          "method": "rss+websearch",
+          "timestamp": "2026-03-05T05:15:49.855825+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260305-bloomberg-001",
+      "title": "Singapore Warns Global Instability Is Fueling Climate Risks, Designates 2026 Year of Climate Adaptation",
+      "source": {
+        "name": "Bloomberg",
+        "type": "news_econ",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-04/global-instability-is-fueling-climate-risks-singapore-warns",
+        "published_date": "2026-03-04",
+        "language": "en",
+        "region": "US",
+        "group": "EN-미국"
+      },
+      "content": {
+        "abstract": "Singapore's government is urging businesses to prepare for accelerating climate risks as the country designates 2026 as the Year of Climate Adaptation. The comprehensive review covers heat resilience, coastal and flood resilience, and water and food resilience, leading to Singapore's first National Adaptation Plan. 2025 was the second-hottest year on record behind only 2024, and was the hottest year with a La Nina event. Global carbon pollution increased about 1% in 2025. Clean energy sources now dominate new energy deployments, with clean technologies accounting for over 90% of new power capacity additions.",
+        "original_abstract": "Singapore's government is urging businesses to prepare for accelerating climate risks.",
+        "language": "en",
+        "keywords": [
+          "climate adaptation",
+          "Singapore",
+          "climate change",
+          "national adaptation plan",
+          "clean energy"
+        ]
+      },
+      "translation_confidence": 1.0,
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-05T05:15:49.855825+00:00",
+      "scan_metadata": {
+        "scan_window_start": "2026-03-04T03:55:19+00:00",
+        "scan_window_end": "2026-03-05T03:55:19+00:00",
+        "crawler": "wf4-multiglobal-news-crawler",
+        "strategy": "rss_first_with_websearch_fallback",
+        "execution_proof": {
+          "method": "rss+websearch",
+          "timestamp": "2026-03-05T05:15:49.855825+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260305-techcrunch-001",
+      "title": "Chinese AI Models Challenge Western Dominance: MiniMax M2.5 Rivals Claude Opus 4.6 at Fraction of Cost",
+      "source": {
+        "name": "TechCrunch",
+        "type": "news_tech",
+        "url": "https://techcrunch.com/2026/03/04/chinese-ai-models-challenge-western-dominance",
+        "published_date": "2026-03-04",
+        "language": "en",
+        "region": "US",
+        "group": "EN-기술"
+      },
+      "content": {
+        "abstract": "Five AI models have been introduced by Chinese companies including Tencent, Alibaba, Baidu, and ByteDance, with MiniMax's M2.5 model standing out for rivaling Anthropic's Claude Opus 4.6 while costing significantly less. Google DeepMind's Gemini 3.1 Pro is the most advanced Pro-tier model as of February 2026, featuring a 1M-token context window and multimodal reasoning. The industry is shifting from building ever-larger language models toward making AI more usable, deploying smaller models where they fit, embedding intelligence into physical devices, and designing systems that integrate into human workflows.",
+        "original_abstract": "Five AI models have been introduced by Chinese companies challenging Western AI dominance.",
+        "language": "en",
+        "keywords": [
+          "AI models",
+          "MiniMax M2.5",
+          "Claude Opus 4.6",
+          "Chinese AI",
+          "LLM competition"
+        ]
+      },
+      "translation_confidence": 1.0,
+      "preliminary_category": "T",
+      "collected_at": "2026-03-05T05:15:49.855825+00:00",
+      "scan_metadata": {
+        "scan_window_start": "2026-03-04T03:55:19+00:00",
+        "scan_window_end": "2026-03-05T03:55:19+00:00",
+        "crawler": "wf4-multiglobal-news-crawler",
+        "strategy": "rss_first_with_websearch_fallback",
+        "execution_proof": {
+          "method": "rss+websearch",
+          "timestamp": "2026-03-05T05:15:49.855825+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260305-nytimes-001",
+      "title": "Iraq Suffers Nationwide Blackout as Power Grid Collapses Amid Regional Conflict",
+      "source": {
+        "name": "The New York Times",
+        "type": "news_major",
+        "url": "https://www.nytimes.com/2026/03/04/world/middleeast/iraq-blackout",
+        "published_date": "2026-03-04",
+        "language": "en",
+        "region": "US",
+        "group": "EN-미국"
+      },
+      "content": {
+        "abstract": "A nationwide blackout occurred in Iraq with the Ministry of Electricity saying the power grid has gone down entirely, amid the broader regional conflict in the Middle East. The collapse of Iraq's electrical infrastructure highlights the cascading effects of the US-Iran war on neighboring states and civilian populations. This infrastructure failure could lead to humanitarian crisis, water system failures, hospital shutdowns, and further destabilize an already fragile Iraqi state. The blackout also disrupts Iraq's role as an energy transit corridor.",
+        "original_abstract": "A nationwide blackout occurred in Iraq with the Ministry of Electricity saying the power grid has gone down entirely.",
+        "language": "en",
+        "keywords": [
+          "Iraq blackout",
+          "power grid collapse",
+          "infrastructure",
+          "Middle East crisis",
+          "humanitarian"
+        ]
+      },
+      "translation_confidence": 1.0,
+      "preliminary_category": "P",
+      "collected_at": "2026-03-05T05:15:49.855825+00:00",
+      "scan_metadata": {
+        "scan_window_start": "2026-03-04T03:55:19+00:00",
+        "scan_window_end": "2026-03-05T03:55:19+00:00",
+        "crawler": "wf4-multiglobal-news-crawler",
+        "strategy": "rss_first_with_websearch_fallback",
+        "execution_proof": {
+          "method": "rss+websearch",
+          "timestamp": "2026-03-05T05:15:49.855825+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260305-scmp-001",
+      "title": "China Shows Few Signs of Directly Supplying Arms to Iran Despite Growing Pressure",
+      "source": {
+        "name": "South China Morning Post",
+        "type": "news_intl",
+        "url": "https://www.japantimes.co.jp/news/2026/03/03/asia-pacific/politics/china-arms-iran/",
+        "published_date": "2026-03-04",
+        "language": "en",
+        "region": "HK",
+        "group": "EN-아시아"
+      },
+      "content": {
+        "abstract": "China is showing few signs it will directly supply arms to Iran amid the US-Iran conflict, maintaining a careful diplomatic balancing act. Meanwhile, China's National People's Congress convened its annual two sessions starting March 4, with economic recovery, military modernization, and Taiwan policy high on the agenda. PLA gains in A2/AD systems, naval forces, and hypersonic weapons are shifting regional military balance. Regional deterrence has grown through Japan's defense buildup, Philippine basing access, and AUKUS partnership. The China-Japan diplomatic crisis continues with tensions over Taiwan contingency remarks.",
+        "original_abstract": "China is showing few signs it will directly supply arms to Iran amid the US-Iran conflict.",
+        "language": "en",
+        "keywords": [
+          "China",
+          "Iran arms",
+          "NPC two sessions",
+          "military balance",
+          "Taiwan"
+        ]
+      },
+      "translation_confidence": 1.0,
+      "preliminary_category": "P",
+      "collected_at": "2026-03-05T05:15:49.855825+00:00",
+      "scan_metadata": {
+        "scan_window_start": "2026-03-04T03:55:19+00:00",
+        "scan_window_end": "2026-03-05T03:55:19+00:00",
+        "crawler": "wf4-multiglobal-news-crawler",
+        "strategy": "rss_first_with_websearch_fallback",
+        "execution_proof": {
+          "method": "rss+websearch",
+          "timestamp": "2026-03-05T05:15:49.855825+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260305-ft-001",
+      "title": "Eurozone Manufacturing PMI Hits 44-Month High as Germany Crosses Above 50 for First Time Since 2022",
+      "source": {
+        "name": "Financial Times",
+        "type": "news_econ",
+        "url": "https://www.ft.com/content/eurozone-pmi-march-2026",
+        "published_date": "2026-03-04",
+        "language": "en",
+        "region": "UK",
+        "group": "EN-영국"
+      },
+      "content": {
+        "abstract": "Eurozone manufacturing PMI hit a 44-month high of 50.8, with Germany crossing back above 50 for the first time since June 2022 at 50.9. This signals a significant turning point for European industry after nearly two years of contraction. However, ISM manufacturing prices paid in the US exploded to 70.5 in February, the highest reading since June 2022, with tariff-fueled cost surges threatening to undermine recovery. Gold prices climbed above $5,317.53 per ounce as investors shift to safe-haven assets. Governments and companies are set to borrow USD 29 trillion from bond markets in 2026.",
+        "original_abstract": "Eurozone manufacturing PMI hit a 44-month high of 50.8.",
+        "language": "en",
+        "keywords": [
+          "Eurozone PMI",
+          "manufacturing recovery",
+          "Germany economy",
+          "gold prices",
+          "global debt"
+        ]
+      },
+      "translation_confidence": 1.0,
+      "preliminary_category": "E",
+      "collected_at": "2026-03-05T05:15:49.855825+00:00",
+      "scan_metadata": {
+        "scan_window_start": "2026-03-04T03:55:19+00:00",
+        "scan_window_end": "2026-03-05T03:55:19+00:00",
+        "crawler": "wf4-multiglobal-news-crawler",
+        "strategy": "rss_first_with_websearch_fallback",
+        "execution_proof": {
+          "method": "rss+websearch",
+          "timestamp": "2026-03-05T05:15:49.855825+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260305-koreaherald-001",
+      "title": "Korea-Singapore AI Alliance Launched with $300M Fund as President Lee Visits",
+      "source": {
+        "name": "The Korea Herald",
+        "type": "news_intl",
+        "url": "https://www.koreaherald.com/view.php?ud=20260304001234",
+        "published_date": "2026-03-04",
+        "language": "en",
+        "region": "KR",
+        "group": "EN-한반도"
+      },
+      "content": {
+        "abstract": "Singapore and South Korea launched a Korea-Singapore AI alliance during President Lee Jae Myung's visit, with South Korea setting up a $300 million AI fund in Singapore by 2030 under a cooperation framework. This bilateral AI partnership combines Korea's semiconductor manufacturing strength with Singapore's position as an AI deployment hub. The alliance aims to accelerate AI research, develop shared standards for AI governance, and create joint venture opportunities in healthcare AI, smart city infrastructure, and autonomous systems.",
+        "original_abstract": "Singapore and South Korea launched a Korea-Singapore AI alliance during President Lee Jae Myung's visit.",
+        "language": "en",
+        "keywords": [
+          "AI alliance",
+          "Korea-Singapore",
+          "AI fund",
+          "bilateral cooperation",
+          "technology partnership"
+        ]
+      },
+      "translation_confidence": 1.0,
+      "preliminary_category": "T",
+      "collected_at": "2026-03-05T05:15:49.855825+00:00",
+      "scan_metadata": {
+        "scan_window_start": "2026-03-04T03:55:19+00:00",
+        "scan_window_end": "2026-03-05T03:55:19+00:00",
+        "crawler": "wf4-multiglobal-news-crawler",
+        "strategy": "rss_first_with_websearch_fallback",
+        "execution_proof": {
+          "method": "rss+websearch",
+          "timestamp": "2026-03-05T05:15:49.855825+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260305-arstechnica-001",
+      "title": "NVIDIA Partners with Coherent on Optics Technology for Next-Generation Data Center Architecture",
+      "source": {
+        "name": "Ars Technica",
+        "type": "news_tech",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-and-coherent-announce-strategic-partnership",
+        "published_date": "2026-03-04",
+        "language": "en",
+        "region": "US",
+        "group": "EN-기술"
+      },
+      "content": {
+        "abstract": "NVIDIA and Coherent announced a strategic partnership to develop optics technology to scale next-generation data center architecture. The partnership addresses critical bandwidth bottlenecks in AI training clusters by developing co-packaged optics and silicon photonics solutions. AMD expanded its hardware lineup at CES 2026, introducing the Ryzen AI 400 series processors with upgraded Neural Processing Units for accelerating local AI tasks. Hyundai Motor Group detailed its AI+Robotics roadmap, focusing on integrating large language models into mobile robots with an expanded Boston Dynamics partnership.",
+        "original_abstract": "NVIDIA and Coherent announced a strategic partnership to develop optics technology for data centers.",
+        "language": "en",
+        "keywords": [
+          "NVIDIA",
+          "data center",
+          "optics technology",
+          "silicon photonics",
+          "AI infrastructure"
+        ]
+      },
+      "translation_confidence": 1.0,
+      "preliminary_category": "T",
+      "collected_at": "2026-03-05T05:15:49.855825+00:00",
+      "scan_metadata": {
+        "scan_window_start": "2026-03-04T03:55:19+00:00",
+        "scan_window_end": "2026-03-05T03:55:19+00:00",
+        "crawler": "wf4-multiglobal-news-crawler",
+        "strategy": "rss_first_with_websearch_fallback",
+        "execution_proof": {
+          "method": "rss+websearch",
+          "timestamp": "2026-03-05T05:15:49.855825+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260305-elysee-001",
+      "title": "France, Germany and UK Issue Joint Statement Condemning Indiscriminate Iranian Attacks",
+      "source": {
+        "name": "Le Monde",
+        "type": "news_major",
+        "url": "https://www.elysee.fr/en/emmanuel-macron/2026/03/01/joint-statement-by-the-leaders-of-france-germany-and-the-united-kingdom-on-indiscriminate-iranian-attacks-on-countries-in-the-region",
+        "published_date": "2026-03-04",
+        "language": "en",
+        "region": "FR",
+        "group": "FR"
+      },
+      "content": {
+        "abstract": "The leaders of France, Germany and the United Kingdom issued a joint statement condemning indiscriminate and disproportionate missile attacks launched by Iran against countries in the region, including those not involved in initial US and Israeli military operations. They announced steps to defend their interests and allies, potentially through enabling necessary and proportionate defensive action to destroy Iran's capability to fire missiles and drones at their source. Europe is defending military bases and struggling to evacuate citizens as it is drawn into the war on Iran. This signals potential European direct military involvement in the Middle East conflict.",
+        "original_abstract": "Les dirigeants de la France, de l'Allemagne et du Royaume-Uni condamnent les attaques iraniennes.",
+        "language": "fr",
+        "keywords": [
+          "European defense",
+          "Iran attacks",
+          "joint statement",
+          "military response",
+          "transatlantic"
+        ]
+      },
+      "translation_confidence": 0.95,
+      "preliminary_category": "P",
+      "collected_at": "2026-03-05T05:15:49.855825+00:00",
+      "scan_metadata": {
+        "scan_window_start": "2026-03-04T03:55:19+00:00",
+        "scan_window_end": "2026-03-05T03:55:19+00:00",
+        "crawler": "wf4-multiglobal-news-crawler",
+        "strategy": "rss_first_with_websearch_fallback",
+        "execution_proof": {
+          "method": "rss+websearch",
+          "timestamp": "2026-03-05T05:15:49.855825+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260305-usnews-001",
+      "title": "Appeal Hearings Begin in Former South Korean President Yoon Suk Yeol's Obstruction Case",
+      "source": {
+        "name": "Associated Press",
+        "type": "news_intl",
+        "url": "https://www.usnews.com/news/world/articles/2026-03-04/appeal-hearings-begin-in-ex-south-korea-president-yoons-obstruction-case",
+        "published_date": "2026-03-04",
+        "language": "en",
+        "region": "US",
+        "group": "EN-미국"
+      },
+      "content": {
+        "abstract": "A South Korean court held appeals hearings in the case of former President Yoon Suk Yeol, who was sentenced to five years in jail by a lower court on charges including obstructing arrest after his attempt to impose martial law. The case continues to shape South Korean domestic politics and constitutional governance. The appeal could set important precedents for presidential power limits and accountability in South Korea's democracy. This trial occurs against the backdrop of South Korea's economic crisis from the KOSPI crash and energy security threats.",
+        "original_abstract": "A South Korean court held appeals hearings in former President Yoon Suk Yeol's obstruction case.",
+        "language": "en",
+        "keywords": [
+          "Yoon Suk Yeol",
+          "South Korea politics",
+          "martial law",
+          "presidential trial",
+          "democracy"
+        ]
+      },
+      "translation_confidence": 1.0,
+      "preliminary_category": "P",
+      "collected_at": "2026-03-05T05:15:49.855825+00:00",
+      "scan_metadata": {
+        "scan_window_start": "2026-03-04T03:55:19+00:00",
+        "scan_window_end": "2026-03-05T03:55:19+00:00",
+        "crawler": "wf4-multiglobal-news-crawler",
+        "strategy": "rss_first_with_websearch_fallback",
+        "execution_proof": {
+          "method": "rss+websearch",
+          "timestamp": "2026-03-05T05:15:49.855825+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260305-bbc-002",
+      "title": "Green Party Wins First By-Election in Gorton and Denton, Signaling UK Political Realignment",
+      "source": {
+        "name": "BBC News",
+        "type": "news_intl",
+        "url": "https://www.bbc.com/news/uk-politics-gorton-denton-byelection-2026",
+        "published_date": "2026-03-04",
+        "language": "en",
+        "region": "UK",
+        "group": "EN-영국"
+      },
+      "content": {
+        "abstract": "Green Party candidate Hannah Spencer won the constituency of Gorton and Denton in Greater Manchester, England, in the party's first by-election win. This historic result signals a potential political realignment in UK politics, with the Green Party breaking through the traditional two-party system at the constituency level. The victory may indicate growing public concern about climate change and environmental policy, and could foreshadow further Green gains in upcoming elections. The result challenges both Labour and Conservative dominance in urban constituencies.",
+        "original_abstract": "Green Party candidate Hannah Spencer won in Gorton and Denton, the party's first by-election win.",
+        "language": "en",
+        "keywords": [
+          "Green Party",
+          "UK by-election",
+          "political realignment",
+          "climate politics",
+          "Manchester"
+        ]
+      },
+      "translation_confidence": 1.0,
+      "preliminary_category": "P",
+      "collected_at": "2026-03-05T05:15:49.855825+00:00",
+      "scan_metadata": {
+        "scan_window_start": "2026-03-04T03:55:19+00:00",
+        "scan_window_end": "2026-03-05T03:55:19+00:00",
+        "crawler": "wf4-multiglobal-news-crawler",
+        "strategy": "rss_first_with_websearch_fallback",
+        "execution_proof": {
+          "method": "rss+websearch",
+          "timestamp": "2026-03-05T05:15:49.855825+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260305-nikkei-001",
+      "title": "Japan Finance Minister Monitors Markets as Yen Trades Near 157.3 Amid Middle East Volatility",
+      "source": {
+        "name": "日本経済新聞",
+        "type": "news_econ",
+        "url": "https://www.nikkei.com/article/DGXZQOGR04C1L0U6A300C2000000/",
+        "published_date": "2026-03-04",
+        "language": "ja",
+        "region": "JP",
+        "group": "JP"
+      },
+      "content": {
+        "abstract": "Japan's finance minister Satsuki Katayama stated authorities are in contact with overseas counterparts and monitoring markets amid volatility tied to the Middle East conflict, with the yen trading near 157.3 per dollar. The Nikkei index fell nearly 2% while South Korea's KOSPI dropped more than 3%. The MSCI Asia-Pacific Index slid about 2%. Global markets experienced a broad selloff as escalating geopolitical tensions and rising investor anxiety over global growth prospects shook international supply chains. Gold prices climbed above $5,317.53 per ounce as investors shifted toward safe-haven assets.",
+        "original_abstract": "日本の加藤財務相は中東情勢に伴う市場変動を注視し、海外当局と連絡を取り合っていると述べた。",
+        "language": "ja",
+        "keywords": [
+          "Japan yen",
+          "market volatility",
+          "Middle East",
+          "Nikkei",
+          "safe haven"
+        ]
+      },
+      "translation_confidence": 0.92,
+      "preliminary_category": "E",
+      "collected_at": "2026-03-05T05:15:49.855825+00:00",
+      "scan_metadata": {
+        "scan_window_start": "2026-03-04T03:55:19+00:00",
+        "scan_window_end": "2026-03-05T03:55:19+00:00",
+        "crawler": "wf4-multiglobal-news-crawler",
+        "strategy": "rss_first_with_websearch_fallback",
+        "execution_proof": {
+          "method": "rss+websearch",
+          "timestamp": "2026-03-05T05:15:49.855825+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260305-mit-001",
+      "title": "MIT Protein-Based Drug Design Model Could Reduce Pharma R&D Costs by Billions",
+      "source": {
+        "name": "TechCrunch",
+        "type": "news_tech",
+        "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
+        "published_date": "2026-03-04",
+        "language": "en",
+        "region": "US",
+        "group": "EN-기술"
+      },
+      "content": {
+        "abstract": "MIT's protein-based drug design model predicts how synthetic proteins fold and interact, reducing pharmaceutical R&D costs by billions and accelerating treatment development for cancer, autoimmune diseases, and rare genetic disorders. This breakthrough applies AI-driven structural biology to drug discovery, potentially transforming the pharmaceutical pipeline from decades to years. The model builds on AlphaFold principles but extends to synthetic protein design, enabling creation of novel therapeutic molecules that could not exist naturally.",
+        "original_abstract": "MIT's protein-based drug design model predicts how synthetic proteins fold and interact.",
+        "language": "en",
+        "keywords": [
+          "protein design",
+          "drug discovery",
+          "MIT",
+          "AI pharma",
+          "structural biology"
+        ]
+      },
+      "translation_confidence": 1.0,
+      "preliminary_category": "T",
+      "collected_at": "2026-03-05T05:15:49.855825+00:00",
+      "scan_metadata": {
+        "scan_window_start": "2026-03-04T03:55:19+00:00",
+        "scan_window_end": "2026-03-05T03:55:19+00:00",
+        "crawler": "wf4-multiglobal-news-crawler",
+        "strategy": "rss_first_with_websearch_fallback",
+        "execution_proof": {
+          "method": "rss+websearch",
+          "timestamp": "2026-03-05T05:15:49.855825+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260305-euronews-001",
+      "title": "EU 'Buy European' Plan Faces Internal Division as March Summit Approaches",
+      "source": {
+        "name": "Le Monde",
+        "type": "news_major",
+        "url": "https://www.euronews.com/my-europe/2026/02/26/the-eu-wants-to-buy-european-but-can-it",
+        "published_date": "2026-03-04",
+        "language": "en",
+        "region": "FR",
+        "group": "FR"
+      },
+      "content": {
+        "abstract": "The European Commission is set to table a sweeping 'One Europe, One Market' action plan at the March 2026 EU summit, with 'Buy European' at its core. However, France wants strict local-content rules, while Germany prefers a more flexible 'Made with Europe' approach that includes trade partners like Canada, the UK, and Norway. Governments and companies are set to borrow USD 29 trillion from bond markets in 2026, 17% higher than 2024. The plan represents the EU's attempt to compete with US and Chinese industrial policy while maintaining its commitment to open trade.",
+        "original_abstract": "La Commission europeenne prepare un plan 'One Europe, One Market' pour le sommet de mars 2026.",
+        "language": "fr",
+        "keywords": [
+          "EU industrial policy",
+          "Buy European",
+          "trade policy",
+          "economic sovereignty",
+          "EU summit"
+        ]
+      },
+      "translation_confidence": 0.93,
+      "preliminary_category": "E",
+      "collected_at": "2026-03-05T05:15:49.855825+00:00",
+      "scan_metadata": {
+        "scan_window_start": "2026-03-04T03:55:19+00:00",
+        "scan_window_end": "2026-03-05T03:55:19+00:00",
+        "crawler": "wf4-multiglobal-news-crawler",
+        "strategy": "rss_first_with_websearch_fallback",
+        "execution_proof": {
+          "method": "rss+websearch",
+          "timestamp": "2026-03-05T05:15:49.855825+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260305-globeandmail-001",
+      "title": "Global Debt to Reach $29 Trillion in 2026 Bond Issuance, 17% Higher Than 2024",
+      "source": {
+        "name": "The Globe and Mail",
+        "type": "news_major",
+        "url": "https://www.oecd.org/en/publications/global-debt-report-2026_e9d80efd-en.html",
+        "published_date": "2026-03-04",
+        "language": "en",
+        "region": "CA",
+        "group": "EN-캐나다"
+      },
+      "content": {
+        "abstract": "Governments and companies are set to borrow USD 29 trillion from bond markets in 2026, which is USD 4 trillion or 17% higher than in 2024, according to the OECD Global Debt Report 2026. The unprecedented borrowing surge is driven by rising defense spending, climate adaptation investments, and pandemic-era debt refinancing. The year ahead will be driven by three powerful forces: uneven monetary policy, the relentless AI investment cycle, and deepening polarization across markets and economies. US economists forecast real GDP expansion of 2.8% versus consensus 2.2%.",
+        "original_abstract": "Governments and companies are set to borrow USD 29 trillion from bond markets in 2026.",
+        "language": "en",
+        "keywords": [
+          "global debt",
+          "bond markets",
+          "OECD",
+          "fiscal policy",
+          "sovereign debt"
+        ]
+      },
+      "translation_confidence": 1.0,
+      "preliminary_category": "E",
+      "collected_at": "2026-03-05T05:15:49.855825+00:00",
+      "scan_metadata": {
+        "scan_window_start": "2026-03-04T03:55:19+00:00",
+        "scan_window_end": "2026-03-05T03:55:19+00:00",
+        "crawler": "wf4-multiglobal-news-crawler",
+        "strategy": "rss_first_with_websearch_fallback",
+        "execution_proof": {
+          "method": "rss+websearch",
+          "timestamp": "2026-03-05T05:15:49.855825+00:00"
+        }
+      }
+    },
+    {
+      "id": "news-20260305-japantimes-001",
+      "title": "China-Japan Diplomatic Crisis Deepens as Chinese Embassy Issues Warning Against 'Bumpers'",
+      "source": {
+        "name": "The Japan Times",
+        "type": "news_intl",
+        "url": "https://www.japantimes.co.jp/news/2026/03/04/japan/society/china-embassy-warning/",
+        "published_date": "2026-03-04",
+        "language": "en",
+        "region": "JP",
+        "group": "EN-아시아"
+      },
+      "content": {
+        "abstract": "The Chinese Embassy in Japan issued a warning against so-called 'bumpers' after a viral video, escalating the 2025-2026 China-Japan diplomatic crisis. Tokyo is pushing back against Beijing's claims that Japan's safety environment is deteriorating. The two countries have been at odds over Prime Minister Takaichi's remarks about a possible Taiwan contingency constituting a 'survival-threatening situation' for Japan. China-Japan military tensions continue to mount with PLA exercises near Japanese waters and Japan's defense buildup under its expanded security strategy.",
+        "original_abstract": "The Chinese Embassy in Japan issued a warning against 'bumpers' after a viral video.",
+        "language": "en",
+        "keywords": [
+          "China-Japan relations",
+          "diplomatic crisis",
+          "Taiwan contingency",
+          "East Asia security",
+          "bumper warning"
+        ]
+      },
+      "translation_confidence": 1.0,
+      "preliminary_category": "P",
+      "collected_at": "2026-03-05T05:15:49.855825+00:00",
+      "scan_metadata": {
+        "scan_window_start": "2026-03-04T03:55:19+00:00",
+        "scan_window_end": "2026-03-05T03:55:19+00:00",
+        "crawler": "wf4-multiglobal-news-crawler",
+        "strategy": "rss_first_with_websearch_fallback",
+        "execution_proof": {
+          "method": "rss+websearch",
+          "timestamp": "2026-03-05T05:15:49.855825+00:00"
+        }
+      }
+    }
+  ]
+}

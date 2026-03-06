@@ -130,6 +130,13 @@ Every report must pass through all defense layers:
 
 Progressive Retry applies when any layer fails: targeted fix → full regen → human escalation (max 2 retries).
 
+**Timeline Map Quality Defense (v3.1.0)**: The Timeline Map receives full L2a+L2b+L3 quality parity:
+- L2a: `validate_timeline_map.py` (18 structural checks, TL-001~018)
+- L2b: `validate_timeline_map_quality.py` (11 cross-reference checks, TQ-001~011, including PB-1/2/3 verbatim verification)
+- B4 Gate: `narrative_gate.py` (5 narrative verification checks, NG-001~005)
+- L3: `quality-reviewer.md` with `timeline` profile (temporal coherence, cross-theme insight, escalation realism)
+- Challenge-Response: `timeline-quality-challenger.md` adversarial review before assembly
+
 Required signal fields (9): 분류, 출처, 핵심 사실, 정량 지표, 영향도, 상세 설명, 추론, 이해관계자, 모니터링 지표.
 
 ### 2.10 WF3/WF4-Shared Frameworks
@@ -235,7 +242,7 @@ Step 1: WF1 — Phase 1 → Phase 2 → [Human Review] → Phase 3 → [Human Ap
 Step 2: WF2 — Phase 1 → Phase 2 → [Human Review] → Phase 3 → [Human Approval]
 Step 3: WF3 — Phase 1 → Phase 2 → [Human Review] → Phase 3 → [Human Approval]
 Step 4: WF4 — Phase 1 → Phase 2 → [Human Review] → Phase 3 → [Human Approval]
-Step 5: Integration — Merge 4 reports → pSST unified ranking → [Human Approval]
+Step 5: Integration — Timeline Map → Merge 4 reports → pSST unified ranking → [Human Approval]
 ```
 
 ### 4.2 Each Workflow's Internal Flow

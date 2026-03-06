@@ -1,0 +1,212 @@
+# ================================================================
+# TIMELINE THEMES — Theme Definitions for Timeline Map Generator
+# ================================================================
+# Version: 1.0.0
+# Last Updated: 2026-03-06
+#
+# Referenced by: theme_discovery_engine.py
+# Path declared in: workflow-registry.yaml → system.signal_evolution.timeline_map.theme_config
+#
+# This file defines ONLY theme identities (names, keywords, priorities).
+# All tunable parameters (cluster sizes, thresholds, etc.) live in
+# workflow-registry.yaml → timeline_map section (SOT single-source principle).
+#
+# Matching: whole-word boundary (re.compile + \b) + exclusion keywords.
+# Changes: validate_registry.py SOT-036 auto-validates.
+# SIE may propose keyword additions — user approval required.
+# ================================================================
+
+version: "1.0.0"
+
+themes:
+  trade_tariff:
+    label_ko: "무역·관세 전쟁"
+    label_en: "Trade & Tariffs"
+    priority: "CRITICAL"
+    keywords_en:
+      - "tariff"
+      - "trade war"
+      - "customs duty"
+      - "import duty"
+      - "export control"
+      - "trade policy"
+      - "trade tension"
+    keywords_ko:
+      - "관세"
+      - "무역전쟁"
+      - "수출규제"
+      - "수입규제"
+      - "통상"
+    exclusion_keywords:
+      - "fair trade coffee"
+      - "trade-off"
+      - "tradeoff"
+    steeps_affinity: ["E", "P"]
+
+  geopolitics:
+    label_ko: "지정학적 긴장"
+    label_en: "Geopolitics"
+    priority: "CRITICAL"
+    keywords_en:
+      - "geopolitics"
+      - "geopolitical"
+      - "us-china"
+      - "nato"
+      - "alliance"
+      - "sanctions"
+      - "diplomacy"
+      - "arms race"
+    keywords_ko:
+      - "지정학"
+      - "미중"
+      - "안보"
+      - "동맹"
+      - "군사"
+      - "제재"
+      - "외교"
+    exclusion_keywords:
+      - "cybersecurity"
+      - "network security"
+      - "information security"
+    steeps_affinity: ["P"]
+
+  energy_climate:
+    label_ko: "에너지·기후 전환"
+    label_en: "Energy & Climate"
+    priority: "HIGH"
+    keywords_en:
+      - "climate change"
+      - "renewable energy"
+      - "solar power"
+      - "wind power"
+      - "nuclear fusion"
+      - "carbon emission"
+      - "energy transition"
+      - "greenhouse gas"
+    keywords_ko:
+      - "기후변화"
+      - "재생에너지"
+      - "태양광"
+      - "풍력"
+      - "핵융합"
+      - "탄소"
+      - "에너지전환"
+      - "온실가스"
+    exclusion_keywords:
+      - "diffusion model"
+      - "latent diffusion"
+      - "solar system"
+    steeps_affinity: ["E_Environmental", "T"]
+
+  ai_technology:
+    label_ko: "AI·기술 진화"
+    label_en: "AI & Technology"
+    priority: "HIGH"
+    keywords_en:
+      - "artificial intelligence"
+      - "machine learning"
+      - "deep learning"
+      - "large language model"
+      - "agentic ai"
+      - "autonomous"
+      - "robotics"
+      - "quantum computing"
+    keywords_ko:
+      - "인공지능"
+      - "머신러닝"
+      - "딥러닝"
+      - "에이전트"
+      - "로봇"
+      - "양자컴퓨팅"
+      - "생성형"
+    exclusion_keywords: []
+    steeps_affinity: ["T"]
+
+  semiconductor:
+    label_ko: "반도체 전쟁"
+    label_en: "Semiconductor"
+    priority: "MEDIUM"
+    keywords_en:
+      - "semiconductor"
+      - "chip"
+      - "hbm"
+      - "dram"
+      - "foundry"
+      - "lithography"
+      - "wafer"
+    keywords_ko:
+      - "반도체"
+      - "파운드리"
+      - "웨이퍼"
+      - "삼성전자"
+      - "하이닉스"
+    exclusion_keywords: []
+    steeps_affinity: ["T", "E"]
+
+  demographics:
+    label_ko: "인구·사회 위기"
+    label_en: "Demographics"
+    priority: "MEDIUM"
+    keywords_en:
+      - "demographics"
+      - "population decline"
+      - "birth rate"
+      - "fertility rate"
+      - "aging society"
+      - "labor shortage"
+    keywords_ko:
+      - "인구"
+      - "출산율"
+      - "고령화"
+      - "저출생"
+      - "인구절벽"
+      - "노동력"
+    exclusion_keywords:
+      - "population synthesis"
+      - "population dynamics"
+    steeps_affinity: ["S"]
+
+  biotech_health:
+    label_ko: "바이오·의료"
+    label_en: "Biotech & Health"
+    priority: "MEDIUM"
+    keywords_en:
+      - "biotech"
+      - "crispr"
+      - "gene editing"
+      - "genomics"
+      - "pharmaceutical"
+      - "drug discovery"
+      - "pandemic"
+    keywords_ko:
+      - "바이오"
+      - "유전자"
+      - "의료"
+      - "제약"
+      - "의대"
+      - "크리스퍼"
+    exclusion_keywords: []
+    steeps_affinity: ["T", "S"]
+
+  nuclear_security:
+    label_ko: "핵무기·전략 균형"
+    label_en: "Nuclear Security"
+    priority: "MEDIUM"
+    keywords_en:
+      - "nuclear weapon"
+      - "nuclear arms"
+      - "nuclear proliferation"
+      - "arms control"
+      - "nuclear treaty"
+      - "deterrence"
+    keywords_ko:
+      - "핵무기"
+      - "핵군비"
+      - "핵확산"
+      - "군축"
+      - "핵전략"
+    exclusion_keywords:
+      - "nuclear fusion"
+      - "nuclear energy"
+      - "nuclear power plant"
+    steeps_affinity: ["P"]

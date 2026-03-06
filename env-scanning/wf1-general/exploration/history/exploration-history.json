@@ -111,20 +111,88 @@
       "signals_collected": 0,
       "gaps_analyzed": [],
       "recorded_by": "exploration_gate.py (safety net)"
+    },
+    {
+      "date": "2026-03-06",
+      "timestamp": "2026-03-06T00:33:46.720503+00:00",
+      "method_used": "agent-team",
+      "candidates_discovered": 3,
+      "viable_count": 3,
+      "signals_collected": 0,
+      "gaps_analyzed": [
+        "S_Social",
+        "s_spiritual",
+        "E_Environmental"
+      ],
+      "candidates": [
+        {
+          "name": "ScienceDaily Sustainability",
+          "discovery_method": "gap_directed",
+          "scan_status": "viable",
+          "discovery_query": "environmental sustainability climate news RSS feed"
+        },
+        {
+          "name": "Disrupt Africa",
+          "discovery_method": "random",
+          "scan_status": "viable",
+          "discovery_query": "African innovation technology RSS"
+        },
+        {
+          "name": "Quanta Magazine Biology",
+          "discovery_method": "random",
+          "scan_status": "viable",
+          "discovery_query": "quantum biology applications"
+        }
+      ],
+      "recorded_by": "exploration-orchestrator (Stage C)"
     }
   ],
-  "approved": [],
+  "approved": [
+    {
+      "name": "ScienceDaily Sustainability",
+      "approved_date": "2026-03-06",
+      "promoted_to": "expansion",
+      "discovery_date": "2026-03-06",
+      "discovery_method": "gap_directed",
+      "rss_url": "https://www.sciencedaily.com/rss/earth_climate/sustainability.xml",
+      "steeps_focus": ["E_Environmental"],
+      "approval_reason": "User-approved: fills E_Environmental gap with research-backed content"
+    },
+    {
+      "name": "Disrupt Africa",
+      "approved_date": "2026-03-06",
+      "promoted_to": "expansion",
+      "discovery_date": "2026-03-06",
+      "discovery_method": "random_frontier",
+      "rss_url": "https://disruptafrica.com/feed/",
+      "steeps_focus": ["T_Technological", "E_Economic", "S_Social"],
+      "approval_reason": "User-approved: adds geographic diversity (Africa) missing from portfolio"
+    },
+    {
+      "name": "Quanta Magazine Biology",
+      "approved_date": "2026-03-06",
+      "promoted_to": "expansion",
+      "discovery_date": "2026-03-06",
+      "discovery_method": "random_frontier",
+      "rss_url": "https://www.quantamagazine.org/biology/feed",
+      "steeps_focus": ["T_Technological", "S_Social"],
+      "approval_reason": "User-approved: deep science journalism filling interdisciplinary gap"
+    }
+  ],
   "discarded": [],
   "deferred": [],
   "learning": {
-    "last_update": "2026-02-15T02:50:08.576488+00:00",
-    "scans_analyzed": 1,
+    "last_update": "2026-03-06T00:33:46.720655+00:00",
+    "scans_analyzed": 3,
     "keyword_successes": {
       "environmental sustainability climate change independent news": 1,
       "conservation environment Latin America sustainability": 1,
       "health neurotechnology brain-computer interface policy": 1,
       "food systems innovation": 1,
-      "AI ethics governance neurotechnology": 1
+      "AI ethics governance neurotechnology": 1,
+      "environmental sustainability climate news RSS feed": 1,
+      "African innovation technology RSS": 1,
+      "quantum biology applications": 1
     }
   }
 }

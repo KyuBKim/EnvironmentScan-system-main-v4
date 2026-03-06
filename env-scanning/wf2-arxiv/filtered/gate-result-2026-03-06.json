@@ -1,0 +1,205 @@
+{
+  "gate_id": "dedup_gate.py",
+  "gate_version": "2.0.0",
+  "checked_at": "2026-03-06T01:13:51.877912+00:00",
+  "workflow": "arXiv Academic Deep Scanning",
+  "signals_file": "env-scanning/wf2-arxiv/raw/daily-scan-2026-03-06.json",
+  "previous_file": "env-scanning/wf2-arxiv/signals/database.json",
+  "gate_status": "PASS_WITH_REMOVAL",
+  "gate_message": "2 definite duplicate(s) removed. 19 uncertain signal(s) flagged for LLM review. 26 definite new signal(s) passed.",
+  "thresholds": {
+    "url_exact": 1.0,
+    "topic_fingerprint_definite": 0.6,
+    "topic_fingerprint_uncertain": 0.3,
+    "title_similarity_definite": 0.9,
+    "title_similarity_uncertain": 0.8,
+    "entity_overlap_definite": 0.85,
+    "entity_overlap_uncertain": 0.7
+  },
+  "enforce": "strict",
+  "statistics": {
+    "total_input": 47,
+    "definite_new": 26,
+    "definite_duplicates": 2,
+    "uncertain": 19,
+    "pass_through": 45
+  },
+  "stage_breakdown": {
+    "A_url": 0,
+    "B_topic": 2,
+    "C_title": 0,
+    "D_entity": 0
+  },
+  "duplicates": [
+    {
+      "signal_id": "wf2-2603.03838",
+      "signal_title": "Climate Downscaling with Stochastic Interpolants (CDSI)",
+      "matched_signal_id": "wf2-2603.03838v1",
+      "matched_title": "Climate Downscaling with Stochastic Interpolants (CDSI)",
+      "stage": "B_topic",
+      "score": 0.8333
+    },
+    {
+      "signal_id": "wf2-2603.03483",
+      "signal_title": "Near-surface Extreme Wind Events and Their Responses to Climate Forcings in a Hierarchy of Global Climate Models",
+      "matched_signal_id": "wf2-2603.03483v1",
+      "matched_title": "Near-surface Extreme Wind Events and Their Responses to Climate Forcings in a Hierarchy of Global Climate Models",
+      "stage": "B_topic",
+      "score": 0.9
+    }
+  ],
+  "uncertain_signals": [
+    {
+      "signal_id": "wf2-2603.04384",
+      "signal_title": "AgentIR: Reasoning-Aware Retrieval for Deep Research Agents",
+      "matched_signal_id": "arxiv-20260224-021",
+      "matched_title": "Agentic AI for Cybersecurity: A Meta-Cognitive Architecture for Governable Autonomy",
+      "stage": "C_title",
+      "score": 0.8134
+    },
+    {
+      "signal_id": "wf2-2603.04355",
+      "signal_title": "Efficient Refusal Ablation in LLM through Optimal Transport",
+      "matched_signal_id": "arxiv-20260226-004",
+      "matched_title": "Discovering new photovoltaics using optimal transport theory",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "wf2-2603.04323",
+      "signal_title": "PTOPOFL: Privacy-Preserving Personalised Federated Learning via Persistent Homology",
+      "matched_signal_id": "arxiv-2602-23197v1",
+      "matched_title": "Fine-Tuning Without Forgetting In-Context Learning: A Theoretical Analysis",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "wf2-2603.04300",
+      "signal_title": "LUMINA: Foundation Models for Topology Transferable ACOPF",
+      "matched_signal_id": "arxiv-20260226-017",
+      "matched_title": "Foundation Models for Full-Stack Transfer in Robotics",
+      "stage": "B_topic",
+      "score": 0.4
+    },
+    {
+      "signal_id": "wf2-2603.03824",
+      "signal_title": "In-Context Environments Induce Evaluation-Awareness in Language Models",
+      "matched_signal_id": "arxiv-2602-23197v1",
+      "matched_title": "Fine-Tuning Without Forgetting In-Context Learning: A Theoretical Analysis",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "wf2-2603.03881",
+      "signal_title": "On the Suitability of LLM-Driven Agents for Dark Pattern Audits",
+      "matched_signal_id": "wf2-2603.03178v1",
+      "matched_title": "On the biogenic hydrodynamic transport of upward and downward cruising copepods",
+      "stage": "C_title",
+      "score": 0.8185
+    },
+    {
+      "signal_id": "wf2-2603.03555",
+      "signal_title": "Molt Dynamics: Emergent Social Phenomena in Autonomous AI Agent Populations",
+      "matched_signal_id": "wf2-20260210-002",
+      "matched_title": "Persuasion Propagation in LLM Agents: Emergent Social Influence in Multi-Agent Systems",
+      "stage": "B_topic",
+      "score": 0.375
+    },
+    {
+      "signal_id": "wf2-2603.04192",
+      "signal_title": "OptiQKD: A Machine Learning-Optimized Framework for Real-Time Parameter Tuning in Quantum Key Distribution",
+      "matched_signal_id": "wf2-20260210-008",
+      "matched_title": "Quantum Circuit-Based Learning Models: Bridging Quantum Computing and Machine Learning",
+      "stage": "B_topic",
+      "score": 0.4286
+    },
+    {
+      "signal_id": "wf2-2603.04126",
+      "signal_title": "Efficient Time-Aware Partitioning of Quantum Circuits for Distributed Quantum Computing",
+      "matched_signal_id": "arxiv-20260224-004",
+      "matched_title": "Free Quantum Computing: Axiomatisation via Discrete Equations",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "wf2-2603.04156",
+      "signal_title": "Achieving Optimal-Distance Atom-Loss Correction via Pauli Envelope",
+      "matched_signal_id": "arxiv-20260224-007",
+      "matched_title": "Quantum Error Correction and Dynamical Decoupling: Better Together or Apart?",
+      "stage": "B_topic",
+      "score": 0.375
+    },
+    {
+      "signal_id": "wf2-2603.03853",
+      "signal_title": "Towards Practical Quantum Federated Learning: Enhancing Efficiency and Noise Tolerance",
+      "matched_signal_id": "arxiv-2602-23330v1",
+      "matched_title": "Toward Expert Investment Teams: A Multi-Agent LLM System with Fine-Grained Trading Strategy Orchestration",
+      "stage": "C_title",
+      "score": 0.824
+    },
+    {
+      "signal_id": "wf2-2603.03144",
+      "signal_title": "The Household Impact of Generative AI: Evidence from Internet Browsing Behavior",
+      "matched_signal_id": "wf2-2603.03641v1",
+      "matched_title": "The Evolution of Eco-routing under Population Growth: Evidence from Six U.S. Cities",
+      "stage": "C_title",
+      "score": 0.8366
+    },
+    {
+      "signal_id": "wf2-2603.03136",
+      "signal_title": "The Anatomy of Polymarket: Evidence from the 2024 Presidential Election",
+      "matched_signal_id": "arxiv-2602.15600v1",
+      "matched_title": "The geometry of online conversations and the causal antecedents of conflictual discourse",
+      "stage": "C_title",
+      "score": 0.8304
+    },
+    {
+      "signal_id": "wf2-2603.03458",
+      "signal_title": "The Rise and Fall of ENSO in a Warming World: Insights from a Lag-Linear Model",
+      "matched_signal_id": "arxiv-2602.15440v1",
+      "matched_title": "The First Instrumentally Documented Fall of an Iron Meteorite: atmospheric trajectory and ground impact",
+      "stage": "C_title",
+      "score": 0.8254
+    },
+    {
+      "signal_id": "wf2-2603.03414",
+      "signal_title": "Cognitive Dark Matter: Measuring What AI Misses",
+      "matched_signal_id": "arxiv-2602-22523v1",
+      "matched_title": "Cognitive Models and AI Algorithms Provide Templates for Designing Language Agents",
+      "stage": "C_title",
+      "score": 0.8227
+    },
+    {
+      "signal_id": "wf2-2603.02952",
+      "signal_title": "Sparse autoencoders reveal organized biological knowledge but minimal regulatory logic in single-cell foundation models",
+      "matched_signal_id": "arxiv-20260226-017",
+      "matched_title": "Foundation Models for Full-Stack Transfer in Robotics",
+      "stage": "B_topic",
+      "score": 0.4
+    },
+    {
+      "signal_id": "wf2-2603.03727",
+      "signal_title": "Understanding Parents' Desires in Moderating Children's Interactions with GenAI Chatbots through LLM-Generated Probes",
+      "matched_signal_id": "arxiv-2602-23335v1",
+      "matched_title": "Understanding Usage and Engagement in AI-Powered Scientific Research Tools",
+      "stage": "C_title",
+      "score": 0.8388
+    },
+    {
+      "signal_id": "wf2-2603.04034",
+      "signal_title": "The Empty Quadrant: AI Teammates for Embodied Field Learning",
+      "matched_signal_id": "arxiv-2602.15440v1",
+      "matched_title": "The First Instrumentally Documented Fall of an Iron Meteorite: atmospheric trajectory and ground impact",
+      "stage": "C_title",
+      "score": 0.8112
+    },
+    {
+      "signal_id": "wf2-2603.04379",
+      "signal_title": "Helios: Real Real-Time Long Video Generation Model",
+      "matched_signal_id": "arxiv-20260224-029",
+      "matched_title": "K-Search: LLM Kernel Generation via Co-Evolving World Model",
+      "stage": "B_topic",
+      "score": 0.4
+    }
+  ]
+}

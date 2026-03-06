@@ -1,0 +1,389 @@
+{
+  "metadata": {
+    "workflow": "wf4-multiglobal-news",
+    "scan_date": "2026-03-05",
+    "total_signals": 20
+  },
+  "signals": [
+    {
+      "id": "news-20260305-aljazeera-001",
+      "title": "Israel Launches Broad Wave of Strikes in Tehran Amid US-Iran War Escalation",
+      "impact_score": 5.0,
+      "impact_description": "Fundamental reshaping of Middle East geopolitical order; potential for wider regional war; global energy supply disruption; alliance realignment",
+      "probability": 5,
+      "urgency": 5,
+      "novelty": 4,
+      "tipping_point_alert": "RED",
+      "tipping_point_evidence": "Critical military escalation with direct strikes on capital city; unprecedented scale of Middle East conflict",
+      "psst_dimensions": {
+        "SR": 75,
+        "ES": 90,
+        "CC": 95,
+        "TC": 100,
+        "DC": 85,
+        "IC": 90
+      }
+    },
+    {
+      "id": "news-20260305-aljazeera-002",
+      "title": "South Korea KOSPI Suffers Historic 12% Crash Amid Hormuz Strait Blockade",
+      "impact_score": 4.5,
+      "impact_description": "South Korea's economic vulnerability to energy disruptions exposed; potential cascade to semiconductor supply chains; systemic risk to export-dependent economies",
+      "probability": 5,
+      "urgency": 5,
+      "novelty": 5,
+      "tipping_point_alert": "RED",
+      "tipping_point_evidence": "Record single-day crash exceeding 9/11 impact; existential energy dependency exposure",
+      "psst_dimensions": {
+        "SR": 75,
+        "ES": 95,
+        "CC": 90,
+        "TC": 100,
+        "DC": 90,
+        "IC": 95
+      }
+    },
+    {
+      "id": "news-20260305-wsj-001",
+      "title": "Global Oil Prices Surge Toward $100 as Strait of Hormuz Traffic Halts",
+      "impact_score": 4.5,
+      "impact_description": "Global energy crisis if sustained; inflationary pressure across all sectors; aviation industry disruption; potential recession trigger",
+      "probability": 4,
+      "urgency": 5,
+      "novelty": 3,
+      "tipping_point_alert": "ORANGE",
+      "tipping_point_evidence": "Oil approaching psychological $100 barrier; 21,300 flights canceled; Hormuz transit halted",
+      "psst_dimensions": {
+        "SR": 80,
+        "ES": 90,
+        "CC": 90,
+        "TC": 95,
+        "DC": 75,
+        "IC": 90
+      }
+    },
+    {
+      "id": "news-20260305-reuters-001",
+      "title": "France and Germany Deepen Nuclear Deterrence Cooperation in Historic Defense Shift",
+      "impact_score": 4.0,
+      "impact_description": "European strategic autonomy acceleration; NATO architecture transformation; nuclear deterrence recalibration; implications for transatlantic alliance",
+      "probability": 4,
+      "urgency": 3,
+      "novelty": 4,
+      "tipping_point_alert": "YELLOW",
+      "tipping_point_evidence": "Historic shift in European nuclear posture; first joint nuclear exercises between France and Germany",
+      "psst_dimensions": {
+        "SR": 75,
+        "ES": 80,
+        "CC": 85,
+        "TC": 90,
+        "DC": 85,
+        "IC": 80
+      }
+    },
+    {
+      "id": "news-20260305-bbc-001",
+      "title": "US Universal Import Tariff May Rise to 15% This Week as Trade War Escalates",
+      "impact_score": 4.0,
+      "impact_description": "Global trade architecture disruption; supply chain reconfiguration; inflationary pressure; manufacturing reshoring acceleration",
+      "probability": 4,
+      "urgency": 4,
+      "novelty": 3,
+      "tipping_point_alert": "YELLOW",
+      "tipping_point_evidence": "SCOTUS ruling created legal vacuum; rapid escalation from 10% to potential 15%; ISM prices at multi-year highs",
+      "psst_dimensions": {
+        "SR": 75,
+        "ES": 85,
+        "CC": 85,
+        "TC": 95,
+        "DC": 70,
+        "IC": 85
+      }
+    },
+    {
+      "id": "news-20260305-bloomberg-001",
+      "title": "Singapore Warns Global Instability Is Fueling Climate Risks, Designates 2026 Year of Climate Adaptation",
+      "impact_score": 3.5,
+      "impact_description": "Climate adaptation becoming urgent policy priority; insurance industry transformation; infrastructure investment reallocation; food and water security challenges",
+      "probability": 5,
+      "urgency": 3,
+      "novelty": 2,
+      "tipping_point_alert": "YELLOW",
+      "tipping_point_evidence": "1.5C overshoot likely; consecutive record-breaking years; clean energy dominates 90%+ of new capacity",
+      "psst_dimensions": {
+        "SR": 80,
+        "ES": 85,
+        "CC": 90,
+        "TC": 85,
+        "DC": 65,
+        "IC": 80
+      }
+    },
+    {
+      "id": "news-20260305-techcrunch-001",
+      "title": "Chinese AI Models Challenge Western Dominance: MiniMax M2.5 Rivals Claude Opus 4.6 at Fraction of Cost",
+      "impact_score": 3.5,
+      "impact_description": "AI geopolitical competition intensification; cost democratization of frontier AI; potential erosion of Western AI dominance; industry consolidation pressure",
+      "probability": 4,
+      "urgency": 3,
+      "novelty": 4,
+      "tipping_point_alert": "YELLOW",
+      "tipping_point_evidence": "Chinese models reaching parity at fraction of cost; industry paradigm shift from scale to usability",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 80,
+        "CC": 85,
+        "TC": 90,
+        "DC": 80,
+        "IC": 75
+      }
+    },
+    {
+      "id": "news-20260305-nytimes-001",
+      "title": "Iraq Suffers Nationwide Blackout as Power Grid Collapses Amid Regional Conflict",
+      "impact_score": 3.5,
+      "impact_description": "Humanitarian crisis escalation; state fragility increase; regional destabilization; infrastructure interdependency exposure",
+      "probability": 5,
+      "urgency": 5,
+      "novelty": 3,
+      "tipping_point_alert": "ORANGE",
+      "tipping_point_evidence": "Complete infrastructure collapse in sovereign state; cascading humanitarian effects",
+      "psst_dimensions": {
+        "SR": 75,
+        "ES": 85,
+        "CC": 80,
+        "TC": 95,
+        "DC": 80,
+        "IC": 85
+      }
+    },
+    {
+      "id": "news-20260305-scmp-001",
+      "title": "China Shows Few Signs of Directly Supplying Arms to Iran Despite Growing Pressure",
+      "impact_score": 3.5,
+      "impact_description": "China's geopolitical positioning in multipolar conflict; implications for Taiwan contingency planning; arms trade dynamics; great power competition",
+      "probability": 3,
+      "urgency": 3,
+      "novelty": 4,
+      "tipping_point_alert": "YELLOW",
+      "tipping_point_evidence": "China's strategic ambiguity on Iran arms; NPC session coinciding with regional crisis",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 70,
+        "CC": 80,
+        "TC": 85,
+        "DC": 80,
+        "IC": 70
+      }
+    },
+    {
+      "id": "news-20260305-ft-001",
+      "title": "Eurozone Manufacturing PMI Hits 44-Month High as Germany Crosses Above 50 for First Time Since 2022",
+      "impact_score": 3.0,
+      "impact_description": "European industrial recovery signal; safe-haven asset surge indicating systemic risk perception; divergence between real economy recovery and financial market stress",
+      "probability": 4,
+      "urgency": 3,
+      "novelty": 3,
+      "tipping_point_alert": "GREEN",
+      "tipping_point_evidence": "Manufacturing recovery crossing 50 threshold; gold at record highs signals risk aversion",
+      "psst_dimensions": {
+        "SR": 80,
+        "ES": 90,
+        "CC": 85,
+        "TC": 90,
+        "DC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "id": "news-20260305-koreaherald-001",
+      "title": "Korea-Singapore AI Alliance Launched with $300M Fund as President Lee Visits",
+      "impact_score": 3.0,
+      "impact_description": "AI governance standards development; semiconductor-AI convergence; bilateral technology alliances reshaping innovation landscape",
+      "probability": 3,
+      "urgency": 2,
+      "novelty": 3,
+      "tipping_point_alert": "GREEN",
+      "tipping_point_evidence": "New bilateral AI framework with dedicated fund",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 75,
+        "CC": 80,
+        "TC": 85,
+        "DC": 75,
+        "IC": 70
+      }
+    },
+    {
+      "id": "news-20260305-arstechnica-001",
+      "title": "NVIDIA Partners with Coherent on Optics Technology for Next-Generation Data Center Architecture",
+      "impact_score": 3.0,
+      "impact_description": "Data center architecture evolution; AI compute scaling trajectory; semiconductor supply chain transformation; robotics integration acceleration",
+      "probability": 4,
+      "urgency": 2,
+      "novelty": 3,
+      "tipping_point_alert": "GREEN",
+      "tipping_point_evidence": "Major infrastructure partnership addressing AI scaling bottleneck",
+      "psst_dimensions": {
+        "SR": 75,
+        "ES": 80,
+        "CC": 85,
+        "TC": 85,
+        "DC": 70,
+        "IC": 75
+      }
+    },
+    {
+      "id": "news-20260305-elysee-001",
+      "title": "France, Germany and UK Issue Joint Statement Condemning Indiscriminate Iranian Attacks",
+      "impact_score": 4.0,
+      "impact_description": "European direct involvement in Middle East conflict; transatlantic security recalibration; civilian evacuation challenges; military base defense operations",
+      "probability": 4,
+      "urgency": 5,
+      "novelty": 4,
+      "tipping_point_alert": "RED",
+      "tipping_point_evidence": "Joint European military response statement; potential direct military intervention",
+      "psst_dimensions": {
+        "SR": 80,
+        "ES": 90,
+        "CC": 90,
+        "TC": 95,
+        "DC": 80,
+        "IC": 85
+      }
+    },
+    {
+      "id": "news-20260305-usnews-001",
+      "title": "Appeal Hearings Begin in Former South Korean President Yoon Suk Yeol's Obstruction Case",
+      "impact_score": 2.5,
+      "impact_description": "Constitutional governance precedent; presidential accountability; South Korean political stabilization; democratic institution resilience",
+      "probability": 5,
+      "urgency": 2,
+      "novelty": 2,
+      "tipping_point_alert": "GREEN",
+      "tipping_point_evidence": "Legal proceedings following established judicial process",
+      "psst_dimensions": {
+        "SR": 75,
+        "ES": 85,
+        "CC": 85,
+        "TC": 90,
+        "DC": 65,
+        "IC": 70
+      }
+    },
+    {
+      "id": "news-20260305-bbc-002",
+      "title": "Green Party Wins First By-Election in Gorton and Denton, Signaling UK Political Realignment",
+      "impact_score": 2.5,
+      "impact_description": "UK political party system evolution; Green politics mainstreaming; climate policy acceleration in British politics; multi-party system emergence",
+      "probability": 3,
+      "urgency": 2,
+      "novelty": 4,
+      "tipping_point_alert": "GREEN",
+      "tipping_point_evidence": "First ever Green by-election win in UK history",
+      "psst_dimensions": {
+        "SR": 75,
+        "ES": 85,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 70
+      }
+    },
+    {
+      "id": "news-20260305-nikkei-001",
+      "title": "Japan Finance Minister Monitors Markets as Yen Trades Near 157.3 Amid Middle East Volatility",
+      "impact_score": 3.5,
+      "impact_description": "Asian currency instability; coordinated central bank response necessity; safe-haven asset reallocation; Asia-Pacific economic growth deceleration",
+      "probability": 5,
+      "urgency": 4,
+      "novelty": 3,
+      "tipping_point_alert": "ORANGE",
+      "tipping_point_evidence": "Yen at 157.3; Asian markets in coordinated decline; finance minister intervention signals",
+      "psst_dimensions": {
+        "SR": 80,
+        "ES": 90,
+        "CC": 85,
+        "TC": 95,
+        "DC": 75,
+        "IC": 85
+      }
+    },
+    {
+      "id": "news-20260305-mit-001",
+      "title": "MIT Protein-Based Drug Design Model Could Reduce Pharma R&D Costs by Billions",
+      "impact_score": 3.0,
+      "impact_description": "Pharmaceutical R&D paradigm transformation; drug discovery timeline compression; precision medicine advancement; biotechnology investment surge",
+      "probability": 3,
+      "urgency": 2,
+      "novelty": 5,
+      "tipping_point_alert": "GREEN",
+      "tipping_point_evidence": "Novel computational approach to synthetic protein design",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 75,
+        "CC": 80,
+        "TC": 80,
+        "DC": 90,
+        "IC": 70
+      }
+    },
+    {
+      "id": "news-20260305-euronews-001",
+      "title": "EU 'Buy European' Plan Faces Internal Division as March Summit Approaches",
+      "impact_score": 3.0,
+      "impact_description": "EU industrial policy realignment; trade architecture evolution; economic sovereignty vs open trade tension; implications for transatlantic trade",
+      "probability": 3,
+      "urgency": 2,
+      "novelty": 3,
+      "tipping_point_alert": "GREEN",
+      "tipping_point_evidence": "Internal EU division on trade policy approach",
+      "psst_dimensions": {
+        "SR": 75,
+        "ES": 80,
+        "CC": 80,
+        "TC": 85,
+        "DC": 70,
+        "IC": 75
+      }
+    },
+    {
+      "id": "news-20260305-globeandmail-001",
+      "title": "Global Debt to Reach $29 Trillion in 2026 Bond Issuance, 17% Higher Than 2024",
+      "impact_score": 3.5,
+      "impact_description": "Fiscal sustainability concerns; sovereign debt crisis risk; interest rate trajectory implications; intergenerational fiscal burden",
+      "probability": 5,
+      "urgency": 3,
+      "novelty": 2,
+      "tipping_point_alert": "YELLOW",
+      "tipping_point_evidence": "17% year-over-year increase in global borrowing; $29 trillion unprecedented level",
+      "psst_dimensions": {
+        "SR": 80,
+        "ES": 90,
+        "CC": 85,
+        "TC": 85,
+        "DC": 65,
+        "IC": 80
+      }
+    },
+    {
+      "id": "news-20260305-japantimes-001",
+      "title": "China-Japan Diplomatic Crisis Deepens as Chinese Embassy Issues Warning Against 'Bumpers'",
+      "impact_score": 3.0,
+      "impact_description": "East Asian security architecture stress; Japan-China economic decoupling risk; tourism industry diplomatic weaponization; Taiwan contingency readiness implications",
+      "probability": 3,
+      "urgency": 3,
+      "novelty": 3,
+      "tipping_point_alert": "YELLOW",
+      "tipping_point_evidence": "Diplomatic crisis deepening; tourism-security nexus tensions; Taiwan contingency framing",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 75,
+        "CC": 80,
+        "TC": 85,
+        "DC": 75,
+        "IC": 70
+      }
+    }
+  ]
+}

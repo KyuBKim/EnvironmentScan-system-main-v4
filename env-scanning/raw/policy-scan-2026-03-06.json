@@ -1,0 +1,2733 @@
+{
+  "agent_metadata": {
+    "agent_name": "policy-agent",
+    "model_used": "haiku",
+    "documents_collected": 91,
+    "sources_scanned": 8,
+    "scan_date": "2026-03-06",
+    "status": "success",
+    "execution_time": 20.0,
+    "process_id": 16497
+  },
+  "items": [
+    {
+      "id": "federal-register-1c88f103e5f1",
+      "title": "Continuation of the National Emergency With Respect to Iran",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04450/continuation-of-the-national-emergency-with-respect-to-iran",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Presidential Document by Executive Office of the President",
+        "keywords": [
+          "executive office of the president"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Presidential Document",
+        "agencies": [
+          "Executive Office of the President"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.699407"
+    },
+    {
+      "id": "federal-register-c66bce87a689",
+      "title": "Quarterly Status Report of Water Service, Repayment, and Other Water-Related Contract Actions",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04398/quarterly-status-report-of-water-service-repayment-and-other-water-related-contract-actions",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Notice is hereby given of contractual actions that have been proposed to the Bureau of Reclamation (Reclamation) and are new, discontinued, or completed since the last publication of this notice. This notice informs the public about proposed contractual actions for capital recovery and management of project resources and facilities consistent with section 9(f) of the Reclamation Project Act of 1939.",
+        "keywords": [
+          "interior department",
+          "reclamation bureau"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Interior Department",
+          "Reclamation Bureau"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.699456"
+    },
+    {
+      "id": "federal-register-0dbecec9791a",
+      "title": "Reestablishment of the Taxpayer Advocacy Panel",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04397/reestablishment-of-the-taxpayer-advocacy-panel",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "The Treasury Department has determined that it is in the public interest to reestablish the Taxpayer Advocacy Panel (TAP) and the Internal Revenue Service's Chief Executive Officer approved the TAP Public Interest Determination statement. A Charter for the TAP has been prepared and will be filed no earlier than 7 days following the date of publication of this notice.",
+        "keywords": [
+          "treasury department",
+          "internal revenue service"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Treasury Department",
+          "Internal Revenue Service"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.699480"
+    },
+    {
+      "id": "federal-register-e45741923a88",
+      "title": "Miscellaneous and General Requirements",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04396/miscellaneous-and-general-requirements",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "The Federal Labor Relations Authority (FLRA or Authority) is withdrawing its Notice of Proposed Rule and Proposed Rescission of General Statement of Policy or Guidance (the proposal notice) published in the Federal Register on December 21, 2022. The Authority has determined not to revise or rescind its existing regulation concerning the intervals at which federal employees may revoke their written assignments of payroll deductions for the payment of regular and periodic dues allotted to their exclusive representative. In addition, the Authority has decided not to rescind its general statement of policy or guidance in Office of Personnel Management (OPM), 71 FLRA 571 (2020) (Member Abbott concurring; Member DuBester dissenting).",
+        "keywords": [
+          "federal labor relations authority"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Proposed Rule",
+        "agencies": [
+          "Federal Labor Relations Authority"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.699505"
+    },
+    {
+      "id": "federal-register-7db9cba57327",
+      "title": "Agency Information Collection Activities: Notice of Intent To Renew Collection 3038-0119: Qualification Information for Candidates to Advisory Committees and Subcommittees",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04395/agency-information-collection-activities-notice-of-intent-to-renew-collection-3038-0119",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "The Commodity Futures Trading Commission (\"Commission\" or \"CFTC\") is announcing an opportunity for public comment on the proposed collection of qualification information for advisory committee and subcommittee candidates by the agency. Under the Paperwork Reduction Act (\"PRA\"), Federal agencies are required to publish notice in the Federal Register concerning each proposed collection of information, including each proposed extension of an existing collection of information, and to allow 60 days for public comment.",
+        "keywords": [
+          "commodity futures trading commission"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Commodity Futures Trading Commission"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.699527"
+    },
+    {
+      "id": "federal-register-a0b43bad83e3",
+      "title": "Center for Scientific Review; Notice of Closed Meeting",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04394/center-for-scientific-review-notice-of-closed-meeting",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Notice by Health and Human Services Department, National Institutes of Health",
+        "keywords": [
+          "health and human services department",
+          "national institutes of health"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Health and Human Services Department",
+          "National Institutes of Health"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.699543"
+    },
+    {
+      "id": "federal-register-67a31c26e3b0",
+      "title": "Proposed Collection; 60-Day Comment Request; Early Career Reviewer Program Online Application and Vetting System-Center for Scientific Review (CSR)",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04393/proposed-collection-60-day-comment-request-early-career-reviewer-program-online-application-and",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "In compliance with the requirement of the Paperwork Reduction Act of 1995 to provide opportunity for public comment on proposed data collection projects, the Center for Scientific Review (CSR) National Institutes of Health will publish periodic summaries of proposed projects to be submitted to the Office of Management and Budget (OMB) for review and approval.",
+        "keywords": [
+          "health and human services department",
+          "national institutes of health"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Health and Human Services Department",
+          "National Institutes of Health"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.699563"
+    },
+    {
+      "id": "federal-register-57ad21fdd8ea",
+      "title": "Center for Scientific Review; Amended Notice of Meeting",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04392/center-for-scientific-review-amended-notice-of-meeting",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Notice by Health and Human Services Department, National Institutes of Health",
+        "keywords": [
+          "health and human services department",
+          "national institutes of health"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Health and Human Services Department",
+          "National Institutes of Health"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.699576"
+    },
+    {
+      "id": "federal-register-a8154eb52935",
+      "title": "Office of the Assistant Secretary for Research and Technology; Request for Information-Research To Support Establishing a National Strategy for Transportation Digital Infrastructure",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04391/office-of-the-assistant-secretary-for-research-and-technology-request-for-information-research-to",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "On February 4, 2026, the U.S. Department of Transportation (U.S. DOT), Office of the Assistant Secretary for Research and Technology (OST-R), published in the Federal Register a request for information seeking comments on the research and development activities needed to modernize the nation's transportation system through the application of digital infrastructure at scale. Responses will inform a coordinated national strategy for the development and deployment of Transportation Digital Infrastructure (TDI). That request established a 30-day comment period closing on March 6, 2026. DOT is extending the public comment period until March 20, 2026.",
+        "keywords": [
+          "transportation department"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Transportation Department"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.699600"
+    },
+    {
+      "id": "federal-register-625557755597",
+      "title": "Review of State Bar Complaints and Allegations Against Department of Justice Attorneys",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04390/review-of-state-bar-complaints-and-allegations-against-department-of-justice-attorneys",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "The Department of Justice (\"Department\") proposes to establish a process for reviewing bar complaints and allegations against its attorneys. Under the proposed rule, before a current or former Department lawyer may participate in any investigative steps initiated by the bar disciplinary authority of a State, Territory, or the District of Columbia in response to allegations that a current or former Department attorney violated an ethics rule while engaging in that attorney's federal duties, the Department will have the right to review the allegations in the first instance and shall request that the bar disciplinary authority suspend any parallel investigations until the completion of the Department's review.",
+        "keywords": [
+          "government employees",
+          "investigations",
+          "law enforcement",
+          "lawyers",
+          "justice department"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Proposed Rule",
+        "agencies": [
+          "Justice Department",
+          ""
+        ],
+        "topics": [
+          "Government employees",
+          "Investigations",
+          "Law enforcement",
+          "Lawyers"
+        ]
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.699627"
+    },
+    {
+      "id": "federal-register-29d2490537fa",
+      "title": "[Graycliff Mezzanine II, LP] License No. 02020659; Surrender of License of Small Business Investment Company",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04389/graycliff-mezzanine-ii-lp-license-no-02020659-surrender-of-license-of-small-business-investment",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Notice by Small Business Administration",
+        "keywords": [
+          "small business administration"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Small Business Administration"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.699643"
+    },
+    {
+      "id": "federal-register-b6477bee0f81",
+      "title": "Clean Water Act Hazardous Substance Facility Response Plans: Compliance Date Delay and Changes To Reflect Administration Policy",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04388/clean-water-act-hazardous-substance-facility-response-plans-compliance-date-delay-and-changes-to",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "The Environmental Protection Agency (EPA) is proposing to delay the compliance date for Facility Response Plan (FRP) requirements as well as to make language modifications to align with the Administration's climate change and environmental justice policies in Executive Order 14148 of January 20, 2025. These requirements are for onshore non-transportation-related facilities that could reasonably be expected to cause substantial harm to the environment from a CWA hazardous substance worst case discharge to navigable waters, adjoining shorelines, or the exclusive economic zone. This delay action is necessary to allow the Agency to consider implementation and compliance assistance tools that regulated parties may be able to take advantage of when complying with the new requirements. EPA notes that it cannot quantify the number, nature, and magnitude of covered discharges that may occur during the proposed rule delay period.",
+        "keywords": [
+          "environmental protection",
+          "hazardous substances",
+          "reporting and recordkeeping requirements",
+          "water pollution control",
+          "environmental protection agency"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Proposed Rule",
+        "agencies": [
+          "Environmental Protection Agency"
+        ],
+        "topics": [
+          "Environmental protection",
+          "Hazardous substances",
+          "Reporting and recordkeeping requirements",
+          "Water pollution control"
+        ]
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.699674"
+    },
+    {
+      "id": "federal-register-9a4062b77226",
+      "title": "Tribal Advisory Committee; Notice of Solicitation for Nominations",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04387/tribal-advisory-committee-notice-of-solicitation-for-nominations",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Through this notice, the U.S. Department of Agriculture (USDA) is soliciting nominations for three (3) vacancies on the USDA Tribal Advisory Committee (\"the Committee\"). The Committee consists of eleven (11) members serving staggered terms. Three members will be appointed by the Secretary of Agriculture for a three-year term. This notice reopens the notice to solicit nominations for membership published in the Federal Register on August 8, 2025, and subsequently extended on September 22, 2025, until March 31, 2026. This notice further clarifies the term for Secretarial appointments.",
+        "keywords": [
+          "agriculture department"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Agriculture Department"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.699694"
+    },
+    {
+      "id": "federal-register-da9d451fa6fc",
+      "title": "Financial Assurance Guidance for the Good Samaritan Remediation of Abandoned Hardrock Mines Act of 2024",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04386/financial-assurance-guidance-for-the-good-samaritan-remediation-of-abandoned-hardrock-mines-act-of",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "The Environmental Protection Agency (EPA or Agency) is announcing the availability of the final guidance titled \"Guidance on Financial Assurance Requirements in the Good Samaritan Remediation of Abandoned Hardrock Mines Act of 2024.\" The Good Samaritan Remediation of Abandoned Hardrock Mines Act of 2024 (the Act) establishes a pilot program authorizing the Administrator of the EPA, among other things, to grant up to 15 Good Samaritan permits for low-risk projects designed to remediate abandoned hardrock mine sites. The Administrator may grant a permit only if, among other considerations, the applicant for that permit has demonstrated to the satisfaction of the Administrator that the applicant has, or has access to, the financial resources to complete the project or has established a third-party financial assurance mechanism. In the event a Good Samaritan does not complete permit requirements, financial assurance funds secured under a third- party mechanism are intended to provide funding to complete the permitted work and for the purpose of carrying out the Act without the use of taxpayer funds. The guidance announced in this notice provides direction to applicants on fulfilling the financial assurance component of Good Samaritan permits.",
+        "keywords": [
+          "environmental protection agency"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Environmental Protection Agency"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.699725"
+    },
+    {
+      "id": "federal-register-9303ab67b563",
+      "title": "Notice of Public Meeting of the Virginia Advisory Committee to the U.S. Commission on Civil Rights",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04385/notice-of-public-meeting-of-the-virginia-advisory-committee-to-the-us-commission-on-civil-rights",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Notice is hereby given, pursuant to the provisions of the rules and regulations of the U.S. Commission on Civil Rights (Commission) and the Federal Advisory Committee Act, that the Virginia Advisory Committee (Committee) to the U.S. Commission on Civil Rights will hold a public meeting via Zoom. The purpose of the meeting is to discuss and potentially vote on the Committee's project proposal.",
+        "keywords": [
+          "civil rights commission"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Civil Rights Commission"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.699742"
+    },
+    {
+      "id": "federal-register-f8f404f46f6e",
+      "title": "Agency Information Collection Activities: Proposed Collection Renewal; Comment Request",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04384/agency-information-collection-activities-proposed-collection-renewal-comment-request",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "The FDIC, as part of its obligations under the Paperwork Reduction Act of 1995, invites the general public and other Federal agencies to take this opportunity to comment on the request to renew the existing information collections described below (OMB Control No. 3064-0079, and -0122). The notices of proposed renewal for these information collections were previously published in the Federal Register on December 15, 2025, allowing for a 60-day comment period. No comments were received.",
+        "keywords": [
+          "federal deposit insurance corporation"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Federal Deposit Insurance Corporation"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.699761"
+    },
+    {
+      "id": "federal-register-130b36844fb3",
+      "title": "Agency Information Collection Activities: Comment Request",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04383/agency-information-collection-activities-comment-request",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "In accordance with the Paperwork Reduction Act of 1995 (PRA), the Consumer Financial Protection Bureau (CFPB or Bureau) requests the Office of Management and Budget's (OMB's) reinstatement of an information collection titled \"Privacy of Consumer Financial Information (Regulation P)\" approved under OMB Control Number 3170- 0010.",
+        "keywords": [
+          "consumer financial protection bureau"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Consumer Financial Protection Bureau"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.699777"
+    },
+    {
+      "id": "federal-register-aaf7ce52f944",
+      "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget (OMB) for Review and Approval; Comment Request; Current Population Survey (CPS) 2026 Field Test",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04382/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "The Department of Commerce, in accordance with the Paperwork Reduction Act (PRA) of 1995, invites the general public and other Federal agencies to comment on proposed, and continuing information collections, which helps us assess the impact of our information collection requirements and minimize the public's reporting burden. The purpose of this notice is to allow for 60 days of public comment on the proposed reinstatement with change of a previously approved collection for which approval has expired, Current Population Survey (CPS) 2026 Field Test, prior to the submission of the information collection request (ICR) to OMB for approval.",
+        "keywords": [
+          "commerce department",
+          "census bureau"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Commerce Department",
+          "Census Bureau"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.699801"
+    },
+    {
+      "id": "federal-register-c7f9758d641a",
+      "title": "Notice of Receipt of Complaint; Solicitation of Comments Relating to the Public Interest",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04381/notice-of-receipt-of-complaint-solicitation-of-comments-relating-to-the-public-interest",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Notice is hereby given that the U.S. International Trade Commission has received a complaint entitled Certain Display Devices, Streaming Players, and Components Thereof, DN 3891; the Commission is soliciting comments on any public interest issues raised by the complaint or complainant's filing pursuant to the Commission's Rules of Practice and Procedure.",
+        "keywords": [
+          "international trade commission"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "International Trade Commission"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.699817"
+    },
+    {
+      "id": "federal-register-d463a50668d5",
+      "title": "Reporting and Recordkeeping Requirements Under Office of Management and Budget Review",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04380/reporting-and-recordkeeping-requirements-under-office-of-management-and-budget-review",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "The Small Business Administration (SBA) will submit the information collection described below to the Office of Management and Budget (OMB) for review and clearance in accordance with the Paperwork Reduction Act of 1995, as amended, on or after the date of publication of this notice. SBA is publishing this notice to allow all interested members of the public an additional 30 days to provide comments on the collection of information.",
+        "keywords": [
+          "small business administration"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Small Business Administration"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.699835"
+    },
+    {
+      "id": "federal-register-0d75dc4d2b85",
+      "title": "New Postal Products",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04379/new-postal-products",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "The Commission is noticing a recent Postal Service filing for the Commission's consideration concerning a negotiated service agreement. This notice informs the public of the filing, invites public comment, and takes other administrative steps.",
+        "keywords": [
+          "postal regulatory commission"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Postal Regulatory Commission"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.699849"
+    },
+    {
+      "id": "federal-register-7359e0c415df",
+      "title": "Southern Ute Indian Tribe of the Southern Ute Reservation, Colorado-Liquor Code Amendment",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04378/southern-ute-indian-tribe-of-the-southern-ute-reservation-colorado-liquor-code-amendment",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "This notice publishes amended Southern Ute Indian Tribe of the Southern Ute Reservation, Colorado Liquor Code.",
+        "keywords": [
+          "interior department",
+          "indian affairs bureau"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Interior Department",
+          "Indian Affairs Bureau"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.699864"
+    },
+    {
+      "id": "federal-register-bc1b9f4c4a0e",
+      "title": "Reduction in Force",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04377/reduction-in-force",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "The Office of Personnel Management (OPM) is issuing a proposed rule to revise its reduction-in-force (RIF) regulations. The proposed rule would make the RIF regulations more streamlined, efficient, and merit-based by prioritizing performance over tenure and length of service when determining which employees will be retained in a RIF and modifying the types of employees who are excluded from RIF competition. OPM also proposes to revise its regulations regarding the reemployment priority list (RPL), career transition assistance program (CTAP), the interagency career transition assistance program (ICTAP), transfers of function, and furloughs.",
+        "keywords": [
+          "administrative practice and procedure",
+          "armed forces reserves",
+          "colleges and universities",
+          "district of columbia",
+          "employment",
+          "government employees",
+          "personnel management office"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Proposed Rule",
+        "agencies": [
+          "Personnel Management Office"
+        ],
+        "topics": [
+          "Administrative practice and procedure",
+          "Armed forces reserves",
+          "Colleges and universities",
+          "District of Columbia",
+          "Employment",
+          "Government employees"
+        ]
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.699889"
+    },
+    {
+      "id": "federal-register-407fdf7036a3",
+      "title": "Receipt of Incidental Take Permit Application and Proposed Habitat Conservation Plan for the Threatened Scrub-Jay; Brevard County, FL; Categorical Exclusion",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04376/receipt-of-incidental-take-permit-application-and-proposed-habitat-conservation-plan-for-the",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "We, the Fish and Wildlife Service (Service), announce receipt of an application from Melbourne Orlando International Airport (Taxiway A Rehabilitation Project) (applicant) for an incidental take permit (ITP) under the Endangered Species Act. The applicant requests the ITP to take the federally listed scrub-jay incidental to a taxiway rehabilitation in Brevard County, Florida. We request public comment on the application, which includes the applicant's proposed habitat conservation plan (HCP), and on the Service's preliminary determination that the proposed permitting action may be eligible for a categorical exclusion pursuant National Environmental Policy Act (NEPA), Department of Interior's (DOI) NEPA regulations, and the DOI Departmental Manual. To make this preliminary determination, we prepared a draft screening form and NEPA statement for HCPs, which is available for public review. We invite comment from the public and local, State, Tribal, and Federal agencies.",
+        "keywords": [
+          "interior department",
+          "fish and wildlife service"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Interior Department",
+          "Fish and Wildlife Service"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.699918"
+    },
+    {
+      "id": "federal-register-699ff3a38454",
+      "title": "Procurement List; Additions and Deletions",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04375/procurement-list-additions-and-deletions",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "This action deletes product(s) and service(s) from the Procurement List that were furnished by nonprofit agencies employing persons who are blind or have other severe disabilities.",
+        "keywords": [
+          "committee for purchase from people who are blind or severely disabled"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Committee for Purchase From People Who Are Blind or Severely Disabled"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.699932"
+    },
+    {
+      "id": "federal-register-e051f3bd1491",
+      "title": "Procurement List; Proposed Deletions",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04374/procurement-list-proposed-deletions",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "The Committee is proposing to delete products from the Procurement List that were furnished by nonprofit agencies employing persons who are blind or have other severe disabilities.",
+        "keywords": [
+          "committee for purchase from people who are blind or severely disabled"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Committee for Purchase From People Who Are Blind or Severely Disabled"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.699946"
+    },
+    {
+      "id": "federal-register-77138be13ccd",
+      "title": "Rules Regarding Delegation of Authority; Correction",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04373/rules-regarding-delegation-of-authority-correction",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "The Board is revising its Rules Regarding Delegation of Authority to add delegations previously approved by the Board and to make certain technical corrections.",
+        "keywords": [
+          "authority delegations (government agencies)",
+          "banks, banking",
+          "banks, banking",
+          "banks, banking",
+          "banks, banking",
+          "federal reserve system"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Rule",
+        "agencies": [
+          "Federal Reserve System"
+        ],
+        "topics": [
+          "Authority delegations (Government agencies)",
+          "Banks, banking",
+          "Banks, banking",
+          "Banks, banking",
+          "Banks, banking"
+        ]
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.699962"
+    },
+    {
+      "id": "federal-register-7beb354a2368",
+      "title": "New North Ventures Fund II SBIC, L.P.; Surrender of License of Small Business Investment Company",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04372/new-north-ventures-fund-ii-sbic-lp-surrender-of-license-of-small-business-investment-company",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Notice by Small Business Administration",
+        "keywords": [
+          "small business administration"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Small Business Administration"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.699977"
+    },
+    {
+      "id": "federal-register-a2e34b2e176a",
+      "title": "Receipt of Incidental Take Permit Application and Proposed Habitat Conservation Plan for Sand Skink and Bluetail Mole Skink; Lake County, FL; Categorical Exclusion",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04371/receipt-of-incidental-take-permit-application-and-proposed-habitat-conservation-plan-for-sand-skink",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "We, the Fish and Wildlife Service (Service), announce receipt of an application from Clayton Properties Group, Inc. dba Highland Homes (Radio Road) (applicant) for an incidental take permit (ITP) under the Endangered Species Act. The applicant requests the ITP to take the federally listed threatened sand skink (skinks) incidental to the construction of a mixed residential development and the associated clearing and infrastructure in Lake County, Florida. We request public comment on the application, which includes the applicant's proposed habitat conservation plan (HCP), and on the Service's preliminary determination that the proposed permitting action may be eligible for a categorical exclusion pursuant to the National Environmental Policy Act (NEPA), the Department of the Interior's (DOI) NEPA regulations, and the DOI Departmental Manual. To make this preliminary determination, we prepared a draft screening form and NEPA statement for HCPs, which is available for public review. We invite comment from the public and local, State, Tribal, and Federal agencies.",
+        "keywords": [
+          "interior department",
+          "fish and wildlife service"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Interior Department",
+          "Fish and Wildlife Service"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.700006"
+    },
+    {
+      "id": "federal-register-757257529996",
+      "title": "60-Day Notice of Proposed Information Collection: Office of Language Services Contractor Application Form",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04370/60-day-notice-of-proposed-information-collection-office-of-language-services-contractor-application",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "The Department of State is seeking Office of Management and Budget (OMB) approval for the information collection described below. In accordance with the Paperwork Reduction Act of 1995, we are requesting comments on this collection from all interested individuals and organizations. The purpose of this notice is to allow 60 days for public comment preceding submission of the collection to OMB.",
+        "keywords": [
+          "state department"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "State Department"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.700024"
+    },
+    {
+      "id": "federal-register-d0573f49d56a",
+      "title": "Receipt of Incidental Take Permit Application and Proposed Habitat Conservation Plan for the Sand Skink and Blue-Tailed Mole-Skink; Highlands County, FL; Categorical Exclusion",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04369/receipt-of-incidental-take-permit-application-and-proposed-habitat-conservation-plan-for-the-sand",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "We, the Fish and Wildlife Service (Service), announce receipt of an application from Rizzzo Self Storage of Sebring, LLC (Sebring Parkway Parcel) (applicant) for an incidental take permit (ITP) under the Endangered Species Act. The applicant requests the ITP to take the federally listed sand skink and blue-tailed mole skink incidental to the construction of a self-storage facility and associated infrastructure. We request public comment on the application, which includes the applicant's proposed habitat conservation plan (HCP), and on the Service's preliminary determination that the proposed permitting action may be eligible for a categorical exclusion pursuant to the National Environmental Policy Act (NEPA), the Department of the Interior's (DOI) NEPA regulations, and the DOI Departmental Manual. To make this preliminary determination, we prepared a draft screening form and NEPA statement for HCPs, which is available for public review. We invite comment from the public and local, State, Tribal, and Federal agencies.",
+        "keywords": [
+          "interior department",
+          "fish and wildlife service"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Interior Department",
+          "Fish and Wildlife Service"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.700051"
+    },
+    {
+      "id": "federal-register-a1c3b20a2ab9",
+      "title": "Revising the National Drug Code Format and Drug Label Barcode Requirements",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04368/revising-the-national-drug-code-format-and-drug-label-barcode-requirements",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "The Food and Drug Administration (FDA, the Agency, or we) is issuing a final rule to standardize the format of the National Drug Code (NDC). Under this final rule, all FDA-assigned NDCs will be required to be 12 digits in length with 3 distinct segments and 1 uniform format. The first segment is a 6-digit labeler code, the second segment is a 4-digit product code, and the third segment is a 2-digit package code. Additionally, we are revising the drug product barcode label requirements to permit the use of other data carriers that meet the standards of this final rule.",
+        "keywords": [
+          "drugs",
+          "labeling",
+          "reporting and recordkeeping requirements",
+          "health and human services department",
+          "food and drug administration"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Rule",
+        "agencies": [
+          "Health and Human Services Department",
+          "Food and Drug Administration"
+        ],
+        "topics": [
+          "Drugs",
+          "Labeling",
+          "Reporting and recordkeeping requirements"
+        ]
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.700074"
+    },
+    {
+      "id": "federal-register-271a3ebee1ea",
+      "title": "Notice of Petition for Waiver of Compliance",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04367/notice-of-petition-for-waiver-of-compliance",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "This document provides the public notice that Reading Blue Mountain and Northern Railroad (RBMN) petitioned FRA for relief from certain regulations concerning stenciling and reflectorization of rail cars.",
+        "keywords": [
+          "transportation department",
+          "federal railroad administration"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Transportation Department",
+          "Federal Railroad Administration"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.700088"
+    },
+    {
+      "id": "federal-register-43c3aa4cf48a",
+      "title": "Paper Manifest Sunset Rule; Modification of the Hazardous Waste Manifest Regulations",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04366/paper-manifest-sunset-rule-modification-of-the-hazardous-waste-manifest-regulations",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "The U.S. Environmental Protection Agency (EPA) is proposing regulatory amendments to the hazardous waste manifest regulations to establish a date for sunsetting use of paper manifests in favor of electronic manifests. Phasing out paper manifests would unlock the estimated $28.5 million annual savings through decreased burden to manifest users while also increasing human health and environmental protection through better tracking of hazardous waste and greater transparency for regulators and the public. The proposed rule also introduces several conforming amendments to existing regulations. These include new registration requirements with the EPA's e-Manifest system for RCRA hazardous waste transporters, certain PCB waste generators, and PCB waste transporters. Additionally, the rule updates exception reporting requirements for very small quantity generators (VSQGs) managing hazardous waste from episodic events, as well as for healthcare facilities and reverse distributors handling hazardous waste pharmaceuticals. It also revises discrepancy reporting requirements for owners and operators of hazardous waste facilities operating under standardized permits. Lastly, the proposed rule includes four technical corrections to the import and export requirements to correct EPA's mailing address, remove obsolete text, and correct a citation associated with manifest corrections for export shipments.",
+        "keywords": [
+          "administrative practice and procedure",
+          "confidential business information",
+          "environmental protection",
+          "exports",
+          "hazardous materials transportation",
+          "hazardous substances",
+          "hazardous waste",
+          "imports",
+          "incorporation by reference",
+          "intergovernmental relations"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Proposed Rule",
+        "agencies": [
+          "Environmental Protection Agency"
+        ],
+        "topics": [
+          "Administrative practice and procedure",
+          "Confidential business information",
+          "Environmental protection",
+          "Exports",
+          "Hazardous materials transportation",
+          "Hazardous substances",
+          "Hazardous waste",
+          "Imports",
+          "Incorporation by reference",
+          "Intergovernmental relations",
+          "International organizations",
+          "Labeling",
+          "Packaging and containers",
+          "Penalties",
+          "Polychlorinated biphenyls (PCB's)",
+          "Recycling",
+          "Reporting and recordkeeping requirements",
+          "Waste treatment and disposal"
+        ]
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.700130"
+    },
+    {
+      "id": "federal-register-e0b1002e511e",
+      "title": "National Standards for Traffic Control Devices; the Manual on Uniform Traffic Control Devices for Streets and Highways; Revision",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04365/national-standards-for-traffic-control-devices-the-manual-on-uniform-traffic-control-devices-for",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "The Manual on Uniform Traffic Control Devices for Streets and Highways (MUTCD) is incorporated in FHWA regulations and recognized as the national standard for traffic control devices used on all public roads, bikeways, and private roads open to public travel. The purpose of this final rule is to make technical corrections to revise Standard, Guidance, Option provisions, and supporting information, relating to the traffic control devices in all parts of the MUTCD. The changes provide minor technical corrections and address editorial changes that have been identified since the 11th Edition of the MUTCD was published. The changes promote uniformity and ultimately improve and promote the safe and efficient utilization of roads that are open to public travel. The MUTCD, with these changes incorporated, is being designated as Revision 1 of the 11th Edition of the MUTCD.",
+        "keywords": [
+          "grant programs-transportation",
+          "highways and roads",
+          "incorporation by reference",
+          "signs and symbols",
+          "traffic regulations",
+          "transportation department",
+          "federal highway administration"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Rule",
+        "agencies": [
+          "Transportation Department",
+          "Federal Highway Administration"
+        ],
+        "topics": [
+          "Grant programs-transportation",
+          "Highways and roads",
+          "Incorporation by reference",
+          "Signs and symbols",
+          "Traffic regulations"
+        ]
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.700159"
+    },
+    {
+      "id": "federal-register-274b53667a27",
+      "title": "Agency Information Collection Activities; Submission for OMB Review; Comment Request; Hexavalent Chromium Standards for General Industry",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04364/agency-information-collection-activities-submission-for-omb-review-comment-request-hexavalent",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "The Department of Labor (DOL) is submitting this Occupational Safety & Health Administration (OSHA)-sponsored information collection request (ICR) to the Office of Management and Budget (OMB) for review and approval in accordance with the Paperwork Reduction Act of 1995 (PRA). Public comments on the ICR are invited.",
+        "keywords": [
+          "labor department"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Labor Department"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.700176"
+    },
+    {
+      "id": "federal-register-bc246f896a2a",
+      "title": "Agency Information Collection Activities; Submission for OMB Review; Comment Request; Federal-State Unemployment Insurance Program Data Exchange Standardization",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04363/agency-information-collection-activities-submission-for-omb-review-comment-request-federal-state",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "The Department of Labor (DOL) is submitting this Employment and Training Administration (ETA)-sponsored information collection request (ICR) to the Office of Management and Budget (OMB) for review and approval in accordance with the Paperwork Reduction Act of 1995 (PRA). Public comments on the ICR are invited.",
+        "keywords": [
+          "labor department"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Labor Department"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.700192"
+    },
+    {
+      "id": "federal-register-0d548fb88366",
+      "title": "Agency Information Collection Activities; Submission for OMB Review; Comment Request; Protections for Transit Workers Under Section 5333(b) Urban Program",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04362/agency-information-collection-activities-submission-for-omb-review-comment-request-protections-for",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "The Department of Labor (DOL of the Department) is submitting this Office of Labor-Management Standards, Department of Labor (OLMS)- sponsored information collection request (ICR) to the Office of Management and Budget (OMB) for review and approval in accordance with the Paperwork Reduction Act of 1995 (PRA). Public comments on the ICR are invited.",
+        "keywords": [
+          "labor department"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Labor Department"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.700210"
+    },
+    {
+      "id": "federal-register-f3a476f734d7",
+      "title": "Agency Information Collection Request; 30-Day Public Comment Request",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04361/agency-information-collection-request-30-day-public-comment-request",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "In compliance with the requirement of the Paperwork Reduction Act of 1995, the Office of the Secretary, Office for Civil Rights, Department of Health and Human Services has submitted revisions to an Information Collection Request to the Office of Management and Budget (OMB) for review and approval. OMB will accept further comments from the public during the review and approval period.",
+        "keywords": [
+          "health and human services department"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Health and Human Services Department"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.700227"
+    },
+    {
+      "id": "federal-register-7401bfa80a8f",
+      "title": "Administrative Disaster Declaration of a Rural Area for the Mescalero Apache Tribe",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04360/administrative-disaster-declaration-of-a-rural-area-for-the-mescalero-apache-tribe",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "This is notice of an Administrative disaster declaration of a rural area for the Mescalero Apache Tribe dated February 23, 2026. Incident: Severe Storms, Flooding and Landslides.",
+        "keywords": [
+          "small business administration"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Small Business Administration"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.700240"
+    },
+    {
+      "id": "federal-register-88398ec17dcd",
+      "title": "City of Pelican, AK; Notice of Application Ready for Environmental Analysis and Soliciting Comments, Recommendations, Terms and Conditions, and Prescriptions",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04359/city-of-pelican-ak-notice-of-application-ready-for-environmental-analysis-and-soliciting-comments",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Notice by Energy Department, Federal Energy Regulatory Commission",
+        "keywords": [
+          "energy department",
+          "federal energy regulatory commission"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Energy Department",
+          "Federal Energy Regulatory Commission"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.700256"
+    },
+    {
+      "id": "federal-register-c64824745f69",
+      "title": "NorthWestern Corporation; Notice of Institution of Section 206 Proceeding and Refund Effective Date",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04358/northwestern-corporation-notice-of-institution-of-section-206-proceeding-and-refund-effective-date",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Notice by Energy Department, Federal Energy Regulatory Commission",
+        "keywords": [
+          "energy department",
+          "federal energy regulatory commission"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Energy Department",
+          "Federal Energy Regulatory Commission"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.700271"
+    },
+    {
+      "id": "federal-register-38cc8a68b926",
+      "title": "Northwest Pipeline LLC; Notice of Request Under Blanket Authorization and Establishing Intervention and Protest Deadline",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04357/northwest-pipeline-llc-notice-of-request-under-blanket-authorization-and-establishing-intervention",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Notice by Energy Department, Federal Energy Regulatory Commission",
+        "keywords": [
+          "energy department",
+          "federal energy regulatory commission"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Energy Department",
+          "Federal Energy Regulatory Commission"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.700284"
+    },
+    {
+      "id": "federal-register-4c0c23f2b61b",
+      "title": "Combined Notice of Filings",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04356/combined-notice-of-filings",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Notice by Energy Department, Federal Energy Regulatory Commission",
+        "keywords": [
+          "energy department",
+          "federal energy regulatory commission"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Energy Department",
+          "Federal Energy Regulatory Commission"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.700297"
+    },
+    {
+      "id": "federal-register-0ecd4ea3baa4",
+      "title": "Combined Notice of Filings #1",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04355/combined-notice-of-filings-1",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Notice by Energy Department, Federal Energy Regulatory Commission",
+        "keywords": [
+          "energy department",
+          "federal energy regulatory commission"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Energy Department",
+          "Federal Energy Regulatory Commission"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.700309"
+    },
+    {
+      "id": "federal-register-8774aafaa11a",
+      "title": "Renewal Package From the State of Ohio to the Surface Transportation Project Delivery Program and Proposed Memorandum of Understanding (MOU) Assigning Environmental Responsibilities to the State",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04354/renewal-package-from-the-state-of-ohio-to-the-surface-transportation-project-delivery-program-and",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "This notice announces that FHWA received and reviewed a renewal package from the Ohio Department of Transportation (ODOT) requesting participation in the Surface Transportation Project Delivery Program (Program). This Program allows for FHWA to assign, and States to assume, responsibilities under the National Environmental Policy Act of 1969 (NEPA), and all or part of FHWA's responsibilities for environmental review, consultation, or other actions required under any Federal environmental law with respect to one or more Federal highway projects within the State. The FHWA has determined the renewal package to be complete and developed a draft Second Renewal MOU with ODOT outlining how the State would implement the Program with FHWA oversight. The FHWA invites the public to comment on ODOT's request, including its renewal package and the proposed Second Renewal MOU, which includes the proposed assignments and assumptions of environmental review, consultation, and other activities.",
+        "keywords": [
+          "transportation department",
+          "federal highway administration"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Transportation Department",
+          "Federal Highway Administration"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.700338"
+    },
+    {
+      "id": "federal-register-f934e9773719",
+      "title": "Surface Transportation Project Delivery Program; Arizona Department of Transportation Final FHWA Audit Four Report",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04353/surface-transportation-project-delivery-program-arizona-department-of-transportation-final-fhwa",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "The Moving Ahead for Progress in the 21st Century Act (MAP-21) established the Surface Transportation Project Delivery Program (Program) that allows a State to assume FHWA's environmental responsibilities for environmental review, consultation, and compliance under the National Environmental Policy Act (NEPA) for Federal highway projects. When a State assumes these Federal responsibilities, the State becomes solely responsible and liable for carrying out the responsibilities it has assumed, in lieu of FHWA. This Program mandates annual audits during each of the first 4 years of State participation to ensure compliance with program requirements. This is the fourth audit of the responsibilities assigned to the Arizona Department of Transportation (ADOT) under the Program. This notice announces the final fourth audit report for ADOT.",
+        "keywords": [
+          "transportation department",
+          "federal highway administration"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Transportation Department",
+          "Federal Highway Administration"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.700363"
+    },
+    {
+      "id": "federal-register-aefc2186dd7f",
+      "title": "Updating and Streamlining the Department of Commerce's Privacy Act Regulations; Correction",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04352/updating-and-streamlining-the-department-of-commerces-privacy-act-regulations-correction",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "By this action, the Department makes a correcting amendment to its Privacy Act regulations. The Department previously amended those regulations via final rule by, among other things, updating eighteen references to an outdated Department position title. The amendatory instructions set forth in that rule, however, omitted mention of two of the paragraphs amended in such way. This action merely corrects that omission and does not make any further changes to the regulations.",
+        "keywords": [
+          "administrative practice and procedure",
+          "archives and records",
+          "freedom of information",
+          "penalties",
+          "privacy",
+          "commerce department"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Rule",
+        "agencies": [
+          "Commerce Department"
+        ],
+        "topics": [
+          "Administrative practice and procedure",
+          "Archives and records",
+          "Freedom of information",
+          "Penalties",
+          "Privacy"
+        ]
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.700385"
+    },
+    {
+      "id": "federal-register-b3ff4872471d",
+      "title": "Notice of OFAC Sanctions Actions",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04349/notice-of-ofac-sanctions-actions",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "The U.S. Department of the Treasury's Office of Foreign Assets Control (OFAC) is publishing the names of one or more persons that have been placed on OFAC's Specially Designated Nationals and Blocked Persons List (SDN List) based on OFAC's determination that one or more applicable legal criteria were satisfied. All property and interests in property subject to U.S. jurisdiction of these persons are blocked, and U.S. persons are generally prohibited from engaging in transactions with them.",
+        "keywords": [
+          "treasury department",
+          "foreign assets control office"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Notice",
+        "agencies": [
+          "Treasury Department",
+          "Foreign Assets Control Office"
+        ],
+        "topics": []
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.700405"
+    },
+    {
+      "id": "federal-register-4d2aa859e4c1",
+      "title": "Airworthiness Directives; Schempp-Hirth Flugzeugbau GmbH Gliders",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04348/airworthiness-directives-schempp-hirth-flugzeugbau-gmbh-gliders",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "The FAA is adopting a new airworthiness directive (AD) for certain Schempp-Hirth Flugzeugbau GmbH (Schempp-Hirth) Model STANDARD CIRRUS gliders. This AD was prompted by reports of a broken outer race of the lower ball bearing installed in the all-moving horizontal tailplane drive fitting. This AD requires inspecting the elevator drive fitting to determine the type of lower ball bearing installed, and depending upon the results, replacing the lower ball bearing with a serviceable part. The FAA is issuing this AD to address the unsafe condition on these products.",
+        "keywords": [
+          "air transportation",
+          "aircraft",
+          "aviation safety",
+          "incorporation by reference",
+          "safety",
+          "transportation department",
+          "federal aviation administration"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "document_type": "Rule",
+        "agencies": [
+          "Transportation Department",
+          "Federal Aviation Administration"
+        ],
+        "topics": [
+          "Air transportation",
+          "Aircraft",
+          "Aviation safety",
+          "Incorporation by reference",
+          "Safety"
+        ]
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.700427"
+    },
+    {
+      "id": "who-press-releases-6dee21d11b9d",
+      "title": "Chile becomes the first country in the Americas to be verified by WHO for the elimination of leprosy",
+      "source": {
+        "name": "WHO Press Releases",
+        "type": "policy",
+        "url": "https://www.who.int/news/item/04-03-2026-chile-becomes-the-first-country-in-the-americas-to-be-verified-by-who-for-the-elimination-of-leprosy",
+        "published_date": "2026-03-04"
+      },
+      "content": {
+        "abstract": "The World Health Organization (WHO), together with the Pan American Health Organization (PAHO), congratulates Chile for becoming the first country in the Americas – and the second globally – to be officially verified as having eliminated leprosy disease.",
+        "keywords": [
+          "chile",
+          "becomes",
+          "first",
+          "country",
+          "americas",
+          "verified",
+          "elimination",
+          "leprosy",
+          "world",
+          "health"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.who.int/rss-feeds/news-english.xml",
+        "author": ""
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:33.917974"
+    },
+    {
+      "id": "un-news-80fae84da89b",
+      "title": "World News In Brief: Sudan conflict intensifies, Global inequality deepening, HIV success amid new medicine, increase in ‘Domicide’ worldwide",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/03/1167085",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "World News In Brief: Sudan conflict intensifies, Global inequality deepening, HIV success amid new medicine, increase in ‘Domicide’ worldwide",
+        "keywords": [
+          "world",
+          "news",
+          "brief:",
+          "sudan",
+          "conflict",
+          "intensifies,",
+          "global",
+          "inequality",
+          "deepening,",
+          "success"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:40.228030"
+    },
+    {
+      "id": "un-news-bc378f6bc240",
+      "title": "UN calls for fair play in the global race for critical minerals",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/03/1167084",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "UN calls for fair play in the global race for critical minerals",
+        "keywords": [
+          "calls",
+          "fair",
+          "play",
+          "global",
+          "race",
+          "critical",
+          "minerals",
+          "calls",
+          "fair",
+          "play"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:40.228059"
+    },
+    {
+      "id": "un-news-92c06a935fe2",
+      "title": "MIDDLE EAST LIVE: Further escalation drives uncertainty and suffering",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/03/1167082",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "MIDDLE EAST LIVE: Further escalation drives uncertainty and suffering",
+        "keywords": [
+          "middle",
+          "east",
+          "live:",
+          "further",
+          "escalation",
+          "drives",
+          "uncertainty",
+          "suffering",
+          "middle",
+          "east"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:40.228081"
+    },
+    {
+      "id": "un-news-1a4aa5e7c0b9",
+      "title": "Women’s rights are regressing worldwide, warns UN gender equality chief",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/03/1167081",
+        "published_date": "2026-03-04"
+      },
+      "content": {
+        "abstract": "Women’s rights are regressing worldwide, warns UN gender equality chief",
+        "keywords": [
+          "women’s",
+          "rights",
+          "regressing",
+          "worldwide,",
+          "warns",
+          "gender",
+          "equality",
+          "chief",
+          "women’s",
+          "rights"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:40.228104"
+    },
+    {
+      "id": "un-news-e83896b65dc4",
+      "title": "World News in Brief: Afghan-Pakistan border clashes latest, murder of Iraqi women’s rights activist condemned, Chile leprosy milestone",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/03/1167080",
+        "published_date": "2026-03-04"
+      },
+      "content": {
+        "abstract": "World News in Brief: Afghan-Pakistan border clashes latest, murder of Iraqi women’s rights activist condemned, Chile leprosy milestone",
+        "keywords": [
+          "world",
+          "news",
+          "brief:",
+          "afghan-pakistan",
+          "border",
+          "clashes",
+          "latest,",
+          "murder",
+          "iraqi",
+          "women’s"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:40.228130"
+    },
+    {
+      "id": "un-news-8213c7b54c11",
+      "title": "Imprisoned Iranian protesters face ‘expedited’ executions",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/03/1167077",
+        "published_date": "2026-03-04"
+      },
+      "content": {
+        "abstract": "Imprisoned Iranian protesters face ‘expedited’ executions",
+        "keywords": [
+          "imprisoned",
+          "iranian",
+          "protesters",
+          "face",
+          "‘expedited’",
+          "executions",
+          "imprisoned",
+          "iranian",
+          "protesters",
+          "face"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:40.228149"
+    },
+    {
+      "id": "un-news-dee22afe8c4c",
+      "title": "MIDDLE EAST LIVE: Conflict continues across region amid US, Israeli and Iranian strikes",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/03/1167076",
+        "published_date": "2026-03-04"
+      },
+      "content": {
+        "abstract": "MIDDLE EAST LIVE: Conflict continues across region amid US, Israeli and Iranian strikes",
+        "keywords": [
+          "middle",
+          "east",
+          "live:",
+          "conflict",
+          "continues",
+          "across",
+          "region",
+          "amid",
+          "israeli",
+          "iranian"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:40.228168"
+    },
+    {
+      "id": "un-news-866ab86a0a96",
+      "title": "MIDDLE EAST LIVE: Fourth day of escalating conflict between US, Israel and Iran",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/03/1167070",
+        "published_date": "2026-03-03"
+      },
+      "content": {
+        "abstract": "MIDDLE EAST LIVE: Fourth day of escalating conflict between US, Israel and Iran",
+        "keywords": [
+          "middle",
+          "east",
+          "live:",
+          "fourth",
+          "escalating",
+          "conflict",
+          "between",
+          "israel",
+          "iran",
+          "middle"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:40.228186"
+    },
+    {
+      "id": "un-news-8dc01cf5b6df",
+      "title": "How AI is already reshaping working conditions",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/03/1167075",
+        "published_date": "2026-03-03"
+      },
+      "content": {
+        "abstract": "How AI is already reshaping working conditions",
+        "keywords": [
+          "already",
+          "reshaping",
+          "working",
+          "conditions",
+          "already",
+          "reshaping",
+          "working",
+          "conditions"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:40.228202"
+    },
+    {
+      "id": "un-news-d7c6835600c3",
+      "title": "‘The world is looking to you for clarity’, UN chief tells AI experts",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/03/1167074",
+        "published_date": "2026-03-03"
+      },
+      "content": {
+        "abstract": "‘The world is looking to you for clarity’, UN chief tells AI experts",
+        "keywords": [
+          "‘the",
+          "world",
+          "looking",
+          "clarity’,",
+          "chief",
+          "tells",
+          "experts",
+          "‘the",
+          "world",
+          "looking"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:40.228222"
+    },
+    {
+      "id": "un-news-9e035b768658",
+      "title": "Iran crisis: Schoolgirls killed, thousands displaced and aid compromised",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/03/1167071",
+        "published_date": "2026-03-03"
+      },
+      "content": {
+        "abstract": "Iran crisis: Schoolgirls killed, thousands displaced and aid compromised",
+        "keywords": [
+          "iran",
+          "crisis:",
+          "schoolgirls",
+          "killed,",
+          "thousands",
+          "displaced",
+          "compromised",
+          "iran",
+          "crisis:",
+          "schoolgirls"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:40.228239"
+    },
+    {
+      "id": "un-news-626c2eb5c34d",
+      "title": "Why medicinal plants matter on World Wildlife Day",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/03/1167068",
+        "published_date": "2026-03-02"
+      },
+      "content": {
+        "abstract": "Why medicinal plants matter on World Wildlife Day",
+        "keywords": [
+          "medicinal",
+          "plants",
+          "matter",
+          "world",
+          "wildlife",
+          "medicinal",
+          "plants",
+          "matter",
+          "world",
+          "wildlife"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:40.228256"
+    },
+    {
+      "id": "un-news-a74e35a902bd",
+      "title": "World News in Brief: Gaza crossings closed, fighting in Sudan continues, Afghanistan quake victims",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/03/1167069",
+        "published_date": "2026-03-02"
+      },
+      "content": {
+        "abstract": "World News in Brief: Gaza crossings closed, fighting in Sudan continues, Afghanistan quake victims",
+        "keywords": [
+          "world",
+          "news",
+          "brief:",
+          "gaza",
+          "crossings",
+          "closed,",
+          "fighting",
+          "sudan",
+          "continues,",
+          "afghanistan"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:40.228274"
+    },
+    {
+      "id": "un-news-3062ec1ebfb1",
+      "title": "SECURITY COUNCIL LIVE: Melania Trump presides over historic session on children in conflict",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/03/1167067",
+        "published_date": "2026-03-02"
+      },
+      "content": {
+        "abstract": "SECURITY COUNCIL LIVE: Melania Trump presides over historic session on children in conflict",
+        "keywords": [
+          "security",
+          "council",
+          "live:",
+          "melania",
+          "trump",
+          "presides",
+          "over",
+          "historic",
+          "session",
+          "children"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:40.228292"
+    },
+    {
+      "id": "un-news-d92c0de942f5",
+      "title": "MIDDLE EAST LIVE: Strikes continue from US, Israel and Iran as UN urges restraint",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/03/1167065",
+        "published_date": "2026-03-02"
+      },
+      "content": {
+        "abstract": "MIDDLE EAST LIVE: Strikes continue from US, Israel and Iran as UN urges restraint",
+        "keywords": [
+          "middle",
+          "east",
+          "live:",
+          "strikes",
+          "continue",
+          "from",
+          "israel",
+          "iran",
+          "urges",
+          "restraint"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:40.228310"
+    },
+    {
+      "id": "un-news-325a725eba23",
+      "title": "Iran crisis: Nuclear watchdog urges restraint amid ongoing strikes",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/03/1167064",
+        "published_date": "2026-03-02"
+      },
+      "content": {
+        "abstract": "Iran crisis: Nuclear watchdog urges restraint amid ongoing strikes",
+        "keywords": [
+          "iran",
+          "crisis:",
+          "nuclear",
+          "watchdog",
+          "urges",
+          "restraint",
+          "amid",
+          "ongoing",
+          "strikes",
+          "iran"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:40.228326"
+    },
+    {
+      "id": "un-news-d79739846390",
+      "title": "Deadly bombing of Iran primary school ‘a grave violation of humanitarian law’: UNESCO",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/03/1167063",
+        "published_date": "2026-03-01"
+      },
+      "content": {
+        "abstract": "Deadly bombing of Iran primary school ‘a grave violation of humanitarian law’: UNESCO",
+        "keywords": [
+          "deadly",
+          "bombing",
+          "iran",
+          "primary",
+          "school",
+          "grave",
+          "violation",
+          "humanitarian",
+          "law’:",
+          "unesco"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:40.228349"
+    },
+    {
+      "id": "un-news-365951bee827",
+      "title": "Justice on the move: Mobile courts offer hope for communities in South Sudan",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/03/1167031",
+        "published_date": "2026-03-01"
+      },
+      "content": {
+        "abstract": "Justice on the move: Mobile courts offer hope for communities in South Sudan",
+        "keywords": [
+          "justice",
+          "move:",
+          "mobile",
+          "courts",
+          "offer",
+          "hope",
+          "communities",
+          "south",
+          "sudan",
+          "justice"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:40.228368"
+    },
+    {
+      "id": "un-news-ac5f2a07368c",
+      "title": "Iran strikes ‘squandered a chance for diplomacy’: Guterres",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/02/1167062",
+        "published_date": "2026-02-28"
+      },
+      "content": {
+        "abstract": "Iran strikes ‘squandered a chance for diplomacy’: Guterres",
+        "keywords": [
+          "iran",
+          "strikes",
+          "‘squandered",
+          "chance",
+          "diplomacy’:",
+          "guterres",
+          "iran",
+          "strikes",
+          "‘squandered",
+          "chance"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:40.228390"
+    },
+    {
+      "id": "un-news-bb1f6f767602",
+      "title": "MIDDLE EAST LIVE: UN Security Council meeting in emergency session over Iran",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/feed/view/en/story/2026/02/1167060",
+        "published_date": "2026-02-28"
+      },
+      "content": {
+        "abstract": "MIDDLE EAST LIVE: UN Security Council meeting in emergency session over Iran",
+        "keywords": [
+          "middle",
+          "east",
+          "live:",
+          "security",
+          "council",
+          "meeting",
+          "emergency",
+          "session",
+          "over",
+          "iran"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+        "author": "Unknown"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:40.228408"
+    },
+    {
+      "id": "nasa-climate-change-70e1b7dad5c5",
+      "title": "Ailing “Megaberg” Sparks Surge of Microscopic Life",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "url": "https://science.nasa.gov/earth/earth-observatory/ailing-megaberg-sparks-surge-of-microscopic-life/",
+        "published_date": "2026-03-06"
+      },
+      "content": {
+        "abstract": "As Iceberg A-23A disintegrated, it shed meltwater that helped fuel an extensive phytoplankton bloom in the South Atlantic Ocean. The post Ailing &#8220;Megaberg&#8221; Sparks Surge of Microscopic Life appeared first on NASA Science.",
+        "keywords": [
+          "earth observatory",
+          "carbon cycle",
+          "ice & glaciers",
+          "oceans",
+          "water blooms"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://climate.nasa.gov/news/rss.xml",
+        "author": "Michala Garrison"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:42.885693"
+    },
+    {
+      "id": "nasa-climate-change-7261a5f72b5d",
+      "title": "More Air Traffic Management and Safety News",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "url": "https://www.nasa.gov/directorates/armd/aosp/atms/more-atms-news/",
+        "published_date": "2026-03-06"
+      },
+      "content": {
+        "abstract": "More Air Traffic Management and Safety (ATMS) Project News Stay up-to-date with the latest content from NASA&#8217;s Air Traffic Management and Safety (ATMS) project as it works to transform the National Airspace System for today and prepare for tomorrow by enabling safe, efficient, and more resilient operations through automation. About Air Traffic Management and Safety Project 2 min read The Air [&#8230;] The post More Air Traffic Management and Safety News appeared first on NASA Science.",
+        "keywords": [
+          "more",
+          "traffic",
+          "management",
+          "safety",
+          "news",
+          "more",
+          "traffic",
+          "management",
+          "safety",
+          "(atms)"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://climate.nasa.gov/news/rss.xml",
+        "author": ""
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:42.885733"
+    },
+    {
+      "id": "nasa-climate-change-ed8feaf8a1c3",
+      "title": "About Air Traffic Management and Safety Project",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "url": "https://www.nasa.gov/directorates/armd/aosp/atms/about-atms/",
+        "published_date": "2026-03-06"
+      },
+      "content": {
+        "abstract": "The Air Traffic Management and Safety (ATMS) project defines, validates, and transfers advanced requirements and technologies to shift air traffic management from tactical to strategic. This change enables efficient, productive, and resilient operations while reducing safety assurance and compliance costs for highly automated systems. ATMS researches and develops technologies that safely integrate new air vehicles with traditional aviation operations to meet growing demand. Through close collaboration with the FAA, ATMS delivers actionable automation solutions, advanced operational concepts, […] The post About Air Traffic Management and Safety Project appeared first on NASA Science.",
+        "keywords": [
+          "about",
+          "traffic",
+          "management",
+          "safety",
+          "project",
+          "traffic",
+          "management",
+          "safety",
+          "(atms)",
+          "project"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://climate.nasa.gov/news/rss.xml",
+        "author": ""
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:42.885782"
+    },
+    {
+      "id": "nasa-climate-change-c9a3c1f755ff",
+      "title": "Air Traffic Management and Safety Project",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "url": "https://www.nasa.gov/directorates/armd/aosp/atms/",
+        "published_date": "2026-03-06"
+      },
+      "content": {
+        "abstract": "Air Traffic Management and Safety Project The Air Traffic Management and Safety (ATMS) project is transforming the National Airspace System (NAS) for today and preparing for tomorrow by enabling safe, efficient, and more resilient operations through automation. Learn More About ATMS about Air Traffic Management and Safety Project project manager Shivanjli Sharma deputy pm Heather Arneson Latest ATMS News More ATMS News [&#8230;] The post Air Traffic Management and Safety Project appeared first on NASA Science.",
+        "keywords": [
+          "traffic",
+          "management",
+          "safety",
+          "project",
+          "traffic",
+          "management",
+          "safety",
+          "project",
+          "traffic",
+          "management"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://climate.nasa.gov/news/rss.xml",
+        "author": ""
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:42.885814"
+    },
+    {
+      "id": "nasa-climate-change-59492b30f8b7",
+      "title": "More Advanced Air Mobility Pathfinders Project News",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "url": "https://www.nasa.gov/directorates/armd/aosp/aamp/more-aamp-news/",
+        "published_date": "2026-03-06"
+      },
+      "content": {
+        "abstract": "More Advanced Air Mobility Pathfinders (AAMP) Project News Stay up-to-date with the latest content from AAMP as we help emerging aviation markets to safely develop an air transportation system that moves people and cargo between places previously not served or underserved by aviation – local, regional, intraregional, urban – using revolutionary new aircraft that are [&#8230;] The post More Advanced Air Mobility Pathfinders Project News appeared first on NASA Science.",
+        "keywords": [
+          "advanced air mobility pathfinders",
+          "advanced capabilities for emergency response operations"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://climate.nasa.gov/news/rss.xml",
+        "author": ""
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:42.885840"
+    },
+    {
+      "id": "nasa-climate-change-984b9238b5a5",
+      "title": "About Advanced Air Mobility Pathfinders Project",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "url": "https://www.nasa.gov/directorates/armd/aosp/amp/about-aamp/",
+        "published_date": "2026-03-06"
+      },
+      "content": {
+        "abstract": "The Advanced Air Mobility Pathfinders (AAMP) project accelerates advanced air mobility technologies for wildfire response and urban transportation through real-world demonstrations and strategic partnerships. AAMP researches emerging technologies, establishes aircraft strategic deconfliction frameworks, and validates solutions in metropolitan areas to enable larger-scale urban air mobility. The project enhances Unmanned Aircraft Systems capabilities for wildfire mitigation and disaster response by transferring Portable Airspace Management System technologies to enable routine, safe, […] The post About Advanced Air Mobility Pathfinders Project appeared first on NASA Science.",
+        "keywords": [
+          "air mobility pathfinders project"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://climate.nasa.gov/news/rss.xml",
+        "author": ""
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:42.885869"
+    },
+    {
+      "id": "nasa-climate-change-214970dc303e",
+      "title": "Advanced Air Mobility Pathfinders Project",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "url": "https://www.nasa.gov/directorates/armd/aosp/aamp/",
+        "published_date": "2026-03-06"
+      },
+      "content": {
+        "abstract": "Advanced Air Mobility Pathfinders Project NASA’s Advanced Air Mobility Pathfinders (AAMP) project evaluates and verifies advanced air mobility technologies designed for emergency response and urban transportation. This initiative aims to establish the safety and practicality of these solutions through real-world flight operations. Learn More About AAMP about Advanced Air Mobility Pathfinders Project project manager Min Xue Deputy PM/Execution [&#8230;] The post Advanced Air Mobility Pathfinders Project appeared first on NASA Science.",
+        "keywords": [
+          "advanced air mobility pathfinders",
+          "advanced capabilities for emergency response operations",
+          "air mobility pathfinders project"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://climate.nasa.gov/news/rss.xml",
+        "author": ""
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:42.885895"
+    },
+    {
+      "id": "nasa-climate-change-30c9b8467f95",
+      "title": "About Airspace Operations and Safety Program (AOSP)",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "url": "https://www.nasa.gov/directorates/armd/aosp/about-aosp/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "The Airspace Operations and Safety Program (AOSP) accelerates the transformation of the National Airspace System (NAS) to meet the variety, density, and complexity of future airspace users. Our mission is to ensure that U.S. skies remain safe, innovative, and globally competitive while enabling Advanced Air Mobility and next-generation aviation technologies. AOSP partners with the FAA, industry, academia, and other government agencies to ensure seamless integration of […] The post About Airspace Operations and Safety Program (AOSP) appeared first on NASA Science.",
+        "keywords": [
+          "airspace operations and safety program"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://climate.nasa.gov/news/rss.xml",
+        "author": ""
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:42.885921"
+    },
+    {
+      "id": "nasa-climate-change-d43f4a6bd498",
+      "title": "AMTPS",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "url": "https://www.nasa.gov/amtps/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "NASA Additive Manufacturing of Thermal Protection Systems (AM-TPS) &#038; Hot Structures Technical Interchange Meeting (TIM) The post AMTPS appeared first on NASA Science.",
+        "keywords": [
+          "amtps",
+          "nasa",
+          "additive",
+          "manufacturing",
+          "thermal",
+          "protection",
+          "systems",
+          "(am-tps)",
+          "&#038;",
+          "structures"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://climate.nasa.gov/news/rss.xml",
+        "author": ""
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:42.885938"
+    },
+    {
+      "id": "nasa-climate-change-58712f7f91ec",
+      "title": "Canadarm2 Grips Cargo Spacecraft, Spacewalk Prep and Biology Continue",
+      "source": {
+        "name": "NASA Climate Change",
+        "type": "policy",
+        "url": "https://www.nasa.gov/blogs/spacestation/2026/03/05/canadarm2-grips-cargo-spacecraft-spacewalk-prep-and-biology-continue/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "A JAXA (Japan Aerospace Exploration Agency) cargo spacecraft is in the grasp of the Canadarm2 robotic arm following its detachment from the International Space Station’s Harmony module on Thursday. The Expedition 74 crew continued its spacewalk preparations, transferred more cargo, and conducted biology research throughout the day. The post Canadarm2 Grips Cargo Spacecraft, Spacewalk Prep and Biology Continue appeared first on NASA Science.",
+        "keywords": [
+          "international space station (iss)",
+          "iss research"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://climate.nasa.gov/news/rss.xml",
+        "author": ""
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:42.885962"
+    },
+    {
+      "id": "bis-speeches-e95f3dca7700",
+      "title": "Joachim Nagel: Central banking in an age of geoeconomic fragmentation and global uncertainty",
+      "source": {
+        "name": "BIS Speeches",
+        "type": "policy",
+        "url": "https://www.bis.org/review/r260303h.htm",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Joachim Nagel: Central banking in an age of geoeconomic fragmentation and global uncertainty",
+        "keywords": [
+          "joachim",
+          "nagel:",
+          "central",
+          "banking",
+          "geoeconomic",
+          "fragmentation",
+          "global",
+          "uncertainty",
+          "joachim",
+          "nagel:"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.bis.org/doclist/cbspeeches.rss",
+        "author": "Joachim Nagel"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:52.848651"
+    },
+    {
+      "id": "bis-speeches-fcf7a3110585",
+      "title": "Lisa D Cook: Opening remarks for the \"AI and productivity across the economy\" panel",
+      "source": {
+        "name": "BIS Speeches",
+        "type": "policy",
+        "url": "https://www.bis.org/review/r260303a.htm",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Lisa D Cook: Opening remarks for the \"AI and productivity across the economy\" panel",
+        "keywords": [
+          "lisa",
+          "cook:",
+          "opening",
+          "remarks",
+          "productivity",
+          "across",
+          "economy\"",
+          "panel",
+          "lisa",
+          "cook:"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.bis.org/doclist/cbspeeches.rss",
+        "author": "Lisa D Cook"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:52.848689"
+    },
+    {
+      "id": "bis-speeches-c0ea93b12054",
+      "title": "Henry F Saamoi: Keynote address - \"Opening Ceremony of the Meetings of the College of Supervisors of the West Africa Monetary Zone\"",
+      "source": {
+        "name": "BIS Speeches",
+        "type": "policy",
+        "url": "https://www.bis.org/review/r260303f.htm",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Henry F Saamoi: Keynote address - \"Opening Ceremony of the Meetings of the College of Supervisors of the West Africa Monetary Zone\"",
+        "keywords": [
+          "henry",
+          "saamoi:",
+          "keynote",
+          "address",
+          "\"opening",
+          "ceremony",
+          "meetings",
+          "college",
+          "supervisors",
+          "west"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.bis.org/doclist/cbspeeches.rss",
+        "author": "Henry F Saamoi"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:52.848722"
+    },
+    {
+      "id": "bis-speeches-029186257834",
+      "title": "Christine Lagarde: Hearing of the Committee on Economic and Monetary Affairs of the European Parliament",
+      "source": {
+        "name": "BIS Speeches",
+        "type": "policy",
+        "url": "https://www.bis.org/review/r260303g.htm",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Christine Lagarde: Hearing of the Committee on Economic and Monetary Affairs of the European Parliament",
+        "keywords": [
+          "christine",
+          "lagarde:",
+          "hearing",
+          "committee",
+          "economic",
+          "monetary",
+          "affairs",
+          "european",
+          "parliament",
+          "christine"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.bis.org/doclist/cbspeeches.rss",
+        "author": "Christine Lagarde"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:52.848749"
+    },
+    {
+      "id": "bis-speeches-f5232587cef5",
+      "title": "Hajime Takata: Economic activity, prices and monetary policy in Japan",
+      "source": {
+        "name": "BIS Speeches",
+        "type": "policy",
+        "url": "https://www.bis.org/review/r260303c.htm",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Hajime Takata: Economic activity, prices and monetary policy in Japan",
+        "keywords": [
+          "hajime",
+          "takata:",
+          "economic",
+          "activity,",
+          "prices",
+          "monetary",
+          "policy",
+          "japan",
+          "hajime",
+          "takata:"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.bis.org/doclist/cbspeeches.rss",
+        "author": "Hajime Takata"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:52.848773"
+    },
+    {
+      "id": "bis-speeches-922cd51c2d27",
+      "title": "Burkhard Balz: European finance at the fault lines of transatlantic relations",
+      "source": {
+        "name": "BIS Speeches",
+        "type": "policy",
+        "url": "https://www.bis.org/review/r260303b.htm",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Burkhard Balz: European finance at the fault lines of transatlantic relations",
+        "keywords": [
+          "burkhard",
+          "balz:",
+          "european",
+          "finance",
+          "fault",
+          "lines",
+          "transatlantic",
+          "relations",
+          "burkhard",
+          "balz:"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.bis.org/doclist/cbspeeches.rss",
+        "author": "Burkhard Balz"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:52.848797"
+    },
+    {
+      "id": "bis-speeches-0ea1a026e6aa",
+      "title": "Henry F Saamoi: Welcome address &#8211; \"Joint Opening Ceremony of the 67th Ordinary Meeting of The Committee of Governors of Central Banks of ECOWAS Member States\"",
+      "source": {
+        "name": "BIS Speeches",
+        "type": "policy",
+        "url": "https://www.bis.org/review/r260303e.htm",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Henry F Saamoi: Welcome address &#8211; \"Joint Opening Ceremony of the 67th Ordinary Meeting of The Committee of Governors of Central Banks of ECOWAS Member States\"",
+        "keywords": [
+          "henry",
+          "saamoi:",
+          "welcome",
+          "address",
+          "&#8211;",
+          "\"joint",
+          "opening",
+          "ceremony",
+          "67th",
+          "ordinary"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.bis.org/doclist/cbspeeches.rss",
+        "author": "Henry F Saamoi"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:52.848827"
+    },
+    {
+      "id": "bis-speeches-51c2d17bacf6",
+      "title": "Swaminathan J: Good finance, good leadership - on the road to Viksit Bharat@2047",
+      "source": {
+        "name": "BIS Speeches",
+        "type": "policy",
+        "url": "https://www.bis.org/review/r260303i.htm",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Swaminathan J: Good finance, good leadership - on the road to Viksit Bharat@2047",
+        "keywords": [
+          "swaminathan",
+          "good",
+          "finance,",
+          "good",
+          "leadership",
+          "road",
+          "viksit",
+          "bharat@2047",
+          "swaminathan",
+          "good"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.bis.org/doclist/cbspeeches.rss",
+        "author": "Swaminathan J"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:52.848853"
+    },
+    {
+      "id": "bis-speeches-f688343fb9bd",
+      "title": "Christopher J Waller: Operationalizing AI at the Federal Reserve",
+      "source": {
+        "name": "BIS Speeches",
+        "type": "policy",
+        "url": "https://www.bis.org/review/r260302c.htm",
+        "published_date": "2026-03-03"
+      },
+      "content": {
+        "abstract": "Christopher J Waller: Operationalizing AI at the Federal Reserve",
+        "keywords": [
+          "christopher",
+          "waller:",
+          "operationalizing",
+          "federal",
+          "reserve",
+          "christopher",
+          "waller:",
+          "operationalizing",
+          "federal",
+          "reserve"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.bis.org/doclist/cbspeeches.rss",
+        "author": "Christopher J Waller"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:52.848875"
+    },
+    {
+      "id": "bis-speeches-c702cca08e8f",
+      "title": "P Nandalal Weerasinghe: Central Bank of Sri Lanka's policy agenda for 2026 and beyond",
+      "source": {
+        "name": "BIS Speeches",
+        "type": "policy",
+        "url": "https://www.bis.org/review/r260302g.htm",
+        "published_date": "2026-03-03"
+      },
+      "content": {
+        "abstract": "P Nandalal Weerasinghe: Central Bank of Sri Lanka's policy agenda for 2026 and beyond",
+        "keywords": [
+          "nandalal",
+          "weerasinghe:",
+          "central",
+          "bank",
+          "lanka's",
+          "policy",
+          "agenda",
+          "2026",
+          "beyond",
+          "nandalal"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.bis.org/doclist/cbspeeches.rss",
+        "author": "P Nandalal Weerasinghe"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T15:54:52.848898"
+    }
+  ]
+}

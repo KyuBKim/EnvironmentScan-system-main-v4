@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "date": "2026-03-05",
+    "workflow": "wf1-general",
+    "classifier": "phase2-analyst",
+    "total_signals": 44,
+    "steeps_distribution": {
+      "S_Social": 7,
+      "T_Technological": 17,
+      "E_Economic": 3,
+      "E_Environmental": 6,
+      "P_Political": 8,
+      "s_spiritual": 3
+    }
+  },
+  "signals": [
+    {
+      "id": "hacker-20260305-007",
+      "title": "NRC Issues First Commercial Reactor Construction Permit in Decade: TerraPower Natrium",
+      "steeps_category": "T_Technological",
+      "steeps_secondary": "E_Environmental",
+      "signal_status": "emerging",
+      "innovative_capacity": 5,
+      "classification_confidence": 0.95,
+      "evidence_strength": 95,
+      "dedup_stage_passed": 4,
+      "source_type": "government"
+    },
+    {
+      "id": "nature-20260305-011",
+      "title": "Evo 2: Foundation Model Trained on 9 Trillion DNA Base Pairs Enables Genome Design",
+      "steeps_category": "T_Technological",
+      "steeps_secondary": "S_Social",
+      "signal_status": "emerging",
+      "innovative_capacity": 5,
+      "classification_confidence": 0.98,
+      "evidence_strength": 98,
+      "dedup_stage_passed": 4,
+      "source_type": "academic"
+    },
+    {
+      "id": "whitehouse-20260305-009",
+      "title": "Tech Giants Sign Ratepayer Protection Pledge at White House for Data Center Energy",
+      "steeps_category": "P_Political",
+      "steeps_secondary": "E_Economic",
+      "signal_status": "emerging",
+      "innovative_capacity": 4,
+      "classification_confidence": 0.92,
+      "evidence_strength": 90,
+      "dedup_stage_passed": 4,
+      "source_type": "government"
+    },
+    {
+      "id": "hacker-20260305-008",
+      "title": "BMW Deploys Humanoid Robots in German Production for First Time",
+      "steeps_category": "T_Technological",
+      "steeps_secondary": "E_Economic",
+      "signal_status": "emerging",
+      "innovative_capacity": 5,
+      "classification_confidence": 0.95,
+      "evidence_strength": 88,
+      "dedup_stage_passed": 4,
+      "source_type": "news_major"
+    },
+    {
+      "id": "techcrunch-20260305-002",
+      "title": "Anthropic CEO Dario Amodei Calls OpenAI Military Messaging 'Straight Up Lies'",
+      "steeps_category": "s_spiritual",
+      "steeps_secondary": "P_Political",
+      "signal_status": "developing",
+      "innovative_capacity": 3,
+      "classification_confidence": 0.88,
+      "evidence_strength": 80,
+      "dedup_stage_passed": 4,
+      "source_type": "blog"
+    },
+    {
+      "id": "un-20260305-027",
+      "title": "Middle East Military Escalation Enters Seventh Day: Multi-Front Crisis",
+      "steeps_category": "P_Political",
+      "steeps_secondary": "E_Economic",
+      "signal_status": "developing",
+      "innovative_capacity": 2,
+      "classification_confidence": 0.95,
+      "evidence_strength": 92,
+      "dedup_stage_passed": 4,
+      "source_type": "government"
+    },
+    {
+      "id": "nature-20260305-014",
+      "title": "Coastal Sea Levels Exceed Hazard Assessment Assumptions Globally",
+      "steeps_category": "E_Environmental",
+      "steeps_secondary": "P_Political",
+      "signal_status": "developing",
+      "innovative_capacity": 4,
+      "classification_confidence": 0.95,
+      "evidence_strength": 95,
+      "dedup_stage_passed": 4,
+      "source_type": "academic"
+    },
+    {
+      "id": "nature-20260305-012",
+      "title": "Merlin: CT Imaging AI Foundation Model Achieves Consistent Diagnostic Performance",
+      "steeps_category": "T_Technological",
+      "steeps_secondary": "S_Social",
+      "signal_status": "emerging",
+      "innovative_capacity": 5,
+      "classification_confidence": 0.95,
+      "evidence_strength": 92,
+      "dedup_stage_passed": 4,
+      "source_type": "academic"
+    },
+    {
+      "id": "techcrunch-20260305-006",
+      "title": "Father Sues Google Claiming Gemini Chatbot Drove Son Into Fatal Delusion",
+      "steeps_category": "s_spiritual",
+      "steeps_secondary": "P_Political",
+      "signal_status": "emerging",
+      "innovative_capacity": 4,
+      "classification_confidence": 0.90,
+      "evidence_strength": 75,
+      "dedup_stage_passed": 4,
+      "source_type": "blog"
+    },
+    {
+      "id": "un-20260305-028",
+      "title": "UN Secretary-General Establishes Independent Expert Panel on AI Governance",
+      "steeps_category": "P_Political",
+      "steeps_secondary": "T_Technological",
+      "signal_status": "emerging",
+      "innovative_capacity": 4,
+      "classification_confidence": 0.92,
+      "evidence_strength": 88,
+      "dedup_stage_passed": 4,
+      "source_type": "government"
+    },
+    {
+      "id": "techcrunch-20260305-001",
+      "title": "Nvidia CEO Jensen Huang Announces Pullback from OpenAI and Anthropic Investments",
+      "steeps_category": "T_Technological",
+      "steeps_secondary": "E_Economic",
+      "signal_status": "emerging",
+      "innovative_capacity": 3,
+      "classification_confidence": 0.88,
+      "evidence_strength": 78,
+      "dedup_stage_passed": 4,
+      "source_type": "blog"
+    },
+    {
+      "id": "nature-20260305-013",
+      "title": "Cell-Free Chromatin Tracing Enables Disease Origin Identification from Blood",
+      "steeps_category": "T_Technological",
+      "steeps_secondary": "S_Social",
+      "signal_status": "emerging",
+      "innovative_capacity": 5,
+      "classification_confidence": 0.95,
+      "evidence_strength": 90,
+      "dedup_stage_passed": 4,
+      "source_type": "academic"
+    },
+    {
+      "id": "eu-20260305-041",
+      "title": "EU Empowering Consumers for Green Transition Directive: March 2026 Transposition Deadline",
+      "steeps_category": "P_Political",
+      "steeps_secondary": "E_Environmental",
+      "signal_status": "developing",
+      "innovative_capacity": 3,
+      "classification_confidence": 0.92,
+      "evidence_strength": 90,
+      "dedup_stage_passed": 4,
+      "source_type": "government"
+    },
+    {
+      "id": "ieee-20260305-019",
+      "title": "Taara Achieves 25 Gbps Wireless Data Transmission via Infrared Laser",
+      "steeps_category": "T_Technological",
+      "steeps_secondary": "E_Economic",
+      "signal_status": "emerging",
+      "innovative_capacity": 5,
+      "classification_confidence": 0.92,
+      "evidence_strength": 85,
+      "dedup_stage_passed": 4,
+      "source_type": "academic"
+    },
+    {
+      "id": "hacker-20260305-010",
+      "title": "Meta Faces Regulatory Scrutiny Over Workers Watching Intimate AI Glasses Videos",
+      "steeps_category": "P_Political",
+      "steeps_secondary": "s_spiritual",
+      "signal_status": "emerging",
+      "innovative_capacity": 3,
+      "classification_confidence": 0.88,
+      "evidence_strength": 75,
+      "dedup_stage_passed": 4,
+      "source_type": "news_major"
+    }
+  ]
+}

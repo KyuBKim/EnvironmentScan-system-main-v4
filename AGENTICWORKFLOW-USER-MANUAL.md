@@ -2,7 +2,7 @@
 
 > **Quadruple Environmental Scanning System** | Quick Reference (English)
 >
-> Version: 6.0 | Last Updated: 2026-03-02
+> Version: 7.0 | Last Updated: 2026-03-06
 
 This document is the concise English-language companion to `USER-MANUAL.md`. For the full Korean operational guide, refer to that document.
 
@@ -30,7 +30,7 @@ claude
 ```
 
 The system will automatically:
-1. Validate SOT (55 rules)
+1. Validate SOT (59 rules)
 2. WF1: Scan 25+ sources → classify+impact (LLM @phase2-analyst) → rank (Python priority_score_calculator.py) → generate report
 3. WF2: Scan arXiv 42 categories → classify+impact (LLM) → rank (Python) → generate report
 4. WF3: Crawl Naver News 6 sections → STEEPs+FSSF classify (LLM) → rank (Python) → generate report
@@ -100,6 +100,16 @@ The system will automatically:
     |   Phase 3: DB update -> report
     |     -> [REQUIRED] /env-scan:approve
     |
+    +-- Timeline Map (Challenge-Response)
+    |   Phase A: Python data foundation (theme discovery + data assembly)
+    |   Phase B: Narrative analysis
+    |     B1: @timeline-narrative-analyst (draft)
+    |     B2: @timeline-quality-challenger (adversarial review)
+    |     B3: @timeline-narrative-analyst (refinement)
+    |     B4: narrative_gate.py (Python verification)
+    |   Phase C: Assembly (skeleton fill + composer)
+    |   Phase D: Quality defense (L2a + L2b + L3)
+    |
     +-- Integration
         Merge 4 reports -> Agent-Teams 5 -> pSST unified ranking -> Top 20
         -> [REQUIRED] /env-scan:approve
@@ -114,6 +124,7 @@ The system will automatically:
 | WF3 Naver | `env-scanning/wf3-naver/reports/daily/environmental-scan-{date}.md` |
 | WF4 Global News | `env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-{date}.md` |
 | **Integrated** | `env-scanning/integrated/reports/daily/integrated-scan-{date}.md` |
+| **Timeline Map** | `env-scanning/integrated/reports/daily/timeline-map-{date}.md` |
 | Weekly | `env-scanning/integrated/weekly/reports/weekly-scan-{week-id}.md` |
 
 ---
@@ -239,7 +250,7 @@ Always run validation:
 python3 env-scanning/scripts/validate_registry.py
 ```
 
-All 55 rules must PASS before workflows can execute.
+All 59 rules must PASS before workflows can execute.
 
 ---
 
@@ -275,6 +286,12 @@ python3 env-scanning/scripts/validate_report.py <report-file-path>
 
 # L2b: Cross-reference QC (13 checks: QC-001~013)
 python3 env-scanning/scripts/validate_report_quality.py <report-file-path>
+
+# Timeline Map L2b: Cross-reference QC (11 checks: TQ-001~011)
+python3 env-scanning/scripts/validate_timeline_map_quality.py --report <timeline-map.md> --data-package <data-package.json>
+
+# Timeline Map B4: Narrative gate (5 checks: NG-001~005)
+python3 env-scanning/scripts/narrative_gate.py --narratives <narratives.json> --data-package <data-package.json>
 ```
 
 System auto-retries up to 2 times with progressive escalation on CRITICAL failures.
@@ -335,6 +352,6 @@ All collected data (raw/, structured/) is persisted to disk and never lost.
 
 ---
 
-**Document Version**: 6.0
-**Last Updated**: 2026-03-02
-**System Version**: Quadruple Workflow System v2.5.0 (Python 원천봉쇄 + 4-Layer Quality Defense)
+**Document Version**: 7.0
+**Last Updated**: 2026-03-06
+**System Version**: Quadruple Workflow System v3.1.0 (Python 원천봉쇄 + 4-Layer Quality Defense + Timeline Map Challenge-Response)

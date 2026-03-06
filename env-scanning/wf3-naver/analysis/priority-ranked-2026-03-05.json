@@ -1,0 +1,395 @@
+{
+  "ranking_metadata": {
+    "engine": "priority_score_calculator.py",
+    "engine_version": "1.0.0",
+    "workflow": "wf3-naver",
+    "date": "2026-03-05",
+    "computed_at": "2026-03-05T05:33:35Z",
+    "method": "priority_formula_v1",
+    "weights": {
+      "impact": 0.4,
+      "probability": 0.3,
+      "urgency": 0.2,
+      "novelty": 0.1
+    },
+    "total_ranked": 15,
+    "warn_count": 15
+  },
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "naver-20260305-104-222",
+      "title": "Iran Fires Missiles at Turkey: Regional War Expansion Risk Intensifies",
+      "steeps": "",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 34.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 9,
+        "CC": 9,
+        "IC": 9
+      }
+    },
+    {
+      "rank": 2,
+      "id": "naver-20260305-104-225",
+      "title": "Hormuz Strait Shipping Insurance Premiums Surge 12x: Trump Naval Escort Plan Deemed Unrealistic",
+      "steeps": "",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "priority_score": 3.6,
+      "psst_score": 34.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 4.5,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 9,
+        "CC": 9,
+        "IC": 9
+      }
+    },
+    {
+      "rank": 3,
+      "id": "naver-20260305-104-208",
+      "title": "US-Israel Deploy Kurdish Card Against Iran: Second Front Formation on Iranian Mainland",
+      "steeps": "",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "priority_score": 3.6,
+      "psst_score": 34.7,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 4.5,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 9,
+        "CC": 8,
+        "IC": 9
+      }
+    },
+    {
+      "rank": 4,
+      "id": "naver-20260305-101-058",
+      "title": "Ceasefire Hopes Spark Asian Market Surge: KOSPI +10%, Nikkei +2%",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.2,
+      "psst_score": 34.4,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.5,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 8,
+        "CC": 8,
+        "IC": 8
+      }
+    },
+    {
+      "rank": 5,
+      "id": "naver-20260305-105-253",
+      "title": "US Approves First Commercial Next-Gen Nuclear Plant: TerraPower Natrium to Operate Post-2031",
+      "steeps": "",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "priority_score": 3.2,
+      "psst_score": 34.2,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.5,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 8,
+        "CC": 7,
+        "IC": 8
+      }
+    },
+    {
+      "rank": 6,
+      "id": "naver-20260305-101-078",
+      "title": "Middle East Risk Spreads to Korean FX Market: Won at Emergency Levels, Could Reach 1,540",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "priority_score": 3.2,
+      "psst_score": 34.0,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.5,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 8,
+        "CC": 7,
+        "IC": 7
+      }
+    },
+    {
+      "rank": 7,
+      "id": "naver-20260305-100-060",
+      "title": "Kim Jong-un Observes Strategic Cruise Missile Test: Declares Satisfaction with Nuclear Armament",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.0,
+      "psst_score": 34.2,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 8,
+        "CC": 7,
+        "IC": 8
+      }
+    },
+    {
+      "rank": 8,
+      "id": "naver-20260305-100-056",
+      "title": "Judicial Reform Package: Supreme Court Justice Expansion and 3 Judiciary Bills Pass Cabinet",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.0,
+      "psst_score": 33.8,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 7,
+        "CC": 7,
+        "IC": 7
+      }
+    },
+    {
+      "rank": 9,
+      "id": "naver-20260305-105-233",
+      "title": "Quantum AI and Hybrid Computing: Latest Quantum Technology Trends at a Glance",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 3.0,
+      "psst_score": 33.8,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 7,
+        "CC": 7,
+        "IC": 7
+      }
+    },
+    {
+      "rank": 10,
+      "id": "naver-20260305-101-064",
+      "title": "Seoul Premium Housing Market Cracks: Gangnam 3 Districts and Yongsan Fall for 2nd Consecutive Week",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.8,
+      "psst_score": 33.8,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.5,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 7,
+        "CC": 7,
+        "IC": 7
+      }
+    },
+    {
+      "rank": 11,
+      "id": "naver-20260305-105-244",
+      "title": "Google Gemini Sued for Inducing Delusions: AI Safety Liability Frontier Expands",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "priority_score": 2.8,
+      "psst_score": 33.8,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.5,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 7,
+        "CC": 7,
+        "IC": 7
+      }
+    },
+    {
+      "rank": 12,
+      "id": "naver-20260305-105-258",
+      "title": "Personal Data Protection Law Amendment: 10% Revenue Penalties Take Effect September",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 2.8,
+      "psst_score": 33.8,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.5,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 7,
+        "CC": 7,
+        "IC": 7
+      }
+    },
+    {
+      "rank": 13,
+      "id": "naver-20260305-101-051",
+      "title": "Hana Financial Partners with Circle and Crypto.com for Stablecoin Domestic Payments",
+      "steeps": "",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "priority_score": 2.8,
+      "psst_score": 33.7,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.5,
+        "probability": 1.0,
+        "urgency": 5.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 7,
+        "CC": 6,
+        "IC": 7
+      }
+    },
+    {
+      "rank": 14,
+      "id": "naver-20260305-105-232",
+      "title": "Virtual Cell Models Accelerate Drug Development: RNA-Based Senescent Cell Rejuvenation Therapy",
+      "steeps": "",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H3",
+      "priority_score": 2.6,
+      "psst_score": 33.7,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 1.0,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 7,
+        "CC": 6,
+        "IC": 7
+      }
+    },
+    {
+      "rank": 15,
+      "id": "naver-20260305-105-238",
+      "title": "Lifetime Bedridden Cerebral Palsy Patient Walks with Robotic Assistance: Medical Breakthrough",
+      "steeps": "",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "priority_score": 2.6,
+      "psst_score": 33.7,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 2.5,
+        "probability": 1.0,
+        "urgency": 4.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 7,
+        "CC": 6,
+        "IC": 7
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "date": "2026-03-05",
+    "type": "unified_ranking",
+    "system_version": "2.5.0",
+    "anchor_time_T0": "2026-03-05T03:55:19+00:00",
+    "total_signals": 52,
+    "top_20_selected": 20,
+    "methodology": "pSST unified scoring with cross-workflow corroboration bonus"
+  },
+  "ranked_signals": [
+    { "rank": 1, "signal": "US-Iran War Escalation: Hormuz Strait Crisis", "workflows": ["WF1", "WF3", "WF4"], "pSST": 92, "steeps": "P,E", "priority": "CRITICAL" },
+    { "rank": 2, "signal": "Asian Financial Market Historic Turmoil: KOSPI -12.1%", "workflows": ["WF3", "WF4"], "pSST": 89, "steeps": "E", "priority": "CRITICAL" },
+    { "rank": 3, "signal": "NRC Issues First Commercial Reactor Construction Permit: TerraPower Natrium", "workflows": ["WF1", "WF3"], "pSST": 91, "steeps": "T,E_env", "priority": "CRITICAL" },
+    { "rank": 4, "signal": "Evo 2: Foundation Model Trained on 9 Trillion DNA Base Pairs", "workflows": ["WF1"], "pSST": 93, "steeps": "T,S", "priority": "CRITICAL" },
+    { "rank": 5, "signal": "European Powers Threaten Military Intervention Against Iran", "workflows": ["WF4"], "pSST": 79, "steeps": "P", "priority": "HIGH" },
+    { "rank": 6, "signal": "OECD Global Debt Report 2026", "workflows": ["WF1", "WF4"], "pSST": 88, "steeps": "E,P", "priority": "HIGH" },
+    { "rank": 7, "signal": "AI Governance Split: Military Use vs Safety Guardrails", "workflows": ["WF1"], "pSST": 85, "steeps": "T,s,P", "priority": "HIGH" },
+    { "rank": 8, "signal": "Quantum Computing Reaches Transistor Moment", "workflows": ["WF1"], "pSST": 84, "steeps": "T", "priority": "HIGH" },
+    { "rank": 9, "signal": "AI Liability: Gemini Chatbot Lethal Delusion Lawsuit", "workflows": ["WF1", "WF3"], "pSST": 83, "steeps": "s,P", "priority": "HIGH" },
+    { "rank": 10, "signal": "Iraq Nationwide Blackout: Infrastructure Cascade Collapse", "workflows": ["WF4"], "pSST": 76, "steeps": "P,S", "priority": "HIGH" },
+    { "rank": 11, "signal": "Tech Giants Sign Ratepayer Protection Pledge at White House for Data Center Energy", "workflows": ["WF1"], "pSST": 88, "steeps": "P,E", "priority": "HIGH" },
+    { "rank": 12, "signal": "DiverseDiT: Diversity Quantification in Diffusion Models", "workflows": ["WF2"], "pSST": 81, "steeps": "T", "priority": "MEDIUM" },
+    { "rank": 13, "signal": "Trump 15% Across-the-Board Tariff", "workflows": ["WF4"], "pSST": 75, "steeps": "E,P", "priority": "MEDIUM" },
+    { "rank": 14, "signal": "CRISPR Prime Editing 2.0", "workflows": ["WF1"], "pSST": 80, "steeps": "T,S", "priority": "MEDIUM" },
+    { "rank": 15, "signal": "North Korea Strategic Cruise Missile Test", "workflows": ["WF3"], "pSST": 74, "steeps": "P", "priority": "MEDIUM" },
+    { "rank": 16, "signal": "Korean Won Emergency Level: Could Reach 1,540", "workflows": ["WF3"], "pSST": 73, "steeps": "E", "priority": "MEDIUM" },
+    { "rank": 17, "signal": "France-Germany Nuclear Deterrence Cooperation", "workflows": ["WF4"], "pSST": 74, "steeps": "P", "priority": "MEDIUM" },
+    { "rank": 18, "signal": "Korean Judicial Reform Package", "workflows": ["WF3"], "pSST": 72, "steeps": "P", "priority": "MEDIUM" },
+    { "rank": 19, "signal": "Virtual Cell Models: RNA-Based Senescent Cell Therapy", "workflows": ["WF3"], "pSST": 71, "steeps": "T", "priority": "MEDIUM" },
+    { "rank": 20, "signal": "Personal Data Protection Law 10% Revenue Penalties", "workflows": ["WF3"], "pSST": 70, "steeps": "P", "priority": "MEDIUM" }
+  ],
+  "steeps_distribution": {
+    "P_Political": 15,
+    "T_Technological": 12,
+    "E_Economic": 14,
+    "E_Environmental": 4,
+    "S_Social": 3,
+    "s_spiritual": 3
+  },
+  "workflow_contribution": {
+    "WF1": { "signals_contributed": 15, "top_20_signals": 8 },
+    "WF2": { "signals_contributed": 15, "top_20_signals": 1 },
+    "WF3": { "signals_contributed": 15, "top_20_signals": 7 },
+    "WF4": { "signals_contributed": 20, "top_20_signals": 6 }
+  },
+  "cross_workflow_signals": [
+    { "signal": "US-Iran War / Hormuz Crisis", "workflows": ["WF1", "WF3", "WF4"], "corroboration_bonus": 5 },
+    { "signal": "Asian Financial Market Turmoil", "workflows": ["WF3", "WF4"], "corroboration_bonus": 3 },
+    { "signal": "TerraPower Natrium Approval", "workflows": ["WF1", "WF3"], "corroboration_bonus": 3 },
+    { "signal": "AI Liability Lawsuits", "workflows": ["WF1", "WF3"], "corroboration_bonus": 2 },
+    { "signal": "OECD Global Debt Report", "workflows": ["WF1", "WF4"], "corroboration_bonus": 2 }
+  ]
+}

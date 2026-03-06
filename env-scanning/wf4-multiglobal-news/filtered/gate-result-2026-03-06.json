@@ -1,0 +1,181 @@
+{
+  "gate_id": "dedup_gate.py",
+  "gate_version": "2.0.0",
+  "checked_at": "2026-03-06T03:00:16.668884+00:00",
+  "workflow": "wf4-multiglobal-news",
+  "signals_file": "env-scanning/wf4-multiglobal-news/raw/daily-crawl-2026-03-06.json",
+  "previous_file": "env-scanning/wf4-multiglobal-news/signals/snapshots/database-2026-03-06-pre-update.json",
+  "gate_status": "PASS_WITH_REMOVAL",
+  "gate_message": "2 definite duplicate(s) removed. 16 uncertain signal(s) flagged for LLM review. 26 definite new signal(s) passed.",
+  "thresholds": {
+    "url_exact": 1.0,
+    "topic_fingerprint_definite": 0.6,
+    "topic_fingerprint_uncertain": 0.3,
+    "title_similarity_definite": 0.9,
+    "title_similarity_uncertain": 0.8,
+    "entity_overlap_definite": 0.85,
+    "entity_overlap_uncertain": 0.7
+  },
+  "enforce": "strict",
+  "statistics": {
+    "total_input": 44,
+    "definite_new": 26,
+    "definite_duplicates": 2,
+    "uncertain": 16,
+    "pass_through": 42
+  },
+  "stage_breakdown": {
+    "A_url": 0,
+    "B_topic": 2,
+    "C_title": 0,
+    "D_entity": 0
+  },
+  "duplicates": [
+    {
+      "signal_id": "news-20260306-washingtonpost-001",
+      "signal_title": "High Seas Treaty Enters Into Force, Creating Framework for Ocean Biodiversity Protection",
+      "matched_signal_id": "news-20260227-ocean-017",
+      "matched_title": "High Seas Treaty Enters Into Force",
+      "stage": "B_topic",
+      "score": 1.0
+    },
+    {
+      "signal_id": "news-20260306-etnews-001",
+      "signal_title": "IBM: 2026 Marks First Year Quantum Computer Outperforms Classical Computing",
+      "matched_signal_id": "news-20260227-quantum-007",
+      "matched_title": "IBM Declares 2026 as Year of Quantum Advantage",
+      "stage": "B_topic",
+      "score": 0.6667
+    }
+  ],
+  "uncertain_signals": [
+    {
+      "signal_id": "news-20260306-wsj-001",
+      "signal_title": "Strait of Hormuz Traffic Drops 90% as Iran Blockade Disrupts Global Oil Supply",
+      "matched_signal_id": "news-20260305-wsj-001",
+      "matched_title": "Global Oil Prices Surge Toward $100 as Strait of Hormuz Traffic Halts",
+      "stage": "B_topic",
+      "score": 0.4286
+    },
+    {
+      "signal_id": "news-20260306-scmp-001",
+      "signal_title": "China Sets Lowest Growth Target in Decades at 4.5-5% for 2026",
+      "matched_signal_id": "news-20260226-scmp-004",
+      "matched_title": "China shifts cadre-appraisal metrics away from pure GDP growth, resetting mindsets",
+      "stage": "C_title",
+      "score": 0.8099
+    },
+    {
+      "signal_id": "news-20260306-thepaper-001",
+      "signal_title": "China Moves to Halt Fuel Exports as Gulf Supply Tightens",
+      "matched_signal_id": "news-20260227-china-pla-022",
+      "matched_title": "China NPC Removes 9 PLA Deputies, US Arrests Major for Training PLAAF",
+      "stage": "C_title",
+      "score": 0.8178
+    },
+    {
+      "signal_id": "news-20260306-lemonde-001",
+      "signal_title": "France and Germany Pledge Energy Policy Alignment for European Grid Integration",
+      "matched_signal_id": "news-20260305-reuters-001",
+      "matched_title": "France and Germany Deepen Nuclear Deterrence Cooperation in Historic Defense Shift",
+      "stage": "C_title",
+      "score": 0.8689
+    },
+    {
+      "signal_id": "news-20260306-caixin-001",
+      "signal_title": "China Plans 300 Billion Yuan Special Bonds to Recapitalize Major Banks",
+      "matched_signal_id": "news-20260227-china-pla-022",
+      "matched_title": "China NPC Removes 9 PLA Deputies, US Arrests Major for Training PLAAF",
+      "stage": "C_title",
+      "score": 0.8131
+    },
+    {
+      "signal_id": "news-20260306-arstechnica-001",
+      "signal_title": "China's Five-Year Plan Targets Quantum Leadership and AI Expansion",
+      "matched_signal_id": "news-20260228-cgtn-001",
+      "matched_title": "China Urges Vigilance as Japan Signals Defense Policy Shift",
+      "stage": "C_title",
+      "score": 0.8252
+    },
+    {
+      "signal_id": "news-20260306-nknews-001",
+      "signal_title": "China-Japan Diplomatic Crisis Escalates with Rare Earth Export Restrictions",
+      "matched_signal_id": "news-20260305-japantimes-001",
+      "matched_title": "China-Japan Diplomatic Crisis Deepens as Chinese Embassy Issues Warning Against 'Bumpers'",
+      "stage": "C_title",
+      "score": 0.8515
+    },
+    {
+      "signal_id": "news-20260306-timesofisrael-001",
+      "signal_title": "Israel Halts Gas Production at Karish and Leviathan Fields",
+      "matched_signal_id": "news-20260305-aljazeera-001",
+      "matched_title": "Israel Launches Broad Wave of Strikes in Tehran Amid US-Iran War Escalation",
+      "stage": "C_title",
+      "score": 0.8526
+    },
+    {
+      "signal_id": "news-20260306-japantimes-001",
+      "signal_title": "Japan National Museums to Implement Dual-Pricing System for Foreign Tourists",
+      "matched_signal_id": "news-20260305-nikkei-001",
+      "matched_title": "Japan Finance Minister Monitors Markets as Yen Trades Near 157.3 Amid Middle East Volatility",
+      "stage": "C_title",
+      "score": 0.8125
+    },
+    {
+      "signal_id": "news-20260306-sedaily-001",
+      "signal_title": "Korea Declares 'Startup-Centered Society' in Structural Growth Shift",
+      "matched_signal_id": "news-20260228-chosun-001",
+      "matched_title": "Korean Companies Activate Middle East Business Contingency Plans",
+      "stage": "C_title",
+      "score": 0.8156
+    },
+    {
+      "signal_id": "news-20260306-zdnet-001",
+      "signal_title": "Huawei Launches AI Data Platform for Enterprise AI Adoption Acceleration",
+      "matched_signal_id": "news-20260228-bloter-001",
+      "matched_title": "Agentic AI Adoption Accelerates — 59.3% of Enterprises Prioritize",
+      "stage": "B_topic",
+      "score": 0.4
+    },
+    {
+      "signal_id": "news-20260306-joongang-001",
+      "signal_title": "Korea-China Relations Enter 'Full Restoration' Phase After Lee-Xi Summit",
+      "matched_signal_id": "news-20260305-koreaherald-001",
+      "matched_title": "Korea-Singapore AI Alliance Launched with $300M Fund as President Lee Visits",
+      "stage": "C_title",
+      "score": 0.8364
+    },
+    {
+      "signal_id": "news-20260306-bloter-001",
+      "signal_title": "Quantum Infrastructure Becomes Battleground as Hardware Alone No Longer Drives Progress",
+      "matched_signal_id": "news-20260227-quantum-007",
+      "matched_title": "IBM Declares 2026 as Year of Quantum Advantage",
+      "stage": "B_topic",
+      "score": 0.3333
+    },
+    {
+      "signal_id": "news-20260306-hankyung-001",
+      "signal_title": "Trump Disavows $220M Border Security Ad Campaign Featuring DHS Secretary",
+      "matched_signal_id": "news-20260227-trump-002",
+      "matched_title": "Trump Announces New 10% Global Tariff via Section 122 After Supreme Court Loss",
+      "stage": "C_title",
+      "score": 0.8288
+    },
+    {
+      "signal_id": "news-20260306-edaily-001",
+      "signal_title": "South Africa Declares 2026 Budget the Beginning of Economic Recovery",
+      "matched_signal_id": "news-20260227-africa-014",
+      "matched_title": "South Africa Debt Peaks After 17 Years",
+      "stage": "C_title",
+      "score": 0.8061
+    },
+    {
+      "signal_id": "news-20260306-businesspost-001",
+      "signal_title": "Quantum Computing and National Security: The Intersection Deepens in 2026",
+      "matched_signal_id": "news-20260227-quantum-007",
+      "matched_title": "IBM Declares 2026 as Year of Quantum Advantage",
+      "stage": "B_topic",
+      "score": 0.3333
+    }
+  ]
+}

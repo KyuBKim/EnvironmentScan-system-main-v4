@@ -1,6 +1,6 @@
 {
   "generated_by": "validate_registry.py SOT-037",
-  "generated_at": "2026-03-02T23:58:57.244513+00:00",
+  "generated_at": "2026-03-06T07:07:31.867354+00:00",
   "excluded_sources": [
     "AI Ethics Brief",
     "Aeon Magazine",
@@ -8,6 +8,7 @@
     "BIS Speeches",
     "Brookings Institution",
     "Carbon Brief",
+    "Disrupt Africa",
     "EUR-Lex Recent Acts",
     "Google Patents",
     "Hacker News",
@@ -21,7 +22,9 @@
     "Pew Research Center",
     "Psychology Today",
     "PubMed Central",
+    "Quanta Magazine Biology",
     "Science Magazine",
+    "ScienceDaily Sustainability",
     "TechCrunch",
     "The Conversation - Ethics",
     "UN News",

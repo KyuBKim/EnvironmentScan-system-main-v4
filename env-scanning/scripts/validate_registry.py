@@ -908,14 +908,17 @@ def validate_registry(registry_path: str) -> RegistryValidation:
             f"Created {len(evo_path_created)} directories" if evo_path_created else ""
         ))
 
-    # ── SOT-036: timeline_map configuration (optional, WARN level) ──
-    # Timeline map is supplementary output — config errors should WARN, not HALT.
+    # ── SOT-036: timeline_map configuration (v3.1.0: HALT level) ──
+    # v3.1.0: Upgraded from WARN→HALT. Timeline map is a first-class quality artifact
+    # with full L2a+L2b+L3 defense parity. Invalid config must halt execution.
+    # v3.0.0: Extended with theme_config, Phase A/C/D script paths, emergent params.
     tl_errors = []
     timeline_map = sig_evo.get("timeline_map", {})
     if timeline_map:
         tl_enabled = timeline_map.get("enabled")
         if tl_enabled is not None and not isinstance(tl_enabled, bool):
             tl_errors.append(f"timeline_map.enabled must be boolean, got {type(tl_enabled).__name__}")
+        # -- Existing checks (v2.4.0) --
         tl_script = timeline_map.get("generator_script", "")
         if tl_enabled and tl_script:
             script_path = _resolve(project_root, tl_script)
@@ -934,11 +937,170 @@ def validate_registry(registry_path: str) -> RegistryValidation:
             if not isinstance(top_n, int) or top_n < 1:
                 tl_errors.append(f"timeline_map.top_n_psst={top_n} must be int >= 1")
 
+        # -- v3.0.0 Enhanced checks (CR-2: all script paths + theme_config) --
+        # File existence checks for new script paths
+        _file_keys = [
+            "theme_config", "theme_discovery_engine", "data_assembler",
+            "skeleton_filler", "fallback_script", "validator",
+            "orchestrator", "skeleton_template_en", "skeleton_template_ko",
+        ]
+        for fk in _file_keys:
+            fv = timeline_map.get(fk, "")
+            if fv:
+                fp = _resolve(project_root, fv)
+                if not fp.exists():
+                    tl_errors.append(f"timeline_map.{fk} not found: {fv}")
+
+        # theme_config content validation
+        tc_path_str = timeline_map.get("theme_config", "")
+        if tc_path_str:
+            tc_path = _resolve(project_root, tc_path_str)
+            if tc_path.exists():
+                try:
+                    with open(tc_path, "r", encoding="utf-8") as f:
+                        tc_data = yaml.safe_load(f) or {}
+                    tc_themes = tc_data.get("themes", {})
+                    valid_priorities = {"CRITICAL", "HIGH", "MEDIUM", "LOW"}
+                    for tid, tdef in tc_themes.items():
+                        for req_field in ["label_ko", "label_en", "priority", "keywords_en", "keywords_ko"]:
+                            if req_field not in tdef:
+                                tl_errors.append(f"theme '{tid}' missing required field: {req_field}")
+                        tp = tdef.get("priority", "")
+                        if tp and tp not in valid_priorities:
+                            tl_errors.append(f"theme '{tid}' priority='{tp}' not in {valid_priorities}")
+                except Exception as e:
+                    tl_errors.append(f"theme_config parse error: {e}")
+
+        # max_execution_minutes range check
+        mem = timeline_map.get("max_execution_minutes")
+        if mem is not None:
+            if not isinstance(mem, int) or mem < 1 or mem > 120:
+                tl_errors.append(f"timeline_map.max_execution_minutes={mem} must be int in [1, 120]")
+
+        # Emergent discovery parameter checks
+        ecms = timeline_map.get("emergent_cluster_min_size")
+        if ecms is not None:
+            if not isinstance(ecms, int) or ecms < 1:
+                tl_errors.append(f"timeline_map.emergent_cluster_min_size={ecms} must be int >= 1")
+        emt = timeline_map.get("emergent_max_themes")
+        if emt is not None:
+            if not isinstance(emt, int) or emt < 1:
+                tl_errors.append(f"timeline_map.emergent_max_themes={emt} must be int >= 1")
+        ect = timeline_map.get("emergent_cooccurrence_threshold")
+        if ect is not None:
+            if not isinstance(ect, int) or ect < 1:
+                tl_errors.append(f"timeline_map.emergent_cooccurrence_threshold={ect} must be int >= 1")
+        etst = timeline_map.get("emergent_title_similarity_threshold")
+        if etst is not None:
+            if not isinstance(etst, (int, float)) or etst <= 0 or etst > 1:
+                tl_errors.append(f"timeline_map.emergent_title_similarity_threshold={etst} must be float (0, 1]")
+
+        # Escalation threshold checks
+        esc_th = timeline_map.get("escalation_thresholds", {})
+        if esc_th:
+            for ek in ["critical_slope", "high_slope", "burst_factor"]:
+                ev = esc_th.get(ek)
+                if ev is not None:
+                    if not isinstance(ev, (int, float)) or ev <= 0:
+                        tl_errors.append(f"escalation_thresholds.{ek}={ev} must be > 0")
+
     vr.results.append(CheckResult(
-        "SOT-036", "WARN",
-        "timeline_map configuration valid (optional, supplementary output)",
+        "SOT-036", "HALT",
+        "timeline_map configuration valid (first-class quality artifact)",
         len(tl_errors) == 0,
         "; ".join(tl_errors) if tl_errors else ""
+    ))
+
+    # ── SOT-056: timeline quality_defense scripts exist (v3.1.0) ──
+    # "검증 없는 SOT는 SOT가 아니다" — all quality defense artifacts must exist.
+    tl_qd = timeline_map.get("quality_defense", {}) if timeline_map else {}
+    tl_qd_errors = []
+    if timeline_map and timeline_map.get("enabled"):
+        for qd_key in ["l2a_validator", "l2b_validator"]:
+            qd_path = tl_qd.get(qd_key, "")
+            if qd_path:
+                if not _file_exists(project_root, qd_path):
+                    tl_qd_errors.append(f"quality_defense.{qd_key} not found: {qd_path}")
+            else:
+                tl_qd_errors.append(f"quality_defense.{qd_key} not defined")
+        qd_profile = tl_qd.get("l3_reviewer_profile", "")
+        if not qd_profile:
+            tl_qd_errors.append("quality_defense.l3_reviewer_profile not defined")
+        qd_retry = tl_qd.get("progressive_retry", {})
+        qd_max = qd_retry.get("max_retries")
+        if qd_max is not None and (not isinstance(qd_max, int) or qd_max < 1 or qd_max > 5):
+            tl_qd_errors.append(f"quality_defense.progressive_retry.max_retries={qd_max} must be int [1,5]")
+    vr.results.append(CheckResult(
+        "SOT-056", "HALT",
+        "timeline quality_defense scripts exist (L2a+L2b+L3 parity)",
+        len(tl_qd_errors) == 0,
+        "; ".join(tl_qd_errors) if tl_qd_errors else "",
+        "Skipped — timeline_map disabled or absent" if not (timeline_map and timeline_map.get("enabled")) else ""
+    ))
+
+    # ── SOT-057: timeline challenge_response.challenger_agent exists (v3.1.0) ──
+    tl_cr = timeline_map.get("challenge_response", {}) if timeline_map else {}
+    tl_cr_errors = []
+    if timeline_map and timeline_map.get("enabled") and tl_cr.get("enabled"):
+        cr_agent = tl_cr.get("challenger_agent", "")
+        if cr_agent:
+            if not _file_exists(project_root, cr_agent):
+                tl_cr_errors.append(f"challenge_response.challenger_agent not found: {cr_agent}")
+        else:
+            tl_cr_errors.append("challenge_response.challenger_agent not defined")
+        cr_rounds = tl_cr.get("max_challenge_rounds")
+        if cr_rounds is not None and (not isinstance(cr_rounds, int) or cr_rounds < 1 or cr_rounds > 3):
+            tl_cr_errors.append(f"challenge_response.max_challenge_rounds={cr_rounds} must be int [1,3]")
+    vr.results.append(CheckResult(
+        "SOT-057", "HALT",
+        "timeline challenge_response challenger agent exists",
+        len(tl_cr_errors) == 0,
+        "; ".join(tl_cr_errors) if tl_cr_errors else "",
+        "Skipped — challenge_response disabled or absent" if not (timeline_map and timeline_map.get("enabled") and tl_cr.get("enabled")) else ""
+    ))
+
+    # ── SOT-058: timeline-themes.yaml exists and has ≥1 theme (v3.1.0) ──
+    tl_tc_errors = []
+    if timeline_map and timeline_map.get("enabled"):
+        tc_p = timeline_map.get("theme_config", "")
+        if tc_p:
+            tc_full = _resolve(project_root, tc_p)
+            if tc_full.exists():
+                try:
+                    with open(tc_full, "r", encoding="utf-8") as f:
+                        tc_d = yaml.safe_load(f) or {}
+                    if not tc_d.get("themes") or len(tc_d["themes"]) < 1:
+                        tl_tc_errors.append("timeline-themes.yaml has 0 themes defined")
+                except Exception as e:
+                    tl_tc_errors.append(f"timeline-themes.yaml parse error: {e}")
+            else:
+                tl_tc_errors.append(f"timeline-themes.yaml not found: {tc_p}")
+        else:
+            tl_tc_errors.append("theme_config path not defined in timeline_map")
+    vr.results.append(CheckResult(
+        "SOT-058", "HALT",
+        "timeline-themes.yaml exists with ≥1 theme definition",
+        len(tl_tc_errors) == 0,
+        "; ".join(tl_tc_errors) if tl_tc_errors else "",
+        "Skipped — timeline_map disabled or absent" if not (timeline_map and timeline_map.get("enabled")) else ""
+    ))
+
+    # ── SOT-059: narrative_gate_script exists (v3.1.0) ──
+    ng_errors = []
+    if timeline_map and timeline_map.get("enabled"):
+        ng_path = timeline_map.get("narrative_gate_script", "")
+        if ng_path:
+            ng_full = _resolve(project_root, ng_path)
+            if not ng_full.exists():
+                ng_errors.append(f"narrative_gate_script not found: {ng_path}")
+        else:
+            ng_errors.append("narrative_gate_script path not defined in timeline_map")
+    vr.results.append(CheckResult(
+        "SOT-059", "HALT",
+        "narrative_gate_script exists",
+        len(ng_errors) == 0,
+        "; ".join(ng_errors) if ng_errors else "",
+        "Skipped — timeline_map disabled or absent" if not (timeline_map and timeline_map.get("enabled")) else ""
     ))
 
     # ================================================================

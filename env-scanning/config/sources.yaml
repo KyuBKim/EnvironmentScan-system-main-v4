@@ -233,6 +233,27 @@ sources:
     fetch_strategy: null
     consecutive_failures: 0
 
+  - name: "Quanta Magazine Biology"
+    tier: "expansion"
+    type: "science_journalism"
+    enabled: true
+    rss_feed: "https://www.quantamagazine.org/biology/feed"
+    timeout: 15
+    critical: false
+    max_results: 15
+    description: "Award-winning deep science journalism — interdisciplinary biology and emerging science"
+    reliability: "high"
+    cost: "free"
+    steeps_focus: ["T_Technological", "S_Social"]
+    promoted_from: "exploration"
+    promoted_date: "2026-03-06"
+    discovery_method: "random_frontier"
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
   - name: "IEEE Spectrum"
     tier: "expansion"
     type: "academic"
@@ -443,6 +464,27 @@ sources:
     fetch_strategy: null
     consecutive_failures: 0
 
+  - name: "Disrupt Africa"
+    tier: "expansion"
+    type: "tech_news"
+    enabled: true
+    rss_feed: "https://disruptafrica.com/feed/"
+    timeout: 15
+    critical: false
+    max_results: 15
+    description: "African tech startup ecosystem and innovation — geographic diversity (Africa)"
+    reliability: "high"
+    cost: "free"
+    steeps_focus: ["T_Technological", "E_Economic", "S_Social"]
+    promoted_from: "exploration"
+    promoted_date: "2026-03-06"
+    discovery_method: "random_frontier"
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
   # ========================================
   # EXPANSION TIER — Environmental & Climate (Skipped with --base-only)
   # ========================================
@@ -459,6 +501,27 @@ sources:
     reliability: "high"
     cost: "free"
     steeps_focus: ["E_Environmental"]
+    health_status: null
+    last_health_check: null
+    resolved_url: null
+    fetch_strategy: null
+    consecutive_failures: 0
+
+  - name: "ScienceDaily Sustainability"
+    tier: "expansion"
+    type: "science_news"
+    enabled: true
+    rss_feed: "https://www.sciencedaily.com/rss/earth_climate/sustainability.xml"
+    timeout: 15
+    critical: false
+    max_results: 15
+    description: "Research-backed sustainability and climate science news — fills E_Environmental gap"
+    reliability: "high"
+    cost: "free"
+    steeps_focus: ["E_Environmental"]
+    promoted_from: "exploration"
+    promoted_date: "2026-03-06"
+    discovery_method: "gap_directed"
     health_status: null
     last_health_check: null
     resolved_url: null

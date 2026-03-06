@@ -552,6 +552,12 @@
 
 {{SECTION_7_5_DIMENSION_ANALYSIS}}
 
+### 7.6 Signal Evolution Timeline Summary
+
+> Full timeline map: see `timeline-map-{date}.md`
+
+{{INT_TIMELINE_SUMMARY}}
+
 ---
 
 ## 8. Appendix

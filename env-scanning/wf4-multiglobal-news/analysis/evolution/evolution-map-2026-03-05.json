@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "workflow": "wf4-multiglobal-news",
+    "scan_date": "2026-03-05",
+    "status": "partial",
+    "note": "Evolution tracker encountered data format issue; all signals treated as NEW"
+  },
+  "summary": {
+    "total_signals": 20,
+    "new": 20,
+    "strengthening": 0,
+    "recurring": 0,
+    "weakening": 0,
+    "faded": 0
+  },
+  "threads": [],
+  "active_threads": 0
+}

@@ -25,7 +25,7 @@ Usage (CLI):
         --output report-statistics-{date}.json
 
 Usage (importable):
-    from core.report_statistics_engine import compute_statistics, build_placeholder_map
+    from core.report_statistics_engine import compute_statistics, build_placeholder_map, load_timeline_summary
 
 Exit codes:
     0 = SUCCESS
@@ -639,6 +639,34 @@ def compute_cross_evolution_table(cross_evolution_map: dict, language: str = "ko
 def _empty_cross_evolution_placeholder(language: str = "ko") -> str:
     """Return empty cross-evolution table string."""
     return _t("no_cross_evo", language)
+
+
+def load_timeline_summary(timeline_summary_path: Optional[str] = None, language: str = "ko") -> str:
+    """Load timeline summary from a specified file path.
+
+    The timeline-summary-{date}.txt is produced by the enhanced Timeline Map
+    pipeline (timeline-map-orchestrator → timeline-map-composer). If the file
+    does not exist (e.g., timeline map was disabled or used fallback), returns
+    a graceful placeholder message.
+
+    Args:
+        timeline_summary_path: Explicit path to timeline-summary-{date}.txt.
+            If None or file doesn't exist, returns fallback message.
+        language: Output language — "ko" or "en".
+    """
+    if timeline_summary_path:
+        p = Path(timeline_summary_path)
+        if p.is_file():
+            try:
+                content = p.read_text(encoding="utf-8").strip()
+                if content:
+                    return content
+            except OSError:
+                pass
+
+    if language == "en":
+        return "(Timeline map summary not available for this scan cycle.)"
+    return "(이번 스캔 사이클에서 타임라인 맵 요약을 사용할 수 없습니다.)"
 
 
 # ---------------------------------------------------------------------------
@@ -1301,6 +1329,7 @@ def build_placeholder_map(
     priority_ranked_data: Optional[dict] = None,
     naver_raw_data: Optional[dict] = None,
     top_priority_threshold: float = 3.5,
+    timeline_summary_path: Optional[str] = None,
     language: str = "ko",
 ) -> dict[str, str]:
     """Raw stats → skeleton placeholder key→value mapping.
@@ -1386,6 +1415,12 @@ def build_placeholder_map(
         placeholders["INT_EVOLUTION_CROSS_TABLE"] = compute_cross_evolution_table(cross_evolution_map, language=language)
     elif workflow_type == "integrated":
         placeholders["INT_EVOLUTION_CROSS_TABLE"] = _empty_cross_evolution_placeholder(language=language)
+
+    # --- Timeline summary (integrated only) ---
+    if workflow_type == "integrated":
+        placeholders["INT_TIMELINE_SUMMARY"] = load_timeline_summary(
+            timeline_summary_path=timeline_summary_path, language=language,
+        )
 
     # --- Exploration statistics (standard WF1 only, when candidates file provided) ---
     if exploration_candidates_path:
@@ -1586,6 +1621,12 @@ def main():
         "--wf-exec-data", default=None,
         help="Path to JSON with execution metadata for all WFs (integrated mode: Section 8.4)",
     )
+    # v2.2.0: timeline summary (integrated mode)
+    parser.add_argument(
+        "--timeline-summary",
+        default=None,
+        help="Path to timeline-summary-{date}.txt (integrated mode: §7.6 INT_TIMELINE_SUMMARY)",
+    )
     # v1.4.0 new args: weekly aggregates (weekly mode)
     parser.add_argument(
         "--daily-stats-data",
@@ -1643,6 +1684,11 @@ def main():
             placeholders.update(compute_integrated_execution_summary(wf_exec, language=lang))
         else:
             placeholders.update(_empty_integrated_exec_summary(language=lang))
+
+        # v2.2.0: Timeline summary (Section 7.6)
+        placeholders["INT_TIMELINE_SUMMARY"] = load_timeline_summary(
+            timeline_summary_path=args.timeline_summary, language=lang,
+        )
 
         stats = {
             "engine_version": VERSION,

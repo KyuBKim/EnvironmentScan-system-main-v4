@@ -106,16 +106,67 @@ system:
         high_confidence_threshold: 0.80      # Combined score for HIGH confidence (v1.3.0 L2 fix)
         category_filter_enabled: true        # Pre-filter by STEEPs category (v1.3.0 L2 fix)
 
-    # ── Timeline Map Generation (v2.4.0, 2026-02-11) ──
-    # Generates a Korean markdown timeline map showing signal evolution
-    # across themes, pSST trajectories, and cross-WF correlations.
+    # ── Timeline Map Generation (v3.0.0 Enhanced, 2026-03-06) ──
+    # Enhanced timeline map with Python pre-rendering + LLM narrative analysis.
+    # "계산은 Python이, 판단은 LLM이" — all deterministic outputs are Python-enforced.
     timeline_map:
       enabled: true
-      generator_script: "env-scanning/core/timeline_map_generator.py"
+      generator_script: "env-scanning/core/timeline_map_generator.py"  # legacy/fallback
       output_filename_pattern: "timeline-map-{date}.md"
       lookback_days: 7          # Evolution history window (days)
       min_signals_for_theme: 2  # Minimum signals to include a theme cluster
       top_n_psst: 10            # Number of top-pSST signals to highlight
+
+      # Phase A: Data Foundation (v3.0.0)
+      theme_config: "env-scanning/config/timeline-themes.yaml"
+      theme_discovery_engine: "env-scanning/core/theme_discovery_engine.py"
+      data_assembler: "env-scanning/core/timeline_data_assembler.py"
+      narrative_gate_script: "env-scanning/scripts/narrative_gate.py"
+
+      # Phase C: Assembly (v3.0.0)
+      skeleton_filler: "env-scanning/core/timeline_skeleton_filler.py"
+      skeleton_template_en: ".claude/skills/env-scanner/references/timeline-map-skeleton-en.md"
+      skeleton_template_ko: ".claude/skills/env-scanner/references/timeline-map-skeleton.md"
+
+      # Phase D: Quality Defense (v3.0.0)
+      validator: "env-scanning/scripts/validate_timeline_map.py"
+
+      # Emergent theme discovery parameters (single SOT — not in timeline-themes.yaml)
+      emergent_cluster_min_size: 3
+      emergent_max_themes: 5
+      emergent_cooccurrence_threshold: 3
+      emergent_title_similarity_threshold: 0.55
+
+      # Escalation thresholds
+      escalation_thresholds:
+        critical_slope: 5.0
+        high_slope: 2.0
+        burst_factor: 2.0
+
+      # Phase B: Challenge-Response Narrative Quality (v3.1.0)
+      # Sub-agent with dedicated challenger produces higher cross-theme synthesis
+      # quality than Agent-Team (which fragments context). See design doc v1.
+      challenge_response:
+        enabled: true
+        challenger_agent: ".claude/agents/workers/timeline-quality-challenger.md"
+        max_challenge_rounds: 1   # 1 round of challenge-response before assembly
+
+      # Phase D: Quality Defense (v3.1.0 — full L2a+L2b+L3 parity)
+      # Timeline map receives the SAME quality defense rigor as regular reports.
+      quality_defense:
+        l2a_validator: "env-scanning/scripts/validate_timeline_map.py"
+        l2b_validator: "env-scanning/scripts/validate_timeline_map_quality.py"
+        l3_reviewer_profile: "timeline"
+        progressive_retry:
+          max_retries: 2
+          strategy: "targeted_fix,full_regen,human_escalation"
+
+      # Orchestrator (v3.0.0→v3.1.0)
+      orchestrator: ".claude/agents/timeline-map-orchestrator.md"
+      max_execution_minutes: 15   # timeout → fallback to basic generator
+
+      # Fallback (preserves existing generator)
+      fallback_script: "env-scanning/core/timeline_map_generator.py"
 
   # ── Bilingual System (v2.8.0, English-First Workflow) ──
   # All AI work is performed in English. Korean output is produced by

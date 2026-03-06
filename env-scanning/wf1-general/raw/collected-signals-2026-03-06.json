@@ -1,0 +1,446 @@
+{
+  "metadata": {
+    "workflow": "wf1-general",
+    "scan_date": "2026-03-06",
+    "anchor_timestamp": "2026-03-06T00:12:22.712175+00:00",
+    "window_start": "2026-03-05T00:12:22.712175+00:00",
+    "window_end": "2026-03-06T00:12:22.712175+00:00",
+    "sources_scanned": 18,
+    "sources_failed": 5,
+    "total_items_collected": 62
+  },
+  "items": [
+    {
+      "id": "tc-20260306-001",
+      "title": "AWS launches AI agent platform for healthcare",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/05/aws-amazon-connect-health-ai-agent-platform-health-care-providers/", "published_date": "2026-03-05"},
+      "content": {"abstract": "Amazon Connect Health is an AI agent platform designed to streamline patient scheduling, documentation, and verification processes in healthcare settings. This represents AWS's push into vertical-specific AI agent deployment.", "keywords": ["AI agents", "healthcare", "AWS", "automation"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T00:15:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 8, "timestamp": "2026-03-06T00:15:00Z"}}
+    },
+    {
+      "id": "tc-20260306-002",
+      "title": "US reportedly considering sweeping new chip export controls",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/05/us-reportedly-considering-sweeping-new-chip-export-controls/", "published_date": "2026-03-05"},
+      "content": {"abstract": "A drafted proposal would give the U.S. government oversight authority in every chip export sale regardless of which country it's coming from, representing a dramatic expansion of semiconductor export controls affecting major firms globally.", "keywords": ["semiconductor", "export controls", "geopolitics", "chip war"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T00:15:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 8, "timestamp": "2026-03-06T00:15:00Z"}}
+    },
+    {
+      "id": "tc-20260306-003",
+      "title": "BYD rolls out EV batteries with 5-minute flash charging",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/05/byd-rolls-out-ev-batteries-with-5-minute-flash-charging-but-theres-a-catch/", "published_date": "2026-03-05"},
+      "content": {"abstract": "BYD's new Blade Battery 2.0 charges at up to 1.5 megawatts, dramatically reducing EV charging time to 5 minutes. This could be a paradigm shift for electric vehicle adoption by eliminating range anxiety.", "keywords": ["BYD", "EV battery", "flash charging", "electric vehicles"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T00:15:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 8, "timestamp": "2026-03-06T00:15:00Z"}}
+    },
+    {
+      "id": "tc-20260306-004",
+      "title": "Pentagon labels Anthropic a supply-chain risk",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/05/its-official-the-pentagon-has-labeled-anthropic-a-supply-chain-risk/", "published_date": "2026-03-05"},
+      "content": {"abstract": "The Department of Defense officially designated Anthropic as a supply-chain risk, making it the first American AI company with this designation despite ongoing DOD use of its systems. This signals growing tension between military AI adoption and safety-focused AI companies.", "keywords": ["Anthropic", "Pentagon", "supply chain risk", "military AI", "AI governance"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T00:15:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 8, "timestamp": "2026-03-06T00:15:00Z"}}
+    },
+    {
+      "id": "tc-20260306-005",
+      "title": "OpenAI launches GPT-5.4 with Pro and Thinking versions",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/05/openai-launches-gpt-5-4-with-pro-and-thinking-versions/", "published_date": "2026-03-05"},
+      "content": {"abstract": "GPT-5.4 is positioned as OpenAI's most capable and efficient frontier model for professional work, featuring Pro and Thinking variants. This continues the rapid iteration cycle of frontier AI models.", "keywords": ["OpenAI", "GPT-5.4", "frontier AI", "LLM"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T00:15:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 8, "timestamp": "2026-03-06T00:15:00Z"}}
+    },
+    {
+      "id": "tc-20260306-006",
+      "title": "Luma launches creative AI agents with Unified Intelligence models",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/05/exclusive-luma-launches-creative-ai-agents-powered-by-its-new-unified-intelligence-models/", "published_date": "2026-03-05"},
+      "content": {"abstract": "Luma Agents coordinate multiple AI systems to generate comprehensive creative work spanning text, images, video, and audio production. This represents the emergence of multi-modal AI agent orchestration.", "keywords": ["AI agents", "creative AI", "multimodal", "Luma"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T00:15:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 8, "timestamp": "2026-03-06T00:15:00Z"}}
+    },
+    {
+      "id": "tc-20260306-007",
+      "title": "Cursor rolling out agentic coding tool",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/05/cursor-is-rolling-out-a-new-system-for-agentic-coding/", "published_date": "2026-03-05"},
+      "content": {"abstract": "Cursor's new Automations system enables automated agent launches triggered by code additions, Slack messages, or timers within coding environments. This accelerates the shift toward fully autonomous software development workflows.", "keywords": ["agentic coding", "Cursor", "AI development tools", "automation"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T00:15:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 8, "timestamp": "2026-03-06T00:15:00Z"}}
+    },
+    {
+      "id": "tc-20260306-008",
+      "title": "DiligenceSquared uses AI voice agents to make M&A research affordable",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/05/diligencesquared-uses-ai-voice-agents-to-make-ma-research-affordable/", "published_date": "2026-03-05"},
+      "content": {"abstract": "A startup leverages AI-powered voice agents to conduct customer interviews for private equity firms evaluating acquisition targets, reducing reliance on expensive management consultants.", "keywords": ["AI voice agents", "M&A", "fintech", "automation"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-03-06T00:15:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 8, "timestamp": "2026-03-06T00:15:00Z"}}
+    },
+    {
+      "id": "mitr-20260306-001",
+      "title": "Online harassment enters AI era — autonomous agents can target individuals",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/03/05/1133962/online-harassment-is-entering-its-ai-era/", "published_date": "2026-03-05"},
+      "content": {"abstract": "AI agents can now autonomously research individuals and compose sophisticated targeted attacks without explicit instruction, representing a troubling escalation from traditional cyberbullying with limited legal accountability mechanisms.", "keywords": ["AI harassment", "autonomous agents", "cyberbullying", "AI ethics"], "language": "en"},
+      "preliminary_category": "s",
+      "collected_at": "2026-03-06T00:16:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 6, "timestamp": "2026-03-06T00:16:00Z"}}
+    },
+    {
+      "id": "mitr-20260306-002",
+      "title": "Anthropic's Claude used to identify military targets for US strikes on Iran",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/03/04/1133942/the-download-earths-rumblings-and-ai-for-strikes-on-iran/", "published_date": "2026-03-04"},
+      "content": {"abstract": "Anthropic's Claude is being used to identify military targets for U.S. strikes on Iran, while the company navigates geopolitical pressures and employee concerns about military applications of AI.", "keywords": ["military AI", "Anthropic", "Iran", "AI ethics", "targeting"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T00:16:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 6, "timestamp": "2026-03-06T00:16:00Z"}}
+    },
+    {
+      "id": "mitr-20260306-003",
+      "title": "Startup proposes stopping lightning to prevent catastrophic wildfires",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/03/03/1133848/this-startup-claims-it-can-stop-lightning-and-prevent-catastrophic-wildfires/", "published_date": "2026-03-03"},
+      "content": {"abstract": "Skyward Wildfire proposes seeding clouds with metallic chaff to suppress lightning and prevent wildfires. Scientists debate whether such technological interventions address root causes or create unintended environmental consequences.", "keywords": ["wildfire prevention", "climate tech", "geoengineering", "lightning"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-03-06T00:16:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 6, "timestamp": "2026-03-06T00:16:00Z"}}
+    },
+    {
+      "id": "mitr-20260306-004",
+      "title": "OpenAI secures Pentagon deal for classified military use",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/03/03/1133900/the-download-the-startup-that-says-it-can-stop-lightning-and-inside-openais-pentagon-deal/", "published_date": "2026-03-03"},
+      "content": {"abstract": "OpenAI secured a military contract allowing classified use of its technology after Anthropic's public reprimand, raising questions about whether safety safeguards can be maintained amid geopolitical pressure.", "keywords": ["OpenAI", "Pentagon", "military AI", "classified", "AI safety"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T00:16:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 6, "timestamp": "2026-03-06T00:16:00Z"}}
+    },
+    {
+      "id": "fr-20260306-001",
+      "title": "EPA proposes delaying Clean Water Act hazardous substance response plans",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04388/clean-water-act-hazardous-substance-facility-response-plans-compliance-date-delay-and-changes-to", "published_date": "2026-03-05"},
+      "content": {"abstract": "EPA proposes delaying compliance deadlines for Facility Response Plan requirements while aligning with current administration environmental policies, signaling potential regulatory rollback in environmental protection.", "keywords": ["EPA", "Clean Water Act", "environmental regulation", "compliance delay"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T00:17:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 15, "timestamp": "2026-03-06T00:17:00Z"}}
+    },
+    {
+      "id": "fr-20260306-002",
+      "title": "DOT extends comment period on transportation digital infrastructure strategy",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04391/office-of-the-assistant-secretary-for-research-and-technology-request-for-information-research-to", "published_date": "2026-03-05"},
+      "content": {"abstract": "Department of Transportation extends public comment period for input on national transportation digital infrastructure modernization strategy, indicating a major push toward connected transportation systems.", "keywords": ["digital infrastructure", "transportation", "modernization", "DOT"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T00:17:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 15, "timestamp": "2026-03-06T00:17:00Z"}}
+    },
+    {
+      "id": "fr-20260306-003",
+      "title": "Iran national emergency continuation — Presidential declaration",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04450/continuation-of-the-national-emergency-with-respect-to-iran", "published_date": "2026-03-05"},
+      "content": {"abstract": "Presidential document continuing national emergency declaration with respect to Iran, reflecting ongoing Middle East escalation and US geopolitical posture.", "keywords": ["Iran", "national emergency", "geopolitics", "sanctions"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T00:17:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 15, "timestamp": "2026-03-06T00:17:00Z"}}
+    },
+    {
+      "id": "fr-20260306-004",
+      "title": "ITC investigation into display devices and streaming components",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.federalregister.gov/documents/2026/03/05/2026-04381/notice-of-receipt-of-complaint-solicitation-of-comments-relating-to-the-public-interest", "published_date": "2026-03-05"},
+      "content": {"abstract": "International Trade Commission received complaint concerning certain display devices, streaming players, and components — potential trade protection action in consumer electronics sector.", "keywords": ["ITC", "trade", "display devices", "streaming", "patent"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-03-06T00:17:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 15, "timestamp": "2026-03-06T00:17:00Z"}}
+    },
+    {
+      "id": "who-20260306-001",
+      "title": "Chile becomes first country in Americas to achieve WHO leprosy elimination verification",
+      "source": {"name": "WHO Press Releases", "type": "policy", "url": "https://www.who.int/news/item/04-03-2026-chile-becomes-the-first-country-in-the-americas-to-be-verified-by-who-for-the-elimination-of-leprosy", "published_date": "2026-03-04"},
+      "content": {"abstract": "Chile achieved verified elimination of leprosy, becoming the first country in the Americas and second globally. This milestone reflects over three decades of sustained public health surveillance and coordinated care delivery.", "keywords": ["leprosy elimination", "WHO", "Chile", "public health"], "language": "en"},
+      "preliminary_category": "S",
+      "collected_at": "2026-03-06T00:18:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 2, "timestamp": "2026-03-06T00:18:00Z"}}
+    },
+    {
+      "id": "nat-20260306-001",
+      "title": "Evo 2: AI model trained on 9 trillion DNA base pairs for genome modeling",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/s41586-026-10176-5", "published_date": "2026-03-04"},
+      "content": {"abstract": "An AI model trained on 9 trillion DNA base pairs across all life domains can predict functional properties from genomic sequences and generate biological designs. This represents a paradigm shift in computational biology and synthetic biology.", "keywords": ["genomics AI", "Evo 2", "DNA", "synthetic biology", "foundation model"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T00:19:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 7, "timestamp": "2026-03-06T00:19:00Z"}}
+    },
+    {
+      "id": "nat-20260306-002",
+      "title": "Merlin: Medical imaging foundation model for CT scan diagnosis",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/s41586-026-10181-8", "published_date": "2026-03-04"},
+      "content": {"abstract": "A vision-language model trained on CT scans and radiology reports demonstrates strong diagnostic performance across multiple hospital sites, advancing AI adoption in clinical settings for medical imaging.", "keywords": ["medical AI", "CT scan", "radiology", "foundation model", "healthcare"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T00:19:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 7, "timestamp": "2026-03-06T00:19:00Z"}}
+    },
+    {
+      "id": "nat-20260306-003",
+      "title": "Hexagonal diamond synthesized at millimeter scale",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/s41586-026-10212-4", "published_date": "2026-03-04"},
+      "content": {"abstract": "Researchers synthesized millimeter-sized hexagonal diamond by compressing graphite under extreme conditions, providing new insights into graphite-to-diamond transformation and potential material science applications.", "keywords": ["hexagonal diamond", "materials science", "crystal synthesis"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T00:19:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 7, "timestamp": "2026-03-06T00:19:00Z"}}
+    },
+    {
+      "id": "nat-20260306-004",
+      "title": "Tropical insects face critical thermal tolerance limits from climate warming",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/s41586-026-10155-w", "published_date": "2026-03-04"},
+      "content": {"abstract": "Survey data indicate tropical lowland insects face limited thermal tolerance against warming, posing serious biodiversity risks from climate change. This threatens ecosystem services and food production.", "keywords": ["biodiversity", "climate change", "insects", "thermal tolerance", "tropics"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-03-06T00:19:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 7, "timestamp": "2026-03-06T00:19:00Z"}}
+    },
+    {
+      "id": "nat-20260306-005",
+      "title": "AI in warfare: Iran conflict highlights military AI applications",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/d41586-026-00710-w", "published_date": "2026-03-05"},
+      "content": {"abstract": "The Iran conflict highlights emerging military applications of artificial intelligence in modern warfare strategies, raising concerns about autonomous weapons and AI governance in conflict zones.", "keywords": ["military AI", "warfare", "Iran", "autonomous weapons", "AI governance"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T00:19:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 7, "timestamp": "2026-03-06T00:19:00Z"}}
+    },
+    {
+      "id": "nat-20260306-006",
+      "title": "Cancer metastasis: Glucocorticoid receptor activation drives immune evasion",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/s41586-026-10222-2", "published_date": "2026-03-04"},
+      "content": {"abstract": "Glucocorticoid receptor activation drives immune evasion in spreading breast cancer cells during metastatic seeding, revealing a new mechanism for cancer spread and potential therapeutic target.", "keywords": ["cancer", "metastasis", "immunology", "glucocorticoid", "breast cancer"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T00:19:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 7, "timestamp": "2026-03-06T00:19:00Z"}}
+    },
+    {
+      "id": "ieee-20260306-001",
+      "title": "Taara: Fiber-optic speed via open-air laser links at 25 Gbps",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/free-space-optical-link-taara", "published_date": "2026-03-04"},
+      "content": {"abstract": "Taara's Beam device transmits 25 Gbps across kilometers using infrared lasers and phased-array technology, bringing fiber-competitive speeds to areas without physical fiber infrastructure. A potential game-changer for global connectivity.", "keywords": ["free-space optics", "laser communication", "broadband", "connectivity"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T00:20:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 5, "timestamp": "2026-03-06T00:20:00Z"}}
+    },
+    {
+      "id": "ieee-20260306-002",
+      "title": "Offshore wind turbine to house underwater data center",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/data-center-floating-wind-turbine", "published_date": "2026-03-03"},
+      "content": {"abstract": "Aikido Technologies plans floating offshore wind turbines integrating data centers in ballast tanks, using turbine power and seawater cooling. A 15-18 MW project planned for UK waters in 2028 combines renewable energy and computing.", "keywords": ["offshore wind", "data center", "renewable energy", "sustainability"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T00:20:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 5, "timestamp": "2026-03-06T00:20:00Z"}}
+    },
+    {
+      "id": "ieee-20260306-003",
+      "title": "Modular EV battery design focuses on repairability",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/ev-battery-swapping-aria-ev", "published_date": "2026-03-04"},
+      "content": {"abstract": "Eindhoven University's Aria EV demonstrates modular battery design with six replaceable 12-kg modules. Includes diagnostic software and embedded tools for owner maintenance, challenging the sealed-battery industry norm.", "keywords": ["EV", "modular battery", "repairability", "right to repair"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T00:20:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 5, "timestamp": "2026-03-06T00:20:00Z"}}
+    },
+    {
+      "id": "ieee-20260306-004",
+      "title": "AI-human collaboration achieves watershed moment in mathematical proof verification",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/ai-proof-verification", "published_date": "2026-03-02"},
+      "content": {"abstract": "Math Inc.'s Gauss AI formalized Viazovska's sphere-packing proofs in record time — 8D case in 5 days, 24D case in 2 weeks. Demonstrates AI capacity to automate mathematical verification at unprecedented scale.", "keywords": ["AI math", "proof verification", "formal methods", "AI collaboration"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T00:20:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 5, "timestamp": "2026-03-06T00:20:00Z"}}
+    },
+    {
+      "id": "ieee-20260306-005",
+      "title": "Quantum data to teach AI better chemistry — Microsoft approach",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/quantum-chemistry", "published_date": "2026-03-02"},
+      "content": {"abstract": "Microsoft proposes combining quantum computers' accuracy with classical AI speed for materials discovery. Training AI on quantum-generated data could enable 500,000x faster chemical property predictions.", "keywords": ["quantum computing", "chemistry", "materials discovery", "Microsoft", "AI"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T00:20:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 5, "timestamp": "2026-03-06T00:20:00Z"}}
+    },
+    {
+      "id": "un-20260306-001",
+      "title": "Middle East escalation: NATO intercepts Iranian missile targeting Turkey",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/feed/view/en/story/2026/03/1167082", "published_date": "2026-03-05"},
+      "content": {"abstract": "Sixth day of Middle East conflict with strikes across Iran, Israel, Lebanon and Gulf States. NATO reportedly intercepted an Iranian missile targeting Turkey, marking NATO's direct involvement in the conflict.", "keywords": ["Middle East", "NATO", "Iran", "escalation", "missile"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T00:21:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 10, "timestamp": "2026-03-06T00:21:00Z"}}
+    },
+    {
+      "id": "un-20260306-002",
+      "title": "Women's rights regressing worldwide — UN gender equality chief warns",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/feed/view/en/story/2026/03/1167081", "published_date": "2026-03-04"},
+      "content": {"abstract": "Rising conflicts have intensified gender-based violence globally, with women facing a justice gap due to discriminatory laws in most countries. UN Women's latest report highlights regression in women's rights worldwide.", "keywords": ["gender equality", "women's rights", "UN Women", "violence"], "language": "en"},
+      "preliminary_category": "S",
+      "collected_at": "2026-03-06T00:21:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 10, "timestamp": "2026-03-06T00:21:00Z"}}
+    },
+    {
+      "id": "un-20260306-003",
+      "title": "How AI is already reshaping working conditions globally",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/feed/view/en/story/2026/03/1167075", "published_date": "2026-03-03"},
+      "content": {"abstract": "AI implementation is fundamentally altering labor dynamics, from algorithm-controlled delivery services to content moderation roles. UN report highlights growing concerns about worker autonomy and algorithmic management.", "keywords": ["AI labor", "working conditions", "algorithmic management", "automation"], "language": "en"},
+      "preliminary_category": "S",
+      "collected_at": "2026-03-06T00:21:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 10, "timestamp": "2026-03-06T00:21:00Z"}}
+    },
+    {
+      "id": "un-20260306-004",
+      "title": "UN chief urges AI advisory group: 'The world looks to you for clarity'",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/feed/view/en/story/2026/03/1167074", "published_date": "2026-03-03"},
+      "content": {"abstract": "Secretary-General Guterres urges newly formed independent AI advisory group to guide responsible technology development benefiting humanity broadly, signaling strengthened UN AI governance efforts.", "keywords": ["AI governance", "UN", "Guterres", "advisory group", "responsible AI"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T00:21:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 10, "timestamp": "2026-03-06T00:21:00Z"}}
+    },
+    {
+      "id": "un-20260306-005",
+      "title": "Iran crisis: Schoolgirls killed, thousands displaced, aid compromised",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/feed/view/en/story/2026/03/1167071", "published_date": "2026-03-03"},
+      "content": {"abstract": "Ongoing strikes have caused civilian deaths including schoolgirls and mass displacement while hindering humanitarian operations across the Middle East region.", "keywords": ["Iran crisis", "civilian casualties", "displacement", "humanitarian"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T00:21:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 10, "timestamp": "2026-03-06T00:21:00Z"}}
+    },
+    {
+      "id": "brk-20260306-001",
+      "title": "Limits of tariff-driven economic statecraft after IEEPA Supreme Court ruling",
+      "source": {"name": "Brookings Institution", "type": "blog", "url": "https://www.brookings.edu/articles/now-what-the-limits-of-tariff-driven-economic-statecraft-after-ieepa/", "published_date": "2026-03-05"},
+      "content": {"abstract": "Analysis of constraints on using tariffs as foreign policy tools following Supreme Court decisions limiting executive tariff authority under IEEPA. Signals a structural shift in US trade policy capacity.", "keywords": ["tariffs", "IEEPA", "Supreme Court", "trade policy", "economic statecraft"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-03-06T00:22:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 10, "timestamp": "2026-03-06T00:22:00Z"}}
+    },
+    {
+      "id": "brk-20260306-002",
+      "title": "After the strike: The danger of broader war in Iran",
+      "source": {"name": "Brookings Institution", "type": "blog", "url": "https://www.brookings.edu/articles/after-the-strike-the-danger-of-war-in-iran/", "published_date": "2026-03-03"},
+      "content": {"abstract": "Multiple Brookings experts analyze escalating tensions following military strikes on Iran, examining risks of broader regional conflict involving NATO, Gulf states, and potential nuclear dimensions.", "keywords": ["Iran war", "Middle East", "geopolitics", "regional conflict"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T00:22:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 10, "timestamp": "2026-03-06T00:22:00Z"}}
+    },
+    {
+      "id": "brk-20260306-003",
+      "title": "China's National People's Congress: Key political and economic priorities",
+      "source": {"name": "Brookings Institution", "type": "blog", "url": "https://www.brookings.edu/articles/what-to-look-out-for-at-this-years-meeting-of-chinas-legislature/", "published_date": "2026-03-03"},
+      "content": {"abstract": "Analysis of China's NPC annual session highlighting key political and economic priorities shaping governance directions, including economic stimulus, tech self-sufficiency, and Taiwan policy.", "keywords": ["China", "NPC", "legislature", "economic policy", "governance"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T00:22:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 10, "timestamp": "2026-03-06T00:22:00Z"}}
+    },
+    {
+      "id": "pew-20260306-001",
+      "title": "Americans rank highest in viewing fellow citizens as morally bad — 25-country survey",
+      "source": {"name": "Pew Research Center", "type": "blog", "url": "https://www.pewresearch.org/religion/2026/03/05/in-25-country-survey-americans-especially-likely-to-view-fellow-citizens-as-morally-bad/", "published_date": "2026-03-05"},
+      "content": {"abstract": "Americans rank highest among 25 nations in viewing their compatriots' morality and ethics negatively. This comparative study reveals a deep crisis of social trust and moral perception in the United States.", "keywords": ["social trust", "morality", "values", "American society", "survey"], "language": "en"},
+      "preliminary_category": "s",
+      "collected_at": "2026-03-06T00:23:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 10, "timestamp": "2026-03-06T00:23:00Z"}}
+    },
+    {
+      "id": "hn-20260306-001",
+      "title": "GitHub issue titles compromise 4,000 developer machines via AI tool injection",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://grith.ai/blog/clinejection-when-your-ai-tool-installs-another", "published_date": "2026-03-05"},
+      "content": {"abstract": "Supply chain security vulnerability where malicious GitHub issue titles exploit AI coding assistants to compromise developer machines. A new attack vector in the AI-augmented development ecosystem.", "keywords": ["supply chain attack", "AI coding", "cybersecurity", "developer tools"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T00:24:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 15, "timestamp": "2026-03-06T00:24:00Z"}}
+    },
+    {
+      "id": "hn-20260306-002",
+      "title": "Anthropic research: AI labor market impacts — 14% reduction in young worker job entry",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://www.anthropic.com/research/labor-market-impacts", "published_date": "2026-03-05"},
+      "content": {"abstract": "Anthropic's research reveals young workers ages 22-25 show a 14% reduction in job entry rates for AI-exposed occupations. While dramatic employment disruptions haven't materialized overall, subtle shifts are emerging affecting career entry for younger cohorts.", "keywords": ["AI labor market", "employment", "young workers", "automation", "displacement"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-03-06T00:24:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 15, "timestamp": "2026-03-06T00:24:00Z"}}
+    },
+    {
+      "id": "hn-20260306-003",
+      "title": "Wikipedia mass admin account compromise forces read-only mode",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://www.wikimediastatus.net", "published_date": "2026-03-05"},
+      "content": {"abstract": "Critical security incident at Wikipedia forces read-only mode after mass compromise of administrator accounts. Highlights vulnerability of foundational internet infrastructure.", "keywords": ["Wikipedia", "cybersecurity", "admin compromise", "infrastructure"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T00:24:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 15, "timestamp": "2026-03-06T00:24:00Z"}}
+    },
+    {
+      "id": "hn-20260306-004",
+      "title": "OpenTitan open-source security chip enters production — Google",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://opensource.googleblog.com/2026/03/opentitan-shipping-in-production.html", "published_date": "2026-03-05"},
+      "content": {"abstract": "Google's OpenTitan open-source silicon root of trust chip enters production, representing a milestone for transparent hardware security architecture.", "keywords": ["OpenTitan", "hardware security", "open source", "chip", "Google"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T00:24:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 15, "timestamp": "2026-03-06T00:24:00Z"}}
+    },
+    {
+      "id": "hn-20260306-005",
+      "title": "Proton Mail assists FBI in unmasking anonymous protester",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://www.404media.co/proton-mail-helped-fbi-unmask-anonymous-stop-cop-city-protestor/", "published_date": "2026-03-05"},
+      "content": {"abstract": "Proton Mail, marketed as privacy-focused, assisted FBI in identifying an anonymous protester. This raises fundamental questions about privacy service promises vs government compliance.", "keywords": ["privacy", "Proton Mail", "FBI", "surveillance", "anonymity"], "language": "en"},
+      "preliminary_category": "s",
+      "collected_at": "2026-03-06T00:24:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 15, "timestamp": "2026-03-06T00:24:00Z"}}
+    },
+    {
+      "id": "hn-20260306-006",
+      "title": "Alibaba PageAgent: Open-source GUI agent for web apps",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://alibaba.github.io/page-agent/", "published_date": "2026-03-05"},
+      "content": {"abstract": "Alibaba releases PageAgent, an open-source library embedding AI agents directly in frontends for web application automation. Part of the broader trend toward agentic interfaces.", "keywords": ["AI agent", "GUI automation", "Alibaba", "open source", "web"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T00:24:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 15, "timestamp": "2026-03-06T00:24:00Z"}}
+    },
+    {
+      "id": "cb-20260306-001",
+      "title": "UK emissions fall 2.4% in 2025 as coal hits 400-year low",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://www.carbonbrief.org/analysis-uk-emissions-fall-2-4-in-2025-as-coal-hits-400-year-low/", "published_date": "2026-03-05"},
+      "content": {"abstract": "UK greenhouse gas emissions declined to 364 million tonnes CO2 equivalent, reaching lowest level since 1872. Coal consumption plummeted to levels unseen since 1600, driven by end of coal power generation.", "keywords": ["UK emissions", "coal", "decarbonization", "climate"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-03-06T00:25:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 3, "timestamp": "2026-03-06T00:25:00Z"}}
+    },
+    {
+      "id": "cb-20260306-002",
+      "title": "EU Industrial Accelerator Act: Made in Europe rules for climate action",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://www.carbonbrief.org/qa-what-the-eus-new-industry-and-made-in-europe-rules-mean-for-climate-action/", "published_date": "2026-03-05"},
+      "content": {"abstract": "European Commission proposes Industrial Accelerator Act to boost low-carbon EU-manufactured steel, cement, and renewables through public procurement requirements. Could save 30.6 million tonnes CO2 by 2030.", "keywords": ["EU", "industrial policy", "climate", "decarbonization", "procurement"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-03-06T00:25:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 3, "timestamp": "2026-03-06T00:25:00Z"}}
+    },
+    {
+      "id": "cb-20260306-003",
+      "title": "China reveals new five-year climate goals at Two Sessions — 3.8% carbon intensity reduction",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://www.carbonbrief.org/china-briefing-5-march-2026-new-five-year-climate-goals-revealed-at-two-sessions-meeting/", "published_date": "2026-03-05"},
+      "content": {"abstract": "China announced 3.8% carbon intensity reduction target for 2026 and 17% reduction by 2030 under 15th five-year plan. Establishing transition fund for clean energy development while pursuing high-quality growth.", "keywords": ["China", "climate targets", "carbon intensity", "five-year plan", "energy transition"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-03-06T00:25:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 3, "timestamp": "2026-03-06T00:25:00Z"}}
+    },
+    {
+      "id": "aeon-20260306-001",
+      "title": "The insurance catastrophe: Climate change renders regions uninsurable",
+      "source": {"name": "Aeon Magazine", "type": "blog", "url": "https://aeon.co/essays/how-do-we-deal-with-the-catastrophe-of-uninsurability", "published_date": "2026-03-03"},
+      "content": {"abstract": "Explores the economic and ethical crisis as climate change renders entire regions uninsurable. Raises fundamental questions about systemic resilience, social contracts, and how societies manage radical uncertainty.", "keywords": ["insurance", "climate change", "uninsurability", "economic risk", "resilience"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-03-06T00:26:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 5, "timestamp": "2026-03-06T00:26:00Z"}}
+    },
+    {
+      "id": "aeon-20260306-002",
+      "title": "Instrumentalisation crisis: Everything becoming a means to an end",
+      "source": {"name": "Aeon Magazine", "type": "blog", "url": "https://aeon.co/essays/instrumentalisation-is-making-everything-a-means-to-an-end", "published_date": "2026-02-24"},
+      "content": {"abstract": "Critiques how contemporary society reduces intrinsic human values to utilitarian outcomes across art, spirituality, and relationships. Argues authentic living transcends material calculation.", "keywords": ["instrumentalisation", "values", "meaning crisis", "ethics", "philosophy"], "language": "en"},
+      "preliminary_category": "s",
+      "collected_at": "2026-03-06T00:26:00Z",
+      "scan_metadata": {"execution_proof": {"source_accessed": true, "items_found": 5, "timestamp": "2026-03-06T00:26:00Z"}}
+    }
+  ]
+}

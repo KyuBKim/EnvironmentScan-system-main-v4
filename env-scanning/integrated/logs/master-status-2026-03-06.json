@@ -1,0 +1,72 @@
+{
+  "master_id": "quadruple-scan-2026-03-06",
+  "system_name": "Quadruple Environmental Scanning System",
+  "status": "awaiting_final_approval",
+  "registry_version": "2.5.0",
+  "started_at": "2026-03-06T00:12:22Z",
+  "scan_window_state_file": "env-scanning/integrated/logs/scan-window-2026-03-06.json",
+  "sot_validation": {
+    "status": "PASS",
+    "timestamp": "2026-03-06T00:12:22Z"
+  },
+  "workflow_results": {
+    "wf1-general": {
+      "status": "completed",
+      "report_path": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-03-06.md",
+      "signal_count": 47,
+      "completed_at": "2026-03-06T03:00:00Z"
+    },
+    "wf2-arxiv": {
+      "status": "completed",
+      "report_path": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-03-06.md",
+      "signal_count": 30,
+      "completed_at": "2026-03-06T05:00:00Z"
+    },
+    "wf3-naver": {
+      "status": "completed",
+      "report_path": "env-scanning/wf3-naver/reports/daily/environmental-scan-2026-03-06.md",
+      "signal_count": 257,
+      "completed_at": "2026-03-06T08:00:00Z"
+    },
+    "wf4-multiglobal-news": {
+      "status": "completed",
+      "report_path": "env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-03-06.md",
+      "signal_count": 42,
+      "completed_at": "2026-03-06T11:00:00Z"
+    }
+  },
+  "integration_result": {
+    "status": "completed",
+    "report_path_en": "env-scanning/integrated/reports/daily/integrated-scan-2026-03-06-en.md",
+    "report_path_ko": "env-scanning/integrated/reports/daily/integrated-scan-2026-03-06.md",
+    "archive_path_en": "env-scanning/integrated/reports/archive/2026/03/integrated-scan-2026-03-06-en.md",
+    "archive_path_ko": "env-scanning/integrated/reports/archive/2026/03/integrated-scan-2026-03-06.md",
+    "total_signals": 376,
+    "top_signals": 20,
+    "integration_method": "single-agent",
+    "validation_result": "PASS (19/19)"
+  },
+  "analysis_files": {
+    "cross_correlation": "env-scanning/integrated/analysis/cross-correlation-2026-03-06.json",
+    "unified_ranking": "env-scanning/integrated/analysis/unified-ranking-2026-03-06.json",
+    "statistics": "env-scanning/integrated/analysis/statistics-2026-03-06.json"
+  },
+  "human_decisions": {
+    "wf1_step_2_5": { "decision": "approved" },
+    "wf1_step_3_4": { "decision": "approved" },
+    "wf2_step_2_5": { "decision": "approved" },
+    "wf2_step_3_4": { "decision": "approved" },
+    "wf3_step_2_5": { "decision": "approved" },
+    "wf3_step_3_4": { "decision": "approved" },
+    "wf4_step_2_5": { "decision": "approved" },
+    "wf4_step_3_4": { "decision": "approved" },
+    "integrated_final": { "decision": "pending" }
+  },
+  "master_gates": {
+    "M1": { "status": "PASS" },
+    "M2": { "status": "PASS" },
+    "M2a": { "status": "PASS" },
+    "M2b": { "status": "PASS" },
+    "M3": { "status": "pending" }
+  }
+}

@@ -1,0 +1,2711 @@
+{
+  "agent_metadata": {
+    "agent_name": "blog-agent",
+    "model_used": "haiku",
+    "articles_collected": 95,
+    "sources_scanned": 13,
+    "scan_date": "2026-03-06",
+    "status": "success",
+    "execution_time": 11.83,
+    "process_id": 16496
+  },
+  "items": [
+    {
+      "id": "techcrunch-c150ba180df2",
+      "title": "Anthropic to challenge DOD’s supply-chain label in court",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/05/anthropic-to-challenge-dods-supply-chain-label-in-court/",
+        "published_date": "2026-03-06"
+      },
+      "content": {
+        "abstract": "Anthropic to challenge DOD’s supply-chain label in court",
+        "keywords": [
+          "ai",
+          "government & policy",
+          "anthropic",
+          "dario amodei",
+          "dod",
+          "supply chain risk"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Rebecca Bellan"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:33.014639"
+    },
+    {
+      "id": "techcrunch-f3441927dd07",
+      "title": "DiligenceSquared uses AI, voice agents to make M&A research affordable",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/05/diligencesquared-uses-ai-voice-agents-to-make-ma-research-affordable/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "DiligenceSquared uses AI, voice agents to make M&A research affordable",
+        "keywords": [
+          "ai",
+          "startups",
+          "due diligence",
+          "m&a",
+          "private equity"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Marina Temkin"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:33.014667"
+    },
+    {
+      "id": "techcrunch-71b6fb730c22",
+      "title": "Cluely CEO Roy Lee admits to publicly lying about revenue numbers last year",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/05/cluely-ceo-roy-lee-admits-to-publicly-lying-about-revenue-numbers-last-year/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Cluely CEO Roy Lee admits to publicly lying about revenue numbers last year",
+        "keywords": [
+          "apps",
+          "startups",
+          "tc",
+          "cluely",
+          "due diligence"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Julie Bort"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:33.014686"
+    },
+    {
+      "id": "techcrunch-317b1606be3e",
+      "title": "AWS launches a new AI agent platform specifically for healthcare",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/05/aws-amazon-connect-health-ai-agent-platform-health-care-providers/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "AWS launches a new AI agent platform specifically for healthcare",
+        "keywords": [
+          "ai",
+          "biotech & health",
+          "enterprise",
+          "tc",
+          "ai agents",
+          "anthropic",
+          "artificial intelligence",
+          "aws",
+          "healthcare",
+          "openai"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Rebecca Szkutak"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:33.014705"
+    },
+    {
+      "id": "techcrunch-50214f79d408",
+      "title": "FBI investigating hack on its wiretap and surveillance systems: Report",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/05/fbi-investigating-hack-on-its-wiretap-and-surveillance-systems-report/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "FBI investigating hack on its wiretap and surveillance systems: Report",
+        "keywords": [
+          "security",
+          "cybersecurity",
+          "data breach",
+          "fbi",
+          "hackers",
+          "hacking",
+          "in brief"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Lorenzo Franceschi-Bicchierai"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:33.014722"
+    },
+    {
+      "id": "techcrunch-3ea0e6c589bc",
+      "title": "US reportedly considering sweeping new chip export controls",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/05/us-reportedly-considering-sweeping-new-chip-export-controls/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "US reportedly considering sweeping new chip export controls",
+        "keywords": [
+          "ai",
+          "government & policy",
+          "amd",
+          "artificial intelligence",
+          "chip exports",
+          "nvidia",
+          "trump administration"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Rebecca Szkutak"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:33.014739"
+    },
+    {
+      "id": "techcrunch-b24bf84c2118",
+      "title": "Amazon is rolling out a redesigned Fire TV app",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/05/amazon-is-rolling-out-a-redesigned-fire-tv-app/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Amazon is rolling out a redesigned Fire TV app",
+        "keywords": [
+          "apps",
+          "media & entertainment",
+          "amazon",
+          "amazon fire tv",
+          "fire tv",
+          "streaming"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Aisha Malik"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:33.014753"
+    },
+    {
+      "id": "techcrunch-b4817b800341",
+      "title": "BYD rolls out EV batteries with 5-minute ‘flash charging’ — but there’s a catch",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/05/byd-rolls-out-ev-batteries-with-5-minute-flash-charging-but-theres-a-catch/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "BYD rolls out EV batteries with 5-minute ‘flash charging’ — but there’s a catch",
+        "keywords": [
+          "climate",
+          "transportation",
+          "byd",
+          "electric vehicles",
+          "ev charging",
+          "fast charging",
+          "lithium ion batteries"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Tim De Chant"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:33.014771"
+    },
+    {
+      "id": "techcrunch-cbbe74fb9ae7",
+      "title": "Italian prosecutors confirm journalist was hacked with Paragon spyware",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/05/italian-prosecutors-confirm-journalist-was-hacked-with-paragon-spyware/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Italian prosecutors confirm journalist was hacked with Paragon spyware",
+        "keywords": [
+          "security",
+          "apple",
+          "iphone",
+          "italy",
+          "paragon",
+          "paragon solutions",
+          "privacy",
+          "spyware",
+          "surveillance",
+          "whatsapp"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Lorenzo Franceschi-Bicchierai"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:33.014788"
+    },
+    {
+      "id": "techcrunch-da6d261b798b",
+      "title": "It’s official: The Pentagon has labeled Anthropic a supply-chain risk",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/05/its-official-the-pentagon-has-labeled-anthropic-a-supply-chain-risk/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "It’s official: The Pentagon has labeled Anthropic a supply-chain risk",
+        "keywords": [
+          "ai",
+          "government & policy",
+          "anthropic",
+          "dario amodei",
+          "dod",
+          "supply chain risk"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Rebecca Bellan"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:33.014803"
+    },
+    {
+      "id": "techcrunch-45f7ee2df145",
+      "title": "X revamps Creator Subscriptions with new features, like exclusive threads and shareable cards",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/05/x-revamps-creator-subscriptions-with-new-features-like-exclusive-threads-and-shareable-cards/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "X revamps Creator Subscriptions with new features, like exclusive threads and shareable cards",
+        "keywords": [
+          "apps",
+          "commerce",
+          "social",
+          "social media",
+          "x",
+          "creators"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Sarah Perez"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:33.014818"
+    },
+    {
+      "id": "techcrunch-8885c7e341db",
+      "title": "Hardware testing startup Nominal hits $1B valuation, raises $155M in 10 months",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/05/hardware-testing-startup-nominal-hits-1b-valuation-raises-155m-in-10-months/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Hardware testing startup Nominal hits $1B valuation, raises $155M in 10 months",
+        "keywords": [
+          "startups",
+          "defense tech",
+          "founders fund",
+          "in brief",
+          "nominal"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Julie Bort"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:33.014833"
+    },
+    {
+      "id": "techcrunch-11f8bcfc06f0",
+      "title": "Roblox launches real-time AI chat rephrasing to filter out banned language",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/05/roblox-launches-real-time-ai-chat-rephrasing-to-filter-out-banned-language/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Roblox launches real-time AI chat rephrasing to filter out banned language",
+        "keywords": [
+          "apps",
+          "gaming",
+          "social",
+          "ai chat",
+          "moderation",
+          "roblox"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Aisha Malik"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:33.014847"
+    },
+    {
+      "id": "techcrunch-4316cb2cb22a",
+      "title": "FYI: Impersonators are (still) targeting companies with fake TechCrunch outreach",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/05/impersonators-scammers-targeting-companies-with-fake-techcrunch-outreach/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "FYI: Impersonators are (still) targeting companies with fake TechCrunch outreach",
+        "keywords": [
+          "tc",
+          "security",
+          "media & entertainment",
+          "cybersecurity",
+          "techcrunch"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "TechCrunch Staff"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:33.014861"
+    },
+    {
+      "id": "techcrunch-4c1fd731bd73",
+      "title": "EXCLUSIVE: Luma launches creative AI agents powered by its new ‘Unified Intelligence’ models",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/05/exclusive-luma-launches-creative-ai-agents-powered-by-its-new-unified-intelligence-models/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "EXCLUSIVE: Luma launches creative AI agents powered by its new ‘Unified Intelligence’ models",
+        "keywords": [
+          "ai",
+          "startups",
+          "ai agents",
+          "ai video",
+          "exclusive",
+          "luma",
+          "luma agents"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Rebecca Bellan"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:33.014877"
+    },
+    {
+      "id": "techcrunch-a144eca2528c",
+      "title": "Google says half of all zero-days it tracked in 2025 targeted buggy enterprise tech",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/05/google-says-half-of-all-zero-days-it-tracked-in-2025-targeted-buggy-enterprise-tech/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Google says half of all zero-days it tracked in 2025 targeted buggy enterprise tech",
+        "keywords": [
+          "enterprise",
+          "security",
+          "cyberattack",
+          "cybersecurity",
+          "firewall",
+          "vpn"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Zack Whittaker"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:33.014892"
+    },
+    {
+      "id": "techcrunch-45ee9c392867",
+      "title": "OpenAI launches GPT-5.4 with Pro and Thinking versions",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/05/openai-launches-gpt-5-4-with-pro-and-thinking-versions/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "OpenAI launches GPT-5.4 with Pro and Thinking versions",
+        "keywords": [
+          "ai",
+          "chatgpt",
+          "foundation models",
+          "launch",
+          "openai"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Russell Brandom"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:33.014905"
+    },
+    {
+      "id": "techcrunch-f98967dca46d",
+      "title": "Cursor is rolling out a new kind of agentic coding tool",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/05/cursor-is-rolling-out-a-new-system-for-agentic-coding/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Cursor is rolling out a new kind of agentic coding tool",
+        "keywords": [
+          "ai",
+          "agentic coding",
+          "cursor",
+          "exclusive"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Russell Brandom"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:33.014918"
+    },
+    {
+      "id": "techcrunch-1cb3fd1c1e23",
+      "title": "Meta sued over AI smart glasses’ privacy concerns, after workers reviewed nudity, sex, and other footage",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/05/meta-sued-over-ai-smartglasses-privacy-concerns-after-workers-reviewed-nudity-sex-and-other-footage/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Meta sued over AI smart glasses’ privacy concerns, after workers reviewed nudity, sex, and other footage",
+        "keywords": [
+          "ai",
+          "gadgets",
+          "hardware",
+          "privacy",
+          "social",
+          "ai glasses",
+          "meta",
+          "meta ai",
+          "meta ai glasses",
+          "smartglasses"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Sarah Perez"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:33.014937"
+    },
+    {
+      "id": "techcrunch-ac73fb8cf612",
+      "title": "Anthropic CEO Dario Amodei could still be trying to make a deal with Pentagon",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/05/anthropic-ceo-dario-amodei-could-still-be-trying-to-make-a-deal-with-pentagon/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Anthropic CEO Dario Amodei could still be trying to make a deal with Pentagon",
+        "keywords": [
+          "ai",
+          "anthropic",
+          "dario amodei",
+          "department of defense",
+          "sam altman"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://techcrunch.com/feed/",
+        "author": "Amanda Silberling"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:33.014951"
+    },
+    {
+      "id": "mit-technology-review-be7772b977cf",
+      "title": "The Download: an AI agent’s hit piece, and preventing lightning",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/03/05/1133968/the-download-ai-agent-hit-piece-preventing-lightning/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Online harassment is entering its AI era Scott Shambaugh didn’t think twice when he denied an AI agent’s request to contribute to matplotlib, a software library he helps manage. Then things&#8230;",
+        "keywords": [
+          "the download"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "Thomas Macaulay"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:33.239817"
+    },
+    {
+      "id": "mit-technology-review-df570d5fd1d5",
+      "title": "How much wildfire prevention is too much?",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/03/05/1133960/wildfire-prevention-limits/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "The race to prevent the worst wildfires has been an increasingly high-tech one. Companies are proposing AI fire detection systems and drones that can stamp out early blazes. And now, one Canadian startup says it’s going after lightning. Lightning-sparked fires can be a big deal: The Canadian wildfires of 2023 generated nearly 500 million metric&#8230;",
+        "keywords": [
+          "climate change and energy",
+          "app",
+          "the spark"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "Casey Crownhart"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:33.239854"
+    },
+    {
+      "id": "mit-technology-review-319a07e601cb",
+      "title": "Online harassment is entering its AI era",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/03/05/1133962/online-harassment-is-entering-its-ai-era/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Scott Shambaugh didn’t think twice when he denied an AI agent’s request to contribute to matplotlib, a software library that he helps manage. Like many open-source projects, matplotlib has been overwhelmed by a glut of AI code contributions, and so Shambaugh and his fellow maintainers have instituted a policy that all AI-written code must be&#8230;",
+        "keywords": [
+          "artificial intelligence",
+          "app",
+          "summary"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "Grace Huckins"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:33.239887"
+    },
+    {
+      "id": "mit-technology-review-48c2e9711a01",
+      "title": "Bridging the operational AI gap",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/03/04/1133642/bridging-the-operational-ai-gap/",
+        "published_date": "2026-03-04"
+      },
+      "content": {
+        "abstract": "The transformational potential of AI is already well established. Enterprise use cases are building momentum and organizations are transitioning from pilot projects to AI in production. Companies are no longer just talking about AI; they are redirecting budgets and resources to make it happen. Many are already experimenting with agentic AI, which promises new levels&#8230;",
+        "keywords": [
+          "artificial intelligence",
+          "sponsored"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "MIT Technology Review Insights"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:33.239916"
+    },
+    {
+      "id": "mit-technology-review-13f717dda101",
+      "title": "The Download: Earth’s rumblings, and AI for strikes on Iran",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/03/04/1133942/the-download-earths-rumblings-and-ai-for-strikes-on-iran/",
+        "published_date": "2026-03-04"
+      },
+      "content": {
+        "abstract": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Listen to Earth’s rumbling, secret soundtrack The boom of a calving glacier. The crackling rumble of a wildfire. The roar of a surging storm front. They’re the noises of the living&#8230;",
+        "keywords": [
+          "the download"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "Charlotte Jee"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:33.239945"
+    },
+    {
+      "id": "mit-technology-review-9d16decdc858",
+      "title": "MIT Technology Review Insiders Panel",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/03/03/1133907/mit-technology-review-insiders-panel-2/",
+        "published_date": "2026-03-03"
+      },
+      "content": {
+        "abstract": "MIT Technology Review Insiders Panel",
+        "keywords": [
+          "technology",
+          "review",
+          "insiders",
+          "panel",
+          "technology",
+          "review",
+          "insiders",
+          "panel"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "Courtney Dobson"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:33.239969"
+    },
+    {
+      "id": "mit-technology-review-b89e7f1e42f6",
+      "title": "The Download: The startup that says it can stop lightning, and inside OpenAI’s Pentagon deal",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/03/03/1133900/the-download-the-startup-that-says-it-can-stop-lightning-and-inside-openais-pentagon-deal/",
+        "published_date": "2026-03-03"
+      },
+      "content": {
+        "abstract": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. This startup claims it can stop lightning and prevent catastrophic wildfires Startup&#160;Skyward Wildfire&#160;says it can prevent catastrophic fires by stopping the lightning strikes that ignite them. So far, it hasn’t publicly&#8230;",
+        "keywords": [
+          "the download"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "Niall Firth"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:33.240000"
+    },
+    {
+      "id": "mit-technology-review-9cbfa1a19eaf",
+      "title": "This startup claims it can stop lightning and prevent catastrophic wildfires",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/03/03/1133848/this-startup-claims-it-can-stop-lightning-and-prevent-catastrophic-wildfires/",
+        "published_date": "2026-03-03"
+      },
+      "content": {
+        "abstract": "On June 1, 2023, as a sweltering heat wave baked Quebec, thousands of lightning strikes flashed across the province, setting off more than 120 wildfires. The blazes ripped through parched forests and withered grasslands, burned for weeks, and compounded what was rapidly turning into Canada’s worst fire year on record. In the end, nearly 7,000&#8230;",
+        "keywords": [
+          "climate change and energy",
+          "app"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "James Temple"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:33.240029"
+    },
+    {
+      "id": "mit-technology-review-22b739c58fe5",
+      "title": "OpenAI’s “compromise” with the Pentagon is what Anthropic feared",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/03/02/1133850/openais-compromise-with-the-pentagon-is-what-anthropic-feared/",
+        "published_date": "2026-03-02"
+      },
+      "content": {
+        "abstract": "On February 28, OpenAI announced it had reached a deal that will allow the US military to use its technologies in classified settings. CEO Sam Altman said the negotiations, which the company began pursuing only after the Pentagon’s public reprimand of Anthropic, were “definitely rushed.” In its announcements, OpenAI took great pains to say that&#8230;",
+        "keywords": [
+          "artificial intelligence",
+          "app",
+          "the algorithm"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "James O'Donnell"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:33.240058"
+    },
+    {
+      "id": "mit-technology-review-9128cb12359d",
+      "title": "The Download: protesting AI, and what’s floating in space",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/03/02/1133811/the-download-protesting-ai-and-whats-floating-in-space/",
+        "published_date": "2026-03-02"
+      },
+      "content": {
+        "abstract": "This is today&#8217;s edition of&#160;The Download,&#160;our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. I checked out one of the biggest anti-AI protests ever Pull the plug! Pull the plug! Stop the slop! Stop the slop! For a few hours this Saturday, February 28, I watched as&#8230;",
+        "keywords": [
+          "the download"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.technologyreview.com/feed/",
+        "author": "Rhiannon Williams"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:33.240085"
+    },
+    {
+      "id": "pew-research-center-155b0a52b771",
+      "title": "Methodology",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/religion/2026/03/05/methodology-international-morality/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Methodology",
+        "keywords": [
+          "religion & abortion",
+          "religion & lgbtq acceptance",
+          "religion & social values"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Janakee Chavda"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:37.711881"
+    },
+    {
+      "id": "pew-research-center-ad61ce2f8439",
+      "title": "Acknowledgments",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/religion/2026/03/05/acknowledgments-international-morality/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Acknowledgments",
+        "keywords": [
+          "religion & abortion",
+          "religion & lgbtq acceptance",
+          "religion & social values"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Janakee Chavda"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:37.711903"
+    },
+    {
+      "id": "pew-research-center-16e148325ec0",
+      "title": "Appendix: Political categorization",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/religion/2026/03/05/appendix-political-categorization-international-morality/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Appendix: Political categorization",
+        "keywords": [
+          "religion & abortion",
+          "religion & lgbtq acceptance",
+          "religion & social values"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Janakee Chavda"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:37.711920"
+    },
+    {
+      "id": "pew-research-center-3822b33da9bd",
+      "title": "In 25-Country Survey, Americans Especially Likely To View Fellow Citizens as Morally Bad",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/religion/2026/03/05/in-25-country-survey-americans-especially-likely-to-view-fellow-citizens-as-morally-bad/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "In 25-Country Survey, Americans Especially Likely To View Fellow Citizens as Morally Bad",
+        "keywords": [
+          "religion & abortion",
+          "religion & lgbtq acceptance",
+          "religion & social values"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.pewresearch.org/feed/",
+        "author": "Janakee Chavda"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:37.711937"
+    },
+    {
+      "id": "hacker-news-20a854a550e5",
+      "title": "TeX Live 2026 is available for download now",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://www.tug.org/texlive/acquire.html",
+        "published_date": "2026-03-06"
+      },
+      "content": {
+        "abstract": "TeX Live 2026 is available for download now",
+        "keywords": [
+          "live",
+          "2026",
+          "available",
+          "download",
+          "live",
+          "2026",
+          "available",
+          "download"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "jithinraj"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.452581"
+    },
+    {
+      "id": "hacker-news-4f36fbeca56d",
+      "title": "Show HN: Swarm – Program a colony of 200 ants using a custom assembly language",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://dev.moment.com/",
+        "published_date": "2026-03-06"
+      },
+      "content": {
+        "abstract": "Show HN: Swarm – Program a colony of 200 ants using a custom assembly language",
+        "keywords": [
+          "show",
+          "swarm",
+          "program",
+          "colony",
+          "ants",
+          "using",
+          "custom",
+          "assembly",
+          "language",
+          "show"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "armandhammer10"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.452616"
+    },
+    {
+      "id": "hacker-news-a878d05acfac",
+      "title": "System76 on Age Verification Laws",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://blog.system76.com/post/system76-on-age-verification/",
+        "published_date": "2026-03-06"
+      },
+      "content": {
+        "abstract": "System76 on Age Verification Laws",
+        "keywords": [
+          "system76",
+          "verification",
+          "laws",
+          "system76",
+          "verification",
+          "laws"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "LorenDB"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.452638"
+    },
+    {
+      "id": "hacker-news-39606b2d41c3",
+      "title": "Breaking Down 50M Pins: A Smarter Way to Design 3D IC Packages",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://www.allaboutcircuits.com/industry-articles/breaking-down-50-million-pins-a-smarter-way-to-design-3d-ic-packages/",
+        "published_date": "2026-03-06"
+      },
+      "content": {
+        "abstract": "Breaking Down 50M Pins: A Smarter Way to Design 3D IC Packages",
+        "keywords": [
+          "breaking",
+          "down",
+          "pins:",
+          "smarter",
+          "design",
+          "packages",
+          "breaking",
+          "down",
+          "pins:",
+          "smarter"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "WaitWaitWha"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.452661"
+    },
+    {
+      "id": "hacker-news-a77ae1a06100",
+      "title": "How to install and start using LineageOS on your phone",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://lockywolf.net/2026-02-19_How-to-install-and-start-using-LineageOS-on-your-phone.d/index.html",
+        "published_date": "2026-03-06"
+      },
+      "content": {
+        "abstract": "How to install and start using LineageOS on your phone",
+        "keywords": [
+          "install",
+          "start",
+          "using",
+          "lineageos",
+          "your",
+          "phone",
+          "install",
+          "start",
+          "using",
+          "lineageos"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "todsacerdoti"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.452681"
+    },
+    {
+      "id": "hacker-news-515506aba806",
+      "title": "Where things stand with the Department of War",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://www.anthropic.com/news/where-stand-department-war",
+        "published_date": "2026-03-06"
+      },
+      "content": {
+        "abstract": "Where things stand with the Department of War",
+        "keywords": [
+          "where",
+          "things",
+          "stand",
+          "department",
+          "where",
+          "things",
+          "stand",
+          "department"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "surprisetalk"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.452700"
+    },
+    {
+      "id": "hacker-news-f38c7e6959a8",
+      "title": "Stop Using Grey Text (2025)",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://catskull.net/stop-using-grey-text.html",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Stop Using Grey Text (2025)",
+        "keywords": [
+          "stop",
+          "using",
+          "grey",
+          "text",
+          "(2025)",
+          "stop",
+          "using",
+          "grey",
+          "text",
+          "(2025)"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "catskull"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.452718"
+    },
+    {
+      "id": "hacker-news-b78e7333e071",
+      "title": "Labor market impacts of AI: A new measure and early evidence",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://www.anthropic.com/research/labor-market-impacts",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Labor market impacts of AI: A new measure and early evidence",
+        "keywords": [
+          "labor",
+          "market",
+          "impacts",
+          "measure",
+          "early",
+          "evidence",
+          "labor",
+          "market",
+          "impacts",
+          "measure"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "jjwiseman"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.452737"
+    },
+    {
+      "id": "hacker-news-03b7f568fe03",
+      "title": "A standard protocol to handle and discard low-effort, AI-Generated pull requests",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://406.fail/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "A standard protocol to handle and discard low-effort, AI-Generated pull requests",
+        "keywords": [
+          "standard",
+          "protocol",
+          "handle",
+          "discard",
+          "low-effort,",
+          "ai-generated",
+          "pull",
+          "requests",
+          "standard",
+          "protocol"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "Muhammad523"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.452757"
+    },
+    {
+      "id": "hacker-news-cf2ea0ad5b0e",
+      "title": "Proton Mail Helped FBI Unmask Anonymous 'Stop Cop City' Protester",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://www.404media.co/proton-mail-helped-fbi-unmask-anonymous-stop-cop-city-protestor/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Proton Mail Helped FBI Unmask Anonymous 'Stop Cop City' Protester",
+        "keywords": [
+          "proton",
+          "mail",
+          "helped",
+          "unmask",
+          "anonymous",
+          "'stop",
+          "city'",
+          "protester",
+          "proton",
+          "mail"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "sedatk"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.452776"
+    },
+    {
+      "id": "hacker-news-69f4b7c575e1",
+      "title": "Structured AI (YC F25) Is Hiring",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://www.ycombinator.com/companies/structured-ai/jobs/3cQY6Cu-mechanical-design-engineer-founding-team-consultant",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Structured AI (YC F25) Is Hiring",
+        "keywords": [
+          "structured",
+          "f25)",
+          "hiring",
+          "structured",
+          "f25)",
+          "hiring"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "issygreenslade"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.452793"
+    },
+    {
+      "id": "hacker-news-bdd9a05a9604",
+      "title": "GLiNER2: Unified Schema-Based Information Extraction",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://github.com/fastino-ai/GLiNER2",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "GLiNER2: Unified Schema-Based Information Extraction",
+        "keywords": [
+          "gliner2:",
+          "unified",
+          "schema-based",
+          "information",
+          "extraction",
+          "gliner2:",
+          "unified",
+          "schema-based",
+          "information",
+          "extraction"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "apwheele"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.452810"
+    },
+    {
+      "id": "hacker-news-c55c3f63b90f",
+      "title": "Remotely unlocking an encrypted hard disk",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://jyn.dev/remotely-unlocking-an-encrypted-hard-disk/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Remotely unlocking an encrypted hard disk",
+        "keywords": [
+          "remotely",
+          "unlocking",
+          "encrypted",
+          "hard",
+          "disk",
+          "remotely",
+          "unlocking",
+          "encrypted",
+          "hard",
+          "disk"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "janandonly"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.452828"
+    },
+    {
+      "id": "hacker-news-985e51ede963",
+      "title": "GPT-5.4",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://openai.com/index/introducing-gpt-5-4/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "GPT-5.4",
+        "keywords": [
+          "gpt-5.4",
+          "gpt-5.4"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "mudkipdev"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.452842"
+    },
+    {
+      "id": "hacker-news-84f1dcd9712b",
+      "title": "The Brand Age",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://paulgraham.com/brandage.html",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "The Brand Age",
+        "keywords": [
+          "brand",
+          "brand"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "bigwheels"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.452857"
+    },
+    {
+      "id": "hacker-news-699048592d92",
+      "title": "Launch HN: Vela (YC W26) – AI for complex scheduling",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://news.ycombinator.com/item?id=47264741",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Launch HN: Vela (YC W26) – AI for complex scheduling",
+        "keywords": [
+          "launch",
+          "vela",
+          "w26)",
+          "complex",
+          "scheduling",
+          "launch",
+          "vela",
+          "w26)",
+          "complex",
+          "scheduling"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "Gobhanu"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.452877"
+    },
+    {
+      "id": "hacker-news-58ef371d70f7",
+      "title": "Show HN: PageAgent, A GUI agent that lives inside your web app",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://alibaba.github.io/page-agent/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Show HN: PageAgent, A GUI agent that lives inside your web app",
+        "keywords": [
+          "show",
+          "pageagent,",
+          "agent",
+          "that",
+          "lives",
+          "inside",
+          "your",
+          "show",
+          "pageagent,",
+          "agent"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "simon_luv_pho"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.452897"
+    },
+    {
+      "id": "hacker-news-69816e647bcb",
+      "title": "A GitHub Issue Title Compromised 4k Developer Machines",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://grith.ai/blog/clinejection-when-your-ai-tool-installs-another",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "A GitHub Issue Title Compromised 4k Developer Machines",
+        "keywords": [
+          "github",
+          "issue",
+          "title",
+          "compromised",
+          "developer",
+          "machines",
+          "github",
+          "issue",
+          "title",
+          "compromised"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "edf13"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.452915"
+    },
+    {
+      "id": "hacker-news-74528641b97d",
+      "title": "Wikipedia was in read-only mode following mass admin account compromise",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://www.wikimediastatus.net",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Wikipedia was in read-only mode following mass admin account compromise",
+        "keywords": [
+          "wikipedia",
+          "read-only",
+          "mode",
+          "following",
+          "mass",
+          "admin",
+          "account",
+          "compromise",
+          "wikipedia",
+          "read-only"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "greyface-"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.452933"
+    },
+    {
+      "id": "hacker-news-586d096c6639",
+      "title": "AI and the Ship of Theseus",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://lucumr.pocoo.org/2026/3/5/theseus/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "AI and the Ship of Theseus",
+        "keywords": [
+          "ship",
+          "theseus",
+          "ship",
+          "theseus"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://hnrss.org/frontpage",
+        "author": "pixelmonkey"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.452950"
+    },
+    {
+      "id": "wired-53b8cf238944",
+      "title": "Mattress Firm Coupons and Discounts: Save Up to $600",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/mattress-firm-coupon/",
+        "published_date": "2026-03-06"
+      },
+      "content": {
+        "abstract": "Mattress Firm Coupons and Discounts: Save Up to $600",
+        "keywords": [
+          "gear",
+          "gear / deals",
+          "coupons",
+          "shopping",
+          "coupons"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Julia Forbes"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.550120"
+    },
+    {
+      "id": "wired-1605aaf7bfe1",
+      "title": "KitchenAid Promo Codes and Discounts: Save Up To 50%",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/exclusive-kitchenaid-promo-code/",
+        "published_date": "2026-03-06"
+      },
+      "content": {
+        "abstract": "KitchenAid Promo Codes and Discounts: Save Up To 50%",
+        "keywords": [
+          "gear",
+          "coupons",
+          "shopping",
+          "coupons"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Molly Higgins"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.550143"
+    },
+    {
+      "id": "wired-6a0d05f18a0b",
+      "title": "Peacock Promo Codes: 40% Off March 2026",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/peacock-promo-code/",
+        "published_date": "2026-03-06"
+      },
+      "content": {
+        "abstract": "Peacock Promo Codes: 40% Off March 2026",
+        "keywords": [
+          "gear",
+          "coupons",
+          "shopping",
+          "coupons"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Molly Higgins"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.550162"
+    },
+    {
+      "id": "wired-39bf5d56171b",
+      "title": "TurboTax Service Codes: Up to $150 Off | March 2026",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/turbotax-coupon/",
+        "published_date": "2026-03-06"
+      },
+      "content": {
+        "abstract": "TurboTax Service Codes: Up to $150 Off | March 2026",
+        "keywords": [
+          "gear",
+          "gear / deals",
+          "coupons",
+          "shopping",
+          "coupons"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Molly Higgins"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.550180"
+    },
+    {
+      "id": "wired-887343faf454",
+      "title": "Norton Coupon Codes and Discounts: Up to 58% Off",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/norton-coupon-code/",
+        "published_date": "2026-03-06"
+      },
+      "content": {
+        "abstract": "Norton Coupon Codes and Discounts: Up to 58% Off",
+        "keywords": [
+          "gear",
+          "gear / deals",
+          "coupons",
+          "shopping",
+          "coupons"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Scott Gilbertson"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.550196"
+    },
+    {
+      "id": "wired-fdd261a7b575",
+      "title": "Here’s Every Country Directly Impacted by the War on Iran",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/every-country-directly-impacted-by-the-war-on-iran/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Here’s Every Country Directly Impacted by the War on Iran",
+        "keywords": [
+          "security",
+          "security / national security",
+          "iran",
+          "war",
+          "middle east",
+          "missiles",
+          "israel",
+          "military",
+          "maps"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Maddy Varner"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.550218"
+    },
+    {
+      "id": "wired-eb8a3c02860f",
+      "title": "‘Uncanny Valley’: Iran War in the AI Era, Prediction Market Ethics, and Paramount Beats Netflix",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/uncanny-valley-podcast-iran-war-artificial-intelligence-prediction-markets-paramount-warner-bros/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "‘Uncanny Valley’: Iran War in the AI Era, Prediction Market Ethics, and Paramount Beats Netflix",
+        "keywords": [
+          "politics",
+          "politics / politics news",
+          "uncanny valley podcast",
+          "podcasts",
+          "iran",
+          "war",
+          "x",
+          "disinformation",
+          "artificial intelligence",
+          "anthropic"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Brian Barrett, Zoë Schiffer, Leah Feiger"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.550247"
+    },
+    {
+      "id": "wired-ba48c58afbce",
+      "title": "OpenAI Had Banned Military Use. The Pentagon Tested Its Models Through Microsoft Anyway",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/openai-defense-department-ban-military-use-microsoft/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "OpenAI Had Banned Military Use. The Pentagon Tested Its Models Through Microsoft Anyway",
+        "keywords": [
+          "business",
+          "business / artificial intelligence",
+          "model behavior",
+          "artificial intelligence",
+          "openai",
+          "microsoft",
+          "war",
+          "defense",
+          "government",
+          "department of defense"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Maxwell Zeff"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.550268"
+    },
+    {
+      "id": "wired-efa368f91b11",
+      "title": "ByteDance’s AI Ambitions Are Being Hampered by Compute Restraints and Copyright Concerns",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/made-in-china-bytedances-ai-ambitions-are-being-hampered-by-compute-restraints/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "ByteDance’s AI Ambitions Are Being Hampered by Compute Restraints and Copyright Concerns",
+        "keywords": [
+          "business",
+          "made in china",
+          "china",
+          "bytedance",
+          "artificial intelligence",
+          "generative ai",
+          "video analysis"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Zeyi Yang"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.550288"
+    },
+    {
+      "id": "wired-c7977af93cc2",
+      "title": "It’s Peak Season for Bird-Watchers to Spot Migratory Hummingbirds, and Our Favorite Feeder Is on Sale",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/its-time-to-put-out-your-hummingbird-feeders-2026/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "It’s Peak Season for Bird-Watchers to Spot Migratory Hummingbirds, and Our Favorite Feeder Is on Sale",
+        "keywords": [
+          "gear",
+          "gear / deals",
+          "animals",
+          "birds",
+          "animal behavior",
+          "outdoors",
+          "shopping",
+          "deals"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Kat Merck"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.550309"
+    },
+    {
+      "id": "wired-c15b7b4c5dd6",
+      "title": "The 10 Best Shows to Stream Right Now (March 2026)",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/the-best-shows-to-stream-right-now/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "The 10 Best Shows to Stream Right Now (March 2026)",
+        "keywords": [
+          "culture",
+          "culture / tv",
+          "tv",
+          "streaming",
+          "netflix",
+          "hbo",
+          "television",
+          "hulu",
+          "disney",
+          "culture guides"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Jennifer M. Wood"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.550329"
+    },
+    {
+      "id": "wired-3b2aceb0f426",
+      "title": "The Controversies Finally Caught Up to Kristi Noem",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/the-controversies-finally-caught-up-to-kristi-noem/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "The Controversies Finally Caught Up to Kristi Noem",
+        "keywords": [
+          "security",
+          "security / national security",
+          "politics",
+          "national affairs",
+          "donald trump",
+          "department of homeland security",
+          "customs and border protection",
+          "you're fired"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Molly Taft, Dell Cameron"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.550348"
+    },
+    {
+      "id": "wired-af6c5e037327",
+      "title": "Why Fandom Discourse Feels Extra Cringe Right Now",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/why-fandom-discourse-feels-extra-cringe-right-now/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Why Fandom Discourse Feels Extra Cringe Right Now",
+        "keywords": [
+          "culture",
+          "culture / digital culture",
+          "twitter",
+          "internet",
+          "social media",
+          "tumblr",
+          "fandom",
+          "porn",
+          "censorship",
+          "tmi"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Kat Tenbarge"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.550367"
+    },
+    {
+      "id": "wired-d4b371405dc7",
+      "title": "The Best Roku TV Is $210 Off",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/roku-pro-series-deal-326/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "The Best Roku TV Is $210 Off",
+        "keywords": [
+          "gear",
+          "gear / deals",
+          "gear / products",
+          "gear / products / televisions",
+          "tvs",
+          "shopping",
+          "home entertainment",
+          "television",
+          "deals",
+          "deal of the day"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Brad Bourque"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.550386"
+    },
+    {
+      "id": "wired-83efb3ef8df0",
+      "title": "Apple Blocks US Users From Downloading ByteDance’s Chinese Apps",
+      "source": {
+        "name": "Wired",
+        "type": "blog",
+        "url": "https://www.wired.com/story/bytedance-apps-are-no-longer-available-in-us-app-stores/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Apple Blocks US Users From Downloading ByteDance’s Chinese Apps",
+        "keywords": [
+          "business",
+          "business / regulation",
+          "business / social media",
+          "bytedance",
+          "china",
+          "tiktok",
+          "app stores",
+          "app store",
+          "apple",
+          "google"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.wired.com/feed/rss",
+        "author": "Zeyi Yang"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.550407"
+    },
+    {
+      "id": "ars-technica-79eff7cbc5d3",
+      "title": "Workers report watching Ray-Ban Meta-shot footage of people using the bathroom",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/gadgets/2026/03/workers-report-watching-ray-ban-meta-shot-footage-of-people-using-the-bathroom/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Meta accused of \"concealing the facts\" about smart glass users' privacy.",
+        "keywords": [
+          "ai",
+          "policy",
+          "tech",
+          "ai privacy",
+          "lawsuit",
+          "meta",
+          "privacy",
+          "ray-ban",
+          "smart glasses"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Scharon Harding"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.784582"
+    },
+    {
+      "id": "ars-technica-1c1dd085f2fa",
+      "title": "MS exec: Microsoft's next console will play \"Xbox and PC games\"",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/gaming/2026/03/ms-exec-microsofts-next-console-will-play-xbox-and-pc-games/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Project Helix is set to open the closed-console ecosystem, but the details will matter.",
+        "keywords": [
+          "gaming",
+          "console",
+          "microsoft",
+          "sharma",
+          "windows",
+          "xbox"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Kyle Orland"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.784607"
+    },
+    {
+      "id": "ars-technica-91e80545e759",
+      "title": "RFK Jr.’s anti-vaccine policies are \"unreviewable,\" DOJ lawyer tells judge",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/health/2026/03/rfk-jr-can-promote-getting-measles-with-impunity-doj-lawyer-tells-judge/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "The startling claim came amid a lawsuit from the American Academy of Pediatrics.",
+        "keywords": [
+          "health",
+          "aap",
+          "anti-vaccine",
+          "lawsuit",
+          "lawyer",
+          "robert f kennedy jr",
+          "vaccine"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Beth Mole"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.784630"
+    },
+    {
+      "id": "ars-technica-86ecd82af583",
+      "title": "Amazon appears to be down, with over 20,000 reported problems",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/gadgets/2026/03/amazon-appears-to-be-down-with-over-20000-reported-problems/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Problems viewing products and checking out.",
+        "keywords": [
+          "tech",
+          "amazon"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Scharon Harding"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.784645"
+    },
+    {
+      "id": "ars-technica-73036afbd82a",
+      "title": "OpenAI introduces GPT-5.4 with more knowledge-work capability",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/ai/2026/03/openai-introduces-gpt-5-4-with-more-knowledge-work-capability/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Updates come amid user blowback over the company's Pentagon deal.",
+        "keywords": [
+          "ai",
+          "anthropic",
+          "chatgpt",
+          "claude",
+          "gpt-5.4",
+          "gpt-5.4 pro",
+          "gpt-5.4 thinking",
+          "llm",
+          "openai"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Samuel Axon"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.784663"
+    },
+    {
+      "id": "ars-technica-d46e2b4a453b",
+      "title": "The Boys S5 trailer tees up a bloody final season",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/culture/2026/03/the-boys-s5-trailer-tees-up-a-bloody-final-season/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "\"My power is absolute. At heights no one ever dreamed of. But I have a bigger destiny.\"",
+        "keywords": [
+          "culture",
+          "amazon video",
+          "the boys"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Jennifer Ouellette"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.784680"
+    },
+    {
+      "id": "ars-technica-0466614fcd93",
+      "title": "Trump gets data center companies to pledge to pay for power generation",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/tech-policy/2026/03/leading-ai-datacenter-companies-sign-pledge-to-buy-their-own-power/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "With no enforcement and questionable economics, it may not make a difference.",
+        "keywords": [
+          "biz & it",
+          "policy",
+          "coal",
+          "data centers",
+          "energy",
+          "natural gas",
+          "nuclear",
+          "renewables",
+          "trump administration"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "John Timmer"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.784699"
+    },
+    {
+      "id": "ars-technica-2f0b46e7249b",
+      "title": "Nerve damage, energy management, and Apple TV: F1 in 2026 starts today",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/cars/2026/03/nerve-damage-energy-management-and-apple-tv-f1-in-2026-starts-today/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Drivers aren't happy about energy management, and one team won't finish the race.",
+        "keywords": [
+          "cars",
+          "f1",
+          "formula 1"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Jonathan M. Gitlin"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.784714"
+    },
+    {
+      "id": "ars-technica-b36298dea236",
+      "title": "Lanterns teaser swaps superhero hijinks for gritty realism",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/culture/2026/03/lanterns-teaser-swaps-superhero-hijinks-for-gritty-realism/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "DC's Green Lantern is reimagined as part True Detective, part Slow Horses, and we're here for it.",
+        "keywords": [
+          "culture",
+          "dcu",
+          "dcu chapter one",
+          "entertainment",
+          "hbo",
+          "hbo max",
+          "james gunn",
+          "lanterns",
+          "streaming television",
+          "trailers"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Jennifer Ouellette"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.784736"
+    },
+    {
+      "id": "ars-technica-8e23c5f12896",
+      "title": "Congress extends ISS and tells NASA to get moving on private space stations",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/space/2026/03/congress-steps-up-pressure-on-nasa-to-support-private-space-stations/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "\"We were happy to see the renewed commitment to transition from the ISS.\"",
+        "keywords": [
+          "space",
+          "axiom space",
+          "blue origin",
+          "commercial space stations",
+          "cruz",
+          "nasa",
+          "senate",
+          "space",
+          "vast",
+          "voyager"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Eric Berger"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.784755"
+    },
+    {
+      "id": "ars-technica-c6fa311f2a3a",
+      "title": "Musk testifies tweet that led to $44 billion lawsuit \"may not have been my wisest\"",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/tech-policy/2026/03/musk-testifies-tweet-that-led-to-44-billion-lawsuit-may-not-have-been-my-wisest/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Elon Musk takes the stand in a San Francisco courtroom.",
+        "keywords": [
+          "policy",
+          "elon musk",
+          "elon musk twitter",
+          "sec",
+          "syndication",
+          "twitter",
+          "xai"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Stephen Morris, Financial Times"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.784772"
+    },
+    {
+      "id": "ars-technica-260336341dac",
+      "title": "macOS Tahoe 26.3.1 update will \"upgrade\" your M5's CPU to new \"super\" cores",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/gadgets/2026/03/macos-tahoe-26-3-1-update-will-upgrade-your-m5s-cpu-to-new-super-cores/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "In otherwise minor software update, macOS now uses M5's new nomenclature.",
+        "keywords": [
+          "apple",
+          "tech",
+          "apple",
+          "apple m5",
+          "m5 macbook pro",
+          "mac"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Andrew Cunningham"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.784788"
+    },
+    {
+      "id": "ars-technica-51a716220288",
+      "title": "TerraPower gets OK to start construction of its first nuclear plant",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/science/2026/03/terrapower-gets-ok-to-start-construction-of-its-first-nuclear-plant/",
+        "published_date": "2026-03-04"
+      },
+      "content": {
+        "abstract": "Plant won't be done until 2030 at the earliest, and it still needs an operating license.",
+        "keywords": [
+          "science",
+          "natrium",
+          "nrc",
+          "nuclear power",
+          "nuclear regulatory commission",
+          "power",
+          "reactor",
+          "terrapower"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "John Timmer"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.784806"
+    },
+    {
+      "id": "ars-technica-1d44ba943395",
+      "title": "Space Command chief throws cold water on the question of UAPs in space",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/space/2026/03/space-command-chief-throws-cold-water-on-the-question-of-uaps-in-space/",
+        "published_date": "2026-03-04"
+      },
+      "content": {
+        "abstract": "\"I am not aware of anything that is extraterrestrial, other than comets and things like that.\"",
+        "keywords": [
+          "science",
+          "space",
+          "military space",
+          "space command",
+          "space force",
+          "uap"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "Stephen Clark"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.784824"
+    },
+    {
+      "id": "ars-technica-64608fff75c0",
+      "title": "Large genome model: Open source AI trained on trillions of bases",
+      "source": {
+        "name": "Ars Technica",
+        "type": "blog",
+        "url": "https://arstechnica.com/science/2026/03/large-genome-model-open-source-ai-trained-on-trillions-of-bases/",
+        "published_date": "2026-03-04"
+      },
+      "content": {
+        "abstract": "System can identify genes, regulatory sequences, splice sites, and more.",
+        "keywords": [
+          "ai",
+          "science",
+          "biology",
+          "dna",
+          "genes",
+          "genetics",
+          "genomics",
+          "training"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://feeds.arstechnica.com/arstechnica/index",
+        "author": "John Timmer"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:41.784841"
+    },
+    {
+      "id": "carbon-brief-37b8f1b729cc",
+      "title": "Analysis: UK emissions fall 2.4% in 2025 as coal hits 400-year low",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.carbonbrief.org/analysis-uk-emissions-fall-2-4-in-2025-as-coal-hits-400-year-low/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "The UK’s greenhouse gas emissions fell by 2.4% in 2025 to their lowest level in... The post Analysis: UK emissions fall 2.4% in 2025 as coal hits 400-year low appeared first on Carbon Brief.",
+        "keywords": [
+          "emissions",
+          "uk emissions",
+          "uk policy",
+          "decoupling",
+          "greenhouse gas emissions",
+          "policy",
+          "uk"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.carbonbrief.org/feed/",
+        "author": "Carbon Brief Staff"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:42.082815"
+    },
+    {
+      "id": "carbon-brief-5e6f48dc3eaf",
+      "title": "Q&A: What the EU’s new industry and ‘Made in Europe’ rules mean for climate action",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.carbonbrief.org/qa-what-the-eus-new-industry-and-made-in-europe-rules-mean-for-climate-action/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "The European Commission has put forward a plan to boost production of EU-made, low-carbon steel,... The post Q&amp;A: What the EU’s new industry and ‘Made in Europe’ rules mean for climate action appeared first on Carbon Brief.",
+        "keywords": [
+          "eu policy",
+          "eu",
+          "europe",
+          "policy"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.carbonbrief.org/feed/",
+        "author": "Carbon Brief Staff"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:42.082842"
+    },
+    {
+      "id": "carbon-brief-ec5ef2ef0400",
+      "title": "China Briefing 5 March 2026: New five-year climate goals revealed at ‘two sessions’ meeting",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.carbonbrief.org/china-briefing-5-march-2026-new-five-year-climate-goals-revealed-at-two-sessions-meeting/",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "Welcome to Carbon Brief’s China Briefing. China Briefing handpicks and explains the most important climate... The post China Briefing 5 March 2026: New five-year climate goals revealed at ‘two sessions’ meeting appeared first on Carbon Brief.",
+        "keywords": [
+          "china briefing"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.carbonbrief.org/feed/",
+        "author": "Anika Patel"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:42.082864"
+    },
+    {
+      "id": "carbon-brief-875de798f10b",
+      "title": "Analysis: Half of nations meet UN deadline for nature-loss reporting",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "blog",
+        "url": "https://www.carbonbrief.org/analysis-half-of-nations-meet-un-deadline-for-nature-loss-reporting/",
+        "published_date": "2026-03-02"
+      },
+      "content": {
+        "abstract": "Half of nations have met a UN deadline to report on how they are tackling... The post Analysis: Half of nations meet UN deadline for nature-loss reporting appeared first on Carbon Brief.",
+        "keywords": [
+          "nature policy",
+          "biodiversity",
+          "biodiversity loss",
+          "biodiversity talks",
+          "cbd",
+          "cop17",
+          "cop17 biodiversity summit",
+          "nature",
+          "nature loss",
+          "nature policy"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://www.carbonbrief.org/feed/",
+        "author": "Daisy Dunne"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:42.082889"
+    },
+    {
+      "id": "aeon-magazine-1dbd73a2d05a",
+      "title": "After rain",
+      "source": {
+        "name": "Aeon Magazine",
+        "type": "blog",
+        "url": "https://aeon.co/videos/the-joys-that-follow-rain-an-animated-aboriginal-artwork?utm_source=rss-feed",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "After rain",
+        "keywords": [
+          "after",
+          "rain",
+          "after",
+          "rain"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://aeon.co/feed.rss",
+        "author": "Aeon Video"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:44.191555"
+    },
+    {
+      "id": "aeon-magazine-a0e30a44b55f",
+      "title": "On her own terms",
+      "source": {
+        "name": "Aeon Magazine",
+        "type": "blog",
+        "url": "https://aeon.co/essays/what-we-can-learn-from-doris-lessings-experiments-in-living?utm_source=rss-feed",
+        "published_date": "2026-03-05"
+      },
+      "content": {
+        "abstract": "On her own terms",
+        "keywords": [
+          "terms",
+          "terms"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://aeon.co/feed.rss",
+        "author": "Catherine Taylor"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:44.191586"
+    },
+    {
+      "id": "aeon-magazine-faac7682fe36",
+      "title": "Exploratorium",
+      "source": {
+        "name": "Aeon Magazine",
+        "type": "blog",
+        "url": "https://aeon.co/videos/museum-goers-toy-with-reality-in-this-oscar-nominated-short?utm_source=rss-feed",
+        "published_date": "2026-03-04"
+      },
+      "content": {
+        "abstract": "Exploratorium",
+        "keywords": [
+          "exploratorium",
+          "exploratorium"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://aeon.co/feed.rss",
+        "author": "Aeon Video"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:44.191609"
+    },
+    {
+      "id": "aeon-magazine-111804a10637",
+      "title": "The insurance catastrophe",
+      "source": {
+        "name": "Aeon Magazine",
+        "type": "blog",
+        "url": "https://aeon.co/essays/how-do-we-deal-with-the-catastrophe-of-uninsurability?utm_source=rss-feed",
+        "published_date": "2026-03-03"
+      },
+      "content": {
+        "abstract": "The insurance catastrophe",
+        "keywords": [
+          "insurance",
+          "catastrophe",
+          "insurance",
+          "catastrophe"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://aeon.co/feed.rss",
+        "author": "Gavin Evans"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:44.191630"
+    },
+    {
+      "id": "aeon-magazine-9812b9967d14",
+      "title": "Great art explained: Ivan the Terrible and His Son Ivan on 16 November 1581",
+      "source": {
+        "name": "Aeon Magazine",
+        "type": "blog",
+        "url": "https://aeon.co/videos/why-this-once-banned-russian-painting-remains-controversial?utm_source=rss-feed",
+        "published_date": "2026-03-02"
+      },
+      "content": {
+        "abstract": "Great art explained: Ivan the Terrible and His Son Ivan on 16 November 1581",
+        "keywords": [
+          "great",
+          "explained:",
+          "ivan",
+          "terrible",
+          "ivan",
+          "november",
+          "1581",
+          "great",
+          "explained:",
+          "ivan"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://aeon.co/feed.rss",
+        "author": "Aeon Video"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:44.191655"
+    },
+    {
+      "id": "aeon-magazine-e17ae7d7f270",
+      "title": "Who is Walter Mignolo?",
+      "source": {
+        "name": "Aeon Magazine",
+        "type": "blog",
+        "url": "https://aeon.co/essays/who-is-walter-mignolo-architect-of-decoloniality?utm_source=rss-feed",
+        "published_date": "2026-03-02"
+      },
+      "content": {
+        "abstract": "Who is Walter Mignolo?",
+        "keywords": [
+          "walter",
+          "mignolo?",
+          "walter",
+          "mignolo?"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://aeon.co/feed.rss",
+        "author": "Federico Perelmuter"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:44.191674"
+    },
+    {
+      "id": "ai-ethics-brief-e7e7488e6ed8",
+      "title": "The AI Ethics Brief #185: When AI Goes to War",
+      "source": {
+        "name": "AI Ethics Brief",
+        "type": "blog",
+        "url": "https://brief.montrealethics.ai/p/the-ai-ethics-brief-185-when-ai-goes",
+        "published_date": "2026-03-03"
+      },
+      "content": {
+        "abstract": "Verification collapse, procurement politics, and the governance gap widening beneath both.",
+        "keywords": [
+          "ethics",
+          "brief",
+          "#185:",
+          "when",
+          "goes",
+          "verification",
+          "collapse,",
+          "procurement",
+          "politics,",
+          "governance"
+        ],
+        "language": "en"
+      },
+      "metadata": {
+        "feed_source": "https://brief.montrealethics.ai/feed",
+        "author": "Montreal AI Ethics Institute"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-06T15:54:44.683859"
+    }
+  ]
+}

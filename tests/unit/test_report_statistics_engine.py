@@ -788,6 +788,49 @@ class TestIntegratedEvolutionStatistics:
         assert ph["INT_EVOLUTION_CROSS_TABLE"] == engine._empty_cross_evolution_placeholder()
         assert ph["EVOLUTION_ACTIVE_THREADS"] == "0"  # no evolution data
 
+    def test_build_placeholder_map_integrated_has_timeline_summary(self):
+        """Integrated mode should always include INT_TIMELINE_SUMMARY (fallback message)."""
+        stats = {
+            "total_signals": 5,
+            "raw_distributions": {"steeps": {"E": 2, "T": 2, "S": 1, "P": 0, "E_Environmental": 0, "s": 0}},
+        }
+        ph = engine.build_placeholder_map(stats, "integrated")
+        assert "INT_TIMELINE_SUMMARY" in ph
+        # Without timeline_summary_path, should return fallback message
+        assert "타임라인" in ph["INT_TIMELINE_SUMMARY"] or "Timeline" in ph["INT_TIMELINE_SUMMARY"]
+
+    def test_build_placeholder_map_integrated_with_timeline_file(self, tmp_path):
+        """Integrated mode with valid timeline_summary_path should load file content."""
+        summary_file = tmp_path / "timeline-summary-2026-03-06.txt"
+        summary_file.write_text("Test timeline summary content.", encoding="utf-8")
+        stats = {
+            "total_signals": 5,
+            "raw_distributions": {"steeps": {"E": 2, "T": 2, "S": 1, "P": 0, "E_Environmental": 0, "s": 0}},
+        }
+        ph = engine.build_placeholder_map(
+            stats, "integrated", timeline_summary_path=str(summary_file),
+        )
+        assert ph["INT_TIMELINE_SUMMARY"] == "Test timeline summary content."
+
+    def test_build_placeholder_map_non_integrated_no_timeline(self):
+        """Non-integrated workflows should NOT include INT_TIMELINE_SUMMARY."""
+        stats = {
+            "total_signals": 5,
+            "raw_distributions": {"steeps": {"E": 2, "T": 2, "S": 1, "P": 0, "E_Environmental": 0, "s": 0}},
+        }
+        ph = engine.build_placeholder_map(stats, "standard")
+        assert "INT_TIMELINE_SUMMARY" not in ph
+
+    def test_load_timeline_summary_missing_file(self):
+        """load_timeline_summary with non-existent path returns fallback."""
+        result = engine.load_timeline_summary("/nonexistent/path.txt", language="en")
+        assert "not available" in result
+
+    def test_load_timeline_summary_none_path(self):
+        """load_timeline_summary with None path returns fallback."""
+        result = engine.load_timeline_summary(None, language="ko")
+        assert "사용할 수 없습니다" in result
+
 
 # ---------------------------------------------------------------------------
 # R1: Key-Variant Fallback Tests

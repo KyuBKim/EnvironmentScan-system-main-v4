@@ -1,0 +1,10 @@
+{
+  "MultiGlobalNews": {
+    "best_strategy": "default",
+    "rss_available": true,
+    "last_success_at": "",
+    "success_count": 0,
+    "failure_count": 1,
+    "avg_articles_per_crawl": 0.0
+  }
+}

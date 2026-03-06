@@ -552,6 +552,12 @@
 
 {{SECTION_7_5_DIMENSION_ANALYSIS}}
 
+### 7.6 시그널 진화 타임라인 요약
+
+> 전체 타임라인 맵: `timeline-map-{date}.md` 참고
+
+{{INT_TIMELINE_SUMMARY}}
+
 ---
 
 ## 8. 부록

@@ -1,0 +1,9 @@
+{
+  "workflow": "wf2-arxiv",
+  "date": "2026-03-05",
+  "total_raw": 601,
+  "duplicates_found": 0,
+  "new_signals": 601,
+  "dedup_rate": 0.0,
+  "method": "deterministic_4stage"
+}
