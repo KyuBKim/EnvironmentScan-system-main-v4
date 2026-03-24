@@ -13,6 +13,7 @@ This project uses Claude Code's agent architecture. The orchestration hierarchy 
 ```
 master-orchestrator.md                    ← Top-level entry point
 ├── env-scan-orchestrator.md              ← WF1 (General)
+│   └── exploration-orchestrator.md       ← WF1 Source Exploration (Stage C)
 ├── arxiv-scan-orchestrator.md            ← WF2 (arXiv)
 ├── naver-scan-orchestrator.md            ← WF3 (Naver News)
 ├── multiglobal-news-scan-orchestrator.md ← WF4 (Multi&Global-News)
@@ -23,7 +24,7 @@ master-orchestrator.md                    ← Top-level entry point
 └── workers/
     ├── report-merger.md                  ← Integration
     ├── phase2-analyst.md                 ← Unified LLM agent (Steps 2.1+2.2)
-    └── (38 worker agents total)          ← Shared + WF-specific + Timeline workers
+    └── (37 worker agents total)          ← Shared + WF-specific + Timeline workers
 ```
 
 Agent definitions live in `.claude/agents/`. Worker agents live in `.claude/agents/workers/`. These define detailed per-step behaviors that extend the methodology in AGENTS.md.
@@ -42,10 +43,16 @@ Agent definitions live in `.claude/agents/`. Worker agents live in `.claude/agen
 | `/env-scan:review-analysis` | Review analysis and adjust priorities |
 | `/env-scan:approve` | Approve final report |
 | `/env-scan:revision` | Request report revision with feedback |
+| `/translate` | Translate EN reports to Korean (auto-detect missing KO, or specify date/file) |
 
 ### Skills
 
-The `env-scanner` skill (`.claude/skills/env-scanner/SKILL.md`) provides the full interface definition. Reference files under `.claude/skills/env-scanner/references/` contain report skeletons, format guides, and STEEPs framework details.
+| Skill | Description |
+|-------|-------------|
+| `env-scanner` | Quadruple Workflow Environmental Scanning System (`.claude/skills/env-scanner/SKILL.md`) |
+| `translator` | EN→KO report translation with terminology map + structural validation (`.claude/skills/translator/SKILL.md`) |
+
+Reference files under `.claude/skills/env-scanner/references/` contain report skeletons, format guides, and STEEPs framework details.
 
 ### Task Management
 

@@ -68,7 +68,9 @@ def load_sot_config(registry_path: str) -> dict:
     Returns dict with all timeline_map settings, or defaults if missing.
     """
     defaults = {
-        "lookback_days": 7,
+        "lookback_days": 0,
+        "include_faded_threads": True,
+        "trend_analysis_min_appearances": 3,
         "min_signals_for_theme": 2,
         "top_n_psst": 10,
         "emergent_cluster_min_size": 3,
@@ -129,8 +131,14 @@ def collect_signals(
     evolution_indices: Dict[str, dict],
     lookback_days: int,
     scan_date: str,
+    include_faded_threads: bool = True,
 ) -> List[dict]:
     """Collect all signals from evolution maps and indices.
+
+    Args:
+        lookback_days: 0 = unlimited (use ALL accumulated history).
+                       >0 = filter to [scan_date - lookback_days, scan_date].
+        include_faded_threads: If True, include FADED threads (for full timeline analysis).
 
     Returns flat list of signal dicts with source_wf tag.
     """
@@ -155,10 +163,14 @@ def collect_signals(
             if sid:
                 seen_ids.add(sid)
 
-    # From evolution indices (historical, within lookback window)
+    # From evolution indices (historical data)
+    # lookback_days == 0 → unlimited (全期間), >0 → windowed
     try:
         end_date = datetime.strptime(scan_date, "%Y-%m-%d")
-        start_date = end_date - timedelta(days=lookback_days)
+        if lookback_days > 0:
+            start_date = end_date - timedelta(days=lookback_days)
+        else:
+            start_date = None  # unlimited — include ALL accumulated history
     except ValueError:
         return all_signals
 
@@ -172,6 +184,10 @@ def collect_signals(
         else:
             threads_iter = threads_raw.items()
         for thread_id, thread in threads_iter:
+            # Skip FADED threads if not requested (v3.4.0)
+            if not include_faded_threads and thread.get("state") == "FADED":
+                continue
+
             canonical_title = thread.get("canonical_title", "")
             primary_category = thread.get("primary_category", "")
             keywords = thread.get("keywords", [])
@@ -188,7 +204,7 @@ def collect_signals(
                     app_date = datetime.strptime(app_date_str, "%Y-%m-%d")
                 except ValueError:
                     continue
-                if not (start_date <= app_date <= end_date):
+                if start_date and not (start_date <= app_date <= end_date):
                     continue
                 psst_history = thread.get("psst_history", [])
                 psst_score = psst_history[-1].get("score", 0) if psst_history else 0
@@ -216,7 +232,7 @@ def collect_signals(
                         app_date = datetime.strptime(app_date_str, "%Y-%m-%d")
                     except ValueError:
                         continue
-                    if not (start_date <= app_date <= end_date):
+                    if start_date and not (start_date <= app_date <= end_date):
                         continue
                     entry = {
                         "signal_id": sid,
@@ -234,6 +250,137 @@ def collect_signals(
                         seen_ids.add(sid)
 
     return all_signals
+
+
+# ---------------------------------------------------------------------------
+# 2b. Thread Trend Computation (v3.4.0 — Python 원천봉쇄)
+# ---------------------------------------------------------------------------
+
+def _least_squares_slope(xs: List[float], ys: List[float]) -> float:
+    """Simple least-squares slope. No external dependencies."""
+    n = len(xs)
+    if n < 2:
+        return 0.0
+    x_mean = sum(xs) / n
+    y_mean = sum(ys) / n
+    num = sum((x - x_mean) * (y - y_mean) for x, y in zip(xs, ys))
+    den = sum((x - x_mean) ** 2 for x in xs)
+    return num / den if den != 0 else 0.0
+
+
+def compute_thread_trend(
+    thread: dict,
+    min_appearances: int = 3,
+    slope_thresholds: Optional[dict] = None,
+) -> dict:
+    """
+    Compute trend direction, velocity, and strength from full accumulated data.
+    Python 원천봉쇄 — deterministic, no LLM judgment.
+
+    Args:
+        thread: A thread dict from evolution-index.json
+        min_appearances: Minimum appearances for trend computation (SOT: trend_analysis_min_appearances)
+        slope_thresholds: {"critical_slope": 5.0, "high_slope": 2.0} from SOT escalation_thresholds
+
+    Returns:
+        dict with direction, velocity, strength, slope, span_days, first/last_seen, total_appearances
+    """
+    appearances_raw = thread.get("appearances", [])
+
+    # Handle non-list appearances (WF3/WF4 may store as int count)
+    if not isinstance(appearances_raw, list) or len(appearances_raw) < min_appearances:
+        return {
+            "direction": "INSUFFICIENT_DATA",
+            "velocity": 0.0,
+            "strength": 0.0,
+            "slope": 0.0,
+            "total_appearances": len(appearances_raw) if isinstance(appearances_raw, list) else 0,
+            "span_days": 0,
+            "first_seen": thread.get("created_date", ""),
+            "last_seen": thread.get("last_seen_date", ""),
+        }
+
+    # Sort by date
+    sorted_apps = sorted(appearances_raw, key=lambda a: a.get("scan_date", ""))
+
+    # Date span
+    try:
+        first_dt = datetime.strptime(sorted_apps[0].get("scan_date", ""), "%Y-%m-%d")
+        last_dt = datetime.strptime(sorted_apps[-1].get("scan_date", ""), "%Y-%m-%d")
+        span_days = max((last_dt - first_dt).days, 1)
+    except (ValueError, TypeError):
+        span_days = 1
+        first_dt = None
+        last_dt = None
+
+    # Direction: slope of pSST scores over time (days from first appearance)
+    dates_numeric = []
+    scores = []
+    for app in sorted_apps:
+        try:
+            app_dt = datetime.strptime(app.get("scan_date", ""), "%Y-%m-%d")
+            day_offset = (app_dt - first_dt).days if first_dt else 0
+            dates_numeric.append(float(day_offset))
+            scores.append(float(app.get("psst_score", 0) or 0))
+        except (ValueError, TypeError):
+            continue
+
+    slope = _least_squares_slope(dates_numeric, scores) if len(dates_numeric) >= 2 else 0.0
+
+    # Velocity: appearance frequency (appearances / span_days)
+    velocity = len(sorted_apps) / span_days
+
+    # Strength: average of last 3 pSST scores
+    recent_scores = scores[-3:] if scores else [0]
+    strength = sum(recent_scores) / len(recent_scores)
+
+    # Direction classification (thresholds from SOT escalation_thresholds)
+    t = slope_thresholds or {}
+    high_slope = t.get("high_slope", 2.0)
+    low_slope = high_slope * 0.25  # gradual threshold = 25% of high
+    if slope > high_slope:
+        direction = "ACCELERATING"
+    elif slope < -high_slope:
+        direction = "DECELERATING"
+    elif slope > low_slope:
+        direction = "GRADUAL_RISE"
+    elif slope < -low_slope:
+        direction = "GRADUAL_DECLINE"
+    else:
+        direction = "STABLE"
+
+    return {
+        "direction": direction,
+        "velocity": round(velocity, 4),
+        "strength": round(strength, 2),
+        "slope": round(slope, 4),
+        "total_appearances": len(sorted_apps),
+        "span_days": span_days,
+        "first_seen": sorted_apps[0].get("scan_date", ""),
+        "last_seen": sorted_apps[-1].get("scan_date", ""),
+    }
+
+
+def compute_all_thread_trends(
+    evolution_indices: Dict[str, dict],
+    min_appearances: int = 3,
+    slope_thresholds: Optional[dict] = None,
+) -> Dict[str, dict]:
+    """Compute trends for ALL threads across all WFs. Returns {thread_id: trend_dict}."""
+    all_trends = {}
+    for wf_label, index_data in evolution_indices.items():
+        if not index_data:
+            continue
+        threads = index_data.get("threads", {})
+        if isinstance(threads, list):
+            threads = {t.get("thread_id", f"anon-{i}"): t for i, t in enumerate(threads)}
+        for thread_id, thread in threads.items():
+            trend = compute_thread_trend(thread, min_appearances, slope_thresholds)
+            trend["source_wf"] = wf_label
+            trend["state"] = thread.get("state", "UNKNOWN")
+            trend["canonical_title"] = thread.get("canonical_title", "")
+            all_trends[thread_id] = trend
+    return all_trends
 
 
 # ---------------------------------------------------------------------------
@@ -709,9 +856,18 @@ def run_theme_discovery(
         "critical_slope": 5.0, "high_slope": 2.0, "burst_factor": 2.0,
     })
 
-    # Collect all signals
-    all_signals = collect_signals(evolution_maps, evolution_indices, lookback_days, scan_date)
-    logger.info(f"Collected {len(all_signals)} total signals")
+    # Collect all signals (v3.4.0: include_faded_threads from SOT)
+    include_faded = sot_config.get("include_faded_threads", True)
+    all_signals = collect_signals(
+        evolution_maps, evolution_indices, lookback_days, scan_date,
+        include_faded_threads=include_faded,
+    )
+    logger.info(f"Collected {len(all_signals)} total signals (lookback={lookback_days}, include_faded={include_faded})")
+
+    # Compute full-history thread trends (v3.4.0)
+    min_app = sot_config.get("trend_analysis_min_appearances", 3)
+    thread_trends = compute_all_thread_trends(evolution_indices, min_appearances=min_app, slope_thresholds=esc_thresholds)
+    logger.info(f"Computed trends for {len(thread_trends)} threads")
 
     # Match to config themes
     theme_signals, unmatched = match_all_signals(all_signals, themes)
@@ -777,6 +933,8 @@ def run_theme_discovery(
         "engine": ENGINE_ID,
         "scan_date": scan_date,
         "lookback_days": lookback_days,
+        "lookback_mode": "unlimited" if lookback_days == 0 else f"{lookback_days}_days",
+        "include_faded_threads": include_faded,
         "total_signals_collected": len(all_signals),
         "config_themes": config_themes,
         "emergent_themes": emergent_themes,
@@ -786,6 +944,7 @@ def run_theme_discovery(
             if not any(s in et.get("signal_details", []) for et in emergent_themes)
         ],
         "compound_escalations": compound_escalations,
+        "thread_trends": thread_trends,
     }
 
     return output

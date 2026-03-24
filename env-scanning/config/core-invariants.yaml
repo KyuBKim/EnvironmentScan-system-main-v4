@@ -514,10 +514,10 @@ tunable_parameters:
         max_value: 0.90
         max_delta_per_cycle: 0.05
       - path: "system.signal_evolution.lifecycle.fade_threshold_days"
-        current_value: 3
-        min_value: 2
-        max_value: 7
-        max_delta_per_cycle: 1
+        current_value: 14
+        min_value: 3
+        max_value: 30
+        max_delta_per_cycle: 3
       - path: "system.signal_evolution.state_detection.strengthening_psst_delta"
         current_value: 5
         min_value: 3

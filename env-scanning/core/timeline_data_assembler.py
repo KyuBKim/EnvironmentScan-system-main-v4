@@ -722,9 +722,25 @@ def assemble_data_package(
             "compound_escalations": [],
         }
 
-    # 3. Load classified signals
+    # 3. Load classified signals (with context budget guard v3.4.0)
     all_signals_by_wf, wf_counts = load_classified_signals(classified_paths, scan_date=scan_date)
     total_signals = sum(wf_counts.values())
+
+    # Context budget guard: limit signals per WF to top-N by pSST
+    # to prevent LLM context overflow (~200K token budget).
+    # Remaining signals are represented by statistics only.
+    MAX_SIGNALS_PER_WF = sot_config.get("top_n_psst", 10) * 5  # 50 per WF = 200 total max
+    trimmed_counts = {}
+    for wf_label, sigs in all_signals_by_wf.items():
+        if len(sigs) > MAX_SIGNALS_PER_WF:
+            # Sort by pSST descending, keep top-N
+            sigs_sorted = sorted(sigs, key=lambda s: s.get("psst_score", 0), reverse=True)
+            trimmed_counts[wf_label] = len(sigs) - MAX_SIGNALS_PER_WF
+            all_signals_by_wf[wf_label] = sigs_sorted[:MAX_SIGNALS_PER_WF]
+            logger.info(
+                f"Context guard: {wf_label} trimmed {len(sigs)} → {MAX_SIGNALS_PER_WF} signals "
+                f"(dropped {trimmed_counts[wf_label]} low-pSST signals)"
+            )
 
     # 4. Load evolution maps (for additional data)
     evolution_maps: Dict[str, dict] = {}
@@ -756,11 +772,14 @@ def assemble_data_package(
     key_signals_per_theme = compute_key_signals_per_theme(theme_analysis)
     escalation_table_markdown = render_escalation_table_markdown(escalation_confirmed)
 
-    # 11. Compute period
+    # 11. Compute period (v3.4.0: lookback_days=0 means unlimited)
     try:
         end = datetime.strptime(scan_date, "%Y-%m-%d")
-        start = end - timedelta(days=lookback_days - 1)
-        period = f"{start.strftime('%Y-%m-%d')} ~ {scan_date}"
+        if lookback_days > 0:
+            start = end - timedelta(days=lookback_days - 1)
+            period = f"{start.strftime('%Y-%m-%d')} ~ {scan_date}"
+        else:
+            period = f"전체 기간 (unlimited) ~ {scan_date}"
     except ValueError:
         period = f"? ~ {scan_date}"
 
@@ -769,9 +788,12 @@ def assemble_data_package(
         "metadata": {
             "scan_date": scan_date,
             "lookback_days": lookback_days,
+            "lookback_mode": "unlimited" if lookback_days == 0 else f"{lookback_days}_days",
             "period": period,
             "wf_counts": wf_counts,
             "total_signals": total_signals,
+            "signals_trimmed": trimmed_counts if trimmed_counts else None,
+            "max_signals_per_wf": MAX_SIGNALS_PER_WF,
             "assembler_version": VERSION,
         },
         "theme_analysis": theme_analysis,

@@ -492,8 +492,8 @@ def compute_evolution_metrics(thread: dict, min_appearances_for_velocity: int = 
 def detect_faded_threads(
     evolution_index: dict,
     current_date: str,
-    fade_days: int = 3,
-    max_thread_age_days: int = 90,
+    fade_days: int = 14,
+    max_thread_age_days: int = 365,
 ) -> list:
     """Detect threads that should be marked as FADED.
 
@@ -511,8 +511,9 @@ def detect_faded_threads(
         return faded
 
     for thread_id, thread in evolution_index.get("threads", {}).items():
-        if thread.get("state") == "FADED":
-            continue
+        state = thread.get("state", "")
+        if state == "FADED":
+            continue  # Already FADED — detect_unfaded_threads handles restoration
 
         # Condition 1: Not seen for fade_days
         last_seen = thread.get("last_seen_date", "")
@@ -536,6 +537,62 @@ def detect_faded_threads(
             continue
 
     return faded
+
+
+def detect_unfaded_threads(
+    evolution_index: dict,
+    current_date: str,
+    fade_days: int = 14,
+    max_thread_age_days: int = 365,
+) -> list:
+    """Detect FADED threads that should be RESTORED to RECURRING (v3.4.0).
+
+    When fade_threshold_days is increased (e.g., 3→14), previously FADED threads
+    that don't meet the NEW threshold should be restored.
+
+    A FADED thread is restored if BOTH:
+    1. days_since_seen < fade_days (new threshold)
+    2. thread_age <= max_thread_age_days (new threshold)
+
+    Returns list of thread_ids that should be restored to RECURRING.
+    """
+    from datetime import datetime as dt
+    unfaded = []
+    try:
+        current = dt.strptime(current_date, "%Y-%m-%d")
+    except (ValueError, TypeError):
+        return unfaded
+
+    for thread_id, thread in evolution_index.get("threads", {}).items():
+        if thread.get("state") != "FADED":
+            continue
+
+        # Check if thread should NOT be faded under new thresholds
+        should_be_faded = False
+
+        last_seen = thread.get("last_seen_date", "")
+        try:
+            last_dt = dt.strptime(last_seen, "%Y-%m-%d")
+            days_since_seen = (current - last_dt).days
+            if days_since_seen >= fade_days:
+                should_be_faded = True
+        except (ValueError, TypeError):
+            should_be_faded = True  # Can't parse → keep FADED
+
+        if not should_be_faded:
+            created_date = thread.get("created_date", "")
+            try:
+                created_dt = dt.strptime(created_date, "%Y-%m-%d")
+                thread_age = (current - created_dt).days
+                if thread_age > max_thread_age_days:
+                    should_be_faded = True
+            except (ValueError, TypeError):
+                pass
+
+        if not should_be_faded:
+            unfaded.append(thread_id)
+
+    return unfaded
 
 
 # ---------------------------------------------------------------------------
@@ -860,6 +917,17 @@ def track_signal_evolution(
                 },
                 "thread_history_summary": [{"date": scan_date, "title": signal_title, "psst": signal_psst}],
             })
+
+    # Restore unjustly FADED threads under new thresholds (v3.4.0)
+    unfaded_thread_ids = detect_unfaded_threads(
+        evolution_index, scan_date,
+        fade_days=_fade_days, max_thread_age_days=_max_thread_age_days,
+    )
+    for thread_id in unfaded_thread_ids:
+        thread = evolution_index["threads"].get(thread_id, {})
+        thread["state"] = "RECURRING"
+    if unfaded_thread_ids:
+        logger.info(f"Restored {len(unfaded_thread_ids)} FADED threads to RECURRING (new threshold: {_fade_days} days)")
 
     # Detect faded threads
     faded_thread_ids = detect_faded_threads(

@@ -33728,11 +33728,784 @@
         "P_Political"
       ],
       "added_date": "2026-03-20"
+    },
+    {
+      "id": "gen-20260324-001",
+      "title": "AI Algorithms Can Become 'Agents of Chaos' When Given Autonomous Control",
+      "category": "T_Technological",
+      "subcategory": "AI Safety",
+      "confidence": 0.95,
+      "impact_score": 9,
+      "novelty_score": 8,
+      "urgency_score": 9,
+      "cross_impact": [
+        "P_Political",
+        "s_spiritual"
+      ],
+      "keywords": [
+        "AI safety",
+        "autonomous AI",
+        "AI governance"
+      ],
+      "source": "Science Magazine",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "added_date": "2026-03-24",
+      "scan_date": "2026-03-24"
+    },
+    {
+      "id": "gen-20260324-002",
+      "title": "GPT-5.4 Unveiled with 1M Token Context Window and Autonomous Workflow Execution",
+      "category": "T_Technological",
+      "subcategory": "AI Models",
+      "confidence": 0.92,
+      "impact_score": 9,
+      "novelty_score": 7,
+      "urgency_score": 8,
+      "cross_impact": [
+        "E_Economic",
+        "S_Social"
+      ],
+      "keywords": [
+        "GPT-5.4",
+        "OpenAI",
+        "autonomous AI"
+      ],
+      "source": "TechCrunch",
+      "source_reliability": "medium",
+      "published_date": "2026-03-23",
+      "evolution_state": "STRENGTHENING",
+      "evolution_note": "Update to previous GPT-5.4 signal from 2026-03-18",
+      "added_date": "2026-03-24",
+      "scan_date": "2026-03-24"
+    },
+    {
+      "id": "gen-20260324-003",
+      "title": "Strait of Hormuz Crisis: Largest Energy Supply Disruption Since 1970s — 40+ Energy Assets Damaged",
+      "category": "P_Political",
+      "subcategory": "Geopolitics / Energy Security",
+      "confidence": 0.98,
+      "impact_score": 10,
+      "novelty_score": 6,
+      "urgency_score": 10,
+      "cross_impact": [
+        "E_Economic",
+        "E_Environmental",
+        "S_Social"
+      ],
+      "keywords": [
+        "Strait of Hormuz",
+        "Iran war",
+        "energy crisis",
+        "oil price"
+      ],
+      "source": "CNBC / IEA / Multiple",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "evolution_state": "STRENGTHENING",
+      "evolution_note": "Escalation from previous Hormuz signal, now 40+ assets damaged",
+      "added_date": "2026-03-24",
+      "scan_date": "2026-03-24"
+    },
+    {
+      "id": "gen-20260324-004",
+      "title": "CO2 from UK Data Centres Could Be 'Hundreds of Times' Higher Than Government Projections",
+      "category": "E_Environmental",
+      "subcategory": "AI Climate Impact",
+      "confidence": 0.9,
+      "impact_score": 8,
+      "novelty_score": 9,
+      "urgency_score": 7,
+      "cross_impact": [
+        "T_Technological",
+        "P_Political"
+      ],
+      "keywords": [
+        "data centres",
+        "carbon emissions",
+        "AI energy"
+      ],
+      "source": "Carbon Brief",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "added_date": "2026-03-24",
+      "scan_date": "2026-03-24"
+    },
+    {
+      "id": "gen-20260324-005",
+      "title": "Global Growth Forecast Lowered to 2.7% — 35% Recession Probability",
+      "category": "E_Economic",
+      "subcategory": "Global Economic Outlook",
+      "confidence": 0.95,
+      "impact_score": 9,
+      "novelty_score": 6,
+      "urgency_score": 9,
+      "cross_impact": [
+        "P_Political",
+        "S_Social"
+      ],
+      "keywords": [
+        "global growth",
+        "recession risk",
+        "inflation"
+      ],
+      "source": "S&P Global",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "evolution_state": "STRENGTHENING",
+      "evolution_note": "Deepening of earlier global slowdown signal",
+      "added_date": "2026-03-24",
+      "scan_date": "2026-03-24"
+    },
+    {
+      "id": "gen-20260324-006",
+      "title": "Gimlet Labs Raises $80M to Solve AI Inference Bottleneck Across Multiple Chip Architectures",
+      "category": "T_Technological",
+      "subcategory": "AI Infrastructure",
+      "confidence": 0.88,
+      "impact_score": 7,
+      "novelty_score": 8,
+      "urgency_score": 6,
+      "cross_impact": [
+        "E_Economic"
+      ],
+      "keywords": [
+        "AI inference",
+        "chip architecture",
+        "hardware"
+      ],
+      "source": "TechCrunch",
+      "source_reliability": "medium",
+      "published_date": "2026-03-23",
+      "added_date": "2026-03-24",
+      "scan_date": "2026-03-24"
+    },
+    {
+      "id": "gen-20260324-007",
+      "title": "11 Consecutive Hottest Years on Record: Climate Scientists Assess Future Trajectories",
+      "category": "E_Environmental",
+      "subcategory": "Climate Records",
+      "confidence": 0.97,
+      "impact_score": 9,
+      "novelty_score": 7,
+      "urgency_score": 9,
+      "cross_impact": [
+        "P_Political",
+        "E_Economic",
+        "S_Social"
+      ],
+      "keywords": [
+        "climate records",
+        "global warming",
+        "extreme weather"
+      ],
+      "source": "Nature",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "added_date": "2026-03-24",
+      "scan_date": "2026-03-24"
+    },
+    {
+      "id": "gen-20260324-008",
+      "title": "AI-Fueled Delusions: Stanford Study Reveals Chatbots Endorsed Delusional Thinking in 390K+ Messages",
+      "category": "s_spiritual",
+      "subcategory": "AI Ethics / Mental Health",
+      "confidence": 0.93,
+      "impact_score": 8,
+      "novelty_score": 9,
+      "urgency_score": 8,
+      "cross_impact": [
+        "T_Technological",
+        "P_Political"
+      ],
+      "keywords": [
+        "AI safety",
+        "mental health",
+        "chatbot harm"
+      ],
+      "source": "MIT Technology Review",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "added_date": "2026-03-24",
+      "scan_date": "2026-03-24"
+    },
+    {
+      "id": "gen-20260324-009",
+      "title": "What Happens If AI Makes Things Too Easy: Psychology of Frictionless AI",
+      "category": "s_spiritual",
+      "subcategory": "Human Development",
+      "confidence": 0.85,
+      "impact_score": 7,
+      "novelty_score": 8,
+      "urgency_score": 5,
+      "cross_impact": [
+        "T_Technological",
+        "S_Social"
+      ],
+      "keywords": [
+        "AI psychology",
+        "cognitive development",
+        "desirable difficulties"
+      ],
+      "source": "IEEE Spectrum",
+      "source_reliability": "high",
+      "published_date": "2026-03-22",
+      "added_date": "2026-03-24",
+      "scan_date": "2026-03-24"
+    },
+    {
+      "id": "gen-20260324-010",
+      "title": "UN Warns of Dire Fertilizer Shortage as Hormuz Crisis Threatens Global Food Security",
+      "category": "E_Economic",
+      "subcategory": "Food Security",
+      "confidence": 0.95,
+      "impact_score": 9,
+      "novelty_score": 8,
+      "urgency_score": 9,
+      "cross_impact": [
+        "P_Political",
+        "S_Social",
+        "E_Environmental"
+      ],
+      "keywords": [
+        "fertilizer shortage",
+        "food security",
+        "Hormuz crisis"
+      ],
+      "source": "UN News",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "added_date": "2026-03-24",
+      "scan_date": "2026-03-24"
+    },
+    {
+      "id": "gen-20260324-011",
+      "title": "iPhone 17 Pro Runs 400B Parameter LLM On-Device: Mobile AI Paradigm Shift",
+      "category": "T_Technological",
+      "subcategory": "Edge AI",
+      "confidence": 0.82,
+      "impact_score": 8,
+      "novelty_score": 9,
+      "urgency_score": 7,
+      "cross_impact": [
+        "E_Economic",
+        "S_Social"
+      ],
+      "keywords": [
+        "on-device AI",
+        "mobile AI",
+        "edge computing"
+      ],
+      "source": "Hacker News",
+      "source_reliability": "medium",
+      "published_date": "2026-03-23",
+      "added_date": "2026-03-24",
+      "scan_date": "2026-03-24"
+    },
+    {
+      "id": "gen-20260324-012",
+      "title": "Geopolitical Tensions Ease: Treasury Yields Fall as Markets Signal Risk-On Shift",
+      "category": "E_Economic",
+      "subcategory": "Financial Markets",
+      "confidence": 0.9,
+      "impact_score": 7,
+      "novelty_score": 7,
+      "urgency_score": 8,
+      "cross_impact": [
+        "P_Political"
+      ],
+      "keywords": [
+        "Treasury yields",
+        "risk-on rally",
+        "de-escalation"
+      ],
+      "source": "Financial Markets",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "added_date": "2026-03-24",
+      "scan_date": "2026-03-24"
+    },
+    {
+      "id": "gen-20260324-013",
+      "title": "Microplastics Falling From Sky Polluting Forests as Hidden Pollution Reservoirs",
+      "category": "E_Environmental",
+      "subcategory": "Pollution",
+      "confidence": 0.9,
+      "impact_score": 7,
+      "novelty_score": 8,
+      "urgency_score": 6,
+      "cross_impact": [
+        "S_Social"
+      ],
+      "keywords": [
+        "microplastics",
+        "airborne pollution",
+        "forest contamination"
+      ],
+      "source": "ScienceDaily",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "added_date": "2026-03-24",
+      "scan_date": "2026-03-24"
+    },
+    {
+      "id": "gen-20260324-014",
+      "title": "Digital Investment Divide Widens: OECD Analysis Shows Diverging Business Capital Patterns",
+      "category": "E_Economic",
+      "subcategory": "Digital Transformation",
+      "confidence": 0.92,
+      "impact_score": 7,
+      "novelty_score": 7,
+      "urgency_score": 6,
+      "cross_impact": [
+        "T_Technological",
+        "S_Social"
+      ],
+      "keywords": [
+        "digital divide",
+        "business investment",
+        "OECD"
+      ],
+      "source": "CEPR VoxEU",
+      "source_reliability": "high",
+      "published_date": "2026-03-22",
+      "added_date": "2026-03-24",
+      "scan_date": "2026-03-24"
+    },
+    {
+      "id": "gen-20260324-015",
+      "title": "Economic Consequences of Immigration Sudden Stops: Korean Case Study Reveals Firm Contraction",
+      "category": "S_Social",
+      "subcategory": "Labor / Immigration",
+      "confidence": 0.9,
+      "impact_score": 7,
+      "novelty_score": 8,
+      "urgency_score": 7,
+      "cross_impact": [
+        "E_Economic",
+        "P_Political"
+      ],
+      "keywords": [
+        "immigration",
+        "labor market",
+        "Korea"
+      ],
+      "source": "CEPR VoxEU",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "added_date": "2026-03-24",
+      "scan_date": "2026-03-24"
+    },
+    {
+      "id": "gen-20260324-016",
+      "title": "Apple WWDC 2026 to Focus on Major AI Advancements and Siri Overhaul",
+      "category": "T_Technological",
+      "subcategory": "AI Ecosystem",
+      "confidence": 0.88,
+      "impact_score": 7,
+      "novelty_score": 6,
+      "urgency_score": 5,
+      "cross_impact": [
+        "E_Economic"
+      ],
+      "keywords": [
+        "Apple",
+        "WWDC",
+        "Siri",
+        "AI integration"
+      ],
+      "source": "TechCrunch",
+      "source_reliability": "medium",
+      "published_date": "2026-03-23",
+      "added_date": "2026-03-24",
+      "scan_date": "2026-03-24"
+    },
+    {
+      "id": "gen-20260324-018",
+      "title": "OpenAI Pursuing Fully Automated Researcher by 2028",
+      "category": "T_Technological",
+      "subcategory": "AI Research Automation",
+      "confidence": 0.9,
+      "impact_score": 9,
+      "novelty_score": 8,
+      "urgency_score": 7,
+      "cross_impact": [
+        "S_Social",
+        "s_spiritual",
+        "E_Economic"
+      ],
+      "keywords": [
+        "automated research",
+        "AI scientist",
+        "OpenAI"
+      ],
+      "source": "MIT Technology Review",
+      "source_reliability": "high",
+      "published_date": "2026-03-20",
+      "added_date": "2026-03-24",
+      "scan_date": "2026-03-24"
+    },
+    {
+      "id": "gen-20260324-019",
+      "title": "Cursor Admits Coding Model Built on Chinese AI Moonshot/Kimi: Geopolitical Supply Chain Risk",
+      "category": "P_Political",
+      "subcategory": "AI Geopolitics",
+      "confidence": 0.88,
+      "impact_score": 7,
+      "novelty_score": 8,
+      "urgency_score": 7,
+      "cross_impact": [
+        "T_Technological",
+        "E_Economic"
+      ],
+      "keywords": [
+        "Chinese AI",
+        "geopolitics",
+        "AI supply chain"
+      ],
+      "source": "TechCrunch",
+      "source_reliability": "medium",
+      "published_date": "2026-03-22",
+      "added_date": "2026-03-24",
+      "scan_date": "2026-03-24"
+    },
+    {
+      "id": "gen-20260324-020",
+      "title": "Helion Fusion Energy in Talks to Power OpenAI Data Centers (12.5% Output)",
+      "category": "T_Technological",
+      "subcategory": "Fusion Energy",
+      "confidence": 0.85,
+      "impact_score": 8,
+      "novelty_score": 8,
+      "urgency_score": 6,
+      "cross_impact": [
+        "E_Environmental",
+        "E_Economic"
+      ],
+      "keywords": [
+        "fusion energy",
+        "Helion",
+        "OpenAI",
+        "data center power"
+      ],
+      "source": "TechCrunch",
+      "source_reliability": "medium",
+      "published_date": "2026-03-23",
+      "added_date": "2026-03-24",
+      "scan_date": "2026-03-24"
+    },
+    {
+      "id": "gen-20260324-021",
+      "title": "IEA Recommends Emergency Measures: Work From Home, Reduce Speeds to Ease Energy Crisis",
+      "category": "E_Environmental",
+      "subcategory": "Energy Policy",
+      "confidence": 0.93,
+      "impact_score": 8,
+      "novelty_score": 7,
+      "urgency_score": 9,
+      "cross_impact": [
+        "P_Political",
+        "S_Social",
+        "E_Economic"
+      ],
+      "keywords": [
+        "IEA",
+        "energy emergency",
+        "demand reduction"
+      ],
+      "source": "Earth.Org / IEA",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "added_date": "2026-03-24",
+      "scan_date": "2026-03-24"
+    },
+    {
+      "id": "gen-20260324-022",
+      "title": "60% of Americans Support Medical Aid in Dying: Deepening Partisan Divide",
+      "category": "s_spiritual",
+      "subcategory": "Bioethics / Values",
+      "confidence": 0.92,
+      "impact_score": 6,
+      "novelty_score": 7,
+      "urgency_score": 5,
+      "cross_impact": [
+        "P_Political",
+        "S_Social"
+      ],
+      "keywords": [
+        "medical ethics",
+        "physician-assisted death",
+        "values shift"
+      ],
+      "source": "Pew Research Center",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "added_date": "2026-03-24",
+      "scan_date": "2026-03-24"
+    },
+    {
+      "id": "gen-20260324-023",
+      "title": "Intelligence Illusion: AI Innovator Argues Current Models Are 'Glorified Pocket Calculators'",
+      "category": "T_Technological",
+      "subcategory": "AI Critique",
+      "confidence": 0.85,
+      "impact_score": 6,
+      "novelty_score": 7,
+      "urgency_score": 4,
+      "cross_impact": [
+        "s_spiritual"
+      ],
+      "keywords": [
+        "AI intelligence",
+        "AI criticism",
+        "AI hype"
+      ],
+      "source": "Nature",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "added_date": "2026-03-24",
+      "scan_date": "2026-03-24"
+    },
+    {
+      "id": "gen-20260324-024",
+      "title": "Moving Beyond GDP: Measuring Well-Being Through Human and Environmental Capital",
+      "category": "E_Economic",
+      "subcategory": "Economic Paradigm",
+      "confidence": 0.88,
+      "impact_score": 7,
+      "novelty_score": 6,
+      "urgency_score": 5,
+      "cross_impact": [
+        "S_Social",
+        "E_Environmental"
+      ],
+      "keywords": [
+        "beyond GDP",
+        "well-being economics",
+        "sustainability"
+      ],
+      "source": "Nature",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "added_date": "2026-03-24",
+      "scan_date": "2026-03-24"
+    },
+    {
+      "id": "gen-20260324-025",
+      "title": "FBI Warns: Iranian State Hackers Using Telegram for Data Theft Operations",
+      "category": "P_Political",
+      "subcategory": "Cybersecurity / Geopolitics",
+      "confidence": 0.9,
+      "impact_score": 7,
+      "novelty_score": 7,
+      "urgency_score": 8,
+      "cross_impact": [
+        "T_Technological"
+      ],
+      "keywords": [
+        "cyber warfare",
+        "Iran hackers",
+        "Telegram"
+      ],
+      "source": "TechCrunch",
+      "source_reliability": "medium",
+      "published_date": "2026-03-23",
+      "added_date": "2026-03-24",
+      "scan_date": "2026-03-24"
+    },
+    {
+      "id": "gen-20260324-026",
+      "title": "Adenia Partners Closes $180M Fund for African Entrepreneurial Investment",
+      "category": "E_Economic",
+      "subcategory": "Impact Investing / Africa",
+      "confidence": 0.85,
+      "impact_score": 6,
+      "novelty_score": 6,
+      "urgency_score": 5,
+      "cross_impact": [
+        "S_Social"
+      ],
+      "keywords": [
+        "Africa investment",
+        "private equity",
+        "impact investing"
+      ],
+      "source": "Disrupt Africa",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "added_date": "2026-03-24",
+      "scan_date": "2026-03-24"
+    },
+    {
+      "id": "gen-20260324-027",
+      "title": "Water Infrastructure as Strategic Weapon: Targeting Desalination Plants in Armed Conflicts",
+      "category": "P_Political",
+      "subcategory": "Warfare / Infrastructure",
+      "confidence": 0.9,
+      "impact_score": 8,
+      "novelty_score": 7,
+      "urgency_score": 8,
+      "cross_impact": [
+        "E_Environmental",
+        "S_Social"
+      ],
+      "keywords": [
+        "water infrastructure",
+        "warfare",
+        "humanitarian law"
+      ],
+      "source": "Earth.Org",
+      "source_reliability": "high",
+      "published_date": "2026-03-22",
+      "added_date": "2026-03-24",
+      "scan_date": "2026-03-24"
+    },
+    {
+      "id": "gen-20260324-029",
+      "title": "Developed Countries' Declining Birth Rates May Not Endanger Economies",
+      "category": "S_Social",
+      "subcategory": "Demographics",
+      "confidence": 0.82,
+      "impact_score": 7,
+      "novelty_score": 7,
+      "urgency_score": 5,
+      "cross_impact": [
+        "E_Economic"
+      ],
+      "keywords": [
+        "birth rate",
+        "demographics",
+        "fertility decline"
+      ],
+      "source": "Genetic Literacy Project",
+      "source_reliability": "medium",
+      "published_date": "2026-03-23",
+      "added_date": "2026-03-24",
+      "scan_date": "2026-03-24"
+    },
+    {
+      "id": "gen-20260324-030",
+      "title": "DoorDash Introduces Relief Payments as Iran-US War Drives Up Gas Prices for Gig Workers",
+      "category": "S_Social",
+      "subcategory": "Gig Economy / Labor",
+      "confidence": 0.88,
+      "impact_score": 6,
+      "novelty_score": 7,
+      "urgency_score": 7,
+      "cross_impact": [
+        "E_Economic",
+        "P_Political"
+      ],
+      "keywords": [
+        "gig economy",
+        "gas prices",
+        "worker relief"
+      ],
+      "source": "TechCrunch",
+      "source_reliability": "medium",
+      "published_date": "2026-03-23",
+      "added_date": "2026-03-24",
+      "scan_date": "2026-03-24"
+    },
+    {
+      "id": "gen-20260324-031",
+      "title": "Grab Acquires Foodpanda Taiwan for $600M: Southeast Asian Super-App Expansion",
+      "category": "E_Economic",
+      "subcategory": "Platform Economy",
+      "confidence": 0.85,
+      "impact_score": 6,
+      "novelty_score": 6,
+      "urgency_score": 5,
+      "cross_impact": [
+        "T_Technological"
+      ],
+      "keywords": [
+        "Grab",
+        "acquisition",
+        "platform economy"
+      ],
+      "source": "TechCrunch",
+      "source_reliability": "medium",
+      "published_date": "2026-03-23",
+      "added_date": "2026-03-24",
+      "scan_date": "2026-03-24"
+    },
+    {
+      "id": "gen-20260324-032",
+      "title": "Child Mortality Progress Slows: 4.9 Million Children Die Before Age Five Annually",
+      "category": "S_Social",
+      "subcategory": "Global Health",
+      "confidence": 0.95,
+      "impact_score": 8,
+      "novelty_score": 7,
+      "urgency_score": 8,
+      "cross_impact": [
+        "P_Political",
+        "E_Economic"
+      ],
+      "keywords": [
+        "child mortality",
+        "global health",
+        "Sub-Saharan Africa"
+      ],
+      "source": "WHO",
+      "source_reliability": "high",
+      "published_date": "2026-03-18",
+      "added_date": "2026-03-24",
+      "scan_date": "2026-03-24"
+    },
+    {
+      "id": "gen-20260324-033",
+      "title": "Nigerian Firms Embrace Kit-Based EV Assembly for Cost Savings and Food Logistics",
+      "category": "T_Technological",
+      "subcategory": "EV / Africa Innovation",
+      "confidence": 0.85,
+      "impact_score": 6,
+      "novelty_score": 8,
+      "urgency_score": 5,
+      "cross_impact": [
+        "E_Economic",
+        "E_Environmental"
+      ],
+      "keywords": [
+        "electric vehicles",
+        "Nigeria",
+        "food logistics"
+      ],
+      "source": "IEEE Spectrum",
+      "source_reliability": "high",
+      "published_date": "2026-03-19",
+      "added_date": "2026-03-24",
+      "scan_date": "2026-03-24"
+    },
+    {
+      "id": "gen-20260324-035",
+      "title": "Hidden 'Death Switch' in Brain May Drive Alzheimer's — Researchers Disable It in Mice",
+      "category": "T_Technological",
+      "subcategory": "Neuroscience / Biotech",
+      "confidence": 0.82,
+      "impact_score": 8,
+      "novelty_score": 9,
+      "urgency_score": 6,
+      "cross_impact": [
+        "S_Social"
+      ],
+      "keywords": [
+        "Alzheimer's disease",
+        "neuroscience",
+        "breakthrough therapy"
+      ],
+      "source": "Web Search",
+      "source_reliability": "medium",
+      "published_date": "2026-03-23",
+      "added_date": "2026-03-24",
+      "scan_date": "2026-03-24"
     }
   ],
   "metadata": {
-    "total_signals": 1052,
-    "last_updated": "2026-03-18T00:00:00Z",
-    "last_scan_date": "2026-03-13"
+    "last_updated": "2026-03-24T05:42:01.427006",
+    "total_signals": 1190,
+    "last_scan_date": "2026-03-24",
+    "signals_added_today": 32
   }
 }

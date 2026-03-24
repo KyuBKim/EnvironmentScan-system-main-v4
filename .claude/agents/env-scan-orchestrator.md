@@ -2589,6 +2589,10 @@ Description: Unified Phase 2 — Classification enrichment + Impact Analysis (St
 Input files:
   - structured/classified-signals-{date}.json
   - context/shared-context-{date}.json
+Context loading (RLM — SharedContextManager, v3.4.0):
+  - Load ONLY fields: final_classification, impact_analysis from shared-context
+  - DO NOT load: signal_embeddings, preliminary_analysis, deduplication_analysis, translation_status
+  - This reduces context noise and improves LLM classification/analysis quality
 Output:
   - analysis/impact-assessment-{date}.json
   - analysis/cross-impact-matrix-{date}.json

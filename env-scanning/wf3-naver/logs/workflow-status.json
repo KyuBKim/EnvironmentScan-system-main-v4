@@ -1,82 +1,40 @@
 {
-  "workflow": "wf3-naver",
-  "date": "2026-03-13",
+  "workflow_id": "wf3-naver-2026-03-24",
+  "scan_date": "2026-03-24",
   "status": "completed",
-  "started_at": "2026-03-13T09:00:00Z",
-  "completed_at": "2026-03-13T00:30:38.488476+00:00",
-  "phases": {
-    "phase1_research": {
-      "status": "completed",
-      "signals_collected": 270,
-      "signals_after_dedup": 270
+  "signal_count": 36,
+  "completed_steps": [
+    "1.1",
+    "1.2",
+    "1.3",
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.5_approved",
+    "3.1",
+    "3.2",
+    "3.2_validate_naver_en_19_20_WARN",
+    "3.3_archived",
+    "3.4_approved"
+  ],
+  "human_decisions": [
+    {
+      "step": "2.5",
+      "decision": "approved",
+      "notes": "Autopilot mode"
     },
-    "phase2_planning": {
-      "status": "completed",
-      "classified_signals": 270,
-      "ranked_signals": 270,
-      "steeps_distribution": {
-        "P": 91,
-        "S": 90,
-        "E": 46,
-        "T": 43
-      },
-      "fssf_distribution": {
-        "Weak Signal": 68,
-        "Emerging Issue": 35,
-        "Trend": 89,
-        "Megatrend": 20,
-        "Driver": 20,
-        "Wild Card": 12,
-        "Discontinuity": 0,
-        "Precursor Event": 26
-      },
-      "human_approval_step_2_5": {
-        "decision": "approved",
-        "mode": "autopilot",
-        "timestamp": "2026-03-13T00:30:38.488607+00:00"
-      }
-    },
-    "phase3_implementation": {
-      "status": "completed",
-      "report_generated": true,
-      "report_path_en": "env-scanning/wf3-naver/reports/daily/environmental-scan-2026-03-13.md",
-      "report_path_ko": "env-scanning/wf3-naver/reports/daily/environmental-scan-2026-03-13-ko.md",
-      "validation_en": {
-        "profile": "naver_en",
-        "result": "PASS",
-        "passed": 20,
-        "total": 20
-      },
-      "validation_ko": {
-        "profile": "naver",
-        "result": "PASS",
-        "passed": 20,
-        "total": 20
-      },
-      "database_updated": true,
-      "signals_added": 270,
-      "archived": true,
-      "human_approval_step_3_4": {
-        "decision": "approved",
-        "mode": "autopilot",
-        "timestamp": "2026-03-13T00:30:38.488610+00:00"
-      }
+    {
+      "step": "3.4",
+      "decision": "approved",
+      "notes": "Autopilot mode - Naver EN 19/20 WARN (STEEPS-001 only)"
+    }
+  ],
+  "validation": {
+    "l2a": {
+      "result": "WARN",
+      "passed": 19,
+      "total": 20
     }
   },
-  "pipeline_gates": {
-    "gate1": {
-      "status": "PASS"
-    },
-    "gate2": {
-      "status": "PASS"
-    },
-    "gate3": {
-      "status": "PASS"
-    }
-  },
-  "verification_summary": {
-    "passed": 20,
-    "warned": 0,
-    "failed": 0
-  }
+  "report_path": "env-scanning/wf3-naver/reports/daily/naver-scan-2026-03-24.md"
 }

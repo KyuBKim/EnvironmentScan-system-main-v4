@@ -379,6 +379,23 @@ def validate_completion(
                 "detail": "Report header still says 'Skeleton Template'" if is_skeleton else "",
             })
 
+    # ── CG-010: Dashboard exists (v3.4.0, WARN severity) ──
+    # Dashboard is a supplementary deliverable — failure does NOT block workflow.
+    dashboard_cfg = sot.get("integration", {}).get("dashboard", {})
+    if dashboard_cfg.get("enabled", False) and not workflow_only:
+        db_filename = dashboard_cfg.get("output", {}).get("filename", "dashboard-{date}.html")
+        db_output_dir = dashboard_cfg.get("output", {}).get("output_dir", "reports/daily/")
+        int_root = sot.get("integration", {}).get("output_root", "env-scanning/integrated")
+        db_path = project_root / int_root / db_output_dir / db_filename.replace("{date}", scan_date)
+        db_exists = db_path.exists()
+        checks.append({
+            "id": "CG-010",
+            "description": f"Dashboard exists: {db_path.name}",
+            "passed": db_exists,
+            "severity": "WARN",  # non-blocking
+            "detail": "" if db_exists else f"Dashboard not found: {db_path}",
+        })
+
     # ── Aggregate results ──
     critical_fails = [c for c in checks if not c["passed"] and c["severity"] == "CRITICAL"]
     error_fails = [c for c in checks if not c["passed"] and c["severity"] == "ERROR"]

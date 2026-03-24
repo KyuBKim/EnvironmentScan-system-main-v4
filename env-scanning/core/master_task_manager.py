@@ -112,8 +112,8 @@ MASTER_STEPS = {
     },
     5: {
         "key": "master_step5",
-        "subject": "Step 5: Integration — Report Merge + Timeline Map",
-        "description": "Merge 4 independent reports, generate timeline map, validate via M3+M4 gates",
+        "subject": "Step 5: Integration — Report Merge + Timeline Map + Dashboard",
+        "description": "Merge 4 independent reports, generate timeline map, build dashboard, validate via M3+M4 gates",
         "activeForm": "Integrating reports",
         # CRITICAL: M4 (deliverable completeness), NOT M3 (approval only).
         # M4 = validate_completion.py (CG-001~009). If M4 FAIL, HALT_AND_REMEDIATE.

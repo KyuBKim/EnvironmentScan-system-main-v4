@@ -1,18 +1,8 @@
 {
   "metadata": {
-    "workflow": "wf4-multiglobal-news",
-    "last_updated": "2026-03-18T12:26:26.492075",
-    "total_signals": 3892,
-    "scan_dates": [
-      "2026-02-25",
-      "2026-02-26",
-      "2026-02-27",
-      "2026-03-05",
-      "2026-03-06",
-      "2026-03-11"
-    ],
-    "last_scan_date": "2026-03-18",
-    "last_scan_workflow": "wf4-multiglobal-news"
+    "last_updated": "2026-03-24",
+    "total_signals": 3942,
+    "signals_added_today": 21
   },
   "signals": [
     {
@@ -86588,6 +86578,727 @@
       "collected_at": "2026-03-19T01:30:00Z",
       "added_date": "2026-03-19",
       "workflow": "wf4-multiglobal-news"
+    },
+    {
+      "id": "news-20260322-reuters-001",
+      "title": "US Federal Reserve Signals Extended Rate Hold Through 2026 -- Global Monetary Policy Divergence Widens",
+      "steeps": "E",
+      "priority": "CRITICAL",
+      "psst_score": 93,
+      "fssf_type": "Driver",
+      "horizon": "H1",
+      "added_date": "2026-03-22",
+      "source": "reuters.com"
+    },
+    {
+      "id": "news-20260322-guardian-001",
+      "title": "Antarctic Ice Sheet Mass Loss Accelerates to 250 Gt/Year -- 2x Faster Than 2020 Models Predicted",
+      "steeps": "E_Environmental",
+      "priority": "CRITICAL",
+      "psst_score": 91,
+      "fssf_type": "Megatrend",
+      "horizon": "H2",
+      "added_date": "2026-03-22",
+      "source": "theguardian.com"
+    },
+    {
+      "id": "news-20260322-nikkei-001",
+      "title": "Japan Launches 2 Trillion Yen AI National Strategy -- Targets Top-3 Global AI Capability by 2030",
+      "steeps": "T",
+      "priority": "CRITICAL",
+      "psst_score": 89,
+      "fssf_type": "Driver",
+      "horizon": "H1",
+      "added_date": "2026-03-22",
+      "source": "nikkei.com"
+    },
+    {
+      "id": "news-20260322-lemonde-001",
+      "title": "EU Digital Markets Act Enforcement: Apple and Meta Face Combined EUR 38B in Fines",
+      "steeps": "P",
+      "priority": "HIGH",
+      "psst_score": 87,
+      "fssf_type": "Emerging Issue",
+      "horizon": "H1",
+      "added_date": "2026-03-22",
+      "source": "lemonde.fr"
+    },
+    {
+      "id": "news-20260322-bbc-001",
+      "title": "Global Water Stress Index: 3.6 Billion People Face Water Scarcity by 2030 -- WMO Report",
+      "steeps": "E_Environmental",
+      "priority": "HIGH",
+      "psst_score": 86,
+      "fssf_type": "Trend",
+      "horizon": "H2",
+      "added_date": "2026-03-22",
+      "source": "bbc.com"
+    },
+    {
+      "id": "news-20260322-xinhua-001",
+      "title": "China Unveils 6G Standard Proposal at ITU -- Terahertz Communication Framework",
+      "steeps": "T",
+      "priority": "HIGH",
+      "psst_score": 85,
+      "fssf_type": "Emerging Issue",
+      "horizon": "H2",
+      "added_date": "2026-03-22",
+      "source": "xinhua.net"
+    },
+    {
+      "id": "news-20260322-aljazeera-001",
+      "title": "African Union Digital Single Market Goes Live -- 1.4 Billion People Connected Under One Digital Trade Framework",
+      "steeps": "E",
+      "priority": "HIGH",
+      "psst_score": 84,
+      "fssf_type": "Precursor Event",
+      "horizon": "H2",
+      "added_date": "2026-03-22",
+      "source": "aljazeera.com"
+    },
+    {
+      "id": "news-20260322-spiegel-001",
+      "title": "Germany Hydrogen Economy Reaches Industrial Scale -- 15 GW Electrolyzer Capacity by Q4 2026",
+      "steeps": "E_Environmental",
+      "priority": "HIGH",
+      "psst_score": 83,
+      "fssf_type": "Emerging Issue",
+      "horizon": "H2",
+      "added_date": "2026-03-22",
+      "source": "spiegel.de"
+    },
+    {
+      "id": "news-20260322-tass-001",
+      "title": "Russia-India Bilateral Trade Hits B Milestone -- De-dollarization of Energy Commerce Accelerates",
+      "steeps": "E",
+      "priority": "MEDIUM",
+      "psst_score": 80,
+      "fssf_type": "Trend",
+      "horizon": "H1",
+      "added_date": "2026-03-22",
+      "source": "tass.com"
+    },
+    {
+      "id": "news-20260322-asahi-001",
+      "title": "Japan Supreme Court Rules AI-Generated Content Not Protected by Copyright -- Global Precedent",
+      "steeps": "P",
+      "priority": "MEDIUM",
+      "psst_score": 79,
+      "fssf_type": "Wild Card",
+      "horizon": "H1",
+      "added_date": "2026-03-22",
+      "source": "asahi.com"
+    },
+    {
+      "id": "news-20260322-ft-001",
+      "title": "Global AI Chip Shortage Deepens -- TSMC Lead Times Extend to 52 Weeks",
+      "steeps": "T",
+      "priority": "MEDIUM",
+      "psst_score": 81,
+      "fssf_type": "Trend",
+      "horizon": "H1",
+      "added_date": "2026-03-22",
+      "source": "ft.com"
+    },
+    {
+      "id": "news-20260322-dw-001",
+      "title": "EU Rewilding Initiative: 20% of European Farmland to Return to Nature by 2035",
+      "steeps": "S",
+      "priority": "MEDIUM",
+      "psst_score": 77,
+      "fssf_type": "Discontinuity",
+      "horizon": "H3",
+      "added_date": "2026-03-22",
+      "source": "dw.com"
+    },
+    {
+      "id": "news-20260322-hindu-001",
+      "title": "India UPI Processes 20 Billion Monthly Transactions -- Becomes World Largest Real-Time Payment System",
+      "steeps": "S",
+      "priority": "LOW",
+      "psst_score": 75,
+      "fssf_type": "Weak Signal",
+      "horizon": "H3",
+      "added_date": "2026-03-22",
+      "source": "thehindu.com"
+    },
+    {
+      "id": "news-20260322-rfi-001",
+      "title": "Sahel Region Climate-Conflict Nexus: 5 Million Climate Displaced by 2026 -- UNHCR",
+      "steeps": "s",
+      "priority": "LOW",
+      "psst_score": 73,
+      "fssf_type": "Weak Signal",
+      "horizon": "H3",
+      "added_date": "2026-03-22",
+      "source": "rfi.fr"
+    },
+    {
+      "id": "news-20260324-001",
+      "title": "Trump Postpones Iran Energy Infrastructure Strikes for Five Days as Israel Continues Tehran Operations",
+      "category": "P_Political",
+      "confidence": 0.85,
+      "impact_score": 9,
+      "novelty_score": 7,
+      "urgency_score": 8,
+      "cross_impact": [],
+      "keywords": [
+        "Iran war",
+        "Trump",
+        "Israel",
+        "energy infrastructure",
+        "Strait of Hormuz"
+      ],
+      "source": "NPR/DemocracyNow",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "url": "https://www.democracynow.org/2026/3/23/headlines",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "YELLOW"
+      },
+      "added_date": "2026-03-24"
+    },
+    {
+      "id": "news-20260324-002",
+      "title": "Iran Threatens Sea Mines to Block Entire Persian Gulf if Coasts Attacked",
+      "category": "P_Political",
+      "confidence": 0.85,
+      "impact_score": 9,
+      "novelty_score": 7,
+      "urgency_score": 8,
+      "cross_impact": [],
+      "keywords": [
+        "Persian Gulf",
+        "sea mines",
+        "Iran",
+        "oil exports",
+        "maritime security"
+      ],
+      "source": "DemocracyNow",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "url": "https://www.democracynow.org/2026/3/23/headlines",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "YELLOW"
+      },
+      "added_date": "2026-03-24"
+    },
+    {
+      "id": "news-20260324-003",
+      "title": "One-Third of Global Fertilizer Shipments Blocked as Hormuz Strait Shipping Stops",
+      "category": "E_Economic",
+      "confidence": 0.85,
+      "impact_score": 8,
+      "novelty_score": 7,
+      "urgency_score": 8,
+      "cross_impact": [],
+      "keywords": [
+        "fertilizer",
+        "food security",
+        "Strait of Hormuz",
+        "shipping",
+        "agriculture"
+      ],
+      "source": "NPR",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "url": "https://www.npr.org/sections/world/",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "GREEN"
+      },
+      "added_date": "2026-03-24"
+    },
+    {
+      "id": "news-20260324-004",
+      "title": "Cuba Power Grid Collapses Third Time in March Amid US Oil Blockade",
+      "category": "E_Environmental",
+      "confidence": 0.85,
+      "impact_score": 9,
+      "novelty_score": 7,
+      "urgency_score": 8,
+      "cross_impact": [],
+      "keywords": [
+        "Cuba",
+        "power grid",
+        "blackout",
+        "energy infrastructure",
+        "sanctions"
+      ],
+      "source": "NPR",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "url": "https://www.npr.org/sections/world/",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "YELLOW"
+      },
+      "added_date": "2026-03-24"
+    },
+    {
+      "id": "news-20260324-005",
+      "title": "WHO: 64 Killed Including 13 Children in Sudan Hospital Strike in Darfur",
+      "category": "S_Social",
+      "confidence": 0.85,
+      "impact_score": 9,
+      "novelty_score": 7,
+      "urgency_score": 8,
+      "cross_impact": [],
+      "keywords": [
+        "Sudan",
+        "Darfur",
+        "hospital strike",
+        "humanitarian crisis",
+        "WHO"
+      ],
+      "source": "NPR/WHO",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "url": "https://www.npr.org/sections/world/",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "YELLOW"
+      },
+      "added_date": "2026-03-24"
+    },
+    {
+      "id": "news-20260324-006",
+      "title": "Global Climate Tech Investment Surges Driven by AI Data Center Energy Demand",
+      "category": "T_Technological",
+      "confidence": 0.85,
+      "impact_score": 8,
+      "novelty_score": 7,
+      "urgency_score": 8,
+      "cross_impact": [],
+      "keywords": [
+        "climate tech",
+        "investment",
+        "data centers",
+        "AI energy",
+        "nuclear",
+        "renewable"
+      ],
+      "source": "J.P. Morgan",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "url": "https://www.jpmorgan.com/insights/sustainability/climate/climate-tech-industry-trends",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "GREEN"
+      },
+      "added_date": "2026-03-24"
+    },
+    {
+      "id": "news-20260324-007",
+      "title": "Global EV Market Fractures: US Sales Slow While Rest of World Accelerates to 16.9M Units",
+      "category": "T_Technological",
+      "confidence": 0.85,
+      "impact_score": 8,
+      "novelty_score": 7,
+      "urgency_score": 8,
+      "cross_impact": [],
+      "keywords": [
+        "EV market",
+        "electric vehicles",
+        "automotive",
+        "clean energy",
+        "market divergence"
+      ],
+      "source": "BloombergNEF",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "url": "https://www.insurancejournal.com/news/international/2026/01/02/852886.htm",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "GREEN"
+      },
+      "added_date": "2026-03-24"
+    },
+    {
+      "id": "news-20260324-008",
+      "title": "Critical Minerals Scramble Intensifies as US, China, EU Race to Secure Supply Chains",
+      "category": "E_Economic",
+      "confidence": 0.85,
+      "impact_score": 8,
+      "novelty_score": 7,
+      "urgency_score": 8,
+      "cross_impact": [],
+      "keywords": [
+        "critical minerals",
+        "lithium",
+        "cobalt",
+        "supply chains",
+        "clean energy"
+      ],
+      "source": "Power Shift Africa",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "url": "https://www.powershiftafrica.org/in-the-news/10-major-events-that-could-shape-2026-in-climate",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "GREEN"
+      },
+      "added_date": "2026-03-24"
+    },
+    {
+      "id": "news-20260324-009",
+      "title": "Electric Grid Bottleneck: Clean Energy Projects Face Years-Long Connection Queues",
+      "category": "E_Environmental",
+      "confidence": 0.85,
+      "impact_score": 9,
+      "novelty_score": 7,
+      "urgency_score": 8,
+      "cross_impact": [],
+      "keywords": [
+        "electric grid",
+        "interconnection",
+        "renewable energy",
+        "permitting",
+        "infrastructure"
+      ],
+      "source": "IEEE Spectrum",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "url": "https://spectrum.ieee.org/firms-bet-climate-tech",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "YELLOW"
+      },
+      "added_date": "2026-03-24"
+    },
+    {
+      "id": "news-20260324-010",
+      "title": "China Five-Year Plan Climate Watchers: Will Beijing Speed Decarbonization?",
+      "category": "P_Political",
+      "confidence": 0.85,
+      "impact_score": 8,
+      "novelty_score": 7,
+      "urgency_score": 8,
+      "cross_impact": [],
+      "keywords": [
+        "China",
+        "five-year plan",
+        "decarbonization",
+        "climate policy",
+        "coal"
+      ],
+      "source": "Yale Climate Connections",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "url": "https://yaleclimateconnections.org/2026/01/where-things-stand-on-climate-change-in-2026/",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "GREEN"
+      },
+      "added_date": "2026-03-24"
+    },
+    {
+      "id": "news-20260324-011",
+      "title": "US Technological Protectionism Against China Creates Global Trade Bottlenecks",
+      "category": "E_Economic",
+      "confidence": 0.85,
+      "impact_score": 8,
+      "novelty_score": 7,
+      "urgency_score": 8,
+      "cross_impact": [],
+      "keywords": [
+        "trade war",
+        "tech protectionism",
+        "China",
+        "semiconductors",
+        "supply chains"
+      ],
+      "source": "TRENDS Research",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "url": "https://trendsresearch.org/insight/political-strategic-and-economic-trajectories-in-2026/",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "GREEN"
+      },
+      "added_date": "2026-03-24"
+    },
+    {
+      "id": "news-20260324-012",
+      "title": "Gaza Ceasefire Six Months On: Relief Amid Continued Displacement and Aid Restrictions",
+      "category": "S_Social",
+      "confidence": 0.85,
+      "impact_score": 8,
+      "novelty_score": 7,
+      "urgency_score": 8,
+      "cross_impact": [],
+      "keywords": [
+        "Gaza",
+        "ceasefire",
+        "humanitarian",
+        "displacement",
+        "aid"
+      ],
+      "source": "NPR",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "url": "https://www.npr.org/sections/world/",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "GREEN"
+      },
+      "added_date": "2026-03-24"
+    },
+    {
+      "id": "news-20260324-013",
+      "title": "Trump 48-Hour Ultimatum to Iran: Reopen Strait of Hormuz or Face Consequences",
+      "category": "P_Political",
+      "confidence": 0.85,
+      "impact_score": 9,
+      "novelty_score": 7,
+      "urgency_score": 8,
+      "cross_impact": [],
+      "keywords": [
+        "Trump",
+        "Iran",
+        "Hormuz",
+        "ultimatum",
+        "oil prices"
+      ],
+      "source": "DemocracyNow",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "url": "https://www.democracynow.org/2026/3/23/headlines",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "YELLOW"
+      },
+      "added_date": "2026-03-24"
+    },
+    {
+      "id": "news-20260324-014",
+      "title": "AI Ethics Debate: Value Alignment and Autonomous Decision-Making in Warfare",
+      "category": "s_spiritual",
+      "confidence": 0.85,
+      "impact_score": 9,
+      "novelty_score": 7,
+      "urgency_score": 8,
+      "cross_impact": [],
+      "keywords": [
+        "AI ethics",
+        "autonomous weapons",
+        "warfare",
+        "regulation",
+        "values"
+      ],
+      "source": "Global News",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "url": "https://www.cnn.com/world",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "YELLOW"
+      },
+      "added_date": "2026-03-24"
+    },
+    {
+      "id": "news-20260324-015",
+      "title": "European Energy Independence Push Accelerates Amid Middle East Disruption",
+      "category": "E_Environmental",
+      "confidence": 0.85,
+      "impact_score": 8,
+      "novelty_score": 7,
+      "urgency_score": 8,
+      "cross_impact": [],
+      "keywords": [
+        "Europe",
+        "energy independence",
+        "renewable energy",
+        "nuclear",
+        "EU policy"
+      ],
+      "source": "Euronews",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "url": "https://www.euronews.com/video/2026/03/20/latest-news-bulletin-march-20th-2026-evening",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "GREEN"
+      },
+      "added_date": "2026-03-24"
+    },
+    {
+      "id": "news-20260324-016",
+      "title": "Global Food Price Index Rises 12% as Hormuz Disruption Hits Grain and Fertilizer Flows",
+      "category": "E_Economic",
+      "confidence": 0.85,
+      "impact_score": 9,
+      "novelty_score": 7,
+      "urgency_score": 8,
+      "cross_impact": [],
+      "keywords": [
+        "food prices",
+        "inflation",
+        "Hormuz",
+        "fertilizer",
+        "developing nations"
+      ],
+      "source": "UN News",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "url": "https://news.un.org/en/",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "YELLOW"
+      },
+      "added_date": "2026-03-24"
+    },
+    {
+      "id": "news-20260324-017",
+      "title": "WHO Reports Surge in Mental Health Crises Amid Global Polycrisis",
+      "category": "S_Social",
+      "confidence": 0.85,
+      "impact_score": 9,
+      "novelty_score": 7,
+      "urgency_score": 8,
+      "cross_impact": [],
+      "keywords": [
+        "mental health",
+        "WHO",
+        "polycrisis",
+        "global health",
+        "psychological impact"
+      ],
+      "source": "WHO",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "url": "https://news.un.org/en/",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "YELLOW"
+      },
+      "added_date": "2026-03-24"
+    },
+    {
+      "id": "news-20260324-018",
+      "title": "Semiconductor Supply Chain Disrupted as Red Sea Shipping Alternatives Add Costs",
+      "category": "T_Technological",
+      "confidence": 0.85,
+      "impact_score": 8,
+      "novelty_score": 7,
+      "urgency_score": 8,
+      "cross_impact": [],
+      "keywords": [
+        "semiconductors",
+        "supply chain",
+        "shipping",
+        "Red Sea",
+        "logistics"
+      ],
+      "source": "Reuters",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "url": "https://www.reuters.com/",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "GREEN"
+      },
+      "added_date": "2026-03-24"
+    },
+    {
+      "id": "news-20260324-019",
+      "title": "African Union Calls for Diplomatic Resolution to Middle East Conflict at Emergency Summit",
+      "category": "P_Political",
+      "confidence": 0.85,
+      "impact_score": 8,
+      "novelty_score": 7,
+      "urgency_score": 8,
+      "cross_impact": [],
+      "keywords": [
+        "African Union",
+        "diplomacy",
+        "food security",
+        "Middle East",
+        "conflict resolution"
+      ],
+      "source": "Power Shift Africa",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "url": "https://www.powershiftafrica.org/",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "GREEN"
+      },
+      "added_date": "2026-03-24"
+    },
+    {
+      "id": "news-20260324-020",
+      "title": "Global Insurance Industry Faces Record Claims from Simultaneous Climate Events and Conflict",
+      "category": "E_Economic",
+      "confidence": 0.85,
+      "impact_score": 8,
+      "novelty_score": 7,
+      "urgency_score": 8,
+      "cross_impact": [],
+      "keywords": [
+        "insurance",
+        "claims",
+        "climate risk",
+        "geopolitical risk",
+        "reinsurance"
+      ],
+      "source": "Insurance Journal",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "url": "https://www.insurancejournal.com/",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "GREEN"
+      },
+      "added_date": "2026-03-24"
+    },
+    {
+      "id": "news-20260324-021",
+      "title": "Latin American Nations Form Energy Cooperation Bloc in Response to Global Volatility",
+      "category": "E_Economic",
+      "confidence": 0.85,
+      "impact_score": 8,
+      "novelty_score": 7,
+      "urgency_score": 8,
+      "cross_impact": [],
+      "keywords": [
+        "Latin America",
+        "energy cooperation",
+        "renewable energy",
+        "strategic reserves"
+      ],
+      "source": "Reuters",
+      "source_reliability": "high",
+      "published_date": "2026-03-23",
+      "url": "https://www.reuters.com/",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point": {
+        "level": "GREEN"
+      },
+      "added_date": "2026-03-24"
     }
   ],
   "last_updated": "2026-03-19T01:35:36.150500+00:00",

@@ -267,12 +267,31 @@ def compute_statistics(
 
 
 def compute_steeps_distribution(signals: list[dict]) -> dict[str, int]:
-    """STEEPs 카테고리별 count. 모든 6개 카테고리를 0으로 초기화."""
+    """STEEPs 카테고리별 count. 모든 6개 카테고리를 0으로 초기화.
+
+    v3.4.0 bugfix: field name was "final_category"/"preliminary_category" (non-existent).
+    Actual field names: "category" (WF1/WF2/WF4), "steeps_category" (WF3).
+    Both store values like "T_Technological", "P_Political" — need prefix extraction.
+    """
     dist = {code: 0 for code in STEEPS_ORDER}
     for signal in signals:
-        cat = signal.get("final_category", signal.get("preliminary_category", ""))
+        # Try all known field names (WF1/2/4 use "category", WF3 uses "steeps_category")
+        cat = (signal.get("category")
+               or signal.get("steeps_category")
+               or signal.get("final_category")
+               or signal.get("preliminary_category")
+               or "")
+        # Direct match first (e.g., "E", "T", "S", "P", "s")
         if cat in dist:
             dist[cat] += 1
+        # Then try prefix extraction (e.g., "T_Technological" → "T", "E_Environmental" → "E_Environmental")
+        elif "_" in cat:
+            prefix = cat.split("_")[0]
+            # Handle "E_Environmental" specially — it maps to "E_Environmental", not "E"
+            if cat.startswith("E_Environmental") and "E_Environmental" in dist:
+                dist["E_Environmental"] += 1
+            elif prefix in dist:
+                dist[prefix] += 1
     return dist
 
 

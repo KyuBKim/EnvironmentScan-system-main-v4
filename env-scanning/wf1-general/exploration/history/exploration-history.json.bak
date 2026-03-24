@@ -304,6 +304,26 @@
         }
       ],
       "recorded_by": "exploration-orchestrator (Stage C)"
+    },
+    {
+      "date": "2026-03-20",
+      "timestamp": "2026-03-19T23:10:50.009653+00:00",
+      "method_used": "agent-team",
+      "candidates_discovered": 3,
+      "viable_count": 2,
+      "signals_collected": 6,
+      "gaps_analyzed": [],
+      "recorded_by": "exploration_gate.py (safety net)"
+    },
+    {
+      "date": "2026-03-21",
+      "timestamp": "2026-03-21T09:53:15.390103+00:00",
+      "method_used": "unknown",
+      "candidates_discovered": 0,
+      "viable_count": 0,
+      "signals_collected": 0,
+      "gaps_analyzed": [],
+      "recorded_by": "exploration_gate.py (safety net)"
     }
   ],
   "approved": [

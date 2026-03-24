@@ -1,71 +1,40 @@
 {
-  "workflow": "wf2-arxiv",
-  "date": "2026-03-13",
+  "workflow_id": "wf2-arxiv-2026-03-24",
+  "scan_date": "2026-03-24",
   "status": "completed",
-  "started_at": "2026-03-12T22:15:00Z",
-  "completed_at": "2026-03-12T23:25:51.494017+00:00",
-  "phases": {
-    "phase1_research": {
-      "status": "completed",
-      "signals_collected": 82,
-      "duplicates_removed": 0,
-      "collection_method": "rss_webfetch"
-    },
-    "phase2_planning": {
-      "status": "completed",
-      "signals_classified": 82,
-      "steeps_distribution": {
-        "T": 60,
-        "S": 14,
-        "E": 7,
-        "P": 1
-      },
-      "signals_ranked": 82
-    },
-    "phase3_implementation": {
-      "status": "completed",
-      "db_updated": true,
-      "db_signals_total": 1194,
-      "report_en_validated": true,
-      "report_ko_validated": true,
-      "report_en_path": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-03-13.md",
-      "report_ko_path": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-03-13-ko.md",
-      "archived": true
-    }
-  },
-  "human_approvals": {
-    "step_2_5": {
+  "signal_count": 32,
+  "completed_steps": [
+    "1.1",
+    "1.2",
+    "1.3",
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.5_approved",
+    "3.1",
+    "3.2",
+    "3.2_validate_l2a_17_17_PASS",
+    "3.3_archived",
+    "3.4_approved"
+  ],
+  "human_decisions": [
+    {
+      "step": "2.5",
       "decision": "approved",
-      "mode": "autopilot",
-      "timestamp": "2026-03-12T23:25:51.494190+00:00"
+      "notes": "Autopilot mode"
     },
-    "step_3_4": {
+    {
+      "step": "3.4",
       "decision": "approved",
-      "mode": "autopilot",
-      "timestamp": "2026-03-12T23:25:51.494192+00:00"
+      "notes": "Autopilot mode - L2a 17/17 PASS"
+    }
+  ],
+  "validation": {
+    "l2a": {
+      "result": "PASS",
+      "passed": 17,
+      "total": 17
     }
   },
-  "pipeline_gates": {
-    "gate1": {
-      "status": "PASS"
-    },
-    "gate2": {
-      "status": "PASS"
-    },
-    "gate3": {
-      "status": "PASS"
-    }
-  },
-  "verification_summary": {
-    "en_report": {
-      "passed": 17,
-      "warned": 0,
-      "failed": 0
-    },
-    "ko_report": {
-      "passed": 17,
-      "warned": 0,
-      "failed": 0
-    }
-  }
+  "report_path": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-03-24.md"
 }
