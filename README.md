@@ -6,7 +6,7 @@ Automated AI-powered environmental scanning system for detecting weak signals of
 
 > **Catch up on early signals of future trends, medium-term changes, macro shifts, paradigm transformations, critical transitions, singularities, sudden events, and unexpected futures from around the world (Korea, Asia, Europe, Africa, Americas) "AS FAST AS POSSIBLE".**
 
-**운영 가이드**: 일일 운영 절차, 커맨드 사용법, 설정 변경법은 [USER_GUIDE.md](USER_GUIDE.md)를 참조하세요.
+**운영 가이드**: 일일 운영 절차, 커맨드 사용법, 설정 변경법은 [USER-MANUAL.md](USER-MANUAL.md)를 참조하세요.
 
 ## Overview
 
@@ -322,11 +322,11 @@ Agent (EN) → Output (EN) → Translation Agent → Output (KR)
 
 ## Version
 
-- **System Version**: 3.2.0 (Quadruple Workflow, Bilingual EN-KR, Python 원천봉쇄, Hallucination Prevention, Timeline Map Challenge-Response)
-- **Workflow Version**: Quadruple Environmental Scanning v3.2.0
-- **Architecture**: 42 agent specs, 36 Python modules + 9 validation scripts, 12 config files, 14 skeleton files, 28 test files (~1069 tests)
-- **Validation**: 61 SOT checks (SOT-001~061), 4-layer quality defense (L1→L4), 14 QC checks (L2b), 8 PG2 checks, 11 Timeline QC checks (TQ-001~011), 5 narrative gate checks (NG-001~005), 3 TERM fidelity checks
-- **Last Updated**: 2026-03-09
+- **System Version**: 3.5.0 (Quadruple Workflow, Bilingual EN-KR, Python 원천봉쇄, Hallucination Prevention, Timeline Map Challenge-Response, Dashboard Auto-Open, Master Gate M4)
+- **Workflow Version**: Quadruple Environmental Scanning v3.5.0
+- **Architecture**: 42 agent specs, 41 Python modules + 11 validation scripts, 12 config files, 14 skeleton files, 28 test files (~1069 tests)
+- **Validation**: 68 SOT checks (SOT-001~065), 4-layer quality defense (L1→L4), 14 QC checks (L2b), 8 PG2 checks, 11 Timeline QC checks (TQ-001~011), 5 narrative gate checks (NG-001~005), 3 TERM fidelity checks, 9 CG completion checks (M4), 6 dashboard checks — 143+ total
+- **Last Updated**: 2026-03-24
 
 ## References
 

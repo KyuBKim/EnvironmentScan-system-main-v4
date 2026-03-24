@@ -1,8 +1,8 @@
-# 환경 스캐닝 시스템 v2.5.0 — 사용자 매뉴얼
+# 환경 스캐닝 시스템 v3.5.0 — 사용자 매뉴얼
 
-**버전**: 5.0 (2026-02-24)
+**버전**: 6.0 (2026-03-24)
 **대상**: 시스템 운영자 / 인수인계 대상
-**시스템**: Quadruple Workflow Environmental Scanning System v2.5.0
+**시스템**: Quadruple Workflow Environmental Scanning System v3.5.0
 
 ---
 
@@ -465,6 +465,17 @@ TIS = 0.30 x 소스 수 + 0.30 x pSST 변화량 + 0.20 x 언급 빈도 + 0.20 x 
 - 오류/경고/재시도 기록
 - 다음 행동 안내
 
+## 3.8 대시보드 확인
+
+워크플로우 완료 시 통합 대시보드가 자동으로 브라우저에서 열린다 (v3.5.0).
+
+- **파일 위치**: `dashboard.html` (프로젝트 루트)
+- **아카이브**: `env-scanning/integrated/reports/dashboard-archive/{year}/{month}/`
+- **구성**: 6+ 요약 탭 (Overview, KPIs, STEEPs, FSSF, Risk Matrix, Patterns) + 5 보고서 탭 (WF1~WF4 + 통합)
+- **언어 전환**: 각 보고서 탭에서 EN/KO 토글 가능
+- **데이터 원천**: 모든 정량 데이터는 Python이 JSON에서 직접 계산 (LLM 할루시네이션 불가)
+- **자동 오픈 비활성화**: SOT `integration.dashboard.auto_open: false`로 설정
+
 ---
 
 # Part 4: 보고서 읽기 가이드
@@ -657,6 +668,15 @@ WF4 보고서를 읽을 때 특히 주목할 점:
 | Probability (실현 가능성) | 30% | 실현 확률 |
 | Urgency (긴급성) | 20% | 대응 시급성 |
 | Novelty (새로움) | 10% | 정보의 새로움 |
+
+## 4.7 타임라인 맵 읽기
+
+통합 보고서 이후 생성되는 시간축 분석 문서.
+
+- **위치**: `env-scanning/integrated/reports/daily/timeline-map-{date}.md`
+- **구조**: 테마별 궤적(trajectory) → 교차 분석 → pSST 상위 랭킹 → 전략적 에스컬레이션
+- **품질 보장**: Challenge-Response 패턴 (초안 → 적대적 검토 → 반영) + L2a(18체크) + L2b(11체크) + L3(의미 검토)
+- **핵심 섹션**: "Strategic Escalation Monitoring"에서 RED/ORANGE 색상 시그널에 주목
 
 ---
 
@@ -923,7 +943,22 @@ Multi&Global-News 워크플로우에서만 사용하는 에이전트:
 | **patent-agent** | 미구현 | 특허 DB 전용 스캔 (계획) |
 | **policy-agent** | 미구현 | 정책 문서 전용 스캔 (계획) |
 
-## 6.7 에이전트 의존성 다이어그램
+## 6.7 통합 분석 및 품질 에이전트 (v3.5.0)
+
+### phase2-analyst (통합 Phase 2 분석)
+
+- **역할**: Step 2.1(STEEPs 분류)과 Step 2.2(영향분석)를 단일 컨텍스트에서 통합 수행
+- **호출자**: 모든 4개 WF 오케스트레이터
+- **대체**: 이전 signal-classifier, impact-analyzer를 대체
+- **Step 2.3**: Python 원천봉쇄 (`priority_score_calculator.py`)로 처리 — LLM 아닌 공식 기반
+
+### quality-reviewer (L3 의미 검토)
+
+- **역할**: 3-pass 의미 검토 (추론 품질 → 보고서 일관성 → 오탐 해소)
+- **프로파일**: standard, naver, multiglobal-news, integrated, timeline
+- **등급**: A~D (C 이상 통과, D는 인간 에스컬레이션)
+
+## 6.8 에이전트 의존성 다이어그램
 
 ```
 마스터 오케스트레이터
@@ -1080,6 +1115,25 @@ SCG 검증이 실패하면 워크플로우가 일시정지된다.
 ```
 
 PoE는 해당 스캔이 실제로 실행되었음을 증명하며, SCG L3 검증에서 확인된다.
+
+## 7.7 Master Gate M4 (완전성 게이트)
+
+`validate_completion.py`가 최종 산출물 9가지를 프로그래매틱으로 검증한다.
+Autopilot 모드에서도 건너뛸 수 없다.
+
+| 체크 | 내용 |
+|------|------|
+| CG-001 | 각 워크플로우 EN 보고서 존재 |
+| CG-002 | 각 워크플로우 KO 보고서 존재 |
+| CG-003 | EN 통합 보고서 존재 |
+| CG-004 | KO 통합 보고서 존재 |
+| CG-005 | PLACEHOLDER 토큰 없음 |
+| CG-006 | 타임라인 맵 존재 (활성화 시) |
+| CG-007 | KO 보고서 한국어 비율 ≥30% |
+| CG-008 | 아카이브 복사본 존재 |
+| CG-009 | 스켈레톤 헤더 아님 |
+
+실패 시 자동 교정(최대 2회) 후 인간 에스컬레이션.
 
 ---
 
@@ -1491,7 +1545,7 @@ EnvironmentScan-system-main-v4/
 
 ---
 
-**문서 버전**: 5.0
-**최종 갱신**: 2026-02-24
-**시스템 버전**: Quadruple Workflow System v2.5.0
-**SOT 버전**: 2.5.0
+**문서 버전**: 6.0
+**최종 갱신**: 2026-03-24
+**시스템 버전**: Quadruple Workflow System v3.5.0
+**SOT 버전**: 3.5.0

@@ -405,9 +405,13 @@ Examples:
 | DEC-018 | Pipeline Gate 2 Python enforcement | Phase 2→3 transition must be Python-verified, not LLM-instructed |
 | DEC-019 | Translation TERM fidelity (TERM-001~003) | Critical terminology preservation is deterministic string matching |
 | DEC-020 | QC-014 exec summary stats cross-reference | Executive Summary statistics must match source data exactly |
+| DEC-021 | Dashboard Auto-Open (SOT-bound, stale protection) | UX improvement — browser opens after workflow; stale file protection via dated file check; SOT `auto_open` controls behavior |
+| DEC-022 | M4 Result Recording in master-status.json | M4 gate must be recorded (PASS/FAIL) — without recording, `master_task_manager.py --action step-complete --step 5` rejects completion |
+| DEC-023 | SOT-065 priority_score_calculator_script | "검증 없는 SOT는 SOT가 아니다" — Step 2.3 Python 원천봉쇄 모듈이 SOT에 미선언 → HALT-severity 규칙 추가 |
+| DEC-024 | Step 0.4 TaskCreate explicit execution logic | Task mapping never populated → Case A/B/C 분기 명확화, master-status.json에 mapping 기록 필수 |
 
 ---
 
-**Document Version**: 4.0
-**Last Updated**: 2026-03-09
-**System Version**: Quadruple Workflow System v3.2.0
+**Document Version**: 5.0
+**Last Updated**: 2026-03-24
+**System Version**: Quadruple Workflow System v3.5.0
