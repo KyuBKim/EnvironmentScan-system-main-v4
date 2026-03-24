@@ -8,8 +8,8 @@ for VEV, Pipeline Gates, Retry logic, and Verification Report structure.
 
 **Referenced by**: All workflow orchestrators via `system.execution.protocol` in workflow-registry.yaml.
 
-**Version**: 3.3.0
-**Last Updated**: 2026-03-09
+**Version**: 3.4.0
+**Last Updated**: 2026-03-24
 
 ---
 
@@ -298,6 +298,37 @@ L4:  Golden Reference        — 9-field signal example in report-generator.md
 5. If L3 grade ≥ C: Proceed to translation
 6. On any CRITICAL failure: trigger progressive retry
 
+### 7.1 Translation Validation (Post-KO) (v3.5.0)
+
+After `@translation-agent` generates each KO report, validate before delivery:
+
+```bash
+python3 env-scanning/scripts/validate_translation.py \
+  --en {en_report_path} --ko {ko_report_path} \
+  --profile {VALIDATE_PROFILE} \
+  --terms env-scanning/config/translation-terms.yaml
+```
+
+**Checks**: TERM-001 (required terms present), TERM-002 (STEEPs terminology 100% preserved), TERM-003 (no unauthorized term variants) + report profile structural compliance.
+
+- Exit 0 → KO report accepted
+- Exit 1 → KO file renamed to `*-ko.REJECTED.md`, retry translation (max 2)
+
+### 7.2 Dashboard Validation (Step 5.2.3) (v3.5.0)
+
+After `dashboard_generator.py` produces the HTML dashboard:
+
+```bash
+python3 env-scanning/scripts/validate_dashboard.py \
+  --dashboard {dashboard_html_path} --date {SCAN_DATE}
+```
+
+**6 Checks** (DB-001~DB-006): file exists, ≥100KB, tab completeness (≥6 summary + ≥5 report), report content ≥2KB each, Korean ≥10%, Chart.js integrity.
+
+- Exit 0 (PASS) → archive + root symlink
+- Exit 2 (WARN) → archive + root symlink + WARN log
+- Exit 1 (FAIL) → WARN log, skip archiving, continue to Step 6 (non-blocking)
+
 ---
 
 ## 8. Phase-Specific Context Loading (v3.2.0 — Context Memory Optimization)
@@ -311,7 +342,7 @@ L4:  Golden Reference        — 9-field signal example in report-generator.md
 |------|--------|---------|
 | sources config | `{sources_config}` | Scan targets |
 | scan window state | `{scan_window_state_file}` | Temporal boundaries |
-| signal DB (recent 7 days) | `{data_root}/signals/database.json` via **RecursiveArchiveLoader** | Dedup baseline |
+| signal DB (SOT lookback) | `{data_root}/signals/database.json` via **RecursiveArchiveLoader** (lookback from SOT `dedup_gate.lookback_days`, default 30 days) | Dedup baseline |
 | domains config | `env-scanning/config/domains.yaml` | STEEPs keywords |
 
 **DO NOT load**: priority-ranked data, evolution indices, report statistics, integration data
@@ -346,6 +377,7 @@ L4:  Golden Reference        — 9-field signal example in report-generator.md
 ---
 
 ## Version History
+- v3.4.0 (2026-03-24): Added Section 7.1 (Translation Validation) and Section 7.2 (Dashboard Validation) to shared protocol. Previously only in individual orchestrators — now registered as shared quality defense steps.
 - v3.3.0 (2026-03-09): Pipeline Gate 2 Python enforcement (validate_phase2_output.py). 8 deterministic checks (PG2-001~008) replace LLM-only verification. Prevents hallucinated STEEPs codes, out-of-range scores, and invalid FSSF/Horizons/Tipping values from propagating to Phase 3.
 - v3.2.0 (2026-03-09): Added Phase-Specific Context Loading (Section 8). Mandated RecursiveArchiveLoader for Phase 1, SharedContextManager for Phase 2. Context memory optimization for maximum LLM judgment quality.
 - v2.3.0 (2026-03-01): Expanded Report Quality Defense to 4-layer with L2a/L2b/L3 sub-layers. Added quality_review_completed to Pipeline Gate 3. Added multiglobal-news-scan-orchestrator to scope.

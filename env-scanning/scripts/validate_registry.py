@@ -926,8 +926,8 @@ def validate_registry(registry_path: str) -> RegistryValidation:
                 tl_errors.append(f"timeline_map.generator_script not found: {tl_script}")
         lookback = timeline_map.get("lookback_days")
         if lookback is not None:
-            if not isinstance(lookback, int) or lookback < 1 or lookback > 90:
-                tl_errors.append(f"timeline_map.lookback_days={lookback} out of range [1, 90]")
+            if not isinstance(lookback, int) or lookback < 0 or lookback > 3650:
+                tl_errors.append(f"timeline_map.lookback_days={lookback} out of range [0, 3650] (0=unlimited)")
         min_sig = timeline_map.get("min_signals_for_theme")
         if min_sig is not None:
             if not isinstance(min_sig, int) or min_sig < 1:
@@ -936,6 +936,14 @@ def validate_registry(registry_path: str) -> RegistryValidation:
         if top_n is not None:
             if not isinstance(top_n, int) or top_n < 1:
                 tl_errors.append(f"timeline_map.top_n_psst={top_n} must be int >= 1")
+        # v3.4.0: include_faded_threads (bool), trend_analysis_min_appearances (int >= 1)
+        incl_faded = timeline_map.get("include_faded_threads")
+        if incl_faded is not None and not isinstance(incl_faded, bool):
+            tl_errors.append(f"timeline_map.include_faded_threads must be boolean, got {type(incl_faded).__name__}")
+        trend_min = timeline_map.get("trend_analysis_min_appearances")
+        if trend_min is not None:
+            if not isinstance(trend_min, int) or trend_min < 1:
+                tl_errors.append(f"timeline_map.trend_analysis_min_appearances={trend_min} must be int >= 1")
 
         # -- v3.0.0 Enhanced checks (CR-2: all script paths + theme_config) --
         # File existence checks for new script paths
@@ -1341,6 +1349,41 @@ def validate_registry(registry_path: str) -> RegistryValidation:
             "Exploration disabled — skipped"
         ))
 
+    # ── SOT-064: Dashboard config valid (v3.4.0, extended v3.5.0) ──
+    # Dashboard generation requires extractor, generator, and validator scripts.
+    # v3.5.0: auto_open must be boolean if present.
+    # WARN severity — dashboard failure does not block the workflow.
+    dashboard_cfg = registry.get("integration", {}).get("dashboard", {})
+    if dashboard_cfg.get("enabled", False):
+        db_scripts = [
+            ("extractor_script", dashboard_cfg.get("extractor_script", "")),
+            ("generator_script", dashboard_cfg.get("generator_script", "")),
+            ("validator_script", dashboard_cfg.get("validator_script", "")),
+        ]
+        db_missing = []
+        for label, script_path in db_scripts:
+            if not script_path:
+                db_missing.append(f"{label} not defined")
+            elif not _resolve(project_root, script_path).exists():
+                db_missing.append(f"{label} not found: {script_path}")
+        # v3.5.0: auto_open type validation
+        auto_open = dashboard_cfg.get("auto_open")
+        if auto_open is not None and not isinstance(auto_open, bool):
+            db_missing.append(f"auto_open must be boolean, got {type(auto_open).__name__}")
+        vr.results.append(CheckResult(
+            "SOT-064", "WARN",
+            "Dashboard config valid (scripts exist, auto_open boolean)",
+            len(db_missing) == 0,
+            "; ".join(db_missing) if db_missing else ""
+        ))
+    else:
+        vr.results.append(CheckResult(
+            "SOT-064", "WARN",
+            "Dashboard scripts exist",
+            True,
+            "Dashboard disabled — skipped"
+        ))
+
     # ── SOT-042: previous-signals.json freshness (v2.6.0) ──
     # Stale dedup index causes duplicate signals to bypass all 4 dedup stages.
     # This check warns at startup if any enabled workflow's context/previous-signals.json
@@ -1624,6 +1667,23 @@ def validate_registry(registry_path: str) -> RegistryValidation:
         "All quality defense scripts (validate_report_quality.py) must exist",
         len(missing_quality) == 0,
         f"Missing: {missing_quality}" if missing_quality else ""
+    ))
+
+    # ── SOT-065: priority_score_calculator_script exists (v3.5.0) ──
+    # "검증 없는 SOT는 SOT가 아니다" — Step 2.3 priority ranking depends on this module.
+    # Python 원천봉쇄: scoring formulas must be deterministic, not LLM-instructed.
+    shared_engine = system.get("shared_engine", {})
+    psc_script = shared_engine.get("priority_score_calculator_script", "")
+    psc_errors = []
+    if not psc_script:
+        psc_errors.append("system.shared_engine.priority_score_calculator_script not defined")
+    elif not _file_exists(project_root, psc_script):
+        psc_errors.append(f"priority_score_calculator_script not found: {psc_script}")
+    vr.results.append(CheckResult(
+        "SOT-065", "HALT",
+        "priority_score_calculator_script exists (Step 2.3 Python 원천봉쇄)",
+        len(psc_errors) == 0,
+        "; ".join(psc_errors) if psc_errors else ""
     ))
 
     # ── SOT-058: completion_gate_script_exists (v3.2.0) ──

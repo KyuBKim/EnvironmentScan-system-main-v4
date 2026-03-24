@@ -271,15 +271,41 @@ python3 {TASK_MANAGER_SCRIPT} \
   --status-file {MASTER_STATUS_FILE}
 ```
 
-**Interpretation**:
-- `action: CREATE` → Execute TaskCreate for each task in the `tasks` array, in order.
-  Set `addBlockedBy` from the `blocked_by` field. Store returned task IDs in
-  `master-status.json` → `master_task_mapping` field.
-  Mark Step 0 task as `completed` immediately (already done).
-- `action: SKIP` → Tasks already exist (session resume). Use `existing_mapping` for task IDs.
-- On error → Log warning, continue without master task tracking.
+**Interpretation and Execution** (LLM은 아래 절차를 그대로 실행한다):
 
-**After task creation**, update `master-status.json`:
+**Case A**: `action: CREATE` →
+```
+1. Parse JSON output → tasks 배열 (7개 task spec)
+2. 순서대로 TaskCreate 호출:
+   for each task_spec in result["tasks"]:
+     task_id = TaskCreate(
+       subject=task_spec["subject"],
+       description=task_spec["description"],
+       activeForm=task_spec["activeForm"]
+     )
+     # blocked_by 처리: task_spec["blocked_by"]가 있으면
+     # 이전 step의 task_id를 blockedBy로 연결
+     master_task_mapping[task_spec["key"]] = task_id
+3. master_step0는 이미 완료 → TaskUpdate(master_task_mapping["master_step0"], status="completed")
+4. master-status.json에 master_task_mapping 기록 (아래 JSON 참조)
+```
+
+**Case B**: `action: SKIP` →
+```
+1. Session resume — 태스크가 이미 존재
+2. result["existing_mapping"]에서 task ID 매핑 읽기
+3. master_task_mapping = result["existing_mapping"]
+4. 추가 TaskCreate 없음 — 기존 ID 재사용
+```
+
+**Case C**: Error (exit code 1 또는 JSON 파싱 실패) →
+```
+1. WARN 로그: "Master task creation failed — continuing without task tracking"
+2. master_task_mapping = {} (빈 매핑)
+3. 이후 step-complete 호출 시 task ID 미발견 → WARN 로그 후 계속
+```
+
+**CRITICAL**: Case A 실행 후, master-status.json에 반드시 기록:
 ```json
 {
   "master_task_mapping": {
@@ -293,6 +319,7 @@ python3 {TASK_MANAGER_SCRIPT} \
   }
 }
 ```
+이 기록이 없으면 세션 복원 시 중복 태스크가 생성된다.
 
 ---
 
@@ -1371,6 +1398,27 @@ Master_Gate_M4:
 The gate runs programmatically (`validate_completion.py`) — it cannot be "approved away" by LLM judgment.
 This is the Python 원천봉쇄 principle applied to deliverable completeness.
 
+**M4 Result Recording (MANDATORY)**: M4 실행 후, 결과를 master-status.json에 반드시 기록:
+```json
+// validate_completion.py exit code 0 (PASS) 일 때:
+master_status["master_gates"]["M4"] = {
+  "status": "PASS",
+  "timestamp": "{ISO8601}",
+  "script": "validate_completion.py",
+  "checks_passed": 9
+}
+
+// validate_completion.py exit code 1 (FAIL) 일 때:
+master_status["master_gates"]["M4"] = {
+  "status": "FAIL",
+  "timestamp": "{ISO8601}",
+  "script": "validate_completion.py",
+  "failed_checks": ["CG-002", "CG-006"]  // 실패한 체크 ID 목록
+}
+```
+**CRITICAL**: M4 결과가 master-status.json에 기록되지 않으면, `master_task_manager.py --action step-complete --step 5`가
+M4 게이트를 찾지 못해 Step 5 완료를 거부한다. M4 기록은 Step 5 완료의 전제조건이다.
+
 **Task Completion (Python 원천봉쇄)**: After M4 PASS:
 ```bash
 python3 {TASK_MANAGER_SCRIPT} --action step-complete --step 5 --status-file {MASTER_STATUS_FILE}
@@ -1379,6 +1427,148 @@ If `action: COMPLETE` → `TaskUpdate(master_task_mapping["master_step5"], statu
 
 **CRITICAL**: Step 5 completion is gated on **M4** (deliverable completeness), NOT M3 (approval only).
 M4 verifies all EN/KO reports, timeline map, and archives actually exist on disk.
+
+---
+
+## Step 5.2: Dashboard Generation (v3.4.0 — Python 원천봉쇄)
+
+> **Origin**: 모든 정량 데이터(STEEPs 분포, FSSF, 시그널 수, 리스크 확률 등)를 LLM이 보고서에 기술한 숫자가 아닌
+> Python이 원본 JSON에서 직접 계산. 분석적 서사는 이미 승인된 통합보고서에서 원문 추출(재생성 금지).
+> **"계산은 Python이, 서사는 이미 승인된 보고서가, 대시보드는 조립만 한다."**
+
+**전제조건**: Master Gate M4 PASS (모든 EN/KO 보고서 존재 확인됨)
+
+**SOT 참조**: `integration.dashboard` 섹션 — `enabled`, `extractor_script`, `generator_script`, `validator_script`
+
+### 5.2.0 KO 보고서 존재 확인 및 번역 안전장치
+
+M4가 CG-002(KO 존재)를 검증하지만, 실행 누락 시 이 안전장치가 보완한다.
+
+```python
+# KO 파일 경로를 SOT에서 결정 (하드코딩 금지)
+# SOT: workflows.{wf_key}.deliverables.report_ko + workflows.{wf_key}.data_root
+# SOT: integration.deliverables.report_ko + integration.output_root
+KO_FILES_NEEDED = []
+for wf_key in enabled_workflows:
+    wf_cfg = registry["workflows"][wf_key]
+    ko_name = wf_cfg["deliverables"]["report_ko"].replace("{date}", SCAN_DATE)
+    ko_path = wf_cfg["data_root"] + "/reports/daily/" + ko_name
+    en_name = wf_cfg["deliverables"]["report_en"].replace("{date}", SCAN_DATE)
+    en_path = wf_cfg["data_root"] + "/reports/daily/" + en_name
+    KO_FILES_NEEDED.append((ko_path, en_path))
+
+# Integrated report
+int_ko = registry["integration"]["deliverables"]["report_ko"].replace("{date}", SCAN_DATE)
+int_en = registry["integration"]["deliverables"]["report_en"].replace("{date}", SCAN_DATE)
+int_root = registry["integration"]["output_root"]
+KO_FILES_NEEDED.append((int_root + "/reports/daily/" + int_ko, int_root + "/reports/daily/" + int_en))
+
+MISSING_KO = [(ko, en) for ko, en in KO_FILES_NEEDED if not file_exists(ko)]
+```
+
+**If MISSING_KO is not empty**:
+1. Log: `"KO 보고서 {len(MISSING_KO)}건 누락 감지 — 번역 스킬 호출"`
+2. For each missing KO file, invoke `@translation-agent` sub-agent:
+   - Read EN source file
+   - Read `env-scanning/config/translation-terms.yaml`
+   - Translate entire document to Korean (합쇼체, 구조 100% 보존)
+   - Write to KO path
+3. Validate each with `translation_validator.py`
+4. If validation fails after 2 retries: WARN log, continue without that KO file
+
+**Launch translations in parallel** (multiple Agent calls) for speed.
+This step is NON-BLOCKING — translation failure does not halt the workflow.
+
+```python
+# Read from SOT
+DASHBOARD_ENABLED = registry["integration"]["dashboard"]["enabled"]  # true/false
+if not DASHBOARD_ENABLED:
+    # Skip rest of Step 5.2
+    pass
+```
+
+### 5.2.1 Data Extraction (할루시네이션 원천봉쇄)
+
+```bash
+python3 {DASHBOARD_EXTRACTOR_SCRIPT} \
+  --date {SCAN_DATE} \
+  --registry {SOT_PATH} \
+  --status-file {MASTER_STATUS_FILE} \
+  --integrated-report {INT_OUTPUT_ROOT}/reports/daily/integrated-scan-{date}.md \
+  --output {INT_OUTPUT_ROOT}/analysis/dashboard-data-{date}.json
+```
+
+Where `DASHBOARD_EXTRACTOR_SCRIPT` = SOT `integration.dashboard.extractor_script`
+
+**Python이 계산하는 것** (할루시네이션 불가):
+- 시그널 수: master-status.json에서 직접 읽기
+- STEEPs 분포: classified-signals-*.json에서 category 필드 직접 카운트
+- FSSF 분포: classified-signals-*.json에서 fssf_type 필드 직접 카운트
+- Top N 시그널: priority-ranked + classified JOIN (LLM 재해석 없음)
+- 리스크 확률: 공식 기반 (교차WF 비율 × 0.5 + 평균영향도 × 0.5)
+- 교차 WF 강화: 키워드 기반 자카드 유사도 매칭
+
+**통합보고서에서 원문 추출하는 것** (재생성 금지):
+- 메가테마 서술 (§1 Executive Summary)
+- 교차 분석 서사 (§4 Patterns and Connections)
+- 전략적 함의 (§5 Strategic Implications)
+- 시나리오 서술 (§6 Plausible Scenarios)
+
+**Exit code 확인**: 0 = 성공. Non-zero = WARN 로그 후 계속 진행 (대시보드 실패는 워크플로우를 중단하지 않음).
+
+### 5.2.2 HTML Dashboard Generation
+
+```bash
+python3 {DASHBOARD_GENERATOR_SCRIPT} \
+  --date {SCAN_DATE} \
+  --data-file {INT_OUTPUT_ROOT}/analysis/dashboard-data-{date}.json \
+  --registry {SOT_PATH} \
+  --project-root {PROJECT_ROOT} \
+  --output {INT_OUTPUT_ROOT}/reports/daily/dashboard-{date}.html
+```
+
+Where `DASHBOARD_GENERATOR_SCRIPT` = SOT `integration.dashboard.generator_script`
+
+**LLM 호출: 없음.** 100% Python 조립. Chart.js 데이터는 dashboard-data.json에서만 읽음.
+
+### 5.2.3 Dashboard Validation
+
+```bash
+python3 {DASHBOARD_VALIDATOR_SCRIPT} \
+  --dashboard {INT_OUTPUT_ROOT}/reports/daily/dashboard-{date}.html \
+  --date {SCAN_DATE}
+```
+
+Where `DASHBOARD_VALIDATOR_SCRIPT` = SOT `integration.dashboard.validator_script`
+
+검증 항목 (DB-001 ~ DB-006):
+- DB-001: 파일 존재
+- DB-002: 최소 100KB
+- DB-003: 탭 완성도 (요약 6+ / 보고서 5+)
+- DB-004: 보고서 콘텐츠 삽입 확인
+- DB-005: 한국어 비율 ≥10%
+- DB-006: Chart.js 데이터셋 무결성
+
+**Exit code 처리**:
+- 0 (PASS) → 아카이빙 진행
+- 2 (WARN) → WARN 로그 후 아카이빙 진행
+- 1 (FAIL) → WARN 로그, 대시보드 없이 Step 6 진행 (워크플로우 중단 안 함)
+
+### 5.2.4 Archive & Symlink
+
+```bash
+# 아카이브 복사
+cp {INT_OUTPUT_ROOT}/reports/daily/dashboard-{date}.html \
+   {INT_OUTPUT_ROOT}/reports/dashboard-archive/{year}/{month}/dashboard-{date}.html
+
+# 프로젝트 루트에 최신 대시보드 복사
+cp {INT_OUTPUT_ROOT}/reports/daily/dashboard-{date}.html \
+   {PROJECT_ROOT}/dashboard.html
+```
+
+**CRITICAL: Step 5.2 실패 시 워크플로우 중단 없음.** 대시보드는 보조 산출물이다.
+M4가 이미 모든 핵심 산출물(EN/KO 보고서, 타임라인맵)의 완전성을 보장했다.
+대시보드 생성 실패 시 WARN 로그만 남기고 Step 6로 진행한다.
 
 ---
 
@@ -1444,11 +1634,36 @@ M4 verifies all EN/KO reports, timeline map, and archives actually exist on disk
   최종 보고서:
     env-scanning/integrated/reports/daily/integrated-scan-{date}.md
 
+  대시보드:
+    dashboard.html (if generated)
+
   인간 승인: 9/9 완료
-  Master Gates: M1 ✅  M2 ✅  M2a ✅  M2b ✅  M3 ✅
+  Master Gates: M1 ✅  M2 ✅  M2a ✅  M2b ✅  M3 ✅  M4 ✅
 
 ══════════════════════════════════════════════════════
 ```
+
+### 6.3 Dashboard Auto-Open (v3.5.0)
+
+```python
+# Read from SOT (inline — same pattern as DASHBOARD_ENABLED in Step 5.2)
+DASHBOARD_ENABLED = registry["integration"]["dashboard"]["enabled"]          # true/false
+DASHBOARD_AUTO_OPEN = registry.get("integration", {}).get("dashboard", {}).get("auto_open", False)
+ROOT_SYMLINK = registry["integration"]["dashboard"]["output"]["root_symlink"]  # SOT 바인딩 — 경로 하드코딩 금지
+```
+
+**Execution**:
+1. `DASHBOARD_ENABLED == False` → SKIP (로그: "Dashboard disabled, skipping auto-open")
+2. `DASHBOARD_AUTO_OPEN == False` → SKIP (로그: "Dashboard auto-open disabled")
+3. `DASHBOARD_ENABLED == True AND DASHBOARD_AUTO_OPEN == True` →
+   a. 오늘 날짜 대시보드 존재 확인: `{INT_OUTPUT_ROOT}/reports/daily/dashboard-{SCAN_DATE}.html`
+   b. 존재하면: `open {PROJECT_ROOT}/{ROOT_SYMLINK}` (루트 복사본 오픈)
+   c. 존재하지 않으면: WARN 로그 ("Today's dashboard not generated, skipping auto-open — stale file protection")
+4. ELSE (auto_open 필드 없음) → SKIP (안전한 폴백, 기본값 = False)
+
+**CRITICAL**: `open` 실패 시 워크플로우 중단 없음. 대시보드 자동 오픈은 보조 기능이다.
+macOS 전용 (`open` 명령). 비동기 실행 — 브라우저에 파일 전달 후 즉시 리턴.
+**Stale File 방지**: 루트 심링크가 아닌 날짜별 파일(`dashboard-{date}.html`)로 금일 생성 여부를 확인한다.
 
 **Task Completion (Python 원천봉쇄)**: After Step 6 finalization:
 ```bash
@@ -1815,12 +2030,13 @@ Finalization:
 ---
 
 ## Version
-- **Orchestrator Version**: 3.1.0
-- **SOT Version**: 3.0.0
+- **Orchestrator Version**: 3.2.0
+- **SOT Version**: 3.5.0
 - **Protocol Version**: 3.1.0
 - **Compatible with**: Quadruple Workflow System v3.0.0 (WF4 Multi&Global-News added)
-- **Last Updated**: 2026-03-15
+- **Last Updated**: 2026-03-24
 - **Changelog**:
+  - v3.2.0 — Dashboard Auto-Open + Task/Gate Critical Fixes: (1) Step 6.3 Dashboard Auto-Open added with DASHBOARD_ENABLED pre-check, stale file protection, SOT-bound root_symlink path. SOT-064 extended with auto_open type validation. (2) Step 0.4 TaskCreate execution logic made explicit with Case A/B/C handling and mandatory master-status.json recording. (3) M4 Result Recording block added after validate_completion.py — master_gates.M4 must be recorded in master-status.json before Step 5 completion. (4) priority_score_calculator.py added to SOT shared_engine (SOT-065 validation rule). SOT version bumped to 3.5.0.
   - v3.1.0 — Task Management Python 원천봉쇄: Added deterministic task lifecycle management via `master_task_manager.py`. Step 0.4 creates 7 master tasks using Python-computed instructions (duplicate prevention via `master_task_mapping`). Each step boundary (M1/M2/M2a/M2b/M4 gates) calls `--action step-complete` for gate-verified completion. Step 6 runs `--action sync` for final catch-all. Error handling `on_skip` blocks call `--action wf-skip`. Step 5 completion gated on M4 (not M3). All task decisions are Python-computed; LLM only executes TaskCreate/TaskUpdate with exact parameters. SOT-062 validates script existence.
   - v3.0.0 — WF4 (Multi&Global-News) added: Quadruple workflow system. New WF4 variables (WF4_DATA_ROOT, WF4_SOURCES, WF4_PROFILE, WF4_ORCHESTRATOR, WF4_ENABLED, WF4_SKELETON), bilingual override for WF4, Master Gate M2b (WF4→Integration), wf4-analyst in Agent Teams (5 teammates), Step numbering updated (WF3=Step 3, WF4=Step 4, Integration=Step 5, Finalization=Step 6, Weekly=Step 7). 9 human checkpoints. Degraded mode table expanded for 4 workflows.
   - v2.3.1 — SOT Direct Reading (할루시네이션 원천봉쇄): signal_evolution_tracker.py now reads ALL thresholds directly from SOT via `--registry`. LLM orchestrators pass only the registry path, never numeric values. Cross-correlation thresholds added to SOT `cross_workflow_correlation.matching`. Dead SOT fields (max_thread_age_days, min_appearances_for_velocity, high_confidence_threshold) now connected to code. SOT-034 expanded to validate all lifecycle/state_detection/cross-correlation fields.
