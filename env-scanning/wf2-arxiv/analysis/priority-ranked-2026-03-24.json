@@ -1,0 +1,490 @@
+{
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "arxiv-20260324-028",
+      "title": "Biosecurity-Aware AI: Agentic Risk Auditing of Soft Prompt Attacks on ESM-Based Variant Predictors",
+      "steeps": "T_Technological",
+      "priority_score": 8.7,
+      "psst_score": 87.0,
+      "psst_grade": "A",
+      "component_scores": {
+        "impact": 9,
+        "novelty": 8,
+        "urgency": 8,
+        "confidence": 0.9
+      }
+    },
+    {
+      "rank": 2,
+      "id": "arxiv-20260324-011",
+      "title": "Artificial General Intelligence and the End of Human Employment: Renegotiating the Social Contract",
+      "steeps": "S_Social",
+      "priority_score": 8.3,
+      "psst_score": 83.0,
+      "psst_grade": "A",
+      "component_scores": {
+        "impact": 8,
+        "novelty": 8,
+        "urgency": 8,
+        "confidence": 0.9
+      }
+    },
+    {
+      "rank": 3,
+      "id": "arxiv-20260324-019",
+      "title": "Resilient Biosecurity in the Era of AI-Enabled Bioweapons",
+      "steeps": "P_Political",
+      "priority_score": 8.3,
+      "psst_score": 83.0,
+      "psst_grade": "A",
+      "component_scores": {
+        "impact": 9,
+        "novelty": 8,
+        "urgency": 6,
+        "confidence": 0.9
+      }
+    },
+    {
+      "rank": 4,
+      "id": "arxiv-20260324-024",
+      "title": "Towards Macroeconomic Analysis Without Microfoundations: Measuring Entropy of Simulated Exchange Economies",
+      "steeps": "E_Economic",
+      "priority_score": 8.3,
+      "psst_score": 83.0,
+      "psst_grade": "A",
+      "component_scores": {
+        "impact": 8,
+        "novelty": 8,
+        "urgency": 8,
+        "confidence": 0.9
+      }
+    },
+    {
+      "rank": 5,
+      "id": "arxiv-20260324-025",
+      "title": "Fully Autonomous AI Agents Should Not be Developed",
+      "steeps": "s_spiritual",
+      "priority_score": 8.3,
+      "psst_score": 83.0,
+      "psst_grade": "A",
+      "component_scores": {
+        "impact": 8,
+        "novelty": 8,
+        "urgency": 8,
+        "confidence": 0.9
+      }
+    },
+    {
+      "rank": 6,
+      "id": "arxiv-20260324-002",
+      "title": "LLM-Agent Interactions on Markets with Information Asymmetries",
+      "steeps": "E_Economic",
+      "priority_score": 8.2,
+      "psst_score": 82.0,
+      "psst_grade": "A",
+      "component_scores": {
+        "impact": 8,
+        "novelty": 7,
+        "urgency": 8,
+        "confidence": 0.9
+      }
+    },
+    {
+      "rank": 7,
+      "id": "arxiv-20260324-006",
+      "title": "ForesightSafety Bench: A Frontier Risk Evaluation and Governance Framework towards Safe AI",
+      "steeps": "T_Technological",
+      "priority_score": 8.2,
+      "psst_score": 82.0,
+      "psst_grade": "A",
+      "component_scores": {
+        "impact": 8,
+        "novelty": 7,
+        "urgency": 8,
+        "confidence": 0.9
+      }
+    },
+    {
+      "rank": 8,
+      "id": "arxiv-20260324-010",
+      "title": "Contemporary AI Foundation Models Increase Biological Weapons Risk",
+      "steeps": "P_Political",
+      "priority_score": 8.2,
+      "psst_score": 82.0,
+      "psst_grade": "A",
+      "component_scores": {
+        "impact": 9,
+        "novelty": 7,
+        "urgency": 6,
+        "confidence": 0.9
+      }
+    },
+    {
+      "rank": 9,
+      "id": "arxiv-20260324-013",
+      "title": "Monitoring Limits in DAO Governance: Capacity Breakpoints and Endogenous Concentration",
+      "steeps": "P_Political",
+      "priority_score": 8.2,
+      "psst_score": 82.0,
+      "psst_grade": "A",
+      "component_scores": {
+        "impact": 8,
+        "novelty": 7,
+        "urgency": 8,
+        "confidence": 0.9
+      }
+    },
+    {
+      "rank": 10,
+      "id": "arxiv-20260324-032",
+      "title": "A Benchmark for Evaluating Outcome-Driven Constraint Violations in Autonomous AI Agents",
+      "steeps": "T_Technological",
+      "priority_score": 8.2,
+      "psst_score": 82.0,
+      "psst_grade": "A",
+      "component_scores": {
+        "impact": 9,
+        "novelty": 7,
+        "urgency": 6,
+        "confidence": 0.9
+      }
+    },
+    {
+      "rank": 11,
+      "id": "arxiv-20260324-003",
+      "title": "The AI Transformation Gap Index (AITG): Empirical Framework for Measuring AI Disruption Risk at Industry and Firm Level",
+      "steeps": "E_Economic",
+      "priority_score": 7.9,
+      "psst_score": 79.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 7,
+        "novelty": 8,
+        "urgency": 8,
+        "confidence": 0.9
+      }
+    },
+    {
+      "rank": 12,
+      "id": "arxiv-20260324-007",
+      "title": "TraderBench: How Robust Are AI Agents in Adversarial Capital Markets?",
+      "steeps": "E_Economic",
+      "priority_score": 7.9,
+      "psst_score": 79.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 7,
+        "novelty": 8,
+        "urgency": 8,
+        "confidence": 0.9
+      }
+    },
+    {
+      "rank": 13,
+      "id": "arxiv-20260324-009",
+      "title": "Breaking the Factorization Barrier in Diffusion Language Models",
+      "steeps": "T_Technological",
+      "priority_score": 7.9,
+      "psst_score": 79.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 8,
+        "novelty": 8,
+        "urgency": 6,
+        "confidence": 0.9
+      }
+    },
+    {
+      "rank": 14,
+      "id": "arxiv-20260324-016",
+      "title": "DenoiseFlow: Uncertainty-Aware Denoising for Reliable LLM Agentic Workflows",
+      "steeps": "T_Technological",
+      "priority_score": 7.9,
+      "psst_score": 79.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 8,
+        "novelty": 8,
+        "urgency": 6,
+        "confidence": 0.9
+      }
+    },
+    {
+      "rank": 15,
+      "id": "arxiv-20260324-020",
+      "title": "From Goals to Aspects, Revisited: An NFR Pattern Language for Agentic AI Systems",
+      "steeps": "T_Technological",
+      "priority_score": 7.9,
+      "psst_score": 79.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 8,
+        "novelty": 8,
+        "urgency": 6,
+        "confidence": 0.9
+      }
+    },
+    {
+      "rank": 16,
+      "id": "arxiv-20260324-030",
+      "title": "Expert Divergence Learning for MoE-based Language Models",
+      "steeps": "T_Technological",
+      "priority_score": 7.9,
+      "psst_score": 79.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 7,
+        "novelty": 8,
+        "urgency": 8,
+        "confidence": 0.9
+      }
+    },
+    {
+      "rank": 17,
+      "id": "arxiv-20260324-031",
+      "title": "Macroeconomic Forecasting from Input-Output Tables Alone: A Darwinian Agent-Based Approach",
+      "steeps": "E_Economic",
+      "priority_score": 7.9,
+      "psst_score": 79.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 8,
+        "novelty": 8,
+        "urgency": 6,
+        "confidence": 0.9
+      }
+    },
+    {
+      "rank": 18,
+      "id": "arxiv-20260324-018",
+      "title": "Econometric vs. Causal Structure-Learning for Time-Series Policy Decisions: Evidence from UK COVID-19 Policies",
+      "steeps": "P_Political",
+      "priority_score": 7.8,
+      "psst_score": 78.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 7,
+        "novelty": 7,
+        "urgency": 8,
+        "confidence": 0.9
+      }
+    },
+    {
+      "rank": 19,
+      "id": "arxiv-20260324-023",
+      "title": "How Vulnerable is India's Economy to Foreign Sanctions?",
+      "steeps": "E_Economic",
+      "priority_score": 7.8,
+      "psst_score": 78.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 7,
+        "novelty": 7,
+        "urgency": 8,
+        "confidence": 0.9
+      }
+    },
+    {
+      "rank": 20,
+      "id": "arxiv-20260324-029",
+      "title": "Nonlinear Fiscal Transitions and the Dynamics of Public Expenditure Reform",
+      "steeps": "P_Political",
+      "priority_score": 7.8,
+      "psst_score": 78.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 7,
+        "novelty": 7,
+        "urgency": 8,
+        "confidence": 0.9
+      }
+    },
+    {
+      "rank": 21,
+      "id": "arxiv-20260324-001",
+      "title": "Towards Next-Generation LLM Training: From the Data-Centric Perspective",
+      "steeps": "T_Technological",
+      "priority_score": 7.5,
+      "psst_score": 75.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 7,
+        "novelty": 8,
+        "urgency": 6,
+        "confidence": 0.9
+      }
+    },
+    {
+      "rank": 22,
+      "id": "arxiv-20260324-004",
+      "title": "When an AI Judges Your Work: The Hidden Costs of Algorithmic Assessment",
+      "steeps": "s_spiritual",
+      "priority_score": 7.5,
+      "psst_score": 75.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 7,
+        "novelty": 8,
+        "urgency": 6,
+        "confidence": 0.9
+      }
+    },
+    {
+      "rank": 23,
+      "id": "arxiv-20260324-014",
+      "title": "Opportunities and Challenges of Quantum Computing for Climate Modelling",
+      "steeps": "E_Environmental",
+      "priority_score": 7.5,
+      "psst_score": 75.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 7,
+        "novelty": 8,
+        "urgency": 6,
+        "confidence": 0.9
+      }
+    },
+    {
+      "rank": 24,
+      "id": "arxiv-20260324-022",
+      "title": "Attn-QAT: 4-Bit Attention With Quantization-Aware Training",
+      "steeps": "T_Technological",
+      "priority_score": 7.5,
+      "psst_score": 75.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 7,
+        "novelty": 8,
+        "urgency": 6,
+        "confidence": 0.9
+      }
+    },
+    {
+      "rank": 25,
+      "id": "arxiv-20260324-005",
+      "title": "The Household Impact of Generative AI: Evidence from Internet Browsing Behavior",
+      "steeps": "S_Social",
+      "priority_score": 7.4,
+      "psst_score": 74.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 7,
+        "novelty": 7,
+        "urgency": 6,
+        "confidence": 0.9
+      }
+    },
+    {
+      "rank": 26,
+      "id": "arxiv-20260324-008",
+      "title": "Cities Cluster into Growth Regimes that Propagate Shocks",
+      "steeps": "E_Economic",
+      "priority_score": 7.4,
+      "psst_score": 74.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 7,
+        "novelty": 7,
+        "urgency": 6,
+        "confidence": 0.9
+      }
+    },
+    {
+      "rank": 27,
+      "id": "arxiv-20260324-012",
+      "title": "A Survey of Reinforcement Learning For Economics",
+      "steeps": "T_Technological",
+      "priority_score": 7.4,
+      "psst_score": 74.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 7,
+        "novelty": 7,
+        "urgency": 6,
+        "confidence": 0.9
+      }
+    },
+    {
+      "rank": 28,
+      "id": "arxiv-20260324-015",
+      "title": "The 'Gold Rush' in AI and Robotics Patenting Activity: Do Innovation Systems Have a Role?",
+      "steeps": "T_Technological",
+      "priority_score": 7.4,
+      "psst_score": 74.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 7,
+        "novelty": 7,
+        "urgency": 6,
+        "confidence": 0.9
+      }
+    },
+    {
+      "rank": 29,
+      "id": "arxiv-20260324-017",
+      "title": "How Much Do People Care about Climate Natural Disasters?",
+      "steeps": "E_Environmental",
+      "priority_score": 7.4,
+      "psst_score": 74.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 7,
+        "novelty": 7,
+        "urgency": 6,
+        "confidence": 0.9
+      }
+    },
+    {
+      "rank": 30,
+      "id": "arxiv-20260324-021",
+      "title": "A Linear Model of Geopolitics",
+      "steeps": "P_Political",
+      "priority_score": 7.4,
+      "psst_score": 74.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 7,
+        "novelty": 7,
+        "urgency": 6,
+        "confidence": 0.9
+      }
+    },
+    {
+      "rank": 31,
+      "id": "arxiv-20260324-026",
+      "title": "Playing Against the Machine: Cooperation, Communication, and Strategy in Repeated Prisoner's Dilemma",
+      "steeps": "s_spiritual",
+      "priority_score": 7.4,
+      "psst_score": 74.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 7,
+        "novelty": 7,
+        "urgency": 6,
+        "confidence": 0.9
+      }
+    },
+    {
+      "rank": 32,
+      "id": "arxiv-20260324-027",
+      "title": "No Last Mile: A Theory of the Human Data Market",
+      "steeps": "E_Economic",
+      "priority_score": 7.4,
+      "psst_score": 74.0,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 7,
+        "novelty": 7,
+        "urgency": 6,
+        "confidence": 0.9
+      }
+    }
+  ],
+  "ranking_metadata": {
+    "engine": "manual_fallback",
+    "workflow": "wf2-arxiv",
+    "date": "2026-03-24",
+    "total_ranked": 32
+  }
+}

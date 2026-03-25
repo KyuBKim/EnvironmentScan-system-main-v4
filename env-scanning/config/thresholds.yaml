@@ -316,6 +316,20 @@ marathon_mode:
 
 # ============================================================================
 
+# ============================================================================
+# Dashboard Cross-WF Reinforcement Detection (v1.2.0)
+# Used by dashboard_data_extractor.py for cross-workflow signal overlap.
+# ============================================================================
+
+dashboard:
+  cross_wf_reinforcement:
+    threshold: 0.10
+    description: "Word-level Jaccard similarity threshold for cross-WF reinforcement detection"
+    method: "Tokenize (keywords + title + abstract[:200] + cross_impact) → Jaccard similarity"
+    min_shared_terms: 3  # Minimum shared terms to qualify (false positive filter)
+    min_word_length: 2   # Preserve critical 2-char domain terms (AI, EU, EV, etc.)
+    max_results: 20      # Cap reinforcement pairs returned to dashboard
+
 self_improvement_tracking:
   last_tuned: null
   tune_count: 0

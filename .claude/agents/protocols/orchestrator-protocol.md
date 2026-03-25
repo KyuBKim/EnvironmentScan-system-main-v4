@@ -314,7 +314,7 @@ python3 env-scanning/scripts/validate_translation.py \
 - Exit 0 → KO report accepted
 - Exit 1 → KO file renamed to `*-ko.REJECTED.md`, retry translation (max 2)
 
-### 7.2 Dashboard Validation (Step 5.2.3) (v3.5.0)
+### 7.2 Dashboard Validation (Step 5.2.3) (v3.5.1)
 
 After `dashboard_generator.py` produces the HTML dashboard:
 
@@ -329,12 +329,19 @@ python3 env-scanning/scripts/validate_dashboard.py \
 - Exit 2 (WARN) → archive + root symlink + WARN log
 - Exit 1 (FAIL) → WARN log, skip archiving, continue to Step 6 (non-blocking)
 
+**Dashboard Data Integrity** (v3.5.1):
+- Cross-WF reinforcement threshold: SOT-bound from `thresholds.yaml` → `dashboard.cross_wf_reinforcement.threshold`
+- Timeline map fallback: if today's `timeline-map-{date}.md` is missing, extractor loads most recent available. `timeline_map_meta.source` in dashboard-data.json records `"exact"` or `"fallback"`. Generator shows orange warning banner for fallback data.
+- CDN offline: Chart.js CDN failure gracefully degrades — canvas elements removed from DOM, fallback message shown. No uncaught JS errors.
+
 ---
 
 ## 8. Phase-Specific Context Loading (v3.2.0 — Context Memory Optimization)
 
-> **Principle**: "에이전트에게 불필요한 정보를 주면, 판단 품질이 저하된다."
-> 각 Phase에서 필요한 데이터만 로딩하여 LLM의 신호 대 잡음 비를 최적화한다.
+> **Principle (v3.5.1 — Quality-First)**: "에이전트에게 불필요한 정보를 주면, 판단 품질이 저하된다.
+> 그러나 필요한 정보를 제거하면, 판단의 **깊이**가 손상된다."
+> 각 Phase에서 **품질 판단에 필요한 데이터를 충분히** 로딩하되, 무관한 데이터는 제외한다.
+> 토큰 절감이 아닌 **결과물 품질 극대화**가 context 최적화의 유일한 기준이다.
 
 ### Phase 1 (Research) — Required Context
 
@@ -342,41 +349,59 @@ python3 env-scanning/scripts/validate_dashboard.py \
 |------|--------|---------|
 | sources config | `{sources_config}` | Scan targets |
 | scan window state | `{scan_window_state_file}` | Temporal boundaries |
-| signal DB (SOT lookback) | `{data_root}/signals/database.json` via **RecursiveArchiveLoader** (lookback from SOT `dedup_gate.lookback_days`, default 30 days) | Dedup baseline |
+| signal DB (SOT lookback) | `{data_root}/signals/database.json` via **RecursiveArchiveLoader** (lookback: SOT `dedup_gate.archive_loader_window_days`) | Dedup baseline + evolution tracking |
 | domains config | `env-scanning/config/domains.yaml` | STEEPs keywords |
 
 **DO NOT load**: priority-ranked data, evolution indices, report statistics, integration data
+
+> **v3.5.1 변경**: RecursiveArchiveLoader 윈도우를 SOT 바인딩으로 전환.
+> 값: `dedup_gate.archive_loader_window_days` (기본 14일). 하드코딩 금지.
+> 근거: 7일 윈도우에서는 8~14일 전 등장한 시그널이 재등장할 때 "신규"로 분류됨.
+> 14일 윈도우는 RECURRING/STRENGTHENING 진화 패턴의 감지 범위를 2배로 확장한다.
 
 ### Phase 2 (Planning) — Required Context
 
 | Data | Source | Purpose |
 |------|--------|---------|
-| classified signals | `{data_root}/structured/classified-signals-{date}.json` | Analysis input |
+| classified signals (full) | `{data_root}/structured/classified-signals-{date}.json` | Analysis input (**abstract 포함**) |
 | thresholds | `env-scanning/config/thresholds.yaml` | Scoring parameters |
-| shared context (selective) | via **SharedContextManager** — load only `final_classification`, `impact_analysis` | Field-level efficiency |
+| shared context (selective) | via **SharedContextManager** — load `final_classification`, `impact_analysis` | Field-level access |
 
 **DO NOT load**: raw scan data, dedup indexes, archive reports, report skeletons
+
+> **v3.5.1 변경**: classified-signals JSON의 **abstract 필드를 반드시 포함**하여 로딩.
+> 근거: @phase2-analyst가 title+keywords만으로 분류할 때보다 abstract(100-500단어)를
+> 함께 참조하면 STEEPs 분류 정확도와 cross-impact 분석 깊이가 유의미하게 향상된다.
+> abstract는 원본 소스에서 수집된 사실 기반 텍스트로, 할루시네이션 위험이 없다.
 
 ### Phase 3 (Implementation) — Required Context
 
 | Data | Source | Purpose |
 |------|--------|---------|
-| priority-ranked signals | `{data_root}/analysis/priority-ranked-{date}.json` | Report content |
+| priority-ranked signals | `{data_root}/analysis/priority-ranked-{date}.json` | Report content (ranking) |
+| classified signals | `{data_root}/structured/classified-signals-{date}.json` | **Signal abstract/source detail** for rich 상세 설명 |
 | report skeleton | `{report_skeleton}` from SOT | L1 template |
 | report statistics | `{data_root}/reports/report-statistics-{date}.json` | Metadata injection |
 | evolution data | `{data_root}/analysis/evolution/evolution-map-{date}.json` | Timeline context |
 
-**DO NOT load**: raw scan data, sources config, dedup indexes, intermediate classification files
+**DO NOT load**: raw scan data, sources config, dedup indexes
+
+> **v3.5.1 변경**: Phase 3에 `classified-signals.json` 추가.
+> 근거: @report-generator가 priority-ranked만 참조하면 시그널의 abstract, source URL,
+> 원문 키워드를 활용할 수 없어 "상세 설명"과 "추론" 필드가 얕아진다.
+> classified-signals의 풍부한 맥락(abstract, source metadata)을 포함하면
+> 보고서의 정보 밀도와 분석 깊이가 향상된다.
 
 ### RLM Module Usage (Mandatory)
 
-- **RecursiveArchiveLoader**: MUST use in Phase 1 for signal DB loading (7-day window, 10-20x reduction)
-- **SharedContextManager**: MUST use in Phase 2 for selective field access (3-5x reduction)
+- **RecursiveArchiveLoader**: MUST use in Phase 1 for signal DB loading (window from SOT `dedup_gate.archive_loader_window_days` — signal evolution detection)
+- **SharedContextManager**: MUST use in Phase 2 for selective field access (quality-optimized field selection)
 - Both modules preserve full backward compatibility via legacy methods
 
 ---
 
 ## Version History
+- v3.5.1 (2026-03-25): Quality-First Context Optimization (Section 8). Phase 1 RecursiveArchiveLoader window 7→14 days for signal evolution detection. Phase 2 abstract field inclusion for deeper classification. Phase 3 classified-signals addition for richer report generation. Dashboard data integrity (Section 7.2): cross-WF SOT binding, timeline fallback, CDN offline.
 - v3.4.0 (2026-03-24): Added Section 7.1 (Translation Validation) and Section 7.2 (Dashboard Validation) to shared protocol. Previously only in individual orchestrators — now registered as shared quality defense steps.
 - v3.3.0 (2026-03-09): Pipeline Gate 2 Python enforcement (validate_phase2_output.py). 8 deterministic checks (PG2-001~008) replace LLM-only verification. Prevents hallucinated STEEPs codes, out-of-range scores, and invalid FSSF/Horizons/Tipping values from propagating to Phase 3.
 - v3.2.0 (2026-03-09): Added Phase-Specific Context Loading (Section 8). Mandated RecursiveArchiveLoader for Phase 1, SharedContextManager for Phase 2. Context memory optimization for maximum LLM judgment quality.

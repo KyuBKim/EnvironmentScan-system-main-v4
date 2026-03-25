@@ -1,0 +1,23 @@
+{
+  "scan_metadata": {
+    "scan_date": "2026-03-23",
+    "workflow": "wf2-arxiv",
+    "anchor_timestamp": "2026-03-22T21:26:35Z",
+    "scan_window": {
+      "start": "2026-03-20T21:26:35Z",
+      "end": "2026-03-22T21:26:35Z",
+      "lookback_hours": 48,
+      "tolerance_minutes": 60
+    },
+    "source": "arXiv",
+    "query_groups_scanned": 20,
+    "total_items_collected": 58,
+    "execution_proof": {
+      "started_at": "2026-03-22T21:46:00Z",
+      "completed_at": "2026-03-22T22:15:00Z",
+      "registry_version": "2.5.0"
+    }
+  },
+  "items_count": 58,
+  "categories_covered": ["cs.AI", "cs.LG", "cs.CL", "cs.CV", "cs.RO", "cs.CR", "cs.SE", "quant-ph", "physics.bio-ph", "q-fin", "econ", "stat.ML", "cs.MA", "cs.NE", "cs.DC"]
+}

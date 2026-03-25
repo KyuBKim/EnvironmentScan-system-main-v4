@@ -1,0 +1,14 @@
+{
+  "gate_id": "exploration_gate.py",
+  "gate_version": "1.3.0",
+  "command": "pre",
+  "recorded_at": "2026-03-22T21:26:35.000000+00:00",
+  "date": "2026-03-23",
+  "decision": "MUST_RUN",
+  "reason": "s_spiritual coverage gap detected (below 15% threshold)",
+  "last_run": "2026-03-22",
+  "days_since": 1,
+  "coverage_gaps": ["s_spiritual"],
+  "frontier_selected": "random",
+  "budget_minutes": 40
+}

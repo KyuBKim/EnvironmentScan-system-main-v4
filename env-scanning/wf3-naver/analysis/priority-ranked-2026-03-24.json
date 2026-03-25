@@ -1,0 +1,5520 @@
+{
+  "ranking_metadata": {
+    "engine": "priority_score_calculator.py",
+    "engine_version": "1.0.0",
+    "workflow": "wf3-naver",
+    "date": "2026-03-24",
+    "computed_at": "2026-03-23T21:57:55Z",
+    "method": "priority_formula_v1",
+    "weights": {
+      "impact": 0.4,
+      "probability": 0.3,
+      "urgency": 0.2,
+      "novelty": 0.1
+    },
+    "total_ranked": 220,
+    "warn_count": 220
+  },
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "naver-20260324-100-030",
+      "title": "이란 미사일 요격 실패한 이유 알아봤더니… 이스라엘 ‘다윗의 돌팔매’ 오작동",
+      "steeps": "",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "priority_score": 4.0,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 2,
+      "id": "naver-20260324-100-034",
+      "title": "'요격률 90%' 천궁의 안도감 뒤에 숨은 방공 공백",
+      "steeps": "",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "priority_score": 4.0,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 3,
+      "id": "naver-20260324-101-057",
+      "title": "이스라엘, '비용 아끼려다' 이란 미사일 요격 실패",
+      "steeps": "",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "priority_score": 4.0,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 4,
+      "id": "naver-20260324-102-101",
+      "title": "美 3월인데 44도 치솟았다…\"비상상황\" 한계 몰린 지구의 경고",
+      "steeps": "",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "priority_score": 4.0,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 5,
+      "id": "naver-20260324-104-217",
+      "title": "이스라엘, '가성비' 따지다 방공망 오작동…이란 미사일 요격 실패",
+      "steeps": "",
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "priority_score": 4.0,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 6,
+      "id": "naver-20260324-100-003",
+      "title": "[속보] 조현 장관, 이란 외교장관과 통화…“호르무즈 해협 항행 안전 보장” 촉구",
+      "steeps": "",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "priority_score": 3.9,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 7,
+      "id": "naver-20260324-100-021",
+      "title": "국산 전투함 50년…글로벌 해양방산 게임체인저로 우뚝",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 3.9,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 8,
+      "id": "naver-20260324-100-033",
+      "title": "韓-이란 외교수장, 개전후 첫 소통… 호르무즈 문제 해결 외교전 본격화",
+      "steeps": "",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "priority_score": 3.9,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 9,
+      "id": "naver-20260324-101-050",
+      "title": "'4월 원유 위기설' 선 그은 정부…\"비축유·대체선으로 통제 가능\"",
+      "steeps": "",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "priority_score": 3.9,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 10,
+      "id": "naver-20260324-102-109",
+      "title": "호르무즈 막히자 요소값 47%↑ '비료 쇼크'…밥상 물가 덮치나",
+      "steeps": "",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "priority_score": 3.9,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 11,
+      "id": "naver-20260324-102-138",
+      "title": "李 ‘유가 담합 경고’ 6일 만에… 檢, 4대 정유사·석유협회 압수수색",
+      "steeps": "",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "priority_score": 3.9,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 12,
+      "id": "naver-20260324-104-187",
+      "title": "나토 총장 “한일 등 22개국 호르무즈 개방 결집”",
+      "steeps": "",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "priority_score": 3.9,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 13,
+      "id": "naver-20260324-104-195",
+      "title": "트럼프, 이틀 내로 호르무즈 안 열면 공격한다더니…\"이틀 동안 이란과 협상\"",
+      "steeps": "",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "priority_score": 3.9,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 14,
+      "id": "naver-20260324-104-203",
+      "title": "트럼프 발언에 금융시장 또 '요동'…환율·유가 급락",
+      "steeps": "",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "priority_score": 3.9,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 15,
+      "id": "naver-20260324-104-206",
+      "title": "美 공격 보류에 유가 10% 급락...뉴욕증시도 반등 [데일리국제금융]",
+      "steeps": "",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "priority_score": 3.9,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 16,
+      "id": "naver-20260324-104-223",
+      "title": "이란 외무, 韓 조현 장관 통화에서 \"이란과 협조하면 호르무즈 통행 가능\"",
+      "steeps": "",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "priority_score": 3.9,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 17,
+      "id": "naver-20260324-101-064",
+      "title": "다우 1.4% 상승…트럼프 \"이란과 생산적 대화\"에 안도 랠리[뉴욕마감]",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 18,
+      "id": "naver-20260324-101-080",
+      "title": "트럼프 '공격 유예'에 선물 급등…\"최악 피했다\" 코스피 반등 예고",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 19,
+      "id": "naver-20260324-101-081",
+      "title": "트럼프 한마디에 '5분 급등 랠리'…나스닥 1.4%↑[월스트리트in]",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 20,
+      "id": "naver-20260324-101-084",
+      "title": "트럼프 발언에 테슬라ㆍ엔비디아 강세 …삼전ㆍSK하닉도 덕볼까",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 21,
+      "id": "naver-20260324-102-094",
+      "title": "\"전쟁 틈타 기름값 담합했나?\" 검찰, 국내 대기업 정유사 '압수수색' 강제 수사",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 22,
+      "id": "naver-20260324-104-183",
+      "title": "이란 \"미국과 대화 없어\"...트럼프 협상 주장 일축",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 23,
+      "id": "naver-20260324-104-184",
+      "title": "이스라엘, 레바논 남부 교량 공습…완충지대 구축 나서나",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 24,
+      "id": "naver-20260324-104-185",
+      "title": "‘이란전 반대’ 전 미국 대테러수장 “지상군 투입하면 재앙”",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 25,
+      "id": "naver-20260324-104-188",
+      "title": "美 재무 \"긴장 낮추려면 높여야\"…이란 에너지 타격·하르그섬 파병 시사",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 26,
+      "id": "naver-20260324-104-189",
+      "title": "트럼프, 백악관에 콜럼버스 동상 설치",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 27,
+      "id": "naver-20260324-104-190",
+      "title": "北과 커넥션 효과인가… 이란, 4000㎞ 밖 英·美 기지에 탄도미사일 쏴",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 28,
+      "id": "naver-20260324-104-191",
+      "title": "“대이란 공격, 5일간 유예”",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 29,
+      "id": "naver-20260324-104-193",
+      "title": "'하메네이 제거 기회'…\"네타냐후, 공습 48시간 전 트럼프 설득\"",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 30,
+      "id": "naver-20260324-104-196",
+      "title": "[뉴욕증시]'진짜 종전?'…트럼프 발언에 일제히 상승 마감",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 31,
+      "id": "naver-20260324-104-197",
+      "title": "‘트럼프 전쟁 종전비 3800조’...오만 전문가 발언 논란[美-이란 전쟁]",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 32,
+      "id": "naver-20260324-104-198",
+      "title": "트럼프 화해무드에도…이란군 “이스라엘·미 기지 공습, F-35·F-15 주둔”",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 33,
+      "id": "naver-20260324-104-200",
+      "title": "시한 직전 데드라인 미룬 트럼프…속내는? [글로벌 뉴스픽]",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 34,
+      "id": "naver-20260324-104-201",
+      "title": "트럼프 \"마지막 기회, 5일 시간 준다\"…이란 \"대화 없었다, 가짜뉴스\"(종합)",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 35,
+      "id": "naver-20260324-104-202",
+      "title": "트럼프 메시지 의미는...“협상엔 개방적, 시장 달래려 상황은 과장”[이태규의 워싱턴 플레이북]",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 36,
+      "id": "naver-20260324-104-204",
+      "title": "\"공격 유예\" 선언에도‥이스라엘은 테헤란 공습",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 37,
+      "id": "naver-20260324-104-205",
+      "title": "미국, 이란 폭격 보류 “양측 모두 합의 원해”…이란 “합의 없어”",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 38,
+      "id": "naver-20260324-104-211",
+      "title": "이란 \"협상은 가짜 뉴스\"...네타냐후 \"협상 긍정적\"",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 39,
+      "id": "naver-20260324-104-212",
+      "title": "트럼프 “이란과 쟁점합의” 발전소 폭격 닷새 유예…이란은 “대화한적 없어”",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 40,
+      "id": "naver-20260324-104-213",
+      "title": "트럼프 \"마지막 기회, 5일 준다\"…이란 부인에도 \"합의 성사 자신\"",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 41,
+      "id": "naver-20260324-104-222",
+      "title": "트럼프 \"합의 가능성 커\" 발전소 폭격 닷새 유예…이란 \"대화無\"",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 42,
+      "id": "naver-20260324-104-225",
+      "title": "이란전에 웃는 美 LNG업체…저멀리 아시아서 구매 속출",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 43,
+      "id": "naver-20260324-105-258",
+      "title": "LG화학, 여수 NCC 2공장 생산 중단…중동 전쟁 여파",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.8,
+      "psst_score": 72.8,
+      "psst_grade": "B",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 100,
+        "CC": 70,
+        "IC": 80
+      }
+    },
+    {
+      "rank": 44,
+      "id": "naver-20260324-105-233",
+      "title": "\"3년 후 피지컬AI 수출\"…과기정통부, 로봇파운데이션 모델 개발",
+      "steeps": "",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "priority_score": 3.6,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 45,
+      "id": "naver-20260324-105-244",
+      "title": "양자팹 깔고 퀀텀칩 1위 노리는 韓… “2세대 양자컴으로 승부 본다”",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 3.6,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 46,
+      "id": "naver-20260324-100-005",
+      "title": "북, 김정은 국무위원장 재추대…\"김정은 위대함이 제일 국력\" 주장",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.5,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 47,
+      "id": "naver-20260324-100-012",
+      "title": "北, 김정은 국무위원장 재추대… 최측근 조용원도 전면에",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.5,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 48,
+      "id": "naver-20260324-100-039",
+      "title": "김정은 재추대 다음날, 김여정 “일본과 마주 앉을 일 없다”",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.5,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 49,
+      "id": "naver-20260324-100-046",
+      "title": "당 실세 전면 배치? '北 김정은 체제 3기' 권력지도 재편",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.5,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 50,
+      "id": "naver-20260324-102-106",
+      "title": "입학 미룬 아이 1년간 관리 사각지대…위기아동 못구했다",
+      "steeps": "",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "priority_score": 3.5,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 51,
+      "id": "naver-20260324-102-114",
+      "title": "AI가 제역할 못해서? AI로 채용 줄여서?…회계사 연이은 사망에 동료들은 “그것만은 아닌데…”",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "priority_score": 3.5,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 52,
+      "id": "naver-20260324-104-210",
+      "title": "美 간판 시사 방송, 한화 조선소 집중 조명… “이제 한국에 의지할 수밖에”",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 3.5,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 53,
+      "id": "naver-20260324-105-229",
+      "title": "K-우주산업 선도기업 키운다…우주청, 2천억원 펀드 조성",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H2",
+      "priority_score": 3.5,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 54,
+      "id": "naver-20260324-105-262",
+      "title": "\"81억→2000억\" 25배 키웠다…우주청, 'K-우주 펀드' 승부수",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H2",
+      "priority_score": 3.5,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 55,
+      "id": "naver-20260324-100-006",
+      "title": "정청래, 대전 화재 분향소 찾아...\"대형 참사 방지 장치 마련\"",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.4,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 56,
+      "id": "naver-20260324-100-007",
+      "title": "신임 해군참모총장에 김경률 해작사령관 내정…대장으로 진급",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.4,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 57,
+      "id": "naver-20260324-100-008",
+      "title": "김여정 \"일본이 원한다고 북일정상회담 안돼‥평양행 보고 싶지 않아\"",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.4,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 58,
+      "id": "naver-20260324-100-014",
+      "title": "반도체 키울수록 수도권만 발전…지방은 '텅텅' 빈다",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.4,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 59,
+      "id": "naver-20260324-100-017",
+      "title": "[시대리포트] 일본, 2년새 지은 반도체 공장..한국, 7년 넘게 걸리는 이유",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.4,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 60,
+      "id": "naver-20260324-100-027",
+      "title": "배 엔진 소리만 들려도 터진다…美해군도 진입 거부한 '킬 존'",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.4,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 61,
+      "id": "naver-20260324-100-031",
+      "title": "‘김정은의 그림자’-‘목구멍 냉면’ 강경파… 북한판 국회 1-2인자로",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.4,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 62,
+      "id": "naver-20260324-101-061",
+      "title": "\"반도체 직접 만들겠다\"…테슬라, '테라팹' 포부에 3%대 강세",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.4,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 63,
+      "id": "naver-20260324-101-063",
+      "title": "대기업 대출 늘리는 은행권…반도체·방산 사이클 타고 삼성·한화 여신 6조 증가",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.4,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 64,
+      "id": "naver-20260324-102-095",
+      "title": "대전 안전공업서 수습된 시신 14구 가운데 13구 신원 확인(종합)",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.4,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 65,
+      "id": "naver-20260324-102-097",
+      "title": "노동부, 손주환 안전공업 대표 중처법 위반 혐의 입건",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.4,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 66,
+      "id": "naver-20260324-102-102",
+      "title": "'14명 사망' 대전 안전공업 화재 합동감식 시작…유족 2명 참관",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.4,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 67,
+      "id": "naver-20260324-102-121",
+      "title": "[사건사고] 홍대 인근서 음주차량 돌진 4명 부상…화재 잇따라",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.4,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 68,
+      "id": "naver-20260324-102-129",
+      "title": "김경률 해군작전사령관, 신임 해군참모총장 내정",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.4,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 69,
+      "id": "naver-20260324-103-142",
+      "title": "아침 쌀쌀·낮 포근...큰 일교차에 ‘건조·화재 주의’ [오늘의 날씨]",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.4,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 70,
+      "id": "naver-20260324-103-146",
+      "title": "[날씨클릭] 오늘 완연한 봄 날씨...대기 건조, 화재 주의",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.4,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 71,
+      "id": "naver-20260324-104-182",
+      "title": "머스크, 전기차·우주용 반도체 공장 '테라팹' 건설한다",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.4,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 72,
+      "id": "naver-20260324-104-199",
+      "title": "美반도체주 랠리에도 메모리 주는↓ 이틀 연속 하락세(상보)",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.4,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 73,
+      "id": "naver-20260324-105-232",
+      "title": "삼성SDS, B300 GPU 앞세워 기업용 AI 추론 시장 공략",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.4,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 74,
+      "id": "naver-20260324-105-239",
+      "title": "“쇼핑·SNS 어렵네”… 오픈AI, 앤트로픽 추격에 신사업 접고 기업용 AI ‘올인’",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.4,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 75,
+      "id": "naver-20260324-105-252",
+      "title": "CSOT, 삼성디스플레이 상대 특허소송 제기...OLED 특허 3건 침해 주장",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.4,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 76,
+      "id": "naver-20260324-100-010",
+      "title": "정청래, 檢개혁법 통과에 봉하서 눈물…\"고비마다 盧 그리워\"(종합)",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.3,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 77,
+      "id": "naver-20260324-101-058",
+      "title": "[소멸하는 전세](5) \"집주인 안 살면 세금 폭탄?\"⋯해외에선",
+      "steeps": "",
+      "fssf_type": "Megatrend",
+      "three_horizons": "H2",
+      "priority_score": 3.3,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 78,
+      "id": "naver-20260324-101-090",
+      "title": "관세 대응 급한데…현대차 美공장 증설, 하청노조 허락까지 받아야 할 판",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.3,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 79,
+      "id": "naver-20260324-102-099",
+      "title": "종합특검, '김건희 봐주기 수사 의혹' 대검·서울중앙지검 압수수색",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.3,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 80,
+      "id": "naver-20260324-102-113",
+      "title": "종합특검 출범 한 달…윤 부부 미제 의혹 수사 가속",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.3,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 81,
+      "id": "naver-20260324-102-123",
+      "title": "검찰 보완수사권 존치냐 폐지냐…형소법 개정 주목",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.3,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 82,
+      "id": "naver-20260324-102-130",
+      "title": "특검, 대검·중앙지검 압수수색… ‘김건희 봐주기’ 수사 본격화",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.3,
+      "psst_score": 67.3,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 4.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 80,
+        "CC": 70,
+        "IC": 70
+      }
+    },
+    {
+      "rank": 83,
+      "id": "naver-20260324-105-249",
+      "title": "“아빠는 1년 뒤에 운다”... 출산 1년 후 남성 산후 우울증 30% 급증",
+      "steeps": "",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "priority_score": 3.2,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 84,
+      "id": "naver-20260324-101-054",
+      "title": "LG그룹, 全계열사 사외이사 의장 체제로",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.1,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 85,
+      "id": "naver-20260324-101-065",
+      "title": "LG, 지배구조 선진화 선제 대응…구광모, 8년 만에 의장직 내려놨다 [비즈 포커스]",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.1,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 86,
+      "id": "naver-20260324-103-168",
+      "title": "'한류 수도' 서울, 공연할 곳이 없다",
+      "steeps": "",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "priority_score": 3.1,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 87,
+      "id": "naver-20260324-105-231",
+      "title": "삼성 갤럭시도 '에어드롭' 가능…퀵쉐어-에어드롭 전격 호환",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.1,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 88,
+      "id": "naver-20260324-105-242",
+      "title": "“이번엔 진짜 간다”… 아르테미스 2호, 수차례 연기 끝에 ‘출격 준비’",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 3.1,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 89,
+      "id": "naver-20260324-105-243",
+      "title": "‘로톡사태’ 진통 겪은 K-리걸테크, 클로드 코워크에 또 '흔들' [팩플]",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "priority_score": 3.1,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 90,
+      "id": "naver-20260324-105-257",
+      "title": "갤럭시 이젠 ‘왕따 폰’ 아니네…아이폰만 되던 ‘에어드롭’, 삼성폰도 가능해진다",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.1,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 91,
+      "id": "naver-20260324-105-260",
+      "title": "갤럭시·아이폰 장벽 드디어 열린다…삼성, ‘에어드롭’ 호환 기능 도입",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.1,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 92,
+      "id": "naver-20260324-105-269",
+      "title": "소행성에 위성 충돌시켜 지구 구하기…행성방어 독자 기술 실증 제안",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 3.1,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 4.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 93,
+      "id": "naver-20260324-101-067",
+      "title": "[렌트노믹스]① 전세 대신 월세 살고 비트코인 산다… 아파트 ‘방 한 칸’ 하숙도 등장",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "priority_score": 3.0,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 94,
+      "id": "naver-20260324-101-071",
+      "title": "“삼성·현대 누가 잡나” 기업 코인 거래 앞두고 업비트·빗썸 법인영업 쟁탈전",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "priority_score": 3.0,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 95,
+      "id": "naver-20260324-101-083",
+      "title": "‘과자봉지도 쓰레기봉투도 곧 사라질 예정’… 업계 비명",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.0,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 96,
+      "id": "naver-20260324-102-131",
+      "title": "‘성별 정정’ 수술대 오르는 청년 트랜스젠더들…법원마다 제각각 판단, 유엔에선 “인권침해”",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "priority_score": 3.0,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 97,
+      "id": "naver-20260324-102-135",
+      "title": "재선충병 습격… 사라지는 소나무 ‘속수무책’ [신음하는 경기 산림上]",
+      "steeps": "",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "priority_score": 3.0,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 98,
+      "id": "naver-20260324-103-159",
+      "title": "사라진 삼촌 찾아 러시아로…'헤요카' 감독 \"징집한 모습도 봤죠\"[왓더OTT]",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.0,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 99,
+      "id": "naver-20260324-103-164",
+      "title": "BTS에 100억+α 쏟아부은 넷플릭스, OTT 지형도 바꿀까",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.0,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 100,
+      "id": "naver-20260324-103-177",
+      "title": "병원서 실수로 ‘펜타닐 10배’ 투여… 심정지 겪은 50대 女",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 3.0,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 101,
+      "id": "naver-20260324-105-247",
+      "title": "\"재주는 K팝이 부렸는데…\" 넷플릭스 독점의 씁쓸한 청구서",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 3.0,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 102,
+      "id": "naver-20260324-105-264",
+      "title": "‘토큰’ IT 업계 화두…젠슨 황 “엔지니어에 기본급 일부 토큰으로 제공하는 방안 검토중”",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "priority_score": 3.0,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 103,
+      "id": "naver-20260324-105-266",
+      "title": "\"가상자산은 디지털 상품\" 규정한 美... 韓 ‘2단계법’으로 제도화 가속 붙나",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "priority_score": 3.0,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 104,
+      "id": "naver-20260324-105-267",
+      "title": "\"공격 마케팅 통했다\"… 코인원, 점유율 2.7% → 7.8% ‘약진’",
+      "steeps": "",
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "priority_score": 3.0,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 3.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 105,
+      "id": "naver-20260324-100-001",
+      "title": "박형준 “부산서 얼굴 들고 다닐 수 없다” 삭발···‘글로벌허브도시특별법’ 제정 촉구",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 106,
+      "id": "naver-20260324-100-002",
+      "title": "컷오프 이진숙 \"이재명이 자르고 싶었던 나, 국힘이 잘라\"",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 107,
+      "id": "naver-20260324-100-004",
+      "title": "고민정, ‘친문 저격’ 송영길 향해 “롤모델 아닌 반면교사 대상 될건가”",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 108,
+      "id": "naver-20260324-100-009",
+      "title": "정청래 \"김부겸, 대구 발전위해 뛰어달라\"",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 109,
+      "id": "naver-20260324-100-011",
+      "title": "장동혁-이정현 역할분담?…주호영 불복 수습할까",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 110,
+      "id": "naver-20260324-100-013",
+      "title": "김종인 前 국민의힘 비상대책위원장 “국힘, 정체성·미래정치 방향 못 잡아… 선대위장? 천만의 말씀” [세계초대석]",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 111,
+      "id": "naver-20260324-100-015",
+      "title": "중동 투입될 美육군 전략기동군 ‘제82공수사단’ 어떤 부대[이현호의 밀리터리!톡]",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 112,
+      "id": "naver-20260324-100-016",
+      "title": "[분석] ‘계몽령’ 주장하다 스스로 유죄 입증하는 윤석열 전 대통령",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 113,
+      "id": "naver-20260324-100-020",
+      "title": "국힘 명운 걸렸다.. '397억' 선거비 반환 걸린 尹 선거법 재판 시작",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 114,
+      "id": "naver-20260324-100-022",
+      "title": "박지원 “조국, 부산·수도권 출마 가능…군산은 유권자 납득 못해”",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 115,
+      "id": "naver-20260324-100-023",
+      "title": "‘C’키우려다 A·B갈라치기 변질…유시민이 부른 역설[송종호의 국정쏙쏙]",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 116,
+      "id": "naver-20260324-100-026",
+      "title": "'보편복지' 강조해온 李, 25조 추경엔 \"계층·지역 차등지원\" 왜",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 117,
+      "id": "naver-20260324-100-028",
+      "title": "송영길·고민정도 충돌…여권에 폭탄 던진 유시민 'ABC론'",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 118,
+      "id": "naver-20260324-100-029",
+      "title": "[시대광장] 한국 저널리즘에 숙제 던진 '공소취소 거래설'",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 119,
+      "id": "naver-20260324-100-032",
+      "title": "국힘 서울 박수민-오세훈-윤희숙 경선… 민주는 오늘 3인 압축",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 120,
+      "id": "naver-20260324-100-035",
+      "title": "추미애, 법사위원장 사퇴…불붙는 '포스트 이재명' 경쟁",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 121,
+      "id": "naver-20260324-100-037",
+      "title": "초등 딸에 전자담배 물린 엄마…딸은 동생에게 연기 '후'",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 122,
+      "id": "naver-20260324-100-038",
+      "title": "지지율 업고 폭주하는 與… 정청래 “상임위원장 100% 갖겠다”",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 123,
+      "id": "naver-20260324-100-040",
+      "title": "이정현 통제불능? 약속대련?…장동혁 “공관위 공천 존중”",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 124,
+      "id": "naver-20260324-100-042",
+      "title": "정청래, 결국 '상임위 독식' 공식화…'대야 말살' 초읽기",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 125,
+      "id": "naver-20260324-100-043",
+      "title": "\"이진숙은 국회 스타될 것\"‥결국 여의도 직행?",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 126,
+      "id": "naver-20260324-100-044",
+      "title": "서울에도 '맨해튼' 있어야?‥\"보유세도 그만큼\"",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 127,
+      "id": "naver-20260324-100-045",
+      "title": "'무소속 주호영' 시나리오에 '김부겸 등판'까지…'필패론' 고개",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 128,
+      "id": "naver-20260324-101-047",
+      "title": "KB금융공익재단,순직·공상 공무원 자녀 장학금 지원",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 129,
+      "id": "naver-20260324-101-048",
+      "title": "작년 외국은행 국내지점 순이익 5.8%↓…4년 만에 감소",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 130,
+      "id": "naver-20260324-101-053",
+      "title": "강남 집중 점검하는 금감원…사업자대출로 집 산 464억 회수",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 131,
+      "id": "naver-20260324-101-055",
+      "title": "정부는 '4월 위기설' 일축했지만…서울 휘발유 상승 전환",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 132,
+      "id": "naver-20260324-101-056",
+      "title": "\"이사는 무슨\"…서울 아파트 전월세 절반 눌러 앉았다",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 133,
+      "id": "naver-20260324-101-059",
+      "title": "홈플 익스프레스 인수의향서 접수 D-7⋯\"새 주인은 누구?\"",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 134,
+      "id": "naver-20260324-101-060",
+      "title": "홈플러스 익스프레스 누구 품에 안기나…하림 후보군 부상",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 135,
+      "id": "naver-20260324-101-062",
+      "title": "환율 1500원마저 뚫자…면세업계, 가격표 바꿨다",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 136,
+      "id": "naver-20260324-101-066",
+      "title": "[단독]삼성, 현대 누른 건설사 1위...만족도 여기서 갈렸다",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 137,
+      "id": "naver-20260324-101-068",
+      "title": "작년 기술평가 기대 못 미쳤지만... 아델, 400억 프리IPO에 문전성시",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 138,
+      "id": "naver-20260324-101-070",
+      "title": "과천 ’이 아파트’ 올해부터 59㎡도 종부세 내야... 경기도 공시가격 폭등",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 139,
+      "id": "naver-20260324-101-072",
+      "title": "“부동산 정책에 다주택 공직자 배제”, 추가 규제 초읽기에 시장 ‘촉각’",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 140,
+      "id": "naver-20260324-101-073",
+      "title": "\"돈 벌기 시작하니 더 커진 갈등\" 삼성전자, 실적 반등 속 노사 긴장 심화",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 141,
+      "id": "naver-20260324-101-074",
+      "title": "\"그동네 전세 사느니\"...늘어나는 '脫서울', 여기로 몰린다",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 142,
+      "id": "naver-20260324-101-075",
+      "title": "[단독]누가 여기서 결혼하나···또다시 외면받은 ‘청년 축복 웨딩’",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 143,
+      "id": "naver-20260324-101-077",
+      "title": "[ETF 업&다운] 채권혼합형 담는 연금개미…KB 신상품, 삼성 넘었다",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 144,
+      "id": "naver-20260324-101-078",
+      "title": "고려아연 오늘 주총, 최윤범 경영권 수성 '유력'…\"기관·주주 표심도 주목\"",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 145,
+      "id": "naver-20260324-101-079",
+      "title": "\"주식도 금도 원화값도 떨어졌다\"…글로벌 자금 美 쏠림 '촉각",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 146,
+      "id": "naver-20260324-101-082",
+      "title": "“김포·검단, 교통 겹호재에 매수 문의 5배”…집값 뛰고 미분양 빠르게 소진 [코주부]",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 147,
+      "id": "naver-20260324-101-091",
+      "title": "'아틀라스' 도입 거부 노조에 면죄부 준 노란봉투법",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 148,
+      "id": "naver-20260324-102-093",
+      "title": "이경일 고성군수 예비후보, 선거운동 본격 시작",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 149,
+      "id": "naver-20260324-102-096",
+      "title": "“건진 안 만났다”던 윤석열 “배우자 동석 안 했다는 뜻이었다”···‘허위 공포’ 혐의 부인",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 150,
+      "id": "naver-20260324-102-098",
+      "title": "대구 도시철도 진천역에 불...다친 사람 없어",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 151,
+      "id": "naver-20260324-102-100",
+      "title": "[영상]엄마가 준 담배 피운 10살 딸…동생에 연기 뱉고 강아지 학대까지",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 152,
+      "id": "naver-20260324-102-105",
+      "title": "\"우리 사이에 무슨 돈을 받나\"..처가 식당서 회식하고 '먹튀'한 남편 [어떻게 생각하세요]",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 153,
+      "id": "naver-20260324-102-107",
+      "title": "[모닝와이드] 오늘의 주요뉴스",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 154,
+      "id": "naver-20260324-102-110",
+      "title": "\"할머니 틀니 좀\" 울먹인 중학생 도운 의사...5년 뒤 감동 '눈물 펑펑'[오따뉴]",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 155,
+      "id": "naver-20260324-102-115",
+      "title": "[단독]‘불법 촬영·성희롱 논란’ 자유대학 대표, 정통망법 위반 혐의 고발당해",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 156,
+      "id": "naver-20260324-102-116",
+      "title": "'친딸 성폭행' 그놈, 출소 1년만 또…동거녀 11살 장애 딸에 몹쓸 짓",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 157,
+      "id": "naver-20260324-102-117",
+      "title": "\"이게 가능해?\"…고물가에 1인 가구 '1000원 채소' 인기",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 158,
+      "id": "naver-20260324-102-118",
+      "title": "전국 구름 많고 내륙엔 아침 서리…미세먼지 '나쁨'",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 159,
+      "id": "naver-20260324-102-120",
+      "title": "\"너도 피워봐\" 초등생 딸에 전자담배 물린 30대女..딸은 동생에게 연기 '후'",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 160,
+      "id": "naver-20260324-102-122",
+      "title": "[이 시각 핫뉴스] 뉴욕공항서 여객기·소방차 충돌…조종사 2명 사망 外",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 161,
+      "id": "naver-20260324-102-125",
+      "title": "\"실망이다, 퇴직금도 주기 싫다\"… 퇴사 당일 '배신자' 소리 들은 직장인 [어떻게 생각하세요]",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 162,
+      "id": "naver-20260324-102-126",
+      "title": "\"외도 후 재결합했는데…15년 지나도 죄인 취급\" 60대 남성의 하소연",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 163,
+      "id": "naver-20260324-102-127",
+      "title": "현역 군인이 배관 타고 전여친 집 침입…과거에도 '교제 폭력' 신고 당해",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 164,
+      "id": "naver-20260324-102-128",
+      "title": "[영상]엄마가 준 담배 피운 10살 딸…동생에 연기 뱉고 강아지 학대까지",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 165,
+      "id": "naver-20260324-102-132",
+      "title": "‘재판 거래·뇌물 의혹’ 현직 부장판사 구속영장 기각",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 166,
+      "id": "naver-20260324-102-133",
+      "title": "[단독] “죽어 버려” 대표 상습 폭언에… 직원들은 짐 쌌다",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 167,
+      "id": "naver-20260324-102-136",
+      "title": "김건희 고향 양평 선거, 고속도로 ‘종점 결정 투표’ 되나",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 168,
+      "id": "naver-20260324-102-137",
+      "title": "복제약 사용 느는데 좀처럼 줄지 않는 약값…“가격 마지노선이 원인”",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 169,
+      "id": "naver-20260324-103-139",
+      "title": "낮 최고 21도 '포근'…중부권 중심 미세먼지 '나쁨'(종합)",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 170,
+      "id": "naver-20260324-103-141",
+      "title": "올봄 가장 따뜻한 한낮...'고온 건조' 산불 위험 커져[날씨]",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 171,
+      "id": "naver-20260324-103-144",
+      "title": "‘대한민국 책의 도시’ 춘천서 2026년 독서 운동 팡파르",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 172,
+      "id": "naver-20260324-103-145",
+      "title": "월드컵 중계권료 협상 평행선…JTBC, 지상파에 ‘반반씩 부담’ 최종안",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 173,
+      "id": "naver-20260324-103-147",
+      "title": "구혜선, 체중 46kg 인증…‘이 습관’ 지켰더니 살 빠졌다고?",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 174,
+      "id": "naver-20260324-103-148",
+      "title": "빨래한 옷에서 나는 퀴퀴한 냄새, 세탁기 속 ‘이곳’ 때문",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 175,
+      "id": "naver-20260324-103-149",
+      "title": "성장세 주춤한 제네시스의 ‘3대 승부수’… GV90·하이브리드차·EREV",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 176,
+      "id": "naver-20260324-103-150",
+      "title": "김창영 원텍 부사장 \"삼성전자서 쌓은 경험 이식…브랜드력 강화\"",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 177,
+      "id": "naver-20260324-103-152",
+      "title": "\"꽃가루가 몰려오고 있다\"…알레르기 시즌에 대비하는 방법 [헬스톡]",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 178,
+      "id": "naver-20260324-103-153",
+      "title": "50kg 뺀 30대 女, ‘이 음식’이 비결이라는데… 뭐야?",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 179,
+      "id": "naver-20260324-103-154",
+      "title": "[날씨] 중부, 경북 중심 건조특보… 아침 쌀쌀, 한낮 포근",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 180,
+      "id": "naver-20260324-103-155",
+      "title": "[함영준의 마음PT] 울퉁불퉁한 사람이 더 멀리 간다",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 181,
+      "id": "naver-20260324-103-156",
+      "title": "'폭싹' 애순이가 읽던 그 책…\"올해 60돌, 굴곡 버텨온 힘은 사람\"",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 182,
+      "id": "naver-20260324-103-157",
+      "title": "겉보기엔 날씬한데 배만 ‘볼록’?…암보다 더 위험한 ‘이 병’ 조심해야 [헬시타임]",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 183,
+      "id": "naver-20260324-103-158",
+      "title": "“차라리 물 마셔라”…점심 뒤 달콤한 한 잔, 당뇨 533만명 경고",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 184,
+      "id": "naver-20260324-103-160",
+      "title": "'정책' 중심 인청…박홍근, 정치인 출신 첫 기획처 장관 되나",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 185,
+      "id": "naver-20260324-103-161",
+      "title": "4·19, 6·25, 8·15… ‘기념시’도 많이 쓴 ‘나그네’ 시인 박목월",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 186,
+      "id": "naver-20260324-103-162",
+      "title": "스트레스에 시달리는 사람 꼭 먹어라… 코르티솔 줄이는 음식 5가지",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 187,
+      "id": "naver-20260324-103-166",
+      "title": "“살 안 찌는 이유 있었네” 송해나, 술 마시고 ‘이것’ 하던데",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 188,
+      "id": "naver-20260324-103-167",
+      "title": "“숨 안 쉬고 있었다”..19세 엄마, 9개월 새 아들 둘 돌연사로 잃어 [헬시타임]",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 189,
+      "id": "naver-20260324-103-169",
+      "title": "털기만 해선 안 돼… 男, 소변 본 후 꼭 닦아라",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 190,
+      "id": "naver-20260324-103-170",
+      "title": "[오늘의 설교] 그러나 작정한 일을 이루시는 하나님",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 191,
+      "id": "naver-20260324-103-171",
+      "title": "‘16kg 감량’ 한혜연, “위고비 절대 아냐” 해명… ‘이것’ 줄이니 빠졌다",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 192,
+      "id": "naver-20260324-103-172",
+      "title": "암, 절반은 예방 가능… 40세 넘으면 ‘이 음식’부터 끊어라",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 193,
+      "id": "naver-20260324-103-173",
+      "title": "두쫀쿠·봄동비빔밥 다음엔 ‘버터떡’… ‘떴다방’ 같은 음식 유행… 누가 만드나",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 194,
+      "id": "naver-20260324-103-174",
+      "title": "박보검, 사업자 등록하고 시골 이발사로… 진심 통했다",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 195,
+      "id": "naver-20260324-103-176",
+      "title": "“살찌는 최악의 습관”… 한의사가 경고한 3가지, 뭘까?",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 196,
+      "id": "naver-20260324-103-178",
+      "title": "장항준, ‘왕사남’ 러닝개런티 60억 못받나…“잘될 줄 모르고 지분 조금 걸어”",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 197,
+      "id": "naver-20260324-103-179",
+      "title": "잇몸병 무시하다 큰코 다친다… 식도·대장암 위험 높여",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 198,
+      "id": "naver-20260324-103-181",
+      "title": "식도암, 수술이 끝 아니다… 2차 암·심폐 질환 사망 위험 높아",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 199,
+      "id": "naver-20260324-104-186",
+      "title": "뉴욕공항서 여객기·소방차 충돌…조종사 2명 사망, 41명 부상",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 200,
+      "id": "naver-20260324-104-192",
+      "title": "[증시전략] \"뉴욕증시, 골디락스 끝나고 '세 마리 곰' 몰려온다\"",
+      "steeps": "",
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 201,
+      "id": "naver-20260324-104-194",
+      "title": "[외신 헤드라인] \"글로벌 석유기업들 수십억달러 손실 전망\"",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 202,
+      "id": "naver-20260324-104-207",
+      "title": "정보·무기·여론전 흔들···입지 좁아지는 이스라엘[글로벌 모닝 브리핑]",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 203,
+      "id": "naver-20260324-104-209",
+      "title": "'둠칫둠칫' 백악관서 입 벌리고 춤춘 다카이치...\"일본의 수치\"",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 204,
+      "id": "naver-20260324-104-215",
+      "title": "테슬라 3.50%-리비안 5.77%, 전기차 일제 급등(상보)",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 205,
+      "id": "naver-20260324-104-221",
+      "title": "1억弗 최첨단 스텔스기의 치명적 약점?…피격 이유 뭔가 보니",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 206,
+      "id": "naver-20260324-104-226",
+      "title": "美 ‘공항 대란’… 탑승 3시간 넘게 걸려",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 207,
+      "id": "naver-20260324-105-235",
+      "title": "올해 벚꽃은 언제?…명소별 개화 시기 '카카오맵'에 뜬다",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 208,
+      "id": "naver-20260324-105-241",
+      "title": "[PLAY IT] 벨킨 ‘커넥트 USB-C 11-in-1 프로 GaN 독 150W’ 써보니…\"벽돌전원 잘가\"",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 209,
+      "id": "naver-20260324-105-248",
+      "title": "암 유전자 정체 밝힌 노벨상 수상자, 세상 떠나",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 210,
+      "id": "naver-20260324-105-250",
+      "title": "주가 55만→33만원…'내 돈 어떡해' 개미들 결국 칼 뺐다",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 211,
+      "id": "naver-20260324-105-251",
+      "title": "[기자의 시각] ‘초격차’는 환상, 중국이 앞서간다",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 212,
+      "id": "naver-20260324-105-253",
+      "title": "“되팔아도 100만원 번다” 5분만에 완판…한국서 못 사는 ‘삼성폰’, 어디서 파나 봤더니",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 213,
+      "id": "naver-20260324-105-256",
+      "title": "“이걸 먹는다고?” 산 채로 다리만 잘라 ‘내동댕이’…끔찍한 식문화, 지구에 민폐까지 [지구, 뭐래?]",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 214,
+      "id": "naver-20260324-105-259",
+      "title": "[현장+]\"역대급 실적에 주가 왜 이래\"…네이버 주총서 나온 주주 우려",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 215,
+      "id": "naver-20260324-105-261",
+      "title": "JTBC “월드컵 중계권료 1억 2500만 달러, 지상파 부담액은 16.7%”",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 216,
+      "id": "naver-20260324-105-268",
+      "title": "[연봉공개]통신 3사 연봉킹은…34억 받은 유영상 SKT 전 대표",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 217,
+      "id": "naver-20260324-105-270",
+      "title": "독성 가스 '황화수소', 치료 도구로 거듭나 外 [과학게시판]",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 218,
+      "id": "naver-20260324-105-271",
+      "title": "이통3사 '연봉킹' 정재헌 SKT CEO, 지난해 20.8억 수령",
+      "steeps": "",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 2.9,
+      "psst_score": 61.9,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 3.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 60,
+        "CC": 70,
+        "IC": 60
+      }
+    },
+    {
+      "rank": 219,
+      "id": "naver-20260324-105-237",
+      "title": "[뉴테크] 흙에서 태어나 물로 돌아간다, 英 ‘물 화장’ 첫 승인",
+      "steeps": "",
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H3",
+      "priority_score": 2.8,
+      "psst_score": 56.4,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 2.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 40,
+        "CC": 70,
+        "IC": 50
+      }
+    },
+    {
+      "rank": 220,
+      "id": "naver-20260324-103-151",
+      "title": "전동시트 사고 팰리세이드, 국내서도 리콜…5만8000대",
+      "steeps": "",
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "priority_score": 2.5,
+      "psst_score": 56.4,
+      "psst_grade": "C",
+      "component_scores": {
+        "impact": 2.0,
+        "probability": 3.0,
+        "urgency": 3.0,
+        "novelty": 2.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72,
+        "ES": 40,
+        "CC": 70,
+        "IC": 50
+      }
+    }
+  ]
+}

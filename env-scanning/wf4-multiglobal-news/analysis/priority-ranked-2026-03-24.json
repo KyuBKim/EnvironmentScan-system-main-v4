@@ -1,0 +1,346 @@
+{
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "news-20260324-001",
+      "title": "Trump Postpones Iran Energy Infrastructure Strikes for Five Days as Israel Continues Tehran Operations",
+      "steeps": "P_Political",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "priority_score": 8.45,
+      "psst_score": 84.5,
+      "psst_grade": "A",
+      "component_scores": {
+        "impact": 9,
+        "novelty": 7,
+        "urgency": 8
+      }
+    },
+    {
+      "rank": 2,
+      "id": "news-20260324-002",
+      "title": "Iran Threatens Sea Mines to Block Entire Persian Gulf if Coasts Attacked",
+      "steeps": "P_Political",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "priority_score": 8.45,
+      "psst_score": 84.5,
+      "psst_grade": "A",
+      "component_scores": {
+        "impact": 9,
+        "novelty": 7,
+        "urgency": 8
+      }
+    },
+    {
+      "rank": 3,
+      "id": "news-20260324-004",
+      "title": "Cuba Power Grid Collapses Third Time in March Amid US Oil Blockade",
+      "steeps": "E_Environmental",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "priority_score": 8.45,
+      "psst_score": 84.5,
+      "psst_grade": "A",
+      "component_scores": {
+        "impact": 9,
+        "novelty": 7,
+        "urgency": 8
+      }
+    },
+    {
+      "rank": 4,
+      "id": "news-20260324-005",
+      "title": "WHO: 64 Killed Including 13 Children in Sudan Hospital Strike in Darfur",
+      "steeps": "S_Social",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "priority_score": 8.45,
+      "psst_score": 84.5,
+      "psst_grade": "A",
+      "component_scores": {
+        "impact": 9,
+        "novelty": 7,
+        "urgency": 8
+      }
+    },
+    {
+      "rank": 5,
+      "id": "news-20260324-009",
+      "title": "Electric Grid Bottleneck: Clean Energy Projects Face Years-Long Connection Queues",
+      "steeps": "E_Environmental",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "priority_score": 8.45,
+      "psst_score": 84.5,
+      "psst_grade": "A",
+      "component_scores": {
+        "impact": 9,
+        "novelty": 7,
+        "urgency": 8
+      }
+    },
+    {
+      "rank": 6,
+      "id": "news-20260324-013",
+      "title": "Trump 48-Hour Ultimatum to Iran: Reopen Strait of Hormuz or Face Consequences",
+      "steeps": "P_Political",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "priority_score": 8.45,
+      "psst_score": 84.5,
+      "psst_grade": "A",
+      "component_scores": {
+        "impact": 9,
+        "novelty": 7,
+        "urgency": 8
+      }
+    },
+    {
+      "rank": 7,
+      "id": "news-20260324-014",
+      "title": "AI Ethics Debate: Value Alignment and Autonomous Decision-Making in Warfare",
+      "steeps": "s_spiritual",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "priority_score": 8.45,
+      "psst_score": 84.5,
+      "psst_grade": "A",
+      "component_scores": {
+        "impact": 9,
+        "novelty": 7,
+        "urgency": 8
+      }
+    },
+    {
+      "rank": 8,
+      "id": "news-20260324-016",
+      "title": "Global Food Price Index Rises 12% as Hormuz Disruption Hits Grain and Fertilizer Flows",
+      "steeps": "E_Economic",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "priority_score": 8.45,
+      "psst_score": 84.5,
+      "psst_grade": "A",
+      "component_scores": {
+        "impact": 9,
+        "novelty": 7,
+        "urgency": 8
+      }
+    },
+    {
+      "rank": 9,
+      "id": "news-20260324-017",
+      "title": "WHO Reports Surge in Mental Health Crises Amid Global Polycrisis",
+      "steeps": "S_Social",
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "priority_score": 8.45,
+      "psst_score": 84.5,
+      "psst_grade": "A",
+      "component_scores": {
+        "impact": 9,
+        "novelty": 7,
+        "urgency": 8
+      }
+    },
+    {
+      "rank": 10,
+      "id": "news-20260324-003",
+      "title": "One-Third of Global Fertilizer Shipments Blocked as Hormuz Strait Shipping Stops",
+      "steeps": "E_Economic",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 8.05,
+      "psst_score": 80.5,
+      "psst_grade": "A",
+      "component_scores": {
+        "impact": 8,
+        "novelty": 7,
+        "urgency": 8
+      }
+    },
+    {
+      "rank": 11,
+      "id": "news-20260324-006",
+      "title": "Global Climate Tech Investment Surges Driven by AI Data Center Energy Demand",
+      "steeps": "T_Technological",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 8.05,
+      "psst_score": 80.5,
+      "psst_grade": "A",
+      "component_scores": {
+        "impact": 8,
+        "novelty": 7,
+        "urgency": 8
+      }
+    },
+    {
+      "rank": 12,
+      "id": "news-20260324-007",
+      "title": "Global EV Market Fractures: US Sales Slow While Rest of World Accelerates to 16.9M Units",
+      "steeps": "T_Technological",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 8.05,
+      "psst_score": 80.5,
+      "psst_grade": "A",
+      "component_scores": {
+        "impact": 8,
+        "novelty": 7,
+        "urgency": 8
+      }
+    },
+    {
+      "rank": 13,
+      "id": "news-20260324-008",
+      "title": "Critical Minerals Scramble Intensifies as US, China, EU Race to Secure Supply Chains",
+      "steeps": "E_Economic",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 8.05,
+      "psst_score": 80.5,
+      "psst_grade": "A",
+      "component_scores": {
+        "impact": 8,
+        "novelty": 7,
+        "urgency": 8
+      }
+    },
+    {
+      "rank": 14,
+      "id": "news-20260324-010",
+      "title": "China Five-Year Plan Climate Watchers: Will Beijing Speed Decarbonization?",
+      "steeps": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 8.05,
+      "psst_score": 80.5,
+      "psst_grade": "A",
+      "component_scores": {
+        "impact": 8,
+        "novelty": 7,
+        "urgency": 8
+      }
+    },
+    {
+      "rank": 15,
+      "id": "news-20260324-011",
+      "title": "US Technological Protectionism Against China Creates Global Trade Bottlenecks",
+      "steeps": "E_Economic",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 8.05,
+      "psst_score": 80.5,
+      "psst_grade": "A",
+      "component_scores": {
+        "impact": 8,
+        "novelty": 7,
+        "urgency": 8
+      }
+    },
+    {
+      "rank": 16,
+      "id": "news-20260324-012",
+      "title": "Gaza Ceasefire Six Months On: Relief Amid Continued Displacement and Aid Restrictions",
+      "steeps": "S_Social",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 8.05,
+      "psst_score": 80.5,
+      "psst_grade": "A",
+      "component_scores": {
+        "impact": 8,
+        "novelty": 7,
+        "urgency": 8
+      }
+    },
+    {
+      "rank": 17,
+      "id": "news-20260324-015",
+      "title": "European Energy Independence Push Accelerates Amid Middle East Disruption",
+      "steeps": "E_Environmental",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 8.05,
+      "psst_score": 80.5,
+      "psst_grade": "A",
+      "component_scores": {
+        "impact": 8,
+        "novelty": 7,
+        "urgency": 8
+      }
+    },
+    {
+      "rank": 18,
+      "id": "news-20260324-018",
+      "title": "Semiconductor Supply Chain Disrupted as Red Sea Shipping Alternatives Add Costs",
+      "steeps": "T_Technological",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 8.05,
+      "psst_score": 80.5,
+      "psst_grade": "A",
+      "component_scores": {
+        "impact": 8,
+        "novelty": 7,
+        "urgency": 8
+      }
+    },
+    {
+      "rank": 19,
+      "id": "news-20260324-019",
+      "title": "African Union Calls for Diplomatic Resolution to Middle East Conflict at Emergency Summit",
+      "steeps": "P_Political",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 8.05,
+      "psst_score": 80.5,
+      "psst_grade": "A",
+      "component_scores": {
+        "impact": 8,
+        "novelty": 7,
+        "urgency": 8
+      }
+    },
+    {
+      "rank": 20,
+      "id": "news-20260324-020",
+      "title": "Global Insurance Industry Faces Record Claims from Simultaneous Climate Events and Conflict",
+      "steeps": "E_Economic",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 8.05,
+      "psst_score": 80.5,
+      "psst_grade": "A",
+      "component_scores": {
+        "impact": 8,
+        "novelty": 7,
+        "urgency": 8
+      }
+    },
+    {
+      "rank": 21,
+      "id": "news-20260324-021",
+      "title": "Latin American Nations Form Energy Cooperation Bloc in Response to Global Volatility",
+      "steeps": "E_Economic",
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "priority_score": 8.05,
+      "psst_score": 80.5,
+      "psst_grade": "A",
+      "component_scores": {
+        "impact": 8,
+        "novelty": 7,
+        "urgency": 8
+      }
+    }
+  ],
+  "ranking_metadata": {
+    "engine": "manual",
+    "workflow": "wf4-multiglobal-news",
+    "date": "2026-03-24",
+    "total_ranked": 21
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "scan_metadata": {
+    "scan_id": "wf2-arxiv-2026-03-25",
+    "scan_date": "2026-03-25",
+    "workflow": "wf2-arxiv",
+    "scan_window": {
+      "start": "2026-03-23T03:50:20+00:00",
+      "end": "2026-03-25T03:50:20+00:00",
+      "lookback_hours": 48
+    },
+    "sources_scanned": 1,
+    "sources_failed": [],
+    "total_items_collected": 80,
+    "execution_proof": {
+      "started_at": "2026-03-25T04:00:00+00:00",
+      "completed_at": "2026-03-25T04:05:00+00:00",
+      "method": "arxiv_api_query",
+      "tool": "WebFetch",
+      "query_groups_scanned": 4,
+      "categories_covered": ["cs.AI", "cs.LG", "cs.CL", "cs.CV", "cs.RO", "cs.CR", "q-bio", "physics.soc-ph", "econ", "stat.ML", "quant-ph", "cond-mat", "astro-ph"]
+    }
+  },
+  "total_papers": 80,
+  "after_dedup": 38,
+  "note": "80 papers collected across 4 query groups, 38 unique after cross-group deduplication"
+}

@@ -40,6 +40,11 @@ Usage (CLI):
         --action wf-skip --step 3 \\
         --status-file env-scanning/integrated/logs/master-status-2026-03-15.json
 
+    # Verify task mapping completeness (post-creation check)
+    python3 env-scanning/core/master_task_manager.py \\
+        --action verify \\
+        --status-file env-scanning/integrated/logs/master-status-2026-03-15.json
+
 Exit codes:
     0 = SUCCESS (instructions written to stdout as JSON)
     1 = ERROR (file read failure, invalid arguments, etc.)
@@ -56,7 +61,7 @@ from typing import Any, Dict, List, Optional
 # Constants
 # ---------------------------------------------------------------------------
 
-VERSION = "1.0.0"
+VERSION = "1.1.0"
 GENERATOR_ID = "master_task_manager.py"
 
 # Master-level step definitions with gate mappings.
@@ -341,6 +346,63 @@ def action_wf_skip(master_status: Dict[str, Any], step_num: int) -> Dict[str, An
     }
 
 
+def action_verify(master_status: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Verify task mapping completeness after TaskCreate execution.
+    Python 원천봉쇄: LLM이 task를 올바르게 생성했는지 Python이 검증한다.
+
+    Checks:
+      1. master_task_mapping exists in master-status.json
+      2. All 7 step keys (master_step0~6) are present
+      3. All task_id values are non-empty strings
+      4. No duplicate task_ids
+
+    Returns:
+        {"action": "PASS", "verified": 7, ...}
+        {"action": "FAIL", "missing_keys": [...], "empty_ids": [...], ...}
+    """
+    mapping = master_status.get("master_task_mapping")
+
+    if not mapping:
+        return {
+            "action": "FAIL",
+            "reason": "master_task_mapping not found in master-status.json",
+            "instruction": "Re-run Step 0.4: execute master_task_manager.py --action init and create tasks",
+        }
+
+    expected_keys = [MASTER_STEPS[i]["key"] for i in sorted(MASTER_STEPS.keys())]
+    missing_keys = [k for k in expected_keys if k not in mapping]
+    empty_ids = [k for k in expected_keys if k in mapping and not mapping[k]]
+    all_ids = [mapping[k] for k in expected_keys if k in mapping and mapping[k]]
+    duplicate_ids = [tid for tid in set(all_ids) if all_ids.count(tid) > 1]
+
+    issues = []
+    if missing_keys:
+        issues.append(f"Missing keys: {missing_keys}")
+    if empty_ids:
+        issues.append(f"Empty task IDs: {empty_ids}")
+    if duplicate_ids:
+        issues.append(f"Duplicate task IDs: {duplicate_ids}")
+
+    if issues:
+        return {
+            "action": "FAIL",
+            "reason": "; ".join(issues),
+            "missing_keys": missing_keys,
+            "empty_ids": empty_ids,
+            "duplicate_ids": duplicate_ids,
+            "verified": len(expected_keys) - len(missing_keys) - len(empty_ids),
+            "total": len(expected_keys),
+        }
+
+    return {
+        "action": "PASS",
+        "verified": len(expected_keys),
+        "total": len(expected_keys),
+        "task_ids": {k: mapping[k] for k in expected_keys},
+    }
+
+
 # ---------------------------------------------------------------------------
 # Internal Helpers
 # ---------------------------------------------------------------------------
@@ -440,7 +502,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--action",
         required=True,
-        choices=["init", "step-complete", "sync", "wf-skip"],
+        choices=["init", "step-complete", "sync", "wf-skip", "verify"],
         help="Action to perform",
     )
     parser.add_argument(
@@ -482,6 +544,8 @@ def main() -> int:
         result = action_sync(master_status)
     elif args.action == "wf-skip":
         result = action_wf_skip(master_status, args.step)
+    elif args.action == "verify":
+        result = action_verify(master_status)
     else:
         result = {"action": "ERROR", "reason": f"Unknown action: {args.action}"}
 

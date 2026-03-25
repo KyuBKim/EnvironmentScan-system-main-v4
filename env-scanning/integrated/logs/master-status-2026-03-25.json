@@ -1,0 +1,35 @@
+{
+  "scan_date": "2026-03-25",
+  "system_version": "3.5.0",
+  "execution_mode": "sequential",
+  "anchor_timestamp": "2026-03-25T03:50:20.869914+00:00",
+  "status": "completed",
+  "workflows": {
+    "wf1-general": {"status": "completed", "signals_collected": 44, "signals_after_dedup": 44, "signal_count": 44, "sources_scanned": 18, "sources_failed": 7, "validation": {"passed": 18, "total": 18, "result": "PASS"}, "report_en": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-03-25.md", "report_ko": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-03-25-ko.md"},
+    "wf2-arxiv": {"status": "completed", "signals_collected": 38, "signals_after_dedup": 38, "signal_count": 38, "sources_scanned": 1, "sources_failed": 0, "validation": {"passed": 17, "total": 17, "result": "PASS"}, "report_en": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-03-25.md", "report_ko": "env-scanning/wf2-arxiv/reports/daily/arxiv-scan-2026-03-25-ko.md"},
+    "wf3-naver": {"status": "completed", "signals_collected": 32, "signals_after_dedup": 32, "signal_count": 32, "sources_scanned": 6, "sources_failed": 0, "validation": {"passed": 20, "total": 20, "result": "PASS"}, "report_en": "env-scanning/wf3-naver/reports/daily/naver-scan-2026-03-25.md", "report_ko": "env-scanning/wf3-naver/reports/daily/naver-scan-2026-03-25-ko.md"},
+    "wf4-multiglobal-news": {"status": "completed", "signals_collected": 35, "signals_after_dedup": 35, "signal_count": 35, "sources_scanned": 43, "sources_failed": 8, "validation": {"passed": 20, "total": 20, "result": "PASS"}, "report_en": "env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-03-25.md", "report_ko": "env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-03-25-ko.md"}
+  },
+  "workflow_results": {
+    "wf1-general": {"status": "completed", "signal_count": 44, "validation": "18/18 PASS"},
+    "wf2-arxiv": {"status": "completed", "signal_count": 38, "validation": "17/17 PASS"},
+    "wf3-naver": {"status": "completed", "signal_count": 32, "validation": "20/20 PASS"},
+    "wf4-multiglobal-news": {"status": "completed", "signal_count": 35, "validation": "20/20 PASS"}
+  },
+  "integration": {"status": "completed", "total_signals": 149, "report_en": "env-scanning/integrated/reports/daily/integrated-scan-2026-03-25.md", "report_ko": "env-scanning/integrated/reports/daily/integrated-scan-2026-03-25-ko.md"},
+  "integration_result": {
+    "status": "completed",
+    "report_path": "env-scanning/integrated/reports/daily/integrated-scan-2026-03-25.md",
+    "total_signals": 149,
+    "top_signals": 20,
+    "validation": "19/19 PASS"
+  },
+  "master_gates": {
+    "M1": {"status": "PASS", "description": "WF1 completion gate"},
+    "M2": {"status": "PASS", "description": "WF2 completion gate"},
+    "M2a": {"status": "PASS", "description": "WF3 completion gate"},
+    "M2b": {"status": "PASS", "description": "WF4 completion gate"},
+    "M3": {"status": "PASS", "description": "Integration completion gate"}
+  },
+  "checkpoints": {"total": 9, "passed": 9, "mode": "autopilot"}
+}

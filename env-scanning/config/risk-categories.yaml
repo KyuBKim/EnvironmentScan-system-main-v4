@@ -1,0 +1,49 @@
+# Risk Categories for Dashboard Risk Matrix (v3.4.0)
+# Python 원천봉쇄: dashboard_data_extractor.py reads this file.
+# Categories define the risk matrix in the dashboard overview.
+#
+# Each category:
+#   steeps: STEEPs codes to match
+#   keywords: lowercase terms to match in signal keywords/titles
+#
+# Adding/modifying a category here automatically updates the dashboard.
+# No Python code change needed.
+
+version: "1.0.0"
+
+categories:
+  energy_disruption:
+    label_ko: "에너지 차단"
+    label_en: "Energy Disruption"
+    steeps: ["P", "E"]
+    keywords: ["hormuz", "energy", "oil", "gas", "petroleum", "pipeline", "embargo", "blockade"]
+
+  ai_governance_gap:
+    label_ko: "AI 거버넌스 갭"
+    label_en: "AI Governance Gap"
+    steeps: ["T", "s"]
+    keywords: ["ai", "autonomous", "safety", "governance", "constraint", "alignment", "regulation"]
+
+  food_security:
+    label_ko: "식량안보 악화"
+    label_en: "Food Security Deterioration"
+    steeps: ["E"]
+    keywords: ["food", "fertilizer", "agriculture", "crop", "famine", "hunger", "grain"]
+
+  economic_slowdown:
+    label_ko: "경기 둔화"
+    label_en: "Economic Slowdown"
+    steeps: ["E"]
+    keywords: ["recession", "growth", "gdp", "slowdown", "contraction", "inflation", "unemployment"]
+
+  clean_energy:
+    label_ko: "클린에너지 가속"
+    label_en: "Clean Energy Acceleration"
+    steeps: ["Env", "T"]
+    keywords: ["clean", "renewable", "ev", "solar", "wind", "nuclear", "fusion", "hydrogen", "grid"]
+
+  biosecurity:
+    label_ko: "생물보안 사고"
+    label_en: "Biosecurity Incident"
+    steeps: ["T", "P"]
+    keywords: ["bio", "pathogen", "biosecurity", "bioweapon", "pandemic", "virus", "synthetic"]

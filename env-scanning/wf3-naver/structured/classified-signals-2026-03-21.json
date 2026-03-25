@@ -1,0 +1,27 @@
+{
+  "classification_date": "2026-03-21",
+  "workflow": "wf3-naver",
+  "classifier": "phase2-analyst",
+  "total_signals": 14,
+  "steeps_distribution": {
+    "S_Social": 3,
+    "T_Technological": 3,
+    "E_Economic": 3,
+    "E_Environmental": 2,
+    "P_Political": 2,
+    "s_spiritual": 1
+  },
+  "top_10": [
+    {"rank": 1, "id": "naver-20260321-100-001", "title": "Samsung Electronics Unveils 2nm GAA Process Mass Production — World First, AI Chip Market Offensive", "psst": 93.0, "steeps_primary": "T_Technological"},
+    {"rank": 2, "id": "naver-20260321-101-001", "title": "Bank of Korea Cuts Base Rate to 2.5% — Third Consecutive Cut Amid Export Slowdown", "psst": 90.0, "steeps_primary": "E_Economic"},
+    {"rank": 3, "id": "naver-20260321-105-001", "title": "Korea-Japan Digital Currency Bridge Protocol Agreement — Cross-Border CBDC Settlement Pilot", "psst": 87.0, "steeps_primary": "E_Economic"},
+    {"rank": 4, "id": "naver-20260321-102-001", "title": "National Assembly Passes Comprehensive AI Governance Act — Mandatory Impact Assessment for High-Risk AI", "psst": 86.0, "steeps_primary": "P_Political"},
+    {"rank": 5, "id": "naver-20260321-103-001", "title": "Korea Birth Rate Drops to 0.59 — Government Announces Emergency 30 Trillion Won Population Package", "psst": 85.0, "steeps_primary": "S_Social"},
+    {"rank": 6, "id": "naver-20260321-104-001", "title": "Hyundai Motor Solid-State Battery EV 'IONIQ 9' Achieves 900km Range — Tesla Killer Declared", "psst": 84.0, "steeps_primary": "T_Technological"},
+    {"rank": 7, "id": "naver-20260321-100-002", "title": "KAIST Develops Room-Temperature Quantum Dot Single Photon Source — Quantum Internet Foundation", "psst": 82.0, "steeps_primary": "T_Technological"},
+    {"rank": 8, "id": "naver-20260321-105-002", "title": "Korea-US Semiconductor Alliance Deepens: Joint 2nm Fab in Texas Announced", "psst": 80.0, "steeps_primary": "P_Political"},
+    {"rank": 9, "id": "naver-20260321-102-002", "title": "Seoul Housing Prices Surge 15% YoY — Young Adults Fleeing to Regional Cities", "psst": 78.0, "steeps_primary": "E_Economic"},
+    {"rank": 10, "id": "naver-20260321-103-002", "title": "Korea Achieves Highest Elderly Poverty Rate Among OECD — 43.2% of 65+ Below Poverty Line", "psst": 76.0, "steeps_primary": "S_Social"}
+  ],
+  "signals": []
+}

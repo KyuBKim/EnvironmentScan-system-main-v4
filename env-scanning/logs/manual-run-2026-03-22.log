@@ -1,0 +1,314 @@
+[0;34m============================================================[0m
+[0;34m   Environmental Scanning System - Daily Scan[0m
+[0;34m============================================================[0m
+
+[0;32m[08:03:11] START[0m Daily scan started
+Date: 2026-03-22
+Project: /Users/cys/Desktop/AIagentsAutomation/EnvironmentScan-system-main-v4/env-scanning
+
+[0;34m============================================================[0m
+[0;34mSTEP 1: Multi-Source Scan[0m
+[0;34m============================================================[0m
+
+============================================================
+Multi-Source Scanner - Starting
+============================================================
+
+[INFO] Loading configurations...
+
+[INFO] Step 1.1.5: Source Health Check...
+[HEALTH] Checking 36 enabled sources...
+  [UNHEALTHY] Google Patents: url_moved (HTTP 404)
+  [UNHEALTHY] PubMed Central: server_error (HTTP 500)
+  [UNHEALTHY] OECD Newsroom: bot_blocked (HTTP 403)
+  [UNHEALTHY] World Bank Blogs: url_moved (HTTP 404)
+  [UNHEALTHY] EUR-Lex Recent Acts: url_moved (HTTP 404)
+  [SUSPECT]   Brookings Institution: redirect_to_html
+  [UNHEALTHY] World Economic Forum: url_moved (HTTP 404)
+  [SUSPECT]   NASA Climate Change: redirect_to_html
+  [SUSPECT]   IMF Blog: redirect_to_html
+  [SUSPECT]   The Conversation - Ethics: redirect_to_html
+  [UNHEALTHY] Psychology Today: url_moved (HTTP 404)
+  [UNHEALTHY] Genetic Literacy Project: bot_blocked (HTTP 403)
+  [SUSPECT]   IPBES News: redirect_to_html
+[HEALTH] Result: 23 healthy, 5 suspect, 8 unhealthy / 36 total
+[HEALTH] 8 source(s) disabled: ['Google Patents', 'PubMed Central', 'OECD Newsroom', 'World Bank Blogs', 'EUR-Lex Recent Acts', 'World Economic Forum', 'Psychology Today', 'Genetic Literacy Project']
+[INFO] Creating scanner instances...
+[INFO] Skipping disabled source: arXiv
+[INFO] Skipping disabled source: Google Scholar
+[INFO] Skipping disabled source: SSRN
+[HEALTH] Skipping unhealthy source: Google Patents
+[INFO] Skipping disabled source: KIPRIS
+[INFO] Skipping disabled source: EU Press Releases
+[INFO] Skipping disabled source: The Economist - Technology
+[HEALTH] Skipping unhealthy source: PubMed Central
+[WARNING] Unsupported source type: science_journalism
+[HEALTH] Skipping unhealthy source: OECD Newsroom
+[HEALTH] Skipping unhealthy source: World Bank Blogs
+[HEALTH] Skipping unhealthy source: EUR-Lex Recent Acts
+[HEALTH] Skipping unhealthy source: World Economic Forum
+[WARNING] Unsupported source type: tech_news
+[WARNING] Unsupported source type: science_news
+[WARNING] Unsupported source: The Conversation - Ethics (type: academic)
+Available academic scanners: ['arXiv', 'SSRN', 'PubMed Central', 'Nature News', 'Science Magazine', 'IEEE Spectrum']
+[HEALTH] Skipping unhealthy source: Psychology Today
+[WARNING] Unsupported source: Aeon Magazine (type: blog)
+Available blog scanners: ['TechCrunch', 'MIT Technology Review', 'The Economist - Technology', 'Brookings Institution', 'World Economic Forum', 'Pew Research Center', 'Hacker News', 'Wired', 'Ars Technica', 'Carbon Brief', 'IMF Blog']
+[WARNING] Unsupported source: AI Ethics Brief (type: blog)
+Available blog scanners: ['TechCrunch', 'MIT Technology Review', 'The Economist - Technology', 'Brookings Institution', 'World Economic Forum', 'Pew Research Center', 'Hacker News', 'Wired', 'Ars Technica', 'Carbon Brief', 'IMF Blog']
+[WARNING] Unsupported source type: science_journalism
+[WARNING] Unsupported source: CEPR VoxEU (type: academic)
+Available academic scanners: ['arXiv', 'SSRN', 'PubMed Central', 'Nature News', 'Science Magazine', 'IEEE Spectrum']
+[HEALTH] Skipping unhealthy source: Genetic Literacy Project
+[WARNING] Unsupported source: Positive Psychology News (type: blog)
+Available blog scanners: ['TechCrunch', 'MIT Technology Review', 'The Economist - Technology', 'Brookings Institution', 'World Economic Forum', 'Pew Research Center', 'Hacker News', 'Wired', 'Ars Technica', 'Carbon Brief', 'IMF Blog']
+[WARNING] Unsupported source: IPBES News (type: policy)
+Available policy scanners: ['EU Press Releases', 'WHO Press Releases', 'OECD Newsroom', 'World Bank Blogs', 'UN News', 'EUR-Lex Recent Acts', 'NASA Climate Change', 'BIS Speeches', 'US Federal Register']
+[WARNING] Unsupported source type: science_journalism
+
+[INFO] Loaded 17 active scanner(s):
+  - US Federal Register (policy, non-critical)
+  - WHO Press Releases (policy, non-critical)
+  - TechCrunch (blog, non-critical)
+  - MIT Technology Review (blog, non-critical)
+  - Nature News (academic, non-critical)
+  - Science Magazine (academic, non-critical)
+  - IEEE Spectrum (academic, non-critical)
+  - UN News (policy, non-critical)
+  - Brookings Institution (blog, non-critical)
+  - Pew Research Center (blog, non-critical)
+  - Hacker News (blog, non-critical)
+  - Wired (blog, non-critical)
+  - Ars Technica (blog, non-critical)
+  - NASA Climate Change (policy, non-critical)
+  - Carbon Brief (blog, non-critical)
+  - IMF Blog (blog, non-critical)
+  - BIS Speeches (policy, non-critical)
+
+============================================================
+[SCANNING] US Federal Register...
+============================================================
+[INFO] US Federal Register: Scanning Federal Register API
+[SUCCESS] US Federal Register: Found 50 signals from last 7 days
+[PROGRESS] Total items collected: 50
+
+============================================================
+[SCANNING] WHO Press Releases...
+============================================================
+[INFO] WHO Press Releases: Scanning RSS feed: https://www.who.int/rss-feeds/news-english.xml
+[SUCCESS] WHO Press Releases: Found 1 signals within 7d window
+[PROGRESS] Total items collected: 51
+
+============================================================
+[SCANNING] TechCrunch...
+============================================================
+[INFO] TechCrunch: Scanning RSS feed: https://techcrunch.com/feed/
+[SUCCESS] TechCrunch: Found 20 signals within 7d window
+[PROGRESS] Total items collected: 71
+
+============================================================
+[SCANNING] MIT Technology Review...
+============================================================
+[INFO] MIT Technology Review: Scanning RSS feed: https://www.technologyreview.com/feed/
+[SUCCESS] MIT Technology Review: Found 10 signals within 7d window
+[PROGRESS] Total items collected: 81
+
+============================================================
+[SCANNING] Nature News...
+============================================================
+[INFO] Nature News: Scanning RSS feed: https://www.nature.com/nature.rss
+[SUCCESS] Nature News: Found 20 signals within 7d window
+[PROGRESS] Total items collected: 101
+
+============================================================
+[SCANNING] Science Magazine...
+============================================================
+[INFO] Science Magazine: Scanning RSS feed: https://www.science.org/rss/news_current.xml
+[SUCCESS] Science Magazine: Found 10 signals within 7d window
+[PROGRESS] Total items collected: 111
+
+============================================================
+[SCANNING] IEEE Spectrum...
+============================================================
+[INFO] IEEE Spectrum: Scanning RSS feed: https://spectrum.ieee.org/feeds/feed.rss
+[SUCCESS] IEEE Spectrum: Found 11 signals within 7d window
+[PROGRESS] Total items collected: 122
+
+============================================================
+[SCANNING] UN News...
+============================================================
+[INFO] UN News: Scanning RSS feed: https://news.un.org/feed/subscribe/en/news/all/rss.xml
+[SUCCESS] UN News: Found 20 signals within 7d window
+[PROGRESS] Total items collected: 142
+
+============================================================
+[SCANNING] Brookings Institution...
+============================================================
+[INFO] Brookings Institution: Scanning RSS feed: https://www.brookings.edu/feed/
+[INFO] Brookings Institution: Auto-discovered RSS feed: https://www.brookings.edu/feed/
+[WARNING] Brookings Institution: No entries found in feed
+[PROGRESS] Total items collected: 142
+
+============================================================
+[SCANNING] Pew Research Center...
+============================================================
+[INFO] Pew Research Center: Scanning RSS feed: https://www.pewresearch.org/feed/
+[SUCCESS] Pew Research Center: Found 7 signals within 7d window
+[PROGRESS] Total items collected: 149
+
+============================================================
+[SCANNING] Hacker News...
+============================================================
+[INFO] Hacker News: Scanning RSS feed: https://hnrss.org/frontpage
+[SUCCESS] Hacker News: Found 20 signals within 7d window
+[PROGRESS] Total items collected: 169
+
+============================================================
+[SCANNING] Wired...
+============================================================
+[INFO] Wired: Scanning RSS feed: https://www.wired.com/feed/rss
+[SUCCESS] Wired: Found 15 signals within 7d window
+[PROGRESS] Total items collected: 184
+
+============================================================
+[SCANNING] Ars Technica...
+============================================================
+[INFO] Ars Technica: Scanning RSS feed: https://feeds.arstechnica.com/arstechnica/index
+[SUCCESS] Ars Technica: Found 15 signals within 7d window
+[PROGRESS] Total items collected: 199
+
+============================================================
+[SCANNING] NASA Climate Change...
+============================================================
+[INFO] NASA Climate Change: Scanning RSS feed: https://climate.nasa.gov/news/rss.xml
+[INFO] NASA Climate Change: Auto-discovered RSS feed: https://science.nasa.gov/feed/
+[SUCCESS] NASA Climate Change: Found 10 signals within 7d window
+[PROGRESS] Total items collected: 209
+
+============================================================
+[SCANNING] Carbon Brief...
+============================================================
+[INFO] Carbon Brief: Scanning RSS feed: https://www.carbonbrief.org/feed/
+[SUCCESS] Carbon Brief: Found 6 signals within 7d window
+[PROGRESS] Total items collected: 215
+
+============================================================
+[SCANNING] IMF Blog...
+============================================================
+[INFO] IMF Blog: Scanning RSS feed: https://www.imf.org/en/News/Rss?Language=ENG
+[WARNING] IMF Blog: No entries found in feed
+[PROGRESS] Total items collected: 215
+
+============================================================
+[SCANNING] BIS Speeches...
+============================================================
+[INFO] BIS Speeches: Scanning RSS feed: https://www.bis.org/doclist/cbspeeches.rss
+[SUCCESS] BIS Speeches: Found 10 signals within 7d window
+[PROGRESS] Total items collected: 225
+
+============================================================
+Multi-Source Scanner - Complete
+============================================================
+Sources scanned: 17/17
+Sources failed: 0
+Total items: 225
+Execution time: 34.53s
+============================================================
+
+[SAVED] Output written to: raw/daily-scan-2026-03-22.json
+[SIZE] 237,503 bytes (231.9 KB)
+
+============================================================
+SCAN SUMMARY
+============================================================
+Date: 2026-03-22
+Total signals: 225
+Execution time: 34.53s
+Sources: 17/17 successful
+
+Category distribution:
+  E: 41 signals (18.2%)
+  P: 91 signals (40.4%)
+  T: 93 signals (41.3%)
+============================================================
+
+[0;34m============================================================[0m
+[0;34mSTEP 2: Update Database[0m
+[0;34m============================================================[0m
+
+============================================================
+DATABASE UPDATER
+============================================================
+
+[LOAD] Loading database: signals/database.json
+[INFO] Current signals: 509
+
+[LOAD] Loading scan: raw/daily-scan-2026-03-22.json
+[INFO] New signals to process: 225
+[SNAPSHOT] Pre-update backup: signals/snapshots/database-2026-03-22.json
+
+[MERGE] Merging new signals...
+[INFO] Added 225 new signals
+
+[SAVE] Saving database...
+[SAVED] Database updated: signals/database.json
+[SIZE] 1,089,504 bytes (1064.0 KB)
+
+============================================================
+DATABASE STATISTICS
+============================================================
+
+Total signals: 686
+First scan: 2026-01-30
+Latest scan: 2026-03-22
+Total scans: 7
+
+Category distribution:
+  E:  117 signals ( 17.1%)
+  E_Environmental:   25 signals (  3.6%)
+  P:  316 signals ( 46.1%)
+  S:   63 signals (  9.2%)
+  T:  493 signals ( 71.9%)
+  s:    7 signals (  1.0%)
+
+Source distribution:
+  arXiv                         :  237 signals ( 34.5%)
+  US Federal Register           :  199 signals ( 29.0%)
+  TechCrunch                    :   94 signals ( 13.7%)
+  Hacker News                   :   68 signals (  9.9%)
+  Nature News                   :   64 signals (  9.3%)
+  UN News                       :   62 signals (  9.0%)
+  Wired                         :   45 signals (  6.6%)
+  Ars Technica                  :   42 signals (  6.1%)
+  IEEE Spectrum                 :   40 signals (  5.8%)
+  MIT Technology Review         :   38 signals (  5.5%)
+============================================================
+
+[SUCCESS] Database updated successfully
+
+[0;34m============================================================[0m
+[0;34mSTEP 3: Quick Summary[0m
+[0;34m============================================================[0m
+
+[1;33m⚠[0m Report not found (run full workflow to generate)
+[0;32m✓[0m Database updated:
+  Total signals: 686
+  Latest scan: 2026-03-22
+
+[0;34m============================================================[0m
+[0;34mNext Steps[0m
+[0;34m============================================================[0m
+
+[1;33mSearch signals:[0m
+  python3 scripts/search_signals.py "keyword"
+  python3 scripts/search_signals.py --category T --limit 20
+
+[1;33mView latest report:[0m
+  cat reports/daily/environmental-scan-2026-03-22.md
+  # or open in your editor/browser
+
+[1;33mRun full workflow (with analysis):[0m
+  python3 scripts/run_real_workflow.py raw/daily-scan-2026-03-22.json
+
+[0;32m[08:03:46] COMPLETE[0m Daily scan completed successfully
+

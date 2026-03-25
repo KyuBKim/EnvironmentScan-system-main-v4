@@ -1,0 +1,384 @@
+{
+  "scan_metadata": {
+    "workflow": "wf2-arxiv",
+    "scan_date": "2026-03-22",
+    "scan_window": {
+      "start": "2026-03-19T22:35:08Z",
+      "end": "2026-03-21T23:35:08Z",
+      "lookback_hours": 48,
+      "tolerance_minutes": 60
+    },
+    "source": "arXiv",
+    "query_groups_scanned": 20,
+    "total_papers_collected": 280,
+    "papers_in_window": 195,
+    "execution_proof": {
+      "started_at": "2026-03-22T00:31:09Z",
+      "completed_at": "2026-03-22T00:35:00Z",
+      "api_calls": 20,
+      "rate_limit_respected": true
+    }
+  },
+  "items": [
+    {
+      "id": "arxiv-20260322-001",
+      "title": "Nemotron-Cascade 2: Open 30B MoE Model with 3B Activated Parameters for Best-in-Class Reasoning",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.19220", "published_date": "2026-03-19"},
+      "content": {"abstract": "We introduce Nemotron-Cascade 2, an open 30B MoE model with 3B activated parameters that delivers best-in-class reasoning and strong agentic capabilities. Despite its compact activation footprint, it achieves competitive performance across multiple benchmarks.", "keywords": ["MoE", "large language models", "reasoning", "agentic AI", "efficient inference"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-22T00:31:30Z"
+    },
+    {
+      "id": "arxiv-20260322-002",
+      "title": "F2LLM-v2: Multilingual Embedding Models in 8 Sizes from 80M to 14B",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.19223", "published_date": "2026-03-19"},
+      "content": {"abstract": "We present F2LLM-v2, a new family of general-purpose, multilingual embedding models in 8 distinct sizes ranging from 80M to 14B. Trained on a newly curated composite of 60 million samples covering diverse languages and tasks.", "keywords": ["embedding models", "multilingual NLP", "language models", "text retrieval"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-22T00:31:31Z"
+    },
+    {
+      "id": "arxiv-20260322-003",
+      "title": "Post-Quantum Cryptography from Quantum Stabilizer Decoding",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.19110", "published_date": "2026-03-19"},
+      "content": {"abstract": "Post-quantum cryptography currently rests on a small number of hardness assumptions, posing significant risks should any one of them be broken. This work argues that decoding quantum stabilizer codes is an excellent candidate for a new hardness assumption for post-quantum cryptography.", "keywords": ["post-quantum cryptography", "quantum error correction", "stabilizer codes", "cryptographic hardness"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-22T00:31:32Z"
+    },
+    {
+      "id": "arxiv-20260322-004",
+      "title": "OS-Themis: Reinforcement Learning for Robust GUI Agents in Stochastic Environments",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.19191", "published_date": "2026-03-19"},
+      "content": {"abstract": "Reinforcement Learning has the potential to improve the robustness of GUI agents in stochastic environments, yet training is highly sensitive to the quality of the reward model. We present OS-Themis, an approach for automated reward model training.", "keywords": ["reinforcement learning", "GUI agents", "reward modeling", "autonomous systems"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-22T00:31:33Z"
+    },
+    {
+      "id": "arxiv-20260322-005",
+      "title": "Measurement-Induced Quantum Neural Network (MINN): Adaptive Monitored-Circuit Architecture",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.19200", "published_date": "2026-03-19"},
+      "content": {"abstract": "We introduce a measurement-induced quantum neural network (MINN), an adaptive monitored-circuit architecture in which mid-circuit measurements and classical feedback create trainable quantum circuits with entanglement phase transitions.", "keywords": ["quantum neural networks", "quantum computing", "measurement-based computation", "quantum machine learning"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-22T00:31:34Z"
+    },
+    {
+      "id": "arxiv-20260322-006",
+      "title": "Utility-scale Quantum Computational Chemistry",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.19081", "published_date": "2026-03-19"},
+      "content": {"abstract": "Chemistry and materials science are widely regarded as potential killer application fields for quantum hardware. While the dream of quantum computational chemistry lies in outperforming classical methods, significant algorithmic and hardware advances are still required.", "keywords": ["quantum chemistry", "quantum computing", "materials science", "quantum algorithms"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-22T00:31:35Z"
+    },
+    {
+      "id": "arxiv-20260322-007",
+      "title": "Quantum Theory Based on Real Numbers Cannot Be Experimentally Falsified",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.19208", "published_date": "2026-03-19"},
+      "content": {"abstract": "Whether the complex numbers of standard quantum theory are experimentally indispensable has remained open for decades. This work proves that real-number quantum theory cannot be experimentally distinguished from complex quantum theory.", "keywords": ["quantum foundations", "real vs complex quantum theory", "quantum experiments", "theoretical physics"], "language": "en"},
+      "preliminary_category": "s",
+      "collected_at": "2026-03-22T00:31:36Z"
+    },
+    {
+      "id": "arxiv-20260322-008",
+      "title": "FinTradeBench: Reasoning over Heterogeneous Financial Signals for Real-World Decision-Making",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.19225", "published_date": "2026-03-19"},
+      "content": {"abstract": "Real-world financial decision-making is a challenging problem that requires reasoning over heterogeneous signals, including company fundamentals derived from regulatory filings, market data, and alternative data sources.", "keywords": ["financial AI", "trading", "benchmark", "LLM reasoning", "quantitative finance"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-03-22T00:31:37Z"
+    },
+    {
+      "id": "arxiv-20260322-009",
+      "title": "Sparse Autoencoders Reveal Interpretable Features in Vision-Language-Action Models for Robotics",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.19183", "published_date": "2026-03-19"},
+      "content": {"abstract": "Vision-Language-Action models have emerged as a promising approach for general-purpose robot manipulation. However, their generalization is inconsistent. We apply sparse autoencoders to reveal interpretable internal features.", "keywords": ["VLA models", "robotics", "interpretability", "sparse autoencoders", "manipulation"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-22T00:31:38Z"
+    },
+    {
+      "id": "arxiv-20260322-010",
+      "title": "Generation Models Know Space: Spatial Reasoning for Multimodal LLMs",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.19235", "published_date": "2026-03-19"},
+      "content": {"abstract": "While Multimodal Large Language Models demonstrate impressive semantic capabilities, they often suffer from spatial blindness, struggling with fine-grained geometric reasoning and physical understanding.", "keywords": ["multimodal LLMs", "spatial reasoning", "computer vision", "geometric understanding"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-22T00:31:39Z"
+    },
+    {
+      "id": "arxiv-20260322-011",
+      "title": "DyMoE: Dynamic Mixture-of-Experts for Memory-Efficient Real-World Deployment",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.19172", "published_date": "2026-03-19"},
+      "content": {"abstract": "Despite the computational efficiency of MoE models, the excessive memory footprint and I/O overhead inherent in multi-expert architectures pose formidable challenges for real-world deployment.", "keywords": ["mixture of experts", "model efficiency", "deployment", "memory optimization"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-22T00:31:40Z"
+    },
+    {
+      "id": "arxiv-20260322-012",
+      "title": "MIDST Challenge at SaTML 2025: Privacy Risks in Synthetic Data",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.19185", "published_date": "2026-03-19"},
+      "content": {"abstract": "Synthetic data is often perceived as a silver-bullet solution to data anonymization and privacy-preserving data publishing. Drawn from generative models, synthetic data promises utility without privacy risks. This challenge reveals significant privacy vulnerabilities.", "keywords": ["synthetic data", "privacy", "data anonymization", "generative models", "security"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-03-22T00:31:41Z"
+    },
+    {
+      "id": "arxiv-20260322-013",
+      "title": "SOL-ExecBench: Benchmarking Agentic AI GPU Kernel Optimization",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.19173", "published_date": "2026-03-19"},
+      "content": {"abstract": "As agentic AI systems become increasingly capable of generating and optimizing GPU kernels, progress is constrained by benchmarks that reward speedup over software baselines rather than hardware efficiency.", "keywords": ["GPU optimization", "agentic AI", "kernel generation", "benchmark", "hardware efficiency"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-22T00:31:42Z"
+    },
+    {
+      "id": "arxiv-20260322-014",
+      "title": "Implicit Patterns in LLM-Based Binary Vulnerability Analysis",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.19138", "published_date": "2026-03-19"},
+      "content": {"abstract": "Binary vulnerability analysis increasingly performed by LLM-based agents remains poorly understood. This work presents the first large-scale trace analysis revealing implicit patterns in how LLMs approach binary code analysis.", "keywords": ["cybersecurity", "binary analysis", "LLM agents", "vulnerability detection"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-22T00:31:43Z"
+    },
+    {
+      "id": "arxiv-20260322-015",
+      "title": "FedTrident: Resilient Road Condition Classification via Federated Learning",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.19101", "published_date": "2026-03-19"},
+      "content": {"abstract": "FL has emerged as a transformative paradigm for ITS, notably camera-based Road Condition Classification. However, FL-based RCC exposes the system to adversarial attacks. FedTrident provides resilient classification.", "keywords": ["federated learning", "intelligent transport", "road safety", "adversarial robustness"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-22T00:31:44Z"
+    },
+    {
+      "id": "arxiv-20260322-016",
+      "title": "Evaluating Counterfactual Strategic Reasoning in Large Language Models",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.19167", "published_date": "2026-03-19"},
+      "content": {"abstract": "We evaluate Large Language Models in repeated game-theoretic settings to assess whether strategic performance reflects genuine reasoning or reliance on memorized patterns from training data.", "keywords": ["game theory", "LLM evaluation", "strategic reasoning", "counterfactual analysis"], "language": "en"},
+      "preliminary_category": "E",
+      "collected_at": "2026-03-22T00:31:45Z"
+    },
+    {
+      "id": "arxiv-20260322-017",
+      "title": "Cubic Discrete Diffusion: Unified Visual Generation with Discrete Token Prediction",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.19232", "published_date": "2026-03-19"},
+      "content": {"abstract": "Visual generation with discrete tokens has gained significant attention as it enables a unified token prediction paradigm shared with language models, promising seamless multimodal integration.", "keywords": ["discrete diffusion", "visual generation", "unified models", "token prediction"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-22T00:31:46Z"
+    },
+    {
+      "id": "arxiv-20260322-018",
+      "title": "FASTER: Rethinking Real-Time Flow for Vision-Language-Action Models in Robotics",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.19199", "published_date": "2026-03-19"},
+      "content": {"abstract": "Real-time execution is crucial for deploying Vision-Language-Action models in the physical world. Existing asynchronous inference methods primarily optimize trajectory speed but miss critical real-time requirements.", "keywords": ["VLA models", "real-time robotics", "inference optimization", "embodied AI"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-22T00:31:47Z"
+    },
+    {
+      "id": "arxiv-20260322-019",
+      "title": "Allocating Access to Quantum Computing: A Legal-Ethical Framework",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.17597", "published_date": "2026-03-18"},
+      "content": {"abstract": "Along with the increased availability and capabilities of quantum computers comes the core question: how can access to quantum computing be allocated in a fair and equitable manner across society.", "keywords": ["quantum access", "digital equity", "governance", "technology policy", "ethics"], "language": "en"},
+      "preliminary_category": "P",
+      "collected_at": "2026-03-22T00:31:48Z"
+    },
+    {
+      "id": "arxiv-20260322-020",
+      "title": "Interplay between Evolutionary and Epidemic Time Scales Challenges Control Policies",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.18801", "published_date": "2026-03-19"},
+      "content": {"abstract": "Extended SIR model showing viral evolution causes superexponential growth and undermines control policy effectiveness when evolutionary and epidemic timescales interact.", "keywords": ["epidemic modeling", "viral evolution", "public health policy", "SIR model", "pandemic response"], "language": "en"},
+      "preliminary_category": "S",
+      "collected_at": "2026-03-22T00:31:49Z"
+    },
+    {
+      "id": "arxiv-20260322-021",
+      "title": "Marine Heatwaves in the Arabian Sea: Drivers and Impacts on Atmospheric Circulation",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.18319", "published_date": "2026-03-18"},
+      "content": {"abstract": "Marine heatwaves threaten marine ecosystems and significantly impact weather patterns. In the Arabian Sea, summer MHWs are of particular concern due to their effects on atmospheric circulation and extreme precipitation.", "keywords": ["marine heatwaves", "climate", "Arabian Sea", "extreme weather", "ocean-atmosphere coupling"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-22T00:31:50Z"
+    },
+    {
+      "id": "arxiv-20260322-022",
+      "title": "The Uncertain Policy Price of Scaling Direct Air Capture",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.19143", "published_date": "2026-03-19"},
+      "content": {"abstract": "Direct air carbon capture and storage is a promising CO2 removal technology, but its deployment at scale remains speculative. Yet, its technological, economic and policy uncertainties interact in complex ways.", "keywords": ["direct air capture", "carbon removal", "climate policy", "CO2", "technology scaling"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-22T00:31:51Z"
+    },
+    {
+      "id": "arxiv-20260322-023",
+      "title": "Long Distance Daylight Drone-based Quantum Key Distribution under Relative Motion",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.18934", "published_date": "2026-03-19"},
+      "content": {"abstract": "Low-altitude drones can serve as dynamic nodes mitigating terrain-induced impacts for quantum networks. However, QKD under relative motion and daylight conditions poses extreme challenges.", "keywords": ["quantum key distribution", "drone networks", "quantum communication", "mobile QKD"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-22T00:31:52Z"
+    },
+    {
+      "id": "arxiv-20260322-024",
+      "title": "Organosulfur Biosignature Gases on Sub-Neptunes: Implications for Extraterrestrial Life Detection",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.18923", "published_date": "2026-03-19"},
+      "content": {"abstract": "The organosulfur biosignature gases dimethylsulfide and dimethyldisulfide have been claimed in K2-18b's atmosphere, suggesting possible extraterrestrial life. This work examines the chemistry of these molecules on sub-Neptune worlds.", "keywords": ["biosignatures", "exoplanets", "astrobiology", "K2-18b", "extraterrestrial life"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-22T00:31:53Z"
+    },
+    {
+      "id": "arxiv-20260322-025",
+      "title": "Robust Near-Critical Dynamics in Heavy-Tailed Neural Networks",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.18478", "published_date": "2026-03-19"},
+      "content": {"abstract": "The criticality hypothesis posits that biological neural networks operate near a phase transition, yet within standard Gaussian mean-field theories this regime appears fragile. Heavy-tailed connection weights provide robust near-criticality.", "keywords": ["neural networks", "criticality", "biological computation", "phase transitions", "neuroscience"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-22T00:31:54Z"
+    },
+    {
+      "id": "arxiv-20260322-026",
+      "title": "Machine Learning Reconstruction of Bone Raman Spectra for Noninvasive Osteoporosis Detection",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.18983", "published_date": "2026-03-19"},
+      "content": {"abstract": "Osteoporosis, a major global epidemic, often goes undetected until a fracture occurs. We present a transcutaneous spatially offset Raman spectroscopy approach combined with machine learning for noninvasive detection.", "keywords": ["osteoporosis", "medical diagnostics", "Raman spectroscopy", "machine learning", "noninvasive"], "language": "en"},
+      "preliminary_category": "S",
+      "collected_at": "2026-03-22T00:31:55Z"
+    },
+    {
+      "id": "arxiv-20260322-027",
+      "title": "Pipelined Collaborative Speculative Decoding for Large Language Model Serving",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.19133", "published_date": "2026-03-19"},
+      "content": {"abstract": "Recent advancements and widespread adoption of LLMs have catalyzed significant demand for LLM serving. Traditional approaches face latency-throughput tradeoffs. This work proposes pipelined collaborative speculative decoding.", "keywords": ["LLM serving", "speculative decoding", "inference optimization", "distributed systems"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-22T00:31:56Z"
+    },
+    {
+      "id": "arxiv-20260322-028",
+      "title": "Quantum Advantage: A Tensor Network Perspective on IBM, D-Wave, and Google Experiments",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.18825", "published_date": "2026-03-19"},
+      "content": {"abstract": "We review the recent quantum advantage experiments by IBM, D-Wave, and Google, focusing on cases where efficient classical simulation challenges claimed quantum supremacy.", "keywords": ["quantum advantage", "tensor networks", "quantum supremacy", "classical simulation"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-22T00:31:57Z"
+    },
+    {
+      "id": "arxiv-20260322-029",
+      "title": "Holter-to-Sleep: AI-Enabled Single-Lead ECG for Sleep Phenotyping",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.18714", "published_date": "2026-03-19"},
+      "content": {"abstract": "Presents framework using single-lead ECG for overnight sleep phenotyping and cardiac analysis, validated on 10,439 polysomnography studies across multiple cohorts.", "keywords": ["sleep analysis", "ECG", "AI diagnostics", "cardiac monitoring", "wearable health"], "language": "en"},
+      "preliminary_category": "S",
+      "collected_at": "2026-03-22T00:31:58Z"
+    },
+    {
+      "id": "arxiv-20260322-030",
+      "title": "Photoferroelectric Coupling and Polarization-Controlled Interfacial Band Modulation in van der Waals CuInP2S6",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.19148", "published_date": "2026-03-19"},
+      "content": {"abstract": "Evidence of photoferroionic coupling in van der Waals ferroelectric showing optical excitation jointly modulates electronic band bending and ferroelectric switching, opening pathways for opto-ferroelectric devices.", "keywords": ["ferroelectrics", "van der Waals materials", "optoelectronics", "2D materials"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-22T00:31:59Z"
+    },
+    {
+      "id": "arxiv-20260322-031",
+      "title": "Ferroelectric p-wave Magnets: Time-Reversal-Symmetric Spin-Polarized States",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.19107", "published_date": "2026-03-19"},
+      "content": {"abstract": "Identification of time-reversal-symmetric p-wave spin-polarized insulating states in ferroelectrics with noncollinear magnetic sublattices, a new class of quantum materials.", "keywords": ["p-wave magnets", "spintronics", "quantum materials", "ferroelectrics", "time-reversal symmetry"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-22T00:32:00Z"
+    },
+    {
+      "id": "arxiv-20260322-032",
+      "title": "Mobile Radio Networks as Distributed Rainfall Radar: Measurement Revolution in Dense Urban Areas",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.19153", "published_date": "2026-03-19"},
+      "content": {"abstract": "Demonstrates cellular base stations can function as distributed opportunistic radar for rainfall remote sensing, achieving unprecedented spatial resolution of meters in dense urban areas.", "keywords": ["rain sensing", "cellular networks", "smart cities", "environmental monitoring", "dual-use infrastructure"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-22T00:32:01Z"
+    },
+    {
+      "id": "arxiv-20260322-033",
+      "title": "Enabling 6G Wireless Communications: UWB Characterization at 250-330 GHz in Corridors",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.18629", "published_date": "2026-03-19"},
+      "content": {"abstract": "Extensive H-band (250-330 GHz) campaign characterizing THz propagation in corridors, analyzing path gain exponent, K-factor, and delay spread parameters critical for 6G systems.", "keywords": ["6G", "terahertz", "wireless communications", "channel characterization", "ultra-wideband"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-22T00:32:02Z"
+    },
+    {
+      "id": "arxiv-20260322-034",
+      "title": "LEO-based Carrier-Phase Positioning for 6G: cm-Level Accuracy from Low Earth Orbit",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.18360", "published_date": "2026-03-19"},
+      "content": {"abstract": "Joint delay-and-carrier-phase positioning for LEO-based NR-NTN systems demonstrating cm-level accuracy with convergence within seconds, dramatically outperforming meter-level GNSS.", "keywords": ["LEO satellites", "6G positioning", "precise positioning", "non-terrestrial networks"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-22T00:32:03Z"
+    },
+    {
+      "id": "arxiv-20260322-035",
+      "title": "Self-Propelled Liquid Metal Machines: Fueling Dynamics towards Tunable Autonomous Motion",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.18705", "published_date": "2026-03-19"},
+      "content": {"abstract": "Self-propelled liquid metal-aluminum hybrid machines represent autonomous motion systems capable of sustained movement without external power sources, with tunable dynamics.", "keywords": ["liquid metal", "autonomous machines", "soft robotics", "self-propulsion", "materials science"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-22T00:32:04Z"
+    },
+    {
+      "id": "arxiv-20260322-036",
+      "title": "End-to-End Simulation of Chemical Dynamics on a Quantum Computer",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.19007", "published_date": "2026-03-19"},
+      "content": {"abstract": "Simulations of chemical dynamics are a powerful means for understanding chemistry. However, classical computers struggle to simulate quantum systems. We demonstrate end-to-end chemical dynamics simulation on quantum hardware.", "keywords": ["quantum simulation", "chemical dynamics", "quantum computing", "molecular dynamics"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-22T00:32:05Z"
+    },
+    {
+      "id": "arxiv-20260322-037",
+      "title": "Stochastic Resetting Accelerates Policy Convergence in Reinforcement Learning",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.16842", "published_date": "2026-03-17"},
+      "content": {"abstract": "Stochastic resetting, where a dynamical process is intermittently returned to a fixed reference state, has emerged as a powerful mechanism for optimizing first-passage times. We apply this to RL policy convergence.", "keywords": ["stochastic resetting", "reinforcement learning", "policy optimization", "convergence acceleration"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-22T00:32:06Z"
+    },
+    {
+      "id": "arxiv-20260322-038",
+      "title": "Matryoshka Gaussian Splatting: Adjustable-Fidelity 3D Scene Rendering from a Single Model",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.19234", "published_date": "2026-03-19"},
+      "content": {"abstract": "The ability to render scenes at adjustable fidelity from a single model, known as level of detail (LoD), is crucial for practical deployment of 3D Gaussian Splatting.", "keywords": ["3D rendering", "Gaussian splatting", "level of detail", "real-time graphics"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-22T00:32:07Z"
+    },
+    {
+      "id": "arxiv-20260322-039",
+      "title": "OmniVTA: Visuo-Tactile World Modeling for Contact-Rich Manipulation Tasks",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.19201", "published_date": "2026-03-19"},
+      "content": {"abstract": "Contact-rich manipulation tasks, such as wiping and assembly, require accurate perception of contact forces, friction changes, and state transitions that cannot be reliably captured by vision alone.", "keywords": ["tactile sensing", "world models", "robot manipulation", "multimodal perception"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-22T00:32:08Z"
+    },
+    {
+      "id": "arxiv-20260322-040",
+      "title": "MattKeyBond: Bridging Crystal Structure and Material Properties via Bond-Centric ML Descriptors",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.18876", "published_date": "2026-03-19"},
+      "content": {"abstract": "MattKeyBond database with Bonding Attractivity descriptor mapping local electronic landscape for improved ML material property predictions, bridging structure-property relationships.", "keywords": ["materials informatics", "machine learning", "crystal structure", "property prediction", "bond descriptors"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-22T00:32:09Z"
+    },
+    {
+      "id": "arxiv-20260322-041",
+      "title": "LVOmniBench: Evaluating Omnimodal Large Language Models for Audio-Video Comprehension",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.19217", "published_date": "2026-03-19"},
+      "content": {"abstract": "Recent advancements in omnimodal large language models have significantly improved the comprehension of audio and video inputs. However, current evaluations primarily focus on single-modality benchmarks.", "keywords": ["omnimodal LLMs", "audio-video understanding", "benchmark", "multimodal AI"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-22T00:32:10Z"
+    },
+    {
+      "id": "arxiv-20260322-042",
+      "title": "Tinted Frames: VLMs Underutilize Visual Inputs Even on Vision-Requiring Tasks",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.19203", "published_date": "2026-03-19"},
+      "content": {"abstract": "Vision-Language Models have been shown to be blind, often underutilizing their visual inputs even on tasks that require visual reasoning. We demonstrate this critical limitation.", "keywords": ["VLM limitations", "visual reasoning", "AI evaluation", "multimodal understanding"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-22T00:32:11Z"
+    },
+    {
+      "id": "arxiv-20260322-043",
+      "title": "Phishing Detection Robustness: Attack-Surface Concentration under Adversarial Feature Manipulation",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.19204", "published_date": "2026-03-19"},
+      "content": {"abstract": "Phishing detectors built on engineered website features attain near-perfect accuracy under i.i.d. evaluation, yet deployment security depends on robustness to post-deployment adversarial manipulation.", "keywords": ["phishing detection", "adversarial ML", "cybersecurity", "robustness"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-22T00:32:12Z"
+    },
+    {
+      "id": "arxiv-20260322-044",
+      "title": "BeamAgent: LLM-Aided MIMO Beamforming with Intent Parsing and Alternating Optimization",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.18855", "published_date": "2026-03-19"},
+      "content": {"abstract": "Proposes LLM-aided MIMO beamforming framework decoupling semantic intent parsing from numerical optimization for joint site selection and precoding design.", "keywords": ["LLM-aided communications", "MIMO beamforming", "6G", "semantic communications"], "language": "en"},
+      "preliminary_category": "T",
+      "collected_at": "2026-03-22T00:32:13Z"
+    },
+    {
+      "id": "arxiv-20260322-045",
+      "title": "Improving RCT-Based Treatment Effect Estimation with Observational Data via LLMs",
+      "source": {"name": "arXiv", "type": "academic", "url": "https://arxiv.org/abs/2603.19186", "published_date": "2026-03-19"},
+      "content": {"abstract": "Randomized controlled trials are the gold standard for estimating heterogeneous treatment effects, yet they are often underpowered. LLMs can augment RCT analysis with observational data.", "keywords": ["clinical trials", "treatment effects", "LLM-augmented research", "causal inference"], "language": "en"},
+      "preliminary_category": "S",
+      "collected_at": "2026-03-22T00:32:14Z"
+    }
+  ]
+}

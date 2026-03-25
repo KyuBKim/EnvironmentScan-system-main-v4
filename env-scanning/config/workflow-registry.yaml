@@ -69,6 +69,7 @@ system:
     gate_script: "env-scanning/core/dedup_gate.py"
     previous_signals_source: "database_snapshot"  # "database_snapshot" = pre-update DB snapshot
     lookback_days: 30                    # How far back to compare previous signals (days)
+    archive_loader_window_days: 14       # RecursiveArchiveLoader Phase 1 window (v3.5.1: 7→14, signal evolution detection)
     thresholds:
       url_exact: 1.0                     # Stage A: normalized URL exact match
       topic_fingerprint_definite: 0.60   # Stage B: ≥ this → definite_duplicate (removed)

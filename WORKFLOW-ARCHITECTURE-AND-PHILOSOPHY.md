@@ -2,7 +2,7 @@
 
 > **Quadruple Environmental Scanning System** | 워크플로우 아키텍처와 철학
 >
-> Version: 3.5.0 | Last Updated: 2026-03-24
+> Version: 3.5.1 | Last Updated: 2026-03-25
 
 ---
 
@@ -392,6 +392,13 @@ Master Orchestrator는 SOT를 읽은 후 **명명 변수(named variables)** 를 
 | SOT-023 | WF3 소스 설정 존재 | HALT | `sources-naver.yaml` 존재 |
 | ... | *(SOT-024~064: v3.1.0~v3.4.0에서 추가된 42개 규칙 — 상세 목록은 `validate_registry.py` 참조)* | | |
 | SOT-065 | priority_score_calculator_script 존재 확인 | HALT | `priority_score_calculator.py` 파일 존재 (v3.5.0) |
+
+**v3.5.1 추가 SOT 필드**:
+
+| 필드 | 위치 | 용도 |
+|------|------|------|
+| `dedup_gate.archive_loader_window_days` | `workflow-registry.yaml` | RecursiveArchiveLoader Phase 1 윈도우 (기본 14일) |
+| `dashboard.cross_wf_reinforcement` | `thresholds.yaml` | Cross-WF Jaccard 임계값, 최소 공유 키워드 수, 최대 결과 수 |
 
 심각도별 행동:
 - **HALT**: 워크플로우 즉시 중단

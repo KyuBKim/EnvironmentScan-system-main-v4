@@ -1,0 +1,245 @@
+{
+  "gate_id": "dedup_gate.py",
+  "gate_version": "2.0.0",
+  "checked_at": "2026-03-23T20:37:46.601034+00:00",
+  "workflow": "wf1-general",
+  "signals_file": "env-scanning/wf1-general/raw/daily-scan-2026-03-24.json",
+  "previous_file": "env-scanning/wf1-general/signals/database.json",
+  "gate_status": "PASS_WITH_REMOVAL",
+  "gate_message": "3 definite duplicate(s) removed. 23 uncertain signal(s) flagged for LLM review. 9 definite new signal(s) passed.",
+  "thresholds": {
+    "url_exact": 1.0,
+    "topic_fingerprint_definite": 0.6,
+    "topic_fingerprint_uncertain": 0.3,
+    "title_similarity_definite": 0.9,
+    "title_similarity_uncertain": 0.8,
+    "entity_overlap_definite": 0.85,
+    "entity_overlap_uncertain": 0.7
+  },
+  "enforce": "strict",
+  "statistics": {
+    "total_input": 35,
+    "definite_new": 9,
+    "definite_duplicates": 3,
+    "uncertain": 23,
+    "pass_through": 32
+  },
+  "stage_breakdown": {
+    "A_url": 0,
+    "B_topic": 3,
+    "C_title": 0,
+    "D_entity": 0
+  },
+  "duplicates": [
+    {
+      "signal_id": "gen-20260324-017",
+      "signal_title": "Pentagon Labels Anthropic 'Supply-Chain Risk': Senator Warren Calls Decision 'Retaliation'",
+      "matched_signal_id": "tc-20260306-004",
+      "matched_title": "Pentagon designates Anthropic as supply-chain risk",
+      "stage": "B_topic",
+      "score": 0.6667
+    },
+    {
+      "signal_id": "gen-20260324-028",
+      "signal_title": "Quantum Computing Health Prize: $5M Competition Advances Quantum-Classical Hybrid Approaches",
+      "matched_signal_id": "nat-20260226-006",
+      "matched_title": "Triplet Superconductor Discovery for Quantum Computing",
+      "stage": "B_topic",
+      "score": 0.6
+    },
+    {
+      "signal_id": "gen-20260324-034",
+      "signal_title": "Sodium-Ion Batteries Emerge as Cheaper, Safer Alternative to Lithium for Grid Storage and EVs",
+      "matched_signal_id": "wf1-20260212-015",
+      "matched_title": "Sodium-Ion Batteries: Cheaper Alternative to Lithium",
+      "stage": "B_topic",
+      "score": 1.0
+    }
+  ],
+  "uncertain_signals": [
+    {
+      "signal_id": "gen-20260324-001",
+      "signal_title": "AI Algorithms Can Become 'Agents of Chaos' When Given Autonomous Control",
+      "matched_signal_id": "mittr-20260228-001",
+      "matched_title": "AI rewires how professional Go players think — human-AI cognitive augmentation",
+      "stage": "C_title",
+      "score": 0.8102
+    },
+    {
+      "signal_id": "gen-20260324-002",
+      "signal_title": "GPT-5.4 Unveiled with 1M Token Context Window and Autonomous Workflow Execution",
+      "matched_signal_id": "wf1-20260318-045",
+      "matched_title": "GPT-5.4 Launch: 1 Million Token Context with Native Computer Use",
+      "stage": "C_title",
+      "score": 0.861
+    },
+    {
+      "signal_id": "gen-20260324-003",
+      "signal_title": "Strait of Hormuz Crisis: Largest Energy Supply Disruption Since 1970s",
+      "matched_signal_id": "wf1-20260318-005",
+      "matched_title": "Strait of Hormuz Disruption: Oil Above $100, Asia Faces Stagflation Risk",
+      "stage": "C_title",
+      "score": 0.8405
+    },
+    {
+      "signal_id": "gen-20260324-004",
+      "signal_title": "CO2 from UK Data Centres Could Be 'Hundreds of Times' Higher Than Government Projections",
+      "matched_signal_id": "cb-20260312-003",
+      "matched_title": "Iran War Impact on Global Energy Transition and Climate Action",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "gen-20260324-005",
+      "signal_title": "Global Growth Forecast Lowered to 2.7% Amid Middle East Energy Crisis",
+      "matched_signal_id": "unctad-20260215-022",
+      "matched_title": "Global economy slows to 2.7% growth as trade tensions and fiscal strains intensify",
+      "stage": "C_title",
+      "score": 0.8386
+    },
+    {
+      "signal_id": "gen-20260324-006",
+      "signal_title": "Gimlet Labs Raises $80M to Solve AI Inference Bottleneck Across Multiple Chip Architectures",
+      "matched_signal_id": "wf1-20260212-007",
+      "matched_title": "Cerebras Raises $1B at $23B for AI Chip Alternative",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "gen-20260324-007",
+      "signal_title": "11 Consecutive Hottest Years on Record: Climate Scientists Assess Future Trajectories",
+      "matched_signal_id": "carbonbrief-uk-climate-2025",
+      "matched_title": "Met Office: UK's warmest and sunniest year on record in 2025",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "gen-20260324-008",
+      "signal_title": "AI-Fueled Delusions: Stanford Study Reveals Chatbots Endorsed Delusional Thinking in Users",
+      "matched_signal_id": "wf1-20260319-048",
+      "matched_title": "Psychology Today: AI Chatbot Psychological Risks — New Research Raises Uncomfortable Questions",
+      "stage": "B_topic",
+      "score": 0.3571
+    },
+    {
+      "signal_id": "gen-20260324-010",
+      "signal_title": "UN Warns of Dire Fertilizer Shortage as Hormuz Crisis Threatens Global Food Security",
+      "matched_signal_id": "un-1166863-ukraine-nuclear",
+      "matched_title": "UN watchdog warns Ukraine war remains world's biggest threat to nuclear safety",
+      "stage": "C_title",
+      "score": 0.8446
+    },
+    {
+      "signal_id": "gen-20260324-011",
+      "signal_title": "iPhone 17 Pro Runs 400B Parameter LLM On-Device: Mobile AI Paradigm Shift",
+      "matched_signal_id": "wf1-20260319-053",
+      "matched_title": "Nothing CEO Predicts Smartphone Apps Will Disappear — AI Agents to Replace App Paradigm",
+      "stage": "B_topic",
+      "score": 0.3636
+    },
+    {
+      "signal_id": "gen-20260324-013",
+      "signal_title": "Microplastics Falling From Sky Polluting Forests as Hidden Pollution Reservoirs",
+      "matched_signal_id": "techcrunch-21fe1c78fa6d",
+      "matched_title": "Microsoft won’t stop buying AI chips from Nvidia, AMD, even after launching its own, Nadella says",
+      "stage": "C_title",
+      "score": 0.8227
+    },
+    {
+      "signal_id": "gen-20260324-015",
+      "signal_title": "Economic Consequences of Immigration Sudden Stops: Korean Case Study Reveals Firm Contraction",
+      "matched_signal_id": "wf1-20260218-017",
+      "matched_title": "OECD: Global Growth Slowing to 2.9% in 2026",
+      "stage": "B_topic",
+      "score": 0.4286
+    },
+    {
+      "signal_id": "gen-20260324-016",
+      "signal_title": "Apple WWDC 2026 to Focus on Major AI Advancements and Siri Overhaul (June 8-12)",
+      "matched_signal_id": "wf1-20260318-018",
+      "matched_title": "Apple Launches MacBook Neo, iPhone 17e, and First Background Security Update",
+      "stage": "C_title",
+      "score": 0.8154
+    },
+    {
+      "signal_id": "gen-20260324-018",
+      "signal_title": "OpenAI Pursuing Fully Automated Researcher by 2028, Research Intern Prototype by September",
+      "matched_signal_id": "mitr-20260306-004",
+      "matched_title": "OpenAI secures classified Pentagon military contract",
+      "stage": "C_title",
+      "score": 0.8129
+    },
+    {
+      "signal_id": "gen-20260324-019",
+      "signal_title": "Cursor Admits Coding Model Built on Chinese AI Moonshot/Kimi: Geopolitical Tensions",
+      "matched_signal_id": "tc-20260306-007",
+      "matched_title": "Cursor launches agentic coding Automations system",
+      "stage": "C_title",
+      "score": 0.8121
+    },
+    {
+      "signal_id": "gen-20260324-020",
+      "signal_title": "Sam Altman's Helion Fusion in Talks to Power OpenAI Data Centers",
+      "matched_signal_id": "ieee-20260227-003",
+      "matched_title": "RF Over Fiber: New Era in Data Center Efficiency",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "gen-20260324-021",
+      "signal_title": "IEA Recommends Emergency Measures: Work From Home, Reduce Speeds to Ease Energy Crisis",
+      "matched_signal_id": "cepr-voxeu-4e3095eda4de",
+      "matched_title": "The remote work premium reconsidered",
+      "stage": "B_topic",
+      "score": 0.5
+    },
+    {
+      "signal_id": "gen-20260324-023",
+      "signal_title": "Intelligence Illusion: AI Innovator Argues Current Models Are 'Glorified Pocket Calculators'",
+      "matched_signal_id": "arxiv-2601.21212v1",
+      "matched_title": "Intelli-Planner: Towards Customized Urban Planning via Large Language Model Empowered Reinforcement Learning",
+      "stage": "C_title",
+      "score": 0.8358
+    },
+    {
+      "signal_id": "gen-20260324-025",
+      "signal_title": "FBI Warns: Iranian State Hackers Using Telegram for Malware-Based Data Theft Operations",
+      "matched_signal_id": "cyber-20260215-031",
+      "matched_title": "North Korea UNC2970 using Google Gemini AI for cyber reconnaissance and OSINT",
+      "stage": "B_topic",
+      "score": 0.3077
+    },
+    {
+      "signal_id": "gen-20260324-029",
+      "signal_title": "Developed Countries' Declining Birth Rates May Not Endanger Economies as Assumed",
+      "matched_signal_id": "nature-news-20d8dde9f755",
+      "matched_title": "Developmental convergence and divergence in human stem cell models of autism",
+      "stage": "C_title",
+      "score": 0.8599
+    },
+    {
+      "signal_id": "gen-20260324-031",
+      "signal_title": "Grab Acquires Foodpanda Taiwan for $600M: Southeast Asian Super-App Expansion",
+      "matched_signal_id": "tc-20260312-001",
+      "matched_title": "Netflix Acquires Ben Affleck's AI Startup for $600M",
+      "stage": "B_topic",
+      "score": 0.4
+    },
+    {
+      "signal_id": "gen-20260324-032",
+      "signal_title": "Child Mortality Progress Slows: 4.9 Million Children Die Before Age Five Annually",
+      "matched_signal_id": "who-20260306-001",
+      "matched_title": "Chile becomes first in Americas to achieve WHO leprosy elimination",
+      "stage": "C_title",
+      "score": 0.8257
+    },
+    {
+      "signal_id": "gen-20260324-035",
+      "signal_title": "Hidden 'Death Switch' in Brain May Drive Alzheimer's Disease — Researchers Find Way to Disable It in Mice",
+      "matched_signal_id": "wf1-20260219-017",
+      "matched_title": "Alzheimer's Breakthrough: Brain Receptors Clearing Amyloid Beta",
+      "stage": "B_topic",
+      "score": 0.4286
+    }
+  ]
+}

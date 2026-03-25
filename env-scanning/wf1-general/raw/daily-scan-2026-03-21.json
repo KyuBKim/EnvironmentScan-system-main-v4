@@ -1,0 +1,154 @@
+{
+  "scan_metadata": {
+    "scan_date": "2026-03-21",
+    "workflow": "wf1-general",
+    "scan_window": {
+      "start": "2026-03-20T09:39:52.820067+00:00",
+      "end": "2026-03-21T09:39:52.820067+00:00",
+      "lookback_hours": 24
+    },
+    "sources_scanned": [
+      "Google Patents", "US Federal Register", "WHO Press Releases",
+      "TechCrunch", "MIT Technology Review", "PubMed Central",
+      "Nature News", "Science Magazine", "Quanta Magazine Biology",
+      "IEEE Spectrum", "OECD Newsroom", "World Bank Blogs",
+      "UN News", "EUR-Lex Recent Acts"
+    ],
+    "total_sources": 14,
+    "execution_proof": {
+      "started_at": "2026-03-21T09:39:52+00:00",
+      "completed_at": "2026-03-21T09:45:00+00:00",
+      "method": "web_search_and_fetch"
+    }
+  },
+  "items": [
+    {
+      "id": "wf1-20260321-001",
+      "title": "Trump Administration Unveils National AI Policy Framework to Preempt State AI Laws",
+      "source": {"name": "CNBC / White House", "type": "policy", "url": "https://www.cnbc.com/2026/03/20/trump-ai-policy-framework.html", "published_date": "2026-03-20"},
+      "content": {"abstract": "The White House released a six-pronged legislative framework for national AI policy on March 20, 2026, proposing federal preemption of state AI laws, sector-specific regulation through existing agencies, regulatory sandboxes, new child-safety rules, and standardized AI data center permitting.", "keywords": ["AI regulation", "federal preemption", "regulatory sandbox", "data centers"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-21T09:40:00+00:00"
+    },
+    {
+      "id": "wf1-20260321-002",
+      "title": "Supreme Court Rules IEEPA Cannot Authorize Presidential Tariffs — Global 10% Blanket Tariff Under Section 122",
+      "source": {"name": "Tax Foundation / Al Jazeera", "type": "policy", "url": "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/", "published_date": "2026-03-20"},
+      "content": {"abstract": "Following the Supreme Court ruling on Feb 20 invalidating IEEPA tariffs, the US shifted to a blanket 10% tariff under Section 122 for 150 days. New Section 301 investigations launched March 11 against 16 major trade partners including EU, Mexico, China. US average tariff rate rose from 2.4% (end-2024) to 16.8%. US-China trade down 35% year-on-year.", "keywords": ["tariffs", "IEEPA", "Supreme Court", "trade war", "Section 301"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-21T09:40:00+00:00"
+    },
+    {
+      "id": "wf1-20260321-003",
+      "title": "DOE Announces $293.76M 'Genesis Mission' to Converge AI and Quantum Information Science",
+      "source": {"name": "Fermilab / DOE", "type": "policy", "url": "https://news.fnal.gov/2026/02/doe-national-quantum-research-centers-reach-milestone-breakthrough-towards-building-scalable-quantum-computers/", "published_date": "2026-03-18"},
+      "content": {"abstract": "US Department of Energy announced $293.76M Genesis Mission on March 18, 2026 to accelerate scientific discovery through AI-Quantum convergence. TII (UAE) simulated record 500,000-qubit quantum annealing problem. Xanadu-AMD achieved 25x speedup in hybrid quantum-classical CFD simulations. Industry entering fault-tolerant foundation era.", "keywords": ["quantum computing", "AI convergence", "Genesis Mission", "fault-tolerant"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-21T09:40:00+00:00"
+    },
+    {
+      "id": "wf1-20260321-004",
+      "title": "India-EU Free Trade Agreement Creates World's Largest Free Trade Zone — 2 Billion People, 25% Global GDP",
+      "source": {"name": "European Commission / WEF", "type": "policy", "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_184", "published_date": "2026-01-27"},
+      "content": {"abstract": "India-EU FTA concluded Jan 27, 2026 after 20 years of negotiation. India eliminates duties on 96.6% EU goods, EU liberalizes 99.5% tariff lines over 7 years. EU savings of €4B/year in customs duties. Indian auto tariffs fall from 110% to 10%. Driven by US-China geopolitical pressures. Expected to enter force in 2026.", "keywords": ["India-EU FTA", "free trade", "geopolitics", "tariff reduction"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-21T09:40:00+00:00"
+    },
+    {
+      "id": "wf1-20260321-005",
+      "title": "CO2-to-Methanol Single-Atom Catalyst Breakthrough — Most Efficient Conversion Yet",
+      "source": {"name": "ScienceDaily", "type": "academic", "url": "https://www.sciencedaily.com/", "published_date": "2026-03-20"},
+      "content": {"abstract": "Researchers created a cutting-edge catalyst on March 20, 2026, using single indium atoms to convert CO2 into methanol more efficiently than ever before. Each single atom actively drives the reaction, dramatically improving catalytic performance for carbon capture and utilization.", "keywords": ["CO2 conversion", "methanol", "catalyst", "carbon capture", "single-atom"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-21T09:40:00+00:00"
+    },
+    {
+      "id": "wf1-20260321-006",
+      "title": "Shingles Vaccine Shows 46% Reduction in Major Cardiac Events, 66% Reduction in Death",
+      "source": {"name": "ScienceDaily", "type": "academic", "url": "https://www.sciencedaily.com/", "published_date": "2026-03-20"},
+      "content": {"abstract": "Published March 20, 2026: A shingles vaccine may double as a heart protector, cutting major cardiac events by 46% and deaths by 66% within a year in high-risk individuals. This repurposing discovery could have massive public health implications.", "keywords": ["shingles vaccine", "cardiac protection", "drug repurposing", "public health"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-21T09:40:00+00:00"
+    },
+    {
+      "id": "wf1-20260321-007",
+      "title": "Glioblastoma Immunotherapy Breakthrough — Modified Virus Injection Makes Brain Tumors Vulnerable",
+      "source": {"name": "ScienceDaily", "type": "academic", "url": "https://www.sciencedaily.com/", "published_date": "2026-03-20"},
+      "content": {"abstract": "Scientists discovered March 20, 2026, that a single injection of a modified virus can invade glioblastoma tumors and recruit immune cells to attack them, making the otherwise treatment-resistant brain cancer vulnerable to immunotherapy for the first time.", "keywords": ["glioblastoma", "immunotherapy", "oncolytic virus", "brain cancer"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-21T09:40:00+00:00"
+    },
+    {
+      "id": "wf1-20260321-008",
+      "title": "CRISPR Epigenetic Editing — Gene Activation Without DNA Cutting Opens Safer Therapy Path",
+      "source": {"name": "ScienceDaily / UNSW", "type": "academic", "url": "https://www.sciencedaily.com/releases/2026/01/260104202813.htm", "published_date": "2026-03-05"},
+      "content": {"abstract": "Scientists developed CRISPR technology that turns genes on without cutting DNA by removing chemical tags (epigenetic marks). This gentler approach could safely treat Sickle Cell disease by reactivating fetal blood gene. FDA released new guidance March 2026 enabling multi-mutation clinical trials in single application.", "keywords": ["CRISPR", "epigenetic editing", "gene therapy", "FDA guidance"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-21T09:40:00+00:00"
+    },
+    {
+      "id": "wf1-20260321-009",
+      "title": "California SB 253 — Companies Over $1B Must Report Scope 1/2/3 GHG Emissions Starting 2026",
+      "source": {"name": "Environmental Law / Lewis & Clark", "type": "policy", "url": "https://environmentallaw.lclark.edu/blog/climate-policy-outlook-key-federal-and-state-environmental-regulations-to-watch-in-2026/", "published_date": "2026-03-01"},
+      "content": {"abstract": "California SB 253 mandates public reporting of Scope 1 and 2 GHG emissions for companies with >$1B annual revenue doing business in California, with first deadline August 10, 2026. Scope 3 phased in later. This comes as EPA reversed federal endangerment finding, creating a federal-state regulatory divide on climate policy.", "keywords": ["emissions reporting", "California SB 253", "ESG", "climate regulation"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-21T09:40:00+00:00"
+    },
+    {
+      "id": "wf1-20260321-010",
+      "title": "Global Patent Filings Hit 3.7M Record — AI and Green Tech Lead Growth at 4.9% YoY",
+      "source": {"name": "WIPO", "type": "academic", "url": "https://www.wipo.int/web-publications/world-intellectual-property-indicators-2025-highlights/en/patents-highlights.html", "published_date": "2026-03-15"},
+      "content": {"abstract": "Global patent applications reached 3.7M in 2024, fastest growth (4.9%) since 2018. Computer technology now 13.2% of filings. Green technology patents surging. China, India, South Korea, Japan are main growth drivers. 3,000+ new trade/industrial policy measures in 2025, triple the level of a decade ago.", "keywords": ["patents", "innovation", "AI patents", "green technology", "WIPO"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-21T09:40:00+00:00"
+    },
+    {
+      "id": "wf1-20260321-011",
+      "title": "Conflict-Driven Disease Outbreaks Top Global Health Threats for 2026 — WHO Appeals $1B",
+      "source": {"name": "Gavi / WHO", "type": "policy", "url": "https://www.gavi.org/vaccineswork/six-major-health-threats-could-shape-2026-heres-what-experts-are-watching", "published_date": "2026-03-17"},
+      "content": {"abstract": "Gavi warns conflict-associated disease outbreaks are most immediate 2026 health threat. WHO appeals nearly $1B for 36 emergencies including 14 Grade 3 emergencies. Six converging threats: violence, climate change, funding cuts, misinformation, emerging pathogens. Cholera, Mpox, Dengue, H5N2, Nipah, Oropouche outbreaks active.", "keywords": ["pandemic preparedness", "WHO", "disease outbreaks", "conflict zones", "H5N2"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-21T09:40:00+00:00"
+    },
+    {
+      "id": "wf1-20260321-012",
+      "title": "The 'Soul Gap' — AI Ethics and the Emergence of System-Assisted Morality",
+      "source": {"name": "Ethical Psychology / Darden", "type": "blog", "url": "https://www.ethicalpsychology.com/2026/03/exploring-cognitive-sense-of-self-in-ai.html", "published_date": "2026-03-15"},
+      "content": {"abstract": "New concept 'Soul Gap' enters cultural consciousness — the difference between AI intelligence and human spiritual depth. Vatican held seminar on AI ethics March 3, 2026. Shift from 'What do I think is right?' to 'What does the system suggest is optimal?' marks morality becoming system-assisted. AI spiritual advisors trained on sacred texts emerging.", "keywords": ["Soul Gap", "AI ethics", "system-assisted morality", "Vatican", "spiritual AI"], "language": "en"},
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-03-21T09:40:00+00:00"
+    },
+    {
+      "id": "wf1-20260321-013",
+      "title": "ILO: Global Unemployment Stable at 4.9% But Job Quality Stalls — Structural Labor Supply Crisis Emerging",
+      "source": {"name": "ILO / IMD", "type": "policy", "url": "https://www.ilo.org/publications/flagship-reports/employment-and-social-trends-2026", "published_date": "2026-03-10"},
+      "content": {"abstract": "ILO projects global unemployment at 4.9% in 2026, stable but masking structural problems. Job quality progress stalled, inequalities entrenched. 65-69 age group population doubled (97.3% increase) in 20 years. Primary challenge shifting from demand weakness to structural labor supply constraints. Workforce AI adoption readiness is critical.", "keywords": ["unemployment", "labor supply", "aging workforce", "structural change", "AI readiness"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-21T09:40:00+00:00"
+    },
+    {
+      "id": "wf1-20260321-014",
+      "title": "Nuclear Fusion Milestones Advance but Commercial Power Still Post-2030 — Hybrid Renewables Accelerate",
+      "source": {"name": "SolarQuarter / WEF", "type": "blog", "url": "https://solarquarter.com/2026/03/19/how-fusion-green-hydrogen-and-solar-innovations-are-shaping-energy-markets/", "published_date": "2026-03-19"},
+      "content": {"abstract": "China's 'artificial sun' fusion reactor overcame key scalability obstacle. However, no experiment yet operates as power plant. Thin-film solar (perovskite, organic PV) innovation expanding beyond conventional installations. Green hydrogen electrolyzer market expected to reach $10.1B by 2034. Fusion-hydrogen synergy concept gaining traction.", "keywords": ["nuclear fusion", "green hydrogen", "perovskite solar", "electrolyzer"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-21T09:40:00+00:00"
+    },
+    {
+      "id": "wf1-20260321-015",
+      "title": "USPTO Mandates Foreign Patent Applicants Use US Practitioners — IP Protectionism Signal",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.federalregister.gov/", "published_date": "2026-03-20"},
+      "content": {"abstract": "Published March 20, 2026: USPTO final rule mandating foreign patent applicants and owners use registered US patent practitioners. Aimed at increasing efficiency and enforcement compliance. Signal of growing IP protectionism amid US-China tech competition.", "keywords": ["USPTO", "patent practitioners", "IP policy", "foreign applicants"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-21T09:40:00+00:00"
+    },
+    {
+      "id": "wf1-20260321-016",
+      "title": "US-China Bipolar Framework Emerges — 'De-Risking' Replaces Zero-Sum Competition",
+      "source": {"name": "TRENDS Research / CFR", "type": "policy", "url": "https://trendsresearch.org/insight/political-strategic-and-economic-trajectories-in-2026/", "published_date": "2026-03-15"},
+      "content": {"abstract": "Strategic analysis identifies shift from zero-sum US-China competition to bipolar 'de-risking' framework. Indo-Pacific emerges as central arena for technological rivalry. US pursuing transactional foreign policy accelerating geopolitical fragmentation. Western alliance fractures exposed. World Bank Supply Chain Stress Index at pandemic-era levels.", "keywords": ["US-China", "de-risking", "Indo-Pacific", "geopolitical fragmentation", "supply chain stress"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-21T09:40:00+00:00"
+    }
+  ]
+}

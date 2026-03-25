@@ -1,0 +1,1292 @@
+{
+  "scan_date": "2026-03-25",
+  "workflow": "wf4-multiglobal-news",
+  "total_classified": 35,
+  "category_distribution": {
+    "P_Political": 10,
+    "E_Economic": 9,
+    "E_Environmental": 6,
+    "T_Technological": 4,
+    "S_Social": 4,
+    "s_spiritual": 2
+  },
+  "signals": [
+    {
+      "id": "news-20260325-cnn-001",
+      "title": "Trump Gives Iran Tonight Deadline to Reopen Strait of Hormuz or Face Obliteration",
+      "source": {
+        "name": "CNN",
+        "type": "news",
+        "url": "https://www.cnn.com/world/live-news/iran-war-us-israel-trump-03-24-26",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Day 25 of US-Israel war on Iran. Trump threatens to destroy Iran power plants if Strait of Hormuz not reopened. Hegseth disappointed by ceasefire negotiations. Strait controls 20% of global oil supply.",
+        "keywords": [
+          "Iran",
+          "Hormuz",
+          "Trump",
+          "oil",
+          "war"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "psst_score": 92.0,
+      "psst_grade": "A",
+      "impact_score": 10.0,
+      "priority_score": 9.2,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 1,
+      "fssf_type": "Wild Card",
+      "three_horizons": "H1",
+      "tipping_point": "RED",
+      "keywords": [
+        "Iran",
+        "Hormuz",
+        "Trump",
+        "oil",
+        "war"
+      ],
+      "category": "P_Political"
+    },
+    {
+      "id": "news-20260325-cnn-002",
+      "title": "Russia Fires Nearly 1,000 Drones at Ukraine in War's Largest Attack",
+      "source": {
+        "name": "CNN",
+        "type": "news",
+        "url": "https://www.cnn.com/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Unprecedented scale of drone warfare — nearly 1000 drones in single attack. Escalation milestone demonstrating industrial-scale autonomous weapon production.",
+        "keywords": [
+          "Russia",
+          "Ukraine",
+          "drones",
+          "warfare"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "psst_score": 90.0,
+      "psst_grade": "A",
+      "impact_score": 8.0,
+      "priority_score": 9.0,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 2,
+      "fssf_type": "Discontinuity",
+      "three_horizons": "H1",
+      "tipping_point": "RED",
+      "keywords": [
+        "Russia",
+        "Ukraine",
+        "drones",
+        "warfare"
+      ],
+      "category": "P_Political"
+    },
+    {
+      "id": "news-20260325-pbs-001",
+      "title": "US Breaks All-Time March Heat Record",
+      "source": {
+        "name": "PBS News",
+        "type": "news",
+        "url": "https://www.pbs.org/newshour/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Record-breaking March temperatures across US. 4th consecutive year potentially exceeding 1.4°C above pre-industrial. UK Met Office warns 2026 may breach 1.5°C Paris threshold.",
+        "keywords": [
+          "climate",
+          "heat record",
+          "1.5C",
+          "Paris Agreement"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Environmental",
+      "psst_score": 87.5,
+      "psst_grade": "B",
+      "impact_score": 8.0,
+      "priority_score": 8.8,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 3,
+      "fssf_type": "Megatrend",
+      "three_horizons": "H1-H2",
+      "tipping_point": "ORANGE",
+      "keywords": [
+        "climate",
+        "heat record",
+        "1.5C",
+        "Paris Agreement"
+      ],
+      "category": "E_Environmental"
+    },
+    {
+      "id": "news-20260325-ecco-001",
+      "title": "China Publishes 15th Five-Year Plan with 2030 Climate Targets",
+      "source": {
+        "name": "ECCO Climate",
+        "type": "policy",
+        "url": "https://eccoclimate.org/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Energy and climate targets defining emissions trajectory toward pre-2030 peak. China strategic positioning in clean energy markets projected at $640B/year by 2030.",
+        "keywords": [
+          "China",
+          "Five-Year Plan",
+          "climate",
+          "clean energy"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "psst_score": 86.0,
+      "psst_grade": "B",
+      "impact_score": 8.0,
+      "priority_score": 8.6,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 4,
+      "fssf_type": "Driver",
+      "three_horizons": "H1-H2",
+      "tipping_point": "YELLOW",
+      "keywords": [
+        "China",
+        "Five-Year Plan",
+        "climate",
+        "clean energy"
+      ],
+      "category": "P_Political"
+    },
+    {
+      "id": "news-20260325-unctad-001",
+      "title": "Global Economic Growth Forecast at 2.7% — Below Pre-Pandemic Average",
+      "source": {
+        "name": "UNCTAD",
+        "type": "policy",
+        "url": "https://unctad.org/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "UN forecasts 2.7% growth in 2026 vs 3.2% pre-pandemic average. Trade shock from US tariffs weakening trans-Atlantic and trans-Pacific commerce.",
+        "keywords": [
+          "global growth",
+          "tariffs",
+          "trade",
+          "recession risk"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "psst_score": 85.5,
+      "psst_grade": "B",
+      "impact_score": 8.0,
+      "priority_score": 8.6,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 5,
+      "fssf_type": "Megatrend",
+      "three_horizons": "H1-H2",
+      "tipping_point": "YELLOW",
+      "keywords": [
+        "global growth",
+        "tariffs",
+        "trade",
+        "recession risk"
+      ],
+      "category": "E_Economic"
+    },
+    {
+      "id": "news-20260325-ecco-002",
+      "title": "Clean Energy Technology Markets Approaching $640 Billion Annually",
+      "source": {
+        "name": "ECCO/WEF",
+        "type": "policy",
+        "url": "https://eccoclimate.org/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Accelerating trade in green goods and services. EU aligns climate vision with competitiveness strategy. New trade corridors and industrial policy competition.",
+        "keywords": [
+          "clean energy",
+          "green tech",
+          "trade",
+          "EU"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_score": 84.0,
+      "psst_grade": "B",
+      "impact_score": 5.5,
+      "priority_score": 8.4,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 6,
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "clean energy",
+        "green tech",
+        "trade",
+        "EU"
+      ],
+      "category": "T_Technological"
+    },
+    {
+      "id": "news-20260325-unctad-002",
+      "title": "ASEAN Digital Economy Framework Agreement to Take Effect in 2026",
+      "source": {
+        "name": "UNCTAD",
+        "type": "policy",
+        "url": "https://unctad.org/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Ten-nation digital economy integration for 680 million people. Counter-weight to US-China tech decoupling.",
+        "keywords": [
+          "ASEAN",
+          "digital economy",
+          "integration"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "psst_score": 83.0,
+      "psst_grade": "B",
+      "impact_score": 5.5,
+      "priority_score": 8.3,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 7,
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "ASEAN",
+        "digital economy",
+        "integration"
+      ],
+      "category": "E_Economic"
+    },
+    {
+      "id": "news-20260325-alj-001",
+      "title": "Brazil's President Criticizes US for Thinking They Own the World",
+      "source": {
+        "name": "Al Jazeera",
+        "type": "news",
+        "url": "https://www.aljazeera.com/",
+        "published_date": "2026-03-20"
+      },
+      "content": {
+        "abstract": "Lula's sharp rhetoric signals deepening Global South-US tensions. BRICS+ diplomatic divergence from Western-led order accelerating.",
+        "keywords": [
+          "Brazil",
+          "Lula",
+          "US",
+          "BRICS",
+          "Global South"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "psst_score": 82.0,
+      "psst_grade": "B",
+      "impact_score": 5.5,
+      "priority_score": 8.2,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 8,
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1-H2",
+      "tipping_point": "YELLOW",
+      "keywords": [
+        "Brazil",
+        "Lula",
+        "US",
+        "BRICS",
+        "Global South"
+      ],
+      "category": "P_Political"
+    },
+    {
+      "id": "news-20260325-undesa-001",
+      "title": "Africa Economic Output Projected at 4.0% Growth Despite Debt and Climate Shocks",
+      "source": {
+        "name": "UN DESA",
+        "type": "policy",
+        "url": "https://desapublications.un.org/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Strongest regional growth but high debt and climate risks. India 6.6%. Global South growth divergence from stagnant advanced economies.",
+        "keywords": [
+          "Africa",
+          "growth",
+          "India",
+          "Global South"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "psst_score": 81.0,
+      "psst_grade": "B",
+      "impact_score": 5.5,
+      "priority_score": 8.1,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 9,
+      "fssf_type": "Trend",
+      "three_horizons": "H1-H2",
+      "tipping_point": "YELLOW",
+      "keywords": [
+        "Africa",
+        "growth",
+        "India",
+        "Global South"
+      ],
+      "category": "E_Economic"
+    },
+    {
+      "id": "news-20260325-cnn-003",
+      "title": "Colombian Military Plane Crashes on Takeoff — Scores Killed",
+      "source": {
+        "name": "CNN",
+        "type": "news",
+        "url": "https://www.cnn.com/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Military transport crash signals equipment maintenance concerns in Latin American armed forces.",
+        "keywords": [
+          "Colombia",
+          "military",
+          "crash"
+        ],
+        "language": "en"
+      },
+      "final_category": "S_Social",
+      "psst_score": 78.0,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 7.8,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 10,
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "Colombia",
+        "military",
+        "crash"
+      ],
+      "category": "S_Social"
+    },
+    {
+      "id": "news-20260325-unctad-003",
+      "title": "US Technological Protectionism Against China Creating Trade Bottlenecks",
+      "source": {
+        "name": "UNCTAD",
+        "type": "policy",
+        "url": "https://unctad.org/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Trade across Atlantic and Pacific weakening from US tariffs and tech protectionism. Investment bottlenecks accumulating.",
+        "keywords": [
+          "protectionism",
+          "tariffs",
+          "China",
+          "trade"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "psst_score": 80.5,
+      "psst_grade": "B",
+      "impact_score": 5.5,
+      "priority_score": 8.1,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 11,
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "tipping_point": "YELLOW",
+      "keywords": [
+        "protectionism",
+        "tariffs",
+        "China",
+        "trade"
+      ],
+      "category": "E_Economic"
+    },
+    {
+      "id": "news-20260325-wef-001",
+      "title": "Global Cooperation Barometer Shows Declining Multilateral Cooperation",
+      "source": {
+        "name": "WEF",
+        "type": "policy",
+        "url": "https://reports.weforum.org/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Third edition of barometer shows continued decline in international cooperation across trade, security, climate dimensions.",
+        "keywords": [
+          "multilateral",
+          "cooperation",
+          "decline"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "psst_score": 80.0,
+      "psst_grade": "B",
+      "impact_score": 5.5,
+      "priority_score": 8.0,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 12,
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1-H2",
+      "tipping_point": "YELLOW",
+      "keywords": [
+        "multilateral",
+        "cooperation",
+        "decline"
+      ],
+      "category": "P_Political"
+    },
+    {
+      "id": "news-20260325-undesa-002",
+      "title": "India's 6.6% Growth Leads South Asia Economic Expansion",
+      "source": {
+        "name": "UN DESA",
+        "type": "policy",
+        "url": "https://desapublications.un.org/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "South Asia growth at 5.6% in 2026 led by India. Structural divergence from advanced economies.",
+        "keywords": [
+          "India",
+          "South Asia",
+          "growth"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "psst_score": 79.5,
+      "psst_grade": "B",
+      "impact_score": 5.5,
+      "priority_score": 8.0,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 13,
+      "fssf_type": "Megatrend",
+      "three_horizons": "H1-H2",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "India",
+        "South Asia",
+        "growth"
+      ],
+      "category": "E_Economic"
+    },
+    {
+      "id": "news-20260325-ecco-003",
+      "title": "EU Joint Communication on Global Climate and Energy Vision",
+      "source": {
+        "name": "ECCO Climate",
+        "type": "policy",
+        "url": "https://eccoclimate.org/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "EU global climate vision aligned with Paris framework while strengthening competitiveness through technology markets.",
+        "keywords": [
+          "EU",
+          "climate",
+          "energy",
+          "competitiveness"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Environmental",
+      "psst_score": 79.0,
+      "psst_grade": "B",
+      "impact_score": 5.5,
+      "priority_score": 7.9,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 14,
+      "fssf_type": "Driver",
+      "three_horizons": "H1-H2",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "EU",
+        "climate",
+        "energy",
+        "competitiveness"
+      ],
+      "category": "E_Environmental"
+    },
+    {
+      "id": "news-20260325-met-001",
+      "title": "UK Met Office: 2026 Likely 4th Consecutive Year Above 1.4°C",
+      "source": {
+        "name": "Met Office",
+        "type": "science",
+        "url": "https://www.metoffice.gov.uk/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "2026 forecast as 4th consecutive year exceeding 1.4°C above pre-industrial, potentially reaching 1.5°C threshold.",
+        "keywords": [
+          "Met Office",
+          "1.5C",
+          "climate",
+          "temperature"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Environmental",
+      "psst_score": 78.5,
+      "psst_grade": "B",
+      "impact_score": 5.5,
+      "priority_score": 7.9,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 15,
+      "fssf_type": "Megatrend",
+      "three_horizons": "H1",
+      "tipping_point": "ORANGE",
+      "keywords": [
+        "Met Office",
+        "1.5C",
+        "climate",
+        "temperature"
+      ],
+      "category": "E_Environmental"
+    },
+    {
+      "id": "news-20260325-stimson-001",
+      "title": "Top Ten Global Risks for 2026: Nuclear Escalation, AI Governance, Climate Tipping",
+      "source": {
+        "name": "Stimson Center",
+        "type": "policy",
+        "url": "https://www.stimson.org/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Nuclear escalation risk elevated, AI governance gaps widening, climate tipping points closer than assumed.",
+        "keywords": [
+          "global risks",
+          "nuclear",
+          "AI governance",
+          "climate"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "psst_score": 78.0,
+      "psst_grade": "B",
+      "impact_score": 5.5,
+      "priority_score": 7.8,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 16,
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1-H2",
+      "tipping_point": "ORANGE",
+      "keywords": [
+        "global risks",
+        "nuclear",
+        "AI governance",
+        "climate"
+      ],
+      "category": "P_Political"
+    },
+    {
+      "id": "news-20260325-cfr-001",
+      "title": "Global Summits 2026: Bracing for New Global Disorder",
+      "source": {
+        "name": "CFR",
+        "type": "policy",
+        "url": "https://www.cfr.org/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Council on Foreign Relations maps key global summits. Multilateral order under unprecedented strain.",
+        "keywords": [
+          "summits",
+          "global order",
+          "multilateral"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "psst_score": 77.0,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 7.7,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 17,
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "summits",
+        "global order",
+        "multilateral"
+      ],
+      "category": "P_Political"
+    },
+    {
+      "id": "news-20260325-cidob-001",
+      "title": "Ten Issues Shaping International Agenda in 2026",
+      "source": {
+        "name": "CIDOB",
+        "type": "policy",
+        "url": "https://www.cidob.org/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Geopolitical fragmentation, AI governance, climate finance, migration, energy transition among top issues.",
+        "keywords": [
+          "international agenda",
+          "geopolitics",
+          "2026"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "psst_score": 76.5,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 7.7,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 18,
+      "fssf_type": "Trend",
+      "three_horizons": "H1-H2",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "international agenda",
+        "geopolitics",
+        "2026"
+      ],
+      "category": "P_Political"
+    },
+    {
+      "id": "news-20260325-psa-001",
+      "title": "10 Major Climate Events to Shape 2026 — Power Shift Africa",
+      "source": {
+        "name": "Power Shift Africa",
+        "type": "policy",
+        "url": "https://www.powershiftafrica.org/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "COP31, loss and damage fund, African renewable energy pipeline among key climate events for 2026.",
+        "keywords": [
+          "climate",
+          "Africa",
+          "COP31",
+          "renewable energy"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Environmental",
+      "psst_score": 76.0,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 7.6,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 19,
+      "fssf_type": "Trend",
+      "three_horizons": "H1-H2",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "climate",
+        "Africa",
+        "COP31",
+        "renewable energy"
+      ],
+      "category": "E_Environmental"
+    },
+    {
+      "id": "news-20260325-kpro-001",
+      "title": "How South Korea Enters 2026 Across Politics, Security and Trade",
+      "source": {
+        "name": "Korea Pro",
+        "type": "news",
+        "url": "https://koreapro.org/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Analysis of Korea's political instability, security challenges, and trade outlook entering 2026.",
+        "keywords": [
+          "Korea",
+          "politics",
+          "security",
+          "trade"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "psst_score": 75.5,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 7.6,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 20,
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "Korea",
+        "politics",
+        "security",
+        "trade"
+      ],
+      "category": "P_Political"
+    },
+    {
+      "id": "news-20260325-ktd-001",
+      "title": "Korea's Stablecoin Dilemma: Banks vs Fintech in Digital Asset Act",
+      "source": {
+        "name": "KoreaTechDesk",
+        "type": "news",
+        "url": "https://koreatechdesk.com/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Bank vs fintech tensions in Korea's new Digital Asset & Cryptocurrency Act. Regulatory framework crystallizing.",
+        "keywords": [
+          "stablecoin",
+          "Korea",
+          "fintech",
+          "regulation"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "psst_score": 75.0,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 7.5,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 21,
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "stablecoin",
+        "Korea",
+        "fintech",
+        "regulation"
+      ],
+      "category": "E_Economic"
+    },
+    {
+      "id": "news-20260325-kh-001",
+      "title": "Korea Aims for 2% Growth in 2026 Betting on Chips and Investment Rebound",
+      "source": {
+        "name": "Korea Herald",
+        "type": "news",
+        "url": "https://www.koreaherald.com/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Government targets 2% GDP growth driven by semiconductor exports and domestic demand recovery.",
+        "keywords": [
+          "Korea",
+          "GDP",
+          "growth",
+          "semiconductor"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "psst_score": 74.5,
+      "psst_grade": "C",
+      "impact_score": 3.0,
+      "priority_score": 7.5,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 22,
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "Korea",
+        "GDP",
+        "growth",
+        "semiconductor"
+      ],
+      "category": "E_Economic"
+    },
+    {
+      "id": "news-20260325-kt-001",
+      "title": "Korean Business Leaders Vow Efforts to Tackle Market Uncertainties",
+      "source": {
+        "name": "Korea Times",
+        "type": "news",
+        "url": "https://www.koreatimes.co.kr/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Business leaders pledge investment despite geopolitical and market uncertainties in 2026.",
+        "keywords": [
+          "Korea",
+          "business",
+          "uncertainty"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "psst_score": 73.0,
+      "psst_grade": "C",
+      "impact_score": 3.0,
+      "priority_score": 7.3,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 23,
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "Korea",
+        "business",
+        "uncertainty"
+      ],
+      "category": "E_Economic"
+    },
+    {
+      "id": "news-20260325-euro-001",
+      "title": "Euronews Latest News Bulletin — March 2026",
+      "source": {
+        "name": "Euronews",
+        "type": "news",
+        "url": "https://www.euronews.com/",
+        "published_date": "2026-03-20"
+      },
+      "content": {
+        "abstract": "European news coverage of ongoing Middle East conflict, climate records, and EU policy responses.",
+        "keywords": [
+          "Europe",
+          "news",
+          "Middle East"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "psst_score": 72.0,
+      "psst_grade": "C",
+      "impact_score": 3.0,
+      "priority_score": 7.2,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 24,
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "Europe",
+        "news",
+        "Middle East"
+      ],
+      "category": "P_Political"
+    },
+    {
+      "id": "news-20260325-trends-001",
+      "title": "Political, Strategic, and Economic Trajectories in 2026",
+      "source": {
+        "name": "TRENDS Research",
+        "type": "policy",
+        "url": "https://trendsresearch.org/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Defense spending toward AI, unmanned systems, and electronic defenses. Major powers prioritizing technological modernization.",
+        "keywords": [
+          "defense",
+          "AI",
+          "strategy",
+          "2026"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_score": 72.0,
+      "psst_grade": "C",
+      "impact_score": 3.0,
+      "priority_score": 7.2,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 25,
+      "fssf_type": "Driver",
+      "three_horizons": "H1-H2",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "defense",
+        "AI",
+        "strategy",
+        "2026"
+      ],
+      "category": "T_Technological"
+    },
+    {
+      "id": "news-20260325-npr-001",
+      "title": "NPR News Roundup — March 20, 2026",
+      "source": {
+        "name": "NPR",
+        "type": "news",
+        "url": "https://www.npr.org/",
+        "published_date": "2026-03-20"
+      },
+      "content": {
+        "abstract": "Weekly news summary covering US domestic policy, Iran situation, and economic indicators.",
+        "keywords": [
+          "US",
+          "news roundup",
+          "policy"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "psst_score": 71.0,
+      "psst_grade": "C",
+      "impact_score": 0.5,
+      "priority_score": 7.1,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 26,
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "US",
+        "news roundup",
+        "policy"
+      ],
+      "category": "P_Political"
+    },
+    {
+      "id": "news-20260325-lex-001",
+      "title": "2026 Key Issues and Outlook for Korea — Legal Perspective",
+      "source": {
+        "name": "Lexology",
+        "type": "policy",
+        "url": "https://www.lexology.com/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Legal analysis of key regulatory and business environment issues facing Korea in 2026.",
+        "keywords": [
+          "Korea",
+          "legal",
+          "regulatory",
+          "outlook"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "psst_score": 70.5,
+      "psst_grade": "C",
+      "impact_score": 3.0,
+      "priority_score": 7.1,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 27,
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "Korea",
+        "legal",
+        "regulatory",
+        "outlook"
+      ],
+      "category": "E_Economic"
+    },
+    {
+      "id": "news-20260325-ecco-004",
+      "title": "What Challenges Face Europe and the World in 2026",
+      "source": {
+        "name": "ECCO Climate",
+        "type": "policy",
+        "url": "https://eccoclimate.org/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "European perspective on global challenges: climate action, energy transition, competitive positioning.",
+        "keywords": [
+          "Europe",
+          "challenges",
+          "climate",
+          "energy"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Environmental",
+      "psst_score": 70.0,
+      "psst_grade": "C",
+      "impact_score": 3.0,
+      "priority_score": 7.0,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 28,
+      "fssf_type": "Trend",
+      "three_horizons": "H1-H2",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "Europe",
+        "challenges",
+        "climate",
+        "energy"
+      ],
+      "category": "E_Environmental"
+    },
+    {
+      "id": "news-20260325-undesa-003",
+      "title": "World Economic Situation and Prospects 2026",
+      "source": {
+        "name": "UN DESA",
+        "type": "policy",
+        "url": "https://desapublications.un.org/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Comprehensive UN assessment of global economic prospects, trade patterns, and development risks.",
+        "keywords": [
+          "world economy",
+          "UN",
+          "2026",
+          "prospects"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "psst_score": 69.5,
+      "psst_grade": "C",
+      "impact_score": 3.0,
+      "priority_score": 6.9,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 29,
+      "fssf_type": "Megatrend",
+      "three_horizons": "H1-H2",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "world economy",
+        "UN",
+        "2026",
+        "prospects"
+      ],
+      "category": "E_Economic"
+    },
+    {
+      "id": "news-20260325-fb-001",
+      "title": "Korea to Get Extremely Aggressive About AI Development in 2026",
+      "source": {
+        "name": "Korea Clickers",
+        "type": "social",
+        "url": "https://www.facebook.com/KoreaClickers/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Korea accelerating AI investment and development strategy aggressively in 2026.",
+        "keywords": [
+          "Korea",
+          "AI",
+          "aggressive",
+          "strategy"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_score": 69.0,
+      "psst_grade": "C",
+      "impact_score": 3.0,
+      "priority_score": 6.9,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 30,
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "Korea",
+        "AI",
+        "aggressive",
+        "strategy"
+      ],
+      "category": "T_Technological"
+    },
+    {
+      "id": "news-20260325-abc-001",
+      "title": "International News Coverage — ABC News",
+      "source": {
+        "name": "ABC News",
+        "type": "news",
+        "url": "https://abcnews.com/International",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "International coverage of multiple ongoing crises: Iran conflict, Ukraine war, climate events.",
+        "keywords": [
+          "international",
+          "crisis",
+          "Iran",
+          "Ukraine"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "psst_score": 68.5,
+      "psst_grade": "C",
+      "impact_score": 0.5,
+      "priority_score": 6.9,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 31,
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "international",
+        "crisis",
+        "Iran",
+        "Ukraine"
+      ],
+      "category": "P_Political"
+    },
+    {
+      "id": "news-20260325-ecco-005",
+      "title": "EU Global Climate Vision Aligned with Paris Agreement",
+      "source": {
+        "name": "ECCO Climate",
+        "type": "policy",
+        "url": "https://eccoclimate.org/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "EU Joint Communication on climate and energy vision seeks to strengthen competitiveness through green technology.",
+        "keywords": [
+          "EU",
+          "climate vision",
+          "Paris Agreement"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Environmental",
+      "psst_score": 68.0,
+      "psst_grade": "C",
+      "impact_score": 3.0,
+      "priority_score": 6.8,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 32,
+      "fssf_type": "Driver",
+      "three_horizons": "H2",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "EU",
+        "climate vision",
+        "Paris Agreement"
+      ],
+      "category": "E_Environmental"
+    },
+    {
+      "id": "news-20260325-alj-002",
+      "title": "Al Jazeera Breaking News Coverage — Iran War and Global Impact",
+      "source": {
+        "name": "Al Jazeera",
+        "type": "news",
+        "url": "https://www.aljazeera.com/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Continuous coverage of US-Iran war, regional impacts, and diplomatic efforts.",
+        "keywords": [
+          "Iran",
+          "war",
+          "Al Jazeera"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "psst_score": 67.5,
+      "psst_grade": "C",
+      "impact_score": 0.5,
+      "priority_score": 6.8,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 33,
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "Iran",
+        "war",
+        "Al Jazeera"
+      ],
+      "category": "P_Political"
+    },
+    {
+      "id": "news-20260325-trends-002",
+      "title": "Defense Spending Prioritizing AI and Unmanned Systems Globally",
+      "source": {
+        "name": "TRENDS Research",
+        "type": "policy",
+        "url": "https://trendsresearch.org/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Leading powers increasing defense technology modernization with AI, drones, and electronic warfare.",
+        "keywords": [
+          "defense",
+          "AI",
+          "unmanned",
+          "military"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_score": 67.0,
+      "psst_grade": "C",
+      "impact_score": 3.0,
+      "priority_score": 6.7,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 34,
+      "fssf_type": "Driver",
+      "three_horizons": "H1-H2",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "defense",
+        "AI",
+        "unmanned",
+        "military"
+      ],
+      "category": "T_Technological"
+    },
+    {
+      "id": "news-20260325-undesa-004",
+      "title": "10 Trends Shaping Global Trade in 2026",
+      "source": {
+        "name": "UNCTAD",
+        "type": "policy",
+        "url": "https://unctad.org/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Trade fragmentation, nearshoring, green trade corridors, digital commerce, and services trade among key trends.",
+        "keywords": [
+          "trade",
+          "trends",
+          "2026",
+          "digital"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "psst_score": 66.5,
+      "psst_grade": "C",
+      "impact_score": 3.0,
+      "priority_score": 6.7,
+      "collected_at": "2026-03-25T04:15:00+00:00",
+      "rank": 35,
+      "fssf_type": "Megatrend",
+      "three_horizons": "H1-H2",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "trade",
+        "trends",
+        "2026",
+        "digital"
+      ],
+      "category": "E_Economic"
+    }
+  ]
+}

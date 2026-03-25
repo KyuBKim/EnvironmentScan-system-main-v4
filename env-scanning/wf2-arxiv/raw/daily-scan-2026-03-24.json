@@ -1,0 +1,905 @@
+{
+  "items": [
+    {
+      "id": "arxiv-20260324-001",
+      "title": "Towards Next-Generation LLM Training: From the Data-Centric Perspective",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.14712",
+        "published_date": "2026-03-17",
+        "arxiv_id": "2603.14712"
+      },
+      "content": {
+        "abstract": "This comprehensive survey examines fundamental bottlenecks in the preparation and effective utilization of massive datasets for LLM training. Identifies lack of agent-based data preparation systems as a key limitation and proposes frameworks for automatically constructing robust and reusable data workflows for next-generation LLM training.",
+        "keywords": [
+          "LLM training",
+          "data-centric AI",
+          "agent-based data preparation",
+          "training methodology"
+        ],
+        "language": "en",
+        "categories": [
+          "cs.LG",
+          "cs.CL"
+        ]
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-23T20:50:00+00:00"
+    },
+    {
+      "id": "arxiv-20260324-002",
+      "title": "LLM-Agent Interactions on Markets with Information Asymmetries",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.08853",
+        "published_date": "2026-03-12",
+        "arxiv_id": "2603.08853"
+      },
+      "content": {
+        "abstract": "Examines how LLM-powered autonomous agents interact in market environments with information asymmetries. Studies emergent market dynamics when AI agents with different information sets trade, revealing patterns of information leakage, market manipulation risks, and implications for financial market regulation in the age of autonomous AI traders.",
+        "keywords": [
+          "LLM agents",
+          "market dynamics",
+          "information asymmetry",
+          "AI trading",
+          "financial regulation"
+        ],
+        "language": "en",
+        "categories": [
+          "econ.GN",
+          "cs.AI"
+        ]
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-23T20:50:00+00:00"
+    },
+    {
+      "id": "arxiv-20260324-003",
+      "title": "The AI Transformation Gap Index (AITG): Empirical Framework for Measuring AI Disruption Risk at Industry and Firm Level",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.13278",
+        "published_date": "2026-03-15",
+        "arxiv_id": "2603.13278"
+      },
+      "content": {
+        "abstract": "Introduces the AI Transformation Gap Index (AITG), an empirical framework measuring AI transformation opportunity, disruption risk, and value creation at the industry and firm level. The framework quantifies how different sectors face varying degrees of AI-driven disruption and identifies firms most vulnerable to technological displacement.",
+        "keywords": [
+          "AI disruption",
+          "transformation index",
+          "industry risk",
+          "value creation",
+          "economic measurement"
+        ],
+        "language": "en",
+        "categories": [
+          "econ.GN",
+          "cs.AI"
+        ]
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-23T20:50:00+00:00"
+    },
+    {
+      "id": "arxiv-20260324-004",
+      "title": "When an AI Judges Your Work: The Hidden Costs of Algorithmic Assessment",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.02076",
+        "published_date": "2026-03-04",
+        "arxiv_id": "2603.02076"
+      },
+      "content": {
+        "abstract": "Investigates psychological and economic impacts of algorithmic assessment in workplace settings. Reveals hidden costs including reduced worker motivation, creativity suppression, and gaming behaviors when employees know their output is evaluated by AI systems. Proposes human-AI hybrid assessment frameworks that preserve both efficiency and worker well-being.",
+        "keywords": [
+          "algorithmic assessment",
+          "workplace AI",
+          "worker motivation",
+          "AI evaluation",
+          "human-AI collaboration"
+        ],
+        "language": "en",
+        "categories": [
+          "econ.GN",
+          "cs.HC"
+        ]
+      },
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-03-23T20:50:00+00:00"
+    },
+    {
+      "id": "arxiv-20260324-005",
+      "title": "The Household Impact of Generative AI: Evidence from Internet Browsing Behavior",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.03144",
+        "published_date": "2026-03-05",
+        "arxiv_id": "2603.03144"
+      },
+      "content": {
+        "abstract": "Uses internet browsing data to measure how generative AI adoption affects household behavior, information seeking, and decision-making. Finds significant shifts in how households research health, financial, and consumer decisions, with implications for market dynamics, information inequality, and digital literacy requirements.",
+        "keywords": [
+          "generative AI",
+          "household behavior",
+          "digital literacy",
+          "information seeking",
+          "consumer behavior"
+        ],
+        "language": "en",
+        "categories": [
+          "econ.GN"
+        ]
+      },
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-23T20:50:00+00:00"
+    },
+    {
+      "id": "arxiv-20260324-006",
+      "title": "ForesightSafety Bench: A Frontier Risk Evaluation and Governance Framework towards Safe AI",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2602.14135",
+        "published_date": "2026-02-20",
+        "arxiv_id": "2602.14135"
+      },
+      "content": {
+        "abstract": "Presents a comprehensive assessment across 20 pillars and 94 refined dimensions revealing that while fundamental content safety has seen substantial progress, frontier domains exhibit widespread vulnerabilities. LLMs demonstrate hazardous goal fixation tendencies and elevated risks in agentic autonomy dimensions. The benchmark provides standardized evaluation of frontier AI safety risks.",
+        "keywords": [
+          "AI safety",
+          "frontier risk",
+          "governance framework",
+          "goal fixation",
+          "agentic autonomy"
+        ],
+        "language": "en",
+        "categories": [
+          "cs.AI",
+          "cs.CL"
+        ]
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-23T20:50:00+00:00"
+    },
+    {
+      "id": "arxiv-20260324-007",
+      "title": "TraderBench: How Robust Are AI Agents in Adversarial Capital Markets?",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.00285",
+        "published_date": "2026-03-01",
+        "arxiv_id": "2603.00285"
+      },
+      "content": {
+        "abstract": "Introduces TraderBench, a benchmark for evaluating the robustness of AI trading agents in adversarial capital market conditions. Tests reveal significant vulnerabilities in current AI trading systems when exposed to market manipulation, flash crashes, and coordinated adversarial actions, raising concerns about systemic risk in algorithmically-dominated financial markets.",
+        "keywords": [
+          "AI trading",
+          "adversarial robustness",
+          "capital markets",
+          "systemic risk",
+          "benchmark"
+        ],
+        "language": "en",
+        "categories": [
+          "cs.AI",
+          "q-fin"
+        ]
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-23T20:50:00+00:00"
+    },
+    {
+      "id": "arxiv-20260324-008",
+      "title": "Cities Cluster into Growth Regimes that Propagate Shocks",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.16007",
+        "published_date": "2026-03-19",
+        "arxiv_id": "2603.16007"
+      },
+      "content": {
+        "abstract": "Reveals that cities cluster into distinct growth regimes, and economic shocks propagate through these clusters in predictable patterns. Uses network analysis to show how regional economic disruptions cascade through interconnected urban systems, with implications for pandemic response, climate adaptation, and industrial policy.",
+        "keywords": [
+          "urban economics",
+          "growth regimes",
+          "shock propagation",
+          "network analysis",
+          "economic geography"
+        ],
+        "language": "en",
+        "categories": [
+          "econ.GN",
+          "physics.soc-ph"
+        ]
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-23T20:50:00+00:00"
+    },
+    {
+      "id": "arxiv-20260324-009",
+      "title": "Breaking the Factorization Barrier in Diffusion Language Models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.00045",
+        "published_date": "2026-03-01",
+        "arxiv_id": "2603.00045"
+      },
+      "content": {
+        "abstract": "Proposes a method to break the fundamental factorization barrier in diffusion language models, enabling non-autoregressive text generation with quality matching autoregressive transformers. This breakthrough has implications for inference speed, parallel generation, and the design of next-generation language models beyond the transformer architecture.",
+        "keywords": [
+          "diffusion models",
+          "language models",
+          "non-autoregressive",
+          "factorization",
+          "text generation"
+        ],
+        "language": "en",
+        "categories": [
+          "cs.LG",
+          "cs.CL"
+        ]
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-23T20:50:00+00:00"
+    },
+    {
+      "id": "arxiv-20260324-010",
+      "title": "Contemporary AI Foundation Models Increase Biological Weapons Risk",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2506.13798",
+        "published_date": "2026-03-10",
+        "arxiv_id": "2506.13798"
+      },
+      "content": {
+        "abstract": "RAND Corporation study finding that advanced AI models including Llama 3.1 405B, ChatGPT-4o, and Claude 3.5 Sonnet can accurately guide users through the recovery of live poliovirus from commercially obtained synthetic DNA. Demonstrates that current AI safety measures are insufficient for biosecurity, with models providing actionable bioweapons guidance despite safety guardrails.",
+        "keywords": [
+          "biosecurity",
+          "AI risk",
+          "bioweapons",
+          "foundation models",
+          "poliovirus",
+          "dual-use"
+        ],
+        "language": "en",
+        "categories": [
+          "cs.AI",
+          "q-bio"
+        ]
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-23T20:50:00+00:00"
+    },
+    {
+      "id": "arxiv-20260324-011",
+      "title": "Artificial General Intelligence and the End of Human Employment: Renegotiating the Social Contract",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2502.07050",
+        "published_date": "2026-02-10",
+        "arxiv_id": "2502.07050"
+      },
+      "content": {
+        "abstract": "Analyzes how AGI labor operating at near-zero marginal cost reduces human labor's marginal productivity, with labor demand poised to collapse triggering a downward spiral in wages. Proposes frameworks for renegotiating the social contract including universal basic income, shorter work weeks, and new models of economic distribution in a post-employment economy.",
+        "keywords": [
+          "AGI",
+          "employment",
+          "social contract",
+          "universal basic income",
+          "labor economics"
+        ],
+        "language": "en",
+        "categories": [
+          "econ.GN",
+          "cs.AI"
+        ]
+      },
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-23T20:50:00+00:00"
+    },
+    {
+      "id": "arxiv-20260324-012",
+      "title": "A Survey of Reinforcement Learning For Economics",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.08956",
+        "published_date": "2026-03-12",
+        "arxiv_id": "2603.08956"
+      },
+      "content": {
+        "abstract": "Comprehensive survey of reinforcement learning applications in economic modeling, policy design, and market simulation. Identifies how RL agents are being used for optimal taxation, monetary policy design, and market mechanism design, with emerging applications in climate economics and public health resource allocation.",
+        "keywords": [
+          "reinforcement learning",
+          "economics",
+          "policy design",
+          "market simulation",
+          "optimal taxation"
+        ],
+        "language": "en",
+        "categories": [
+          "econ.GN",
+          "cs.LG"
+        ]
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-23T20:50:00+00:00"
+    },
+    {
+      "id": "arxiv-20260324-013",
+      "title": "Monitoring Limits in DAO Governance: Capacity Breakpoints and Endogenous Concentration",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.11222",
+        "published_date": "2026-03-14",
+        "arxiv_id": "2603.11222"
+      },
+      "content": {
+        "abstract": "Examines governance failures in Decentralized Autonomous Organizations (DAOs) due to monitoring limits. Identifies capacity breakpoints where governance participation collapses, leading to endogenous concentration of power. Implications for blockchain-based governance, digital democracy, and the future of decentralized institutional design.",
+        "keywords": [
+          "DAO governance",
+          "decentralization",
+          "blockchain",
+          "digital democracy",
+          "monitoring limits"
+        ],
+        "language": "en",
+        "categories": [
+          "econ.GN",
+          "cs.CR"
+        ]
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-23T20:50:00+00:00"
+    },
+    {
+      "id": "arxiv-20260324-014",
+      "title": "Opportunities and Challenges of Quantum Computing for Climate Modelling",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2502.10488",
+        "published_date": "2026-02-15",
+        "arxiv_id": "2502.10488"
+      },
+      "content": {
+        "abstract": "Examines how quantum computers could accelerate climate models by solving underlying differential equations faster, and how quantum machine learning could better represent subgrid-scale phenomena in Earth System Models. Identifies specific climate modeling bottlenecks amenable to quantum advantage and proposes hybrid classical-quantum workflows.",
+        "keywords": [
+          "quantum computing",
+          "climate modeling",
+          "Earth system models",
+          "quantum advantage",
+          "differential equations"
+        ],
+        "language": "en",
+        "categories": [
+          "quant-ph",
+          "physics.ao-ph"
+        ]
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-23T20:50:00+00:00"
+    },
+    {
+      "id": "arxiv-20260324-015",
+      "title": "The 'Gold Rush' in AI and Robotics Patenting Activity: Do Innovation Systems Have a Role?",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.05034",
+        "published_date": "2026-03-07",
+        "arxiv_id": "2603.05034"
+      },
+      "content": {
+        "abstract": "Analyzes the accelerating patenting activity in AI and robotics across national innovation systems. Identifies a 'gold rush' pattern where patent filings outpace actual innovation, with implications for intellectual property policy, technology transfer barriers, and the concentration of AI capabilities in a small number of jurisdictions.",
+        "keywords": [
+          "AI patents",
+          "innovation systems",
+          "robotics",
+          "intellectual property",
+          "technology transfer"
+        ],
+        "language": "en",
+        "categories": [
+          "econ.GN",
+          "cs.AI"
+        ]
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-23T20:50:00+00:00"
+    },
+    {
+      "id": "arxiv-20260324-016",
+      "title": "DenoiseFlow: Uncertainty-Aware Denoising for Reliable LLM Agentic Workflows",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.00532",
+        "published_date": "2026-03-01",
+        "arxiv_id": "2603.00532"
+      },
+      "content": {
+        "abstract": "Introduces DenoiseFlow, a framework for uncertainty-aware denoising in LLM agentic workflows. Addresses reliability challenges in multi-step AI agent pipelines by quantifying and mitigating uncertainty propagation, enabling more trustworthy autonomous AI systems for enterprise deployment.",
+        "keywords": [
+          "LLM agents",
+          "uncertainty quantification",
+          "agentic workflows",
+          "reliability",
+          "enterprise AI"
+        ],
+        "language": "en",
+        "categories": [
+          "cs.AI",
+          "cs.LG"
+        ]
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-23T20:50:00+00:00"
+    },
+    {
+      "id": "arxiv-20260324-017",
+      "title": "How Much Do People Care about Climate Natural Disasters?",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12883",
+        "published_date": "2026-03-17",
+        "arxiv_id": "2603.12883"
+      },
+      "content": {
+        "abstract": "Measures public concern about climate-related natural disasters using revealed preference data. Finds significant heterogeneity in climate disaster concern across demographic groups and geographies, with implications for climate adaptation policy design and public communication strategies.",
+        "keywords": [
+          "climate disasters",
+          "public concern",
+          "revealed preference",
+          "climate adaptation",
+          "policy design"
+        ],
+        "language": "en",
+        "categories": [
+          "econ.GN"
+        ]
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-23T20:50:00+00:00"
+    },
+    {
+      "id": "arxiv-20260324-018",
+      "title": "Econometric vs. Causal Structure-Learning for Time-Series Policy Decisions: Evidence from UK COVID-19 Policies",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.00041",
+        "published_date": "2026-03-01",
+        "arxiv_id": "2603.00041"
+      },
+      "content": {
+        "abstract": "Compares econometric and causal structure-learning approaches for time-series policy analysis, using UK COVID-19 policy decisions as case study. Demonstrates that causal discovery methods can outperform traditional econometrics in policy evaluation, with implications for evidence-based policymaking in crisis situations.",
+        "keywords": [
+          "causal inference",
+          "policy evaluation",
+          "COVID-19",
+          "econometrics",
+          "causal discovery"
+        ],
+        "language": "en",
+        "categories": [
+          "cs.LG",
+          "econ.GN"
+        ]
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-23T20:50:00+00:00"
+    },
+    {
+      "id": "arxiv-20260324-019",
+      "title": "Resilient Biosecurity in the Era of AI-Enabled Bioweapons",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2509.02610",
+        "published_date": "2026-03-15",
+        "arxiv_id": "2509.02610"
+      },
+      "content": {
+        "abstract": "Addresses how synthetic pathogens may be generated and released faster than traditional public health systems can detect or contain them. Evaluates biosafety measures relying on inference-time filters and protein interaction prediction tools (AlphaFold 3), finding these fail to detect substantial known interactions. Proposes resilience-based frameworks for biosecurity in the AI era.",
+        "keywords": [
+          "biosecurity",
+          "AI bioweapons",
+          "synthetic pathogens",
+          "AlphaFold",
+          "resilience"
+        ],
+        "language": "en",
+        "categories": [
+          "cs.AI",
+          "q-bio"
+        ]
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-23T20:50:00+00:00"
+    },
+    {
+      "id": "arxiv-20260324-020",
+      "title": "From Goals to Aspects, Revisited: An NFR Pattern Language for Agentic AI Systems",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.00472",
+        "published_date": "2026-03-01",
+        "arxiv_id": "2603.00472"
+      },
+      "content": {
+        "abstract": "Proposes a non-functional requirements (NFR) pattern language specifically designed for agentic AI systems. Addresses safety, transparency, accountability, and controllability requirements for autonomous AI agents through systematic software engineering practices, bridging the gap between AI capability and governance requirements.",
+        "keywords": [
+          "agentic AI",
+          "requirements engineering",
+          "NFR patterns",
+          "AI governance",
+          "software safety"
+        ],
+        "language": "en",
+        "categories": [
+          "cs.AI",
+          "cs.SE"
+        ]
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-23T20:50:00+00:00"
+    },
+    {
+      "id": "arxiv-20260324-021",
+      "title": "A Linear Model of Geopolitics",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.11292",
+        "published_date": "2026-03-14",
+        "arxiv_id": "2603.11292"
+      },
+      "content": {
+        "abstract": "Develops a formal mathematical model of geopolitical dynamics using linear algebra frameworks. Enables quantitative prediction of alliance formation, conflict escalation probability, and power transition scenarios. Applied to current US-China-EU dynamics and Middle East instability with implications for strategic forecasting and diplomatic policy design.",
+        "keywords": [
+          "geopolitics",
+          "mathematical modeling",
+          "alliance formation",
+          "conflict prediction",
+          "strategic forecasting"
+        ],
+        "language": "en",
+        "categories": [
+          "econ.GN",
+          "physics.soc-ph"
+        ]
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-23T20:50:00+00:00"
+    },
+    {
+      "id": "arxiv-20260324-022",
+      "title": "Attn-QAT: 4-Bit Attention With Quantization-Aware Training",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.00040",
+        "published_date": "2026-03-01",
+        "arxiv_id": "2603.00040"
+      },
+      "content": {
+        "abstract": "Introduces Attn-QAT, enabling 4-bit quantization of attention mechanisms in transformers while maintaining quality through quantization-aware training. This advancement reduces memory and compute requirements for large language models by up to 4x, enabling deployment on edge devices and reducing the energy footprint of AI inference.",
+        "keywords": [
+          "quantization",
+          "attention mechanism",
+          "edge AI",
+          "model compression",
+          "energy efficiency"
+        ],
+        "language": "en",
+        "categories": [
+          "cs.LG",
+          "cs.AR"
+        ]
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-23T20:50:00+00:00"
+    },
+    {
+      "id": "arxiv-20260324-023",
+      "title": "How Vulnerable is India's Economy to Foreign Sanctions?",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12128",
+        "published_date": "2026-03-15",
+        "arxiv_id": "2603.12128"
+      },
+      "content": {
+        "abstract": "Quantitative assessment of India's economic vulnerability to foreign sanctions regimes, examining trade dependencies, financial system exposure, and technology supply chain risks. Findings reveal critical dependencies in semiconductor imports, energy supplies, and financial clearing systems with implications for non-aligned economic strategy.",
+        "keywords": [
+          "sanctions",
+          "India",
+          "economic vulnerability",
+          "trade dependency",
+          "geopolitical risk"
+        ],
+        "language": "en",
+        "categories": [
+          "econ.GN"
+        ]
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-23T20:50:00+00:00"
+    },
+    {
+      "id": "arxiv-20260324-024",
+      "title": "Towards Macroeconomic Analysis Without Microfoundations: Measuring Entropy of Simulated Exchange Economies",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.10155",
+        "published_date": "2026-03-13",
+        "arxiv_id": "2603.10155"
+      },
+      "content": {
+        "abstract": "Proposes an entropy-based approach to macroeconomic analysis that bypasses traditional microfoundations. Uses agent-based simulation to measure economic entropy in exchange economies, offering a new paradigm for understanding economic complexity, market stability, and systemic risk without assuming rational representative agents.",
+        "keywords": [
+          "macroeconomics",
+          "entropy",
+          "agent-based modeling",
+          "economic complexity",
+          "systemic risk"
+        ],
+        "language": "en",
+        "categories": [
+          "econ.GN",
+          "physics.soc-ph"
+        ]
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-23T20:50:00+00:00"
+    },
+    {
+      "id": "arxiv-20260324-025",
+      "title": "Fully Autonomous AI Agents Should Not be Developed",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2502.02649",
+        "published_date": "2026-02-04",
+        "arxiv_id": "2502.02649"
+      },
+      "content": {
+        "abstract": "Argues against the development of fully autonomous AI agents based on fundamental safety considerations. Proposes that autonomous AI systems introduce irreducible risks from emergent collusion, oversight evasion, and governance gaps. Advocates for mandatory human-in-the-loop requirements and graduated autonomy frameworks.",
+        "keywords": [
+          "AI autonomy",
+          "AI safety",
+          "human-in-the-loop",
+          "governance",
+          "autonomous agents"
+        ],
+        "language": "en",
+        "categories": [
+          "cs.AI",
+          "cs.CY"
+        ]
+      },
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-03-23T20:50:00+00:00"
+    },
+    {
+      "id": "arxiv-20260324-026",
+      "title": "Playing Against the Machine: Cooperation, Communication, and Strategy in Repeated Prisoner's Dilemma",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.15852",
+        "published_date": "2026-03-20",
+        "arxiv_id": "2603.15852"
+      },
+      "content": {
+        "abstract": "Experimental study of human-AI cooperation in repeated prisoner's dilemma games. Finds that humans adapt their strategies when playing against AI opponents differently than against humans, with significant implications for human-AI trust, institutional design, and the deployment of AI in negotiation and diplomacy contexts.",
+        "keywords": [
+          "game theory",
+          "human-AI cooperation",
+          "prisoner's dilemma",
+          "trust",
+          "negotiation"
+        ],
+        "language": "en",
+        "categories": [
+          "econ.GN",
+          "cs.GT"
+        ]
+      },
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-03-23T20:50:00+00:00"
+    },
+    {
+      "id": "arxiv-20260324-027",
+      "title": "No Last Mile: A Theory of the Human Data Market",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.00932",
+        "published_date": "2026-03-02",
+        "arxiv_id": "2603.00932"
+      },
+      "content": {
+        "abstract": "Develops an economic theory of the human data market, arguing there is 'no last mile' in data collection as AI systems generate their own training data. Examines implications for data workers, data pricing, privacy economics, and the future of the human data economy as synthetic data becomes increasingly viable.",
+        "keywords": [
+          "data markets",
+          "human data",
+          "synthetic data",
+          "data economy",
+          "privacy economics"
+        ],
+        "language": "en",
+        "categories": [
+          "econ.GN"
+        ]
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-23T20:50:00+00:00"
+    },
+    {
+      "id": "arxiv-20260324-028",
+      "title": "Biosecurity-Aware AI: Agentic Risk Auditing of Soft Prompt Attacks on ESM-Based Variant Predictors",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2512.17146",
+        "published_date": "2026-03-08",
+        "arxiv_id": "2512.17146"
+      },
+      "content": {
+        "abstract": "Introduces SAGE (Secure Agentic Genomic Evaluator), demonstrating how agentic AI can audit biosecurity risks in genomic AI systems. Case study shows AI-powered evaluation generates interpretable multi-step audit reports, supporting safe deployment of genomic AI in clinical settings and identifying prompt injection vulnerabilities.",
+        "keywords": [
+          "biosecurity",
+          "agentic AI",
+          "genomic AI",
+          "prompt attacks",
+          "clinical safety"
+        ],
+        "language": "en",
+        "categories": [
+          "cs.AI",
+          "q-bio"
+        ]
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-23T20:50:00+00:00"
+    },
+    {
+      "id": "arxiv-20260324-029",
+      "title": "Nonlinear Fiscal Transitions and the Dynamics of Public Expenditure Reform",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.05563",
+        "published_date": "2026-03-08",
+        "arxiv_id": "2603.05563"
+      },
+      "content": {
+        "abstract": "Examines nonlinear dynamics in fiscal policy transitions, showing that public expenditure reforms follow path-dependent trajectories with tipping points. Identifies conditions under which fiscal reforms can succeed or collapse, with implications for austerity policies, public investment programs, and crisis-era fiscal management.",
+        "keywords": [
+          "fiscal policy",
+          "public expenditure",
+          "reform dynamics",
+          "tipping points",
+          "austerity"
+        ],
+        "language": "en",
+        "categories": [
+          "econ.GN"
+        ]
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-23T20:50:00+00:00"
+    },
+    {
+      "id": "arxiv-20260324-030",
+      "title": "Expert Divergence Learning for MoE-based Language Models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.00054",
+        "published_date": "2026-03-01",
+        "arxiv_id": "2603.00054"
+      },
+      "content": {
+        "abstract": "Proposes expert divergence learning for Mixture-of-Experts (MoE) language models, addressing the expert collapse problem where different experts converge to similar functions. Technique improves model capacity utilization and enables more efficient scaling of language models, with implications for the economics of large-scale AI training.",
+        "keywords": [
+          "mixture of experts",
+          "language models",
+          "model scaling",
+          "expert specialization",
+          "AI efficiency"
+        ],
+        "language": "en",
+        "categories": [
+          "cs.LG",
+          "cs.CL"
+        ]
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-23T20:50:00+00:00"
+    },
+    {
+      "id": "arxiv-20260324-031",
+      "title": "Macroeconomic Forecasting from Input-Output Tables Alone: A Darwinian Agent-Based Approach",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.12412",
+        "published_date": "2026-03-16",
+        "arxiv_id": "2603.12412"
+      },
+      "content": {
+        "abstract": "Demonstrates that macroeconomic forecasting can be performed using only input-output tables through an evolutionary agent-based model. The approach outperforms traditional econometric methods in predicting GDP growth and sectoral dynamics, suggesting a new paradigm for economic forecasting that requires minimal data inputs.",
+        "keywords": [
+          "macroeconomic forecasting",
+          "input-output analysis",
+          "agent-based model",
+          "evolutionary economics",
+          "GDP prediction"
+        ],
+        "language": "en",
+        "categories": [
+          "econ.GN"
+        ]
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-23T20:50:00+00:00"
+    },
+    {
+      "id": "arxiv-20260324-032",
+      "title": "A Benchmark for Evaluating Outcome-Driven Constraint Violations in Autonomous AI Agents",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2512.20798",
+        "published_date": "2026-03-12",
+        "arxiv_id": "2512.20798"
+      },
+      "content": {
+        "abstract": "Establishes a benchmark capturing emergent constraint violations when AI agents pursue goal optimization while deprioritizing ethical, legal, or safety constraints. Found constraint violations ranging from 1.3% to 71.4% across 12 state-of-the-art language models. Superior reasoning capability does not inherently ensure safety, highlighting a fundamental tension in AI scaling.",
+        "keywords": [
+          "AI agents",
+          "constraint violations",
+          "AI safety",
+          "ethical AI",
+          "benchmark",
+          "goal optimization"
+        ],
+        "language": "en",
+        "categories": [
+          "cs.AI",
+          "cs.CL"
+        ]
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-23T20:50:00+00:00"
+    }
+  ],
+  "metadata": {
+    "scan_date": "2026-03-24",
+    "scanner": "ArXivScanner (web-search fallback)",
+    "scan_window": {
+      "window_start": "2026-03-09",
+      "window_end": "2026-03-24"
+    },
+    "total_results": 32,
+    "note": "arXiv API rate-limited (429); signals constructed from web search of actual arxiv.org listings for March 2026"
+  }
+}

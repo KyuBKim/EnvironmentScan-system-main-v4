@@ -54,13 +54,26 @@ Agent definitions live in `.claude/agents/`. Worker agents live in `.claude/agen
 
 Reference files under `.claude/skills/env-scanner/references/` contain report skeletons, format guides, and STEEPs framework details.
 
-### Task Management
+### Task Management (Python 원천봉쇄 — v3.5.1)
 
-Use `TaskCreate`/`TaskUpdate` tools to track workflow progress through phases. This provides visibility to the user during long-running scans.
+Task tracking provides Ctrl+T visibility during 30-60 min scans. **MANDATORY execution** at Step 0.4.
+
+- `master_task_manager.py --action init` generates exact JSON task specs (7 tasks)
+- LLM copies Python-generated subject/description **verbatim** into TaskCreate calls (no paraphrasing)
+- `master_task_manager.py --action verify` post-checks: 7 keys, no empty IDs, no duplicates
+- Each step boundary: `master_task_manager.py --action step-complete` verifies gate before TaskUpdate
 
 ### Context Preservation
 
 Context backup hooks in `.claude/hooks/` automatically save workflow state. On session restoration, read `.claude/context-backups/latest-context.md` to resume.
+
+### Quality-First Context Memory (v3.5.1)
+
+Context loading optimized for **result quality**, not token savings:
+
+- **Phase 1**: RecursiveArchiveLoader with SOT-bound window (`dedup_gate.archive_loader_window_days`, default 14 days)
+- **Phase 2**: classified-signals with **abstract field included** for deeper STEEPs classification
+- **Phase 3**: classified-signals added to report generator input for richer signal descriptions
 
 ### Development Principles (MANDATORY — applies to ALL code changes)
 

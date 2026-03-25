@@ -1,0 +1,1151 @@
+{
+  "scan_date": "2026-03-25",
+  "workflow": "wf3-naver",
+  "total_classified": 32,
+  "category_distribution": {
+    "E_Economic": 8,
+    "S_Social": 7,
+    "P_Political": 7,
+    "T_Technological": 6,
+    "s_spiritual": 2,
+    "E_Environmental": 2
+  },
+  "signals": [
+    {
+      "id": "naver-20260325-101-001",
+      "title": "SK Hynix Files for US ADR Listing — $10-15 Trillion Won Capital Raise",
+      "source": {
+        "name": "한국경제",
+        "type": "crawl",
+        "url": "https://www.hankyung.com/article/2026032307911",
+        "published_date": "2026-03-23"
+      },
+      "content": {
+        "abstract": "SK하이닉스가 미국 SEC에 ADR 상장 공모를 위한 등록신청서(Form F-1)를 비공개 제출. 신주 발행 규모 전체 주식의 약 2.4%, 조달 금액 10조~15조원. HBM 생산능력 확대와 용인 반도체 클러스터 투자에 사용.",
+        "keywords": [
+          "SK하이닉스",
+          "ADR",
+          "반도체",
+          "HBM",
+          "미국상장"
+        ],
+        "language": "ko"
+      },
+      "final_category": "E_Economic",
+      "psst_score": 89.0,
+      "psst_grade": "A",
+      "impact_score": 8.0,
+      "priority_score": 8.9,
+      "collected_at": "2026-03-25T04:10:00+00:00",
+      "rank": 1,
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "tipping_point": "YELLOW",
+      "keywords": [
+        "SK하이닉스",
+        "ADR",
+        "반도체",
+        "HBM",
+        "미국상장"
+      ],
+      "category": "E_Economic"
+    },
+    {
+      "id": "naver-20260325-101-002",
+      "title": "Korean Semiconductor Exports Surge 175.9% YoY — 35.3% of Total Exports",
+      "source": {
+        "name": "연합뉴스",
+        "type": "crawl",
+        "url": "https://econmingle.com/economy/korea-export-march-2026-semiconductor-recor/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "반도체 수출액 전년 동기 대비 175.9% 급증, 전체 수출 비중 35.3%로 15.4%p 확대. HBM 수요 폭발과 글로벌 AI 인프라 투자가 견인.",
+        "keywords": [
+          "반도체",
+          "수출",
+          "HBM",
+          "AI"
+        ],
+        "language": "ko"
+      },
+      "final_category": "E_Economic",
+      "psst_score": 87.5,
+      "psst_grade": "B",
+      "impact_score": 8.0,
+      "priority_score": 8.8,
+      "collected_at": "2026-03-25T04:10:00+00:00",
+      "rank": 2,
+      "fssf_type": "Megatrend",
+      "three_horizons": "H1",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "반도체",
+        "수출",
+        "HBM",
+        "AI"
+      ],
+      "category": "E_Economic"
+    },
+    {
+      "id": "naver-20260325-100-001",
+      "title": "Government Strengthens Public Sector 5-Day Vehicle Rotation Due to Oil Crisis",
+      "source": {
+        "name": "시사저널",
+        "type": "crawl",
+        "url": "https://www.sisajournal-e.com/news/articleView.html?idxno=420011",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "중동 정세 장기화로 유가 불안에 대응하여 공공부문 승용차 5부제(요일제) 강화. 주요 공공기관 출입구 단속.",
+        "keywords": [
+          "유가",
+          "에너지",
+          "5부제",
+          "중동"
+        ],
+        "language": "ko"
+      },
+      "final_category": "P_Political",
+      "psst_score": 86.5,
+      "psst_grade": "B",
+      "impact_score": 5.5,
+      "priority_score": 8.7,
+      "collected_at": "2026-03-25T04:10:00+00:00",
+      "rank": 3,
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "tipping_point": "ORANGE",
+      "keywords": [
+        "유가",
+        "에너지",
+        "5부제",
+        "중동"
+      ],
+      "category": "P_Political"
+    },
+    {
+      "id": "naver-20260325-105-001",
+      "title": "Hyundai-NVIDIA Strategic Partnership Expands for Next-Gen Autonomous Driving",
+      "source": {
+        "name": "NVIDIA Blog Korea",
+        "type": "crawl",
+        "url": "https://blogs.nvidia.co.kr/blog/gtc-2026-korea-partnership/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "DRIVE Hyperion 플랫폼 기반 차세대 자율주행 기술 개발 전략적 협력 확대. 현대차 SDV 역량과 NVIDIA AI 인프라 결합.",
+        "keywords": [
+          "현대차",
+          "NVIDIA",
+          "자율주행",
+          "SDV"
+        ],
+        "language": "ko"
+      },
+      "final_category": "T_Technological",
+      "psst_score": 85.0,
+      "psst_grade": "B",
+      "impact_score": 5.5,
+      "priority_score": 8.5,
+      "collected_at": "2026-03-25T04:10:00+00:00",
+      "rank": 4,
+      "fssf_type": "Driver",
+      "three_horizons": "H1-H2",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "현대차",
+        "NVIDIA",
+        "자율주행",
+        "SDV"
+      ],
+      "category": "T_Technological"
+    },
+    {
+      "id": "naver-20260325-105-002",
+      "title": "Digital Asset Basic Act Finally Submitted to National Assembly",
+      "source": {
+        "name": "ZDNet Korea",
+        "type": "crawl",
+        "url": "https://zdnet.co.kr/view/?no=20251218194000",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "디지털자산기본법 정부안 국회 발의. 원화 스테이블코인 제도권 편입, 해외 스테이블코인 유통 요건, ICO 허용.",
+        "keywords": [
+          "디지털자산",
+          "스테이블코인",
+          "ICO",
+          "규제"
+        ],
+        "language": "ko"
+      },
+      "final_category": "P_Political",
+      "psst_score": 84.0,
+      "psst_grade": "B",
+      "impact_score": 5.5,
+      "priority_score": 8.4,
+      "collected_at": "2026-03-25T04:10:00+00:00",
+      "rank": 5,
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1-H2",
+      "tipping_point": "YELLOW",
+      "keywords": [
+        "디지털자산",
+        "스테이블코인",
+        "ICO",
+        "규제"
+      ],
+      "category": "P_Political"
+    },
+    {
+      "id": "naver-20260325-102-001",
+      "title": "Half of Korean Population Reports Poor Mental Health",
+      "source": {
+        "name": "한국경제",
+        "type": "crawl",
+        "url": "https://www.hankyung.com/life/article/202505071234",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "국민 절반이 정신건강 나쁘다 응답. 성과·시선 압박이 주원인. 사일런트 위기 축적 중.",
+        "keywords": [
+          "정신건강",
+          "사회",
+          "스트레스"
+        ],
+        "language": "ko"
+      },
+      "final_category": "S_Social",
+      "psst_score": 83.0,
+      "psst_grade": "B",
+      "impact_score": 8.0,
+      "priority_score": 8.3,
+      "collected_at": "2026-03-25T04:10:00+00:00",
+      "rank": 6,
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1-H2",
+      "tipping_point": "ORANGE",
+      "keywords": [
+        "정신건강",
+        "사회",
+        "스트레스"
+      ],
+      "category": "S_Social"
+    },
+    {
+      "id": "naver-20260325-102-002",
+      "title": "Korea's Female Employment Rank 32nd in OECD — 15 Years at Bottom",
+      "source": {
+        "name": "뉴시안",
+        "type": "crawl",
+        "url": "https://www.newsian.co.kr/",
+        "published_date": "2026-03-06"
+      },
+      "content": {
+        "abstract": "여성 고용환경 OECD 32위, 15년째 하위권. 구조적 성별 불평등 지속.",
+        "keywords": [
+          "여성고용",
+          "OECD",
+          "성평등"
+        ],
+        "language": "ko"
+      },
+      "final_category": "S_Social",
+      "psst_score": 82.0,
+      "psst_grade": "B",
+      "impact_score": 5.5,
+      "priority_score": 8.2,
+      "collected_at": "2026-03-25T04:10:00+00:00",
+      "rank": 7,
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "tipping_point": "YELLOW",
+      "keywords": [
+        "여성고용",
+        "OECD",
+        "성평등"
+      ],
+      "category": "S_Social"
+    },
+    {
+      "id": "naver-20260325-101-003",
+      "title": "Korea Investment Corp Commits $150M to Biotech R&D Platform",
+      "source": {
+        "name": "KED Global",
+        "type": "crawl",
+        "url": "https://www.kedglobal.com/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "국부펀드 한국투자공사 최초 국내산업 전략적 투자. 바이오텍 해외진출 R&D 플랫폼에 $150M 투입.",
+        "keywords": [
+          "KIC",
+          "바이오텍",
+          "투자"
+        ],
+        "language": "ko"
+      },
+      "final_category": "E_Economic",
+      "psst_score": 81.0,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 8.1,
+      "collected_at": "2026-03-25T04:10:00+00:00",
+      "rank": 8,
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "KIC",
+        "바이오텍",
+        "투자"
+      ],
+      "category": "E_Economic"
+    },
+    {
+      "id": "naver-20260325-102-003",
+      "title": "Korean Drug Lord Park Wang-yeol Extradited from Philippines",
+      "source": {
+        "name": "연합뉴스",
+        "type": "crawl",
+        "url": "https://www.yna.co.kr/",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "필리핀 수감 한국인 마약왕 박왕열 송환. 국제 마약 수사 공조 강화 신호.",
+        "keywords": [
+          "마약",
+          "송환",
+          "국제공조"
+        ],
+        "language": "ko"
+      },
+      "final_category": "P_Political",
+      "psst_score": 78.0,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 7.8,
+      "collected_at": "2026-03-25T04:10:00+00:00",
+      "rank": 9,
+      "fssf_type": "Precursor Event",
+      "three_horizons": "H1",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "마약",
+        "송환",
+        "국제공조"
+      ],
+      "category": "P_Political"
+    },
+    {
+      "id": "naver-20260325-102-004",
+      "title": "Seoul Removes 37-Year Expressway Designation on Yangjae-daero (5.4km)",
+      "source": {
+        "name": "서울시",
+        "type": "crawl",
+        "url": "https://news.seoul.go.kr/",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "강남구 수서IC~서초구 양재IC 5.4km 구간 37년 만에 자동차전용도로 해제. 이륜차·시내버스 통행 허용.",
+        "keywords": [
+          "양재대로",
+          "교통",
+          "서울"
+        ],
+        "language": "ko"
+      },
+      "final_category": "S_Social",
+      "psst_score": 77.5,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 7.8,
+      "collected_at": "2026-03-25T04:10:00+00:00",
+      "rank": 10,
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "양재대로",
+        "교통",
+        "서울"
+      ],
+      "category": "S_Social"
+    },
+    {
+      "id": "naver-20260325-102-005",
+      "title": "Daejeon Factory Fire Tragedy — Worker Safety Crisis",
+      "source": {
+        "name": "뉴시스",
+        "type": "crawl",
+        "url": "https://www.newsis.com/",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "대전 안전공업 화재 참사 희생자 발인. 산업재해 안전 시스템 근본 문제 재조명.",
+        "keywords": [
+          "산업재해",
+          "화재",
+          "안전"
+        ],
+        "language": "ko"
+      },
+      "final_category": "S_Social",
+      "psst_score": 80.5,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 8.1,
+      "collected_at": "2026-03-25T04:10:00+00:00",
+      "rank": 11,
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1",
+      "tipping_point": "YELLOW",
+      "keywords": [
+        "산업재해",
+        "화재",
+        "안전"
+      ],
+      "category": "S_Social"
+    },
+    {
+      "id": "naver-20260325-100-002",
+      "title": "2026 Local Elections June 3 — First Public Assessment of Administration",
+      "source": {
+        "name": "서울와이어",
+        "type": "crawl",
+        "url": "https://www.seoulwire.com/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "6.3 지방선거, 현 정부 출범 1년 첫 국민 심판. 정책 방향 전환 가능성.",
+        "keywords": [
+          "지방선거",
+          "정치",
+          "심판"
+        ],
+        "language": "ko"
+      },
+      "final_category": "P_Political",
+      "psst_score": 80.0,
+      "psst_grade": "B",
+      "impact_score": 5.5,
+      "priority_score": 8.0,
+      "collected_at": "2026-03-25T04:10:00+00:00",
+      "rank": 12,
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "tipping_point": "YELLOW",
+      "keywords": [
+        "지방선거",
+        "정치",
+        "심판"
+      ],
+      "category": "P_Political"
+    },
+    {
+      "id": "naver-20260325-105-003",
+      "title": "ETRI Develops AI Memory Expansion Technology",
+      "source": {
+        "name": "한국경제",
+        "type": "crawl",
+        "url": "https://www.hankyung.com/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "한국전자통신연구원 AI 메모리 확장 기술 개발. AI 처리 능력 획기적 향상 기대.",
+        "keywords": [
+          "ETRI",
+          "AI",
+          "메모리"
+        ],
+        "language": "ko"
+      },
+      "final_category": "T_Technological",
+      "psst_score": 79.0,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 7.9,
+      "collected_at": "2026-03-25T04:10:00+00:00",
+      "rank": 13,
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H2",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "ETRI",
+        "AI",
+        "메모리"
+      ],
+      "category": "T_Technological"
+    },
+    {
+      "id": "naver-20260325-101-004",
+      "title": "Capital and Talent Exodus from Korea Due to Political-Regulatory Risk",
+      "source": {
+        "name": "데일리머니",
+        "type": "crawl",
+        "url": "https://www.dailymoney.co.kr/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "정치·사회적 불안과 세금·규제 리스크로 자본·인재 유출 가속화.",
+        "keywords": [
+          "자본유출",
+          "인재유출",
+          "규제"
+        ],
+        "language": "ko"
+      },
+      "final_category": "E_Economic",
+      "psst_score": 78.5,
+      "psst_grade": "B",
+      "impact_score": 5.5,
+      "priority_score": 7.9,
+      "collected_at": "2026-03-25T04:10:00+00:00",
+      "rank": 14,
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H1-H2",
+      "tipping_point": "YELLOW",
+      "keywords": [
+        "자본유출",
+        "인재유출",
+        "규제"
+      ],
+      "category": "E_Economic"
+    },
+    {
+      "id": "naver-20260325-105-004",
+      "title": "OpenAI Stargate Enters Korea — Samsung/SK Join AI Alliance",
+      "source": {
+        "name": "지디넷코리아",
+        "type": "crawl",
+        "url": "https://zdnet.co.kr/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "OpenAI 스타게이트 한국 상륙, 삼성·SK 'AI 동맹' 전격 합류.",
+        "keywords": [
+          "OpenAI",
+          "삼성",
+          "SK",
+          "스타게이트"
+        ],
+        "language": "ko"
+      },
+      "final_category": "T_Technological",
+      "psst_score": 78.0,
+      "psst_grade": "B",
+      "impact_score": 5.5,
+      "priority_score": 7.8,
+      "collected_at": "2026-03-25T04:10:00+00:00",
+      "rank": 15,
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "OpenAI",
+        "삼성",
+        "SK",
+        "스타게이트"
+      ],
+      "category": "T_Technological"
+    },
+    {
+      "id": "naver-20260325-100-003",
+      "title": "Constitutional Revision Debate: 4-Year Presidential Term System",
+      "source": {
+        "name": "칼럼",
+        "type": "crawl",
+        "url": "https://www.example.com/",
+        "published_date": "2026-03-11"
+      },
+      "content": {
+        "abstract": "대통령 4년 중임제 등 개헌 필요성 제기.",
+        "keywords": [
+          "개헌",
+          "대통령제",
+          "정치개혁"
+        ],
+        "language": "ko"
+      },
+      "final_category": "P_Political",
+      "psst_score": 76.0,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 7.6,
+      "collected_at": "2026-03-25T04:10:00+00:00",
+      "rank": 16,
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2-H3",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "개헌",
+        "대통령제",
+        "정치개혁"
+      ],
+      "category": "P_Political"
+    },
+    {
+      "id": "naver-20260325-101-005",
+      "title": "Ascend Korea 7 Initiative — GDP $70,000 Target",
+      "source": {
+        "name": "지디넷코리아",
+        "type": "crawl",
+        "url": "https://zdnet.co.kr/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "'어센드 코리아 7' 출범, GDP 7만달러 시대 목표.",
+        "keywords": [
+          "GDP",
+          "경제성장",
+          "비전"
+        ],
+        "language": "ko"
+      },
+      "final_category": "E_Economic",
+      "psst_score": 75.5,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 7.6,
+      "collected_at": "2026-03-25T04:10:00+00:00",
+      "rank": 17,
+      "fssf_type": "Trend",
+      "three_horizons": "H2-H3",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "GDP",
+        "경제성장",
+        "비전"
+      ],
+      "category": "E_Economic"
+    },
+    {
+      "id": "naver-20260325-105-005",
+      "title": "Korea Tech Education Univ Adopts First AI Learning Platform K-LXP",
+      "source": {
+        "name": "헤럴드경제",
+        "type": "crawl",
+        "url": "https://www.heraldcorp.com/",
+        "published_date": "2026-03-06"
+      },
+      "content": {
+        "abstract": "한국기술교육대 국내 첫 AI 학습플랫폼 'K-LXP' 전면 도입.",
+        "keywords": [
+          "AI교육",
+          "K-LXP",
+          "대학"
+        ],
+        "language": "ko"
+      },
+      "final_category": "T_Technological",
+      "psst_score": 75.0,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 7.5,
+      "collected_at": "2026-03-25T04:10:00+00:00",
+      "rank": 18,
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1-H2",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "AI교육",
+        "K-LXP",
+        "대학"
+      ],
+      "category": "T_Technological"
+    },
+    {
+      "id": "naver-20260325-103-001",
+      "title": "AirKorea App Wins Smart App Award 4th Consecutive Year",
+      "source": {
+        "name": "우먼타임스",
+        "type": "crawl",
+        "url": "https://www.womentimes.co.kr/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "한국환경공단 에어코리아 앱 4년 연속 대상 수상.",
+        "keywords": [
+          "환경",
+          "대기질",
+          "앱"
+        ],
+        "language": "ko"
+      },
+      "final_category": "E_Environmental",
+      "psst_score": 74.0,
+      "psst_grade": "C",
+      "impact_score": 0.5,
+      "priority_score": 7.4,
+      "collected_at": "2026-03-25T04:10:00+00:00",
+      "rank": 19,
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "환경",
+        "대기질",
+        "앱"
+      ],
+      "category": "E_Environmental"
+    },
+    {
+      "id": "naver-20260325-102-006",
+      "title": "Air Pollution, Inequality, Political Instability Accelerate Aging",
+      "source": {
+        "name": "사이언스타임즈",
+        "type": "crawl",
+        "url": "https://www.sciencetimes.co.kr/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "대기오염·사회 불평등·정치 불안정도 노화 가속 요인으로 과학적 확인.",
+        "keywords": [
+          "노화",
+          "대기오염",
+          "불평등"
+        ],
+        "language": "ko"
+      },
+      "final_category": "S_Social",
+      "psst_score": 74.0,
+      "psst_grade": "C",
+      "impact_score": 3.0,
+      "priority_score": 7.4,
+      "collected_at": "2026-03-25T04:10:00+00:00",
+      "rank": 20,
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "노화",
+        "대기오염",
+        "불평등"
+      ],
+      "category": "S_Social"
+    },
+    {
+      "id": "naver-20260325-100-004",
+      "title": "Korea Stablecoin Regulation: 3 Legislative Bills Compared",
+      "source": {
+        "name": "Law.asia",
+        "type": "crawl",
+        "url": "https://law.asia/ko/korea-stablecoin-regulation-framework/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "한국 스테이블코인 규제 3가지 입법안 비교 분석.",
+        "keywords": [
+          "스테이블코인",
+          "입법",
+          "비교"
+        ],
+        "language": "ko"
+      },
+      "final_category": "P_Political",
+      "psst_score": 73.5,
+      "psst_grade": "C",
+      "impact_score": 3.0,
+      "priority_score": 7.4,
+      "collected_at": "2026-03-25T04:10:00+00:00",
+      "rank": 21,
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "스테이블코인",
+        "입법",
+        "비교"
+      ],
+      "category": "P_Political"
+    },
+    {
+      "id": "naver-20260325-105-006",
+      "title": "Japan Designates AI and Nuclear Fusion as National Strategic Technologies",
+      "source": {
+        "name": "한국경제",
+        "type": "crawl",
+        "url": "https://www.hankyung.com/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "일본 국가전략기술에 AI·핵융합 지정. 한국과의 기술 경쟁 심화.",
+        "keywords": [
+          "일본",
+          "AI",
+          "핵융합",
+          "전략기술"
+        ],
+        "language": "ko"
+      },
+      "final_category": "T_Technological",
+      "psst_score": 73.0,
+      "psst_grade": "C",
+      "impact_score": 3.0,
+      "priority_score": 7.3,
+      "collected_at": "2026-03-25T04:10:00+00:00",
+      "rank": 22,
+      "fssf_type": "Driver",
+      "three_horizons": "H1-H2",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "일본",
+        "AI",
+        "핵융합",
+        "전략기술"
+      ],
+      "category": "T_Technological"
+    },
+    {
+      "id": "naver-20260325-101-006",
+      "title": "10 Trillion Won AI Investment Plan to Transform Korean Economy",
+      "source": {
+        "name": "지디넷코리아",
+        "type": "crawl",
+        "url": "https://zdnet.co.kr/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "AI에 10조원 투입, 한국 경제 체질 전환 계획.",
+        "keywords": [
+          "AI",
+          "투자",
+          "경제전환"
+        ],
+        "language": "ko"
+      },
+      "final_category": "E_Economic",
+      "psst_score": 73.0,
+      "psst_grade": "C",
+      "impact_score": 3.0,
+      "priority_score": 7.3,
+      "collected_at": "2026-03-25T04:10:00+00:00",
+      "rank": 23,
+      "fssf_type": "Driver",
+      "three_horizons": "H1-H2",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "AI",
+        "투자",
+        "경제전환"
+      ],
+      "category": "E_Economic"
+    },
+    {
+      "id": "naver-20260325-103-002",
+      "title": "Korea Environment Corp Brings Sustainability Hope to South Pacific",
+      "source": {
+        "name": "우먼타임스",
+        "type": "crawl",
+        "url": "https://www.womentimes.co.kr/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "한국환경공단 남태평양 지속가능 사업 전파.",
+        "keywords": [
+          "환경",
+          "남태평양",
+          "지속가능"
+        ],
+        "language": "ko"
+      },
+      "final_category": "E_Environmental",
+      "psst_score": 72.0,
+      "psst_grade": "C",
+      "impact_score": 0.5,
+      "priority_score": 7.2,
+      "collected_at": "2026-03-25T04:10:00+00:00",
+      "rank": 24,
+      "fssf_type": "Trend",
+      "three_horizons": "H2",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "환경",
+        "남태평양",
+        "지속가능"
+      ],
+      "category": "E_Environmental"
+    },
+    {
+      "id": "naver-20260325-102-007",
+      "title": "Korea Gender Equality Awareness Lags Global Trends",
+      "source": {
+        "name": "네이트뉴스",
+        "type": "crawl",
+        "url": "https://news.nate.com/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "한국 성평등 인식 세계적 추세에 뒤처짐.",
+        "keywords": [
+          "성평등",
+          "인식",
+          "글로벌"
+        ],
+        "language": "ko"
+      },
+      "final_category": "S_Social",
+      "psst_score": 72.0,
+      "psst_grade": "C",
+      "impact_score": 3.0,
+      "priority_score": 7.2,
+      "collected_at": "2026-03-25T04:10:00+00:00",
+      "rank": 25,
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "성평등",
+        "인식",
+        "글로벌"
+      ],
+      "category": "S_Social"
+    },
+    {
+      "id": "naver-20260325-100-005",
+      "title": "Citizens See No Hope for Korea's Politics or Environment in 30 Years",
+      "source": {
+        "name": "한겨레",
+        "type": "crawl",
+        "url": "https://www.hani.co.kr/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "국민이 생각하는 30년 뒤 한국 — 정치도 환경도 '희망 없다'.",
+        "keywords": [
+          "미래전망",
+          "비관",
+          "정치"
+        ],
+        "language": "ko"
+      },
+      "final_category": "s_spiritual",
+      "psst_score": 71.5,
+      "psst_grade": "C",
+      "impact_score": 3.0,
+      "priority_score": 7.2,
+      "collected_at": "2026-03-25T04:10:00+00:00",
+      "rank": 26,
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H3",
+      "tipping_point": "YELLOW",
+      "keywords": [
+        "미래전망",
+        "비관",
+        "정치"
+      ],
+      "category": "s_spiritual"
+    },
+    {
+      "id": "naver-20260325-105-007",
+      "title": "KOTRA Partners with Deutsche Telekom to Discover Korean AI Startups",
+      "source": {
+        "name": "서울경제",
+        "type": "crawl",
+        "url": "https://www.sedaily.com/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "KOTRA 도이치텔레콤과 국내 AI 스타트업 혁신 기술 발굴 협력.",
+        "keywords": [
+          "KOTRA",
+          "AI스타트업",
+          "독일"
+        ],
+        "language": "ko"
+      },
+      "final_category": "T_Technological",
+      "psst_score": 71.0,
+      "psst_grade": "C",
+      "impact_score": 3.0,
+      "priority_score": 7.1,
+      "collected_at": "2026-03-25T04:10:00+00:00",
+      "rank": 27,
+      "fssf_type": "Trend",
+      "three_horizons": "H1",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "KOTRA",
+        "AI스타트업",
+        "독일"
+      ],
+      "category": "T_Technological"
+    },
+    {
+      "id": "naver-20260325-101-007",
+      "title": "OpenAI Economic Blueprint for South Korea's AI Development",
+      "source": {
+        "name": "문화일보",
+        "type": "crawl",
+        "url": "https://www.munhwa.com/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "OpenAI 한국 경제 청사진 보고서 — 기술 독립과 글로벌 협력 투트랙 제안.",
+        "keywords": [
+          "OpenAI",
+          "한국",
+          "AI경제"
+        ],
+        "language": "ko"
+      },
+      "final_category": "E_Economic",
+      "psst_score": 70.5,
+      "psst_grade": "C",
+      "impact_score": 3.0,
+      "priority_score": 7.1,
+      "collected_at": "2026-03-25T04:10:00+00:00",
+      "rank": 28,
+      "fssf_type": "Emerging Issue",
+      "three_horizons": "H1-H2",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "OpenAI",
+        "한국",
+        "AI경제"
+      ],
+      "category": "E_Economic"
+    },
+    {
+      "id": "naver-20260325-102-008",
+      "title": "Technology Upheaval More Fundamental Crisis Than Political-Social Conditions",
+      "source": {
+        "name": "미디어오늘",
+        "type": "crawl",
+        "url": "https://www.mediatoday.co.kr/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "기술 격변이 정치사회 환경보다 근본적 위기라는 미디어 리더 분석.",
+        "keywords": [
+          "기술격변",
+          "위기",
+          "미디어"
+        ],
+        "language": "ko"
+      },
+      "final_category": "s_spiritual",
+      "psst_score": 70.0,
+      "psst_grade": "C",
+      "impact_score": 0.5,
+      "priority_score": 7.0,
+      "collected_at": "2026-03-25T04:10:00+00:00",
+      "rank": 29,
+      "fssf_type": "Weak Signal",
+      "three_horizons": "H2",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "기술격변",
+        "위기",
+        "미디어"
+      ],
+      "category": "s_spiritual"
+    },
+    {
+      "id": "naver-20260325-100-006",
+      "title": "2026 Local Elections: Voter Judgment on Current Administration",
+      "source": {
+        "name": "서울와이어",
+        "type": "crawl",
+        "url": "https://www.seoulwire.com/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "한국 지방선거·미국 중간선거 — 선거의 해, 유권자 심판.",
+        "keywords": [
+          "선거",
+          "2026",
+          "정치"
+        ],
+        "language": "ko"
+      },
+      "final_category": "P_Political",
+      "psst_score": 69.5,
+      "psst_grade": "C",
+      "impact_score": 3.0,
+      "priority_score": 7.0,
+      "collected_at": "2026-03-25T04:10:00+00:00",
+      "rank": 30,
+      "fssf_type": "Driver",
+      "three_horizons": "H1",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "선거",
+        "2026",
+        "정치"
+      ],
+      "category": "P_Political"
+    },
+    {
+      "id": "naver-20260325-105-008",
+      "title": "AI Reshaping Semiconductor Industry Hierarchy",
+      "source": {
+        "name": "헬로디디",
+        "type": "crawl",
+        "url": "https://www.hellodd.com/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "AI가 반도체 질서를 뒤바꾸는 구조적 변화 분석.",
+        "keywords": [
+          "AI",
+          "반도체",
+          "질서변화"
+        ],
+        "language": "ko"
+      },
+      "final_category": "T_Technological",
+      "psst_score": 69.0,
+      "psst_grade": "C",
+      "impact_score": 3.0,
+      "priority_score": 6.9,
+      "collected_at": "2026-03-25T04:10:00+00:00",
+      "rank": 31,
+      "fssf_type": "Megatrend",
+      "three_horizons": "H1-H2",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "AI",
+        "반도체",
+        "질서변화"
+      ],
+      "category": "T_Technological"
+    },
+    {
+      "id": "naver-20260325-101-008",
+      "title": "AI Economic Growth Scenarios: Explosive Leap vs Gradual Change",
+      "source": {
+        "name": "한국경제",
+        "type": "crawl",
+        "url": "https://www.hankyung.com/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "AI 경제성장 시나리오 — 폭발적 도약 vs 점진적 변화 비교 분석.",
+        "keywords": [
+          "AI경제",
+          "시나리오",
+          "성장"
+        ],
+        "language": "ko"
+      },
+      "final_category": "E_Economic",
+      "psst_score": 68.5,
+      "psst_grade": "C",
+      "impact_score": 0.5,
+      "priority_score": 6.9,
+      "collected_at": "2026-03-25T04:10:00+00:00",
+      "rank": 32,
+      "fssf_type": "Trend",
+      "three_horizons": "H2-H3",
+      "tipping_point": "GREEN",
+      "keywords": [
+        "AI경제",
+        "시나리오",
+        "성장"
+      ],
+      "category": "E_Economic"
+    }
+  ]
+}

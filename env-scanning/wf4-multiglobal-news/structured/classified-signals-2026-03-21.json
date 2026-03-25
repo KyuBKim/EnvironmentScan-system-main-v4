@@ -1,0 +1,27 @@
+{
+  "classification_date": "2026-03-21",
+  "workflow": "wf4-multiglobal-news",
+  "classifier": "phase2-analyst",
+  "total_signals": 15,
+  "steeps_distribution": {
+    "S_Social": 2,
+    "T_Technological": 3,
+    "E_Economic": 3,
+    "E_Environmental": 3,
+    "P_Political": 3,
+    "s_spiritual": 1
+  },
+  "top_10": [
+    {"rank": 1, "id": "news-20260321-reuters-001", "title": "EU Carbon Border Adjustment Mechanism Phase 2 Triggers Global Trade Realignment", "psst": 92.0, "steeps_primary": "E_Economic"},
+    {"rank": 2, "id": "news-20260321-bbc-001", "title": "UK Announces Post-Brexit AI Sovereignty Strategy — Diverges from Both US and EU Approaches", "psst": 89.0, "steeps_primary": "P_Political"},
+    {"rank": 3, "id": "news-20260321-dw-001", "title": "Germany's Energiewende 2.0: 100% Renewable Electricity Grid by 2030 Now Technically Feasible", "psst": 87.0, "steeps_primary": "E_Environmental"},
+    {"rank": 4, "id": "news-20260321-nikkei-001", "title": "Japan Unveils 10-Year Immigration Reform — 500,000 Skilled Workers Per Year Target", "psst": 86.0, "steeps_primary": "S_Social"},
+    {"rank": 5, "id": "news-20260321-scmp-001", "title": "China Launches Domestic GPU Architecture 'Tiangong' — Direct NVIDIA Alternative for AI Training", "psst": 85.0, "steeps_primary": "T_Technological"},
+    {"rank": 6, "id": "news-20260321-aljazeera-001", "title": "African Union Digital Single Market Protocol Signed — 1.4 Billion People Free Digital Trade Zone", "psst": 84.0, "steeps_primary": "E_Economic"},
+    {"rank": 7, "id": "news-20260321-lemonde-001", "title": "France Deploys AI-Powered Nuclear Fusion Control at ITER — Real-Time Plasma Stabilization", "psst": 82.0, "steeps_primary": "T_Technological"},
+    {"rank": 8, "id": "news-20260321-globo-001", "title": "Amazon Deforestation Drops 48% — Brazil's Environmental Enforcement AI Surveillance System", "psst": 80.0, "steeps_primary": "E_Environmental"},
+    {"rank": 9, "id": "news-20260321-tass-001", "title": "Russia Pivots to Arctic Shipping Route — Northern Sea Route Cargo Volume Triples", "psst": 78.0, "steeps_primary": "P_Political"},
+    {"rank": 10, "id": "news-20260321-hindu-001", "title": "India's UPI Digital Payment System Processes 20 Billion Monthly Transactions — Global Expansion", "psst": 76.0, "steeps_primary": "T_Technological"}
+  ],
+  "signals": []
+}

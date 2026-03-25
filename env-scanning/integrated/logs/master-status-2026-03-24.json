@@ -1,0 +1,96 @@
+{
+  "master_id": "quadruple-scan-2026-03-24",
+  "system_name": "Quadruple Environmental Scanning System",
+  "status": "completed",
+  "registry_version": "2.5.0",
+  "started_at": "2026-03-23T20:35:00+00:00",
+  "completed_at": "2026-03-23T21:37:10.425152Z",
+  "workflow_results": {
+    "wf1-general": {
+      "status": "completed",
+      "signal_count": 32,
+      "report_path": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-03-24.md",
+      "validation": "18/18 PASS"
+    },
+    "wf2-arxiv": {
+      "status": "completed",
+      "signal_count": 32,
+      "report_path": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-03-24.md",
+      "validation": "17/17 PASS"
+    },
+    "wf3-naver": {
+      "status": "completed",
+      "signal_count": 36,
+      "report_path": "env-scanning/wf3-naver/reports/daily/naver-scan-2026-03-24.md",
+      "validation": "19/20 WARN"
+    },
+    "wf4-multiglobal-news": {
+      "status": "completed",
+      "signal_count": 21,
+      "report_path": "env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-03-24.md",
+      "validation": "19/20 WARN"
+    }
+  },
+  "integration_result": {
+    "status": "completed",
+    "report_path": "env-scanning/integrated/reports/daily/integrated-scan-2026-03-24.md",
+    "total_signals": 121,
+    "top_signals": 20,
+    "validation": "19/19 PASS"
+  },
+  "human_decisions": {
+    "wf1_step_2_5": {
+      "decision": "approved",
+      "mode": "autopilot"
+    },
+    "wf1_step_3_4": {
+      "decision": "approved",
+      "mode": "autopilot"
+    },
+    "wf2_step_2_5": {
+      "decision": "approved",
+      "mode": "autopilot"
+    },
+    "wf2_step_3_4": {
+      "decision": "approved",
+      "mode": "autopilot"
+    },
+    "wf3_step_2_5": {
+      "decision": "approved",
+      "mode": "autopilot"
+    },
+    "wf3_step_3_4": {
+      "decision": "approved",
+      "mode": "autopilot"
+    },
+    "wf4_step_2_5": {
+      "decision": "approved",
+      "mode": "autopilot"
+    },
+    "wf4_step_3_4": {
+      "decision": "approved",
+      "mode": "autopilot"
+    },
+    "integrated_final": {
+      "decision": "approved",
+      "mode": "autopilot"
+    }
+  },
+  "master_gates": {
+    "M1": {
+      "status": "PASS"
+    },
+    "M2": {
+      "status": "PASS"
+    },
+    "M2a": {
+      "status": "PASS"
+    },
+    "M2b": {
+      "status": "PASS"
+    },
+    "M3": {
+      "status": "PASS"
+    }
+  }
+}

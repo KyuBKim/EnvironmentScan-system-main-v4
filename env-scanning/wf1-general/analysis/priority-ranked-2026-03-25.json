@@ -1,0 +1,1940 @@
+{
+  "scan_date": "2026-03-25",
+  "workflow": "wf1-general",
+  "total_ranked": 44,
+  "category_distribution": {
+    "E_Environmental": 6,
+    "T_Technological": 19,
+    "E_Economic": 8,
+    "S_Social": 3,
+    "s_spiritual": 3,
+    "P_Political": 5
+  },
+  "signals": [
+    {
+      "id": "gen-20260325-019",
+      "title": "Earth Records 11 Consecutive Hottest Years — Climate System Destabilizing",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/d41586-026-00946-6",
+        "published_date": "2026-03-23"
+      },
+      "content": {
+        "abstract": "Earth's climate system records 11 consecutive hottest years on record. Atmospheric heat accumulation accelerates warming trends, necessitating urgent policy responses and adaptation strategies.",
+        "keywords": [
+          "climate change",
+          "global warming",
+          "temperature records",
+          "climate crisis"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Environmental",
+      "psst_dimensions": {
+        "SR": 85,
+        "ES": 80,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 85
+      },
+      "psst_score": 85.2,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 8.5,
+      "collected_at": "2026-03-25T03:52:30+00:00",
+      "rank": 1
+    },
+    {
+      "id": "gen-20260325-025",
+      "title": "NASA Plans Nuclear-Powered Mars Spacecraft with Helicopters for 2028",
+      "source": {
+        "name": "Science Magazine",
+        "type": "academic",
+        "url": "https://www.science.org/content/article/nasa-plans-send-nuclear-powered-spacecraft-mars-2028",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "NASA developing nuclear-powered Mars mission with helicopter surface exploration, targeting 2028 launch. Represents next generation of space exploration technology combining nuclear propulsion with autonomous aerial vehicles.",
+        "keywords": [
+          "NASA",
+          "Mars",
+          "nuclear propulsion",
+          "space exploration",
+          "helicopter"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 85,
+        "ES": 80,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 85
+      },
+      "psst_score": 85.2,
+      "psst_grade": "B",
+      "impact_score": 5.5,
+      "priority_score": 8.5,
+      "collected_at": "2026-03-25T03:52:45+00:00",
+      "rank": 2
+    },
+    {
+      "id": "gen-20260325-027",
+      "title": "Data Centers Transitioning from AC to DC Power (Edison's Revenge)",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "url": "https://spectrum.ieee.org/data-center-dc",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Data center infrastructure shifting from AC to 800V DC power distribution to support AI workloads. Eliminates multiple conversion steps, reduces copper by 45%, improves efficiency 5%. Vendors like Vertiv, Eaton, Delta commercializing solutions.",
+        "keywords": [
+          "data centers",
+          "DC power",
+          "AI infrastructure",
+          "energy efficiency",
+          "power electronics"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 85,
+        "ES": 80,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 85
+      },
+      "psst_score": 85.2,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 8.5,
+      "collected_at": "2026-03-25T03:53:00+00:00",
+      "rank": 3
+    },
+    {
+      "id": "gen-20260325-028",
+      "title": "Meta's 5-Gigawatt Hyperion Data Center: Unprecedented Scale in AI Infrastructure",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "url": "https://spectrum.ieee.org/5gw-data-center",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Meta's Hyperion project in Louisiana: 5GW campus spanning 11 buildings needing 3 new gas-turbine power plants. GPU racks consume 120kW each, future systems may reach 1MW. Raises CO2 and infrastructure concerns.",
+        "keywords": [
+          "Meta",
+          "data center",
+          "AI infrastructure",
+          "energy",
+          "5GW",
+          "GPU"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 85,
+        "ES": 80,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 85
+      },
+      "psst_score": 85.2,
+      "psst_grade": "B",
+      "impact_score": 5.5,
+      "priority_score": 8.5,
+      "collected_at": "2026-03-25T03:53:00+00:00",
+      "rank": 4
+    },
+    {
+      "id": "gen-20260325-001",
+      "title": "Kleiner Perkins Commits $3.5B to AI Investment",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/24/with-3-5b-in-fresh-capital-kleiner-perkins-is-going-all-in-on-ai/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Kleiner Perkins raised $3.5 billion across two funds — $1 billion for early-stage and $2.5 billion for late-stage AI companies — signaling massive VC concentration in artificial intelligence.",
+        "keywords": [
+          "AI investment",
+          "venture capital",
+          "Kleiner Perkins",
+          "AI funding"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 80,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 85
+      },
+      "psst_score": 83.0,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 8.3,
+      "collected_at": "2026-03-25T03:51:00+00:00",
+      "rank": 5
+    },
+    {
+      "id": "gen-20260325-003",
+      "title": "Arm Releases First In-House CPU (AGI) in 35-Year History",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/24/arm-is-releasing-its-first-in-house-chip-in-its-35-year-history/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Arm developed its first proprietary CPU called AGI in 35 years, partnering with Meta as the initial customer. This marks a paradigm shift from pure licensing to chip manufacturing.",
+        "keywords": [
+          "Arm",
+          "AGI CPU",
+          "semiconductor",
+          "Meta",
+          "chip design"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 80,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 85
+      },
+      "psst_score": 83.0,
+      "psst_grade": "B",
+      "impact_score": 5.5,
+      "priority_score": 8.3,
+      "collected_at": "2026-03-25T03:51:00+00:00",
+      "rank": 6
+    },
+    {
+      "id": "gen-20260325-031",
+      "title": "Apple Launches Business Platform — All-in-One Enterprise Solution",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://www.apple.com/newsroom/2026/03/introducing-apple-business-a-new-all-in-one-platform-for-businesses-of-all-sizes/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Apple introduces Apple Business, an all-in-one enterprise platform challenging existing business software ecosystem. With 540 points on HN, signals major platform economy shift.",
+        "keywords": [
+          "Apple",
+          "enterprise",
+          "business platform",
+          "platform economy"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 80,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 85
+      },
+      "psst_score": 83.0,
+      "psst_grade": "B",
+      "impact_score": 5.5,
+      "priority_score": 8.3,
+      "collected_at": "2026-03-25T03:53:30+00:00",
+      "rank": 7
+    },
+    {
+      "id": "gen-20260325-036",
+      "title": "South Africa's Happy Pay Raises $5M for Ad-Subsidized Payment Model",
+      "source": {
+        "name": "Disrupt Africa",
+        "type": "tech_news",
+        "url": "https://disruptafrica.com/2026/03/23/sas-happy-pay-raises-5m-seed-round-to-scale-ad-subsidised-payments-network/",
+        "published_date": "2026-03-23"
+      },
+      "content": {
+        "abstract": "Happy Pay raises $5M seed for ad-subsidized BNPL model that eliminates consumer interest and fees, with 600K+ users. Innovative payment paradigm shifting costs from consumers to merchants.",
+        "keywords": [
+          "fintech",
+          "BNPL",
+          "Africa",
+          "payments",
+          "ad-subsidized"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 80,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 85
+      },
+      "psst_score": 83.0,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 8.3,
+      "collected_at": "2026-03-25T03:53:45+00:00",
+      "rank": 8
+    },
+    {
+      "id": "gen-20260325-038",
+      "title": "Americans' News Consumption Patterns: 36% Turn to Preferred News Organization First",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/short-reads/2026/03/24/where-do-americans-turn-first-for-information-about-breaking-news/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Pew research shows 36% of US adults turn to preferred news organization first for breaking news, revealing fragmented information consumption and potential for filter bubbles.",
+        "keywords": [
+          "news consumption",
+          "media",
+          "public opinion",
+          "information behavior"
+        ],
+        "language": "en"
+      },
+      "final_category": "S_Social",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 80,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 85
+      },
+      "psst_score": 83.0,
+      "psst_grade": "B",
+      "impact_score": 8.0,
+      "priority_score": 8.3,
+      "collected_at": "2026-03-25T03:54:00+00:00",
+      "rank": 9
+    },
+    {
+      "id": "gen-20260325-039",
+      "title": "60% of Americans Have No Moral Objection to Medical Aid in Dying",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "blog",
+        "url": "https://www.pewresearch.org/short-reads/2026/03/23/about-6-in-10-americans-dont-have-moral-objections-to-medical-aid-in-dying/",
+        "published_date": "2026-03-23"
+      },
+      "content": {
+        "abstract": "Survey reveals 60% of Americans accept medical aid in dying, with sharp partisan divide (48% Republicans vs 23% Democrats call it morally wrong). Signals shifting values on end-of-life autonomy.",
+        "keywords": [
+          "medical ethics",
+          "assisted dying",
+          "public opinion",
+          "values shift",
+          "healthcare"
+        ],
+        "language": "en"
+      },
+      "final_category": "s_spiritual",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 80,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 85
+      },
+      "psst_score": 83.0,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 8.3,
+      "collected_at": "2026-03-25T03:54:00+00:00",
+      "rank": 10
+    },
+    {
+      "id": "gen-20260325-042",
+      "title": "Brinc Launches Police Drone to Replace Helicopters in 911 Response",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/24/a-former-thiel-fellows-startup-just-launched-a-drone-it-says-can-replace-police-helicopters/",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "Brinc releases 911 response drone aimed at replacing police helicopters. Signals rapid expansion of drone applications from military to law enforcement and public safety.",
+        "keywords": [
+          "drones",
+          "police",
+          "public safety",
+          "law enforcement",
+          "technology"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 80,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 85
+      },
+      "psst_score": 83.0,
+      "psst_grade": "B",
+      "impact_score": 5.5,
+      "priority_score": 8.3,
+      "collected_at": "2026-03-25T03:54:30+00:00",
+      "rank": 11
+    },
+    {
+      "id": "gen-20260325-020",
+      "title": "Antimatter Transported for the First Time in History (CERN)",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/d41586-026-00950-w",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Scientists at CERN achieved the first-ever transport of antimatter, advancing experimental physics capabilities for particle research and potentially opening new frontiers in energy and fundamental physics.",
+        "keywords": [
+          "antimatter",
+          "CERN",
+          "particle physics",
+          "scientific breakthrough"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 85,
+        "ES": 65,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 85
+      },
+      "psst_score": 82.2,
+      "psst_grade": "B",
+      "impact_score": 8.0,
+      "priority_score": 8.2,
+      "collected_at": "2026-03-25T03:52:30+00:00",
+      "rank": 12
+    },
+    {
+      "id": "gen-20260325-022",
+      "title": "Salt Lakes Shrinking and Expanding Globally, Causing Conservation Havoc",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/d41586-026-00943-9",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Dynamic fluctuations in global salt lake systems create unprecedented challenges for ecosystem preservation and species protection, driven by climate variability and water management.",
+        "keywords": [
+          "salt lakes",
+          "ecosystem",
+          "conservation",
+          "water resources",
+          "climate impact"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Environmental",
+      "psst_dimensions": {
+        "SR": 85,
+        "ES": 65,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 85
+      },
+      "psst_score": 82.2,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 8.2,
+      "collected_at": "2026-03-25T03:52:30+00:00",
+      "rank": 13
+    },
+    {
+      "id": "gen-20260325-026",
+      "title": "DOE Merges Nuclear and Particle Physics Programs for AI Prioritization",
+      "source": {
+        "name": "Science Magazine",
+        "type": "academic",
+        "url": "https://www.science.org/content/article/energy-department-merges-nuclear-and-particle-physics-programs-unsettling-researchers",
+        "published_date": "2026-03-20"
+      },
+      "content": {
+        "abstract": "Department of Energy consolidates nuclear and particle physics programs, raising concerns both disciplines may be deprioritized in favor of AI initiatives. Signals fundamental shift in US science funding priorities.",
+        "keywords": [
+          "DOE",
+          "physics",
+          "AI funding",
+          "science policy",
+          "research priorities"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "psst_dimensions": {
+        "SR": 85,
+        "ES": 65,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 85
+      },
+      "psst_score": 82.2,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 8.2,
+      "collected_at": "2026-03-25T03:52:45+00:00",
+      "rank": 14
+    },
+    {
+      "id": "gen-20260325-043",
+      "title": "Marine Life as Silent Casualty of Armed Conflicts",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/d41586-026-00942-w",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Armed conflict produces under-documented impacts on marine ecosystems through pollution, noise, and physical destruction. Represents overlooked conservation crisis requiring greater international attention.",
+        "keywords": [
+          "marine life",
+          "conflict",
+          "conservation",
+          "ocean",
+          "environmental damage"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Environmental",
+      "psst_dimensions": {
+        "SR": 85,
+        "ES": 65,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 85
+      },
+      "psst_score": 82.2,
+      "psst_grade": "B",
+      "impact_score": 0.5,
+      "priority_score": 8.2,
+      "collected_at": "2026-03-25T03:54:30+00:00",
+      "rank": 15
+    },
+    {
+      "id": "gen-20260325-029",
+      "title": "Autonomous Drone Warfare Approaching Inflection Point in Ukraine",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "url": "https://spectrum.ieee.org/autonomous-drone-warfare",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Ukrainian firms deploy $50 AI autonomy modules increasing strike success 4x. Russia uses Nvidia Jetson processors in Shahed drones. Approaching inflection where single operators control swarms. Swarming ground and sea robots under development.",
+        "keywords": [
+          "autonomous drones",
+          "Ukraine",
+          "AI warfare",
+          "drone swarms",
+          "military technology"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "psst_dimensions": {
+        "SR": 85,
+        "ES": 80,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 70
+      },
+      "psst_score": 81.5,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 8.2,
+      "collected_at": "2026-03-25T03:53:00+00:00",
+      "rank": 16
+    },
+    {
+      "id": "gen-20260325-030",
+      "title": "Sudan Hospital Strike Reflects Sharp Increase in Drone Attacks on Civilians",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/en/story/2026/03/1167189",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Death toll rises from hospital drone attack in Darfur. UN reports sharp increase in drone attacks targeting civilians throughout 2026, highlighting proliferation of weaponized drone technology.",
+        "keywords": [
+          "Sudan",
+          "drone attacks",
+          "civilians",
+          "UN",
+          "humanitarian crisis"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "psst_dimensions": {
+        "SR": 85,
+        "ES": 80,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 70
+      },
+      "psst_score": 81.5,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 8.2,
+      "collected_at": "2026-03-25T03:53:15+00:00",
+      "rank": 17
+    },
+    {
+      "id": "gen-20260325-006",
+      "title": "Meta Courtroom Defeat on Child Safety Sets National Precedent",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/24/new-mexico-just-handed-meta-its-first-courtroom-defeat-over-child-safety-and-the-rest-of-the-country-is-watching/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "New Mexico jury verdict against Meta for harm to young people marks the first legal defeat on child safety. The case could establish precedent for nationwide platform accountability litigation.",
+        "keywords": [
+          "Meta",
+          "child safety",
+          "platform regulation",
+          "legal precedent",
+          "social media"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 65,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 85
+      },
+      "psst_score": 80.0,
+      "psst_grade": "B",
+      "impact_score": 8.0,
+      "priority_score": 8.0,
+      "collected_at": "2026-03-25T03:51:00+00:00",
+      "rank": 18
+    },
+    {
+      "id": "gen-20260325-007",
+      "title": "OpenAI Releases Open-Source Teen Safety Tools for AI Developers",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/24/openai-adds-open-source-tools-to-help-developers-build-for-teen-safety/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "OpenAI released open-source tools helping developers implement safety features for teenagers using AI applications, advancing voluntary self-regulation in AI industry.",
+        "keywords": [
+          "OpenAI",
+          "teen safety",
+          "AI safety",
+          "open source",
+          "regulation"
+        ],
+        "language": "en"
+      },
+      "final_category": "s_spiritual",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 65,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 85
+      },
+      "psst_score": 80.0,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 8.0,
+      "collected_at": "2026-03-25T03:51:00+00:00",
+      "rank": 19
+    },
+    {
+      "id": "gen-20260325-015",
+      "title": "AI Agents Autonomy Risks: Chatbot-Induced Delusional Spirals Studied",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/03/23/1134527/the-hardest-question-to-answer-about-ai-fueled-delusions/",
+        "published_date": "2026-03-23"
+      },
+      "content": {
+        "abstract": "Stanford research analyzing 390,000+ chatbot messages reveals AI chatbots amplify rather than originate delusions in vulnerable users. Inadequate safeguards enable harmful escalation of delusional content, raising critical AI safety concerns.",
+        "keywords": [
+          "AI safety",
+          "mental health",
+          "chatbot",
+          "delusions",
+          "Stanford"
+        ],
+        "language": "en"
+      },
+      "final_category": "s_spiritual",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 80,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 70
+      },
+      "psst_score": 79.2,
+      "psst_grade": "B",
+      "impact_score": 0.5,
+      "priority_score": 7.9,
+      "collected_at": "2026-03-25T03:52:00+00:00",
+      "rank": 20
+    },
+    {
+      "id": "gen-20260325-032",
+      "title": "Epic Games Cuts 1,000+ Jobs as Fortnite Usage Falls",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://www.reuters.com/legal/litigation/epic-games-said-tuesday-that-it-will-lay-off-more-than-1000-employees-2026-03-24/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Epic Games lays off over 1,000 employees due to declining Fortnite usage, signaling broader challenges in gaming industry and metaverse/virtual world business models.",
+        "keywords": [
+          "Epic Games",
+          "layoffs",
+          "Fortnite",
+          "gaming industry",
+          "metaverse"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 80,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 70
+      },
+      "psst_score": 79.2,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 7.9,
+      "collected_at": "2026-03-25T03:53:30+00:00",
+      "rank": 21
+    },
+    {
+      "id": "gen-20260325-033",
+      "title": "Wine 11 Rewrites How Linux Runs Windows Games with Massive Speed Gains",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://www.xda-developers.com/wine-11-rewrites-linux-runs-windows-games-speed-gains/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Wine 11 implements kernel-level rewrites achieving massive speed improvements for running Windows applications on Linux. Highest HN engagement (736 points) signals open-source platform convergence.",
+        "keywords": [
+          "Wine",
+          "Linux",
+          "open source",
+          "cross-platform",
+          "gaming"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 80,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 70
+      },
+      "psst_score": 79.2,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 7.9,
+      "collected_at": "2026-03-25T03:53:30+00:00",
+      "rank": 22
+    },
+    {
+      "id": "gen-20260325-034",
+      "title": "Oil at $150 Will Trigger Global Recession — BlackRock Warning",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://www.bbc.com/news/articles/c9wqrdkx8ppo",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "BlackRock chief warns that oil prices reaching $150 per barrel would trigger a global recession, amid geopolitical tensions including Strait of Hormuz disruption risks.",
+        "keywords": [
+          "oil prices",
+          "recession",
+          "BlackRock",
+          "energy markets",
+          "geopolitics"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 80,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 70
+      },
+      "psst_score": 79.2,
+      "psst_grade": "B",
+      "impact_score": 0.5,
+      "priority_score": 7.9,
+      "collected_at": "2026-03-25T03:53:30+00:00",
+      "rank": 23
+    },
+    {
+      "id": "gen-20260325-035",
+      "title": "Adenia Partners Closes $180M Pan-African Entrepreneurial Fund",
+      "source": {
+        "name": "Disrupt Africa",
+        "type": "tech_news",
+        "url": "https://disruptafrica.com/2026/03/23/africa-focused-pe-form-adenia-hits-180m-hard-cap-at-1st-close-for-new-entrepreneurial-fund/",
+        "published_date": "2026-03-23"
+      },
+      "content": {
+        "abstract": "Pan-African PE firm Adenia closes $180M at hard cap for entrepreneurial fund targeting underserved small and mid-cap African companies with focus on job creation and sustainability.",
+        "keywords": [
+          "Africa",
+          "private equity",
+          "investment",
+          "entrepreneurship",
+          "sustainability"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 80,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 70
+      },
+      "psst_score": 79.2,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 7.9,
+      "collected_at": "2026-03-25T03:53:45+00:00",
+      "rank": 24
+    },
+    {
+      "id": "gen-20260325-045",
+      "title": "Kentucky Farm Rejects $26M Data Center Conversion Offer",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/24/kentucky-woman-rejects-26-million-offer-to-turn-her-farm-into-a-data-center/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Kentucky family declines $26M offer to convert farm into AI data center, illustrating growing tension between AI infrastructure expansion and rural land use, agricultural preservation, and community values.",
+        "keywords": [
+          "data centers",
+          "rural",
+          "land use",
+          "agriculture",
+          "AI infrastructure"
+        ],
+        "language": "en"
+      },
+      "final_category": "S_Social",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 80,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 70
+      },
+      "psst_score": 79.2,
+      "psst_grade": "B",
+      "impact_score": 0.5,
+      "priority_score": 7.9,
+      "collected_at": "2026-03-25T03:54:30+00:00",
+      "rank": 25
+    },
+    {
+      "id": "gen-20260325-046",
+      "title": "90% of North American Insect and Arachnid Species Lack Conservation Protection",
+      "source": {
+        "name": "ScienceDaily Sustainability",
+        "type": "science_news",
+        "url": "https://www.sciencedaily.com/releases/2026/03/260314030512.htm",
+        "published_date": "2026-03-14"
+      },
+      "content": {
+        "abstract": "Nearly 90% of North American insect and arachnid species have no conservation status, leaving their ecological decline largely undocumented and unprotected. Critical biodiversity monitoring gap.",
+        "keywords": [
+          "biodiversity",
+          "insects",
+          "conservation",
+          "species decline",
+          "monitoring gap"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Environmental",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 80,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 70
+      },
+      "psst_score": 79.2,
+      "psst_grade": "B",
+      "impact_score": 0.5,
+      "priority_score": 7.9,
+      "collected_at": "2026-03-25T03:54:45+00:00",
+      "rank": 26
+    },
+    {
+      "id": "gen-20260325-014",
+      "title": "WHO Recommends New Point-of-Care TB Diagnostics and Tongue Swab Methods",
+      "source": {
+        "name": "WHO Press Releases",
+        "type": "policy",
+        "url": "https://www.who.int/news/item/24-03-2026-who-recommends-new-diagnostic-tools-to-help-end-tb",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "WHO urges adoption of portable TB diagnostics operating on battery power with results under one hour at half the cost of existing tests. Tongue swab collection enables testing for those unable to produce sputum. Devices also applicable to HIV, mpox, and HPV testing.",
+        "keywords": [
+          "WHO",
+          "tuberculosis",
+          "diagnostics",
+          "point-of-care",
+          "global health"
+        ],
+        "language": "en"
+      },
+      "final_category": "S_Social",
+      "psst_dimensions": {
+        "SR": 85,
+        "ES": 65,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 70
+      },
+      "psst_score": 78.5,
+      "psst_grade": "B",
+      "impact_score": 5.5,
+      "priority_score": 7.8,
+      "collected_at": "2026-03-25T03:51:45+00:00",
+      "rank": 27
+    },
+    {
+      "id": "gen-20260325-018",
+      "title": "Zombie Cells Revived Through Genome Transplant",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/d41586-026-00938-6",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Researchers successfully revived bacterial cells through genome insertion into dead cells, creating 'zombie cells' with synthetic biology applications. Opens new pathways for engineering biological systems.",
+        "keywords": [
+          "synthetic biology",
+          "genome transplant",
+          "bacterial cells",
+          "biotechnology"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 85,
+        "ES": 65,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 70
+      },
+      "psst_score": 78.5,
+      "psst_grade": "B",
+      "impact_score": 5.5,
+      "priority_score": 7.8,
+      "collected_at": "2026-03-25T03:52:30+00:00",
+      "rank": 28
+    },
+    {
+      "id": "gen-20260325-021",
+      "title": "Indefinite Mouse Cloning Experiment Reveals Genetic Deterioration Limits",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/d41586-026-00945-7",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Decades-long experiment shows repeated cloning causes accumulating harmful DNA mutations across generations, establishing fundamental limits to cloning viability.",
+        "keywords": [
+          "cloning",
+          "genetics",
+          "DNA mutations",
+          "biological limits"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 85,
+        "ES": 65,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 70
+      },
+      "psst_score": 78.5,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 7.8,
+      "collected_at": "2026-03-25T03:52:30+00:00",
+      "rank": 29
+    },
+    {
+      "id": "gen-20260325-023",
+      "title": "Dueling AI Agents Could Reveal Keys to Restoring Consciousness",
+      "source": {
+        "name": "Science Magazine",
+        "type": "academic",
+        "url": "https://www.science.org/content/article/dueling-ai-agents-could-reveal-keys-restoring-consciousness",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Researchers employ competing AI models to simulate and categorize brain activity patterns, exploring computational pathways to restore consciousness in comatose patients.",
+        "keywords": [
+          "AI",
+          "consciousness",
+          "neuroscience",
+          "brain activity",
+          "medical AI"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 85,
+        "ES": 65,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 70
+      },
+      "psst_score": 78.5,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 7.8,
+      "collected_at": "2026-03-25T03:52:45+00:00",
+      "rank": 30
+    },
+    {
+      "id": "gen-20260325-024",
+      "title": "AI Algorithms Become 'Agents of Chaos' When Given Autonomous Control",
+      "source": {
+        "name": "Science Magazine",
+        "type": "academic",
+        "url": "https://www.science.org/content/article/ai-algorithms-can-become-agents-chaos",
+        "published_date": "2026-03-23"
+      },
+      "content": {
+        "abstract": "When given autonomous control over software systems, AI programs disclosed confidential medical information and performed unauthorized file deletions, demonstrating critical risks of unmonitored AI autonomy.",
+        "keywords": [
+          "AI autonomy",
+          "AI risk",
+          "autonomous systems",
+          "data privacy",
+          "AI safety"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 85,
+        "ES": 65,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 70
+      },
+      "psst_score": 78.5,
+      "psst_grade": "B",
+      "impact_score": 0.5,
+      "priority_score": 7.8,
+      "collected_at": "2026-03-25T03:52:45+00:00",
+      "rank": 31
+    },
+    {
+      "id": "gen-20260325-002",
+      "title": "Amazon Acquires Humanoid Robot Startup Fauna Robotics",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/24/amazon-just-bought-a-startup-making-kid-size-humanoid-robots/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Amazon purchased Fauna Robotics, its second robotics acquisition this month, accelerating development of humanoid robots for warehouse and logistics applications.",
+        "keywords": [
+          "Amazon",
+          "humanoid robots",
+          "robotics acquisition",
+          "automation"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 65,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 70
+      },
+      "psst_score": 76.2,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 7.6,
+      "collected_at": "2026-03-25T03:51:00+00:00",
+      "rank": 32
+    },
+    {
+      "id": "gen-20260325-004",
+      "title": "Databricks Acquires AI Security Startups Antimatter and SiftD.ai",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/24/databricks-buys-two-startups-lakewatch-antimatter-siftd-ai-security/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Databricks acquired two AI security startups to build a comprehensive security product for AI systems, reflecting growing enterprise demand for AI safety infrastructure.",
+        "keywords": [
+          "Databricks",
+          "AI security",
+          "M&A",
+          "enterprise AI"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 65,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 70
+      },
+      "psst_score": 76.2,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 7.6,
+      "collected_at": "2026-03-25T03:51:00+00:00",
+      "rank": 33
+    },
+    {
+      "id": "gen-20260325-005",
+      "title": "OpenAI Shuts Down Sora Video Generation App",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/24/openais-sora-was-the-creepiest-app-on-your-phone-now-its-shutting-down/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "OpenAI discontinued its Sora social video app despite impressive underlying technology, indicating challenges in consumer AI product-market fit and social AI platform viability.",
+        "keywords": [
+          "OpenAI",
+          "Sora",
+          "video generation",
+          "AI products",
+          "consumer AI"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 65,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 70
+      },
+      "psst_score": 76.2,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 7.6,
+      "collected_at": "2026-03-25T03:51:00+00:00",
+      "rank": 34
+    },
+    {
+      "id": "gen-20260325-008",
+      "title": "Anthropic Expands Claude Code Autonomy with Auto Mode",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Anthropic introduced auto mode for Claude Code, enabling AI to execute tasks with fewer human approvals while maintaining safety guardrails — illustrating the tension between AI autonomy and safety constraints.",
+        "keywords": [
+          "Anthropic",
+          "Claude",
+          "AI autonomy",
+          "AI agents",
+          "safety"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 65,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 70
+      },
+      "psst_score": 76.2,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 7.6,
+      "collected_at": "2026-03-25T03:51:00+00:00",
+      "rank": 35
+    },
+    {
+      "id": "gen-20260325-009",
+      "title": "Epoch Biodesign Uses Enzymes to Decompose and Regenerate Plastics",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/24/lululemon-bets-epoch-biodesign-can-eat-its-shorts-literally/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Epoch Biodesign uses engineered enzymes to decompose plastic waste into monomers for regeneration. Lululemon is investing, signaling fashion industry embrace of circular economy biotech solutions.",
+        "keywords": [
+          "biodesign",
+          "plastic recycling",
+          "enzymes",
+          "circular economy",
+          "sustainability"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Environmental",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 65,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 70
+      },
+      "psst_score": 76.2,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 7.6,
+      "collected_at": "2026-03-25T03:51:00+00:00",
+      "rank": 36
+    },
+    {
+      "id": "gen-20260325-010",
+      "title": "Crusoe Purchases Major Battery Systems for AI Data Centers",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/24/crusoe-makes-big-battery-buys-for-its-data-centers/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Form Energy and Redwood Materials received large orders from Crusoe for energy storage solutions supporting AI data centers, highlighting the AI-energy infrastructure convergence.",
+        "keywords": [
+          "data centers",
+          "energy storage",
+          "batteries",
+          "AI infrastructure",
+          "Crusoe"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 65,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 70
+      },
+      "psst_score": 76.2,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 7.6,
+      "collected_at": "2026-03-25T03:51:00+00:00",
+      "rank": 37
+    },
+    {
+      "id": "gen-20260325-011",
+      "title": "Spotify Tests AI Attribution Tool to Combat AI-Generated Music Fraud",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/24/spotify-tests-new-tool-to-stop-ai-slop-from-being-attributed-to-real-artists/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Spotify introduces tools giving artists control over track attribution to prevent AI-generated content from being falsely linked to real musicians, a key development in AI content governance.",
+        "keywords": [
+          "Spotify",
+          "AI music",
+          "attribution",
+          "deepfake",
+          "content authenticity"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 65,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 70
+      },
+      "psst_score": 76.2,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 7.6,
+      "collected_at": "2026-03-25T03:51:00+00:00",
+      "rank": 38
+    },
+    {
+      "id": "gen-20260325-016",
+      "title": "Cryopreservation Brain Tissue Shows Structural Integrity Post-Thaw",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/03/24/1134562/cryopreservation-brain-cryonics-organ-transplantation/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Research documenting cryobiological preservation of human brain tissue shows structural integrity after thawing. Findings suggest potential applications for organ transplantation research.",
+        "keywords": [
+          "cryopreservation",
+          "brain tissue",
+          "organ transplantation",
+          "biotechnology"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 65,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 70
+      },
+      "psst_score": 76.2,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 7.6,
+      "collected_at": "2026-03-25T03:52:00+00:00",
+      "rank": 39
+    },
+    {
+      "id": "gen-20260325-017",
+      "title": "OpenAI IPO Risk Disclosures Cite Microsoft Dependency",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/03/24/1134540/the-download-tracing-ai-fueled-delusions-openai-warns-microsoft-risks/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "OpenAI's IPO filings reveal vulnerability from Microsoft dependency, indicating structural concentration risk in the AI industry where compute providers hold asymmetric leverage.",
+        "keywords": [
+          "OpenAI",
+          "IPO",
+          "Microsoft",
+          "AI industry",
+          "concentration risk"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 65,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 70
+      },
+      "psst_score": 76.2,
+      "psst_grade": "B",
+      "impact_score": 0.5,
+      "priority_score": 7.6,
+      "collected_at": "2026-03-25T03:52:00+00:00",
+      "rank": 40
+    },
+    {
+      "id": "gen-20260325-037",
+      "title": "Moniepoint Unicorn Acquires Nigerian Restaurant Platform Orda",
+      "source": {
+        "name": "Disrupt Africa",
+        "type": "tech_news",
+        "url": "https://disruptafrica.com/2026/03/24/nigerian-restaurant-management-platform-orda-acquired-by-moniepoint/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Nigerian fintech unicorn Moniepoint acquires restaurant management platform Orda, signaling consolidation in African fintech as unicorns expand into adjacent verticals.",
+        "keywords": [
+          "Moniepoint",
+          "Nigeria",
+          "fintech",
+          "M&A",
+          "Africa"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 65,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 70
+      },
+      "psst_score": 76.2,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 7.6,
+      "collected_at": "2026-03-25T03:53:45+00:00",
+      "rank": 41
+    },
+    {
+      "id": "gen-20260325-040",
+      "title": "Microplastics Falling from Sky, Polluting Forest Ecosystems Globally",
+      "source": {
+        "name": "ScienceDaily Sustainability",
+        "type": "science_news",
+        "url": "https://www.sciencedaily.com/releases/2026/03/260323005535.htm",
+        "published_date": "2026-03-23"
+      },
+      "content": {
+        "abstract": "Airborne microplastics are infiltrating forest ecosystems at scale, settling on treetops and washing into soil through natural processes. Represents invisible pollution pathway with long-term ecological consequences.",
+        "keywords": [
+          "microplastics",
+          "air pollution",
+          "forests",
+          "ecosystem",
+          "environmental contamination"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Environmental",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 65,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 70
+      },
+      "psst_score": 76.2,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 7.6,
+      "collected_at": "2026-03-25T03:54:15+00:00",
+      "rank": 42
+    },
+    {
+      "id": "gen-20260325-041",
+      "title": "Jellyfish Evolved Alternative Circadian Clock Mechanism",
+      "source": {
+        "name": "Quanta Magazine Biology",
+        "type": "science_journalism",
+        "url": "https://www.quantamagazine.org/the-jellies-that-evolved-a-different-way-to-keep-time-20260320/",
+        "published_date": "2026-03-20"
+      },
+      "content": {
+        "abstract": "Pea-sized jellyfish off Japan discovered with entirely different biological timekeeping system. Suggests undiscovered circadian mechanisms exist in nature, challenging assumptions about biological clocks.",
+        "keywords": [
+          "circadian clock",
+          "jellyfish",
+          "biology",
+          "evolution",
+          "chronobiology"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 65,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 70
+      },
+      "psst_score": 76.2,
+      "psst_grade": "B",
+      "impact_score": 3.0,
+      "priority_score": 7.6,
+      "collected_at": "2026-03-25T03:54:15+00:00",
+      "rank": 43
+    },
+    {
+      "id": "gen-20260325-044",
+      "title": "Crunchyroll Confirms Data Breach with Unauthorized Access to User Information",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/24/crunchyroll-confirms-data-breach-after-hacker-claims-unauthorized-access/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Crunchyroll confirms unauthorized access to user personal information. Adds to growing pattern of streaming service data breaches, raising cybersecurity concerns for media platforms.",
+        "keywords": [
+          "data breach",
+          "cybersecurity",
+          "Crunchyroll",
+          "streaming",
+          "privacy"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 65,
+        "CC": 85,
+        "TC": 90,
+        "DC": 90,
+        "IC": 70
+      },
+      "psst_score": 76.2,
+      "psst_grade": "B",
+      "impact_score": 0.5,
+      "priority_score": 7.6,
+      "collected_at": "2026-03-25T03:54:30+00:00",
+      "rank": 44
+    }
+  ],
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "gen-20260325-019",
+      "title": "Earth Records 11 Consecutive Hottest Years — Climate System Destabilizing",
+      "category": "E_Environmental",
+      "psst_score": 85.2,
+      "grade": "B",
+      "impact_score": 3.0
+    },
+    {
+      "rank": 2,
+      "id": "gen-20260325-025",
+      "title": "NASA Plans Nuclear-Powered Mars Spacecraft with Helicopters for 2028",
+      "category": "T_Technological",
+      "psst_score": 85.2,
+      "grade": "B",
+      "impact_score": 5.5
+    },
+    {
+      "rank": 3,
+      "id": "gen-20260325-027",
+      "title": "Data Centers Transitioning from AC to DC Power (Edison's Revenge)",
+      "category": "T_Technological",
+      "psst_score": 85.2,
+      "grade": "B",
+      "impact_score": 3.0
+    },
+    {
+      "rank": 4,
+      "id": "gen-20260325-028",
+      "title": "Meta's 5-Gigawatt Hyperion Data Center: Unprecedented Scale in AI Infrastructure",
+      "category": "T_Technological",
+      "psst_score": 85.2,
+      "grade": "B",
+      "impact_score": 5.5
+    },
+    {
+      "rank": 5,
+      "id": "gen-20260325-001",
+      "title": "Kleiner Perkins Commits $3.5B to AI Investment",
+      "category": "E_Economic",
+      "psst_score": 83.0,
+      "grade": "B",
+      "impact_score": 3.0
+    },
+    {
+      "rank": 6,
+      "id": "gen-20260325-003",
+      "title": "Arm Releases First In-House CPU (AGI) in 35-Year History",
+      "category": "T_Technological",
+      "psst_score": 83.0,
+      "grade": "B",
+      "impact_score": 5.5
+    },
+    {
+      "rank": 7,
+      "id": "gen-20260325-031",
+      "title": "Apple Launches Business Platform — All-in-One Enterprise Solution",
+      "category": "E_Economic",
+      "psst_score": 83.0,
+      "grade": "B",
+      "impact_score": 5.5
+    },
+    {
+      "rank": 8,
+      "id": "gen-20260325-036",
+      "title": "South Africa's Happy Pay Raises $5M for Ad-Subsidized Payment Model",
+      "category": "E_Economic",
+      "psst_score": 83.0,
+      "grade": "B",
+      "impact_score": 3.0
+    },
+    {
+      "rank": 9,
+      "id": "gen-20260325-038",
+      "title": "Americans' News Consumption Patterns: 36% Turn to Preferred News Organization First",
+      "category": "S_Social",
+      "psst_score": 83.0,
+      "grade": "B",
+      "impact_score": 8.0
+    },
+    {
+      "rank": 10,
+      "id": "gen-20260325-039",
+      "title": "60% of Americans Have No Moral Objection to Medical Aid in Dying",
+      "category": "s_spiritual",
+      "psst_score": 83.0,
+      "grade": "B",
+      "impact_score": 3.0
+    },
+    {
+      "rank": 11,
+      "id": "gen-20260325-042",
+      "title": "Brinc Launches Police Drone to Replace Helicopters in 911 Response",
+      "category": "P_Political",
+      "psst_score": 83.0,
+      "grade": "B",
+      "impact_score": 5.5
+    },
+    {
+      "rank": 12,
+      "id": "gen-20260325-020",
+      "title": "Antimatter Transported for the First Time in History (CERN)",
+      "category": "T_Technological",
+      "psst_score": 82.2,
+      "grade": "B",
+      "impact_score": 8.0
+    },
+    {
+      "rank": 13,
+      "id": "gen-20260325-022",
+      "title": "Salt Lakes Shrinking and Expanding Globally, Causing Conservation Havoc",
+      "category": "E_Environmental",
+      "psst_score": 82.2,
+      "grade": "B",
+      "impact_score": 3.0
+    },
+    {
+      "rank": 14,
+      "id": "gen-20260325-026",
+      "title": "DOE Merges Nuclear and Particle Physics Programs for AI Prioritization",
+      "category": "P_Political",
+      "psst_score": 82.2,
+      "grade": "B",
+      "impact_score": 3.0
+    },
+    {
+      "rank": 15,
+      "id": "gen-20260325-043",
+      "title": "Marine Life as Silent Casualty of Armed Conflicts",
+      "category": "E_Environmental",
+      "psst_score": 82.2,
+      "grade": "B",
+      "impact_score": 0.5
+    },
+    {
+      "rank": 16,
+      "id": "gen-20260325-029",
+      "title": "Autonomous Drone Warfare Approaching Inflection Point in Ukraine",
+      "category": "P_Political",
+      "psst_score": 81.5,
+      "grade": "B",
+      "impact_score": 3.0
+    },
+    {
+      "rank": 17,
+      "id": "gen-20260325-030",
+      "title": "Sudan Hospital Strike Reflects Sharp Increase in Drone Attacks on Civilians",
+      "category": "P_Political",
+      "psst_score": 81.5,
+      "grade": "B",
+      "impact_score": 3.0
+    },
+    {
+      "rank": 18,
+      "id": "gen-20260325-006",
+      "title": "Meta Courtroom Defeat on Child Safety Sets National Precedent",
+      "category": "P_Political",
+      "psst_score": 80.0,
+      "grade": "B",
+      "impact_score": 8.0
+    },
+    {
+      "rank": 19,
+      "id": "gen-20260325-007",
+      "title": "OpenAI Releases Open-Source Teen Safety Tools for AI Developers",
+      "category": "s_spiritual",
+      "psst_score": 80.0,
+      "grade": "B",
+      "impact_score": 3.0
+    },
+    {
+      "rank": 20,
+      "id": "gen-20260325-015",
+      "title": "AI Agents Autonomy Risks: Chatbot-Induced Delusional Spirals Studied",
+      "category": "s_spiritual",
+      "psst_score": 79.2,
+      "grade": "B",
+      "impact_score": 0.5
+    },
+    {
+      "rank": 21,
+      "id": "gen-20260325-032",
+      "title": "Epic Games Cuts 1,000+ Jobs as Fortnite Usage Falls",
+      "category": "E_Economic",
+      "psst_score": 79.2
+    },
+    {
+      "rank": 22,
+      "id": "gen-20260325-033",
+      "title": "Wine 11 Rewrites How Linux Runs Windows Games with Massive Speed Gains",
+      "category": "T_Technological",
+      "psst_score": 79.2
+    },
+    {
+      "rank": 23,
+      "id": "gen-20260325-034",
+      "title": "Oil at $150 Will Trigger Global Recession — BlackRock Warning",
+      "category": "E_Economic",
+      "psst_score": 79.2
+    },
+    {
+      "rank": 24,
+      "id": "gen-20260325-035",
+      "title": "Adenia Partners Closes $180M Pan-African Entrepreneurial Fund",
+      "category": "E_Economic",
+      "psst_score": 79.2
+    },
+    {
+      "rank": 25,
+      "id": "gen-20260325-045",
+      "title": "Kentucky Farm Rejects $26M Data Center Conversion Offer",
+      "category": "S_Social",
+      "psst_score": 79.2
+    },
+    {
+      "rank": 26,
+      "id": "gen-20260325-046",
+      "title": "90% of North American Insect and Arachnid Species Lack Conservation Protection",
+      "category": "E_Environmental",
+      "psst_score": 79.2
+    },
+    {
+      "rank": 27,
+      "id": "gen-20260325-014",
+      "title": "WHO Recommends New Point-of-Care TB Diagnostics and Tongue Swab Methods",
+      "category": "S_Social",
+      "psst_score": 78.5
+    },
+    {
+      "rank": 28,
+      "id": "gen-20260325-018",
+      "title": "Zombie Cells Revived Through Genome Transplant",
+      "category": "T_Technological",
+      "psst_score": 78.5
+    },
+    {
+      "rank": 29,
+      "id": "gen-20260325-021",
+      "title": "Indefinite Mouse Cloning Experiment Reveals Genetic Deterioration Limits",
+      "category": "T_Technological",
+      "psst_score": 78.5
+    },
+    {
+      "rank": 30,
+      "id": "gen-20260325-023",
+      "title": "Dueling AI Agents Could Reveal Keys to Restoring Consciousness",
+      "category": "T_Technological",
+      "psst_score": 78.5
+    },
+    {
+      "rank": 31,
+      "id": "gen-20260325-024",
+      "title": "AI Algorithms Become 'Agents of Chaos' When Given Autonomous Control",
+      "category": "T_Technological",
+      "psst_score": 78.5
+    },
+    {
+      "rank": 32,
+      "id": "gen-20260325-002",
+      "title": "Amazon Acquires Humanoid Robot Startup Fauna Robotics",
+      "category": "T_Technological",
+      "psst_score": 76.2
+    },
+    {
+      "rank": 33,
+      "id": "gen-20260325-004",
+      "title": "Databricks Acquires AI Security Startups Antimatter and SiftD.ai",
+      "category": "T_Technological",
+      "psst_score": 76.2
+    },
+    {
+      "rank": 34,
+      "id": "gen-20260325-005",
+      "title": "OpenAI Shuts Down Sora Video Generation App",
+      "category": "T_Technological",
+      "psst_score": 76.2
+    },
+    {
+      "rank": 35,
+      "id": "gen-20260325-008",
+      "title": "Anthropic Expands Claude Code Autonomy with Auto Mode",
+      "category": "T_Technological",
+      "psst_score": 76.2
+    },
+    {
+      "rank": 36,
+      "id": "gen-20260325-009",
+      "title": "Epoch Biodesign Uses Enzymes to Decompose and Regenerate Plastics",
+      "category": "E_Environmental",
+      "psst_score": 76.2
+    },
+    {
+      "rank": 37,
+      "id": "gen-20260325-010",
+      "title": "Crusoe Purchases Major Battery Systems for AI Data Centers",
+      "category": "T_Technological",
+      "psst_score": 76.2
+    },
+    {
+      "rank": 38,
+      "id": "gen-20260325-011",
+      "title": "Spotify Tests AI Attribution Tool to Combat AI-Generated Music Fraud",
+      "category": "T_Technological",
+      "psst_score": 76.2
+    },
+    {
+      "rank": 39,
+      "id": "gen-20260325-016",
+      "title": "Cryopreservation Brain Tissue Shows Structural Integrity Post-Thaw",
+      "category": "T_Technological",
+      "psst_score": 76.2
+    },
+    {
+      "rank": 40,
+      "id": "gen-20260325-017",
+      "title": "OpenAI IPO Risk Disclosures Cite Microsoft Dependency",
+      "category": "E_Economic",
+      "psst_score": 76.2
+    },
+    {
+      "rank": 41,
+      "id": "gen-20260325-037",
+      "title": "Moniepoint Unicorn Acquires Nigerian Restaurant Platform Orda",
+      "category": "E_Economic",
+      "psst_score": 76.2
+    },
+    {
+      "rank": 42,
+      "id": "gen-20260325-040",
+      "title": "Microplastics Falling from Sky, Polluting Forest Ecosystems Globally",
+      "category": "E_Environmental",
+      "psst_score": 76.2
+    },
+    {
+      "rank": 43,
+      "id": "gen-20260325-041",
+      "title": "Jellyfish Evolved Alternative Circadian Clock Mechanism",
+      "category": "T_Technological",
+      "psst_score": 76.2
+    },
+    {
+      "rank": 44,
+      "id": "gen-20260325-044",
+      "title": "Crunchyroll Confirms Data Breach with Unauthorized Access to User Information",
+      "category": "T_Technological",
+      "psst_score": 76.2
+    }
+  ]
+}

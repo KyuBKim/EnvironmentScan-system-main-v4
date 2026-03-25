@@ -1,8 +1,8 @@
-# 환경 스캐닝 시스템 v3.5.0 — 사용자 매뉴얼
+# 환경 스캐닝 시스템 v3.5.1 — 사용자 매뉴얼
 
-**버전**: 6.0 (2026-03-24)
+**버전**: 7.0 (2026-03-25)
 **대상**: 시스템 운영자 / 인수인계 대상
-**시스템**: Quadruple Workflow Environmental Scanning System v3.5.0
+**시스템**: Quadruple Workflow Environmental Scanning System v3.5.1
 
 ---
 
@@ -471,9 +471,14 @@ TIS = 0.30 x 소스 수 + 0.30 x pSST 변화량 + 0.20 x 언급 빈도 + 0.20 x 
 
 - **파일 위치**: `dashboard.html` (프로젝트 루트)
 - **아카이브**: `env-scanning/integrated/reports/dashboard-archive/{year}/{month}/`
-- **구성**: 6+ 요약 탭 (Overview, KPIs, STEEPs, FSSF, Risk Matrix, Patterns) + 5 보고서 탭 (WF1~WF4 + 통합)
+- **구성**: 10 요약 탭 (Overview, Top 20, WF1~WF4 요약, Patterns, Strategy, Scenario, Timeline) + 5 보고서 탭 (WF1~WF4 + 통합)
 - **언어 전환**: 각 보고서 탭에서 EN/KO 토글 가능
-- **데이터 원천**: 모든 정량 데이터는 Python이 JSON에서 직접 계산 (LLM 할루시네이션 불가)
+- **데이터 원천**: 모든 정량 데이터는 `dashboard_data_extractor.py`가 JSON에서 직접 계산 (LLM 할루시네이션 불가)
+- **교차 WF 강화**: Jaccard 유사도 기반 자동 감지 (임계값: `thresholds.yaml` → `dashboard.cross_wf_reinforcement`)
+- **리스크 매트릭스**: 6개 카테고리 (`risk-categories.yaml`), 확률은 공식 기반 결정론적 계산
+- **타임라인 맵**: 금일 미생성 시 최신 파일 자동 fallback + orange 경고 배너로 staleness 표시
+- **오프라인 지원**: Chart.js CDN 접근 불가 시 차트 대신 안내 메시지 표시, 테이블 데이터는 정상 작동
+- **검증**: `validate_dashboard.py` (DB-001~006: 파일 존재, 100KB+, 탭 완성도, 보고서 삽입, 한국어 비율, Chart.js 무결성)
 - **자동 오픈 비활성화**: SOT `integration.dashboard.auto_open: false`로 설정
 
 ---

@@ -1,0 +1,19 @@
+{
+  "scan_date": "2026-03-25",
+  "workflow": "wf1-general",
+  "total_raw": 46,
+  "duplicates_removed": 2,
+  "new_signals": 44,
+  "duplicate_details": [
+    {
+      "id": "gen-20260325-012",
+      "title": "FCC Proposes Eliminating Legacy Tariffs for All-IP Network Transition",
+      "reason": "URL_EXACT: matches wf1-20260319-009"
+    },
+    {
+      "id": "gen-20260325-013",
+      "title": "NIH Seeks Input on Strategic Plan Framework FY2027-2031",
+      "reason": "URL_EXACT: matches wf1-20260319-009"
+    }
+  ]
+}

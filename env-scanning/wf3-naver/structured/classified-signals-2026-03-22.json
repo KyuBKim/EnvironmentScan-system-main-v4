@@ -1,0 +1,283 @@
+{
+  "metadata": {
+    "workflow": "wf3-naver",
+    "date": "2026-03-22",
+    "scan_window": {
+      "start": "2026-03-20T23:35:08Z",
+      "end": "2026-03-21T23:35:08Z"
+    },
+    "total_signals": 15,
+    "duplicates_removed": 2,
+    "unique_signals": 13,
+    "steeps_distribution": {
+      "T": 3,
+      "E": 3,
+      "S": 3,
+      "E_Environmental": 1,
+      "P": 2,
+      "s": 1
+    },
+    "priority_distribution": {
+      "CRITICAL": 3,
+      "HIGH": 5,
+      "MEDIUM": 4,
+      "LOW": 1
+    },
+    "fssf_distribution": {
+      "Weak Signal": 2,
+      "Emerging Issue": 3,
+      "Trend": 3,
+      "Megatrend": 1,
+      "Driver": 2,
+      "Wild Card": 1,
+      "Discontinuity": 0,
+      "Precursor Event": 1
+    },
+    "three_horizons": {
+      "H1": 7,
+      "H2": 4,
+      "H3": 2
+    },
+    "tipping_points": {
+      "RED": 0,
+      "ORANGE": 1,
+      "YELLOW": 2,
+      "GREEN": 10
+    }
+  },
+  "classified_signals": [
+    {
+      "id": "naver-20260322-105-001",
+      "title": "NVIDIA Korea Launches AI Sovereign Cloud Hub in Pangyo -- 10,000 H200 GPUs Dedicated to Korean AI Startups",
+      "steeps": "T",
+      "priority": "CRITICAL",
+      "psst_score": 91,
+      "fssf_type": "Driver",
+      "horizon": "H1",
+      "uncertainty": "LOW",
+      "impact_assessment": "NVIDIA establishing a sovereign AI cloud in Korea signals major shift in global AI compute geography. Dedicated H200 GPU cluster for Korean startups could accelerate domestic AI ecosystem by 2-3 years.",
+      "cross_impact": [
+        "E",
+        "P"
+      ],
+      "signal_status": "emerging",
+      "source_section": "IT/Science (105)",
+      "tipping_alert": "GREEN"
+    },
+    {
+      "id": "naver-20260322-101-001",
+      "title": "Korea Household Debt Reaches Record 1,900 Trillion Won -- BOK Warns of Systemic Risk Threshold",
+      "steeps": "E",
+      "priority": "CRITICAL",
+      "psst_score": 90,
+      "fssf_type": "Trend",
+      "horizon": "H1",
+      "uncertainty": "LOW",
+      "impact_assessment": "Household debt at 107% of GDP crosses BOK internal systemic risk threshold. Rate cuts create contradictory pressure -- easing financial burden but fueling further borrowing.",
+      "cross_impact": [
+        "S",
+        "P"
+      ],
+      "signal_status": "developing",
+      "source_section": "Economy (101)",
+      "tipping_alert": "ORANGE"
+    },
+    {
+      "id": "naver-20260322-102-001",
+      "title": "Korea Birth Rate Falls to 0.55 in February 2026 -- New Record Low, Population Decline Accelerates",
+      "steeps": "S",
+      "priority": "CRITICAL",
+      "psst_score": 92,
+      "fssf_type": "Megatrend",
+      "horizon": "H1",
+      "uncertainty": "LOW",
+      "impact_assessment": "Monthly birth rate dropping below 0.55 indicates demographic crisis is accelerating beyond all government projections. Current trajectory implies population halving within 50 years.",
+      "cross_impact": [
+        "E",
+        "P",
+        "s"
+      ],
+      "signal_status": "strengthening",
+      "source_section": "Society (102)",
+      "tipping_alert": "ORANGE"
+    },
+    {
+      "id": "naver-20260322-100-001",
+      "title": "Korea National Assembly Passes AI Basic Act -- First Comprehensive AI Legislation in Asia",
+      "steeps": "P",
+      "priority": "HIGH",
+      "psst_score": 88,
+      "fssf_type": "Driver",
+      "horizon": "H1",
+      "uncertainty": "MEDIUM",
+      "impact_assessment": "Korea becomes the first Asian country with comprehensive AI legislation. The act creates a regulatory framework covering AI liability, transparency requirements, and high-risk AI classification.",
+      "cross_impact": [
+        "T",
+        "E"
+      ],
+      "signal_status": "emerging",
+      "source_section": "Politics (100)",
+      "tipping_alert": "GREEN"
+    },
+    {
+      "id": "naver-20260322-105-002",
+      "title": "SK Hynix Achieves 321-Layer NAND Flash -- World Record Vertical Integration",
+      "steeps": "T",
+      "priority": "HIGH",
+      "psst_score": 86,
+      "fssf_type": "Emerging Issue",
+      "horizon": "H1",
+      "uncertainty": "LOW",
+      "impact_assessment": "SK Hynix breaks its own world record with 321-layer NAND flash, maintaining Korea dominance in memory semiconductor technology critical for AI data center expansion.",
+      "cross_impact": [
+        "E"
+      ],
+      "signal_status": "developing",
+      "source_section": "IT/Science (105)",
+      "tipping_alert": "GREEN"
+    },
+    {
+      "id": "naver-20260322-101-002",
+      "title": "Korean Won Hits 1,420 against USD -- Export Competitiveness vs. Import Inflation Dilemma",
+      "steeps": "E",
+      "priority": "HIGH",
+      "psst_score": 85,
+      "fssf_type": "Trend",
+      "horizon": "H1",
+      "uncertainty": "MEDIUM",
+      "impact_assessment": "Won depreciation beyond 1,400 creates dual pressure: boosting export competitiveness but inflating energy and raw material import costs. Consumer price inflation risk rising.",
+      "cross_impact": [
+        "S",
+        "P"
+      ],
+      "signal_status": "developing",
+      "source_section": "Economy (101)",
+      "tipping_alert": "YELLOW"
+    },
+    {
+      "id": "naver-20260322-104-001",
+      "title": "US-China Tech War Escalation: New Export Controls on AI Training Chips Target Korea Semiconductor Equipment",
+      "steeps": "P",
+      "priority": "HIGH",
+      "psst_score": 87,
+      "fssf_type": "Emerging Issue",
+      "horizon": "H2",
+      "uncertainty": "HIGH",
+      "impact_assessment": "New US export controls specifically targeting semiconductor manufacturing equipment used by Korean companies for China-bound chip production. Korea faces forced decoupling from China market.",
+      "cross_impact": [
+        "T",
+        "E"
+      ],
+      "signal_status": "developing",
+      "source_section": "World (104)",
+      "tipping_alert": "GREEN"
+    },
+    {
+      "id": "naver-20260322-102-002",
+      "title": "Seoul Metropolitan Government Launches Free Universal Childcare from Age 0 -- Budget 3.2 Trillion Won",
+      "steeps": "S",
+      "priority": "HIGH",
+      "psst_score": 84,
+      "fssf_type": "Precursor Event",
+      "horizon": "H1",
+      "uncertainty": "MEDIUM",
+      "impact_assessment": "Seoul free universal childcare represents the most aggressive local policy response to demographic crisis. If successful, could become national template.",
+      "cross_impact": [
+        "E",
+        "P"
+      ],
+      "signal_status": "emerging",
+      "source_section": "Society (102)",
+      "tipping_alert": "GREEN"
+    },
+    {
+      "id": "naver-20260322-105-003",
+      "title": "KAIST Develops Room-Temperature Topological Quantum Processor Prototype -- 50-Qubit Operation Demonstrated",
+      "steeps": "T",
+      "priority": "HIGH",
+      "psst_score": 85,
+      "fssf_type": "Weak Signal",
+      "horizon": "H3",
+      "uncertainty": "HIGH",
+      "impact_assessment": "First room-temperature topological quantum processor prototype from Korean research institute. If reproducible, could leapfrog current cryogenic quantum computing approaches.",
+      "cross_impact": [
+        "E",
+        "s"
+      ],
+      "signal_status": "emerging",
+      "source_section": "IT/Science (105)",
+      "tipping_alert": "GREEN"
+    },
+    {
+      "id": "naver-20260322-103-001",
+      "title": "Korean Air Pollution PM2.5 Drops 40% Over 5 Years -- Clean Air Policy Success but Yellow Dust Remains",
+      "steeps": "E_Environmental",
+      "priority": "MEDIUM",
+      "psst_score": 79,
+      "fssf_type": "Trend",
+      "horizon": "H2",
+      "uncertainty": "MEDIUM",
+      "impact_assessment": "Significant air quality improvement demonstrates policy effectiveness, but transboundary yellow dust from China remains uncontrollable domestic variable.",
+      "cross_impact": [
+        "S",
+        "P"
+      ],
+      "signal_status": "developing",
+      "source_section": "Life/Culture (103)",
+      "tipping_alert": "GREEN"
+    },
+    {
+      "id": "naver-20260322-101-003",
+      "title": "Korean Startup Ecosystem Reaches 23 Unicorns -- AI and Biotech Lead Growth",
+      "steeps": "E",
+      "priority": "MEDIUM",
+      "psst_score": 78,
+      "fssf_type": "Emerging Issue",
+      "horizon": "H2",
+      "uncertainty": "MEDIUM",
+      "impact_assessment": "Korea unicorn count growth (from 18 in 2025) concentrated in AI and biotech sectors reflects structural economic diversification beyond conglomerate-led model.",
+      "cross_impact": [
+        "T",
+        "S"
+      ],
+      "signal_status": "developing",
+      "source_section": "Economy (101)",
+      "tipping_alert": "GREEN"
+    },
+    {
+      "id": "naver-20260322-102-003",
+      "title": "Elderly Poverty Rate 43.8% -- OECD Worst, National Pension Reform Stalls in Assembly",
+      "steeps": "S",
+      "priority": "MEDIUM",
+      "psst_score": 82,
+      "fssf_type": "Trend",
+      "horizon": "H2",
+      "uncertainty": "LOW",
+      "impact_assessment": "Korea elderly poverty worsens slightly (from 43.2% in Q4 2025) as pension reform remains politically deadlocked. Structural social safety net failure deepens.",
+      "cross_impact": [
+        "E",
+        "P"
+      ],
+      "signal_status": "strengthening",
+      "source_section": "Society (102)",
+      "tipping_alert": "YELLOW"
+    },
+    {
+      "id": "naver-20260322-103-002",
+      "title": "Korean Buddhist Temple Stay Program Sees 300% Surge Among Gen Z -- Meaning Economy Grows",
+      "steeps": "s",
+      "priority": "LOW",
+      "psst_score": 72,
+      "fssf_type": "Weak Signal",
+      "horizon": "H3",
+      "uncertainty": "HIGH",
+      "impact_assessment": "Temple Stay surge among young Koreans signals growing meaning-seeking behavior amid economic pressure and social alienation. Potential precursor to values shift.",
+      "cross_impact": [
+        "S"
+      ],
+      "signal_status": "emerging",
+      "source_section": "Life/Culture (103)",
+      "tipping_alert": "GREEN"
+    }
+  ]
+}

@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>타임라인 맵 — 환경 스캐닝 2026.03.12-18</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+:root {
+  --bg:#090b10; --bg2:#0e1118; --card:#141720; --card2:#1a1e2a;
+  --border:#1e2235; --border2:#282d42;
+  --text:#e8eaf0; --muted:#6b7394; --dim:#3d4466;
+  --accent:#5b7fff; --accent2:#8ba4ff;
+  --red:#ff3d5a; --red-bg:rgba(255,61,90,0.08); --red-border:rgba(255,61,90,0.25);
+  --orange:#ff7a2e; --orange-bg:rgba(255,122,46,0.08);
+  --yellow:#ffc63e; --yellow-bg:rgba(255,198,62,0.08);
+  --green:#00cc88; --green-bg:rgba(0,204,136,0.08);
+  --cyan:#22d3ee; --purple:#a78bfa;
+  --wf1:#5b7fff; --wf2:#a78bfa; --wf3:#00cc88; --wf4:#ff7a2e; --wf5:#22d3ee;
+  --geo:#ff3d5a; --ai:#5b7fff; --energy:#ff7a2e; --semi:#a78bfa;
+  --bio:#00cc88; --trade:#ffc63e; --demo:#22d3ee; --nuke:#ff3d5a;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;overflow-x:hidden;min-height:100vh;}
+
+/* === HEADER === */
+.hero{padding:32px 40px 24px;background:linear-gradient(180deg,rgba(91,127,255,0.06) 0%,transparent 100%);border-bottom:1px solid var(--border);}
+.hero-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:20px;}
+.hero h1{font-size:28px;font-weight:800;letter-spacing:-1px;line-height:1.2;}
+.hero h1 span{background:linear-gradient(135deg,var(--accent),var(--purple));-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+.hero-sub{font-size:13px;color:var(--muted);margin-top:6px;}
+.hero-stats{display:flex;gap:24px;}
+.hero-stat{text-align:right;}
+.hero-stat-val{font-size:24px;font-weight:700;}
+.hero-stat-label{font-size:11px;color:var(--muted);margin-top:2px;}
+.alert-strip{display:flex;gap:8px;flex-wrap:wrap;}
+.alert-pill{padding:5px 14px;border-radius:20px;font-size:11px;font-weight:600;display:flex;align-items:center;gap:6px;}
+.alert-pill.red{background:var(--red-bg);border:1px solid var(--red-border);color:var(--red);}
+.alert-pill.orange{background:var(--orange-bg);border:1px solid rgba(255,122,46,0.25);color:var(--orange);}
+
+/* === NAVIGATION === */
+.nav{display:flex;gap:2px;padding:8px 40px;background:var(--bg2);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:50;}
+.nav-btn{padding:10px 20px;border-radius:8px;cursor:pointer;font-size:12px;font-weight:600;color:var(--muted);transition:all .2s;border:none;background:none;letter-spacing:0.3px;}
+.nav-btn:hover{color:var(--text);background:rgba(91,127,255,0.06);}
+.nav-btn.active{color:var(--accent);background:rgba(91,127,255,0.1);box-shadow:inset 0 -2px 0 var(--accent);}
+
+/* === SECTIONS === */
+.section{display:none;padding:24px 40px;}
+.section.active{display:block;}
+
+/* === CARDS === */
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:22px;margin-bottom:16px;transition:border-color .2s;}
+.card:hover{border-color:var(--border2);}
+.card-title{font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:16px;display:flex;align-items:center;gap:8px;}
+.card-title::before{content:'';width:3px;height:14px;background:var(--accent);border-radius:2px;}
+.grid{display:grid;gap:16px;}
+.g2{grid-template-columns:1fr 1fr;} .g3{grid-template-columns:1fr 1fr 1fr;} .g4{grid-template-columns:1fr 1fr 1fr 1fr;}
+.chart-box{position:relative;height:320px;}
+.chart-box.sm{height:220px;} .chart-box.lg{height:420px;} .chart-box.xl{height:520px;}
+
+/* === TIMELINE SWIM LANES === */
+.swim-container{overflow-x:auto;padding-bottom:8px;}
+.swim-lane{position:relative;display:flex;align-items:stretch;min-height:80px;border-bottom:1px solid var(--border);}
+.swim-label{min-width:140px;padding:12px 16px 12px 0;font-size:12px;font-weight:600;display:flex;align-items:center;gap:8px;position:sticky;left:0;background:var(--card);z-index:5;}
+.swim-label .dot{width:10px;height:10px;border-radius:50%;flex-shrink:0;}
+.swim-track{flex:1;display:grid;grid-template-columns:repeat(7,1fr);gap:4px;padding:8px 0;align-items:center;}
+.swim-cell{min-height:36px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;cursor:pointer;transition:all .15s;position:relative;}
+.swim-cell:hover{transform:scale(1.08);z-index:10;}
+.swim-cell .tooltip-box{display:none;position:absolute;bottom:calc(100% + 8px);left:50%;transform:translateX(-50%);background:var(--card2);border:1px solid var(--border2);border-radius:10px;padding:12px;font-size:11px;font-weight:400;color:var(--text);width:240px;z-index:100;pointer-events:none;box-shadow:0 8px 32px rgba(0,0,0,0.4);}
+.swim-cell:hover .tooltip-box{display:block;}
+
+/* === ESCALATION TIMELINE === */
+.esc-track{display:flex;gap:4px;align-items:flex-end;height:100px;padding:8px 0;}
+.esc-bar{flex:1;border-radius:6px 6px 0 0;transition:all .3s;cursor:pointer;position:relative;min-width:40px;}
+.esc-bar:hover{opacity:0.85;}
+.esc-label{text-align:center;font-size:10px;color:var(--muted);margin-top:4px;}
+
+/* === CROSS-FLOW SANKEY === */
+.sankey-row{display:flex;align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid var(--border);}
+.sankey-source,.sankey-target{min-width:60px;font-size:12px;font-weight:600;text-align:center;}
+.sankey-flow{flex:1;height:8px;background:var(--border);border-radius:4px;position:relative;overflow:hidden;}
+.sankey-fill{height:100%;border-radius:4px;transition:width .5s;}
+.sankey-meta{min-width:120px;text-align:right;font-size:11px;color:var(--muted);}
+
+/* === THREAD LIFECYCLE === */
+.thread-row{display:flex;align-items:center;gap:8px;padding:10px 0;border-bottom:1px solid var(--border);}
+.thread-title{flex:1;font-size:12px;font-weight:500;min-width:200px;}
+.thread-dots{display:flex;gap:3px;}
+.thread-dot{width:14px;height:14px;border-radius:4px;font-size:8px;display:flex;align-items:center;justify-content:center;font-weight:700;color:#fff;cursor:pointer;}
+.thread-state{min-width:60px;font-size:11px;font-weight:600;text-align:right;}
+
+/* === RECURRING === */
+.recur-item{display:flex;align-items:center;gap:16px;padding:14px 0;border-bottom:1px solid var(--border);}
+.recur-bar{height:6px;flex:1;background:var(--border);border-radius:3px;overflow:hidden;}
+.recur-fill{height:100%;border-radius:3px;}
+.recur-count{min-width:40px;font-size:18px;font-weight:800;text-align:center;}
+.recur-info{min-width:200px;}
+.recur-name{font-size:13px;font-weight:600;}
+.recur-meta{font-size:11px;color:var(--muted);margin-top:2px;}
+
+/* === pSST HEATMAP === */
+.psst-grid{display:grid;grid-template-columns:140px repeat(7,1fr);gap:2px;}
+.psst-cell{padding:10px 8px;border-radius:6px;text-align:center;font-size:12px;font-weight:600;transition:all .15s;}
+.psst-cell:hover{transform:scale(1.05);}
+.psst-header{font-size:10px;color:var(--muted);font-weight:700;padding:8px;text-align:center;}
+.psst-label{text-align:right;padding-right:12px;font-size:11px;color:var(--muted);display:flex;align-items:center;justify-content:flex-end;}
+
+@media(max-width:900px){.g2,.g3,.g4{grid-template-columns:1fr;}.hero{padding:20px;}.section{padding:16px;}.nav{padding:8px 16px;overflow-x:auto;}}
+::-webkit-scrollbar{width:5px;height:5px;} ::-webkit-scrollbar-track{background:var(--bg);} ::-webkit-scrollbar-thumb{background:var(--border2);border-radius:3px;}
+</style>
+</head>
+<body>
+
+<!-- ===== HERO ===== -->
+<div class="hero">
+  <div class="hero-top">
+    <div>
+      <h1><span>타임라인 맵</span></h1>
+      <div class="hero-sub">환경 스캐닝 주간 신호 진화 추적 · 2026년 3월 12일 — 18일 · 5개 워크플로우</div>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat"><div class="hero-stat-val">3,252</div><div class="hero-stat-label">주간 총 신호</div></div>
+      <div class="hero-stat"><div class="hero-stat-val" style="color:var(--accent)">349</div><div class="hero-stat-label">활성 스레드</div></div>
+      <div class="hero-stat"><div class="hero-stat-val" style="color:var(--orange)">65</div><div class="hero-stat-label">교차 상관</div></div>
+      <div class="hero-stat"><div class="hero-stat-val" style="color:var(--red)">8</div><div class="hero-stat-label">주요 테마</div></div>
+    </div>
+  </div>
+  <div class="alert-strip">
+    <div class="alert-pill red">● RED 3건 — 호르무즈 봉쇄 · 라리자니 제거 · KOSPI 폭락</div>
+    <div class="alert-pill orange">● ORANGE 4건 — 북극 해빙 · 아시아 배급 · RAG 공격 · 대만 위기</div>
+  </div>
+</div>
+
+<!-- ===== NAVIGATION ===== -->
+<div class="nav">
+  <button class="nav-btn active" onclick="showSection('swim',this)">스윔레인 타임라인</button>
+  <button class="nav-btn" onclick="showSection('escalation',this)">에스컬레이션 추이</button>
+  <button class="nav-btn" onclick="showSection('threads',this)">스레드 라이프사이클</button>
+  <button class="nav-btn" onclick="showSection('crossflow',this)">교차 흐름 분석</button>
+  <button class="nav-btn" onclick="showSection('psst',this)">pSST 히트맵</button>
+  <button class="nav-btn" onclick="showSection('recurring',this)">반복 신호 추적</button>
+</div>
+
+<!-- ===== 1. SWIM LANE TIMELINE ===== -->
+<div class="section active" id="sec-swim">
+  <div class="card">
+    <div class="card-title">테마별 스윔레인 타임라인 — 일별 신호 밀도</div>
+    <div style="display:grid;grid-template-columns:140px repeat(7,1fr);gap:0;font-size:10px;color:var(--muted);padding:0 0 8px;font-weight:700;">
+      <div></div><div style="text-align:center">3/12 수</div><div style="text-align:center">3/13 목</div><div style="text-align:center">3/14 금</div><div style="text-align:center">3/15 토</div><div style="text-align:center">3/16 일</div><div style="text-align:center">3/17 월</div><div style="text-align:center;color:var(--accent)">3/18 화</div>
+    </div>
+    <div id="swimLanes"></div>
+  </div>
+
+  <div class="grid g2">
+    <div class="card">
+      <div class="card-title">테마별 신호 볼륨 추이</div>
+      <div class="chart-box"><canvas id="themeVolume"></canvas></div>
+    </div>
+    <div class="card">
+      <div class="card-title">워크플로우별 일일 기여도</div>
+      <div class="chart-box"><canvas id="wfDaily"></canvas></div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 2. ESCALATION ===== -->
+<div class="section" id="sec-escalation">
+  <div class="card">
+    <div class="card-title">에스컬레이션 곡선 — 주요 테마별 강도 변화</div>
+    <div class="chart-box lg"><canvas id="escChart"></canvas></div>
+  </div>
+  <div class="grid g2">
+    <div class="card">
+      <div class="card-title">이란-호르무즈 위기 타임라인</div>
+      <div id="iranTimeline"></div>
+    </div>
+    <div class="card">
+      <div class="card-title">AI 보안 취약성 누적 발견</div>
+      <div id="aiSecTimeline"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 3. THREAD LIFECYCLE ===== -->
+<div class="section" id="sec-threads">
+  <div class="card">
+    <div class="card-title">주요 스레드 7일 라이프사이클 (출현 · 반복 · 소멸)</div>
+    <div style="display:grid;grid-template-columns:1fr auto repeat(7,36px) auto;gap:0;font-size:10px;color:var(--muted);padding:0 0 8px;font-weight:700;">
+      <div style="padding-left:4px">스레드</div><div></div>
+      <div style="text-align:center">12</div><div style="text-align:center">13</div><div style="text-align:center">14</div><div style="text-align:center">15</div><div style="text-align:center">16</div><div style="text-align:center">17</div><div style="text-align:center;color:var(--accent)">18</div>
+      <div style="text-align:right;padding-right:4px">상태</div>
+    </div>
+    <div id="threadLifecycle"></div>
+  </div>
+  <div class="card">
+    <div class="card-title">활성 스레드 수 추이</div>
+    <div class="chart-box sm"><canvas id="threadCount"></canvas></div>
+  </div>
+</div>
+
+<!-- ===== 4. CROSS-FLOW ===== -->
+<div class="section" id="sec-crossflow">
+  <div class="card">
+    <div class="card-title">워크플로우 간 신호 흐름 (65건 교차 상관)</div>
+    <div id="crossFlows"></div>
+  </div>
+  <div class="grid g2">
+    <div class="card">
+      <div class="card-title">교차 상관 강도 분포</div>
+      <div class="chart-box sm"><canvas id="crossDist"></canvas></div>
+    </div>
+    <div class="card">
+      <div class="card-title">워크플로우 동기화 매트릭스</div>
+      <div class="chart-box sm"><canvas id="syncMatrix"></canvas></div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 5. pSST HEATMAP ===== -->
+<div class="section" id="sec-psst">
+  <div class="card">
+    <div class="card-title">일별 × 테마별 pSST 점수 히트맵</div>
+    <div id="psstHeatmap"></div>
+  </div>
+  <div class="card">
+    <div class="card-title">pSST 점수 변동 차트 (상위 테마)</div>
+    <div class="chart-box"><canvas id="psstLine"></canvas></div>
+  </div>
+</div>
+
+<!-- ===== 6. RECURRING ===== -->
+<div class="section" id="sec-recurring">
+  <div class="card">
+    <div class="card-title">반복·강화 신호 TOP 12</div>
+    <div id="recurList"></div>
+  </div>
+  <div class="grid g2">
+    <div class="card">
+      <div class="card-title">신호 진화 상태 분포 (오늘)</div>
+      <div class="chart-box sm"><canvas id="evoDonut"></canvas></div>
+    </div>
+    <div class="card">
+      <div class="card-title">WF3 네이버 반복 신호 (10건)</div>
+      <div id="naverRecur"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+Chart.defaults.color='#6b7394';
+Chart.defaults.borderColor='#1e2235';
+Chart.defaults.font.family="'Inter',sans-serif";
+
+const DAYS=['3/12','3/13','3/14','3/15','3/16','3/17','3/18'];
+
+// ===== THEME DATA =====
+const themes=[
+  {name:'지정학 긴장',key:'geo',color:'var(--geo)',data:[12,67,0,8,0,19,9],psst:[32.2,42.9,0,31.3,0,42.9,85]},
+  {name:'AI · 기술',key:'ai',color:'var(--ai)',data:[11,51,0,8,0,40,15],psst:[42.0,42.9,0,31.3,0,42.9,85.1]},
+  {name:'에너지 · 기후',key:'energy',color:'var(--energy)',data:[5,24,0,5,0,17,15],psst:[32.5,42.0,0,31.3,0,42.9,88]},
+  {name:'반도체 전쟁',key:'semi',color:'var(--semi)',data:[2,17,0,3,0,5,7],psst:[31.3,42.9,0,31.3,0,42.9,78]},
+  {name:'바이오 · 의료',key:'bio',color:'var(--bio)',data:[3,34,0,2,0,10,2],psst:[31.3,42.9,0,31.3,0,42.9,81]},
+  {name:'무역 · 관세',key:'trade',color:'var(--trade)',data:[0,14,0,2,0,4,5],psst:[0,31.3,0,31.3,0,31.3,86]},
+  {name:'인구 · 사회',key:'demo',color:'var(--demo)',data:[1,9,0,1,0,3,3],psst:[31.3,42.9,0,31.3,0,42.9,82]},
+  {name:'핵 안보',key:'nuke',color:'var(--nuke)',data:[0,6,0,0,0,2,1],psst:[0,31.3,0,0,0,42.9,83]}
+];
+
+// ===== 1. SWIM LANES =====
+function renderSwimLanes(){
+  const el=document.getElementById('swimLanes');
+  let html='';
+  themes.forEach(t=>{
+    const max=Math.max(...t.data);
+    html+=`<div class="swim-lane">
+      <div class="swim-label"><div class="dot" style="background:${t.color}"></div>${t.name}</div>
+      <div class="swim-track">`;
+    t.data.forEach((v,i)=>{
+      const intensity=v===0?0:(0.15+0.85*(v/max));
+      const bg=v===0?'var(--border)':t.color;
+      html+=`<div class="swim-cell" style="background:${bg};opacity:${v===0?0.15:intensity}">
+        ${v||''}<div class="tooltip-box"><strong>${DAYS[i]}</strong><br>${t.name}: ${v}건<br>pSST: ${t.psst[i]||'—'}</div></div>`;
+    });
+    html+=`</div></div>`;
+  });
+  el.innerHTML=html;
+}
+
+// Theme volume chart
+function renderThemeVolume(){
+  new Chart(document.getElementById('themeVolume'),{
+    type:'line',
+    data:{labels:DAYS,datasets:themes.map(t=>({
+      label:t.name,data:t.data,borderColor:t.color,backgroundColor:t.color+'18',
+      fill:false,tension:0.35,pointRadius:4,pointHoverRadius:7,borderWidth:2
+    }))},
+    options:{responsive:true,maintainAspectRatio:false,
+      interaction:{mode:'index',intersect:false},
+      plugins:{legend:{position:'bottom',labels:{boxWidth:10,padding:10,font:{size:11}}}},
+      scales:{y:{beginAtZero:true,grid:{color:'#1e2235'}}}}
+  });
+}
+
+function renderWfDaily(){
+  new Chart(document.getElementById('wfDaily'),{
+    type:'bar',
+    data:{labels:DAYS,datasets:[
+      {label:'WF1',data:[0,51,0,15,0,15,50],backgroundColor:'var(--wf1)',borderRadius:4},
+      {label:'WF2',data:[46,82,0,12,0,15,53],backgroundColor:'var(--wf2)',borderRadius:4},
+      {label:'WF3',data:[245,270,0,12,0,41,53],backgroundColor:'var(--wf3)',borderRadius:4},
+      {label:'WF4',data:[1074,1149,0,12,0,35,22],backgroundColor:'var(--wf4)',borderRadius:4}
+    ]},
+    options:{responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{position:'bottom',labels:{boxWidth:10}}},
+      scales:{x:{stacked:true,grid:{display:false}},y:{stacked:true}}}
+  });
+}
+
+// ===== 2. ESCALATION =====
+function renderEscalation(){
+  new Chart(document.getElementById('escChart'),{
+    type:'line',
+    data:{labels:DAYS,datasets:[
+      {label:'지정학',data:[32.2,42.9,0,31.3,0,42.9,92],borderColor:'var(--geo)',fill:true,backgroundColor:'rgba(255,61,90,0.06)',tension:0.3,pointRadius:5,borderWidth:2.5},
+      {label:'AI·기술',data:[42.0,42.9,0,31.3,0,42.9,89],borderColor:'var(--ai)',fill:false,tension:0.3,pointRadius:5,borderWidth:2.5},
+      {label:'에너지',data:[32.5,42.0,0,31.3,0,42.9,88],borderColor:'var(--energy)',fill:false,tension:0.3,pointRadius:5,borderWidth:2.5},
+      {label:'무역',data:[0,31.3,0,31.3,0,31.3,86],borderColor:'var(--trade)',fill:false,tension:0.3,pointRadius:4,borderWidth:2,borderDash:[5,5]}
+    ]},
+    options:{responsive:true,maintainAspectRatio:false,
+      interaction:{mode:'index',intersect:false},
+      plugins:{legend:{position:'bottom',labels:{boxWidth:12}},
+        tooltip:{callbacks:{label:ctx=>ctx.dataset.label+': pSST '+ctx.parsed.y}}},
+      scales:{y:{min:0,max:100,title:{display:true,text:'pSST 점수'}}}}
+  });
+
+  // Iran timeline
+  const iranEvents=[
+    {date:'~3/01',event:'호르무즈 해협 긴장 고조',level:'yellow'},
+    {date:'~3/04',event:'호르무즈 사실상 봉쇄',level:'orange'},
+    {date:'3/14',event:'IEA 4억 배럴 비상 방출 (역대 최대)',level:'red'},
+    {date:'3/14',event:'카르크섬 석유 터미널 파괴',level:'red'},
+    {date:'3/17',event:'유가 $106, 한국 30년 만의 가격 통제',level:'red'},
+    {date:'3/18',event:'라리자니 안보수장 테헤란 타격 제거',level:'red'},
+    {date:'3/18',event:'아시아 에너지 비상 배급제 확산',level:'red'}
+  ];
+  const iranEl=document.getElementById('iranTimeline');
+  iranEvents.forEach((e,i)=>{
+    const color=e.level==='red'?'var(--red)':e.level==='orange'?'var(--orange)':'var(--yellow)';
+    iranEl.innerHTML+=`<div style="display:flex;gap:12px;padding:10px 0;border-bottom:1px solid var(--border);align-items:flex-start">
+      <div style="min-width:56px;font-size:11px;color:var(--muted);padding-top:2px">${e.date}</div>
+      <div style="width:10px;height:10px;border-radius:50%;background:${color};margin-top:4px;flex-shrink:0;box-shadow:0 0 8px ${color}"></div>
+      <div style="font-size:12px;line-height:1.5">${e.event}</div>
+    </div>`;
+  });
+
+  // AI security timeline
+  const aiEvents=[
+    {date:'3/13',event:'역할 혼동 프롬프트 인젝션 (78% 성공)',n:1},
+    {date:'3/13',event:'AEGIS 에이전트 사전 실행 방화벽',n:2},
+    {date:'3/13',event:'LoRA 공모 공격 (안전 정렬 우회)',n:3},
+    {date:'3/13',event:'AgentDrift 추천 표류 (탐지 불가)',n:4},
+    {date:'3/13',event:'VLA 추론 체인 취약성 (로봇 물리 위험)',n:5},
+    {date:'3/18',event:'Unicode 인젝션 (기존 스캐너 0% 탐지)',n:6},
+    {date:'3/18',event:'RAG 메타데이터 포이즈닝 (71% 성공, 0% 탐지)',n:7},
+    {date:'3/18',event:'TOCTOU 브라우저 에이전트 공격 (45% 성공)',n:8}
+  ];
+  const aiEl=document.getElementById('aiSecTimeline');
+  aiEvents.forEach(e=>{
+    const w=(e.n/8)*100;
+    aiEl.innerHTML+=`<div style="display:flex;gap:12px;padding:8px 0;border-bottom:1px solid var(--border);align-items:center">
+      <div style="min-width:44px;font-size:11px;color:var(--muted)">${e.date}</div>
+      <div style="min-width:24px;font-size:14px;font-weight:800;color:var(--accent)">#${e.n}</div>
+      <div style="flex:1">
+        <div style="font-size:12px;margin-bottom:4px">${e.event}</div>
+        <div style="height:4px;background:var(--border);border-radius:2px"><div style="height:100%;width:${w}%;background:linear-gradient(90deg,var(--accent),var(--red));border-radius:2px"></div></div>
+      </div>
+    </div>`;
+  });
+}
+
+// ===== 3. THREAD LIFECYCLE =====
+function renderThreads(){
+  const threadData=[
+    {name:'이란-호르무즈 위기',days:[1,1,1,1,1,1,1],state:'반복',color:'var(--red)'},
+    {name:'NVIDIA AI 인프라',days:[0,1,0,1,0,1,1],state:'반복',color:'var(--ai)'},
+    {name:'AI 에이전트 보안',days:[0,1,0,0,0,0,1],state:'강화',color:'var(--purple)'},
+    {name:'KOSPI 금융 위기',days:[0,0,0,0,0,1,1],state:'신규→반복',color:'var(--orange)'},
+    {name:'북극 해빙 기후',days:[0,0,0,1,0,0,1],state:'반복',color:'var(--green)'},
+    {name:'Section 301 무역',days:[0,1,0,0,0,1,1],state:'반복',color:'var(--yellow)'},
+    {name:'한국 부동산 양극화',days:[0,0,0,0,0,1,1],state:'신규→반복',color:'var(--cyan)'},
+    {name:'자율주행 로보택시',days:[0,1,0,0,0,1,1],state:'반복',color:'var(--ai)'},
+    {name:'EU 디지털 주권',days:[0,1,0,0,0,0,1],state:'반복',color:'var(--wf2)'},
+    {name:'ScienceClaw 자율발견',days:[0,0,0,0,0,0,1],state:'신규',color:'var(--accent)'},
+    {name:'양자 오류 정정',days:[0,0,0,0,0,0,1],state:'신규',color:'var(--wf2)'},
+    {name:'쿠바 전력 붕괴',days:[0,0,0,0,0,0,1],state:'신규',color:'var(--red)'},
+    {name:'중국-일본 대만',days:[0,0,0,0,0,0,1],state:'신규',color:'var(--orange)'},
+    {name:'김영환 컷오프',days:[0,0,0,0,0,1,1],state:'반복',color:'var(--wf3)'},
+    {name:'두산에너빌리티 신고가',days:[0,0,0,0,0,1,1],state:'반복',color:'var(--wf3)'},
+    {name:'한국은행 금리 딜레마',days:[0,0,0,0,0,1,1],state:'반복',color:'var(--wf3)'}
+  ];
+
+  const el=document.getElementById('threadLifecycle');
+  threadData.forEach(t=>{
+    let html=`<div style="display:grid;grid-template-columns:1fr auto repeat(7,36px) auto;gap:4px;align-items:center;padding:8px 0;border-bottom:1px solid var(--border)">
+      <div style="font-size:12px;font-weight:500;padding-left:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${t.name}</div>
+      <div style="width:8px;height:8px;border-radius:50%;background:${t.color}"></div>`;
+    t.days.forEach(d=>{
+      const bg=d?t.color:'transparent';
+      const border=d?'none':'1px solid var(--border)';
+      html+=`<div style="width:28px;height:28px;border-radius:6px;background:${bg};border:${border};display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;color:#fff;margin:0 auto">${d?'●':''}</div>`;
+    });
+    const stateColor=t.state.includes('반복')?'var(--cyan)':t.state.includes('강화')?'var(--red)':'var(--accent)';
+    html+=`<div style="font-size:10px;font-weight:600;color:${stateColor};text-align:right;padding-right:4px;min-width:70px">${t.state}</div></div>`;
+    el.innerHTML+=html;
+  });
+
+  new Chart(document.getElementById('threadCount'),{
+    type:'line',
+    data:{labels:DAYS,datasets:[
+      {label:'WF1',data:[60,72,72,85,85,90,97],borderColor:'var(--wf1)',tension:0.3,pointRadius:4,borderWidth:2},
+      {label:'WF3',data:[30,45,45,60,60,74,84],borderColor:'var(--wf3)',tension:0.3,pointRadius:4,borderWidth:2},
+      {label:'WF4',data:[20,35,35,42,42,50,57],borderColor:'var(--wf4)',tension:0.3,pointRadius:4,borderWidth:2},
+      {label:'통합',data:[210,245,245,280,280,310,349],borderColor:'var(--wf5)',tension:0.3,pointRadius:5,borderWidth:3,borderDash:[]}
+    ]},
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{boxWidth:10}}},scales:{y:{beginAtZero:true}}}
+  });
+}
+
+// ===== 4. CROSS-FLOW =====
+function renderCrossFlow(){
+  const flows=[
+    {src:'WF4',tgt:'WF3',topic:'실버개미 투자 전략',sim:1.0,srcC:'var(--wf4)',tgtC:'var(--wf3)'},
+    {src:'WF4',tgt:'WF3',topic:'오피스텔 거래 급증',sim:1.0,srcC:'var(--wf4)',tgtC:'var(--wf3)'},
+    {src:'WF4',tgt:'WF3',topic:'호르무즈 봉쇄 위기',sim:1.0,srcC:'var(--wf4)',tgtC:'var(--wf3)'},
+    {src:'WF4',tgt:'WF3',topic:'유가 100달러 돌파',sim:1.0,srcC:'var(--wf4)',tgtC:'var(--wf3)'},
+    {src:'WF4',tgt:'WF3',topic:'비트코인 시세 분석',sim:1.0,srcC:'var(--wf4)',tgtC:'var(--wf3)'},
+    {src:'WF4',tgt:'WF3',topic:'민주당 당대표 선출',sim:0.92,srcC:'var(--wf4)',tgtC:'var(--wf3)'},
+    {src:'WF4',tgt:'WF3',topic:'건강 피로 신호',sim:0.89,srcC:'var(--wf4)',tgtC:'var(--wf3)'},
+    {src:'WF4',tgt:'WF3',topic:'기억력 저하 경고',sim:0.85,srcC:'var(--wf4)',tgtC:'var(--wf3)'},
+    {src:'WF4',tgt:'WF1',topic:'휴머노이드 로봇 밸류에이션',sim:0.76,srcC:'var(--wf4)',tgtC:'var(--wf1)'},
+    {src:'WF1',tgt:'WF2',topic:'Pentagon AI + 군사 거버넌스',sim:0.82,srcC:'var(--wf1)',tgtC:'var(--wf2)'},
+    {src:'WF2',tgt:'WF1',topic:'AI 에이전트 보안 (학술→뉴스)',sim:0.76,srcC:'var(--wf2)',tgtC:'var(--wf1)'}
+  ];
+
+  const el=document.getElementById('crossFlows');
+  flows.forEach(f=>{
+    const w=f.sim*100;
+    el.innerHTML+=`<div class="sankey-row">
+      <div class="sankey-source" style="color:${f.srcC}">${f.src}</div>
+      <div style="font-size:16px;color:var(--dim)">→</div>
+      <div class="sankey-target" style="color:${f.tgtC}">${f.tgt}</div>
+      <div style="flex:1;padding:0 12px">
+        <div style="font-size:12px;margin-bottom:4px">${f.topic}</div>
+        <div class="sankey-flow"><div class="sankey-fill" style="width:${w}%;background:linear-gradient(90deg,${f.srcC},${f.tgtC})"></div></div>
+      </div>
+      <div class="sankey-meta" style="font-weight:700;color:${f.sim>=0.9?'var(--green)':'var(--cyan)'}">${(f.sim*100).toFixed(0)}%</div>
+    </div>`;
+  });
+
+  // Cross distribution
+  new Chart(document.getElementById('crossDist'),{
+    type:'bar',
+    data:{labels:['100%','90-99%','80-89%','70-79%','<70%'],datasets:[{
+      data:[35,8,10,8,4],backgroundColor:['var(--green)','var(--cyan)','var(--accent)','var(--purple)','var(--muted)'],borderRadius:6
+    }]},
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{beginAtZero:true}}}
+  });
+
+  // Sync matrix (bubble)
+  new Chart(document.getElementById('syncMatrix'),{
+    type:'bubble',
+    data:{datasets:[
+      {label:'WF4→WF3',data:[{x:4,y:3,r:25}],backgroundColor:'rgba(255,122,46,0.3)',borderColor:'var(--wf4)'},
+      {label:'WF4→WF1',data:[{x:4,y:1,r:8}],backgroundColor:'rgba(255,122,46,0.2)',borderColor:'var(--wf4)'},
+      {label:'WF1→WF2',data:[{x:1,y:2,r:6}],backgroundColor:'rgba(91,127,255,0.2)',borderColor:'var(--wf1)'},
+      {label:'WF2→WF1',data:[{x:2,y:1,r:5}],backgroundColor:'rgba(167,139,250,0.2)',borderColor:'var(--wf2)'}
+    ]},
+    options:{responsive:true,maintainAspectRatio:false,
+      scales:{x:{min:0.5,max:4.5,ticks:{callback:v=>['','WF1','WF2','WF3','WF4'][v]||''}},y:{min:0.5,max:4.5,ticks:{callback:v=>['','WF1','WF2','WF3','WF4'][v]||''}}},
+      plugins:{legend:{position:'bottom',labels:{boxWidth:10,font:{size:10}}}}}
+  });
+}
+
+// ===== 5. pSST HEATMAP =====
+function renderPsstHeatmap(){
+  const el=document.getElementById('psstHeatmap');
+  let html=`<div class="psst-grid">
+    <div class="psst-header"></div>`;
+  DAYS.forEach((d,i)=>{
+    const hl=i===6?'color:var(--accent)':'';
+    html+=`<div class="psst-header" style="${hl}">${d}</div>`;
+  });
+
+  themes.forEach(t=>{
+    html+=`<div class="psst-label"><span style="display:inline-block;width:8px;height:8px;border-radius:3px;background:${t.color};margin-right:6px"></span>${t.name}</div>`;
+    t.psst.forEach(v=>{
+      let bg,fg;
+      if(v===0){bg='var(--border)';fg='var(--dim)';}
+      else if(v>=85){bg='rgba(255,61,90,0.25)';fg='var(--red)';}
+      else if(v>=70){bg='rgba(255,122,46,0.2)';fg='var(--orange)';}
+      else if(v>=50){bg='rgba(255,198,62,0.15)';fg='var(--yellow)';}
+      else{bg='rgba(91,127,255,0.1)';fg='var(--accent)';}
+      html+=`<div class="psst-cell" style="background:${bg};color:${fg}">${v||'—'}</div>`;
+    });
+  });
+  html+=`</div>`;
+  el.innerHTML=html;
+
+  new Chart(document.getElementById('psstLine'),{
+    type:'line',
+    data:{labels:DAYS,datasets:[
+      {label:'지정학',data:[32.2,42.9,null,31.3,null,42.9,92],borderColor:'var(--geo)',tension:0.3,pointRadius:5,borderWidth:2.5,spanGaps:true},
+      {label:'AI·기술',data:[42.0,42.9,null,31.3,null,42.9,89],borderColor:'var(--ai)',tension:0.3,pointRadius:5,borderWidth:2.5,spanGaps:true},
+      {label:'에너지',data:[32.5,42.0,null,31.3,null,42.9,88],borderColor:'var(--energy)',tension:0.3,pointRadius:5,borderWidth:2.5,spanGaps:true},
+      {label:'무역',data:[null,31.3,null,31.3,null,31.3,86],borderColor:'var(--trade)',tension:0.3,pointRadius:4,borderWidth:2,borderDash:[5,5],spanGaps:true}
+    ]},
+    options:{responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{position:'bottom',labels:{boxWidth:10}}},
+      scales:{y:{min:0,max:100,title:{display:true,text:'pSST'}}}}
+  });
+}
+
+// ===== 6. RECURRING =====
+function renderRecurring(){
+  const recur=[
+    {name:'이란-호르무즈 에너지 위기',days:7,apps:14,trend:'강화',wfs:'WF1+3+4',color:'var(--red)',intensity:100},
+    {name:'NVIDIA/반도체 AI 인프라',days:5,apps:10,trend:'강화',wfs:'WF1+3',color:'var(--ai)',intensity:85},
+    {name:'AI 에이전트 보안 취약성',days:3,apps:8,trend:'급증',wfs:'WF2',color:'var(--purple)',intensity:80},
+    {name:'트럼프 관세/Section 301',days:4,apps:7,trend:'안정',wfs:'WF1+3+4',color:'var(--yellow)',intensity:65},
+    {name:'한국 금융시장 불안',days:4,apps:6,trend:'강화',wfs:'WF3',color:'var(--orange)',intensity:70},
+    {name:'에너지 전환 가속',days:5,apps:6,trend:'안정',wfs:'WF1+4',color:'var(--energy)',intensity:55},
+    {name:'한국 부동산 양극화',days:3,apps:5,trend:'강화',wfs:'WF3',color:'var(--cyan)',intensity:60},
+    {name:'EU 규제 프레임워크',days:4,apps:5,trend:'안정',wfs:'WF1+2',color:'var(--wf2)',intensity:45},
+    {name:'자율주행/로보택시',days:3,apps:4,trend:'안정',wfs:'WF1',color:'var(--ai)',intensity:40},
+    {name:'북한 핵 위협 재평가',days:3,apps:3,trend:'안정',wfs:'WF4',color:'var(--red)',intensity:35},
+    {name:'인구 절벽 (출생률 -5%)',days:3,apps:3,trend:'안정',wfs:'WF3',color:'var(--demo)',intensity:30},
+    {name:'양자 컴퓨팅 돌파',days:2,apps:2,trend:'신규',wfs:'WF2',color:'var(--accent)',intensity:25}
+  ];
+
+  const el=document.getElementById('recurList');
+  recur.forEach((r,i)=>{
+    const trendColor=r.trend==='강화'||r.trend==='급증'?'var(--red)':'var(--cyan)';
+    el.innerHTML+=`<div class="recur-item">
+      <div class="recur-count" style="color:${r.color}">${r.apps}</div>
+      <div class="recur-info">
+        <div class="recur-name">${r.name}</div>
+        <div class="recur-meta">${r.wfs} · ${r.days}일 · <span style="color:${trendColor};font-weight:600">${r.trend}</span></div>
+      </div>
+      <div class="recur-bar"><div class="recur-fill" style="width:${r.intensity}%;background:linear-gradient(90deg,${r.color},transparent)"></div></div>
+    </div>`;
+  });
+
+  new Chart(document.getElementById('evoDonut'),{
+    type:'doughnut',
+    data:{labels:['신규 (168)','반복 (10)','강화 (0)','약화 (0)','소멸 (0)'],
+      datasets:[{data:[168,10,0,0,0],backgroundColor:['var(--accent)','var(--cyan)','var(--green)','var(--orange)','var(--muted)'],borderWidth:0}]},
+    options:{responsive:true,maintainAspectRatio:false,cutout:'65%',
+      plugins:{legend:{position:'bottom',labels:{boxWidth:10,font:{size:11}}}}}
+  });
+
+  // Naver recurring
+  const naverRecur=[
+    '국민의힘 김영환 컷오프','미 주한미군 미사일방어 중동 이전','미 대법원 상호관세 위법 판결',
+    '두산에너빌리티 52주 신고가','한국은행 금리 추가인하 딜레마','Samsung Galaxy S26 MWC Best',
+    '헬륨 생산 중단','한중 석유 다변화 논의','기후변화 공급망 영향','글로벌 연료가격 급등'
+  ];
+  const nEl=document.getElementById('naverRecur');
+  naverRecur.forEach((n,i)=>{
+    nEl.innerHTML+=`<div style="display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid var(--border)">
+      <div style="min-width:24px;font-size:12px;font-weight:700;color:var(--wf3)">${i+1}</div>
+      <div style="width:6px;height:6px;border-radius:50%;background:var(--wf3)"></div>
+      <div style="font-size:12px">${n}</div>
+      <div style="margin-left:auto;font-size:10px;color:var(--cyan);font-weight:600">반복</div>
+    </div>`;
+  });
+}
+
+// ===== NAVIGATION =====
+function showSection(id,btn){
+  document.querySelectorAll('.nav-btn').forEach(b=>b.classList.remove('active'));
+  document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
+  btn.classList.add('active');
+  document.getElementById('sec-'+id).classList.add('active');
+}
+
+// ===== INIT =====
+renderSwimLanes();
+renderThemeVolume();
+renderWfDaily();
+renderEscalation();
+renderThreads();
+renderCrossFlow();
+renderPsstHeatmap();
+renderRecurring();
+</script>
+</body>
+</html>

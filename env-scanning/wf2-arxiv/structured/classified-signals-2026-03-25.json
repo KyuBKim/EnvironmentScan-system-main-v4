@@ -1,0 +1,891 @@
+{
+  "scan_date": "2026-03-25",
+  "workflow": "wf2-arxiv",
+  "total_classified": 38,
+  "category_distribution": {
+    "T_Technological": 24,
+    "E_Environmental": 3,
+    "s_spiritual": 5,
+    "E_Economic": 2,
+    "S_Social": 2,
+    "P_Political": 2
+  },
+  "signals": [
+    {
+      "id": "arxiv-20260325-001",
+      "title": "Bilevel Autoresearch: Meta-Autoresearching Itself",
+      "category": "T_Technological",
+      "psst_score": 88.5,
+      "rank": 1,
+      "source": "arXiv cs.AI 2603.23420v1",
+      "abstract": "Outer loop meta-optimizes inner autoresearch loop via autonomous code generation. 5x improvement on GPT pretraining benchmarks through discovering combinatorial optimization.",
+      "content": {
+        "keywords": [
+          "AI",
+          "autoresearch",
+          "meta-learning",
+          "autonomous",
+          "optimization"
+        ]
+      },
+      "impact_score": 8.0,
+      "keywords": [
+        "AI",
+        "autoresearch",
+        "meta-learning",
+        "autonomous",
+        "optimization"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-002",
+      "title": "Central Dogma Transformer III: Interpretable AI Across DNA, RNA, and Protein",
+      "category": "T_Technological",
+      "psst_score": 87.2,
+      "rank": 2,
+      "source": "arXiv cs.LG 2603.23361v1",
+      "abstract": "Interpretable AI predicting protein changes and discovering clinical side effects from in silico knockdown experiments across transcription and translation.",
+      "content": {
+        "keywords": [
+          "biology",
+          "AI",
+          "protein",
+          "drug discovery",
+          "genomics"
+        ]
+      },
+      "impact_score": 8.0,
+      "keywords": [
+        "biology",
+        "AI",
+        "protein",
+        "drug discovery",
+        "genomics"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-003",
+      "title": "Beyond Preset Identities: How Agents Form Stances in Generative Societies",
+      "category": "s_spiritual",
+      "psst_score": 86.0,
+      "rank": 3,
+      "source": "arXiv cs.AI 2603.23406v1",
+      "abstract": "Agents form endogenous stances overriding presets, exhibiting paradoxical decoupling between stated trust and behavioral change in multiagent LLM communities.",
+      "content": {
+        "keywords": [
+          "AI",
+          "agents",
+          "autonomous",
+          "society",
+          "alignment",
+          "safety"
+        ]
+      },
+      "impact_score": 5.5,
+      "keywords": [
+        "AI",
+        "agents",
+        "autonomous",
+        "society",
+        "alignment",
+        "safety"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-004",
+      "title": "Mecha-nudges for Machines: Presentation Changes Influencing AI Decisions",
+      "category": "s_spiritual",
+      "psst_score": 85.5,
+      "rank": 4,
+      "source": "arXiv cs.AI 2603.23433v1",
+      "abstract": "Etsy listings systematically optimized for machine-usable information post-ChatGPT. AI-targeted presentation changes influence purchasing without degrading human choice.",
+      "content": {
+        "keywords": [
+          "AI",
+          "commerce",
+          "nudge",
+          "machine",
+          "decision"
+        ]
+      },
+      "impact_score": 5.5,
+      "keywords": [
+        "AI",
+        "commerce",
+        "nudge",
+        "machine",
+        "decision"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-005",
+      "title": "Near-Optimal Solutions for Carbon Capture, Conversion, Storage, and Removal",
+      "category": "E_Environmental",
+      "psst_score": 85.0,
+      "rank": 5,
+      "source": "arXiv physics.soc-ph 2603.23409v1",
+      "abstract": "Multiple carbon management configurations achieve net-zero in European energy model with minimal cost increases. MGA approach reveals solution diversity.",
+      "content": {
+        "keywords": [
+          "carbon",
+          "climate",
+          "clean",
+          "energy",
+          "renewable",
+          "net-zero"
+        ]
+      },
+      "impact_score": 8.0,
+      "keywords": [
+        "carbon",
+        "climate",
+        "clean",
+        "energy",
+        "renewable",
+        "net-zero"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-006",
+      "title": "MedObvious: Exposing Medical Moravec's Paradox in VLMs",
+      "category": "T_Technological",
+      "psst_score": 84.8,
+      "rank": 6,
+      "source": "arXiv cs.CV 2603.23501v1",
+      "abstract": "Medical VLMs hallucinate anomalies on normal inputs, failing pre-diagnostic sanity checks despite fluent report generation. Exposes fundamental reliability gap.",
+      "content": {
+        "keywords": [
+          "medical",
+          "AI",
+          "safety",
+          "healthcare",
+          "VLM",
+          "hallucination"
+        ]
+      },
+      "impact_score": 8.0,
+      "keywords": [
+        "medical",
+        "AI",
+        "safety",
+        "healthcare",
+        "VLM",
+        "hallucination"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-007",
+      "title": "Failure of Contextual Invariance in Gender Inference with LLMs",
+      "category": "s_spiritual",
+      "psst_score": 84.5,
+      "rank": 7,
+      "source": "arXiv cs.CL 2603.23485v1",
+      "abstract": "Minimal discourse context causes systematic shifts in LLM gender inference, violating bias benchmarking assumptions. Contextually equivalent formulations produce different outputs.",
+      "content": {
+        "keywords": [
+          "AI",
+          "bias",
+          "gender",
+          "safety",
+          "LLM",
+          "fairness"
+        ]
+      },
+      "impact_score": 5.5,
+      "keywords": [
+        "AI",
+        "bias",
+        "gender",
+        "safety",
+        "LLM",
+        "fairness"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-008",
+      "title": "Biased Error Attribution in Multi-Agent Human-AI Systems",
+      "category": "s_spiritual",
+      "psst_score": 84.0,
+      "rank": 8,
+      "source": "arXiv cs.HC 2603.23419v1",
+      "abstract": "Humans systematically misattribute failure causes across agents under delayed feedback, demonstrating amplified cognitive biases in complex human-AI systems.",
+      "content": {
+        "keywords": [
+          "AI",
+          "human",
+          "autonomous",
+          "safety",
+          "error",
+          "cognitive"
+        ]
+      },
+      "impact_score": 5.5,
+      "keywords": [
+        "AI",
+        "human",
+        "autonomous",
+        "safety",
+        "error",
+        "cognitive"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-009",
+      "title": "CSTS: Canonical Security Telemetry for AI-Native Cyber Detection",
+      "category": "P_Political",
+      "psst_score": 83.5,
+      "rank": 9,
+      "source": "arXiv cs.CR 2603.23459v1",
+      "abstract": "Entity-relational abstraction for AI cybersecurity improves cross-environment zero-day detection. Identity persistence and temporal invariants enable robust deployment.",
+      "content": {
+        "keywords": [
+          "cybersecurity",
+          "AI",
+          "safety",
+          "detection",
+          "security"
+        ]
+      },
+      "impact_score": 5.5,
+      "keywords": [
+        "cybersecurity",
+        "AI",
+        "safety",
+        "detection",
+        "security"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-010",
+      "title": "VTAM: Video-Tactile-Action Models for Complex Physical Interaction",
+      "category": "T_Technological",
+      "psst_score": 83.2,
+      "rank": 10,
+      "source": "arXiv cs.RO 2603.23481v1",
+      "abstract": "Multimodal tactile perception enables 90% success in contact-rich tasks, outperforming vision-only baselines by 80% on fine-grained force awareness.",
+      "content": {
+        "keywords": [
+          "robotics",
+          "AI",
+          "tactile",
+          "manipulation",
+          "automation"
+        ]
+      },
+      "impact_score": 5.5,
+      "keywords": [
+        "robotics",
+        "AI",
+        "tactile",
+        "manipulation",
+        "automation"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-011",
+      "title": "Code Review Agent Benchmark: Only 40% Solved by Existing AI Agents",
+      "category": "T_Technological",
+      "psst_score": 82.8,
+      "rank": 11,
+      "source": "arXiv cs.SE 2603.23448v1",
+      "abstract": "Curated benchmark shows AI code review agents collectively solve only 40% of tasks, revealing significant human-agent collaboration potential.",
+      "content": {
+        "keywords": [
+          "AI",
+          "code review",
+          "software",
+          "automation",
+          "agents"
+        ]
+      },
+      "impact_score": 3.0,
+      "keywords": [
+        "AI",
+        "code review",
+        "software",
+        "automation",
+        "agents"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-012",
+      "title": "Byzantine-Robust Differentially Private Federated Optimization",
+      "category": "T_Technological",
+      "psst_score": 82.5,
+      "rank": 12,
+      "source": "arXiv cs.LG 2603.23472v1",
+      "abstract": "State-of-the-art convergence for federated learning under Byzantine attacks with differential privacy, without requiring bounded gradients.",
+      "content": {
+        "keywords": [
+          "AI",
+          "federated",
+          "privacy",
+          "security",
+          "safety"
+        ]
+      },
+      "impact_score": 3.0,
+      "keywords": [
+        "AI",
+        "federated",
+        "privacy",
+        "security",
+        "safety"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-013",
+      "title": "Off-Policy Value-Based RL for Large Language Models (ReVal)",
+      "category": "T_Technological",
+      "psst_score": 82.0,
+      "rank": 13,
+      "source": "arXiv cs.LG 2603.23355v1",
+      "abstract": "Bellman-update-based value method enables efficient replay-buffer training for LLMs, outperforming policy-based methods on mathematical reasoning.",
+      "content": {
+        "keywords": [
+          "AI",
+          "LLM",
+          "reinforcement learning",
+          "training"
+        ]
+      },
+      "impact_score": 3.0,
+      "keywords": [
+        "AI",
+        "LLM",
+        "reinforcement learning",
+        "training"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-014",
+      "title": "SortedRL: 50%+ Bubble Reduction in LLM RL Training",
+      "category": "T_Technological",
+      "psst_score": 81.5,
+      "rank": 14,
+      "source": "arXiv cs.LG 2603.23414v1",
+      "abstract": "Length-aware scheduling reduces RL training bottlenecks with 3.9-18.4% performance improvements on reasoning tasks.",
+      "content": {
+        "keywords": [
+          "AI",
+          "LLM",
+          "training",
+          "efficiency",
+          "optimization"
+        ]
+      },
+      "impact_score": 3.0,
+      "keywords": [
+        "AI",
+        "LLM",
+        "training",
+        "efficiency",
+        "optimization"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-015",
+      "title": "Dark Matter Detection Through Rydberg Atom Transducer",
+      "category": "T_Technological",
+      "psst_score": 81.0,
+      "rank": 15,
+      "source": "arXiv hep-ph 2603.23337v1",
+      "abstract": "Hybrid detection platform targets meV-scale bosonic dark matter with projected sensitivity to QCD axion band using Rydberg atom upconversion.",
+      "content": {
+        "keywords": [
+          "physics",
+          "dark matter",
+          "quantum",
+          "detection"
+        ]
+      },
+      "impact_score": 5.5,
+      "keywords": [
+        "physics",
+        "dark matter",
+        "quantum",
+        "detection"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-016",
+      "title": "Information-Theoretic Scaling Laws of Neural Quantum States",
+      "category": "T_Technological",
+      "psst_score": 80.5,
+      "rank": 16,
+      "source": "arXiv quant-ph 2603.23468v1",
+      "abstract": "Scaling laws connecting quantum state mutual information to neural network capacity, revealing architecture-dependent differences between RNN and Transformer.",
+      "content": {
+        "keywords": [
+          "quantum",
+          "neural",
+          "AI",
+          "scaling"
+        ]
+      },
+      "impact_score": 3.0,
+      "keywords": [
+        "quantum",
+        "neural",
+        "AI",
+        "scaling"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-017",
+      "title": "PAC-Bayesian Generalization Bounds for Quantum Models",
+      "category": "T_Technological",
+      "psst_score": 80.0,
+      "rank": 17,
+      "source": "arXiv quant-ph 2603.22964v1",
+      "abstract": "First non-uniform data-dependent generalization bounds for quantum models with general channels.",
+      "content": {
+        "keywords": [
+          "quantum",
+          "AI",
+          "generalization",
+          "theory"
+        ]
+      },
+      "impact_score": 3.0,
+      "keywords": [
+        "quantum",
+        "AI",
+        "generalization",
+        "theory"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-018",
+      "title": "Multi-Ion Optical Clock with 5×10⁻¹⁹ Uncertainty",
+      "category": "T_Technological",
+      "psst_score": 79.8,
+      "rank": 18,
+      "source": "arXiv physics.atom-ph 2603.23446v1",
+      "abstract": "State-of-the-art multi-ion Sr clock reduces measurement time while maintaining systematic uncertainty below 10⁻²⁰.",
+      "content": {
+        "keywords": [
+          "physics",
+          "precision",
+          "clock",
+          "measurement"
+        ]
+      },
+      "impact_score": 3.0,
+      "keywords": [
+        "physics",
+        "precision",
+        "clock",
+        "measurement"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-019",
+      "title": "General Machine Learning: Theory for Learning Under Variable Regimes",
+      "category": "T_Technological",
+      "psst_score": 79.5,
+      "rank": 19,
+      "source": "arXiv cs.LG 2603.23220v1",
+      "abstract": "Foundational learning theory framework for evolving learner conditions, establishing core concepts around admissible transport and protected stability.",
+      "content": {
+        "keywords": [
+          "AI",
+          "machine learning",
+          "theory",
+          "foundations"
+        ]
+      },
+      "impact_score": 3.0,
+      "keywords": [
+        "AI",
+        "machine learning",
+        "theory",
+        "foundations"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-020",
+      "title": "Scalable Quantum Circuit Generation via Majorana Propagation",
+      "category": "T_Technological",
+      "psst_score": 79.0,
+      "rank": 20,
+      "source": "arXiv quant-ph 2603.23444v1",
+      "abstract": "ADAPT-VMPE algorithm achieves polynomial-time ground state approximation across 100-qubit molecular ansätze.",
+      "content": {
+        "keywords": [
+          "quantum",
+          "computing",
+          "circuit",
+          "molecular"
+        ]
+      },
+      "impact_score": 3.0,
+      "keywords": [
+        "quantum",
+        "computing",
+        "circuit",
+        "molecular"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-021",
+      "title": "Targeted Adversarial Traffic for IoT Intrusion Detection Evasion",
+      "category": "P_Political",
+      "psst_score": 78.5,
+      "rank": 21,
+      "source": "arXiv cs.CR 2603.23438v1",
+      "abstract": "Practical evasion attacks against IoT intrusion detection using black-box adversarial methods with proposed defense mechanism.",
+      "content": {
+        "keywords": [
+          "AI",
+          "research"
+        ]
+      },
+      "impact_score": 3.0,
+      "keywords": [
+        "AI",
+        "research"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-022",
+      "title": "Cooperation in Public Goods Games over Hypergraphs",
+      "category": "S_Social",
+      "psst_score": 78.0,
+      "rank": 22,
+      "source": "arXiv physics.soc-ph 2603.22967v1",
+      "abstract": "Models cooperation evolution in group interactions revealing nonlinear relationships between defection sensitivity and cooperation.",
+      "content": {
+        "keywords": [
+          "AI",
+          "research"
+        ]
+      },
+      "impact_score": 3.0,
+      "keywords": [
+        "AI",
+        "research"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-023",
+      "title": "Tensor Network Portfolio Optimization on Coherent Ising Machines",
+      "category": "E_Economic",
+      "psst_score": 77.5,
+      "rank": 23,
+      "source": "arXiv quant-ph 2603.23200v1",
+      "abstract": "Block coordinate descent for large-scale portfolio optimization on quantum hardware with competitive results.",
+      "content": {
+        "keywords": [
+          "AI",
+          "research"
+        ]
+      },
+      "impact_score": 3.0,
+      "keywords": [
+        "AI",
+        "research"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-024",
+      "title": "OccAny: Generalized 3D Occupancy for Autonomous Driving",
+      "category": "T_Technological",
+      "psst_score": 77.0,
+      "rank": 24,
+      "source": "arXiv cs.CV 2603.23502v1",
+      "abstract": "Unconstrained 3D occupancy model operates on out-of-domain scenes without calibration for autonomous vehicles.",
+      "content": {
+        "keywords": [
+          "AI",
+          "research"
+        ]
+      },
+      "impact_score": 3.0,
+      "keywords": [
+        "AI",
+        "research"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-025",
+      "title": "RelayS2S: Dual-Path Real-Time Dialogue with 99% Quality",
+      "category": "T_Technological",
+      "psst_score": 76.5,
+      "rank": 25,
+      "source": "arXiv cs.AI 2603.23346v1",
+      "abstract": "Hybrid speech-to-speech architecture achieves low-latency onset while maintaining 99% quality of slower pipeline.",
+      "content": {
+        "keywords": [
+          "AI",
+          "research"
+        ]
+      },
+      "impact_score": 3.0,
+      "keywords": [
+        "AI",
+        "research"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-026",
+      "title": "Planning over 10,000 Multi-Agent Pathfinding Dependencies",
+      "category": "T_Technological",
+      "psst_score": 76.0,
+      "rank": 26,
+      "source": "arXiv cs.MA 2603.23405v1",
+      "abstract": "Scales priority-based pathfinding to 10,000 agents under kinodynamic constraints.",
+      "content": {
+        "keywords": [
+          "AI",
+          "research"
+        ]
+      },
+      "impact_score": 3.0,
+      "keywords": [
+        "AI",
+        "research"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-027",
+      "title": "Quantum Speedup from Nonclassical Polarization",
+      "category": "T_Technological",
+      "psst_score": 75.5,
+      "rank": 27,
+      "source": "arXiv quant-ph 2603.23124v1",
+      "abstract": "Persistent √N speedup scaling with photon number from polarization coherence via speed limits.",
+      "content": {
+        "keywords": [
+          "AI",
+          "research"
+        ]
+      },
+      "impact_score": 3.0,
+      "keywords": [
+        "AI",
+        "research"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-028",
+      "title": "Asymptotic Learning Curves for Diffusion Models on Manifold Data",
+      "category": "T_Technological",
+      "psst_score": 75.0,
+      "rank": 28,
+      "source": "arXiv cs.LG 2603.22962v1",
+      "abstract": "Sample complexity scales with intrinsic dimension rather than ambient dimension for denoising score matching.",
+      "content": {
+        "keywords": [
+          "AI",
+          "research"
+        ]
+      },
+      "impact_score": 3.0,
+      "keywords": [
+        "AI",
+        "research"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-029",
+      "title": "Solving Nonlinear PDEs via Hybrid Quantum Newton Method",
+      "category": "T_Technological",
+      "psst_score": 74.5,
+      "rank": 29,
+      "source": "arXiv quant-ph 2603.23258v1",
+      "abstract": "Modified HHL algorithm for Newton's method addressing fluid dynamics computational challenges.",
+      "content": {
+        "keywords": [
+          "AI",
+          "research"
+        ]
+      },
+      "impact_score": 3.0,
+      "keywords": [
+        "AI",
+        "research"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-030",
+      "title": "Modeling Disjunction Effect within Classical Probability",
+      "category": "S_Social",
+      "psst_score": 74.0,
+      "rank": 30,
+      "source": "arXiv q-bio.NC 2603.23233v1",
+      "abstract": "Classical and quantum-like decision models have equivalent observable expressiveness for cognitive anomalies.",
+      "content": {
+        "keywords": [
+          "AI",
+          "research"
+        ]
+      },
+      "impact_score": 3.0,
+      "keywords": [
+        "AI",
+        "research"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-031",
+      "title": "High-Resolution Tensor-Network for Non-Gaussian Aggregate Distributions",
+      "category": "E_Economic",
+      "psst_score": 73.5,
+      "rank": 31,
+      "source": "arXiv stat.ML 2603.23106v1",
+      "abstract": "Polylogarithmic complexity for financial risk calculations using low-rank tensor structures.",
+      "content": {
+        "keywords": [
+          "AI",
+          "research"
+        ]
+      },
+      "impact_score": 3.0,
+      "keywords": [
+        "AI",
+        "research"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-032",
+      "title": "SpecEyes: Accelerating Agentic Multimodal LLMs",
+      "category": "T_Technological",
+      "psst_score": 73.0,
+      "rank": 32,
+      "source": "arXiv cs.CV 2603.23483v1",
+      "abstract": "1.1-3.35x speedup for agentic multimodal LLMs via speculative perception.",
+      "content": {
+        "keywords": [
+          "AI",
+          "research"
+        ]
+      },
+      "impact_score": 3.0,
+      "keywords": [
+        "AI",
+        "research"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-033",
+      "title": "Edge Radar Material Classification Under Geometry Shifts",
+      "category": "T_Technological",
+      "psst_score": 72.5,
+      "rank": 33,
+      "source": "arXiv cs.RO 2603.23342v1",
+      "abstract": "Lightweight mmWave radar classification for edge devices with 94.2% accuracy.",
+      "content": {
+        "keywords": [
+          "AI",
+          "research"
+        ]
+      },
+      "impact_score": 3.0,
+      "keywords": [
+        "AI",
+        "research"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-034",
+      "title": "Global Control via Quantum Actuators",
+      "category": "T_Technological",
+      "psst_score": 72.0,
+      "rank": 34,
+      "source": "arXiv quant-ph 2603.23362v1",
+      "abstract": "Auxiliary systems enable global control of quantum processors enhancing connectivity and long-range entanglement.",
+      "content": {
+        "keywords": [
+          "AI",
+          "research"
+        ]
+      },
+      "impact_score": 3.0,
+      "keywords": [
+        "AI",
+        "research"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-035",
+      "title": "Near-Optimal Carbon Capture Multi-Configuration Analysis (European)",
+      "category": "E_Environmental",
+      "psst_score": 85.0,
+      "rank": 5,
+      "source": "arXiv physics.soc-ph 2603.23409v1",
+      "abstract": "Duplicate removed — merged with rank 5.",
+      "content": {
+        "keywords": [
+          "AI",
+          "research"
+        ]
+      },
+      "impact_score": 3.0,
+      "keywords": [
+        "AI",
+        "research"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-036",
+      "title": "LLM-Generated Tests Degrade Under Software Evolution",
+      "category": "T_Technological",
+      "psst_score": 71.5,
+      "rank": 36,
+      "source": "arXiv cs.SE 2603.23443v1",
+      "abstract": "LLM tests rely on surface-level patterns, degrading significantly under semantic-altering modifications.",
+      "content": {
+        "keywords": [
+          "AI",
+          "research"
+        ]
+      },
+      "impact_score": 3.0,
+      "keywords": [
+        "AI",
+        "research"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-037",
+      "title": "Foveated Diffusion: Human Perception-Guided Efficient Generation",
+      "category": "T_Technological",
+      "psst_score": 71.0,
+      "rank": 37,
+      "source": "arXiv cs.CV 2603.23491v1",
+      "abstract": "Non-uniform token allocation based on human visual perception reduces generation time while maintaining quality.",
+      "content": {
+        "keywords": [
+          "AI",
+          "research"
+        ]
+      },
+      "impact_score": 3.0,
+      "keywords": [
+        "AI",
+        "research"
+      ]
+    },
+    {
+      "id": "arxiv-20260325-038",
+      "title": "s_spiritual Signal: AI Error Attribution Amplifies Human Cognitive Biases",
+      "category": "s_spiritual",
+      "psst_score": 84.0,
+      "rank": 8,
+      "source": "duplicate — see rank 8",
+      "abstract": "Duplicate entry removed.",
+      "content": {
+        "keywords": [
+          "AI",
+          "research"
+        ]
+      },
+      "impact_score": 3.0,
+      "keywords": [
+        "AI",
+        "research"
+      ]
+    }
+  ]
+}

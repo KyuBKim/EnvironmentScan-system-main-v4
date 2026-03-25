@@ -1,0 +1,34 @@
+{
+  "classification_metadata": {
+    "date": "2026-03-23",
+    "workflow": "wf1-general",
+    "total_signals": 15,
+    "classification_method": "LLM (phase2-analyst)",
+    "priority_method": "priority_score_calculator.py"
+  },
+  "steeps_distribution": {
+    "T_Technological": 5,
+    "E_Economic": 4,
+    "P_Political": 2,
+    "S_Social": 2,
+    "E_Environmental": 1,
+    "s_spiritual": 1
+  },
+  "priority_ranked": [
+    {"rank": 1, "id": "wf1-20260323-001", "title": "Strait of Hormuz Crisis Drives Oil Past $126/barrel", "psst": 95, "category": "E_Economic", "status": "STRENGTHENING"},
+    {"rank": 2, "id": "wf1-20260323-002", "title": "EU Parliament Votes on AI Act Amendments", "psst": 92, "category": "P_Political", "status": "DEVELOPING"},
+    {"rank": 3, "id": "wf1-20260323-004", "title": "China's 15th Five-Year Plan Elevates Robotics and AI", "psst": 91, "category": "P_Political", "status": "NEW"},
+    {"rank": 4, "id": "wf1-20260323-003", "title": "Meta Plans 20% Workforce Reduction", "psst": 90, "category": "E_Economic", "status": "NEW"},
+    {"rank": 5, "id": "wf1-20260323-005", "title": "OpenAI GPT-5.4 Launches with Autonomous Computer Operation", "psst": 89, "category": "T_Technological", "status": "NEW"},
+    {"rank": 6, "id": "wf1-20260323-008", "title": "Physical AI Race: Tesla, Toyota, China Humanoids", "psst": 88, "category": "T_Technological", "status": "STRENGTHENING"},
+    {"rank": 7, "id": "wf1-20260323-007", "title": "Hybrid Quantum-GPU Biomolecular Simulation Breakthrough", "psst": 87, "category": "T_Technological", "status": "NEW"},
+    {"rank": 8, "id": "wf1-20260323-009", "title": "10-Year Treasury Yield Hits 4.37%", "psst": 86, "category": "E_Economic", "status": "STRENGTHENING"},
+    {"rank": 9, "id": "wf1-20260323-011", "title": "Orbital Data Center Race Escalates", "psst": 85, "category": "T_Technological", "status": "STRENGTHENING"},
+    {"rank": 10, "id": "wf1-20260323-015", "title": "Global Trade Fragmentation Accelerates", "psst": 84, "category": "E_Economic", "status": "STRENGTHENING"},
+    {"rank": 11, "id": "wf1-20260323-014", "title": "Base-Edited Baby: Personalized CRISPR Therapy", "psst": 83, "category": "T_Technological", "status": "DEVELOPING"},
+    {"rank": 12, "id": "wf1-20260323-012", "title": "ILO: Global Jobs Gap Reaches 408 Million", "psst": 82, "category": "S_Social", "status": "RECURRING"},
+    {"rank": 13, "id": "wf1-20260323-010", "title": "WHO: Middle East Conflict Deepens Health Crisis", "psst": 81, "category": "S_Social", "status": "STRENGTHENING"},
+    {"rank": 14, "id": "wf1-20260323-013", "title": "UNESCO Neurotechnology Standards Protect Mental Privacy", "psst": 80, "category": "s_spiritual", "status": "NEW"},
+    {"rank": 15, "id": "wf1-20260323-006", "title": "CERAWeek 2026 Opens in Houston", "psst": 79, "category": "E_Environmental", "status": "NEW"}
+  ]
+}

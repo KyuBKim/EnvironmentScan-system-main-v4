@@ -1,0 +1,21 @@
+{
+  "gate_id": "exploration_gate.py",
+  "gate_version": "1.3.0",
+  "command": "pre",
+  "recorded_at": "2026-03-23T20:35:00+00:00",
+  "date": "2026-03-24",
+  "decision": "MUST_RUN",
+  "reason": "s_spiritual coverage gap detected (9.4% < 15% threshold)",
+  "steeps_coverage": {
+    "S_Social": 0.125,
+    "T_Technological": 0.3125,
+    "E_Economic": 0.21875,
+    "E_Environmental": 0.125,
+    "P_Political": 0.125,
+    "s_spiritual": 0.09375
+  },
+  "gaps": [
+    "s_spiritual"
+  ],
+  "enforcement": "mandatory"
+}

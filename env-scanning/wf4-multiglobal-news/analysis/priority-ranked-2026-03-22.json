@@ -1,0 +1,314 @@
+{
+  "metadata": {
+    "workflow": "wf4-multiglobal-news",
+    "date": "2026-03-22",
+    "scan_window": {
+      "start": "2026-03-20T23:35:08Z",
+      "end": "2026-03-21T23:35:08Z"
+    },
+    "total_signals": 17,
+    "duplicates_removed": 3,
+    "unique_signals": 14,
+    "steeps_distribution": {
+      "T": 3,
+      "E": 3,
+      "S": 2,
+      "E_Environmental": 3,
+      "P": 2,
+      "s": 1
+    },
+    "priority_distribution": {
+      "CRITICAL": 3,
+      "HIGH": 5,
+      "MEDIUM": 4,
+      "LOW": 2
+    },
+    "fssf_distribution": {
+      "Weak Signal": 2,
+      "Emerging Issue": 3,
+      "Trend": 3,
+      "Megatrend": 1,
+      "Driver": 2,
+      "Wild Card": 1,
+      "Discontinuity": 1,
+      "Precursor Event": 1
+    },
+    "three_horizons": {
+      "H1": 6,
+      "H2": 5,
+      "H3": 3
+    },
+    "tipping_points": {
+      "RED": 0,
+      "ORANGE": 1,
+      "YELLOW": 2,
+      "GREEN": 11
+    },
+    "crawl_stats": {
+      "sites_attempted": 43,
+      "sites_succeeded": 39,
+      "sites_failed": 4,
+      "languages": 11
+    }
+  },
+  "ranking_metadata": {
+    "total_ranked": 14,
+    "method": "pSST_unified"
+  },
+  "ranked_signals": [
+    {
+      "id": "news-20260322-reuters-001",
+      "title": "US Federal Reserve Signals Extended Rate Hold Through 2026 -- Global Monetary Policy Divergence Widens",
+      "steeps": "E",
+      "priority": "CRITICAL",
+      "psst_score": 93,
+      "fssf_type": "Driver",
+      "horizon": "H1",
+      "uncertainty": "LOW",
+      "impact_assessment": "Fed rate hold at 4.5% while ECB, BOJ, BOK cut rates creates maximum monetary divergence in 20 years. USD strength pressures emerging market debt and commodity prices.",
+      "cross_impact": [
+        "P",
+        "S"
+      ],
+      "signal_status": "strengthening",
+      "source_section": "reuters.com",
+      "tipping_alert": "GREEN"
+    },
+    {
+      "id": "news-20260322-guardian-001",
+      "title": "Antarctic Ice Sheet Mass Loss Accelerates to 250 Gt/Year -- 2x Faster Than 2020 Models Predicted",
+      "steeps": "E_Environmental",
+      "priority": "CRITICAL",
+      "psst_score": 91,
+      "fssf_type": "Megatrend",
+      "horizon": "H2",
+      "uncertainty": "LOW",
+      "impact_assessment": "Antarctic ice loss at 250 Gt/year doubles model predictions, implying sea level rise of 50cm by 2060 rather than previously projected 30cm. Coastal infrastructure globally at risk.",
+      "cross_impact": [
+        "E",
+        "S",
+        "P"
+      ],
+      "signal_status": "strengthening",
+      "source_section": "theguardian.com",
+      "tipping_alert": "ORANGE"
+    },
+    {
+      "id": "news-20260322-nikkei-001",
+      "title": "Japan Launches 2 Trillion Yen AI National Strategy -- Targets Top-3 Global AI Capability by 2030",
+      "steeps": "T",
+      "priority": "CRITICAL",
+      "psst_score": 89,
+      "fssf_type": "Driver",
+      "horizon": "H1",
+      "uncertainty": "MEDIUM",
+      "impact_assessment": "Japan 2T yen AI strategy is the largest national AI investment in Asia. Combined with semiconductor revival (Rapidus 2nm), Japan positions as AI competitor to US and China.",
+      "cross_impact": [
+        "E",
+        "P"
+      ],
+      "signal_status": "emerging",
+      "source_section": "nikkei.com",
+      "tipping_alert": "GREEN"
+    },
+    {
+      "id": "news-20260322-lemonde-001",
+      "title": "EU Digital Markets Act Enforcement: Apple and Meta Face Combined EUR 38B in Fines",
+      "steeps": "P",
+      "priority": "HIGH",
+      "psst_score": 87,
+      "fssf_type": "Emerging Issue",
+      "horizon": "H1",
+      "uncertainty": "MEDIUM",
+      "impact_assessment": "Record DMA fines signal EU willingness to enforce digital market regulation at scale. Creates precedent for global tech platform regulation.",
+      "cross_impact": [
+        "T",
+        "E"
+      ],
+      "signal_status": "developing",
+      "source_section": "lemonde.fr",
+      "tipping_alert": "GREEN"
+    },
+    {
+      "id": "news-20260322-bbc-001",
+      "title": "Global Water Stress Index: 3.6 Billion People Face Water Scarcity by 2030 -- WMO Report",
+      "steeps": "E_Environmental",
+      "priority": "HIGH",
+      "psst_score": 86,
+      "fssf_type": "Trend",
+      "horizon": "H2",
+      "uncertainty": "LOW",
+      "impact_assessment": "WMO report projects water scarcity affecting 45% of global population by 2030. Intersection of climate change, population growth, and agricultural demand creates compound resource crisis.",
+      "cross_impact": [
+        "S",
+        "P",
+        "E"
+      ],
+      "signal_status": "developing",
+      "source_section": "bbc.com",
+      "tipping_alert": "YELLOW"
+    },
+    {
+      "id": "news-20260322-xinhua-001",
+      "title": "China Unveils 6G Standard Proposal at ITU -- Terahertz Communication Framework",
+      "steeps": "T",
+      "priority": "HIGH",
+      "psst_score": 85,
+      "fssf_type": "Emerging Issue",
+      "horizon": "H2",
+      "uncertainty": "MEDIUM",
+      "impact_assessment": "China submitting 6G standard proposal at ITU positions it to lead next-generation communications standards. Terahertz communication framework could enable 1 Tbps wireless speeds.",
+      "cross_impact": [
+        "E",
+        "P"
+      ],
+      "signal_status": "emerging",
+      "source_section": "xinhua.net",
+      "tipping_alert": "GREEN"
+    },
+    {
+      "id": "news-20260322-aljazeera-001",
+      "title": "African Union Digital Single Market Goes Live -- 1.4 Billion People Connected Under One Digital Trade Framework",
+      "steeps": "E",
+      "priority": "HIGH",
+      "psst_score": 84,
+      "fssf_type": "Precursor Event",
+      "horizon": "H2",
+      "uncertainty": "HIGH",
+      "impact_assessment": "AU Digital Single Market launch is the largest digital trade integration in history by population. Could transform African e-commerce and fintech if implementation succeeds.",
+      "cross_impact": [
+        "T",
+        "S"
+      ],
+      "signal_status": "emerging",
+      "source_section": "aljazeera.com",
+      "tipping_alert": "GREEN"
+    },
+    {
+      "id": "news-20260322-spiegel-001",
+      "title": "Germany Hydrogen Economy Reaches Industrial Scale -- 15 GW Electrolyzer Capacity by Q4 2026",
+      "steeps": "E_Environmental",
+      "priority": "HIGH",
+      "psst_score": 83,
+      "fssf_type": "Emerging Issue",
+      "horizon": "H2",
+      "uncertainty": "MEDIUM",
+      "impact_assessment": "Germany achieving 15 GW electrolyzer capacity validates green hydrogen at industrial scale. Combined with 100% renewable grid target, creates the first major economy hydrogen supply chain.",
+      "cross_impact": [
+        "T",
+        "E"
+      ],
+      "signal_status": "developing",
+      "source_section": "spiegel.de",
+      "tipping_alert": "GREEN"
+    },
+    {
+      "id": "news-20260322-ft-001",
+      "title": "Global AI Chip Shortage Deepens -- TSMC Lead Times Extend to 52 Weeks",
+      "steeps": "T",
+      "priority": "MEDIUM",
+      "psst_score": 81,
+      "fssf_type": "Trend",
+      "horizon": "H1",
+      "uncertainty": "LOW",
+      "impact_assessment": "TSMC AI chip lead times at 52 weeks indicate structural supply-demand imbalance. Drives urgency for alternative compute sources including sovereign cloud (connects to WF3 NVIDIA Korea signal).",
+      "cross_impact": [
+        "E"
+      ],
+      "signal_status": "developing",
+      "source_section": "ft.com",
+      "tipping_alert": "GREEN"
+    },
+    {
+      "id": "news-20260322-tass-001",
+      "title": "Russia-India Bilateral Trade Hits B Milestone -- De-dollarization of Energy Commerce Accelerates",
+      "steeps": "E",
+      "priority": "MEDIUM",
+      "psst_score": 80,
+      "fssf_type": "Trend",
+      "horizon": "H1",
+      "uncertainty": "MEDIUM",
+      "impact_assessment": "Russia-India trade reaching B with 65% in non-USD currencies demonstrates de-dollarization of major bilateral energy trade is operationally feasible at scale.",
+      "cross_impact": [
+        "P"
+      ],
+      "signal_status": "developing",
+      "source_section": "tass.com",
+      "tipping_alert": "GREEN"
+    },
+    {
+      "id": "news-20260322-asahi-001",
+      "title": "Japan Supreme Court Rules AI-Generated Content Not Protected by Copyright -- Global Precedent",
+      "steeps": "P",
+      "priority": "MEDIUM",
+      "psst_score": 79,
+      "fssf_type": "Wild Card",
+      "horizon": "H1",
+      "uncertainty": "MEDIUM",
+      "impact_assessment": "Japan court ruling that AI-generated works are not copyrightable creates global legal precedent. Challenges economic models of AI creative tools companies.",
+      "cross_impact": [
+        "T",
+        "E",
+        "s"
+      ],
+      "signal_status": "emerging",
+      "source_section": "asahi.com",
+      "tipping_alert": "GREEN"
+    },
+    {
+      "id": "news-20260322-dw-001",
+      "title": "EU Rewilding Initiative: 20% of European Farmland to Return to Nature by 2035",
+      "steeps": "S",
+      "priority": "MEDIUM",
+      "psst_score": 77,
+      "fssf_type": "Discontinuity",
+      "horizon": "H3",
+      "uncertainty": "HIGH",
+      "impact_assessment": "EU rewilding at 20% of farmland represents radical agricultural policy shift. Food security implications balance against biodiversity recovery and carbon sequestration.",
+      "cross_impact": [
+        "E_Environmental",
+        "E"
+      ],
+      "signal_status": "emerging",
+      "source_section": "dw.com",
+      "tipping_alert": "YELLOW"
+    },
+    {
+      "id": "news-20260322-hindu-001",
+      "title": "India UPI Processes 20 Billion Monthly Transactions -- Becomes World Largest Real-Time Payment System",
+      "steeps": "S",
+      "priority": "LOW",
+      "psst_score": 75,
+      "fssf_type": "Weak Signal",
+      "horizon": "H3",
+      "uncertainty": "MEDIUM",
+      "impact_assessment": "India UPI at 20B monthly transactions surpasses all other payment systems combined. Creates template for national digital payment infrastructure that could be exported globally.",
+      "cross_impact": [
+        "T",
+        "E"
+      ],
+      "signal_status": "developing",
+      "source_section": "thehindu.com",
+      "tipping_alert": "GREEN"
+    },
+    {
+      "id": "news-20260322-rfi-001",
+      "title": "Sahel Region Climate-Conflict Nexus: 5 Million Climate Displaced by 2026 -- UNHCR",
+      "steeps": "s",
+      "priority": "LOW",
+      "psst_score": 73,
+      "fssf_type": "Weak Signal",
+      "horizon": "H3",
+      "uncertainty": "HIGH",
+      "impact_assessment": "UNHCR reports 5M climate-displaced in Sahel, where climate stress intersects with armed conflict. Represents emerging pattern of compound climate-security crises.",
+      "cross_impact": [
+        "E_Environmental",
+        "P",
+        "S"
+      ],
+      "signal_status": "emerging",
+      "source_section": "rfi.fr",
+      "tipping_alert": "GREEN"
+    }
+  ]
+}

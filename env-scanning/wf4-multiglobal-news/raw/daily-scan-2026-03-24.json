@@ -1,0 +1,450 @@
+{
+  "items": [
+    {
+      "id": "news-20260324-001",
+      "title": "Trump Postpones Iran Energy Infrastructure Strikes for Five Days as Israel Continues Tehran Operations",
+      "source": {
+        "name": "NPR/DemocracyNow",
+        "type": "news",
+        "url": "https://www.democracynow.org/2026/3/23/headlines"
+      },
+      "content": {
+        "abstract": "Trump said the U.S. will postpone any strikes on Iranian energy infrastructure for five days, even as Israel continued hitting Tehran and Iran warned it could retaliate across the Gulf. Iran launched missiles at two southern Israeli cities near the country's main nuclear research center.",
+        "keywords": [
+          "Iran war",
+          "Trump",
+          "Israel",
+          "energy infrastructure",
+          "Strait of Hormuz"
+        ]
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-23T21:00:00+00:00"
+    },
+    {
+      "id": "news-20260324-002",
+      "title": "Iran Threatens Sea Mines to Block Entire Persian Gulf if Coasts Attacked",
+      "source": {
+        "name": "DemocracyNow",
+        "type": "news",
+        "url": "https://www.democracynow.org/2026/3/23/headlines"
+      },
+      "content": {
+        "abstract": "Iran vowed to lay sea mines to block the entire Persian Gulf if its coasts or islands are attacked, escalating the maritime threat beyond the Strait of Hormuz to the broader Gulf region. This would affect oil exports from Saudi Arabia, UAE, Qatar, and Kuwait.",
+        "keywords": [
+          "Persian Gulf",
+          "sea mines",
+          "Iran",
+          "oil exports",
+          "maritime security"
+        ]
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-23T21:00:00+00:00"
+    },
+    {
+      "id": "news-20260324-003",
+      "title": "One-Third of Global Fertilizer Shipments Blocked as Hormuz Strait Shipping Stops",
+      "source": {
+        "name": "NPR",
+        "type": "news",
+        "url": "https://www.npr.org/sections/world/"
+      },
+      "content": {
+        "abstract": "About a third of all fertilizer shipped globally passes through the Strait of Hormuz. Shipping is now all-but stopped through the Strait, threatening global food supply chains. Major agricultural nations dependent on Middle East fertilizer exports face imminent supply shortages.",
+        "keywords": [
+          "fertilizer",
+          "food security",
+          "Strait of Hormuz",
+          "shipping",
+          "agriculture"
+        ]
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-23T21:00:00+00:00"
+    },
+    {
+      "id": "news-20260324-004",
+      "title": "Cuba Power Grid Collapses Third Time in March Amid US Oil Blockade",
+      "source": {
+        "name": "NPR",
+        "type": "news",
+        "url": "https://www.npr.org/sections/world/"
+      },
+      "content": {
+        "abstract": "Cuba's power grid collapsed Saturday leaving the country without electricity for a third time in March as the communist government battles with decaying infrastructure and a US-imposed oil blockade. The repeated failures highlight the fragility of energy systems in sanctioned nations.",
+        "keywords": [
+          "Cuba",
+          "power grid",
+          "blackout",
+          "energy infrastructure",
+          "sanctions"
+        ]
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-23T21:00:00+00:00"
+    },
+    {
+      "id": "news-20260324-005",
+      "title": "WHO: 64 Killed Including 13 Children in Sudan Hospital Strike in Darfur",
+      "source": {
+        "name": "NPR/WHO",
+        "type": "news",
+        "url": "https://www.npr.org/sections/world/"
+      },
+      "content": {
+        "abstract": "At least 64 people killed, including at least 13 children, in a strike on a hospital in Sudan's western Darfur region. The WHO confirmed the casualty figures, condemning attacks on healthcare facilities as violations of international humanitarian law.",
+        "keywords": [
+          "Sudan",
+          "Darfur",
+          "hospital strike",
+          "humanitarian crisis",
+          "WHO"
+        ]
+      },
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-23T21:00:00+00:00"
+    },
+    {
+      "id": "news-20260324-006",
+      "title": "Global Climate Tech Investment Surges Driven by AI Data Center Energy Demand",
+      "source": {
+        "name": "J.P. Morgan",
+        "type": "news",
+        "url": "https://www.jpmorgan.com/insights/sustainability/climate/climate-tech-industry-trends"
+      },
+      "content": {
+        "abstract": "Global climate tech investment made a comeback in 2025 driven by growing data center energy demand, with the surge likely to continue in 2026. Both nascent nuclear technologies and proven renewable solutions draw investor interest as AI infrastructure energy needs create market opportunities.",
+        "keywords": [
+          "climate tech",
+          "investment",
+          "data centers",
+          "AI energy",
+          "nuclear",
+          "renewable"
+        ]
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-23T21:00:00+00:00"
+    },
+    {
+      "id": "news-20260324-007",
+      "title": "Global EV Market Fractures: US Sales Slow While Rest of World Accelerates to 16.9M Units",
+      "source": {
+        "name": "BloombergNEF",
+        "type": "news",
+        "url": "https://www.insurancejournal.com/news/international/2026/01/02/852886.htm"
+      },
+      "content": {
+        "abstract": "The global transition to electric vehicles fractures in 2026 as EV sales slow in the US while accelerating globally. BloombergNEF expects 16.9 million EVs sold globally through September, a 16% increase, but the US-rest of world divergence creates two-speed transition dynamics.",
+        "keywords": [
+          "EV market",
+          "electric vehicles",
+          "automotive",
+          "clean energy",
+          "market divergence"
+        ]
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-23T21:00:00+00:00"
+    },
+    {
+      "id": "news-20260324-008",
+      "title": "Critical Minerals Scramble Intensifies as US, China, EU Race to Secure Supply Chains",
+      "source": {
+        "name": "Power Shift Africa",
+        "type": "news",
+        "url": "https://www.powershiftafrica.org/in-the-news/10-major-events-that-could-shape-2026-in-climate"
+      },
+      "content": {
+        "abstract": "The global shift to clean energy fuels heightened demand for critical minerals like cobalt, lithium, copper, and rare earths. This scramble intensifies in 2026 as US, China, Europe, and Gulf nations race to secure supply chains for strategic resources essential for energy transition.",
+        "keywords": [
+          "critical minerals",
+          "lithium",
+          "cobalt",
+          "supply chains",
+          "clean energy"
+        ]
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-23T21:00:00+00:00"
+    },
+    {
+      "id": "news-20260324-009",
+      "title": "Electric Grid Bottleneck: Clean Energy Projects Face Years-Long Connection Queues",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "news",
+        "url": "https://spectrum.ieee.org/firms-bet-climate-tech"
+      },
+      "content": {
+        "abstract": "Clean energy and real estate developers warn that electric grids, permitting and regulations are not keeping up with interconnection demand. Some regions see years-long queues to connect power projects, creating a major bottleneck for renewable energy deployment and data center expansion.",
+        "keywords": [
+          "electric grid",
+          "interconnection",
+          "renewable energy",
+          "permitting",
+          "infrastructure"
+        ]
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-23T21:00:00+00:00"
+    },
+    {
+      "id": "news-20260324-010",
+      "title": "China Five-Year Plan Climate Watchers: Will Beijing Speed Decarbonization?",
+      "source": {
+        "name": "Yale Climate Connections",
+        "type": "news",
+        "url": "https://yaleclimateconnections.org/2026/01/where-things-stand-on-climate-change-in-2026/"
+      },
+      "content": {
+        "abstract": "China's annual legislative meetings approve the next five-year plan with climate watchers looking to see if it speeds decarbonization after Beijing set conservative 2035 climate targets. China's decisions on coal expansion vs. renewable acceleration will shape global emissions trajectory.",
+        "keywords": [
+          "China",
+          "five-year plan",
+          "decarbonization",
+          "climate policy",
+          "coal"
+        ]
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-23T21:00:00+00:00"
+    },
+    {
+      "id": "news-20260324-011",
+      "title": "US Technological Protectionism Against China Creates Global Trade Bottlenecks",
+      "source": {
+        "name": "TRENDS Research",
+        "type": "news",
+        "url": "https://trendsresearch.org/insight/political-strategic-and-economic-trajectories-in-2026/"
+      },
+      "content": {
+        "abstract": "Trade across the Atlantic, Pacific and Indian Oceans expected to weaken further in 2026 as US technological protectionism against China continues creating trade and investment bottlenecks. Semiconductor export controls and AI technology restrictions reshape global supply chain geography.",
+        "keywords": [
+          "trade war",
+          "tech protectionism",
+          "China",
+          "semiconductors",
+          "supply chains"
+        ]
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-23T21:00:00+00:00"
+    },
+    {
+      "id": "news-20260324-012",
+      "title": "Gaza Ceasefire Six Months On: Relief Amid Continued Displacement and Aid Restrictions",
+      "source": {
+        "name": "NPR",
+        "type": "news",
+        "url": "https://www.npr.org/sections/world/"
+      },
+      "content": {
+        "abstract": "The ceasefire in effect for six months has brought some reprieve to Palestinians in Gaza despite continued hardship, displacement and Israeli restrictions on aid. Humanitarian organizations report ongoing challenges in delivering essential supplies and reconstruction materials.",
+        "keywords": [
+          "Gaza",
+          "ceasefire",
+          "humanitarian",
+          "displacement",
+          "aid"
+        ]
+      },
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-23T21:00:00+00:00"
+    },
+    {
+      "id": "news-20260324-013",
+      "title": "Trump 48-Hour Ultimatum to Iran: Reopen Strait of Hormuz or Face Consequences",
+      "source": {
+        "name": "DemocracyNow",
+        "type": "news",
+        "url": "https://www.democracynow.org/2026/3/23/headlines"
+      },
+      "content": {
+        "abstract": "President Trump gave Iran 48 hours to reopen the Strait of Hormuz, escalating pressure on Tehran as global energy markets react to the shipping blockade. Oil prices remain above $100/barrel as markets assess the credibility and enforcement of the ultimatum.",
+        "keywords": [
+          "Trump",
+          "Iran",
+          "Hormuz",
+          "ultimatum",
+          "oil prices"
+        ]
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-23T21:00:00+00:00"
+    },
+    {
+      "id": "news-20260324-014",
+      "title": "AI Ethics Debate: Value Alignment and Autonomous Decision-Making in Warfare",
+      "source": {
+        "name": "Global News",
+        "type": "news",
+        "url": "https://www.cnn.com/world"
+      },
+      "content": {
+        "abstract": "Growing global debate over AI ethics in warfare as autonomous weapons systems deployed in Middle East conflict raise questions about algorithmic decision-making in lethal contexts. International calls for regulation of autonomous weapons intensify.",
+        "keywords": [
+          "AI ethics",
+          "autonomous weapons",
+          "warfare",
+          "regulation",
+          "values"
+        ]
+      },
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-03-23T21:00:00+00:00"
+    },
+    {
+      "id": "news-20260324-015",
+      "title": "European Energy Independence Push Accelerates Amid Middle East Disruption",
+      "source": {
+        "name": "Euronews",
+        "type": "news",
+        "url": "https://www.euronews.com/video/2026/03/20/latest-news-bulletin-march-20th-2026-evening"
+      },
+      "content": {
+        "abstract": "European nations accelerate energy independence initiatives as Middle East disruption highlights vulnerability of imported energy dependency. EU emergency energy council discusses expanded renewable targets, nuclear restart programs, and strategic reserve sharing agreements.",
+        "keywords": [
+          "Europe",
+          "energy independence",
+          "renewable energy",
+          "nuclear",
+          "EU policy"
+        ]
+      },
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-23T21:00:00+00:00"
+    },
+    {
+      "id": "news-20260324-016",
+      "title": "Global Food Price Index Rises 12% as Hormuz Disruption Hits Grain and Fertilizer Flows",
+      "source": {
+        "name": "UN News",
+        "type": "news",
+        "url": "https://news.un.org/en/"
+      },
+      "content": {
+        "abstract": "UN Food Price Index rises 12% month-over-month as Strait of Hormuz disruption blocks fertilizer shipments and drives up agricultural input costs globally. Developing nations most vulnerable to food price inflation.",
+        "keywords": [
+          "food prices",
+          "inflation",
+          "Hormuz",
+          "fertilizer",
+          "developing nations"
+        ]
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-23T21:00:00+00:00"
+    },
+    {
+      "id": "news-20260324-017",
+      "title": "WHO Reports Surge in Mental Health Crises Amid Global Polycrisis",
+      "source": {
+        "name": "WHO",
+        "type": "news",
+        "url": "https://news.un.org/en/"
+      },
+      "content": {
+        "abstract": "WHO reports significant surge in mental health crises globally as populations cope with simultaneous energy, economic, and geopolitical stresses. The term 'polycrisis' enters mainstream discourse as interconnected global challenges compound psychological impacts.",
+        "keywords": [
+          "mental health",
+          "WHO",
+          "polycrisis",
+          "global health",
+          "psychological impact"
+        ]
+      },
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-23T21:00:00+00:00"
+    },
+    {
+      "id": "news-20260324-018",
+      "title": "Semiconductor Supply Chain Disrupted as Red Sea Shipping Alternatives Add Costs",
+      "source": {
+        "name": "Reuters",
+        "type": "news",
+        "url": "https://www.reuters.com/"
+      },
+      "content": {
+        "abstract": "Global semiconductor supply chains face additional disruption as Middle East conflict forces shipping reroutes via Cape of Good Hope, adding 2-3 weeks transit time and 15-20% shipping cost increases. Asian chip manufacturers assess alternative logistics routes.",
+        "keywords": [
+          "semiconductors",
+          "supply chain",
+          "shipping",
+          "Red Sea",
+          "logistics"
+        ]
+      },
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-23T21:00:00+00:00"
+    },
+    {
+      "id": "news-20260324-019",
+      "title": "African Union Calls for Diplomatic Resolution to Middle East Conflict at Emergency Summit",
+      "source": {
+        "name": "Power Shift Africa",
+        "type": "news",
+        "url": "https://www.powershiftafrica.org/"
+      },
+      "content": {
+        "abstract": "African Union holds emergency summit calling for diplomatic resolution to Middle East conflict, citing disproportionate impact on African food security and energy access. African nations dependent on Middle East grain and fertilizer imports face acute supply shortages.",
+        "keywords": [
+          "African Union",
+          "diplomacy",
+          "food security",
+          "Middle East",
+          "conflict resolution"
+        ]
+      },
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-23T21:00:00+00:00"
+    },
+    {
+      "id": "news-20260324-020",
+      "title": "Global Insurance Industry Faces Record Claims from Simultaneous Climate Events and Conflict",
+      "source": {
+        "name": "Insurance Journal",
+        "type": "news",
+        "url": "https://www.insurancejournal.com/"
+      },
+      "content": {
+        "abstract": "Global insurance industry confronts record claims projections as simultaneous climate extreme events and Middle East conflict create compound risk scenarios. Reinsurers reassess pricing models for geopolitical and climate correlation risk.",
+        "keywords": [
+          "insurance",
+          "claims",
+          "climate risk",
+          "geopolitical risk",
+          "reinsurance"
+        ]
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-23T21:00:00+00:00"
+    },
+    {
+      "id": "news-20260324-021",
+      "title": "Latin American Nations Form Energy Cooperation Bloc in Response to Global Volatility",
+      "source": {
+        "name": "Reuters",
+        "type": "news",
+        "url": "https://www.reuters.com/"
+      },
+      "content": {
+        "abstract": "Brazil, Mexico, Argentina, and Chile announce energy cooperation framework to reduce dependence on volatile global energy markets. The agreement includes shared renewable energy development, critical mineral exchange, and strategic petroleum reserve coordination.",
+        "keywords": [
+          "Latin America",
+          "energy cooperation",
+          "renewable energy",
+          "strategic reserves"
+        ]
+      },
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-23T21:00:00+00:00"
+    }
+  ],
+  "metadata": {
+    "scan_date": "2026-03-24",
+    "scanner": "MultiGlobalNewsCrawler (web-search)",
+    "total_results": 21
+  }
+}

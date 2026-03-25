@@ -1,0 +1,252 @@
+{
+  "scan_date": "2026-03-25",
+  "workflow": "wf4-multiglobal-news",
+  "total_ranked": 35,
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "news-20260325-cnn-001",
+      "title": "Trump Gives Iran Tonight Deadline to Reopen Strait of Hormuz or Face Obliteration",
+      "category": "P_Political",
+      "psst_score": 92.0
+    },
+    {
+      "rank": 2,
+      "id": "news-20260325-cnn-002",
+      "title": "Russia Fires Nearly 1,000 Drones at Ukraine in War's Largest Attack",
+      "category": "P_Political",
+      "psst_score": 90.0
+    },
+    {
+      "rank": 3,
+      "id": "news-20260325-pbs-001",
+      "title": "US Breaks All-Time March Heat Record",
+      "category": "E_Environmental",
+      "psst_score": 87.5
+    },
+    {
+      "rank": 4,
+      "id": "news-20260325-ecco-001",
+      "title": "China Publishes 15th Five-Year Plan with 2030 Climate Targets",
+      "category": "P_Political",
+      "psst_score": 86.0
+    },
+    {
+      "rank": 5,
+      "id": "news-20260325-unctad-001",
+      "title": "Global Economic Growth Forecast at 2.7% — Below Pre-Pandemic Average",
+      "category": "E_Economic",
+      "psst_score": 85.5
+    },
+    {
+      "rank": 6,
+      "id": "news-20260325-ecco-002",
+      "title": "Clean Energy Technology Markets Approaching $640 Billion Annually",
+      "category": "T_Technological",
+      "psst_score": 84.0
+    },
+    {
+      "rank": 7,
+      "id": "news-20260325-unctad-002",
+      "title": "ASEAN Digital Economy Framework Agreement to Take Effect in 2026",
+      "category": "E_Economic",
+      "psst_score": 83.0
+    },
+    {
+      "rank": 8,
+      "id": "news-20260325-alj-001",
+      "title": "Brazil's President Criticizes US for Thinking They Own the World",
+      "category": "P_Political",
+      "psst_score": 82.0
+    },
+    {
+      "rank": 9,
+      "id": "news-20260325-undesa-001",
+      "title": "Africa Economic Output Projected at 4.0% Growth Despite Debt and Climate Shocks",
+      "category": "E_Economic",
+      "psst_score": 81.0
+    },
+    {
+      "rank": 10,
+      "id": "news-20260325-cnn-003",
+      "title": "Colombian Military Plane Crashes on Takeoff — Scores Killed",
+      "category": "S_Social",
+      "psst_score": 78.0
+    },
+    {
+      "rank": 11,
+      "id": "news-20260325-unctad-003",
+      "title": "US Technological Protectionism Against China Creating Trade Bottlenecks",
+      "category": "E_Economic",
+      "psst_score": 80.5
+    },
+    {
+      "rank": 12,
+      "id": "news-20260325-wef-001",
+      "title": "Global Cooperation Barometer Shows Declining Multilateral Cooperation",
+      "category": "P_Political",
+      "psst_score": 80.0
+    },
+    {
+      "rank": 13,
+      "id": "news-20260325-undesa-002",
+      "title": "India's 6.6% Growth Leads South Asia Economic Expansion",
+      "category": "E_Economic",
+      "psst_score": 79.5
+    },
+    {
+      "rank": 14,
+      "id": "news-20260325-ecco-003",
+      "title": "EU Joint Communication on Global Climate and Energy Vision",
+      "category": "E_Environmental",
+      "psst_score": 79.0
+    },
+    {
+      "rank": 15,
+      "id": "news-20260325-met-001",
+      "title": "UK Met Office: 2026 Likely 4th Consecutive Year Above 1.4°C",
+      "category": "E_Environmental",
+      "psst_score": 78.5
+    },
+    {
+      "rank": 16,
+      "id": "news-20260325-stimson-001",
+      "title": "Top Ten Global Risks for 2026: Nuclear Escalation, AI Governance, Climate Tipping",
+      "category": "P_Political",
+      "psst_score": 78.0
+    },
+    {
+      "rank": 17,
+      "id": "news-20260325-cfr-001",
+      "title": "Global Summits 2026: Bracing for New Global Disorder",
+      "category": "P_Political",
+      "psst_score": 77.0
+    },
+    {
+      "rank": 18,
+      "id": "news-20260325-cidob-001",
+      "title": "Ten Issues Shaping International Agenda in 2026",
+      "category": "P_Political",
+      "psst_score": 76.5
+    },
+    {
+      "rank": 19,
+      "id": "news-20260325-psa-001",
+      "title": "10 Major Climate Events to Shape 2026 — Power Shift Africa",
+      "category": "E_Environmental",
+      "psst_score": 76.0
+    },
+    {
+      "rank": 20,
+      "id": "news-20260325-kpro-001",
+      "title": "How South Korea Enters 2026 Across Politics, Security and Trade",
+      "category": "P_Political",
+      "psst_score": 75.5
+    },
+    {
+      "rank": 21,
+      "id": "news-20260325-ktd-001",
+      "title": "Korea's Stablecoin Dilemma: Banks vs Fintech in Digital Asset Act",
+      "category": "E_Economic",
+      "psst_score": 75.0
+    },
+    {
+      "rank": 22,
+      "id": "news-20260325-kh-001",
+      "title": "Korea Aims for 2% Growth in 2026 Betting on Chips and Investment Rebound",
+      "category": "E_Economic",
+      "psst_score": 74.5
+    },
+    {
+      "rank": 23,
+      "id": "news-20260325-kt-001",
+      "title": "Korean Business Leaders Vow Efforts to Tackle Market Uncertainties",
+      "category": "E_Economic",
+      "psst_score": 73.0
+    },
+    {
+      "rank": 24,
+      "id": "news-20260325-euro-001",
+      "title": "Euronews Latest News Bulletin — March 2026",
+      "category": "P_Political",
+      "psst_score": 72.0
+    },
+    {
+      "rank": 25,
+      "id": "news-20260325-trends-001",
+      "title": "Political, Strategic, and Economic Trajectories in 2026",
+      "category": "T_Technological",
+      "psst_score": 72.0
+    },
+    {
+      "rank": 26,
+      "id": "news-20260325-npr-001",
+      "title": "NPR News Roundup — March 20, 2026",
+      "category": "P_Political",
+      "psst_score": 71.0
+    },
+    {
+      "rank": 27,
+      "id": "news-20260325-lex-001",
+      "title": "2026 Key Issues and Outlook for Korea — Legal Perspective",
+      "category": "E_Economic",
+      "psst_score": 70.5
+    },
+    {
+      "rank": 28,
+      "id": "news-20260325-ecco-004",
+      "title": "What Challenges Face Europe and the World in 2026",
+      "category": "E_Environmental",
+      "psst_score": 70.0
+    },
+    {
+      "rank": 29,
+      "id": "news-20260325-undesa-003",
+      "title": "World Economic Situation and Prospects 2026",
+      "category": "E_Economic",
+      "psst_score": 69.5
+    },
+    {
+      "rank": 30,
+      "id": "news-20260325-fb-001",
+      "title": "Korea to Get Extremely Aggressive About AI Development in 2026",
+      "category": "T_Technological",
+      "psst_score": 69.0
+    },
+    {
+      "rank": 31,
+      "id": "news-20260325-abc-001",
+      "title": "International News Coverage — ABC News",
+      "category": "P_Political",
+      "psst_score": 68.5
+    },
+    {
+      "rank": 32,
+      "id": "news-20260325-ecco-005",
+      "title": "EU Global Climate Vision Aligned with Paris Agreement",
+      "category": "E_Environmental",
+      "psst_score": 68.0
+    },
+    {
+      "rank": 33,
+      "id": "news-20260325-alj-002",
+      "title": "Al Jazeera Breaking News Coverage — Iran War and Global Impact",
+      "category": "P_Political",
+      "psst_score": 67.5
+    },
+    {
+      "rank": 34,
+      "id": "news-20260325-trends-002",
+      "title": "Defense Spending Prioritizing AI and Unmanned Systems Globally",
+      "category": "T_Technological",
+      "psst_score": 67.0
+    },
+    {
+      "rank": 35,
+      "id": "news-20260325-undesa-004",
+      "title": "10 Trends Shaping Global Trade in 2026",
+      "category": "E_Economic",
+      "psst_score": 66.5
+    }
+  ]
+}

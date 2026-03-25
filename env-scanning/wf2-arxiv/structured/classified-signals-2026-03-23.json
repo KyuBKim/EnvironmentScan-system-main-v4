@@ -1,0 +1,33 @@
+{
+  "classification_metadata": {
+    "date": "2026-03-23",
+    "workflow": "wf2-arxiv",
+    "total_signals": 15,
+    "source": "arXiv"
+  },
+  "steeps_distribution": {
+    "T_Technological": 8,
+    "S_Social": 2,
+    "E_Economic": 2,
+    "P_Political": 1,
+    "E_Environmental": 1,
+    "s_spiritual": 1
+  },
+  "priority_ranked": [
+    {"rank": 1, "id": "arxiv-20260323-001", "title": "DreamZero: Robot Foundation Model Doubles Success Rate in Novel Environments", "psst": 93, "category": "T_Technological"},
+    {"rank": 2, "id": "arxiv-20260323-002", "title": "Linear Transformers with Infinite Self-Attention Bridge Efficiency-Quality Gap", "psst": 91, "category": "T_Technological"},
+    {"rank": 3, "id": "arxiv-20260323-003", "title": "Majorana Qubit Readout Achieves Millisecond Coherence — Topological Quantum Computing Milestone", "psst": 90, "category": "T_Technological"},
+    {"rank": 4, "id": "arxiv-20260323-004", "title": "Post-Quantum Cryptography Resilience: Systematic Review of Shor/Grover Attack Vectors on Current Systems", "psst": 88, "category": "T_Technological"},
+    {"rank": 5, "id": "arxiv-20260323-005", "title": "AI-Assisted Scientific Assessment: 13 Climate Scientists Synthesize 79 Papers in 46 Person-Hours", "psst": 87, "category": "E_Environmental"},
+    {"rank": 6, "id": "arxiv-20260323-006", "title": "Draft-Thinking: Efficient Reasoning Reduces Chain-of-Thought Computation by 60%", "psst": 86, "category": "T_Technological"},
+    {"rank": 7, "id": "arxiv-20260323-007", "title": "Privacy-Preserving ML for IoT: Cross-Paradigm Survey Reveals Fundamental Architecture Tradeoffs", "psst": 85, "category": "T_Technological"},
+    {"rank": 8, "id": "arxiv-20260323-008", "title": "ARTEMIS Neuro-Symbolic Framework Distils Interpretable Trading Rules from Neural SDEs", "psst": 84, "category": "E_Economic"},
+    {"rank": 9, "id": "arxiv-20260323-009", "title": "VLA Models Deploy on Soft Robots: Safe Human-Robot Interaction Matches Rigid Counterparts", "psst": 83, "category": "T_Technological"},
+    {"rank": 10, "id": "arxiv-20260323-010", "title": "Autonomous Generalist Scientist: Agentic AI + Embodied Robotics for Cross-Disciplinary Discovery", "psst": 82, "category": "T_Technological"},
+    {"rank": 11, "id": "arxiv-20260323-011", "title": "Credit Network Topology Outperforms Fundamentals in Bank Lending Decisions", "psst": 81, "category": "E_Economic"},
+    {"rank": 12, "id": "arxiv-20260323-012", "title": "RewardFlow: Topology-Aware Reward Propagation for Agentic RL with LLMs", "psst": 80, "category": "T_Technological"},
+    {"rank": 13, "id": "arxiv-20260323-013", "title": "Variational Latent Equilibrium: Biologically Plausible Learning in Neuronal Circuits", "psst": 79, "category": "S_Social"},
+    {"rank": 14, "id": "arxiv-20260323-014", "title": "AMOC Stability Assessment via AI Collaboration — Implications for Climate Tipping Points", "psst": 78, "category": "P_Political"},
+    {"rank": 15, "id": "arxiv-20260323-015", "title": "FCN-LLM: Graph-Level Multi-Task Instruction Tuning for Brain Functional Connectivity", "psst": 77, "category": "S_Social"}
+  ]
+}

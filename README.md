@@ -37,6 +37,9 @@ Each workflow is fully independent -- it cannot see or access any other workflow
 - **Unified Phase 2 Agent**: `phase2-analyst.md` handles Steps 2.1+2.2 (LLM); Step 2.3 delegated to `priority_score_calculator.py` (Python)
 - **Timeline Map with Challenge-Response**: Cross-theme strategic synthesis via adversarial peer review (challenger agent → narrative refinement), Python narrative gate (NG-001~005), full L2a+L2b+L3 quality parity
 - **4-Layer Quality Defense**: L1 (Skeleton-Fill) → L2a (structural 15–20 checks) → L2b (14 QC checks) → L3 (LLM semantic review) → L4 (Golden Reference)
+- **Interactive Dashboard**: Python 원천봉쇄 data pipeline (zero LLM dependency) → Chart.js visualization → CDN offline fallback → auto-open in browser
+- **Cross-WF Reinforcement Detection**: SOT-bound Jaccard similarity (thresholds.yaml), 2-char domain term preservation (AI, EU, EV)
+- **Quality-First Context Memory**: Phase 2 abstract inclusion for deeper classification, Phase 3 enriched context for richer reports, 14-day archive window (SOT-bound) for signal evolution detection
 - **Impact Analysis**: Probabilistic Cross-Impact Matrix + Bayesian Network
 - **Expert Validation**: Real-Time AI Delphi for high-volume signals (optional)
 - **Scenario Generation**: QUEST-based plausible future scenarios (optional)
@@ -322,11 +325,12 @@ Agent (EN) → Output (EN) → Translation Agent → Output (KR)
 
 ## Version
 
-- **System Version**: 3.5.0 (Quadruple Workflow, Bilingual EN-KR, Python 원천봉쇄, Hallucination Prevention, Timeline Map Challenge-Response, Dashboard Auto-Open, Master Gate M4)
-- **Workflow Version**: Quadruple Environmental Scanning v3.5.0
-- **Architecture**: 42 agent specs, 41 Python modules + 11 validation scripts, 12 config files, 14 skeleton files, 28 test files (~1069 tests)
-- **Validation**: 68 SOT checks (SOT-001~065), 4-layer quality defense (L1→L4), 14 QC checks (L2b), 8 PG2 checks, 11 Timeline QC checks (TQ-001~011), 5 narrative gate checks (NG-001~005), 3 TERM fidelity checks, 9 CG completion checks (M4), 6 dashboard checks — 143+ total
-- **Last Updated**: 2026-03-24
+- **System Version**: 3.5.1 (Quadruple Workflow, Bilingual EN-KR, Python 원천봉쇄, Hallucination Prevention, Timeline Map Challenge-Response, Dashboard Auto-Open, Master Gate M4, Quality-First Context Optimization)
+- **Workflow Version**: Quadruple Environmental Scanning v3.5.1
+- **Architecture**: 43 agent specs, 42 Python modules + 11 validation scripts, 12 config files, 14 skeleton files, 28 test files (~1069 tests)
+- **Validation**: 68 SOT checks (SOT-001~065), 4-layer quality defense (L1→L4), 14 QC checks (L2b), 8 PG2 checks, 11 Timeline QC checks (TQ-001~011), 5 narrative gate checks (NG-001~005), 3 TERM fidelity checks, 10 CG completion checks (M4, CG-010 dashboard), 6 dashboard checks (DB-001~006) — 145+ total
+- **Last Updated**: 2026-03-25
+- **v3.5.1 Changes**: Dashboard hallucination prevention (Python 원천봉쇄 data pipeline), Cross-WF reinforcement SOT binding (thresholds.yaml), Task Management Python enforcement (verify action), Quality-First Context Memory (Phase 2 abstract inclusion, Phase 3 enriched context, 14-day archive window from SOT), CDN offline fallback, Timeline Map fallback with staleness transparency
 
 ## References
 

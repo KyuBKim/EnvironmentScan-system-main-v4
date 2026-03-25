@@ -1,0 +1,724 @@
+{
+  "ranking_metadata": {
+    "engine": "priority_score_calculator.py",
+    "engine_version": "1.0.0",
+    "workflow": "wf1-general",
+    "date": "2026-03-24",
+    "computed_at": "2026-03-23T20:39:25Z",
+    "method": "priority_formula_v1",
+    "weights": {
+      "impact": 0.4,
+      "probability": 0.3,
+      "urgency": 0.2,
+      "novelty": 0.1
+    },
+    "total_ranked": 32,
+    "warn_count": 32
+  },
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "gen-20260324-003",
+      "title": "Strait of Hormuz Crisis: Largest Energy Supply Disruption Since 1970s — 40+ Energy Assets Damaged",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.285,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.95,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 2,
+      "id": "gen-20260324-007",
+      "title": "11 Consecutive Hottest Years on Record: Climate Scientists Assess Future Trajectories",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.277,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.925,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 3,
+      "id": "gen-20260324-001",
+      "title": "AI Algorithms Can Become 'Agents of Chaos' When Given Autonomous Control",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.262,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.875,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 4,
+      "id": "gen-20260324-005",
+      "title": "Global Growth Forecast Lowered to 2.7% — 35% Recession Probability",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.262,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.875,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 5,
+      "id": "gen-20260324-010",
+      "title": "UN Warns of Dire Fertilizer Shortage as Hormuz Crisis Threatens Global Food Security",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.262,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.875,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 6,
+      "id": "gen-20260324-032",
+      "title": "Child Mortality Progress Slows: 4.9 Million Children Die Before Age Five Annually",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.262,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.875,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 7,
+      "id": "gen-20260324-008",
+      "title": "AI-Fueled Delusions: Stanford Study Reveals Chatbots Endorsed Delusional Thinking in 390K+ Messages",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.248,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.825,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 8,
+      "id": "gen-20260324-021",
+      "title": "IEA Recommends Emergency Measures: Work From Home, Reduce Speeds to Ease Energy Crisis",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.248,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.825,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 9,
+      "id": "gen-20260324-002",
+      "title": "GPT-5.4 Unveiled with 1M Token Context Window and Autonomous Workflow Execution",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.24,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.8,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 10,
+      "id": "gen-20260324-014",
+      "title": "Digital Investment Divide Widens: OECD Analysis Shows Diverging Business Capital Patterns",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.24,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.8,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 11,
+      "id": "gen-20260324-022",
+      "title": "60% of Americans Support Medical Aid in Dying: Deepening Partisan Divide",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.24,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.8,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 12,
+      "id": "gen-20260324-004",
+      "title": "CO2 from UK Data Centres Could Be 'Hundreds of Times' Higher Than Government Projections",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.225,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.75,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 13,
+      "id": "gen-20260324-012",
+      "title": "Geopolitical Tensions Ease: Treasury Yields Fall as Markets Signal Risk-On Shift",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.225,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.75,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 14,
+      "id": "gen-20260324-013",
+      "title": "Microplastics Falling From Sky Polluting Forests as Hidden Pollution Reservoirs",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.225,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.75,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 15,
+      "id": "gen-20260324-015",
+      "title": "Economic Consequences of Immigration Sudden Stops: Korean Case Study Reveals Firm Contraction",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.225,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.75,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 16,
+      "id": "gen-20260324-018",
+      "title": "OpenAI Pursuing Fully Automated Researcher by 2028",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.225,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.75,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 17,
+      "id": "gen-20260324-025",
+      "title": "FBI Warns: Iranian State Hackers Using Telegram for Data Theft Operations",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.225,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.75,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 18,
+      "id": "gen-20260324-027",
+      "title": "Water Infrastructure as Strategic Weapon: Targeting Desalination Plants in Armed Conflicts",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.225,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.75,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 19,
+      "id": "gen-20260324-006",
+      "title": "Gimlet Labs Raises $80M to Solve AI Inference Bottleneck Across Multiple Chip Architectures",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.21,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.7,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 20,
+      "id": "gen-20260324-016",
+      "title": "Apple WWDC 2026 to Focus on Major AI Advancements and Siri Overhaul",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.21,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.7,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 21,
+      "id": "gen-20260324-019",
+      "title": "Cursor Admits Coding Model Built on Chinese AI Moonshot/Kimi: Geopolitical Supply Chain Risk",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.21,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.7,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 22,
+      "id": "gen-20260324-024",
+      "title": "Moving Beyond GDP: Measuring Well-Being Through Human and Environmental Capital",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.21,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.7,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 23,
+      "id": "gen-20260324-030",
+      "title": "DoorDash Introduces Relief Payments as Iran-US War Drives Up Gas Prices for Gig Workers",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.21,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.7,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 24,
+      "id": "gen-20260324-009",
+      "title": "What Happens If AI Makes Things Too Easy: Psychology of Frictionless AI",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.188,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.625,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 25,
+      "id": "gen-20260324-020",
+      "title": "Helion Fusion Energy in Talks to Power OpenAI Data Centers (12.5% Output)",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.188,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.625,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 26,
+      "id": "gen-20260324-023",
+      "title": "Intelligence Illusion: AI Innovator Argues Current Models Are 'Glorified Pocket Calculators'",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.188,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.625,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 27,
+      "id": "gen-20260324-026",
+      "title": "Adenia Partners Closes $180M Fund for African Entrepreneurial Investment",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.188,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.625,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 28,
+      "id": "gen-20260324-031",
+      "title": "Grab Acquires Foodpanda Taiwan for $600M: Southeast Asian Super-App Expansion",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.188,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.625,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 29,
+      "id": "gen-20260324-033",
+      "title": "Nigerian Firms Embrace Kit-Based EV Assembly for Cost Savings and Food Logistics",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.188,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.625,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 30,
+      "id": "gen-20260324-011",
+      "title": "iPhone 17 Pro Runs 400B Parameter LLM On-Device: Mobile AI Paradigm Shift",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.165,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.55,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 31,
+      "id": "gen-20260324-029",
+      "title": "Developed Countries' Declining Birth Rates May Not Endanger Economies",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.165,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.55,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    },
+    {
+      "rank": 32,
+      "id": "gen-20260324-035",
+      "title": "Hidden 'Death Switch' in Brain May Drive Alzheimer's — Researchers Disable It in Mice",
+      "steeps": "",
+      "fssf_type": "",
+      "three_horizons": "",
+      "priority_score": 4.165,
+      "psst_score": 42.9,
+      "psst_grade": "D",
+      "component_scores": {
+        "impact": 5.0,
+        "probability": 3.55,
+        "urgency": 3.0,
+        "novelty": 5.0
+      },
+      "psst_dimensions": {
+        "SR": 34,
+        "TC": 85,
+        "DC": 72
+      }
+    }
+  ]
+}

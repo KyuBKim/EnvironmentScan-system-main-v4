@@ -1,0 +1,479 @@
+{
+  "metadata": {
+    "workflow": "wf2-arxiv",
+    "date": "2026-03-22",
+    "scan_window": {
+      "start": "2026-03-19T22:35:08Z",
+      "end": "2026-03-21T23:35:08Z"
+    },
+    "total_signals": 45,
+    "duplicates_removed": 0,
+    "unique_signals": 45,
+    "steeps_distribution": {
+      "T": 32,
+      "E": 2,
+      "E_Environmental": 3,
+      "S": 4,
+      "P": 2,
+      "s": 2
+    },
+    "priority_distribution": {
+      "CRITICAL": 5,
+      "HIGH": 12,
+      "MEDIUM": 18,
+      "LOW": 10
+    }
+  },
+  "classified_signals": [
+    {
+      "id": "arxiv-20260322-001",
+      "title": "Nemotron-Cascade 2: Open 30B MoE Model with 3B Activated Parameters",
+      "steeps": "T",
+      "priority": "CRITICAL",
+      "psst_score": 88,
+      "impact_assessment": "Efficient MoE architecture achieving best-in-class reasoning with 10x fewer activated parameters. Could democratize access to frontier-level AI reasoning capabilities.",
+      "cross_impact": ["E", "S", "P"],
+      "signal_status": "emerging"
+    },
+    {
+      "id": "arxiv-20260322-003",
+      "title": "Post-Quantum Cryptography from Quantum Stabilizer Decoding",
+      "steeps": "T",
+      "priority": "CRITICAL",
+      "psst_score": 92,
+      "impact_assessment": "Novel hardness assumption for post-quantum cryptography. If validated, diversifies PQC foundations beyond current limited assumptions, reducing catastrophic risk of single-assumption failure.",
+      "cross_impact": ["P", "E"],
+      "signal_status": "emerging"
+    },
+    {
+      "id": "arxiv-20260322-005",
+      "title": "Measurement-Induced Quantum Neural Network (MINN)",
+      "steeps": "T",
+      "priority": "CRITICAL",
+      "psst_score": 90,
+      "impact_assessment": "Mid-circuit measurements with classical feedback enable adaptive quantum circuits. Potential paradigm shift in quantum ML architecture design.",
+      "cross_impact": ["E"],
+      "signal_status": "emerging"
+    },
+    {
+      "id": "arxiv-20260322-022",
+      "title": "The Uncertain Policy Price of Scaling Direct Air Capture",
+      "steeps": "E_Environmental",
+      "priority": "CRITICAL",
+      "psst_score": 87,
+      "impact_assessment": "Quantifies interacting uncertainties in DAC scaling — technological, economic, and policy. Critical for climate mitigation investment decisions.",
+      "cross_impact": ["E", "P"],
+      "signal_status": "developing"
+    },
+    {
+      "id": "arxiv-20260322-020",
+      "title": "Interplay between Evolutionary and Epidemic Time Scales Challenges Control Policies",
+      "steeps": "S",
+      "priority": "CRITICAL",
+      "psst_score": 86,
+      "impact_assessment": "Demonstrates viral evolution can cause superexponential growth, fundamentally challenging existing epidemic control frameworks. High relevance for pandemic preparedness.",
+      "cross_impact": ["P", "E"],
+      "signal_status": "emerging"
+    },
+    {
+      "id": "arxiv-20260322-002",
+      "title": "F2LLM-v2: Multilingual Embedding Models in 8 Sizes (80M to 14B)",
+      "steeps": "T",
+      "priority": "HIGH",
+      "psst_score": 84,
+      "impact_assessment": "Scalable multilingual embeddings across 8 model sizes. Enables deployment flexibility from edge to cloud for retrieval and search applications.",
+      "cross_impact": ["S", "E"],
+      "signal_status": "developing"
+    },
+    {
+      "id": "arxiv-20260322-006",
+      "title": "Utility-scale Quantum Computational Chemistry",
+      "steeps": "T",
+      "priority": "HIGH",
+      "psst_score": 85,
+      "impact_assessment": "Roadmap for practical quantum advantage in chemistry/materials science. Identifies remaining gaps between current hardware and useful computational chemistry.",
+      "cross_impact": ["E_Environmental", "E"],
+      "signal_status": "developing"
+    },
+    {
+      "id": "arxiv-20260322-008",
+      "title": "FinTradeBench: Reasoning over Heterogeneous Financial Signals",
+      "steeps": "E",
+      "priority": "HIGH",
+      "psst_score": 82,
+      "impact_assessment": "First comprehensive benchmark for AI financial decision-making over heterogeneous signals. Accelerates AI adoption in quantitative finance.",
+      "cross_impact": ["T"],
+      "signal_status": "emerging"
+    },
+    {
+      "id": "arxiv-20260322-012",
+      "title": "MIDST Challenge: Privacy Risks in Synthetic Data at SaTML 2025",
+      "steeps": "P",
+      "priority": "HIGH",
+      "psst_score": 83,
+      "impact_assessment": "Reveals synthetic data is not the privacy panacea assumed. Challenges regulatory assumptions about AI-generated synthetic data as privacy-safe.",
+      "cross_impact": ["T", "s"],
+      "signal_status": "developing"
+    },
+    {
+      "id": "arxiv-20260322-019",
+      "title": "Allocating Access to Quantum Computing: A Legal-Ethical Framework",
+      "steeps": "P",
+      "priority": "HIGH",
+      "psst_score": 80,
+      "impact_assessment": "First systematic legal-ethical framework for quantum computing access allocation. Addresses digital equity concerns as quantum advantages materialize.",
+      "cross_impact": ["s", "S", "E"],
+      "signal_status": "emerging"
+    },
+    {
+      "id": "arxiv-20260322-023",
+      "title": "Long Distance Daylight Drone-based QKD under Relative Motion",
+      "steeps": "T",
+      "priority": "HIGH",
+      "psst_score": 84,
+      "impact_assessment": "Drone-based QKD overcoming daylight and motion challenges. Enables tactical quantum-secure mobile communication networks.",
+      "cross_impact": ["P"],
+      "signal_status": "emerging"
+    },
+    {
+      "id": "arxiv-20260322-028",
+      "title": "Quantum Advantage: Tensor Network Perspective on IBM, D-Wave, Google",
+      "steeps": "T",
+      "priority": "HIGH",
+      "psst_score": 82,
+      "impact_assessment": "Critical review of quantum advantage claims through classical simulation lens. Essential for realistic assessment of quantum computing progress.",
+      "cross_impact": ["E", "P"],
+      "signal_status": "developing"
+    },
+    {
+      "id": "arxiv-20260322-034",
+      "title": "LEO-based Carrier-Phase Positioning for 6G: cm-Level Accuracy",
+      "steeps": "T",
+      "priority": "HIGH",
+      "psst_score": 83,
+      "impact_assessment": "LEO satellite positioning achieving centimeter accuracy with second-level convergence. Could replace GNSS for high-precision applications.",
+      "cross_impact": ["E", "P"],
+      "signal_status": "emerging"
+    },
+    {
+      "id": "arxiv-20260322-031",
+      "title": "Ferroelectric p-wave Magnets: New Class of Quantum Materials",
+      "steeps": "T",
+      "priority": "HIGH",
+      "psst_score": 81,
+      "impact_assessment": "Discovery of new quantum material class combining ferroelectric and p-wave magnetic properties. Potential for novel spintronic devices.",
+      "cross_impact": [],
+      "signal_status": "emerging"
+    },
+    {
+      "id": "arxiv-20260322-036",
+      "title": "End-to-End Chemical Dynamics on Quantum Computer",
+      "steeps": "T",
+      "priority": "HIGH",
+      "psst_score": 82,
+      "impact_assessment": "First end-to-end quantum chemical dynamics simulation. Milestone toward practical quantum advantage in chemistry.",
+      "cross_impact": ["E_Environmental"],
+      "signal_status": "emerging"
+    },
+    {
+      "id": "arxiv-20260322-032",
+      "title": "Mobile Radio Networks as Distributed Rainfall Radar",
+      "steeps": "E_Environmental",
+      "priority": "HIGH",
+      "psst_score": 80,
+      "impact_assessment": "Repurposing cellular infrastructure for meter-resolution rainfall monitoring. Transformative for urban flood warning and climate adaptation.",
+      "cross_impact": ["T", "S"],
+      "signal_status": "emerging"
+    },
+    {
+      "id": "arxiv-20260322-007",
+      "title": "Quantum Theory Based on Real Numbers Cannot Be Experimentally Falsified",
+      "steeps": "s",
+      "priority": "HIGH",
+      "psst_score": 81,
+      "impact_assessment": "Resolves decades-old foundational question about the role of complex numbers in quantum theory. Philosophical implications for understanding reality.",
+      "cross_impact": ["T"],
+      "signal_status": "emerging"
+    },
+    {
+      "id": "arxiv-20260322-004",
+      "title": "OS-Themis: RL for Robust GUI Agents",
+      "steeps": "T",
+      "priority": "MEDIUM",
+      "psst_score": 76,
+      "impact_assessment": "Automated reward model training for GUI agents improves robustness in stochastic environments. Advances agentic AI reliability.",
+      "cross_impact": ["E"],
+      "signal_status": "developing"
+    },
+    {
+      "id": "arxiv-20260322-009",
+      "title": "Sparse Autoencoders Reveal VLA Interpretable Features",
+      "steeps": "T",
+      "priority": "MEDIUM",
+      "psst_score": 78,
+      "impact_assessment": "Interpretability breakthrough for robot manipulation models. Enables understanding why VLA generalization fails in certain scenarios.",
+      "cross_impact": ["s"],
+      "signal_status": "developing"
+    },
+    {
+      "id": "arxiv-20260322-010",
+      "title": "Generation Models Know Space: Spatial Reasoning for MLLMs",
+      "steeps": "T",
+      "priority": "MEDIUM",
+      "psst_score": 77,
+      "impact_assessment": "Addresses spatial blindness in multimodal LLMs. Important for embodied AI and autonomous driving applications.",
+      "cross_impact": [],
+      "signal_status": "developing"
+    },
+    {
+      "id": "arxiv-20260322-011",
+      "title": "DyMoE: Dynamic MoE for Memory-Efficient Deployment",
+      "steeps": "T",
+      "priority": "MEDIUM",
+      "psst_score": 75,
+      "impact_assessment": "Addresses memory bottleneck preventing real-world MoE deployment. Practical engineering contribution.",
+      "cross_impact": ["E"],
+      "signal_status": "developing"
+    },
+    {
+      "id": "arxiv-20260322-013",
+      "title": "SOL-ExecBench: Benchmarking Agentic AI GPU Kernel Optimization",
+      "steeps": "T",
+      "priority": "MEDIUM",
+      "psst_score": 74,
+      "impact_assessment": "New benchmark measuring actual hardware efficiency rather than software speedup. Important for AI-generated code quality assessment.",
+      "cross_impact": [],
+      "signal_status": "emerging"
+    },
+    {
+      "id": "arxiv-20260322-014",
+      "title": "Implicit Patterns in LLM-Based Binary Vulnerability Analysis",
+      "steeps": "T",
+      "priority": "MEDIUM",
+      "psst_score": 79,
+      "impact_assessment": "First large-scale analysis of how LLMs approach binary security analysis. Critical for understanding AI cybersecurity capabilities.",
+      "cross_impact": ["P"],
+      "signal_status": "emerging"
+    },
+    {
+      "id": "arxiv-20260322-015",
+      "title": "FedTrident: Resilient Road Condition Classification via FL",
+      "steeps": "T",
+      "priority": "MEDIUM",
+      "psst_score": 72,
+      "impact_assessment": "Adversarial-robust federated learning for transportation safety. Addresses real deployment vulnerability.",
+      "cross_impact": ["S"],
+      "signal_status": "developing"
+    },
+    {
+      "id": "arxiv-20260322-016",
+      "title": "Evaluating Counterfactual Strategic Reasoning in LLMs",
+      "steeps": "E",
+      "priority": "MEDIUM",
+      "psst_score": 76,
+      "impact_assessment": "Tests whether LLM strategic reasoning is genuine or memorized. Key for deploying AI in economic strategy.",
+      "cross_impact": ["T", "s"],
+      "signal_status": "developing"
+    },
+    {
+      "id": "arxiv-20260322-017",
+      "title": "Cubic Discrete Diffusion: Unified Visual Generation",
+      "steeps": "T",
+      "priority": "MEDIUM",
+      "psst_score": 77,
+      "impact_assessment": "Discrete token diffusion enables unified vision-language generation paradigm. Engineering advance for multimodal AI.",
+      "cross_impact": [],
+      "signal_status": "developing"
+    },
+    {
+      "id": "arxiv-20260322-018",
+      "title": "FASTER: Real-Time VLA Models in Physical World",
+      "steeps": "T",
+      "priority": "MEDIUM",
+      "psst_score": 76,
+      "impact_assessment": "Solves real-time execution bottleneck for VLA models in robotics. Practical deployment enabler.",
+      "cross_impact": [],
+      "signal_status": "developing"
+    },
+    {
+      "id": "arxiv-20260322-021",
+      "title": "Marine Heatwaves in Arabian Sea: Atmospheric Circulation Impacts",
+      "steeps": "E_Environmental",
+      "priority": "MEDIUM",
+      "psst_score": 75,
+      "impact_assessment": "Reveals how marine heatwaves affect atmospheric circulation and precipitation. Important for climate impact modeling.",
+      "cross_impact": ["S"],
+      "signal_status": "developing"
+    },
+    {
+      "id": "arxiv-20260322-024",
+      "title": "Organosulfur Biosignatures on Sub-Neptunes: Extraterrestrial Life",
+      "steeps": "T",
+      "priority": "MEDIUM",
+      "psst_score": 79,
+      "impact_assessment": "Examines DMS/DMDS biosignatures on K2-18b. High public interest; advances exoplanet habitability assessment methods.",
+      "cross_impact": ["s"],
+      "signal_status": "developing"
+    },
+    {
+      "id": "arxiv-20260322-025",
+      "title": "Robust Near-Critical Dynamics in Heavy-Tailed Neural Networks",
+      "steeps": "T",
+      "priority": "MEDIUM",
+      "psst_score": 74,
+      "impact_assessment": "Theoretical advance explaining biological neural network criticality. May inspire new AI architectures.",
+      "cross_impact": ["s"],
+      "signal_status": "emerging"
+    },
+    {
+      "id": "arxiv-20260322-026",
+      "title": "ML Bone Raman for Noninvasive Osteoporosis Detection",
+      "steeps": "S",
+      "priority": "MEDIUM",
+      "psst_score": 78,
+      "impact_assessment": "Non-invasive osteoporosis screening could dramatically improve detection rates in aging populations.",
+      "cross_impact": ["T"],
+      "signal_status": "emerging"
+    },
+    {
+      "id": "arxiv-20260322-027",
+      "title": "Pipelined Collaborative Speculative Decoding for LLM Serving",
+      "steeps": "T",
+      "priority": "MEDIUM",
+      "psst_score": 74,
+      "impact_assessment": "Novel approach to LLM serving latency-throughput tradeoff. Addresses key scaling bottleneck.",
+      "cross_impact": ["E"],
+      "signal_status": "developing"
+    },
+    {
+      "id": "arxiv-20260322-029",
+      "title": "Holter-to-Sleep: AI Single-Lead ECG Sleep Phenotyping",
+      "steeps": "S",
+      "priority": "MEDIUM",
+      "psst_score": 77,
+      "impact_assessment": "Repurposes widely-available single-lead ECG for sleep analysis. Democratizes sleep medicine with existing wearable devices.",
+      "cross_impact": ["T"],
+      "signal_status": "developing"
+    },
+    {
+      "id": "arxiv-20260322-033",
+      "title": "Enabling 6G: UWB at 250-330 GHz Corridor Characterization",
+      "steeps": "T",
+      "priority": "MEDIUM",
+      "psst_score": 72,
+      "impact_assessment": "Empirical THz propagation data essential for 6G system design. Foundational measurement contribution.",
+      "cross_impact": [],
+      "signal_status": "developing"
+    },
+    {
+      "id": "arxiv-20260322-035",
+      "title": "Self-Propelled Liquid Metal Machines: Tunable Autonomous Motion",
+      "steeps": "T",
+      "priority": "MEDIUM",
+      "psst_score": 73,
+      "impact_assessment": "Autonomous soft machines without external power. Potential applications in drug delivery and microrobotics.",
+      "cross_impact": ["S"],
+      "signal_status": "emerging"
+    },
+    {
+      "id": "arxiv-20260322-030",
+      "title": "Photoferroelectric Coupling in van der Waals CuInP2S6",
+      "steeps": "T",
+      "priority": "LOW",
+      "psst_score": 68,
+      "impact_assessment": "Novel coupling mechanism in 2D ferroelectric materials. Potential for opto-ferroelectric devices.",
+      "cross_impact": [],
+      "signal_status": "developing"
+    },
+    {
+      "id": "arxiv-20260322-037",
+      "title": "Stochastic Resetting Accelerates RL Policy Convergence",
+      "steeps": "T",
+      "priority": "LOW",
+      "psst_score": 70,
+      "impact_assessment": "Theoretical contribution connecting stochastic processes with RL. Moderate practical impact.",
+      "cross_impact": [],
+      "signal_status": "emerging"
+    },
+    {
+      "id": "arxiv-20260322-038",
+      "title": "Matryoshka Gaussian Splatting: LoD from Single Model",
+      "steeps": "T",
+      "priority": "LOW",
+      "psst_score": 70,
+      "impact_assessment": "Engineering improvement for 3DGS deployment. Practical but incremental.",
+      "cross_impact": [],
+      "signal_status": "developing"
+    },
+    {
+      "id": "arxiv-20260322-039",
+      "title": "OmniVTA: Visuo-Tactile World Modeling",
+      "steeps": "T",
+      "priority": "LOW",
+      "psst_score": 72,
+      "impact_assessment": "Multimodal perception for contact-rich tasks. Important for dexterous manipulation.",
+      "cross_impact": [],
+      "signal_status": "developing"
+    },
+    {
+      "id": "arxiv-20260322-040",
+      "title": "MattKeyBond: Bond-Centric ML for Materials Properties",
+      "steeps": "T",
+      "priority": "LOW",
+      "psst_score": 68,
+      "impact_assessment": "Materials informatics database contribution. Useful but domain-specific.",
+      "cross_impact": [],
+      "signal_status": "developing"
+    },
+    {
+      "id": "arxiv-20260322-041",
+      "title": "LVOmniBench: Omnimodal LLM Audio-Video Evaluation",
+      "steeps": "T",
+      "priority": "LOW",
+      "psst_score": 70,
+      "impact_assessment": "Benchmark contribution for multimodal evaluation. Useful for field standardization.",
+      "cross_impact": [],
+      "signal_status": "developing"
+    },
+    {
+      "id": "arxiv-20260322-042",
+      "title": "Tinted Frames: VLMs Visual Input Underutilization",
+      "steeps": "T",
+      "priority": "LOW",
+      "psst_score": 74,
+      "impact_assessment": "Documents critical VLM limitation. Diagnosis value for future model improvements.",
+      "cross_impact": ["s"],
+      "signal_status": "developing"
+    },
+    {
+      "id": "arxiv-20260322-043",
+      "title": "Phishing Detection Attack-Surface Concentration",
+      "steeps": "T",
+      "priority": "LOW",
+      "psst_score": 69,
+      "impact_assessment": "Adversarial robustness analysis for web security tools. Practical security implications.",
+      "cross_impact": ["P"],
+      "signal_status": "developing"
+    },
+    {
+      "id": "arxiv-20260322-044",
+      "title": "BeamAgent: LLM-Aided MIMO Beamforming",
+      "steeps": "T",
+      "priority": "LOW",
+      "psst_score": 70,
+      "impact_assessment": "Novel LLM application in communications engineering. Proof-of-concept stage.",
+      "cross_impact": [],
+      "signal_status": "emerging"
+    },
+    {
+      "id": "arxiv-20260322-045",
+      "title": "Improving RCT Treatment Effect Estimation via LLMs",
+      "steeps": "S",
+      "priority": "LOW",
+      "psst_score": 71,
+      "impact_assessment": "LLM-augmented clinical trial analysis. Methodological contribution with potential regulatory implications.",
+      "cross_impact": ["T", "P"],
+      "signal_status": "emerging"
+    }
+  ]
+}

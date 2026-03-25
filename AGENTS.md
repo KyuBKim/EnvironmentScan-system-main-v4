@@ -221,6 +221,9 @@ Before executing ANY workflow:
 |--------|------|------------|
 | `env-scanning/scripts/validate_registry.py` | Before ANY workflow starts | 0=PASS, 1=HALT, 2=WARN |
 | `env-scanning/scripts/validate_report.py` | After EVERY report is generated | 0=PASS, 1=CRITICAL, 2=WARN |
+| `env-scanning/scripts/validate_dashboard.py` | After dashboard generation | 0=PASS, 1=FAIL, 2=WARN |
+| `env-scanning/scripts/validate_completion.py` | Master Gate M4 (final deliverables) | 0=PASS, 1=FAIL, 2=WARN |
+| `env-scanning/core/master_task_manager.py` | Task creation/verification (Step 0.4) | 0=SUCCESS, 1=ERROR |
 
 ### 3.4 Report Skeletons (READ for report generation)
 

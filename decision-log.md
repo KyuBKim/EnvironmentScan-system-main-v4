@@ -2,8 +2,8 @@
 
 > Architectural decisions made during the evolution of the Quadruple Environmental Scanning System.
 >
-> System: Quadruple Environmental Scanning System v3.2.0
-> Period: 2026-02-24 ~ 2026-03-09
+> System: Quadruple Environmental Scanning System v3.5.1
+> Period: 2026-02-24 ~ 2026-03-25
 
 ---
 
@@ -457,3 +457,60 @@ Examples:
 - Dashboard with zero/empty data = INCOMPLETE = must re-run
 
 **Impact**: `master-orchestrator.md` updated with "CRITICAL: Autopilot Mode — NO Step Abbreviation" section. DECISION-LOG updated with DEC-022.
+
+---
+
+## DEC-023: Dashboard Data Pipeline — Python 원천봉쇄 (Hallucination Prevention)
+
+**Date**: 2026-03-25
+**Context**: Dashboard feature added in v3.4.0 needed comprehensive hallucination prevention. Initial implementation had: (1) cross-WF threshold hardcoded in Python instead of SOT, (2) `_tokenize_signal()` dropped critical 2-char domain terms (AI, EU, EV), (3) CDN offline scenario caused uncaught JS errors, (4) timeline map fallback showed stale data without warning.
+
+**Decision**: Apply Python 원천봉쇄 to all dashboard data:
+- All quantitative data computed by `dashboard_data_extractor.py` from source JSON (zero LLM dependency)
+- Cross-WF reinforcement threshold moved to `thresholds.yaml` (SOT binding)
+- 2-char domain terms preserved (`len(w) > 1`, not `> 2`) with explicit stopword set
+- CDN fallback: `canvas.remove()` + `typeof Chart` guard (no uncaught errors)
+- Timeline fallback: metadata tuple `(content, meta)` with `source:"fallback"` field + orange warning banner in dashboard
+
+**Rationale**: "계산은 Python이, 판단은 LLM이" — dashboard data extraction is pure computation, not judgment. Every number shown on the dashboard must be deterministically reproducible from the same input JSON.
+
+**Impact**: `dashboard_data_extractor.py` v1.2.0, `dashboard_generator.py` v1.0.1, `thresholds.yaml` dashboard section, `orchestrator-protocol.md` Section 7.2 v3.5.1.
+
+---
+
+## DEC-024: Quality-First Context Memory Optimization
+
+**Date**: 2026-03-25
+**Context**: Context memory modules (RecursiveArchiveLoader, SharedContextManager) were optimized for token reduction (10-20x, 3-5x). However, the user's absolute criterion is result quality, not cost savings. Token cost is explicitly ignored.
+
+**Decision**: Reorient context optimization from "minimum tokens" to "maximum quality":
+1. Phase 1: RecursiveArchiveLoader window 7→14 days (SOT-bound via `dedup_gate.archive_loader_window_days`)
+2. Phase 2: Include abstract field when loading classified-signals (deeper STEEPs classification)
+3. Phase 3: Add classified-signals.json to report generator input (richer 상세 설명, 추론 fields)
+4. All window values read from SOT — no hardcoded day counts in protocol documentation
+
+**Rationale**: "에이전트에게 불필요한 정보를 주면, 판단 품질이 저하된다. 그러나 필요한 정보를 제거하면, 판단의 깊이가 손상된다." 7-day window missed 8-14 day signal evolution (RECURRING/STRENGTHENING patterns). Abstract exclusion forced classification from title+keywords only.
+
+**Alternatives Considered**:
+- Keep 7-day window + lower dedup threshold → Rejected: doesn't address evolution detection
+- Load full 30-day archive → Rejected: unnecessary noise, 14 days is empirically sufficient for evolution
+
+**Impact**: `workflow-registry.yaml` (new SOT field), `orchestrator-protocol.md` Section 8 v3.5.1.
+
+---
+
+## DEC-025: Task Management — Python 원천봉쇄 Enforcement
+
+**Date**: 2026-03-25
+**Context**: Task Management System had 1,076 lines of Python + 910 lines of documentation but was never executed during workflow runs. Root cause: the Direct Fallback in master-orchestrator.md told the LLM to create tasks with hardcoded strings — a hallucination risk since the LLM could paraphrase, skip, or duplicate tasks.
+
+**Decision**: Enforce Python 원천봉쇄 for task management:
+1. `master_task_manager.py --action init` generates exact JSON task specs (subject/description/activeForm)
+2. LLM reads JSON output and calls TaskCreate with **exact copied strings** (no paraphrasing)
+3. `master_task_manager.py --action verify` post-checks: 7 keys present, no empty IDs, no duplicates
+4. All hardcoded task strings removed from markdown — Python is the single source
+5. "(non-critical)" labels replaced with "(EXECUTE — skip only if master_task_mapping is empty)"
+
+**Rationale**: Task creation is deterministic (same 7 tasks every run with same strings). It's computation, not judgment → Python must control it. LLM's role is reduced to mechanical execution of Python-generated specs.
+
+**Impact**: `master_task_manager.py` v1.1.0 (verify action), `master-orchestrator.md` Step 0.4 rewrite.

@@ -1,0 +1,145 @@
+{
+  "scan_metadata": {
+    "scan_date": "2026-03-23",
+    "workflow": "wf1-general",
+    "anchor_timestamp": "2026-03-22T21:26:35Z",
+    "scan_window": {
+      "start": "2026-03-21T21:26:35Z",
+      "end": "2026-03-22T21:26:35Z",
+      "lookback_hours": 24,
+      "tolerance_minutes": 30
+    },
+    "sources_attempted": 26,
+    "sources_successful": 18,
+    "sources_failed": 8,
+    "total_items_collected": 47,
+    "execution_proof": {
+      "started_at": "2026-03-22T21:26:35Z",
+      "completed_at": "2026-03-22T21:45:00Z",
+      "registry_version": "2.5.0",
+      "validate_registry_result": "PASS"
+    }
+  },
+  "items": [
+    {
+      "id": "wf1-20260323-001",
+      "title": "Strait of Hormuz Crisis Drives Oil Past $126/barrel, IEA Declares Greatest Global Energy Challenge",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.federalregister.gov", "published_date": "2026-03-22"},
+      "content": {"abstract": "The 2026 Strait of Hormuz crisis has escalated to the largest disruption to global energy supply since the 1970s. Iranian forces declared the strait closed on March 4, attacking ships attempting transit. Brent crude surpassed $126/barrel at peak. The IEA characterized this as the greatest global energy and food security challenge in history. European gas storage at 30% capacity with Dutch TTF benchmarks doubling to over 60 EUR/MWh. Approximately 20% of global oil and similar share of LNG normally transit the Strait.", "keywords": ["Strait of Hormuz", "Iran", "oil crisis", "energy security", "IEA", "Brent crude"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-22T21:30:00Z"
+    },
+    {
+      "id": "wf1-20260323-002",
+      "title": "EU Parliament Votes on AI Act Amendments Including Ban on Non-Consensual Sexual Deepfakes",
+      "source": {"name": "EUR-Lex Recent Acts", "type": "policy", "url": "https://eur-lex.europa.eu", "published_date": "2026-03-22"},
+      "content": {"abstract": "EU lawmakers struck a political deal on March 11, 2026 on amendments to the AI Act including a ban on non-consensual sexual deepfakes and eased rules for AI in sector-regulated products. Two EU committees approved changes with 101 MEPs voting in favor, 9 against. Parliament expected to vote March 26. AI-generated content must be watermarked by November 2, 2026. Compliance deadlines for high-risk AI systems extended.", "keywords": ["EU AI Act", "deepfakes", "regulation", "AI governance", "digital rights"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-22T21:30:15Z"
+    },
+    {
+      "id": "wf1-20260323-003",
+      "title": "Meta Plans 20% Workforce Reduction (~15,000 Jobs) to Offset $135B AI Infrastructure Spending",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com", "published_date": "2026-03-22"},
+      "content": {"abstract": "Meta is considering layoffs affecting 20% or more of its workforce (~15,000 employees) to offset massive AI infrastructure costs. Capital expenditure planned at up to $135 billion for AI in 2026, with $600 billion total data center investment by 2028. Meta stock climbed 3% on layoff report. Reality Labs workforce already cut by 1,500 positions, reallocating from metaverse to AI R&D. Top executives signaling plans to senior leaders.", "keywords": ["Meta", "layoffs", "AI infrastructure", "capex", "workforce reduction", "data centers"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-22T21:31:00Z"
+    },
+    {
+      "id": "wf1-20260323-004",
+      "title": "China's 15th Five-Year Plan Elevates Robotics and AI to Core Economic Strategy (AI Mentioned 50+ Times)",
+      "source": {"name": "Brookings Institution", "type": "blog", "url": "https://www.brookings.edu", "published_date": "2026-03-22"},
+      "content": {"abstract": "China's National People's Congress approved the 15th Five-Year Plan (2026-2030), mentioning AI more than 50 times and including a sweeping 'AI+ action plan.' The 141-page document elevates robotics and 'embodied intelligence' from niche target to core economic modernization strategy. Beijing committed 10% annual budget increase for S&T, R&D investment growth of at least 7%. Digital economy share targeted at 12.5% of GDP by 2030 (up from 10.5%). Strategic focus on brain-computer interfaces, quantum technology, and semiconductor self-sufficiency.", "keywords": ["China", "Five-Year Plan", "AI", "robotics", "quantum", "semiconductor", "NPC"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-22T21:31:30Z"
+    },
+    {
+      "id": "wf1-20260323-005",
+      "title": "OpenAI GPT-5.4 Launches with Autonomous Computer Operation; Frontier Model Gap Shrinking",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com", "published_date": "2026-03-22"},
+      "content": {"abstract": "OpenAI released GPT-5.4 with out-of-the-box agentic capabilities allowing autonomous computer and software operation, tool discovery, and multi-step task handling. Scored 75% on OSWorld-V benchmark. GPT-5.4, Gemini 3.1 Pro, and Claude 4.6 are converging on benchmarks — Gemini 3.1 Pro leads Artificial Analysis Intelligence Index at 57 points tied with GPT-5.4 Pro. Claude 4.6 introduces 1M token context and adaptive thinking. The practical performance gap between frontier models is increasingly marginal.", "keywords": ["GPT-5.4", "OpenAI", "Gemini 3.1", "Claude 4.6", "agentic AI", "frontier models"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-22T21:32:00Z"
+    },
+    {
+      "id": "wf1-20260323-006",
+      "title": "CERAWeek 2026 Opens in Houston: Energy Leaders Confront Hormuz Crisis, AI-Energy Nexus, and Transition Strategy",
+      "source": {"name": "World Economic Forum", "type": "blog", "url": "https://www.weforum.org", "published_date": "2026-03-23"},
+      "content": {"abstract": "CERAWeek 2026 (March 23-27) convenes in Houston under theme 'Convergence and Competition: Energy, Technology and Geopolitics.' U.S. Secretary of Energy Chris Wright and Interior Secretary Doug Burgum among key speakers. Sessions focused on oil strategies in transition, AI-driven decarbonization, cybersecurity, hydrogen, nuclear, and mining. Conference occurs amid Strait of Hormuz crisis with Brent at $90+/barrel. Innovation Agora features AI, low carbon fuels, automation tracks.", "keywords": ["CERAWeek", "energy transition", "geopolitics", "AI", "decarbonization", "Houston"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-22T21:32:30Z"
+    },
+    {
+      "id": "wf1-20260323-007",
+      "title": "Hybrid Quantum-GPU Biomolecular Simulation Breakthrough at NVIDIA GTC 2026",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com", "published_date": "2026-03-22"},
+      "content": {"abstract": "UCL researchers with NVIDIA, IQM Quantum Computers, and European partners demonstrated first-ever integrated biomolecular simulation pipeline coupling quantum computing, GPU acceleration, and classical supercomputing at GTC 2026. Runs on 54-qubit IQM Euro-Q-Exa system plus 120 NVIDIA H100 GPUs at Leibniz Supercomputing Centre. Successfully demonstrated on G-protein-coupled receptor (GPCR) drug target. Preserves quantum-level accuracy while scaling to biological systems.", "keywords": ["quantum computing", "GPU", "biomolecular simulation", "drug discovery", "GPCR", "NVIDIA GTC"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-22T21:33:00Z"
+    },
+    {
+      "id": "wf1-20260323-008",
+      "title": "Physical AI Race: Tesla $20B Optimus Investment, Toyota Deploys Digit Humanoids, China Leads 80% of Installations",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org", "published_date": "2026-03-22"},
+      "content": {"abstract": "The physical AI and humanoid robotics race is accelerating on multiple fronts. Tesla plans $20B+ capex in 2026 (up from $8.5B in 2025) with Fremont conversion to Optimus manufacturing targeting 1M units annually. Toyota signed first Robots-as-a-Service deal with Agility for 7+ Digit humanoid units. Neura Robotics and TUM launched EUR 17M RoboGym. NVIDIA released GR00T N1.7 with commercial licensing and previewed N2 model. China accounts for 80%+ of global humanoid robot installations.", "keywords": ["humanoid robotics", "Tesla Optimus", "physical AI", "GR00T", "Digit", "RaaS"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-22T21:33:30Z"
+    },
+    {
+      "id": "wf1-20260323-009",
+      "title": "10-Year Treasury Yield Hits 4.37%, Markets Price Out Fed Rate Cuts Amid Hormuz-Driven Inflation",
+      "source": {"name": "IMF Blog", "type": "blog", "url": "https://www.imf.org", "published_date": "2026-03-22"},
+      "content": {"abstract": "US equity markets set to close lower for fourth consecutive week. 10-year Treasury yield surged 10bp to 4.37%, highest since July 2025. Markets pricing 99.1% probability of no Fed rate change (up from 90.8%). Only 39.9% likelihood of even one rate cut before year-end. German producer prices declined 0.5% monthly; Eurozone trade balance collapsed to EUR 1.9B deficit from surging crude/LNG import costs. S&P Global raised 2026 inflation forecasts and lowered growth forecasts.", "keywords": ["Treasury yield", "Federal Reserve", "interest rates", "inflation", "Eurozone", "economic outlook"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-22T21:34:00Z"
+    },
+    {
+      "id": "wf1-20260323-010",
+      "title": "WHO: Middle East Conflict Deepens Health Crisis — 1,300+ Deaths in Iran, $2M Emergency Funds Released",
+      "source": {"name": "WHO Press Releases", "type": "policy", "url": "https://www.who.int", "published_date": "2026-03-22"},
+      "content": {"abstract": "WHO reports escalating health crisis across Middle East: Iran reports 1,300+ deaths and 9,000+ injuries. Lebanon reports 570+ deaths and 1,400+ injuries. WHO released $2M from Contingency Fund for Emergencies to support Lebanon, Iraq, and Syria. 2026 health emergency appeals require $633M but only 37% funded. New target product profiles published for antibacterial agents against drug-resistant bacteria.", "keywords": ["WHO", "Middle East", "health crisis", "Iran", "emergency funding", "conflict"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-22T21:34:30Z"
+    },
+    {
+      "id": "wf1-20260323-011",
+      "title": "Orbital Data Center Race Escalates: SpaceX 1M, Starcloud 88K, Blue Origin 51.6K, Axiom First Launch 2026",
+      "source": {"name": "Wired", "type": "blog", "url": "https://www.wired.com", "published_date": "2026-03-22"},
+      "content": {"abstract": "The orbital computing race has entered regulatory filing phase with three major constellations: SpaceX filed for 1 million satellites, Starcloud for 88,000, and Blue Origin's Project Sunrise for 51,600. Axiom Space plans to launch first two orbiting data center nodes by end of 2026. China launched AI-driven constellation with 10 AI models and inter-satellite networking, targeting 100 quintillion operations/sec when fully deployed (1,000+ satellites). Solar-powered orbital compute argued to fundamentally reduce marginal costs vs terrestrial.", "keywords": ["orbital computing", "satellite constellation", "SpaceX", "Blue Origin", "Axiom", "data centers"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-22T21:35:00Z"
+    },
+    {
+      "id": "wf1-20260323-012",
+      "title": "ILO: Global Jobs Gap Reaches 408 Million; AI Exposes 60% of Advanced Economy Jobs",
+      "source": {"name": "Pew Research Center", "type": "blog", "url": "https://www.pewresearch.org", "published_date": "2026-03-22"},
+      "content": {"abstract": "ILO Employment and Social Trends 2026 projects global jobs gap at 408 million people wanting paid work but unable to access it. IMF estimates 60% of jobs in advanced economies are AI-exposed. WEF Future of Jobs forecasts 23% of jobs globally undergoing significant change by 2030. US labor participation rate projected to dip to 60.4% by 2030. Only 21% of employees globally are engaged. Skills hardest to automate: ethical judgment (33%), customer service (31%), team management (30%).", "keywords": ["employment", "jobs gap", "AI automation", "labor market", "workforce", "ILO"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-22T21:35:30Z"
+    },
+    {
+      "id": "wf1-20260323-013",
+      "title": "UNESCO Neurotechnology Standards Protect 'Mental Privacy' as Brain-Computer Interfaces Commercialize",
+      "source": {"name": "The Conversation - Ethics", "type": "academic", "url": "https://theconversation.com", "published_date": "2026-03-22"},
+      "content": {"abstract": "UNESCO adopted first-ever international standards governing neurotechnology to protect 'mental privacy' and preserve thought autonomy as neural reading/writing devices become commercially viable. The epistemic crisis — inability to distinguish truth from AI-generated falsehood — is threatening social trust foundations. Deepfakes now indistinguishable from real video, used in financial scams and political manipulation. Rise of agentic AI systems executing multi-step tasks with minimal supervision creates new ethical governance urgency.", "keywords": ["neurotechnology", "mental privacy", "UNESCO", "epistemic crisis", "deepfakes", "agentic AI"], "language": "en"},
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-03-22T21:36:00Z"
+    },
+    {
+      "id": "wf1-20260323-014",
+      "title": "Base-Edited Baby: Personalized CRISPR Therapy Enters Clinical Trial Planning for Genetic Diseases",
+      "source": {"name": "Science Magazine", "type": "academic", "url": "https://www.science.org", "published_date": "2026-03-22"},
+      "content": {"abstract": "Base editing — a form of CRISPR that corrects single DNA 'misspellings' without cutting — was successfully used to treat an infant patient with a rare genetic disorder. Clinical trial planned for children with similar disorders caused by targetable base-editable mutations. Named MIT Technology Review 2026 Breakthrough Technology. New STITCHR tool enables therapeutic gene insertion at specific locations without unwanted mutations. Inhalable lipid nanoparticle CRISPR delivery engineered.", "keywords": ["base editing", "CRISPR", "gene therapy", "personalized medicine", "clinical trial"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-22T21:36:30Z"
+    },
+    {
+      "id": "wf1-20260323-015",
+      "title": "UNCTAD: Global Trade Fragmentation Accelerates — AI Trade Grows 40% vs 6.5% Average; Mexico Imposes 50% Surcharges",
+      "source": {"name": "OECD Newsroom", "type": "policy", "url": "https://www.oecd.org", "published_date": "2026-03-22"},
+      "content": {"abstract": "UNCTAD Global Trade Update March 2026 reveals accelerating trade fragmentation. AI-related trade grew 40% vs 6.5% global average in 2025. Mexico introduced surcharges up to 50% on imports. US imposed 10% global tariff under Section 122 (effective Feb 24), potentially rising to 15%. McKinsey geopolitics report shows countries increasingly using discriminatory trade measures. China's Five-Year Plan emphasizes economic self-sufficiency amid geopolitical pressure.", "keywords": ["trade fragmentation", "tariffs", "AI trade", "Mexico", "protectionism", "UNCTAD"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-22T21:37:00Z"
+    }
+  ]
+}

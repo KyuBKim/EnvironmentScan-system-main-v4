@@ -1,0 +1,231 @@
+{
+  "scan_date": "2026-03-25",
+  "workflow": "wf3-naver",
+  "total_ranked": 32,
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "naver-20260325-101-001",
+      "title": "SK Hynix Files for US ADR Listing — $10-15 Trillion Won Capital Raise",
+      "category": "E_Economic",
+      "psst_score": 89.0
+    },
+    {
+      "rank": 2,
+      "id": "naver-20260325-101-002",
+      "title": "Korean Semiconductor Exports Surge 175.9% YoY — 35.3% of Total Exports",
+      "category": "E_Economic",
+      "psst_score": 87.5
+    },
+    {
+      "rank": 3,
+      "id": "naver-20260325-100-001",
+      "title": "Government Strengthens Public Sector 5-Day Vehicle Rotation Due to Oil Crisis",
+      "category": "P_Political",
+      "psst_score": 86.5
+    },
+    {
+      "rank": 4,
+      "id": "naver-20260325-105-001",
+      "title": "Hyundai-NVIDIA Strategic Partnership Expands for Next-Gen Autonomous Driving",
+      "category": "T_Technological",
+      "psst_score": 85.0
+    },
+    {
+      "rank": 5,
+      "id": "naver-20260325-105-002",
+      "title": "Digital Asset Basic Act Finally Submitted to National Assembly",
+      "category": "P_Political",
+      "psst_score": 84.0
+    },
+    {
+      "rank": 6,
+      "id": "naver-20260325-102-001",
+      "title": "Half of Korean Population Reports Poor Mental Health",
+      "category": "S_Social",
+      "psst_score": 83.0
+    },
+    {
+      "rank": 7,
+      "id": "naver-20260325-102-002",
+      "title": "Korea's Female Employment Rank 32nd in OECD — 15 Years at Bottom",
+      "category": "S_Social",
+      "psst_score": 82.0
+    },
+    {
+      "rank": 8,
+      "id": "naver-20260325-101-003",
+      "title": "Korea Investment Corp Commits $150M to Biotech R&D Platform",
+      "category": "E_Economic",
+      "psst_score": 81.0
+    },
+    {
+      "rank": 9,
+      "id": "naver-20260325-102-003",
+      "title": "Korean Drug Lord Park Wang-yeol Extradited from Philippines",
+      "category": "P_Political",
+      "psst_score": 78.0
+    },
+    {
+      "rank": 10,
+      "id": "naver-20260325-102-004",
+      "title": "Seoul Removes 37-Year Expressway Designation on Yangjae-daero (5.4km)",
+      "category": "S_Social",
+      "psst_score": 77.5
+    },
+    {
+      "rank": 11,
+      "id": "naver-20260325-102-005",
+      "title": "Daejeon Factory Fire Tragedy — Worker Safety Crisis",
+      "category": "S_Social",
+      "psst_score": 80.5
+    },
+    {
+      "rank": 12,
+      "id": "naver-20260325-100-002",
+      "title": "2026 Local Elections June 3 — First Public Assessment of Administration",
+      "category": "P_Political",
+      "psst_score": 80.0
+    },
+    {
+      "rank": 13,
+      "id": "naver-20260325-105-003",
+      "title": "ETRI Develops AI Memory Expansion Technology",
+      "category": "T_Technological",
+      "psst_score": 79.0
+    },
+    {
+      "rank": 14,
+      "id": "naver-20260325-101-004",
+      "title": "Capital and Talent Exodus from Korea Due to Political-Regulatory Risk",
+      "category": "E_Economic",
+      "psst_score": 78.5
+    },
+    {
+      "rank": 15,
+      "id": "naver-20260325-105-004",
+      "title": "OpenAI Stargate Enters Korea — Samsung/SK Join AI Alliance",
+      "category": "T_Technological",
+      "psst_score": 78.0
+    },
+    {
+      "rank": 16,
+      "id": "naver-20260325-100-003",
+      "title": "Constitutional Revision Debate: 4-Year Presidential Term System",
+      "category": "P_Political",
+      "psst_score": 76.0
+    },
+    {
+      "rank": 17,
+      "id": "naver-20260325-101-005",
+      "title": "Ascend Korea 7 Initiative — GDP $70,000 Target",
+      "category": "E_Economic",
+      "psst_score": 75.5
+    },
+    {
+      "rank": 18,
+      "id": "naver-20260325-105-005",
+      "title": "Korea Tech Education Univ Adopts First AI Learning Platform K-LXP",
+      "category": "T_Technological",
+      "psst_score": 75.0
+    },
+    {
+      "rank": 19,
+      "id": "naver-20260325-103-001",
+      "title": "AirKorea App Wins Smart App Award 4th Consecutive Year",
+      "category": "E_Environmental",
+      "psst_score": 74.0
+    },
+    {
+      "rank": 20,
+      "id": "naver-20260325-102-006",
+      "title": "Air Pollution, Inequality, Political Instability Accelerate Aging",
+      "category": "S_Social",
+      "psst_score": 74.0
+    },
+    {
+      "rank": 21,
+      "id": "naver-20260325-100-004",
+      "title": "Korea Stablecoin Regulation: 3 Legislative Bills Compared",
+      "category": "P_Political",
+      "psst_score": 73.5
+    },
+    {
+      "rank": 22,
+      "id": "naver-20260325-105-006",
+      "title": "Japan Designates AI and Nuclear Fusion as National Strategic Technologies",
+      "category": "T_Technological",
+      "psst_score": 73.0
+    },
+    {
+      "rank": 23,
+      "id": "naver-20260325-101-006",
+      "title": "10 Trillion Won AI Investment Plan to Transform Korean Economy",
+      "category": "E_Economic",
+      "psst_score": 73.0
+    },
+    {
+      "rank": 24,
+      "id": "naver-20260325-103-002",
+      "title": "Korea Environment Corp Brings Sustainability Hope to South Pacific",
+      "category": "E_Environmental",
+      "psst_score": 72.0
+    },
+    {
+      "rank": 25,
+      "id": "naver-20260325-102-007",
+      "title": "Korea Gender Equality Awareness Lags Global Trends",
+      "category": "S_Social",
+      "psst_score": 72.0
+    },
+    {
+      "rank": 26,
+      "id": "naver-20260325-100-005",
+      "title": "Citizens See No Hope for Korea's Politics or Environment in 30 Years",
+      "category": "s_spiritual",
+      "psst_score": 71.5
+    },
+    {
+      "rank": 27,
+      "id": "naver-20260325-105-007",
+      "title": "KOTRA Partners with Deutsche Telekom to Discover Korean AI Startups",
+      "category": "T_Technological",
+      "psst_score": 71.0
+    },
+    {
+      "rank": 28,
+      "id": "naver-20260325-101-007",
+      "title": "OpenAI Economic Blueprint for South Korea's AI Development",
+      "category": "E_Economic",
+      "psst_score": 70.5
+    },
+    {
+      "rank": 29,
+      "id": "naver-20260325-102-008",
+      "title": "Technology Upheaval More Fundamental Crisis Than Political-Social Conditions",
+      "category": "s_spiritual",
+      "psst_score": 70.0
+    },
+    {
+      "rank": 30,
+      "id": "naver-20260325-100-006",
+      "title": "2026 Local Elections: Voter Judgment on Current Administration",
+      "category": "P_Political",
+      "psst_score": 69.5
+    },
+    {
+      "rank": 31,
+      "id": "naver-20260325-105-008",
+      "title": "AI Reshaping Semiconductor Industry Hierarchy",
+      "category": "T_Technological",
+      "psst_score": 69.0
+    },
+    {
+      "rank": 32,
+      "id": "naver-20260325-101-008",
+      "title": "AI Economic Growth Scenarios: Explosive Leap vs Gradual Change",
+      "category": "E_Economic",
+      "psst_score": 68.5
+    }
+  ]
+}

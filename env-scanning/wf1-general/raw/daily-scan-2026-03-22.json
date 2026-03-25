@@ -1,0 +1,448 @@
+{
+  "scan_date": "2026-03-22",
+  "workflow": "wf1-general",
+  "scan_window": {
+    "T0": "2026-03-22T10:51:29Z",
+    "window_start": "2026-03-21T10:51:29Z",
+    "window_end": "2026-03-22T10:51:29Z",
+    "lookback_hours": 24,
+    "enforce": "strict"
+  },
+  "sources_scanned": 36,
+  "sources_responded": 28,
+  "sources_failed": ["OECD Newsroom", "World Economic Forum", "World Bank Blogs", "Wired", "Ars Technica", "PubMed Central", "IMF Blog", "EUR-Lex Recent Acts"],
+  "total_items_collected": 78,
+  "scan_metadata": {
+    "execution_proof": {
+      "started_at": "2026-03-22T10:51:29Z",
+      "method": "multi-source-scan",
+      "version": "6.0.0"
+    }
+  },
+  "items": [
+    {
+      "id": "techcrunch-20260322-001",
+      "title": "AI tokens emerge as new form of engineering compensation",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/21/are-ai-tokens-the-new-signing-bonus-or-just-a-cost-of-doing-business/", "published_date": "2026-03-22"},
+      "content": {"abstract": "Token grants could become standard engineering compensation as AI companies explore compute-based incentives. Engineers cautioned about embracing this shift uncritically.", "keywords": ["AI compensation", "token grants", "labor market", "tech industry"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "techcrunch-20260322-002",
+      "title": "Pentagon-Anthropic alignment revealed in court filing despite Trump declaration",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/20/new-court-filing-reveals-pentagon-told-anthropic-the-two-sides-were-nearly-aligned/", "published_date": "2026-03-21"},
+      "content": {"abstract": "Court filing reveals Pentagon told Anthropic the two sides were nearly aligned a week after Trump declared the relationship kaput. Raises questions about AI governance in defense.", "keywords": ["Anthropic", "Pentagon", "AI governance", "defense", "Trump"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "techcrunch-20260322-003",
+      "title": "Trump AI framework targets state laws, shifts child safety burden to parents",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/20/trumps-ai-framework-targets-state-laws-shifts-child-safety-burden-to-parents/", "published_date": "2026-03-20"},
+      "content": {"abstract": "Federal AI framework emphasizes preemption of state regulation while positioning parental responsibility as the primary child safety mechanism in AI interactions.", "keywords": ["AI regulation", "federal preemption", "child safety", "policy"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "techcrunch-20260322-004",
+      "title": "AI startups capture 41% of $128B venture funding, unprecedented concentration",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/20/ai-startups-are-eating-the-venture-industry/", "published_date": "2026-03-20"},
+      "content": {"abstract": "AI companies captured 41% of $128 billion in annual venture funding, representing unprecedented market concentration. Returns so far have been positive.", "keywords": ["AI investment", "venture capital", "market concentration", "startup funding"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "techcrunch-20260322-005",
+      "title": "Blue Origin enters space data center game with Project Sunrise",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/20/jeff-bezos-blue-origin-enters-the-space-data-center-game/", "published_date": "2026-03-20"},
+      "content": {"abstract": "Project Sunrise proposes deploying over 50,000 satellites for orbital computing operations, entering the space-based data center market.", "keywords": ["space computing", "data centers", "Blue Origin", "satellites", "orbital infrastructure"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "techcrunch-20260322-006",
+      "title": "WordPress enables AI agents to autonomously write and publish posts",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/20/wordpress-com-now-lets-ai-agents-write-and-publish-posts/", "published_date": "2026-03-20"},
+      "content": {"abstract": "WordPress.com platform now enables autonomous AI-driven content creation and publication, potentially accelerating machine-generated material proliferation online.", "keywords": ["AI agents", "content generation", "WordPress", "automation"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "techcrunch-20260322-007",
+      "title": "Publisher pulls horror novel over AI-generated text concerns",
+      "source": {"name": "TechCrunch", "type": "blog", "url": "https://techcrunch.com/2026/03/21/publisher-pulls-horror-novel-shy-girl-over-ai-concerns/", "published_date": "2026-03-21"},
+      "content": {"abstract": "Hachette Book Group declined publication of 'Shy Girl' due to suspected AI-generated text, signaling growing industry scrutiny of AI in creative works.", "keywords": ["AI-generated content", "publishing", "authenticity", "creative industry"], "language": "en"},
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "mit-20260322-001",
+      "title": "OpenAI building fully automated AI researcher as new north star",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/03/20/1134438/openai-is-throwing-everything-into-building-a-fully-automated-researcher/", "published_date": "2026-03-20"},
+      "content": {"abstract": "OpenAI Chief Scientist Jakub Pachocki reveals plans for autonomous AI researcher capable of tackling large, complex problems. Autonomous research intern planned by September, full multi-agent system by 2028. Chain-of-thought monitoring proposed for safety oversight.", "keywords": ["OpenAI", "autonomous AI", "AI research", "AGI", "safety"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "mit-20260322-002",
+      "title": "Psychedelic depression treatments falling short in clinical trials",
+      "source": {"name": "MIT Technology Review", "type": "blog", "url": "https://www.technologyreview.com/2026/03/20/1134419/psychedelics-overhyped-psilocybin-depression-placebo/", "published_date": "2026-03-20"},
+      "content": {"abstract": "Recent psilocybin depression trials showing inconclusive results. Blinding problem in psychedelic research and knowcebo effect identified as key methodological challenges.", "keywords": ["psychedelics", "psilocybin", "depression", "clinical trials", "mental health"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "nature-20260322-001",
+      "title": "Chemical pollutants found rife across world's oceans",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/d41586-026-00850-z", "published_date": "2026-03-20"},
+      "content": {"abstract": "Compounds used to make plastics and personal-care products found in all types of marine environment. Comprehensive survey reveals global ocean contamination scale.", "keywords": ["ocean pollution", "chemical contamination", "plastics", "marine environment"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "nature-20260322-002",
+      "title": "Compact mini-magnet produces fields 800,000x Earth's strength with low energy",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/d41586-026-00851-y", "published_date": "2026-03-20"},
+      "content": {"abstract": "A compact device produces magnetic fields exceeding 800,000 times Earth's strength while minimizing energy consumption. Applications in fusion, materials science, quantum computing.", "keywords": ["magnets", "physics", "energy efficiency", "materials science"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "nature-20260322-003",
+      "title": "Lab-grown oesophagus restores swallowing function in pigs",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/d41586-026-00936-8", "published_date": "2026-03-20"},
+      "content": {"abstract": "Engineered tissue successfully restores swallowing in pigs. Could treat children with alimentary canal gaps or adults with cancer-damaged tissue.", "keywords": ["tissue engineering", "regenerative medicine", "biotech", "organ replacement"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "nature-20260322-004",
+      "title": "Nuclear clocks based on atomic nuclei approach reality",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/d41586-026-00848-7", "published_date": "2026-03-20"},
+      "content": {"abstract": "Super-precise timekeepers based on atomic nuclei could be tested this year. Nuclear clocks would surpass atomic clock precision with implications for physics and navigation.", "keywords": ["nuclear clock", "precision measurement", "physics", "timekeeping"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "nature-20260322-005",
+      "title": "UK invests billions in fusion and quantum technology",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/d41586-026-00877-2", "published_date": "2026-03-19"},
+      "content": {"abstract": "UK government announces multibillion-pound science investments in emerging quantum and fusion technologies, signaling strategic bet on next-generation energy and computing.", "keywords": ["UK science policy", "fusion", "quantum technology", "government investment"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "nature-20260322-006",
+      "title": "China approaching world's largest science funder status",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/d41586-026-00618-5", "published_date": "2026-03-19"},
+      "content": {"abstract": "Forecast predicts China could become leading public science funder within two years, reshaping global research landscape and power dynamics.", "keywords": ["China", "science funding", "R&D investment", "global competition"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "nature-20260322-007",
+      "title": "Faster biological clock predicts shorter lifespan in humans",
+      "source": {"name": "Nature News", "type": "academic", "url": "https://www.nature.com/articles/d41586-026-00866-5", "published_date": "2026-03-19"},
+      "content": {"abstract": "Data from ~700 people reveal slower-changing biomarkers correlate with longevity. Could enable personalized aging interventions.", "keywords": ["aging", "biological clock", "longevity", "biomarkers", "lifespan"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "science-20260322-001",
+      "title": "Perennial rice breakthrough: genetic tinkering could eliminate annual replanting",
+      "source": {"name": "Science Magazine", "type": "academic", "url": "https://www.science.org/content/article/rice-needs-be-replanted-every-year-genetic-tinkering-could-make-it-more-apples", "published_date": "2026-03-19"},
+      "content": {"abstract": "Researchers re-create key aspects of long-lived wild rice relative, potentially making rice fields longer lasting and reducing agricultural labor and resource demands.", "keywords": ["perennial rice", "gene editing", "food security", "agriculture", "CRISPR"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "science-20260322-002",
+      "title": "Floating wetlands boost water quality and slash greenhouse emissions",
+      "source": {"name": "Science Magazine", "type": "academic", "url": "https://www.science.org/content/article/floating-wetlands-boost-water-quality-slash-greenhouse-emissions", "published_date": "2026-03-19"},
+      "content": {"abstract": "Fabricated platforms at Australian wastewater lagoon soak up water pollution and methane, offering dual climate-water quality solution.", "keywords": ["floating wetlands", "wastewater", "methane", "water quality", "climate solution"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "science-20260322-003",
+      "title": "DOE merges nuclear and particle physics programs, prioritizing AI",
+      "source": {"name": "Science Magazine", "type": "academic", "url": "https://www.science.org/content/article/energy-department-merges-nuclear-and-particle-physics-programs-unsettling-researchers", "published_date": "2026-03-20"},
+      "content": {"abstract": "Energy Department merges nuclear and particle physics programs. Physicists worry both fields are being sidelined in favor of AI priorities.", "keywords": ["DOE", "physics", "AI priority", "science policy", "research funding"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "science-20260322-004",
+      "title": "First science from private Moon lander validates commercial lunar program",
+      "source": {"name": "Science Magazine", "type": "academic", "url": "https://www.science.org/content/article/first-science-private-moon-lander-challenges-lunar-divide", "published_date": "2026-03-20"},
+      "content": {"abstract": "Blue Ghost data suggest NASA's growing commercial Moon program can deliver scientific results, challenging the public-private lunar exploration divide.", "keywords": ["commercial space", "Moon exploration", "NASA", "private space"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "science-20260322-005",
+      "title": "Snakeskin microscopic spikes inspire chemical-free antimicrobial designs",
+      "source": {"name": "Science Magazine", "type": "academic", "url": "https://www.science.org/content/article/microscopic-spikes-snakeskin-block-bacterial-buildup", "published_date": "2026-03-20"},
+      "content": {"abstract": "Structures on python scales could inspire chemical-free antimicrobial surfaces, potentially replacing antibiotics in some applications.", "keywords": ["biomimicry", "antimicrobial", "materials science", "nanotechnology"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "fedregister-20260322-001",
+      "title": "FDIC clarifies deposit insurance for Pacific Island branches",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.federalregister.gov/documents/2026/03/23/2026-05652/clarification-of-deposit-insurance-coverage-for-branches-of-us-banks-in-the-federated-states-of", "published_date": "2026-03-23"},
+      "content": {"abstract": "FDIC adopts final rule ensuring deposit insurance coverage for U.S. bank branches in Micronesia, Marshall Islands, and Palau. Geopolitical financial infrastructure expansion.", "keywords": ["FDIC", "deposit insurance", "Pacific Islands", "financial regulation"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "fedregister-20260322-002",
+      "title": "FDIC rescinds failed bank acquisitions policy from 2009",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.federalregister.gov/documents/2026/03/23/2026-05646/recission-of-the-statement-of-policy-on-qualifications-for-failed-bank-acquisitions", "published_date": "2026-03-23"},
+      "content": {"abstract": "FDIC rescinds 2009 Statement of Policy on Qualifications for Failed Bank Acquisitions, signaling regulatory deregulation in banking sector.", "keywords": ["FDIC", "bank regulation", "deregulation", "financial policy"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "fedregister-20260322-003",
+      "title": "FAA seeks comments on human spaceflight safety requirements",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.federalregister.gov/documents/2026/03/23/2026-05638/agency-information-collection-activities-requests-for-comments-clearance-of-renewed-approval-of", "published_date": "2026-03-23"},
+      "content": {"abstract": "FAA renewing information collection for human spaceflight safety requirements and crew/participant qualifications. Reflects growing commercial space activity.", "keywords": ["FAA", "commercial space", "spaceflight safety", "regulation"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "fedregister-20260322-004",
+      "title": "BLM corrects emergency military land withdrawal for border security (109,651 acres)",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.federalregister.gov/documents/2026/03/23/2026-05648/correction-of-public-land-order-no-7963", "published_date": "2026-03-23"},
+      "content": {"abstract": "Bureau of Land Management corrects legal descriptions for emergency military withdrawal of 109,651 acres in New Mexico for border security operations.", "keywords": ["border security", "military", "land use", "New Mexico"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "fedregister-20260322-005",
+      "title": "EPA proposes West Virginia MSW landfill emission controls approval",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.federalregister.gov/documents/2026/03/23/2026-05637/approval-and-promulgation-of-state-plans-for-designated-facilities-and-pollutants-west-virginia", "published_date": "2026-03-23"},
+      "content": {"abstract": "EPA proposes approving West Virginia's revised section 111(d) plan for municipal solid waste landfill emission controls.", "keywords": ["EPA", "landfill emissions", "waste management", "environmental regulation"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "fedregister-20260322-006",
+      "title": "EIA extends electric power survey data collection (3-year extension)",
+      "source": {"name": "US Federal Register", "type": "policy", "url": "https://www.federalregister.gov/documents/2026/03/23/2026-05643/agency-information-collection-extension", "published_date": "2026-03-23"},
+      "content": {"abstract": "Energy Information Administration seeks three-year extension for Electric Power Surveys collecting electricity industry data critical for energy transition monitoring.", "keywords": ["energy data", "electric power", "EIA", "energy transition"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "unnews-20260322-001",
+      "title": "AI deepfake abuse: why women can't get legal protection",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/feed/view/en/story/2026/03/1167174", "published_date": "2026-03-21"},
+      "content": {"abstract": "Victims of non-consensual intimate imagery created through AI lack legal protections. Platforms struggling to remove abusive deepfakes. Growing gender-based digital violence.", "keywords": ["AI deepfakes", "digital violence", "women's rights", "legal protection", "platform accountability"], "language": "en"},
+      "preliminary_category": "s_spiritual",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "unnews-20260322-002",
+      "title": "Middle East energy shocks: oil above $100 as strikes hit infrastructure",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/feed/view/en/story/2026/03/1167172", "published_date": "2026-03-20"},
+      "content": {"abstract": "Oil prices remain above $100 a barrel as Middle East strikes damage critical energy assets. Growing global economic impact from conflict-driven supply disruption.", "keywords": ["oil prices", "Middle East conflict", "energy security", "infrastructure damage"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "unnews-20260322-003",
+      "title": "Middle East war shockwaves ripple through Asia-Pacific fuel and supply chains",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/feed/view/en/story/2026/03/1167167", "published_date": "2026-03-19"},
+      "content": {"abstract": "Conflict disrupting fuel supplies and shipping routes across Asia-Pacific, threatening vulnerable economies through rising prices and food security risks.", "keywords": ["supply chain disruption", "Asia-Pacific", "energy security", "food security"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "unnews-20260322-004",
+      "title": "Global displacement crisis: 117+ million forced from homes",
+      "source": {"name": "UN News", "type": "policy", "url": "https://news.un.org/feed/view/en/story/2026/03/1167171", "published_date": "2026-03-20"},
+      "content": {"abstract": "Displacement crisis affecting more than 117 million people. Former refugee takes helm of UN's refugee agency facing unprecedented scale of forced migration.", "keywords": ["refugees", "displacement", "migration", "humanitarian crisis"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "who-20260322-001",
+      "title": "Child mortality progress slows: 4.9 million die before age five annually",
+      "source": {"name": "WHO Press Releases", "type": "policy", "url": "https://www.who.int/news/item/18-03-2026-progress-in-reducing-child-deaths-slows-as-4.9-million-children-die-before-age-five", "published_date": "2026-03-18"},
+      "content": {"abstract": "Under-five deaths have fallen over 50% since 2000, but progress has slowed by more than 60% since 2015. 2.3 million newborns die annually. Sub-Saharan Africa accounts for 58% of deaths.", "keywords": ["child mortality", "global health", "WHO", "Sub-Saharan Africa"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "ieee-20260322-001",
+      "title": "AI-powered autonomous wheelchair navigation using natural language",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/autonomous-smart-wheelchair", "published_date": "2026-03-20"},
+      "content": {"abstract": "DFKI developed sensor-equipped electric wheelchairs using AI for semi-autonomous and fully autonomous navigation via natural language commands. Integrates lidar, 3D cameras, and drone-based sensors.", "keywords": ["assistive technology", "autonomous navigation", "AI", "accessibility", "wheelchairs"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "ieee-20260322-002",
+      "title": "IEEE creates microcredential programs for AI and semiconductor workforce",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/ieee-academia-microcredentials-programs", "published_date": "2026-03-20"},
+      "content": {"abstract": "IEEE developed standardized skills-based microcredentials with USC and UCLA to address workforce shortages in AI, semiconductors, and data centers. Enables rapid training program development.", "keywords": ["workforce development", "microcredentials", "AI training", "semiconductors", "education"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "ieee-20260322-003",
+      "title": "Nigeria embraces kit-based EV assembly for cost-effective electrification",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/ev-nigeria", "published_date": "2026-03-19"},
+      "content": {"abstract": "Nigerian companies leverage imported EV kits to reduce costs and build local expertise despite unreliable power grids. Pragmatic approach to electric vehicle adoption.", "keywords": ["electric vehicles", "Africa", "Nigeria", "EV manufacturing", "energy transition"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "ieee-20260322-004",
+      "title": "Virtual digital twins of organs approaching clinical deployment",
+      "source": {"name": "IEEE Spectrum", "type": "academic", "url": "https://spectrum.ieee.org/living-heart-project-virtual-twins", "published_date": "2026-03-19"},
+      "content": {"abstract": "Living Heart Project creates personalized digital organ replicas using patient imaging and physics-based simulation. Combined with generative AI, virtual twins accelerate clinical trials. FDA collaboration established.", "keywords": ["digital twins", "medical simulation", "FDA", "personalized medicine", "AI healthcare"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "carbonbrief-20260322-001",
+      "title": "Energy crisis deepens as Iran-Israel conflict disrupts global supply",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://www.carbonbrief.org/debriefed-20-march-2026-energy-crisis-deepens-brazils-new-climate-plan-new-zealand-climate-case/", "published_date": "2026-03-20"},
+      "content": {"abstract": "Iran-Israel conflict's impact on global energy markets reaches critical levels. Brazil announces new emissions reduction plan targeting 49-58% cuts. New Zealand landmark climate lawsuit challenges government action.", "keywords": ["energy crisis", "Iran", "Brazil climate plan", "New Zealand climate lawsuit"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "carbonbrief-20260322-002",
+      "title": "England's new land-use framework: only 1% of land needed for renewables by 2050",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://www.carbonbrief.org/qa-what-englands-new-land-use-framework-means-for-climate-nature-and-food/", "published_date": "2026-03-20"},
+      "content": {"abstract": "UK government's first land-use framework shows England requires only 1% of land for renewable energy by 2050 while meeting climate and nature restoration goals alongside food production.", "keywords": ["land use", "renewable energy", "UK policy", "climate", "food security"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "carbonbrief-20260322-003",
+      "title": "China joins nuclear pledge, energy strategy 'vindicated' by Middle East crisis",
+      "source": {"name": "Carbon Brief", "type": "blog", "url": "https://www.carbonbrief.org/china-briefing-19-march-2026-china-joins-nuclear-pledge-energy-approach-vindicated-new-ecological-code/", "published_date": "2026-03-19"},
+      "content": {"abstract": "China's 15th five-year plan emphasizes renewables. China endorses tripling global nuclear capacity. Middle East instability validates China's clean energy investments and oil stockpiling strategy.", "keywords": ["China energy", "nuclear", "five-year plan", "energy security", "renewables"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "nvidia-20260322-001",
+      "title": "NVIDIA Vera Rubin platform: 6 new chips, $1 trillion order pipeline through 2027",
+      "source": {"name": "WebSearch", "type": "web", "url": "https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer", "published_date": "2026-03-16"},
+      "content": {"abstract": "NVIDIA unveiled Vera Rubin platform with six new chips and AI supercomputer. 10x more performance per watt than predecessor. CEO Jensen Huang projects $1 trillion in purchase orders through 2027. Rubin-based products available H2 2026.", "keywords": ["NVIDIA", "Vera Rubin", "AI infrastructure", "GPU", "AI supercomputer"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "websearch-20260322-001",
+      "title": "GPT-5.4 released with 1M token context and autonomous multi-step workflows",
+      "source": {"name": "WebSearch", "type": "web", "url": "https://www.devflokers.com/blog/ai-breakthroughs-march-2026", "published_date": "2026-03-05"},
+      "content": {"abstract": "OpenAI released GPT-5.4 with 1-million token context window and ability to autonomously execute multi-step workflows across software environments. Scores 75% on OSWorld-V benchmark, slightly above human baseline of 72.4%.", "keywords": ["GPT-5.4", "OpenAI", "autonomous AI", "large language models", "benchmark"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "websearch-20260322-002",
+      "title": "Meta announces 4 generations of custom AI chips to reduce NVIDIA dependence",
+      "source": {"name": "WebSearch", "type": "web", "url": "https://www.devflokers.com/blog/ai-breakthroughs-march-2026", "published_date": "2026-03-05"},
+      "content": {"abstract": "Meta announced MTIA 300, 400, 450, and 500 custom AI chip generations. Designed to reduce reliance on NVIDIA while powering content ranking and generative AI inference.", "keywords": ["Meta", "custom AI chips", "MTIA", "AI infrastructure", "chip independence"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "websearch-20260322-003",
+      "title": "Yann LeCun's AMI Labs raises $1.03B for 'world models' alternative to LLMs",
+      "source": {"name": "WebSearch", "type": "web", "url": "https://www.devflokers.com/blog/ai-breakthroughs-march-2026", "published_date": "2026-03-01"},
+      "content": {"abstract": "Advanced Machine Intelligence (AMI Labs) raised $1.03 billion seed round. Eschews traditional LLMs for 'world models' architecture learning physical laws. Represents paradigm challenge to current AI approach.", "keywords": ["AMI Labs", "Yann LeCun", "world models", "AI paradigm", "seed funding"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "websearch-20260322-004",
+      "title": "Global AI spending forecast at $2.52 trillion for 2026 (Gartner)",
+      "source": {"name": "WebSearch", "type": "web", "url": "https://www.devflokers.com/blog/ai-breakthroughs-march-2026", "published_date": "2026-03-01"},
+      "content": {"abstract": "Gartner projects worldwide AI spending at $2.52 trillion in 2026, underscoring AI's central role in enterprise technology investment and broader economic transformation.", "keywords": ["AI spending", "Gartner", "enterprise AI", "technology investment"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "websearch-20260322-005",
+      "title": "Iran war disrupts 20% of global crude supply, oil briefly above $119/barrel",
+      "source": {"name": "WebSearch", "type": "web", "url": "https://www.aljazeera.com/news/2026/3/8/iran-war-threatens-prolonged-impact-on-energy-markets-as-oil-prices-rise", "published_date": "2026-03-08"},
+      "content": {"abstract": "US-Israeli attacks on Iran have suspended about a fifth of global crude oil supply. Brent crude briefly above $119. Strait of Hormuz closure disrupts 19% of global LNG trade. IEA calls it 'greatest global energy security challenge in history'.", "keywords": ["Iran war", "oil supply", "Strait of Hormuz", "energy crisis", "IEA"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "websearch-20260322-006",
+      "title": "3,000+ new trade policy measures introduced globally, protectionism surging",
+      "source": {"name": "WebSearch", "type": "web", "url": "https://www.mckinsey.com/mgi/our-research/geopolitics-and-the-geometry-of-global-trade-2026-update", "published_date": "2026-03-01"},
+      "content": {"abstract": "Over 3,000 new trade and industrial policy measures introduced globally in 2025, 3x the annual level a decade ago. US-China trade down 30%. EU faces double squeeze of Chinese imports and US tariffs.", "keywords": ["trade policy", "protectionism", "US-China trade", "EU trade", "deglobalization"], "language": "en"},
+      "preliminary_category": "E_Economic",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "websearch-20260322-007",
+      "title": "Global unemployment steady at 4.9% but quality stalling, 260M youth NEET",
+      "source": {"name": "WebSearch", "type": "web", "url": "https://www.ilo.org/publications/flagship-reports/employment-and-social-trends-2026", "published_date": "2026-03-01"},
+      "content": {"abstract": "Global unemployment projected 4.9% in 2026. Progress in job quality has stalled. 260 million youth not in employment, education, or training. Women 24.2% less likely to participate in labor force.", "keywords": ["unemployment", "labor market", "youth employment", "gender gap", "ILO"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "brookings-20260322-001",
+      "title": "Iran's disruption of Strait of Hormuz: geopolitical and energy security implications",
+      "source": {"name": "Brookings Institution", "type": "blog", "url": "https://www.brookings.edu/articles/why-irans-disruption-of-the-strait-of-hormuz-matters/", "published_date": "2026-03-19"},
+      "content": {"abstract": "Analysis of Iranian disruption of critical maritime shipping routes. Implications for global energy security and geopolitical balance of power in the Gulf region.", "keywords": ["Strait of Hormuz", "Iran", "energy security", "geopolitics", "maritime shipping"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "pew-20260322-001",
+      "title": "Black immigrant population doubles to 5.6 million in US since 2000",
+      "source": {"name": "Pew Research Center", "type": "blog", "url": "https://www.pewresearch.org/short-reads/2026/03/20/key-findings-about-black-immigrants-in-the-us/", "published_date": "2026-03-20"},
+      "content": {"abstract": "US Black immigrant population doubled since 2000 to 5.6 million in 2024, now comprising over 10% of total Black population. Demographic shift with social implications.", "keywords": ["immigration", "demographics", "Black immigrants", "population change"], "language": "en"},
+      "preliminary_category": "S_Social",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "earthorg-20260322-001",
+      "title": "Water infrastructure as strategic weapon in armed conflicts",
+      "source": {"name": "Earth.Org", "type": "science_journalism", "url": "https://earth.org/from-lifeline-to-strategic-weapon-how-water-infrastructure-becomes-a-target-in-armed-conflicts/", "published_date": "2026-03-22"},
+      "content": {"abstract": "Water infrastructure, particularly desalination plants, deliberately targeted in modern warfare. Discusses recent attacks on Iranian facilities and implications under international law.", "keywords": ["water security", "warfare", "infrastructure targeting", "international law", "desalination"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "earthorg-20260322-002",
+      "title": "Climate coverage on US broadcast networks drops 35% in 2025",
+      "source": {"name": "Earth.Org", "type": "science_journalism", "url": "https://earth.org/this-week-in-climate-news-march-2026-week-3/", "published_date": "2026-03-20"},
+      "content": {"abstract": "US broadcast climate coverage down 35% in 2025. El Nino expected to return in 2026. Rising global exposure to life-limiting heat. Trump administration NCAR lawsuit.", "keywords": ["climate coverage", "media", "El Nino", "heat exposure", "NCAR"], "language": "en"},
+      "preliminary_category": "E_Environmental",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "quanta-20260322-001",
+      "title": "Jellyfish discovered with novel circadian clock mechanism",
+      "source": {"name": "Quanta Magazine Biology", "type": "science_journalism", "url": "https://www.quantamagazine.org/the-jellies-that-evolved-a-different-way-to-keep-time-20260320/", "published_date": "2026-03-20"},
+      "content": {"abstract": "Researchers discovered pea-sized jellyfish off Japan's coast with unusual circadian clock mechanism, indicating additional biological timekeeping systems may await discovery.", "keywords": ["circadian clock", "biology", "jellyfish", "evolution", "chronobiology"], "language": "en"},
+      "preliminary_category": "T_Technological",
+      "collected_at": "2026-03-22T10:52:00Z"
+    },
+    {
+      "id": "hn-20260322-001",
+      "title": "Child protection vs internet access control policy debate intensifies",
+      "source": {"name": "Hacker News", "type": "blog", "url": "https://news.dyne.org/child-protection-is-not-access-control/", "published_date": "2026-03-21"},
+      "content": {"abstract": "High-engagement debate (688 points) on distinction between child protection and internet access control, with 367 comments exploring governance implications.", "keywords": ["child protection", "internet governance", "digital rights", "policy"], "language": "en"},
+      "preliminary_category": "P_Political",
+      "collected_at": "2026-03-22T10:52:00Z"
+    }
+  ]
+}

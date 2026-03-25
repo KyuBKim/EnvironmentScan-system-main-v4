@@ -1,0 +1,428 @@
+{
+  "checked_at": "2026-03-21T23:03:36.416031+00:00",
+  "total": 36,
+  "healthy": 23,
+  "unhealthy": 8,
+  "suspect": 5,
+  "sources": {
+    "Google Patents": {
+      "name": "Google Patents",
+      "url": "https://patents.google.com/api",
+      "status_code": 404,
+      "health": "unhealthy",
+      "reason": "url_moved",
+      "response_time_ms": 377.5,
+      "content_type": "text/html; charset=utf-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "US Federal Register": {
+      "name": "US Federal Register",
+      "url": "https://www.federalregister.gov/api/v1/documents",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 801.3,
+      "content_type": "application/json; charset=utf-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "WHO Press Releases": {
+      "name": "WHO Press Releases",
+      "url": "https://www.who.int/rss-feeds/news-english.xml",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 206.6,
+      "content_type": "application/rss+xml",
+      "redirect_chain": [],
+      "error": null
+    },
+    "TechCrunch": {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/feed/",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 159.9,
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "MIT Technology Review": {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/feed/",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 373.3,
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "PubMed Central": {
+      "name": "PubMed Central",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/rss/search/1/?term=emerging+technology+OR+public+health+trend&format=xml",
+      "status_code": 500,
+      "health": "unhealthy",
+      "reason": "server_error",
+      "response_time_ms": 237.8,
+      "content_type": "text/html; charset=utf-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "Nature News": {
+      "name": "Nature News",
+      "url": "https://www.nature.com/nature.rss",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 41.7,
+      "content_type": "application/rss+xml; charset=utf-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "Science Magazine": {
+      "name": "Science Magazine",
+      "url": "https://www.science.org/rss/news_current.xml",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 507.1,
+      "content_type": "application/xml;charset=UTF-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "Quanta Magazine Biology": {
+      "name": "Quanta Magazine Biology",
+      "url": "https://www.quantamagazine.org/biology/feed",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 1097.4,
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "redirect_chain": [
+        "https://www.quantamagazine.org/biology/feed",
+        "https://www.quantamagazine.org/biology/feed/"
+      ],
+      "error": null
+    },
+    "IEEE Spectrum": {
+      "name": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/feeds/feed.rss",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 225.0,
+      "content_type": "application/rss+xml; charset=utf-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "OECD Newsroom": {
+      "name": "OECD Newsroom",
+      "url": "https://www.oecd.org/newsroom/index.xml",
+      "status_code": 403,
+      "health": "unhealthy",
+      "reason": "bot_blocked",
+      "response_time_ms": 78.9,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "World Bank Blogs": {
+      "name": "World Bank Blogs",
+      "url": "https://blogs.worldbank.org/feed",
+      "status_code": 404,
+      "health": "unhealthy",
+      "reason": "url_moved",
+      "response_time_ms": 1071.6,
+      "content_type": "text/html;charset=utf-8",
+      "redirect_chain": [
+        "https://blogs.worldbank.org/feed",
+        "https://blogs.worldbank.org/en/feed"
+      ],
+      "error": null
+    },
+    "UN News": {
+      "name": "UN News",
+      "url": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 384.6,
+      "content_type": "application/rss+xml; charset=utf-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "EUR-Lex Recent Acts": {
+      "name": "EUR-Lex Recent Acts",
+      "url": "https://eur-lex.europa.eu/EN/display-feed.html?rssId=67",
+      "status_code": 404,
+      "health": "unhealthy",
+      "reason": "url_moved",
+      "response_time_ms": 1549.9,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "Brookings Institution": {
+      "name": "Brookings Institution",
+      "url": "https://www.brookings.edu/feed/",
+      "status_code": 200,
+      "health": "suspect",
+      "reason": "redirect_to_html",
+      "response_time_ms": 112.6,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_chain": [
+        "https://www.brookings.edu/feed/",
+        "https://www.brookings.edu/"
+      ],
+      "error": null
+    },
+    "World Economic Forum": {
+      "name": "World Economic Forum",
+      "url": "https://www.weforum.org/feed/",
+      "status_code": 404,
+      "health": "unhealthy",
+      "reason": "url_moved",
+      "response_time_ms": 409.4,
+      "content_type": "text/html; charset=utf-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "Pew Research Center": {
+      "name": "Pew Research Center",
+      "url": "https://www.pewresearch.org/feed/",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 170.0,
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "Hacker News": {
+      "name": "Hacker News",
+      "url": "https://hnrss.org/frontpage",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 5074.7,
+      "content_type": "application/xml; charset=utf-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "Wired": {
+      "name": "Wired",
+      "url": "https://www.wired.com/feed/rss",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 52.3,
+      "content_type": "application/xml",
+      "redirect_chain": [],
+      "error": null
+    },
+    "Ars Technica": {
+      "name": "Ars Technica",
+      "url": "https://feeds.arstechnica.com/arstechnica/index",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 40.0,
+      "content_type": "text/xml; charset=utf-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "Disrupt Africa": {
+      "name": "Disrupt Africa",
+      "url": "https://disruptafrica.com/feed/",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 1238.1,
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "NASA Climate Change": {
+      "name": "NASA Climate Change",
+      "url": "https://climate.nasa.gov/news/rss.xml",
+      "status_code": 200,
+      "health": "suspect",
+      "reason": "redirect_to_html",
+      "response_time_ms": 516.5,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_chain": [
+        "https://climate.nasa.gov/news/rss.xml",
+        "https://science.nasa.gov/climate-change/"
+      ],
+      "error": null
+    },
+    "ScienceDaily Sustainability": {
+      "name": "ScienceDaily Sustainability",
+      "url": "https://www.sciencedaily.com/rss/earth_climate/sustainability.xml",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 770.6,
+      "content_type": "application/xml",
+      "redirect_chain": [],
+      "error": null
+    },
+    "Carbon Brief": {
+      "name": "Carbon Brief",
+      "url": "https://www.carbonbrief.org/feed/",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 121.8,
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "IMF Blog": {
+      "name": "IMF Blog",
+      "url": "https://www.imf.org/en/News/Rss?Language=ENG",
+      "status_code": 200,
+      "health": "suspect",
+      "reason": "redirect_to_html",
+      "response_time_ms": 402.0,
+      "content_type": "text/html; charset=utf-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "BIS Speeches": {
+      "name": "BIS Speeches",
+      "url": "https://www.bis.org/doclist/cbspeeches.rss",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 1049.8,
+      "content_type": "application/rss+xml",
+      "redirect_chain": [],
+      "error": null
+    },
+    "The Conversation - Ethics": {
+      "name": "The Conversation - Ethics",
+      "url": "https://theconversation.com/us/topics/ethics-6/articles.atom",
+      "status_code": 200,
+      "health": "suspect",
+      "reason": "redirect_to_html",
+      "response_time_ms": 687.3,
+      "content_type": "text/html; charset=utf-8",
+      "redirect_chain": [
+        "https://theconversation.com/us/topics/ethics-6/articles.atom",
+        "http://theconversation.com/topics/ethics-6/articles.atom",
+        "https://theconversation.com/topics/ethics-6/articles.atom",
+        "https://theconversation.com/topics/leukemia-6"
+      ],
+      "error": null
+    },
+    "Psychology Today": {
+      "name": "Psychology Today",
+      "url": "https://www.psychologytoday.com/intl/blog/feed",
+      "status_code": 404,
+      "health": "unhealthy",
+      "reason": "url_moved",
+      "response_time_ms": 1258.8,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_chain": [
+        "https://www.psychologytoday.com/intl/blog/feed",
+        "https://www.psychologytoday.com/us/blog/feed"
+      ],
+      "error": null
+    },
+    "Aeon Magazine": {
+      "name": "Aeon Magazine",
+      "url": "https://aeon.co/feed.rss",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 271.4,
+      "content_type": "application/rss+xml; charset=utf-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "AI Ethics Brief": {
+      "name": "AI Ethics Brief",
+      "url": "https://brief.montrealethics.ai/feed",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 402.8,
+      "content_type": "application/xml; charset=utf-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "Yale Climate Connections": {
+      "name": "Yale Climate Connections",
+      "url": "https://yaleclimateconnections.org/feed/",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 547.1,
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "CEPR VoxEU": {
+      "name": "CEPR VoxEU",
+      "url": "https://cepr.org/rss/vox-content",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 1280.6,
+      "content_type": "application/rss+xml; charset=utf-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "Genetic Literacy Project": {
+      "name": "Genetic Literacy Project",
+      "url": "https://geneticliteracyproject.org/feed/",
+      "status_code": 403,
+      "health": "unhealthy",
+      "reason": "bot_blocked",
+      "response_time_ms": 588.9,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "Positive Psychology News": {
+      "name": "Positive Psychology News",
+      "url": "https://positivepsychologynews.com/feed/",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 1773.6,
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "redirect_chain": [
+        "https://positivepsychologynews.com/feed/",
+        "https://positivepsychologynews.com/feed"
+      ],
+      "error": null
+    },
+    "IPBES News": {
+      "name": "IPBES News",
+      "url": "https://www.ipbes.net/news",
+      "status_code": 200,
+      "health": "suspect",
+      "reason": "redirect_to_html",
+      "response_time_ms": 678.7,
+      "content_type": "text/html; charset=UTF-8",
+      "redirect_chain": [],
+      "error": null
+    },
+    "Earth.Org": {
+      "name": "Earth.Org",
+      "url": "https://earth.org/feed/",
+      "status_code": 200,
+      "health": "healthy",
+      "reason": "ok",
+      "response_time_ms": 369.8,
+      "content_type": "application/rss+xml; charset=UTF-8",
+      "redirect_chain": [],
+      "error": null
+    }
+  }
+}

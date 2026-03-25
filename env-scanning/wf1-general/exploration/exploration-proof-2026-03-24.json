@@ -1,0 +1,24 @@
+{
+  "gate_id": "exploration_gate.py",
+  "gate_version": "1.3.0",
+  "command": "post",
+  "recorded_at": "2026-03-23T20:46:34.030130+00:00",
+  "date": "2026-03-24",
+  "gate_decision": "MUST_RUN",
+  "execution_status": "executed",
+  "method_used": "agent-team",
+  "results": {
+    "candidates_discovered": 2,
+    "viable_count": 0,
+    "signals_collected": 0,
+    "gaps_analyzed": [
+      "s_spiritual coverage below 15% threshold"
+    ]
+  },
+  "files": {
+    "decision": "env-scanning/wf1-general/exploration/gate-decision-2026-03-24.json",
+    "candidates": null,
+    "signals": null,
+    "frontier_selection": null
+  }
+}

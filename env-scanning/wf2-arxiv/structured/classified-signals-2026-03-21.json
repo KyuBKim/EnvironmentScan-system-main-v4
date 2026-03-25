@@ -1,0 +1,136 @@
+{
+  "classification_date": "2026-03-21",
+  "workflow": "wf2-arxiv",
+  "classifier": "phase2-analyst",
+  "total_signals": 12,
+  "steeps_distribution": {
+    "S_Social": 1,
+    "T_Technological": 5,
+    "E_Economic": 1,
+    "E_Environmental": 2,
+    "P_Political": 1,
+    "s_spiritual": 2
+  },
+  "top_10": [
+    {"rank": 1, "id": "arxiv-20260321-001", "title": "Transformer Architecture Achieves Formal Reasoning Parity with Symbolic AI via Chain-of-Thought Distillation", "psst": 94.0, "steeps_primary": "T_Technological"},
+    {"rank": 2, "id": "arxiv-20260321-002", "title": "Quantum Error Correction Threshold Crossed: Surface Codes Achieve 99.9% Fidelity at Scale", "psst": 92.0, "steeps_primary": "T_Technological"},
+    {"rank": 3, "id": "arxiv-20260321-003", "title": "Catastrophic Forgetting Solved: Continual Learning via Modular Memory Networks", "psst": 88.0, "steeps_primary": "T_Technological"},
+    {"rank": 4, "id": "arxiv-20260321-004", "title": "Room-Temperature Superconductor Candidate: Ternary Hydride at 50 GPa Shows Zero Resistance", "psst": 87.0, "steeps_primary": "T_Technological"},
+    {"rank": 5, "id": "arxiv-20260321-005", "title": "Carbon Capture Efficiency Breakthrough: Metal-Organic Frameworks Achieve 98% CO2 Selectivity", "psst": 85.0, "steeps_primary": "E_Environmental"},
+    {"rank": 6, "id": "arxiv-20260321-006", "title": "Algorithmic Fairness Impossibility Extended: Multi-Group Calibration Cannot Coexist with Individual Equity", "psst": 83.0, "steeps_primary": "s_spiritual"},
+    {"rank": 7, "id": "arxiv-20260321-007", "title": "CRISPR Prime Editing 3.0: Programmable Large-Scale Genomic Rearrangements Without Double-Strand Breaks", "psst": 82.0, "steeps_primary": "T_Technological"},
+    {"rank": 8, "id": "arxiv-20260321-008", "title": "Climate Tipping Cascade Model: AMOC Collapse Triggers 3-Stage Domino Effect Within 15 Years", "psst": 80.0, "steeps_primary": "E_Environmental"},
+    {"rank": 9, "id": "arxiv-20260321-009", "title": "AI-Generated Scientific Papers Now Indistinguishable from Human-Authored: Turing Test for Academia", "psst": 78.0, "steeps_primary": "s_spiritual"},
+    {"rank": 10, "id": "arxiv-20260321-010", "title": "Labor Market Polarization Accelerates: AI Displacement Concentrates in Middle-Skill Occupations", "psst": 76.0, "steeps_primary": "S_Social"}
+  ],
+  "signals": [
+    {
+      "id": "arxiv-20260321-001",
+      "title": "Transformer Architecture Achieves Formal Reasoning Parity with Symbolic AI via Chain-of-Thought Distillation",
+      "steeps_primary": "T_Technological",
+      "steeps_secondary": "s_spiritual",
+      "psst": 94.0,
+      "source": "arXiv cs.AI",
+      "published": "2026-03-19"
+    },
+    {
+      "id": "arxiv-20260321-002",
+      "title": "Quantum Error Correction Threshold Crossed: Surface Codes Achieve 99.9% Fidelity at Scale",
+      "steeps_primary": "T_Technological",
+      "steeps_secondary": "E_Economic",
+      "psst": 92.0,
+      "source": "arXiv quant-ph",
+      "published": "2026-03-19"
+    },
+    {
+      "id": "arxiv-20260321-003",
+      "title": "Catastrophic Forgetting Solved: Continual Learning via Modular Memory Networks",
+      "steeps_primary": "T_Technological",
+      "steeps_secondary": "S_Social",
+      "psst": 88.0,
+      "source": "arXiv cs.LG",
+      "published": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260321-004",
+      "title": "Room-Temperature Superconductor Candidate: Ternary Hydride at 50 GPa Shows Zero Resistance",
+      "steeps_primary": "T_Technological",
+      "steeps_secondary": "E_Economic",
+      "psst": 87.0,
+      "source": "arXiv cond-mat.supr-con",
+      "published": "2026-03-19"
+    },
+    {
+      "id": "arxiv-20260321-005",
+      "title": "Carbon Capture Efficiency Breakthrough: Metal-Organic Frameworks Achieve 98% CO2 Selectivity",
+      "steeps_primary": "E_Environmental",
+      "steeps_secondary": "T_Technological",
+      "psst": 85.0,
+      "source": "arXiv physics.chem-ph",
+      "published": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260321-006",
+      "title": "Algorithmic Fairness Impossibility Extended: Multi-Group Calibration Cannot Coexist with Individual Equity",
+      "steeps_primary": "s_spiritual",
+      "steeps_secondary": "P_Political",
+      "psst": 83.0,
+      "source": "arXiv cs.CY",
+      "published": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260321-007",
+      "title": "CRISPR Prime Editing 3.0: Programmable Large-Scale Genomic Rearrangements Without Double-Strand Breaks",
+      "steeps_primary": "T_Technological",
+      "steeps_secondary": "S_Social",
+      "psst": 82.0,
+      "source": "arXiv q-bio.GN",
+      "published": "2026-03-19"
+    },
+    {
+      "id": "arxiv-20260321-008",
+      "title": "Climate Tipping Cascade Model: AMOC Collapse Triggers 3-Stage Domino Effect Within 15 Years",
+      "steeps_primary": "E_Environmental",
+      "steeps_secondary": "P_Political",
+      "psst": 80.0,
+      "source": "arXiv physics.ao-ph",
+      "published": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260321-009",
+      "title": "AI-Generated Scientific Papers Now Indistinguishable from Human-Authored: Turing Test for Academia",
+      "steeps_primary": "s_spiritual",
+      "steeps_secondary": "T_Technological",
+      "psst": 78.0,
+      "source": "arXiv cs.CL",
+      "published": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260321-010",
+      "title": "Labor Market Polarization Accelerates: AI Displacement Concentrates in Middle-Skill Occupations",
+      "steeps_primary": "S_Social",
+      "steeps_secondary": "E_Economic",
+      "psst": 76.0,
+      "source": "arXiv econ.GN",
+      "published": "2026-03-19"
+    },
+    {
+      "id": "arxiv-20260321-011",
+      "title": "Autonomous Governance Frameworks: Constitutional AI Alignment via Democratic Preference Aggregation",
+      "steeps_primary": "P_Political",
+      "steeps_secondary": "T_Technological",
+      "psst": 74.0,
+      "source": "arXiv cs.AI",
+      "published": "2026-03-20"
+    },
+    {
+      "id": "arxiv-20260321-012",
+      "title": "Global Trade Network Resilience: Agent-Based Model Predicts 18-Month Supply Chain Normalization",
+      "steeps_primary": "E_Economic",
+      "steeps_secondary": "P_Political",
+      "psst": 72.0,
+      "source": "arXiv econ.GN",
+      "published": "2026-03-19"
+    }
+  ]
+}

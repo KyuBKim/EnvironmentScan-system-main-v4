@@ -1,0 +1,273 @@
+{
+  "scan_date": "2026-03-25",
+  "workflow": "wf2-arxiv",
+  "total_ranked": 38,
+  "ranked_signals": [
+    {
+      "rank": 1,
+      "id": "arxiv-20260325-001",
+      "title": "Bilevel Autoresearch: Meta-Autoresearching Itself",
+      "category": "T_Technological",
+      "psst_score": 88.5
+    },
+    {
+      "rank": 2,
+      "id": "arxiv-20260325-002",
+      "title": "Central Dogma Transformer III: Interpretable AI Across DNA, RNA, and Protein",
+      "category": "T_Technological",
+      "psst_score": 87.2
+    },
+    {
+      "rank": 3,
+      "id": "arxiv-20260325-003",
+      "title": "Beyond Preset Identities: How Agents Form Stances in Generative Societies",
+      "category": "s_spiritual",
+      "psst_score": 86.0
+    },
+    {
+      "rank": 4,
+      "id": "arxiv-20260325-004",
+      "title": "Mecha-nudges for Machines: Presentation Changes Influencing AI Decisions",
+      "category": "s_spiritual",
+      "psst_score": 85.5
+    },
+    {
+      "rank": 5,
+      "id": "arxiv-20260325-005",
+      "title": "Near-Optimal Solutions for Carbon Capture and Removal Strategies",
+      "category": "E_Environmental",
+      "psst_score": 85.0
+    },
+    {
+      "rank": 6,
+      "id": "arxiv-20260325-006",
+      "title": "MedObvious: Exposing Medical Moravec's Paradox in VLMs",
+      "category": "T_Technological",
+      "psst_score": 84.8
+    },
+    {
+      "rank": 7,
+      "id": "arxiv-20260325-007",
+      "title": "Failure of Contextual Invariance in Gender Inference with LLMs",
+      "category": "s_spiritual",
+      "psst_score": 84.5
+    },
+    {
+      "rank": 8,
+      "id": "arxiv-20260325-008",
+      "title": "Biased Error Attribution in Multi-Agent Human-AI Systems",
+      "category": "s_spiritual",
+      "psst_score": 84.0
+    },
+    {
+      "rank": 9,
+      "id": "arxiv-20260325-009",
+      "title": "CSTS: Canonical Security Telemetry for AI-Native Cyber Detection",
+      "category": "P_Political",
+      "psst_score": 83.5
+    },
+    {
+      "rank": 10,
+      "id": "arxiv-20260325-010",
+      "title": "VTAM: Video-Tactile-Action Models for Complex Physical Interaction",
+      "category": "T_Technological",
+      "psst_score": 83.2
+    },
+    {
+      "rank": 11,
+      "id": "arxiv-20260325-011",
+      "title": "Code Review Agent Benchmark: Only 40% Solved by AI",
+      "category": "T_Technological",
+      "psst_score": 82.8
+    },
+    {
+      "rank": 12,
+      "id": "arxiv-20260325-012",
+      "title": "Byzantine-Robust Differentially Private Federated Optimization",
+      "category": "T_Technological",
+      "psst_score": 82.5
+    },
+    {
+      "rank": 13,
+      "id": "arxiv-20260325-013",
+      "title": "Off-Policy Value-Based RL for Large Language Models",
+      "category": "T_Technological",
+      "psst_score": 82.0
+    },
+    {
+      "rank": 14,
+      "id": "arxiv-20260325-014",
+      "title": "SortedRL: 50%+ Bubble Reduction in LLM RL Training",
+      "category": "T_Technological",
+      "psst_score": 81.5
+    },
+    {
+      "rank": 15,
+      "id": "arxiv-20260325-015",
+      "title": "Dark Matter Detection Through Rydberg Atom Transducer",
+      "category": "T_Technological",
+      "psst_score": 81.0
+    },
+    {
+      "rank": 16,
+      "id": "arxiv-20260325-016",
+      "title": "Information-Theoretic Scaling Laws of Neural Quantum States",
+      "category": "T_Technological",
+      "psst_score": 80.5
+    },
+    {
+      "rank": 17,
+      "id": "arxiv-20260325-017",
+      "title": "PAC-Bayesian Generalization Bounds for Quantum Models",
+      "category": "T_Technological",
+      "psst_score": 80.0
+    },
+    {
+      "rank": 18,
+      "id": "arxiv-20260325-018",
+      "title": "Multi-Ion Optical Clock with 5×10⁻¹⁹ Uncertainty",
+      "category": "T_Technological",
+      "psst_score": 79.8
+    },
+    {
+      "rank": 19,
+      "id": "arxiv-20260325-019",
+      "title": "General Machine Learning Theory for Variable Regimes",
+      "category": "T_Technological",
+      "psst_score": 79.5
+    },
+    {
+      "rank": 20,
+      "id": "arxiv-20260325-020",
+      "title": "Scalable Quantum Circuit Generation via Majorana Propagation",
+      "category": "T_Technological",
+      "psst_score": 79.0
+    },
+    {
+      "rank": 21,
+      "id": "arxiv-20260325-021",
+      "title": "Targeted Adversarial Traffic for IoT Intrusion Detection Evasion",
+      "category": "P_Political",
+      "psst_score": 78.5
+    },
+    {
+      "rank": 22,
+      "id": "arxiv-20260325-022",
+      "title": "Cooperation in Public Goods Games over Hypergraphs",
+      "category": "S_Social",
+      "psst_score": 78.0
+    },
+    {
+      "rank": 23,
+      "id": "arxiv-20260325-023",
+      "title": "Tensor Network Portfolio Optimization on Coherent Ising Machines",
+      "category": "E_Economic",
+      "psst_score": 77.5
+    },
+    {
+      "rank": 24,
+      "id": "arxiv-20260325-024",
+      "title": "OccAny: Generalized 3D Occupancy for Autonomous Driving",
+      "category": "T_Technological",
+      "psst_score": 77.0
+    },
+    {
+      "rank": 25,
+      "id": "arxiv-20260325-025",
+      "title": "RelayS2S: Dual-Path Real-Time Dialogue with 99% Quality",
+      "category": "T_Technological",
+      "psst_score": 76.5
+    },
+    {
+      "rank": 26,
+      "id": "arxiv-20260325-026",
+      "title": "Planning over 10,000 Multi-Agent Pathfinding Dependencies",
+      "category": "T_Technological",
+      "psst_score": 76.0
+    },
+    {
+      "rank": 27,
+      "id": "arxiv-20260325-027",
+      "title": "Quantum Speedup from Nonclassical Polarization",
+      "category": "T_Technological",
+      "psst_score": 75.5
+    },
+    {
+      "rank": 28,
+      "id": "arxiv-20260325-028",
+      "title": "Asymptotic Learning Curves for Diffusion Models on Manifold Data",
+      "category": "T_Technological",
+      "psst_score": 75.0
+    },
+    {
+      "rank": 29,
+      "id": "arxiv-20260325-029",
+      "title": "Solving Nonlinear PDEs via Hybrid Quantum Newton Method",
+      "category": "T_Technological",
+      "psst_score": 74.5
+    },
+    {
+      "rank": 30,
+      "id": "arxiv-20260325-030",
+      "title": "Modeling Disjunction Effect within Classical Probability",
+      "category": "S_Social",
+      "psst_score": 74.0
+    },
+    {
+      "rank": 31,
+      "id": "arxiv-20260325-031",
+      "title": "High-Resolution Tensor-Network for Non-Gaussian Aggregate Distributions",
+      "category": "E_Economic",
+      "psst_score": 73.5
+    },
+    {
+      "rank": 32,
+      "id": "arxiv-20260325-032",
+      "title": "SpecEyes: Accelerating Agentic Multimodal LLMs",
+      "category": "T_Technological",
+      "psst_score": 73.0
+    },
+    {
+      "rank": 33,
+      "id": "arxiv-20260325-033",
+      "title": "Edge Radar Material Classification Under Geometry Shifts",
+      "category": "T_Technological",
+      "psst_score": 72.5
+    },
+    {
+      "rank": 34,
+      "id": "arxiv-20260325-034",
+      "title": "Global Control via Quantum Actuators",
+      "category": "T_Technological",
+      "psst_score": 72.0
+    },
+    {
+      "rank": 5,
+      "id": "arxiv-20260325-035",
+      "title": "Near-Optimal Carbon Capture Multi-Configuration Analysis (European)",
+      "category": "E_Environmental",
+      "psst_score": 85.0
+    },
+    {
+      "rank": 36,
+      "id": "arxiv-20260325-036",
+      "title": "LLM-Generated Tests Degrade Under Software Evolution",
+      "category": "T_Technological",
+      "psst_score": 71.5
+    },
+    {
+      "rank": 37,
+      "id": "arxiv-20260325-037",
+      "title": "Foveated Diffusion: Human Perception-Guided Efficient Generation",
+      "category": "T_Technological",
+      "psst_score": 71.0
+    },
+    {
+      "rank": 8,
+      "id": "arxiv-20260325-038",
+      "title": "s_spiritual Signal: AI Error Attribution Amplifies Human Cognitive Biases",
+      "category": "s_spiritual",
+      "psst_score": 84.0
+    }
+  ]
+}

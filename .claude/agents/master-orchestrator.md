@@ -341,9 +341,14 @@ Create `{INT_OUTPUT_ROOT}/logs/master-status.json`:
 
 ### Step 0.4: Create Master Task Hierarchy (Python — Deterministic)
 
+> **MANDATORY EXECUTION**: 이 단계를 반드시 실행하라. 스캔은 30~60분이 소요되며,
+> Task 추적은 사용자가 Ctrl+T로 진행 상태를 확인할 수 있는 유일한 수단이다.
+> 실패 시에만 WARN 로그 후 계속 — 그러나 **시도 자체를 건너뛰지 마라**.
+
 > **할루시네이션 원천봉쇄**: 태스크 생성 여부, 중복 방지, 게이트 체크는
 > 모두 Python이 수행합니다. LLM은 Python 결정에 따라 TaskCreate/TaskUpdate만 호출합니다.
-> 태스크 관리는 **non-critical** — 실패 시 경고 로그 후 워크플로우를 계속 진행합니다.
+
+**Primary Path (Python 결정 엔진)**:
 
 ```bash
 python3 {TASK_MANAGER_SCRIPT} \
@@ -380,12 +385,46 @@ python3 {TASK_MANAGER_SCRIPT} \
 
 **Case C**: Error (exit code 1 또는 JSON 파싱 실패) →
 ```
-1. WARN 로그: "Master task creation failed — continuing without task tracking"
-2. master_task_mapping = {} (빈 매핑)
-3. 이후 step-complete 호출 시 task ID 미발견 → WARN 로그 후 계속
+1. WARN 로그: "Master task creation failed — falling back to Direct Task Creation"
+2. Direct Fallback (아래) 실행
 ```
 
-**CRITICAL**: Case A 실행 후, master-status.json에 반드시 기록:
+**Direct Fallback (Python 원천봉쇄 — LLM은 실행만)**:
+
+> **할루시네이션 방지**: LLM이 task subject/description을 직접 작성하면 의역, 누락, 중복 위험이 있다.
+> 반드시 Python이 생성한 JSON spec을 그대로 사용한다.
+
+Case C에서든, Primary Path를 건너뛰었든, 아래 절차를 실행한다:
+
+```
+1. master-status.json 확인 → master_task_mapping 키가 이미 존재하면 SKIP (session resume)
+2. master_task_mapping이 없으면:
+   a. Python spec 생성 (동일한 스크립트, 동일한 결과):
+      python3 {TASK_MANAGER_SCRIPT} --action init --status-file {MASTER_STATUS_FILE}
+      → 출력 JSON의 "tasks" 배열을 읽는다
+
+   b. JSON 파싱 실패 시에만 WARN 로그 후 task tracking 없이 계속 (master_task_mapping = {})
+
+   c. JSON 파싱 성공 시:
+      tasks 배열의 각 항목에 대해 순서대로:
+        task_id = TaskCreate(
+          subject = task["subject"],        ← Python이 생성한 문자열 그대로 복사
+          description = task["description"], ← Python이 생성한 문자열 그대로 복사
+          activeForm = task["activeForm"]    ← Python이 생성한 문자열 그대로 복사
+        )
+        master_task_mapping[task["key"]] = task_id
+
+   d. TaskUpdate(master_task_mapping["master_step0"], status="completed")
+   e. master-status.json에 master_task_mapping 기록
+
+3. 사후 검증 (Python 원천봉쇄):
+   python3 {TASK_MANAGER_SCRIPT} --action verify --status-file {MASTER_STATUS_FILE}
+   → "action": "PASS" 확인. "FAIL" 시 누락 key를 WARN 로그.
+```
+
+**LLM은 subject/description 문자열을 절대 수정하지 않는다. Python JSON 출력을 기계적으로 복사한다.**
+
+**CRITICAL**: Task 생성 후, master-status.json에 반드시 기록:
 ```json
 {
   "master_task_mapping": {
@@ -490,7 +529,7 @@ python3 {TASK_MANAGER_SCRIPT} \
 
 ## Step 1: Execute WF1
 
-**Task Status**: `TaskUpdate(master_task_mapping["master_step1"], status="in_progress")` (non-critical)
+**Task Status**: `TaskUpdate(master_task_mapping["master_step1"], status="in_progress")` (EXECUTE — skip only if master_task_mapping is empty)
 
 ### 1.1 Pre-Check
 
@@ -591,13 +630,13 @@ will be generated from WF2+WF3+WF4 only (degraded mode). See Degraded Mode table
 ```bash
 python3 {TASK_MANAGER_SCRIPT} --action step-complete --step 1 --status-file {MASTER_STATUS_FILE}
 ```
-If `action: COMPLETE` → `TaskUpdate(master_task_mapping["master_step1"], status="completed")` (non-critical)
+If `action: COMPLETE` → `TaskUpdate(master_task_mapping["master_step1"], status="completed")` (EXECUTE — skip only if master_task_mapping is empty)
 
 ---
 
 ## Step 2: Execute WF2
 
-**Task Status**: `TaskUpdate(master_task_mapping["master_step2"], status="in_progress")` (non-critical)
+**Task Status**: `TaskUpdate(master_task_mapping["master_step2"], status="in_progress")` (EXECUTE — skip only if master_task_mapping is empty)
 
 ### 2.1 Pre-Check
 
@@ -694,13 +733,13 @@ Master_Gate_M2:
 ```bash
 python3 {TASK_MANAGER_SCRIPT} --action step-complete --step 2 --status-file {MASTER_STATUS_FILE}
 ```
-If `action: COMPLETE` → `TaskUpdate(master_task_mapping["master_step2"], status="completed")` (non-critical)
+If `action: COMPLETE` → `TaskUpdate(master_task_mapping["master_step2"], status="completed")` (EXECUTE — skip only if master_task_mapping is empty)
 
 ---
 
 ## Step 3: Execute WF3
 
-**Task Status**: `TaskUpdate(master_task_mapping["master_step3"], status="in_progress")` (non-critical)
+**Task Status**: `TaskUpdate(master_task_mapping["master_step3"], status="in_progress")` (EXECUTE — skip only if master_task_mapping is empty)
 
 ### 3.1 Pre-Check
 
@@ -803,13 +842,13 @@ will be generated from WF1+WF2+WF4 only (degraded mode).
 ```bash
 python3 {TASK_MANAGER_SCRIPT} --action step-complete --step 3 --status-file {MASTER_STATUS_FILE}
 ```
-If `action: COMPLETE` → `TaskUpdate(master_task_mapping["master_step3"], status="completed")` (non-critical)
+If `action: COMPLETE` → `TaskUpdate(master_task_mapping["master_step3"], status="completed")` (EXECUTE — skip only if master_task_mapping is empty)
 
 ---
 
 ## Step 4: Execute WF4
 
-**Task Status**: `TaskUpdate(master_task_mapping["master_step4"], status="in_progress")` (non-critical)
+**Task Status**: `TaskUpdate(master_task_mapping["master_step4"], status="in_progress")` (EXECUTE — skip only if master_task_mapping is empty)
 
 ### 4.1 Pre-Check
 
@@ -904,13 +943,13 @@ will be generated from WF1+WF2+WF3 only (degraded mode).
 ```bash
 python3 {TASK_MANAGER_SCRIPT} --action step-complete --step 4 --status-file {MASTER_STATUS_FILE}
 ```
-If `action: COMPLETE` → `TaskUpdate(master_task_mapping["master_step4"], status="completed")` (non-critical)
+If `action: COMPLETE` → `TaskUpdate(master_task_mapping["master_step4"], status="completed")` (EXECUTE — skip only if master_task_mapping is empty)
 
 ---
 
 ## Step 5: Integration (Report Merge)
 
-**Task Status**: `TaskUpdate(master_task_mapping["master_step5"], status="in_progress")` (non-critical)
+**Task Status**: `TaskUpdate(master_task_mapping["master_step5"], status="in_progress")` (EXECUTE — skip only if master_task_mapping is empty)
 
 ### 5.1 Pre-Check
 
@@ -1503,7 +1542,7 @@ M4 게이트를 찾지 못해 Step 5 완료를 거부한다. M4 기록은 Step 5
 ```bash
 python3 {TASK_MANAGER_SCRIPT} --action step-complete --step 5 --status-file {MASTER_STATUS_FILE}
 ```
-If `action: COMPLETE` → `TaskUpdate(master_task_mapping["master_step5"], status="completed")` (non-critical)
+If `action: COMPLETE` → `TaskUpdate(master_task_mapping["master_step5"], status="completed")` (EXECUTE — skip only if master_task_mapping is empty)
 
 **CRITICAL**: Step 5 completion is gated on **M4** (deliverable completeness), NOT M3 (approval only).
 M4 verifies all EN/KO reports, timeline map, and archives actually exist on disk.
@@ -1586,7 +1625,8 @@ Where `DASHBOARD_EXTRACTOR_SCRIPT` = SOT `integration.dashboard.extractor_script
 - FSSF 분포: classified-signals-*.json에서 fssf_type 필드 직접 카운트
 - Top N 시그널: priority-ranked + classified JOIN (LLM 재해석 없음)
 - 리스크 확률: 공식 기반 (교차WF 비율 × 0.5 + 평균영향도 × 0.5)
-- 교차 WF 강화: 키워드 기반 자카드 유사도 매칭
+- 교차 WF 강화: 자카드 유사도 매칭 (threshold from `thresholds.yaml` → `dashboard.cross_wf_reinforcement.threshold`)
+- 타임라인 맵: 원문 추출 (금일 미생성 시 최신 fallback, 메타데이터에 source:"fallback" 기록)
 
 **통합보고서에서 원문 추출하는 것** (재생성 금지):
 - 메가테마 서술 (§1 Executive Summary)
@@ -1654,7 +1694,7 @@ M4가 이미 모든 핵심 산출물(EN/KO 보고서, 타임라인맵)의 완전
 
 ## Step 6: Finalization
 
-**Task Status**: `TaskUpdate(master_task_mapping["master_step6"], status="in_progress")` (non-critical)
+**Task Status**: `TaskUpdate(master_task_mapping["master_step6"], status="in_progress")` (EXECUTE — skip only if master_task_mapping is empty)
 
 ### 6.1 Update Master Status
 
@@ -1749,13 +1789,13 @@ macOS 전용 (`open` 명령). 비동기 실행 — 브라우저에 파일 전달
 ```bash
 python3 {TASK_MANAGER_SCRIPT} --action step-complete --step 6 --status-file {MASTER_STATUS_FILE}
 ```
-If `action: COMPLETE` → `TaskUpdate(master_task_mapping["master_step6"], status="completed")` (non-critical)
+If `action: COMPLETE` → `TaskUpdate(master_task_mapping["master_step6"], status="completed")` (EXECUTE — skip only if master_task_mapping is empty)
 
 **Final Sync**: After all steps complete, run full sync to catch any missed updates:
 ```bash
 python3 {TASK_MANAGER_SCRIPT} --action sync --status-file {MASTER_STATUS_FILE}
 ```
-For each update with `expected_status: completed` → execute the TaskUpdate instruction (non-critical).
+For each update with `expected_status: completed` → execute the TaskUpdate instruction (EXECUTE — skip only if master_task_mapping is empty).
 
 ---
 

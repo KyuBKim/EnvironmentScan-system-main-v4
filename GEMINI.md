@@ -9,7 +9,9 @@
 ### Execution Notes
 
 - **SOT validation**: Before running any workflow, execute `python3 env-scanning/scripts/validate_registry.py` and confirm exit code 0 (68 checks).
-- **Master Gate M4**: After integration, `python3 env-scanning/scripts/validate_completion.py --sot {SOT} --date {DATE}` must PASS (9 CG checks). M4 is NEVER skippable — even in autopilot mode.
+- **Master Gate M4**: After integration, `python3 env-scanning/scripts/validate_completion.py --sot {SOT} --date {DATE}` must PASS (10 CG checks, including CG-010 dashboard). M4 is NEVER skippable — even in autopilot mode.
+- **Dashboard validation**: After dashboard generation, `python3 env-scanning/scripts/validate_dashboard.py --dashboard {path} --date {DATE}` (6 DB checks).
+- **Task Management**: `python3 env-scanning/core/master_task_manager.py --action init` generates task specs; `--action verify` post-checks completeness. LLM copies Python output verbatim.
 - **Report validation**: After generating any report, execute `python3 env-scanning/scripts/validate_report.py <report_path> --profile <profile>` and confirm exit code 0.
 - Validation profiles: `standard` (WF1/WF2), `naver` (WF3), `multiglobal-news` / `multiglobal-news_en` (WF4), `integrated`, `weekly`, `timeline` (Timeline Map).
 - **Timeline Map validation**: Timeline Map has dedicated quality defense — `validate_timeline_map.py` (L2a, 18 checks), `validate_timeline_map_quality.py` (L2b, 11 TQ checks), `narrative_gate.py` (B4, 5 NG checks). These verify Python 원천봉쇄 compliance (PB-1~6 verbatim match).
