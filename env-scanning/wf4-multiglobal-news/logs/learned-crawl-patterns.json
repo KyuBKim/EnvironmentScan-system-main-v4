@@ -10,48 +10,48 @@
   "chosun": {
     "best_strategy": "rss",
     "rss_available": true,
-    "last_success_at": "2026-03-17T01:52:34.030523+00:00",
-    "success_count": 7,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 9,
     "failure_count": 0,
     "avg_articles_per_crawl": 100.0
   },
   "donga": {
     "best_strategy": "rss",
     "rss_available": true,
-    "last_success_at": "2026-03-17T01:52:34.030523+00:00",
-    "success_count": 7,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 9,
     "failure_count": 0,
-    "avg_articles_per_crawl": 49.857142857142854
+    "avg_articles_per_crawl": 49.888888888888886
   },
   "hani": {
     "best_strategy": "rss",
     "rss_available": true,
-    "last_success_at": "2026-03-17T01:52:34.030523+00:00",
-    "success_count": 7,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 9,
     "failure_count": 0,
-    "avg_articles_per_crawl": 28.714285714285715
+    "avg_articles_per_crawl": 28.88888888888889
   },
   "khan": {
     "best_strategy": "rss",
     "rss_available": true,
-    "last_success_at": "2026-03-17T01:52:34.030523+00:00",
-    "success_count": 7,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 9,
     "failure_count": 0,
-    "avg_articles_per_crawl": 49.42857142857143
+    "avg_articles_per_crawl": 49.333333333333336
   },
   "mk": {
     "best_strategy": "rss",
     "rss_available": true,
-    "last_success_at": "2026-03-17T01:52:34.030523+00:00",
-    "success_count": 7,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 9,
     "failure_count": 0,
     "avg_articles_per_crawl": 50.0
   },
   "hankyung": {
     "best_strategy": "rss",
     "rss_available": true,
-    "last_success_at": "2026-03-17T01:52:34.030523+00:00",
-    "success_count": 7,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 9,
     "failure_count": 0,
     "avg_articles_per_crawl": 50.0
   },
@@ -60,14 +60,14 @@
     "rss_available": false,
     "last_success_at": "",
     "success_count": 0,
-    "failure_count": 7,
+    "failure_count": 9,
     "avg_articles_per_crawl": 0.0
   },
   "mt": {
     "best_strategy": "rss",
     "rss_available": true,
-    "last_success_at": "2026-03-17T01:52:34.030523+00:00",
-    "success_count": 7,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 9,
     "failure_count": 0,
     "avg_articles_per_crawl": 100.0
   },
@@ -76,54 +76,54 @@
     "rss_available": true,
     "last_success_at": "",
     "success_count": 0,
-    "failure_count": 7,
+    "failure_count": 9,
     "avg_articles_per_crawl": 0.0
   },
   "etnews": {
     "best_strategy": "rss",
     "rss_available": true,
-    "last_success_at": "2026-03-17T01:52:34.030523+00:00",
-    "success_count": 7,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 9,
     "failure_count": 0,
-    "avg_articles_per_crawl": 29.285714285714285
+    "avg_articles_per_crawl": 28.666666666666668
   },
   "aitimes": {
     "best_strategy": "rss",
     "rss_available": true,
-    "last_success_at": "2026-03-17T01:52:34.030523+00:00",
-    "success_count": 7,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 9,
     "failure_count": 0,
     "avg_articles_per_crawl": 50.0
   },
   "sisain": {
     "best_strategy": "rss",
     "rss_available": true,
-    "last_success_at": "2026-03-17T01:52:34.030523+00:00",
-    "success_count": 7,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 9,
     "failure_count": 0,
     "avg_articles_per_crawl": 50.0
   },
   "nytimes": {
     "best_strategy": "rss",
     "rss_available": true,
-    "last_success_at": "2026-03-17T01:52:34.030523+00:00",
-    "success_count": 7,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 9,
     "failure_count": 0,
-    "avg_articles_per_crawl": 27.0
+    "avg_articles_per_crawl": 26.11111111111111
   },
   "washingtonpost": {
     "best_strategy": "rss",
     "rss_available": true,
-    "last_success_at": "2026-03-17T01:52:34.030523+00:00",
-    "success_count": 7,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 9,
     "failure_count": 0,
-    "avg_articles_per_crawl": 14.714285714285714
+    "avg_articles_per_crawl": 13.777777777777779
   },
   "wsj": {
     "best_strategy": "rss",
     "rss_available": true,
-    "last_success_at": "2026-03-17T01:52:34.030523+00:00",
-    "success_count": 7,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 9,
     "failure_count": 0,
     "avg_articles_per_crawl": 20.0
   },
@@ -132,46 +132,46 @@
     "rss_available": true,
     "last_success_at": "",
     "success_count": 0,
-    "failure_count": 7,
+    "failure_count": 9,
     "avg_articles_per_crawl": 0.0
   },
   "politico": {
     "best_strategy": "rss",
     "rss_available": true,
-    "last_success_at": "2026-03-17T01:52:34.030523+00:00",
-    "success_count": 7,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 9,
     "failure_count": 0,
     "avg_articles_per_crawl": 30.0
   },
   "ft": {
     "best_strategy": "rss",
     "rss_available": true,
-    "last_success_at": "2026-03-17T01:52:34.030523+00:00",
-    "success_count": 7,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 9,
     "failure_count": 0,
-    "avg_articles_per_crawl": 11.285714285714286
+    "avg_articles_per_crawl": 11.333333333333334
   },
   "bbc": {
     "best_strategy": "rss",
     "rss_available": true,
-    "last_success_at": "2026-03-17T01:52:34.030523+00:00",
-    "success_count": 7,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 9,
     "failure_count": 0,
-    "avg_articles_per_crawl": 37.0
+    "avg_articles_per_crawl": 37.111111111111114
   },
   "globeandmail": {
     "best_strategy": "rss",
     "rss_available": true,
-    "last_success_at": "2026-03-17T01:52:34.030523+00:00",
-    "success_count": 7,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 9,
     "failure_count": 0,
     "avg_articles_per_crawl": 100.0
   },
   "aljazeera": {
     "best_strategy": "rss",
     "rss_available": true,
-    "last_success_at": "2026-03-17T01:52:34.030523+00:00",
-    "success_count": 7,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 9,
     "failure_count": 0,
     "avg_articles_per_crawl": 25.0
   },
@@ -180,22 +180,22 @@
     "rss_available": false,
     "last_success_at": "",
     "success_count": 0,
-    "failure_count": 7,
+    "failure_count": 9,
     "avg_articles_per_crawl": 0.0
   },
   "arabnews": {
     "best_strategy": "web_crawl",
     "rss_available": false,
-    "last_success_at": "2026-03-13T00:39:55.644812+00:00",
-    "success_count": 2,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 4,
     "failure_count": 5,
-    "avg_articles_per_crawl": 25.5
+    "avg_articles_per_crawl": 33.25
   },
   "scmp": {
     "best_strategy": "rss",
     "rss_available": true,
-    "last_success_at": "2026-03-17T01:52:34.030523+00:00",
-    "success_count": 7,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 9,
     "failure_count": 0,
     "avg_articles_per_crawl": 50.0
   },
@@ -204,7 +204,7 @@
     "rss_available": false,
     "last_success_at": "2026-03-07T04:22:41.341199+00:00",
     "success_count": 1,
-    "failure_count": 6,
+    "failure_count": 8,
     "avg_articles_per_crawl": 50.0
   },
   "japantimes": {
@@ -212,30 +212,30 @@
     "rss_available": false,
     "last_success_at": "2026-03-07T04:22:41.341199+00:00",
     "success_count": 1,
-    "failure_count": 6,
+    "failure_count": 8,
     "avg_articles_per_crawl": 30.0
   },
   "nknews": {
     "best_strategy": "web_crawl",
     "rss_available": false,
-    "last_success_at": "2026-03-13T00:39:55.644812+00:00",
-    "success_count": 2,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 4,
     "failure_count": 5,
-    "avg_articles_per_crawl": 162.5
+    "avg_articles_per_crawl": 93.75
   },
   "techcrunch": {
     "best_strategy": "web_crawl",
     "rss_available": false,
-    "last_success_at": "2026-03-13T00:39:55.644812+00:00",
-    "success_count": 2,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 4,
     "failure_count": 5,
-    "avg_articles_per_crawl": 45.5
+    "avg_articles_per_crawl": 58.5
   },
   "arstechnica": {
     "best_strategy": "rss",
     "rss_available": true,
-    "last_success_at": "2026-03-17T01:52:34.030523+00:00",
-    "success_count": 7,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 9,
     "failure_count": 0,
     "avg_articles_per_crawl": 20.0
   },
@@ -244,119 +244,119 @@
     "rss_available": true,
     "last_success_at": "",
     "success_count": 0,
-    "failure_count": 7,
+    "failure_count": 9,
     "avg_articles_per_crawl": 0.0
   },
   "lemonde": {
     "best_strategy": "rss",
     "rss_available": true,
-    "last_success_at": "2026-03-17T01:52:34.030523+00:00",
-    "success_count": 7,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 9,
     "failure_count": 0,
-    "avg_articles_per_crawl": 17.142857142857142
+    "avg_articles_per_crawl": 17.333333333333332
   },
   "rt": {
     "best_strategy": "rss",
     "rss_available": true,
-    "last_success_at": "2026-03-17T01:52:34.030523+00:00",
-    "success_count": 7,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 9,
     "failure_count": 0,
     "avg_articles_per_crawl": 100.0
   },
   "elfinanciero": {
     "best_strategy": "rss",
     "rss_available": true,
-    "last_success_at": "2026-03-17T01:52:34.030523+00:00",
-    "success_count": 7,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 9,
     "failure_count": 0,
-    "avg_articles_per_crawl": 97.42857142857143
+    "avg_articles_per_crawl": 98.0
   },
   "joongang": {
     "best_strategy": "web_crawl",
     "rss_available": false,
-    "last_success_at": "2026-03-17T01:52:34.030523+00:00",
-    "success_count": 7,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 9,
     "failure_count": 0,
-    "avg_articles_per_crawl": 288.14285714285717
+    "avg_articles_per_crawl": 287.6666666666667
   },
   "sedaily": {
     "best_strategy": "web_crawl",
     "rss_available": false,
-    "last_success_at": "2026-03-17T01:52:34.030523+00:00",
-    "success_count": 7,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 9,
     "failure_count": 0,
-    "avg_articles_per_crawl": 112.0
+    "avg_articles_per_crawl": 114.44444444444444
   },
   "zdnet_kr": {
     "best_strategy": "web_crawl",
     "rss_available": false,
-    "last_success_at": "2026-03-17T01:52:34.030523+00:00",
-    "success_count": 7,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 9,
     "failure_count": 0,
     "avg_articles_per_crawl": 17.0
   },
   "bloter": {
     "best_strategy": "web_crawl",
     "rss_available": false,
-    "last_success_at": "2026-03-17T01:52:34.030523+00:00",
-    "success_count": 7,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 9,
     "failure_count": 0,
     "avg_articles_per_crawl": 22.0
   },
   "sciencetimes": {
     "best_strategy": "web_crawl",
     "rss_available": false,
-    "last_success_at": "2026-03-17T01:52:34.030523+00:00",
-    "success_count": 7,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 9,
     "failure_count": 0,
     "avg_articles_per_crawl": 2.0
   },
   "reuters": {
     "best_strategy": "web_crawl",
     "rss_available": false,
-    "last_success_at": "2026-03-17T01:52:34.030523+00:00",
-    "success_count": 7,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 9,
     "failure_count": 0,
-    "avg_articles_per_crawl": 33.42857142857143
+    "avg_articles_per_crawl": 34.111111111111114
   },
   "apnews": {
     "best_strategy": "web_crawl",
     "rss_available": false,
-    "last_success_at": "2026-03-13T00:39:55.644812+00:00",
-    "success_count": 2,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 4,
     "failure_count": 5,
-    "avg_articles_per_crawl": 121.5
+    "avg_articles_per_crawl": 123.75
   },
   "koreaherald": {
     "best_strategy": "web_crawl",
     "rss_available": false,
-    "last_success_at": "2026-03-17T01:52:34.030523+00:00",
-    "success_count": 7,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 9,
     "failure_count": 0,
     "avg_articles_per_crawl": 16.0
   },
   "caixin": {
     "best_strategy": "web_crawl",
     "rss_available": true,
-    "last_success_at": "2026-03-17T01:52:34.030523+00:00",
-    "success_count": 7,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 9,
     "failure_count": 0,
     "avg_articles_per_crawl": 3.0
   },
   "nikkei": {
     "best_strategy": "web_crawl",
     "rss_available": false,
-    "last_success_at": "2026-03-13T00:39:55.644812+00:00",
-    "success_count": 2,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 4,
     "failure_count": 5,
-    "avg_articles_per_crawl": 28.5
+    "avg_articles_per_crawl": 28.25
   },
   "handelsblatt": {
     "best_strategy": "web_crawl",
     "rss_available": false,
-    "last_success_at": "2026-03-13T00:39:55.644812+00:00",
-    "success_count": 2,
+    "last_success_at": "2026-03-28T12:36:18.120913+00:00",
+    "success_count": 4,
     "failure_count": 5,
-    "avg_articles_per_crawl": 4.0
+    "avg_articles_per_crawl": 4.5
   }
 }

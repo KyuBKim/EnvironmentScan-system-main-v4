@@ -2501,6 +2501,8 @@ Layer_2_Functional:
     on_fail: RETRY
   - check: "Expert validations override Claude Code classifications (if Step 1.5 was executed)"
     on_fail: RETRY
+  - check: "All signals have non-empty title_ko field containing Korean characters"
+    on_fail: WARN (orchestrator supplements missing title_ko before proceeding)
 
 Layer_3_Quality:
   - check: "Average classification_confidence > 0.85"
@@ -3173,11 +3175,11 @@ python3 env-scanning/scripts/validate_phase2_output.py \
   --sot env-scanning/config/workflow-registry.yaml \
   --workflow wf1-general --date {SCAN_DATE} --json
 ```
-- Exit 0 = PASS (all 8 PG2 checks passed)
+- Exit 0 = PASS (all 9 PG2 checks passed)
 - Exit 1 = HALT (CRITICAL: invalid STEEPs, out-of-range scores, missing fields)
-- Exit 2 = WARN (ERROR: count mismatches — proceed with caution)
+- Exit 2 = WARN (ERROR: count mismatches, missing title_ko — proceed with caution; orchestrator supplements missing title_ko before proceeding)
 
-PG2-001~008 covers: STEEPs validity, impact_score ∈ [-10.0,+10.0], priority_score ∈ [0.0,10.0], count consistency, required fields — all Python-enforced.
+PG2-001~009 covers: STEEPs validity, impact_score ∈ [-10.0,+10.0], priority_score ∈ [0.0,10.0], count consistency, required fields, title_ko presence — all Python-enforced.
 
 **Step B — Additional LLM Checks**:
 ```yaml

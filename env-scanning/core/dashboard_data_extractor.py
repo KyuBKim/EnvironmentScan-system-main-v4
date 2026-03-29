@@ -163,24 +163,58 @@ def build_top_signals(
     Join priority-ranked ordering with classified-signals detail.
     All data from source JSON — zero LLM regeneration.
     """
-    classified_by_id = {s["id"]: s for s in classified.get("signals", [])}
+    classified_list = classified.get("signals") or classified.get("items") or []
+    classified_by_id = {s["id"]: s for s in classified_list}
     result = []
 
     for r in ranked.get("ranked_signals", [])[:n]:
         detail = classified_by_id.get(r["id"], {})
-        cat_raw = detail.get("category") or detail.get("steeps_category", "")
+        cls = detail.get("classification") or {}  # WF1 nested structure
+
+        # STEEPs: WF3/WF4 → .category, WF2 → .steeps_primary, WF1 → .classification.steeps_category
+        cat_raw = (detail.get("category")
+                   or detail.get("steeps_category")
+                   or detail.get("steeps_primary", "")          # WF2
+                   or cls.get("steeps_category", ""))            # WF1 nested
+
+        # Impact: WF3/WF4 → .impact_score, WF2 → .significance, WF1 → .classification.impact_score
+        # WF1 uses 0-100 scale; WF2/WF3/WF4 use 0-10. Normalize to 0-10.
+        impact = (detail.get("impact_score")
+                  or detail.get("significance")                  # WF2
+                  or cls.get("impact_score")                     # WF1 nested
+                  or 0)
+        if isinstance(impact, (int, float)) and impact > 10:
+            impact = round(impact / 10.0, 1)                     # 0-100 → 0-10
+
+        # Novelty: WF3/WF4 → .novelty_score, WF2 → .novelty, WF1 → .classification.novelty
+        # Same normalization: WF1 uses 0-100 scale
+        novelty = (detail.get("novelty_score")
+                   or detail.get("novelty")                      # WF2
+                   or cls.get("novelty")                         # WF1 nested
+                   or 0)
+        if isinstance(novelty, (int, float)) and novelty > 10:
+            novelty = round(novelty / 10.0, 1)                   # 0-100 → 0-10
+
+        # Urgency: WF1 → .classification.urgency
+        # Same normalization: WF1 uses 0-100 scale
+        urgency = (detail.get("urgency_score")
+                   or cls.get("urgency")                         # WF1 nested
+                   or 0)
+        if isinstance(urgency, (int, float)) and urgency > 10:
+            urgency = round(urgency / 10.0, 1)                   # 0-100 → 0-10
 
         result.append({
             "rank": r.get("rank", 0),
             "id": r.get("id", ""),
             "title": r.get("title", ""),
+            "title_ko": detail.get("title_ko", ""),
             "steeps": normalize_steeps(cat_raw),
             "steeps_raw": cat_raw,
             "fssf_type": detail.get("fssf_type", r.get("fssf_type", "")),
             "three_horizons": detail.get("three_horizons", r.get("three_horizons", "")),
-            "impact_score": detail.get("impact_score", 0),
-            "novelty_score": detail.get("novelty_score", 0),
-            "urgency_score": detail.get("urgency_score", 0),
+            "impact_score": impact,
+            "novelty_score": novelty,
+            "urgency_score": urgency,
             "psst_score": r.get("psst_score", 0),
             "psst_grade": r.get("psst_grade", ""),
             "source": detail.get("source", r.get("source", "")),
@@ -417,6 +451,19 @@ def extract_narrative_sections(report_md: str) -> Dict[str, str]:
         sections[current_key] = "\n".join(current_lines).strip()
 
     return sections
+
+
+def get_section_by_number(narratives: Dict[str, str], section_num: int) -> str:
+    """
+    Retrieve a narrative section by its number prefix, regardless of title language.
+    Works for both EN ("4. Patterns and Connections") and KO ("4. 패턴 및 연결고리").
+    Returns empty string if no matching section found.
+    """
+    prefix = f"{section_num}."
+    for key, value in narratives.items():
+        if key.startswith(prefix):
+            return value
+    return ""
 
 
 # ---------------------------------------------------------------------------
@@ -704,9 +751,21 @@ class DashboardDataExtractor:
         print(f"  Risk matrix: {len(risk_matrix)} categories")
 
         narratives = {}
+        narratives_ko = {}
         if integrated_report_path:
             narratives = self.extract_narratives(integrated_report_path)
-            print(f"  Narratives: {len(narratives)} sections extracted")
+            print(f"  Narratives (EN): {len(narratives)} sections extracted")
+
+            # Auto-infer KO report path: {name}.md → {name}-ko.md
+            # Convention matches SOT deliverables.report_ko pattern
+            ko_path = integrated_report_path.with_name(
+                integrated_report_path.stem + "-ko" + integrated_report_path.suffix
+            )
+            if ko_path.exists():
+                narratives_ko = self.extract_narratives(ko_path)
+                print(f"  Narratives (KO): {len(narratives_ko)} sections extracted")
+            else:
+                print(f"  Narratives (KO): not found ({ko_path.name})")
 
         # Timeline map (verbatim, with fallback metadata)
         int_root = self.base / "integrated" / "reports" / "daily"
@@ -735,6 +794,7 @@ class DashboardDataExtractor:
             "cross_wf": cross_wf,
             "risk_matrix": risk_matrix,
             "narratives": narratives,
+            "narratives_ko": narratives_ko,
             "timeline_map": timeline_md,
             "timeline_map_meta": timeline_meta,
         }

@@ -153,6 +153,24 @@ For each signal, record Evidence Strength (ES) and Classification Confidence (CC
   quantitative data presence, and corroborating source count
 - **CC**: Based on classification confidence (0–1), keyword match ratio, second-category score
 
+#### C-2. Korean Title Generation (`title_ko`) — ALL Workflows, MANDATORY
+
+For **every** signal, produce a Korean translation of the title in `title_ko`. This field is
+**required** for all workflows (WF1, WF2, WF3, WF4) — no exceptions.
+
+- **WF3 (Naver)**: The original source is Korean. Use the original Korean headline as `title_ko`.
+- **WF4 (Multi&Global-News)**: If the original source is Korean, use it directly. Otherwise,
+  translate the English title to Korean using the full signal context (abstract, keywords, source).
+- **WF1 (General) / WF2 (arXiv)**: Translate the English title to Korean. Use the signal's
+  abstract, keywords, and source context to ensure domain-accurate terminology.
+
+**Quality rules**:
+- `title_ko` must be natural Korean, not word-by-word transliteration
+- Preserve proper nouns (company names, person names, place names) in their commonly used Korean form
+- Technical terms: use the established Korean translation (e.g., "quantum computing" → "양자 컴퓨팅")
+- Keep `title_ko` length proportional to `title` (±30%)
+- `title_ko` must NOT be empty — every signal must have a Korean title
+
 #### D. Output Format per Signal (Step 2.1)
 
 ```json
@@ -166,6 +184,7 @@ For each signal, record Evidence Strength (ES) and Classification Confidence (CC
   "horizon_confidence": 0.78,
   "uncertainty_level": "High",
   "title": "...",
+  "title_ko": "...",
   "date": "2026-03-02",
   "keyword": ["..."],
   "fact_qualitative": "...",

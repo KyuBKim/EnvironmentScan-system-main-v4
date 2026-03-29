@@ -1,40 +1,48 @@
 {
-  "workflow_id": "wf4-multiglobal-news-2026-03-24",
-  "scan_date": "2026-03-24",
+  "workflow": "wf4-multiglobal-news",
+  "date": "2026-03-28",
   "status": "completed",
-  "signal_count": 21,
-  "completed_steps": [
-    "1.1",
-    "1.2",
-    "1.3",
-    "2.1",
-    "2.2",
-    "2.3",
-    "2.5_approved",
-    "3.1",
-    "3.2",
-    "3.2_validate_19_20_WARN",
-    "3.3_archived",
-    "3.4_approved"
-  ],
-  "human_decisions": [
-    {
-      "step": "2.5",
-      "decision": "approved",
-      "notes": "Autopilot mode"
+  "phase1": {
+    "status": "completed",
+    "signals_collected": 1734,
+    "after_dedup": 1236,
+    "definite_duplicates_removed": 498,
+    "sites_succeeded": 37,
+    "sites_failed": 7,
+    "languages": 8
+  },
+  "phase2": {
+    "status": "completed",
+    "signals_classified": 15,
+    "steeps_distribution": {
+      "P": 5,
+      "E": 3,
+      "S": 3,
+      "T": 1,
+      "s": 3
     },
-    {
-      "step": "3.4",
-      "decision": "approved",
-      "notes": "Autopilot mode - 19/20 WARN"
-    }
-  ],
-  "validation": {
-    "l2a": {
-      "result": "WARN",
-      "passed": 19,
-      "total": 20
+    "fssf_distribution": {
+      "Wild Card": 2,
+      "Discontinuity": 1,
+      "Trend": 4,
+      "Driver": 2,
+      "Weak Signal": 2,
+      "Emerging Issue": 2,
+      "Precursor Event": 2
     }
   },
-  "report_path": "env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-03-24.md"
+  "phase3": {
+    "status": "completed",
+    "report_generated": true,
+    "report_validated": true,
+    "ko_translated": false,
+    "archived": true
+  },
+  "report_path": "env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-03-28.md",
+  "signal_count": 15,
+  "validation": "20/20 PASS",
+  "human_approvals": {
+    "step_2_5": "auto-approved",
+    "step_3_4": "auto-approved"
+  }
 }

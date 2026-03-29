@@ -1,81 +1,107 @@
 {
-  "master_id": "quadruple-scan-2026-03-20",
+  "master_id": "quadruple-scan-2026-03-26",
   "system_name": "Quadruple Environmental Scanning System",
-  "status": "completed",
-  "registry_version": "2.5.0",
-  "started_at": "2026-03-19T22:56:25Z",
-  "scan_date": "2026-03-20",
-  "scan_window_state_file": "env-scanning/integrated/logs/scan-window-2026-03-20.json",
-  "bilingual_config_file": "env-scanning/integrated/logs/bilingual-config-2026-03-20.json",
+  "status": "wf2_completed",
+  "registry_version": "3.5.0",
+  "started_at": "2026-03-25T22:40:02.195280+00:00",
+  "scan_window_state_file": "env-scanning/integrated/logs/scan-window-2026-03-26.json",
+  "bilingual_config_file": "env-scanning/integrated/logs/bilingual-config-2026-03-26.json",
   "sot_validation": {
     "status": "WARN",
-    "timestamp": "2026-03-19T22:56:25Z",
-    "passed": 65,
-    "total": 66,
-    "halt_fails": 0,
+    "timestamp": "2026-03-25T22:39:48+00:00",
+    "passed": "67/68",
     "warnings": [
-      "SOT-042: Dedup index files older than 48h (pre-existing, non-blocking)"
+      "SOT-042: Dedup index files stale (>48h) for wf2-arxiv, wf3-naver, wf4-multiglobal-news"
     ]
   },
   "workflow_results": {
     "wf1-general": {
       "status": "completed",
-      "report_path": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-03-20.md",
-      "signal_count": 53,
-      "completed_at": "2026-03-20T00:28:39.755007Z"
+      "report_path": "env-scanning/wf1-general/reports/daily/environmental-scan-2026-03-26.md",
+      "signal_count": 41,
+      "completed_at": "2026-03-25T23:37:41.045871Z",
+      "verification_summary": {
+        "passed": 18,
+        "warned": 0,
+        "failed": 0
+      }
     },
     "wf2-arxiv": {
       "status": "completed",
-      "report_path": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-03-20.md",
-      "signal_count": 40,
-      "completed_at": "2026-03-20T00:28:39.755007Z"
+      "report_path": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-03-26.md",
+      "signal_count": 15,
+      "completed_at": "2026-03-25T23:54:24.016329+00:00",
+      "verification_summary": {
+        "passed": 17,
+        "warned": 0,
+        "failed": 0
+      }
     },
     "wf3-naver": {
-      "status": "completed",
-      "report_path": "env-scanning/wf3-naver/reports/daily/naver-scan-2026-03-20.md",
-      "signal_count": 35,
-      "completed_at": "2026-03-20T00:28:39.755007Z"
+      "status": "pending",
+      "report_path": null
     },
     "wf4-multiglobal-news": {
-      "status": "completed",
-      "report_path": "env-scanning/wf4-multiglobal-news/reports/daily/environmental-scan-2026-03-20.md",
-      "signal_count": 30,
-      "completed_at": "2026-03-20T00:28:39.755007Z"
+      "status": "pending",
+      "report_path": null
     }
   },
   "integration_result": {
-    "status": "completed",
-    "report_path": "env-scanning/integrated/reports/daily/integrated-scan-2026-03-20.md",
-    "total_signals": 158,
-    "top_signals": 22,
-    "completed_at": "2026-03-20T00:28:39.755007Z"
+    "status": "pending",
+    "report_path": null
   },
-  "human_decisions": {},
+  "human_decisions": {
+    "wf1_step_2_5": {
+      "decision": "approved",
+      "timestamp": "2026-03-25T22:45:00Z",
+      "notes": "autopilot"
+    },
+    "wf1_step_3_4": {
+      "decision": "approved",
+      "timestamp": "2026-03-25T23:37:41.046103Z",
+      "notes": "autopilot"
+    },
+    "wf2_step_2_5": {
+      "decision": "approved",
+      "timestamp": "2026-03-25T23:54:24.016337+00:00"
+    },
+    "wf2_step_3_4": {
+      "decision": "approved",
+      "timestamp": "2026-03-25T23:54:24.016338+00:00"
+    }
+  },
   "master_gates": {
     "M1": {
       "status": "PASS",
-      "timestamp": "2026-03-20T00:28:39.755007Z"
+      "timestamp": "2026-03-25T23:45:04.624682+00:00",
+      "checks_passed": 9,
+      "checks_total": 9
     },
     "M2": {
       "status": "PASS",
-      "timestamp": "2026-03-20T00:28:39.755007Z"
+      "timestamp": "2026-03-26T00:01:55.353304+00:00",
+      "checks_passed": 9
     },
     "M2a": {
-      "status": "PASS",
-      "timestamp": "2026-03-20T00:28:39.755007Z"
+      "status": "pending"
     },
     "M2b": {
-      "status": "PASS",
-      "timestamp": "2026-03-20T00:28:39.755007Z"
+      "status": "pending"
     },
     "M3": {
-      "status": "PASS",
-      "timestamp": "2026-03-20T00:28:39.755007Z"
+      "status": "pending"
     },
     "M4": {
-      "status": "PASS",
-      "timestamp": "2026-03-20T00:28:39.755007Z"
+      "status": "pending"
     }
   },
-  "completed_at": "2026-03-20T00:28:39.755007Z"
+  "master_task_mapping": {
+    "master_step0": "1",
+    "master_step1": "2",
+    "master_step2": "3",
+    "master_step3": "4",
+    "master_step4": "5",
+    "master_step5": "6",
+    "master_step6": "7"
+  }
 }

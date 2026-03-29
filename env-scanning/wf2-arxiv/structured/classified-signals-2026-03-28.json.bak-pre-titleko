@@ -1,0 +1,579 @@
+{
+  "metadata": {
+    "scan_date": "2026-03-28",
+    "workflow": "wf2-arxiv",
+    "classification_method": "phase2-analyst (STEEPs + cross-impact)",
+    "total_classified": 51,
+    "steeps_distribution": {
+      "T_Technological": 30,
+      "S_Social": 7,
+      "P_Political": 5,
+      "E_Economic": 4,
+      "E_Environmental": 3,
+      "s_spiritual": 2
+    }
+  },
+  "signals": [
+    {
+      "id": "arxiv-20260328-cs.AI-003",
+      "title": "The Competence Shadow: Theory and Bounds of AI Assistance in Safety Engineering",
+      "steeps_primary": "s_spiritual",
+      "steeps_secondary": ["T_Technological", "P_Political"],
+      "abstract": "Develops a formal framework analyzing AI assistance in safety engineering, introducing the 'competence shadow': systematic narrowing of human reasoning when relying on AI-generated analysis. Derives performance bounds showing conditions where AI assistance degrades rather than enhances safety outcomes.",
+      "significance": 9,
+      "novelty": 9,
+      "impact_scope": "global",
+      "time_horizon": "1-3 years",
+      "cross_impact": {
+        "affects": ["AI regulation", "human cognitive autonomy", "safety-critical systems", "professional expertise"],
+        "affected_by": ["AI capability growth", "automation in safety engineering", "regulatory frameworks"]
+      },
+      "key_insight": "Formalizes the paradox that AI assistance can systematically reduce human competence by narrowing analytical scope -- first rigorous mathematical treatment of AI-induced skill atrophy in safety-critical domains",
+      "source_url": "https://arxiv.org/abs/2603.25197"
+    },
+    {
+      "id": "arxiv-20260328-cs.AI-004",
+      "title": "Evaluating Language Models for Harmful Manipulation",
+      "steeps_primary": "P_Political",
+      "steeps_secondary": ["s_spiritual", "S_Social"],
+      "abstract": "Framework for evaluating harmful AI manipulation through context-specific human-AI interaction studies with 10,101 participants across public policy, finance, and health domains in US, UK, and India. Reveals specific manipulation vectors and cross-cultural vulnerability patterns.",
+      "significance": 9,
+      "novelty": 8,
+      "impact_scope": "global",
+      "time_horizon": "0-2 years",
+      "cross_impact": {
+        "affects": ["AI governance", "democratic integrity", "financial regulation", "public health policy"],
+        "affected_by": ["LLM deployment speed", "regulatory gaps", "cultural contexts"]
+      },
+      "key_insight": "Largest-scale empirical study of LLM manipulation across cultures and domains reveals that vulnerability patterns are culture-specific, undermining one-size-fits-all safety approaches",
+      "source_url": "https://arxiv.org/abs/2603.25326"
+    },
+    {
+      "id": "arxiv-20260328-cs.AI-005",
+      "title": "A Public Theory of Distillation Resistance via Constraint-Coupled Reasoning Architectures",
+      "steeps_primary": "T_Technological",
+      "steeps_secondary": ["E_Economic", "P_Political"],
+      "abstract": "Public theoretical framework for reducing knowledge distillation value through constraint-coupled reasoning. Formalizes bounded transition burden, path-load accumulation, entanglement barriers, demonstrating certain reasoning architectures resist compression.",
+      "significance": 8,
+      "novelty": 9,
+      "impact_scope": "global",
+      "time_horizon": "2-5 years",
+      "cross_impact": {
+        "affects": ["AI IP protection", "model theft prevention", "open-source AI economics", "AI business models"],
+        "affected_by": ["knowledge distillation advances", "AI regulation", "competitive dynamics"]
+      },
+      "key_insight": "First public theory establishing that some AI architectures are inherently resistant to knowledge theft via distillation -- reshapes the economics of proprietary AI development",
+      "source_url": "https://arxiv.org/abs/2603.25022"
+    },
+    {
+      "id": "arxiv-20260328-cs.AI-006",
+      "title": "Shopping with a Platform AI Assistant: Who Adopts, When in the Journey, and What For",
+      "steeps_primary": "E_Economic",
+      "steeps_secondary": ["T_Technological", "S_Social"],
+      "abstract": "First large-scale descriptive evidence on 31 million users of Ctrip's LLM-based AI shopping assistant. Reveals adoption patterns, journey-stage usage, and economic impact of platform-embedded AI assistants on consumer behavior and platform economics.",
+      "significance": 8,
+      "novelty": 8,
+      "impact_scope": "global",
+      "time_horizon": "0-2 years",
+      "cross_impact": {
+        "affects": ["e-commerce transformation", "platform economics", "consumer behavior", "retail industry"],
+        "affected_by": ["LLM capability improvements", "consumer trust", "platform competition"]
+      },
+      "key_insight": "31M-user empirical evidence shows AI assistants transform purchase journeys with differential adoption across demographics -- signals commoditization of AI shopping interfaces",
+      "source_url": "https://arxiv.org/abs/2603.24947"
+    },
+    {
+      "id": "arxiv-20260328-cs.AI-007",
+      "title": "A Gait Foundation Model Predicts Multi-System Health Phenotypes from 3D Skeletal Motion",
+      "steeps_primary": "S_Social",
+      "steeps_secondary": ["T_Technological"],
+      "abstract": "Gait foundation model from 3,414 deeply phenotyped adults predicts cardiovascular, metabolic, neurological and musculoskeletal health from walking patterns recorded via depth camera. Establishes gait as systemic biomarker.",
+      "significance": 8,
+      "novelty": 9,
+      "impact_scope": "global",
+      "time_horizon": "2-5 years",
+      "cross_impact": {
+        "affects": ["preventive medicine", "digital health", "aging society", "healthcare costs"],
+        "affected_by": ["sensor ubiquity", "privacy regulation", "healthcare system adoption"]
+      },
+      "key_insight": "Walking patterns encode multi-system health information detectable by a depth camera -- potentially transforms passive health monitoring in aging societies",
+      "source_url": "https://arxiv.org/abs/2603.25283"
+    },
+    {
+      "id": "arxiv-20260328-cs.CL-002",
+      "title": "Natural-Language Agent Harnesses",
+      "steeps_primary": "T_Technological",
+      "steeps_secondary": ["P_Political", "s_spiritual"],
+      "abstract": "Agent performance increasingly depends on harness engineering. Introduces Natural-Language Agent Harnesses expressing behavior in editable natural language for transparent, auditable, and democratized AI agent governance.",
+      "significance": 8,
+      "novelty": 8,
+      "impact_scope": "global",
+      "time_horizon": "1-3 years",
+      "cross_impact": {
+        "affects": ["AI governance", "agent transparency", "AI democratization", "software engineering"],
+        "affected_by": ["AI agent proliferation", "regulatory requirements", "human oversight needs"]
+      },
+      "key_insight": "Making AI agent behavior specifications readable by non-engineers is a governance breakthrough -- enables democratic oversight of autonomous systems",
+      "source_url": "https://arxiv.org/abs/2603.25723"
+    },
+    {
+      "id": "arxiv-20260328-cs.CL-003",
+      "title": "S2D2: Fast Decoding for Diffusion LLMs via Training-Free Self-Speculation",
+      "steeps_primary": "T_Technological",
+      "steeps_secondary": [],
+      "abstract": "Block-diffusion language models offer faster-than-autoregressive generation. S2D2 achieves significant inference speedup via self-speculation without additional training, advancing practical deployment of diffusion-based language models.",
+      "significance": 7,
+      "novelty": 7,
+      "impact_scope": "sectoral",
+      "time_horizon": "1-2 years",
+      "cross_impact": {
+        "affects": ["LLM inference costs", "real-time AI applications", "edge deployment"],
+        "affected_by": ["hardware advances", "diffusion model maturity"]
+      },
+      "key_insight": "Diffusion-based LLMs gain practical viability with training-free speedup, challenging autoregressive dominance",
+      "source_url": "https://arxiv.org/abs/2603.25702"
+    },
+    {
+      "id": "arxiv-20260328-cs.CL-004",
+      "title": "Beyond Via: Analysis and Estimation of the Impact of Large Language Models in Academic Papers",
+      "steeps_primary": "s_spiritual",
+      "steeps_secondary": ["S_Social", "T_Technological"],
+      "abstract": "Reports measurable shifts in academic word usage driven by LLMs on arXiv -- increased 'beyond' and 'via' in titles, decreased 'the' and 'of' in abstracts. Reveals growing LLM footprint in scientific writing with implications for research integrity.",
+      "significance": 8,
+      "novelty": 8,
+      "impact_scope": "global",
+      "time_horizon": "0-2 years",
+      "cross_impact": {
+        "affects": ["academic integrity", "scientific communication", "peer review", "research evaluation"],
+        "affected_by": ["LLM adoption rates", "academic norms", "detection technology"]
+      },
+      "key_insight": "Quantitative evidence of LLM-driven homogenization of academic language -- signals a silent transformation of scientific discourse norms",
+      "source_url": "https://arxiv.org/abs/2603.25638"
+    },
+    {
+      "id": "arxiv-20260328-cs.CY-001",
+      "title": "Assessing Age Assurance Technologies: Effectiveness, Side-Effects, and Acceptance",
+      "steeps_primary": "P_Political",
+      "steeps_secondary": ["S_Social", "T_Technological"],
+      "abstract": "Evaluates age verification, estimation, inference, and parental controls for effectiveness, side effects, and acceptance. Addresses privacy, bias, and censorship implications for internet regulation.",
+      "significance": 7,
+      "novelty": 7,
+      "impact_scope": "global",
+      "time_horizon": "0-2 years",
+      "cross_impact": {
+        "affects": ["internet regulation", "child safety", "digital privacy", "platform governance"],
+        "affected_by": ["regulatory mandates", "technology maturity", "privacy advocacy"]
+      },
+      "key_insight": "Comprehensive assessment reveals tensions between child protection effectiveness and privacy/bias side-effects in age assurance technologies",
+      "source_url": "https://arxiv.org/abs/2603.25695"
+    },
+    {
+      "id": "arxiv-20260328-cs.CY-002",
+      "title": "Auditing the Impact of Cross-Site Web Tracking on YouTube Political and Misinformation Recommendations",
+      "steeps_primary": "P_Political",
+      "steeps_secondary": ["S_Social"],
+      "abstract": "Sock-puppet framework measuring how cross-site tracking affects YouTube's political and misinformation recommendations. Assesses whether privacy-focused browsers protect users from algorithmic political polarization.",
+      "significance": 8,
+      "novelty": 7,
+      "impact_scope": "global",
+      "time_horizon": "0-1 years",
+      "cross_impact": {
+        "affects": ["democratic processes", "platform regulation", "privacy tools", "media literacy"],
+        "affected_by": ["tracking technology", "browser privacy features", "YouTube algorithm changes"]
+      },
+      "key_insight": "Cross-site tracking amplifies political filter bubbles on YouTube -- privacy browsers offer measurable but incomplete protection",
+      "source_url": "https://arxiv.org/abs/2603.25302"
+    },
+    {
+      "id": "arxiv-20260328-cs.CY-003",
+      "title": "Group-Differentiated Discourse on Generative AI in High School Education",
+      "steeps_primary": "S_Social",
+      "steeps_secondary": ["T_Technological", "P_Political"],
+      "abstract": "Analysis of 3,789 Reddit posts reveals stakeholder-dependent framing: teachers see pedagogical trade-offs, students discuss practical shortcuts and access equity.",
+      "significance": 7,
+      "novelty": 7,
+      "impact_scope": "national",
+      "time_horizon": "0-2 years",
+      "cross_impact": {
+        "affects": ["education policy", "AI literacy", "teacher training", "educational equity"],
+        "affected_by": ["school AI policies", "GenAI capabilities", "parental attitudes"]
+      },
+      "key_insight": "Teachers and students have fundamentally different frames for GenAI in education -- policy should account for stakeholder-specific concerns",
+      "source_url": "https://arxiv.org/abs/2603.24972"
+    },
+    {
+      "id": "arxiv-20260328-cs.SI-001",
+      "title": "From Manipulation to Mistrust: Explaining Diverse Micro-Video Misinformation for Robust Debunking",
+      "steeps_primary": "S_Social",
+      "steeps_secondary": ["T_Technological", "P_Political"],
+      "abstract": "WildFakeBench benchmark of 10,000+ real-world micro-videos covering diverse misinformation types. FakeAgent multi-agent framework integrates multimodal understanding with external evidence for debunking at scale.",
+      "significance": 8,
+      "novelty": 8,
+      "impact_scope": "global",
+      "time_horizon": "0-2 years",
+      "cross_impact": {
+        "affects": ["information integrity", "platform trust", "social cohesion", "media literacy"],
+        "affected_by": ["deepfake technology", "platform governance", "fact-checking resources"]
+      },
+      "key_insight": "Multi-agent AI systems can now debunk diverse micro-video misinformation at scale -- critical for short-form video platforms",
+      "source_url": "https://arxiv.org/abs/2603.25423"
+    },
+    {
+      "id": "arxiv-20260328-cs.MA-001",
+      "title": "From Logic Monopoly to Social Contract: Institutional Foundations for Autonomous Agent Economies",
+      "steeps_primary": "P_Political",
+      "steeps_secondary": ["E_Economic", "s_spiritual"],
+      "abstract": "Proposes AE4E (Agent Enterprise for Enterprise) with Separation of Power for autonomous agents operating as identifiable business entities with constitutional governance frameworks.",
+      "significance": 9,
+      "novelty": 9,
+      "impact_scope": "global",
+      "time_horizon": "3-7 years",
+      "cross_impact": {
+        "affects": ["AI governance", "corporate law", "autonomous commerce", "institutional design"],
+        "affected_by": ["AI agent capabilities", "legal frameworks", "economic incentives"]
+      },
+      "key_insight": "First serious proposal for constitutional governance of autonomous AI economic agents -- applying political theory to agent societies is a paradigm shift",
+      "source_url": "https://arxiv.org/abs/2603.25100"
+    },
+    {
+      "id": "arxiv-20260328-cs.MA-002",
+      "title": "AD-CARE: LLM Agent for Real-world Alzheimer's Disease Diagnosis",
+      "steeps_primary": "S_Social",
+      "steeps_secondary": ["T_Technological"],
+      "abstract": "Modality-agnostic LLM agent achieving 84.9% diagnostic accuracy across 10,303 cases in 6 cohorts for guideline-grounded Alzheimer's assessment from incomplete, heterogeneous clinical inputs.",
+      "significance": 8,
+      "novelty": 8,
+      "impact_scope": "global",
+      "time_horizon": "1-3 years",
+      "cross_impact": {
+        "affects": ["dementia care", "clinical AI", "aging society", "healthcare access"],
+        "affected_by": ["AI clinical validation", "medical regulation", "aging demographics"]
+      },
+      "key_insight": "LLM agents can diagnose Alzheimer's from incomplete clinical data with near-expert accuracy -- democratizes specialist diagnosis for aging populations",
+      "source_url": "https://arxiv.org/abs/2603.25322"
+    },
+    {
+      "id": "arxiv-20260328-cs.HC-001",
+      "title": "Beyond Benchmarks: How Users Evaluate AI Chat Assistants",
+      "steeps_primary": "S_Social",
+      "steeps_secondary": ["E_Economic", "T_Technological"],
+      "abstract": "Cross-platform survey of 388 users comparing ChatGPT, Claude, Gemini, DeepSeek, Grok, Mistral, and Llama. Top platforms received indistinguishable satisfaction; users treat AI tools as near-interchangeable commodities.",
+      "significance": 8,
+      "novelty": 7,
+      "impact_scope": "global",
+      "time_horizon": "0-1 years",
+      "cross_impact": {
+        "affects": ["AI market dynamics", "pricing power", "differentiation strategies", "consumer behavior"],
+        "affected_by": ["model improvements", "brand loyalty", "feature differentiation"]
+      },
+      "key_insight": "User perception of LLM commoditization is empirically confirmed -- top AI assistants are functionally indistinguishable to consumers, threatening differentiation-based business models",
+      "source_url": "https://arxiv.org/abs/2603.25220"
+    },
+    {
+      "id": "arxiv-20260328-cs.HC-002",
+      "title": "PII Shield: Browser-Level Overlay for Privacy in AI Interactions",
+      "steeps_primary": "P_Political",
+      "steeps_secondary": ["T_Technological", "S_Social"],
+      "abstract": "Browser-based PII redaction for AI interactions with local entity anonymization and 'smokescreens' -- autonomous agent activity disrupting third-party tracking.",
+      "significance": 7,
+      "novelty": 8,
+      "impact_scope": "global",
+      "time_horizon": "0-2 years",
+      "cross_impact": {
+        "affects": ["AI privacy", "data protection", "user autonomy", "advertising technology"],
+        "affected_by": ["privacy regulation", "AI adoption rates", "browser market dynamics"]
+      },
+      "key_insight": "Client-side privacy tools with active deception ('smokescreens') represent a new paradigm in AI interaction privacy",
+      "source_url": "https://arxiv.org/abs/2603.24895"
+    },
+    {
+      "id": "arxiv-20260328-cs.SE-001",
+      "title": "The Kitchen Loop: User-Spec-Driven Development for a Self-Evolving Codebase",
+      "steeps_primary": "T_Technological",
+      "steeps_secondary": ["E_Economic"],
+      "abstract": "Code production is now a commodity; the bottleneck is specification and validation. Framework for autonomous, self-evolving software with unified trust model: specification surface, synthetic power user, and unbeatable tests.",
+      "significance": 8,
+      "novelty": 8,
+      "impact_scope": "global",
+      "time_horizon": "1-3 years",
+      "cross_impact": {
+        "affects": ["software industry", "developer roles", "AI-assisted development", "code quality"],
+        "affected_by": ["AI coding capabilities", "software complexity", "testing automation"]
+      },
+      "key_insight": "Declares code production a commodity and repositions software engineering around specification and trust -- signals a fundamental restructuring of the developer role",
+      "source_url": "https://arxiv.org/abs/2603.25697"
+    },
+    {
+      "id": "arxiv-20260328-quant-ph-001",
+      "title": "Scalable Quantum Interference from Indistinguishable Quantum Dots",
+      "steeps_primary": "T_Technological",
+      "steeps_secondary": [],
+      "abstract": "Demonstrates scalable multi-photon quantum interference from semiconductor quantum dots, overcoming a major scaling challenge for photonic quantum computing.",
+      "significance": 8,
+      "novelty": 8,
+      "impact_scope": "global",
+      "time_horizon": "3-7 years",
+      "cross_impact": {
+        "affects": ["photonic quantum computing", "quantum networking", "semiconductor industry"],
+        "affected_by": ["fabrication precision", "quantum coherence", "competing qubit architectures"]
+      },
+      "key_insight": "Semiconductor quantum dots achieve scalable indistinguishability -- opens pathway to manufacturable photonic quantum processors",
+      "source_url": "https://arxiv.org/abs/2603.25684"
+    },
+    {
+      "id": "arxiv-20260328-quant-ph-003",
+      "title": "Kardashev Scale Quantum Computing for Bitcoin Mining",
+      "steeps_primary": "E_Economic",
+      "steeps_secondary": ["T_Technological", "E_Environmental"],
+      "abstract": "Isolates the mining component of Bitcoin's quantum vulnerability, analyzing energy and qubit requirements for quantum speedup of SHA-256 proof-of-work. Places bounds on when quantum mining becomes feasible.",
+      "significance": 8,
+      "novelty": 7,
+      "impact_scope": "global",
+      "time_horizon": "5-15 years",
+      "cross_impact": {
+        "affects": ["cryptocurrency security", "proof-of-work future", "energy markets", "quantum computing roadmaps"],
+        "affected_by": ["quantum hardware progress", "Bitcoin protocol evolution", "energy costs"]
+      },
+      "key_insight": "Quantifies the astronomical energy requirements for quantum Bitcoin mining -- demonstrates proof-of-work remains quantum-safe far longer than signature schemes",
+      "source_url": "https://arxiv.org/abs/2603.25519"
+    },
+    {
+      "id": "arxiv-20260328-quant-ph-005",
+      "title": "Neural Operator Quantum State: A Foundation Model for Quantum Dynamics",
+      "steeps_primary": "T_Technological",
+      "steeps_secondary": [],
+      "abstract": "Neural operator quantum states as a foundation model approach enabling generalizable quantum dynamics prediction across different Hamiltonians. Paradigm shift from problem-specific to general-purpose quantum simulation.",
+      "significance": 8,
+      "novelty": 9,
+      "impact_scope": "global",
+      "time_horizon": "3-7 years",
+      "cross_impact": {
+        "affects": ["quantum simulation", "materials discovery", "drug design", "computational physics"],
+        "affected_by": ["classical computing power", "neural network architectures", "quantum hardware"]
+      },
+      "key_insight": "Foundation model paradigm enters quantum physics -- generalizable quantum state prediction could accelerate materials and drug discovery",
+      "source_url": "https://arxiv.org/abs/2603.25066"
+    },
+    {
+      "id": "arxiv-20260328-econ-001",
+      "title": "The Quantum Structure of Markets: Linking HJB Dynamics to Schrodinger Equation",
+      "steeps_primary": "E_Economic",
+      "steeps_secondary": ["T_Technological"],
+      "abstract": "Formally bridges economic control theory with quantum mechanics via Feynman path integrals for optimal firm behavior in Walrasian/Nash equilibrium frameworks.",
+      "significance": 7,
+      "novelty": 8,
+      "impact_scope": "academic",
+      "time_horizon": "5-10 years",
+      "cross_impact": {
+        "affects": ["economic theory", "quantitative finance", "mathematical economics", "market modeling"],
+        "affected_by": ["quantum computing for finance", "mathematical physics advances"]
+      },
+      "key_insight": "Formal mathematical bridge between quantum mechanics and market dynamics -- may enable quantum computers to solve economic optimization problems natively",
+      "source_url": "https://arxiv.org/abs/2603.25086"
+    },
+    {
+      "id": "arxiv-20260328-qfin-001",
+      "title": "Shifting Correlations: How Trade Policy Uncertainty Alters Stock-T Bill Relationships",
+      "steeps_primary": "E_Economic",
+      "steeps_secondary": ["P_Political"],
+      "abstract": "Examines how trade policy uncertainty reshapes the stock-bond correlation, with implications for portfolio management during geopolitical tensions.",
+      "significance": 7,
+      "novelty": 7,
+      "impact_scope": "global",
+      "time_horizon": "0-2 years",
+      "cross_impact": {
+        "affects": ["portfolio management", "risk hedging", "asset allocation", "financial stability"],
+        "affected_by": ["trade wars", "geopolitical tensions", "central bank policies"]
+      },
+      "key_insight": "Trade policy uncertainty breaks traditional stock-bond correlation assumptions -- portfolio managers need new frameworks for geopolitical risk hedging",
+      "source_url": "https://arxiv.org/abs/2603.25285"
+    },
+    {
+      "id": "arxiv-20260328-env-001",
+      "title": "Exploring Carbon Dioxide Removal Strategies to Help Decarbonise Europe",
+      "steeps_primary": "E_Environmental",
+      "steeps_secondary": ["P_Political", "E_Economic"],
+      "abstract": "High-resolution modelling reveals optimal CDR deployment pathways for Europe, including DACCS and BECCS, as essential complements to electrification for net-zero targets.",
+      "significance": 8,
+      "novelty": 7,
+      "impact_scope": "regional",
+      "time_horizon": "5-15 years",
+      "cross_impact": {
+        "affects": ["EU climate policy", "CDR investment", "energy planning", "industrial decarbonization"],
+        "affected_by": ["CDR technology costs", "political will", "carbon pricing"]
+      },
+      "key_insight": "High-resolution modelling quantifies CDR's essential role in European decarbonization -- cement industry requires net-negative offsets even under full electrification",
+      "source_url": "https://arxiv.org/abs/2603.25663"
+    },
+    {
+      "id": "arxiv-20260328-env-002",
+      "title": "Increasing Trends in the Severity of Australian Fire Weather Conditions Over the Past Century",
+      "steeps_primary": "E_Environmental",
+      "steeps_secondary": ["S_Social"],
+      "abstract": "Century-scale reanalysis demonstrates intensifying fire weather severity in Australia with implications for climate adaptation and emergency management.",
+      "significance": 8,
+      "novelty": 7,
+      "impact_scope": "national",
+      "time_horizon": "0-5 years",
+      "cross_impact": {
+        "affects": ["emergency management", "climate adaptation", "insurance industry", "urban planning"],
+        "affected_by": ["global warming trajectory", "land management", "firefighting resources"]
+      },
+      "key_insight": "Century-long quantitative evidence of worsening Australian fire weather -- shifts the baseline for fire risk assessment and insurance models",
+      "source_url": "https://arxiv.org/abs/2603.24867"
+    },
+    {
+      "id": "arxiv-20260328-env-003",
+      "title": "Mobility Shapes Heat Exposure Inequalities in Cities",
+      "steeps_primary": "E_Environmental",
+      "steeps_secondary": ["S_Social"],
+      "abstract": "Mobile phone mobility data across 23 Spanish cities reveals how daily movement patterns shape heat exposure inequalities across sociodemographic groups.",
+      "significance": 7,
+      "novelty": 8,
+      "impact_scope": "regional",
+      "time_horizon": "0-3 years",
+      "cross_impact": {
+        "affects": ["urban planning", "environmental justice", "public health", "climate adaptation"],
+        "affected_by": ["urbanization patterns", "heat wave frequency", "mobility infrastructure"]
+      },
+      "key_insight": "Residential location alone misses most heat exposure inequality -- daily mobility patterns reshape who experiences dangerous heat",
+      "source_url": "https://arxiv.org/abs/2603.24782"
+    },
+    {
+      "id": "arxiv-20260328-bio-001",
+      "title": "Lingshu-Cell: A Generative Cellular World Model for Transcriptome Modeling toward Virtual Cells",
+      "steeps_primary": "T_Technological",
+      "steeps_secondary": ["S_Social"],
+      "abstract": "Generative cellular world model that explicitly models dynamic cellular state transitions and predicts perturbation responses, advancing toward the goal of virtual cells in computational biology.",
+      "significance": 9,
+      "novelty": 9,
+      "impact_scope": "global",
+      "time_horizon": "3-7 years",
+      "cross_impact": {
+        "affects": ["drug discovery", "personalized medicine", "synthetic biology", "biological research"],
+        "affected_by": ["single-cell data quality", "computational power", "biological validation"]
+      },
+      "key_insight": "First generative world model for cellular dynamics -- a foundational step toward in-silico drug testing and personalized medicine",
+      "source_url": "https://arxiv.org/abs/2603.25240"
+    },
+    {
+      "id": "arxiv-20260328-bio-003",
+      "title": "The Self-Replication Phase Diagram: Mapping Where Life Becomes Possible in Cellular Automata Rule Space",
+      "steeps_primary": "s_spiritual",
+      "steeps_secondary": ["T_Technological"],
+      "abstract": "Exhaustively classifies all 262,144 cellular automata rules for self-replication. Only 7.69% support pattern proliferation, concentrated at specific rule density parameters. Maps the boundary between replicating and non-replicating systems.",
+      "significance": 8,
+      "novelty": 9,
+      "impact_scope": "global",
+      "time_horizon": "5-15 years",
+      "cross_impact": {
+        "affects": ["origin of life theories", "artificial life", "astrobiology", "complexity science"],
+        "affected_by": ["computational resources", "theoretical biology", "simulation methods"]
+      },
+      "key_insight": "Complete mapping of self-replication in rule space reveals life-supporting conditions are rare but predictable -- quantifies the 'edge of chaos' hypothesis for the first time",
+      "source_url": "https://arxiv.org/abs/2603.25239"
+    },
+    {
+      "id": "arxiv-20260328-bio-004",
+      "title": "Label-free Imaging of Single-Biomolecule Structure and Interaction by Stimulated Raman Photothermal Encoded Scattering",
+      "steeps_primary": "T_Technological",
+      "steeps_secondary": [],
+      "abstract": "First label-free method providing chemical information at the single-molecule level via stimulated Raman photothermal encoded scattering microscopy.",
+      "significance": 8,
+      "novelty": 9,
+      "impact_scope": "global",
+      "time_horizon": "3-7 years",
+      "cross_impact": {
+        "affects": ["structural biology", "drug discovery", "molecular diagnostics", "nanotechnology"],
+        "affected_by": ["instrumentation costs", "competing techniques", "biological application needs"]
+      },
+      "key_insight": "Chemical identity of individual molecules can now be imaged without labels -- removes a fundamental bottleneck in structural biology",
+      "source_url": "https://arxiv.org/abs/2603.25534"
+    },
+    {
+      "id": "arxiv-20260328-cmat-001",
+      "title": "Prediction of New Superconducting Bilayers Heterostructures",
+      "steeps_primary": "T_Technological",
+      "steeps_secondary": [],
+      "abstract": "Exploits quantum confinement and proximity effects to predict new superconducting bilayer systems with tunable critical temperatures.",
+      "significance": 7,
+      "novelty": 8,
+      "impact_scope": "global",
+      "time_horizon": "5-10 years",
+      "cross_impact": {
+        "affects": ["superconductor design", "quantum computing hardware", "energy transmission"],
+        "affected_by": ["fabrication capabilities", "theoretical validation", "competing materials"]
+      },
+      "key_insight": "Design-by-computation approach for tunable superconductors opens pathway to application-specific superconducting materials",
+      "source_url": "https://arxiv.org/abs/2603.25648"
+    },
+    {
+      "id": "arxiv-20260328-cmat-002",
+      "title": "Single Atom Magnets on Thermally Stable Adsorption Sites: Dy on NaCl(100)",
+      "steeps_primary": "T_Technological",
+      "steeps_secondary": [],
+      "abstract": "Magnetic bistability in single Dy atoms on NaCl thin films, thermally stable up to at least 300K. Demonstrates room-temperature single-atom magnetic storage potential.",
+      "significance": 8,
+      "novelty": 8,
+      "impact_scope": "global",
+      "time_horizon": "7-15 years",
+      "cross_impact": {
+        "affects": ["data storage density", "spintronics", "quantum information", "nanotechnology"],
+        "affected_by": ["fabrication scaling", "readout technology", "competing storage approaches"]
+      },
+      "key_insight": "Room-temperature single-atom magnets achieved -- ultimate density limit for magnetic data storage is now experimentally accessible",
+      "source_url": "https://arxiv.org/abs/2603.25608"
+    },
+    {
+      "id": "arxiv-20260328-cs.AI-001",
+      "title": "WriteBack-RAG: Training the Knowledge Base through Evidence Distillation and Write-Back Enrichment",
+      "steeps_primary": "T_Technological",
+      "steeps_secondary": [],
+      "abstract": "Framework for continuous self-improvement of RAG knowledge bases through evidence distillation and write-back enrichment.",
+      "significance": 7,
+      "novelty": 7,
+      "impact_scope": "sectoral",
+      "time_horizon": "0-2 years",
+      "cross_impact": {
+        "affects": ["enterprise AI", "knowledge management", "RAG systems"],
+        "affected_by": ["data quality", "retrieval technology", "enterprise adoption"]
+      },
+      "key_insight": "Self-improving knowledge bases close the gap between static RAG and continuously learning systems",
+      "source_url": "https://arxiv.org/abs/2603.25737"
+    },
+    {
+      "id": "arxiv-20260328-ir-001",
+      "title": "Supercharging Federated Intelligence Retrieval",
+      "steeps_primary": "T_Technological",
+      "steeps_secondary": ["P_Political"],
+      "abstract": "Secure Federated RAG system performing local retrieval across private data silos with server-side aggregation in confidential compute environments.",
+      "significance": 7,
+      "novelty": 8,
+      "impact_scope": "global",
+      "time_horizon": "1-3 years",
+      "cross_impact": {
+        "affects": ["data sovereignty", "enterprise AI", "privacy-preserving AI", "regulatory compliance"],
+        "affected_by": ["confidential computing maturity", "data regulations", "federated learning adoption"]
+      },
+      "key_insight": "Federated RAG enables AI-powered search across organizational boundaries without data centralization -- critical for regulated industries",
+      "source_url": "https://arxiv.org/abs/2603.25374"
+    },
+    {
+      "id": "arxiv-20260328-cr-004",
+      "title": "zk-X509: Privacy-Preserving On-Chain Identity from Legacy PKI",
+      "steeps_primary": "T_Technological",
+      "steeps_secondary": ["P_Political"],
+      "abstract": "Bridges legacy PKI infrastructure with blockchain privacy through zero-knowledge proofs on standard X.509 certificates.",
+      "significance": 7,
+      "novelty": 8,
+      "impact_scope": "global",
+      "time_horizon": "2-5 years",
+      "cross_impact": {
+        "affects": ["digital identity", "blockchain adoption", "privacy regulation compliance"],
+        "affected_by": ["PKI infrastructure", "ZK proof efficiency", "regulatory requirements"]
+      },
+      "key_insight": "Zero-knowledge proofs can make existing identity infrastructure privacy-preserving without replacement -- pragmatic bridge between Web2 and Web3",
+      "source_url": "https://arxiv.org/abs/2603.25190"
+    }
+  ]
+}

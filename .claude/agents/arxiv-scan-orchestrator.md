@@ -282,7 +282,16 @@ On error: verify classified-signals and impact-assessment exist and are valid JS
 - User must approve before Phase 3
 
 ### Pipeline Gate 2
-- All checks per protocol, paths relative to `{data_root}`
+
+**Step A — Python 원천봉쇄 (MANDATORY)**:
+```bash
+python3 env-scanning/scripts/validate_phase2_output.py \
+  --sot env-scanning/config/workflow-registry.yaml \
+  --workflow wf2-arxiv --date {SCAN_DATE} --json
+```
+- Exit 0 = PASS (PG2-001~009: STEEPs, score ranges, counts, fields, title_ko)
+- Exit 1 = HALT (CRITICAL)
+- Exit 2 = WARN (proceed with caution; orchestrator supplements missing title_ko before proceeding)
 
 ---
 

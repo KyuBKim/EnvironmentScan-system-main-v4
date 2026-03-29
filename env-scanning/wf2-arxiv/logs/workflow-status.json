@@ -1,40 +1,38 @@
 {
-  "workflow_id": "wf2-arxiv-2026-03-24",
-  "scan_date": "2026-03-24",
+  "workflow": "wf2-arxiv",
+  "date": "2026-03-28",
   "status": "completed",
-  "signal_count": 32,
-  "completed_steps": [
-    "1.1",
-    "1.2",
-    "1.3",
-    "2.1",
-    "2.2",
-    "2.3",
-    "2.5_approved",
-    "3.1",
-    "3.2",
-    "3.2_validate_l2a_17_17_PASS",
-    "3.3_archived",
-    "3.4_approved"
-  ],
-  "human_decisions": [
-    {
-      "step": "2.5",
-      "decision": "approved",
-      "notes": "Autopilot mode"
-    },
-    {
-      "step": "3.4",
-      "decision": "approved",
-      "notes": "Autopilot mode - L2a 17/17 PASS"
-    }
-  ],
-  "validation": {
-    "l2a": {
-      "result": "PASS",
-      "passed": 17,
-      "total": 17
+  "phase1": {
+    "status": "completed",
+    "signals_collected": 215,
+    "after_dedup": 51,
+    "definite_duplicates_removed": 3
+  },
+  "phase2": {
+    "status": "completed",
+    "signals_classified": 33,
+    "steeps_distribution": {
+      "T": 18,
+      "S": 5,
+      "P": 4,
+      "E": 3,
+      "E_Environmental": 3,
+      "s": 2
     }
   },
-  "report_path": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-03-24.md"
+  "phase3": {
+    "status": "completed",
+    "report_generated": true,
+    "report_validated": true,
+    "ko_translated": true,
+    "archived": true
+  },
+  "report_path": "env-scanning/wf2-arxiv/reports/daily/environmental-scan-2026-03-28.md",
+  "report_ko_path": "env-scanning/wf2-arxiv/reports/daily/arxiv-scan-2026-03-28-ko.md",
+  "signal_count": 33,
+  "validation": "17/17 PASS",
+  "human_approvals": {
+    "step_2_5": "auto-approved",
+    "step_3_4": "auto-approved"
+  }
 }

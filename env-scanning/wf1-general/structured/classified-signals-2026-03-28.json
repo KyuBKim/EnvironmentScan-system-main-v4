@@ -1,0 +1,840 @@
+{
+  "metadata": {
+    "scan_date": "2026-03-28",
+    "workflow": "wf1-general",
+    "phase": "2.1-2.2",
+    "total_classified": 21
+  },
+  "items": [
+    {
+      "id": "asean-20260328-018",
+      "title": "ASEAN Digital Economy Pact to Double Regional Digital Economy in 2026",
+      "source": {
+        "name": "World Economic Forum",
+        "type": "policy",
+        "url": "https://www.weforum.org"
+      },
+      "content": {
+        "abstract": "ASEAN plans to sign Digital Economy pact aiming to double its digital economy in 2026. Represents major integration step for Southeast Asian economies and creates potential new digital trade bloc. Coincides with broader AI sovereignty movement globally.",
+        "keywords": [
+          "ASEAN",
+          "digital economy",
+          "trade pact",
+          "Southeast Asia",
+          "digital integration"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-28T11:40:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_accessed": true,
+          "items_retrieved": 1,
+          "timestamp": "2026-03-28T11:40:00Z"
+        }
+      },
+      "classification": {
+        "steeps_category": "E",
+        "impact_score": 50,
+        "probability": 55,
+        "urgency": 70,
+        "novelty": 65,
+        "cross_impact_areas": []
+      },
+      "title_ko": "ASEAN 디지털 경제 협정 — 2026년 역내 디지털 경제 2배 확대 목표"
+    },
+    {
+      "id": "education-20260328-020",
+      "title": "Workforce Pell Grants for 8-Week Credential Programs Launching July 2026",
+      "source": {
+        "name": "Brookings Institution",
+        "type": "policy",
+        "url": "https://www.brookings.edu"
+      },
+      "content": {
+        "abstract": "H.R.1 passage enables Workforce Pell allowing low-income students to use Pell Grants for credential programs as short as eight weeks, effective July 2026. Represents paradigm shift from traditional degree-based to skills-based education model. Integration of real-time labor market data into program development becoming standard.",
+        "keywords": [
+          "Workforce Pell",
+          "credentials",
+          "skills-based education",
+          "Pell Grants",
+          "workforce development"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-28T11:40:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_accessed": true,
+          "items_retrieved": 1,
+          "timestamp": "2026-03-28T11:40:00Z"
+        }
+      },
+      "classification": {
+        "steeps_category": "S",
+        "impact_score": 50,
+        "probability": 55,
+        "urgency": 70,
+        "novelty": 50,
+        "cross_impact_areas": []
+      },
+      "title_ko": "8주 단기 자격증 과정에 Pell 장학금 지원 — 2026년 7월 시행"
+    },
+    {
+      "id": "morgan-20260328-028",
+      "title": "Morgan Stanley Warns: AI Breakthrough in H1 2026 — World Not Ready",
+      "source": {
+        "name": "Wired",
+        "type": "tech_blog",
+        "url": "https://www.wired.com"
+      },
+      "content": {
+        "abstract": "Morgan Stanley warns massive AI breakthrough anticipated in first half 2026, driven by unprecedented compute accumulation at America's top AI labs. Most of the world is not ready for the disruption this will cause across industries, labor markets, and geopolitics.",
+        "keywords": [
+          "Morgan Stanley",
+          "AI breakthrough",
+          "compute",
+          "disruption",
+          "economic impact"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-28T11:40:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_accessed": true,
+          "items_retrieved": 1,
+          "timestamp": "2026-03-28T11:40:00Z"
+        }
+      },
+      "classification": {
+        "steeps_category": "T",
+        "impact_score": 50,
+        "probability": 65,
+        "urgency": 70,
+        "novelty": 85,
+        "cross_impact_areas": [
+          "E"
+        ]
+      },
+      "title_ko": "모건 스탠리 경고: 2026년 상반기 AI 대돌파 — 세계는 준비되지 않았다"
+    },
+    {
+      "id": "techcrunch-20260328-001",
+      "title": "OpenAI GPT-5.4 Released with 1M Token Context Window for Professional Applications",
+      "source": {
+        "name": "TechCrunch",
+        "type": "tech_blog",
+        "url": "https://www.techcrunch.com"
+      },
+      "content": {
+        "abstract": "OpenAI released GPT-5.4 on March 5, its most capable frontier model handling up to 1,000,000 tokens of context — roughly 50-100x longer than previous models. The release marks a shift from conversational assistants to autonomous agentic systems.",
+        "keywords": [
+          "AI",
+          "GPT-5.4",
+          "large language models",
+          "context window",
+          "agentic AI"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-28T11:40:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_accessed": true,
+          "items_retrieved": 1,
+          "timestamp": "2026-03-28T11:40:00Z"
+        }
+      },
+      "classification": {
+        "steeps_category": "T",
+        "impact_score": 50,
+        "probability": 85,
+        "urgency": 50,
+        "novelty": 50,
+        "cross_impact_areas": []
+      },
+      "title_ko": "OpenAI GPT-5.4 출시 — 100만 토큰 컨텍스트 윈도우, 전문가용 응용"
+    },
+    {
+      "id": "wef-20260328-002",
+      "title": "WEF: Advances in Autonomous Robotics Reshaping Industries and Labor Markets",
+      "source": {
+        "name": "World Economic Forum",
+        "type": "policy",
+        "url": "https://www.weforum.org/stories/2026/03/advances-in-autonomous-robotics-what-comes-next/"
+      },
+      "content": {
+        "abstract": "Expert analysis on next key advancements in robotics, covering autonomous systems in manufacturing, logistics, healthcare. Robotics increasingly integrating with AI to create fully autonomous operation cycles.",
+        "keywords": [
+          "robotics",
+          "autonomous systems",
+          "AI integration",
+          "manufacturing",
+          "labor displacement"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-28T11:40:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_accessed": true,
+          "items_retrieved": 1,
+          "timestamp": "2026-03-28T11:40:00Z"
+        }
+      },
+      "classification": {
+        "steeps_category": "T",
+        "impact_score": 50,
+        "probability": 55,
+        "urgency": 50,
+        "novelty": 50,
+        "cross_impact_areas": [
+          "S"
+        ]
+      },
+      "title_ko": "WEF: 자율 로봇공학 발전이 산업과 노동시장을 재편하고 있다"
+    },
+    {
+      "id": "nature-20260328-003",
+      "title": "AI Models Found to Cause Sycophancy: Users Become More Self-Centered After AI Affirmation",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/news"
+      },
+      "content": {
+        "abstract": "Research shows AI models overly affirm and validate users. Receiving advice from affirming AI made people more self-centered and less able to see perspectives of others. Raises fundamental questions about AI's psychological impact on human cognition and social behavior.",
+        "keywords": [
+          "AI sycophancy",
+          "psychology",
+          "cognitive bias",
+          "human-AI interaction",
+          "social behavior"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "s",
+      "collected_at": "2026-03-28T11:40:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_accessed": true,
+          "items_retrieved": 1,
+          "timestamp": "2026-03-28T11:40:00Z"
+        }
+      },
+      "classification": {
+        "steeps_category": "s",
+        "impact_score": 50,
+        "probability": 55,
+        "urgency": 50,
+        "novelty": 50,
+        "cross_impact_areas": [
+          "T",
+          "S"
+        ]
+      },
+      "title_ko": "AI 모델의 아첨 효과 발견 — 사용자가 AI 긍정 피드백 후 더 자기중심적으로 변화"
+    },
+    {
+      "id": "whitehouse-20260328-005",
+      "title": "White House Releases National AI Policy Framework with Federal Preemption of State Laws",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov"
+      },
+      "content": {
+        "abstract": "On March 20, 2026, White House released National Policy Framework for AI with seven pillars: protecting children, safeguarding communities, IP rights, preventing censorship, enabling innovation, workforce development, and federal preemption of state AI laws. Sector-specific approach with no new federal rulemaking body.",
+        "keywords": [
+          "AI regulation",
+          "federal policy",
+          "preemption",
+          "state laws",
+          "AI governance"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-28T11:40:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_accessed": true,
+          "items_retrieved": 1,
+          "timestamp": "2026-03-28T11:40:00Z"
+        }
+      },
+      "classification": {
+        "steeps_category": "P",
+        "impact_score": 50,
+        "probability": 85,
+        "urgency": 70,
+        "novelty": 65,
+        "cross_impact_areas": [
+          "T"
+        ]
+      },
+      "title_ko": "백악관, 국가 AI 정책 프레임워크 발표 — 주(州)법 연방 선점 포함"
+    },
+    {
+      "id": "who-20260328-006",
+      "title": "WHO Launches $1B 2026 Appeal for 36 Emergencies Amid Global Poly-Crisis",
+      "source": {
+        "name": "WHO Press Releases",
+        "type": "policy",
+        "url": "https://www.who.int"
+      },
+      "content": {
+        "abstract": "WHO 2026 appeal seeks nearly $1 billion for 36 emergencies including 14 Grade 3. Driven by protracted conflicts, climate change impacts, and recurrent infectious disease outbreaks. Global humanitarian financing continues to contract even as demand rises.",
+        "keywords": [
+          "WHO",
+          "global health",
+          "humanitarian crisis",
+          "poly-crisis",
+          "climate health nexus"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "S",
+      "collected_at": "2026-03-28T11:40:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_accessed": true,
+          "items_retrieved": 1,
+          "timestamp": "2026-03-28T11:40:00Z"
+        }
+      },
+      "classification": {
+        "steeps_category": "S",
+        "impact_score": 45,
+        "probability": 55,
+        "urgency": 70,
+        "novelty": 50,
+        "cross_impact_areas": [
+          "E"
+        ]
+      },
+      "title_ko": "WHO, 36건 긴급사태 대응 위해 10억 달러 규모 2026년 호소 발표"
+    },
+    {
+      "id": "oecd-20260328-007",
+      "title": "OECD March 2026 Interim Report: Global GDP at 2.9% Amid Energy Disruption from Strait of Hormuz",
+      "source": {
+        "name": "OECD Newsroom",
+        "type": "policy",
+        "url": "https://www.oecd.org"
+      },
+      "content": {
+        "abstract": "Global GDP growth projected at 2.9% in 2026, 3.0% in 2027. Halt in Strait of Hormuz shipments and energy infrastructure damage causing energy price surge. Technology-related investment momentum provides counterbalancing support. High uncertainty environment.",
+        "keywords": [
+          "OECD",
+          "economic outlook",
+          "energy disruption",
+          "Strait of Hormuz",
+          "GDP growth",
+          "supply chain"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-28T11:40:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_accessed": true,
+          "items_retrieved": 1,
+          "timestamp": "2026-03-28T11:40:00Z"
+        }
+      },
+      "classification": {
+        "steeps_category": "E",
+        "impact_score": 50,
+        "probability": 65,
+        "urgency": 70,
+        "novelty": 50,
+        "cross_impact_areas": [
+          "T"
+        ]
+      },
+      "title_ko": "OECD 2026년 3월 중간 보고: 중동 에너지 교란으로 세계 GDP 2.9% 전망"
+    },
+    {
+      "id": "meta-20260328-009",
+      "title": "Meta Reveals Four Generations of Custom AI Chips (MTIA 300-500) for Data Center Deployment",
+      "source": {
+        "name": "TechCrunch",
+        "type": "tech_blog",
+        "url": "https://www.techcrunch.com"
+      },
+      "content": {
+        "abstract": "Meta revealed MTIA 300, 400, 450, and 500 custom AI chips to be deployed across data centers by end of 2027. Part of broader trend of major tech companies building custom silicon to reduce dependency on NVIDIA and optimize AI workloads for specific use cases.",
+        "keywords": [
+          "Meta",
+          "custom AI chips",
+          "MTIA",
+          "data centers",
+          "silicon independence"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-28T11:40:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_accessed": true,
+          "items_retrieved": 1,
+          "timestamp": "2026-03-28T11:40:00Z"
+        }
+      },
+      "classification": {
+        "steeps_category": "T",
+        "impact_score": 50,
+        "probability": 55,
+        "urgency": 50,
+        "novelty": 50,
+        "cross_impact_areas": []
+      },
+      "title_ko": "메타, 데이터센터용 맞춤 AI 칩 4세대(MTIA 300-500) 공개"
+    },
+    {
+      "id": "amazon-20260328-010",
+      "title": "Amazon Invests $50B in OpenAI as Part of Landmark Multi-Year AWS Partnership",
+      "source": {
+        "name": "Wired",
+        "type": "tech_blog",
+        "url": "https://www.wired.com"
+      },
+      "content": {
+        "abstract": "Amazon investing $50 billion in OpenAI with OpenAI committing to run on AWS infrastructure. Represents unprecedented consolidation in AI industry and raises questions about market concentration, AI safety oversight, and infrastructure dependencies.",
+        "keywords": [
+          "Amazon",
+          "OpenAI",
+          "AWS",
+          "investment",
+          "AI consolidation",
+          "market concentration"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-28T11:40:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_accessed": true,
+          "items_retrieved": 1,
+          "timestamp": "2026-03-28T11:40:00Z"
+        }
+      },
+      "classification": {
+        "steeps_category": "E",
+        "impact_score": 50,
+        "probability": 55,
+        "urgency": 50,
+        "novelty": 85,
+        "cross_impact_areas": [
+          "T"
+        ]
+      },
+      "title_ko": "아마존, OpenAI에 500억 달러 투자 — AWS 다년 파트너십 체결"
+    },
+    {
+      "id": "climate-20260328-011",
+      "title": "Biodiversity Self-Renewal Slowing: Species Turnover Down One-Third Since 1970s Despite Warming",
+      "source": {
+        "name": "ScienceDaily Sustainability",
+        "type": "academic",
+        "url": "https://www.sciencedaily.com"
+      },
+      "content": {
+        "abstract": "Despite accelerating global warming, ecosystems are slowing down with species turnover decreasing by about one-third since the 1970s. This unexpected deceleration suggests biodiversity loss is quietly stalling nature's self-renewing machinery, creating a destabilizing feedback loop threatening ecosystem resilience and carbon storage.",
+        "keywords": [
+          "biodiversity",
+          "species turnover",
+          "ecosystem resilience",
+          "climate feedback",
+          "carbon storage"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-28T11:40:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_accessed": true,
+          "items_retrieved": 1,
+          "timestamp": "2026-03-28T11:40:00Z"
+        }
+      },
+      "classification": {
+        "steeps_category": "E",
+        "impact_score": 50,
+        "probability": 65,
+        "urgency": 50,
+        "novelty": 65,
+        "cross_impact_areas": []
+      },
+      "title_ko": "생물다양성 자기회복 둔화 — 1970년대 이후 종(種) 교체율 3분의 1 감소"
+    },
+    {
+      "id": "climate-20260328-012",
+      "title": "Nature-Based Coastal Adaptation: 91% Lower Embodied Carbon and 30% Less Cost Than Conventional",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "academic",
+        "url": "https://www.carbonbrief.org"
+      },
+      "content": {
+        "abstract": "Analysis of 12 coastal adaptation projects shows nature-based solutions can achieve up to 91% lower embodied carbon and cost 30% less than conventional approaches. Demonstrates viability of green infrastructure for climate adaptation.",
+        "keywords": [
+          "nature-based solutions",
+          "coastal adaptation",
+          "embodied carbon",
+          "green infrastructure",
+          "climate adaptation"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-28T11:40:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_accessed": true,
+          "items_retrieved": 1,
+          "timestamp": "2026-03-28T11:40:00Z"
+        }
+      },
+      "classification": {
+        "steeps_category": "E",
+        "impact_score": 50,
+        "probability": 55,
+        "urgency": 50,
+        "novelty": 50,
+        "cross_impact_areas": []
+      },
+      "title_ko": "자연 기반 해안 적응: 기존 공학 대비 탄소 91% 절감, 비용 30% 절감"
+    },
+    {
+      "id": "geopolitics-20260328-017",
+      "title": "US Supreme Court Strikes Emergency Tariffs; New 10% Global Import Tariff Imposed",
+      "source": {
+        "name": "Brookings Institution",
+        "type": "policy",
+        "url": "https://www.brookings.edu"
+      },
+      "content": {
+        "abstract": "US Supreme Court ruled emergency tariffs from 2025 illegitimate. Administration imposed new temporary 10% global import tariff from late February. USMCA trade agreement review reshaping North American supply chains. Critical mineral alliances becoming top security priority for US and EU.",
+        "keywords": [
+          "tariffs",
+          "Supreme Court",
+          "trade policy",
+          "USMCA",
+          "critical minerals",
+          "supply chain"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-28T11:40:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_accessed": true,
+          "items_retrieved": 1,
+          "timestamp": "2026-03-28T11:40:00Z"
+        }
+      },
+      "classification": {
+        "steeps_category": "P",
+        "impact_score": 50,
+        "probability": 55,
+        "urgency": 90,
+        "novelty": 65,
+        "cross_impact_areas": [
+          "T",
+          "E"
+        ]
+      },
+      "title_ko": "미 대법원 긴급관세 위헌 판결 — 새 10% 글로벌 수입관세 부과"
+    },
+    {
+      "id": "health-20260328-021",
+      "title": "WHO Global Health Architecture Reform: 114+ Countries Discuss Structural Changes",
+      "source": {
+        "name": "WHO Press Releases",
+        "type": "policy",
+        "url": "https://www.who.int"
+      },
+      "content": {
+        "abstract": "WHO Executive Board meeting featured Reform of Global Health Architecture agenda. Over 114 countries involved in discussions. $20.2 billion in MOUs signed with 24 partner countries for 2026-2030 health financing. Shift toward co-financing, country ownership, and strengthened health security systems.",
+        "keywords": [
+          "WHO reform",
+          "global health architecture",
+          "co-financing",
+          "health security",
+          "pandemic preparedness"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-28T11:40:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_accessed": true,
+          "items_retrieved": 1,
+          "timestamp": "2026-03-28T11:40:00Z"
+        }
+      },
+      "classification": {
+        "steeps_category": "P",
+        "impact_score": 53,
+        "probability": 85,
+        "urgency": 70,
+        "novelty": 50,
+        "cross_impact_areas": [
+          "S"
+        ]
+      },
+      "title_ko": "WHO 글로벌 보건 체계 개혁 — 114개국 이상 구조적 변화 논의"
+    },
+    {
+      "id": "trump-20260328-023",
+      "title": "Trump Signs Executive Orders for 10 New Nuclear Reactors and NRC Reform",
+      "source": {
+        "name": "US Federal Register",
+        "type": "policy",
+        "url": "https://www.federalregister.gov"
+      },
+      "content": {
+        "abstract": "President Trump signed four executive orders strengthening US nuclear energy leadership, calling for 10 new reactors and NRC reform to accelerate deployment. Part of broader energy strategy combining nuclear renaissance with AI data center power demands.",
+        "keywords": [
+          "nuclear energy",
+          "executive orders",
+          "NRC reform",
+          "energy policy",
+          "reactor construction"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-28T11:40:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_accessed": true,
+          "items_retrieved": 1,
+          "timestamp": "2026-03-28T11:40:00Z"
+        }
+      },
+      "classification": {
+        "steeps_category": "P",
+        "impact_score": 50,
+        "probability": 85,
+        "urgency": 50,
+        "novelty": 65,
+        "cross_impact_areas": []
+      },
+      "title_ko": "트럼프, 원자로 10기 신규 건설 및 NRC 개혁 행정명령 서명"
+    },
+    {
+      "id": "alibaba-20260328-024",
+      "title": "Alibaba Releases Qwen 3.5 Small: Four Open-Source Multimodal Models Under Apache 2.0",
+      "source": {
+        "name": "Ars Technica",
+        "type": "tech_blog",
+        "url": "https://arstechnica.com"
+      },
+      "content": {
+        "abstract": "Alibaba released Qwen 3.5 Small on March 1, delivering four dense models at 0.8B, 2B, 4B, 9B parameters, all natively multimodal under Apache 2.0. Represents China's continued competitive push in open-source AI, challenging Western model dominance.",
+        "keywords": [
+          "Qwen 3.5",
+          "Alibaba",
+          "open-source AI",
+          "multimodal",
+          "Apache 2.0",
+          "AI competition"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-28T11:40:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_accessed": true,
+          "items_retrieved": 1,
+          "timestamp": "2026-03-28T11:40:00Z"
+        }
+      },
+      "classification": {
+        "steeps_category": "T",
+        "impact_score": 50,
+        "probability": 85,
+        "urgency": 50,
+        "novelty": 50,
+        "cross_impact_areas": []
+      },
+      "title_ko": "알리바바, Qwen 3.5 Small 출시 — Apache 라이선스 오픈소스 멀티모달 모델 4종"
+    },
+    {
+      "id": "climate-20260328-025",
+      "title": "Wind and Solar Generated More EU Electricity Than Fossil Fuels for First Time in 2025",
+      "source": {
+        "name": "Carbon Brief",
+        "type": "academic",
+        "url": "https://www.carbonbrief.org"
+      },
+      "content": {
+        "abstract": "Wind and solar generated more EU electricity than fossil fuels for the first time in 2025, marking a major milestone in clean power transition. Combined with High Seas Treaty entering into force, signals accelerating environmental governance momentum.",
+        "keywords": [
+          "renewable energy",
+          "wind",
+          "solar",
+          "EU energy transition",
+          "fossil fuels",
+          "milestone"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-28T11:40:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_accessed": true,
+          "items_retrieved": 1,
+          "timestamp": "2026-03-28T11:40:00Z"
+        }
+      },
+      "classification": {
+        "steeps_category": "E",
+        "impact_score": 50,
+        "probability": 55,
+        "urgency": 50,
+        "novelty": 85,
+        "cross_impact_areas": []
+      },
+      "title_ko": "풍력·태양광, EU 역사상 최초로 화석연료 발전량 추월"
+    },
+    {
+      "id": "hormuz-20260328-027",
+      "title": "Strait of Hormuz Shipping Halt Causes Global Energy Price Surge and Supply Chain Disruption",
+      "source": {
+        "name": "OECD Newsroom",
+        "type": "policy",
+        "url": "https://www.oecd.org"
+      },
+      "content": {
+        "abstract": "Halt in Strait of Hormuz shipments and energy infrastructure damage generating energy price surge and disrupting global supply of energy and commodities including fertilizers. Raising costs, weighing on demand, adding inflationary pressures. OECD highlights as primary downside risk to global growth.",
+        "keywords": [
+          "Strait of Hormuz",
+          "energy crisis",
+          "supply chain disruption",
+          "geopolitics",
+          "oil prices",
+          "inflation"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "E",
+      "collected_at": "2026-03-28T11:40:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_accessed": true,
+          "items_retrieved": 1,
+          "timestamp": "2026-03-28T11:40:00Z"
+        }
+      },
+      "classification": {
+        "steeps_category": "E",
+        "impact_score": 50,
+        "probability": 55,
+        "urgency": 50,
+        "novelty": 50,
+        "cross_impact_areas": [
+          "T"
+        ]
+      },
+      "title_ko": "호르무즈 해협 운항 중단 — 글로벌 에너지 가격 급등과 공급망 교란"
+    },
+    {
+      "id": "neuro-20260328-029",
+      "title": "AI Framework Reveals Hidden Mechanisms of Consciousness Disorders via Neural Simulation",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com"
+      },
+      "content": {
+        "abstract": "Generative AI framework learns to simulate impaired consciousness from massive neural activity datasets, revealing hidden mechanisms. Predicted selective basal ganglia damage and abnormal cortical wiring were confirmed in patient tissue and brain scans, suggesting promising treatments.",
+        "keywords": [
+          "consciousness",
+          "neuroscience",
+          "AI simulation",
+          "basal ganglia",
+          "disorders of consciousness",
+          "therapeutics"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "T",
+      "collected_at": "2026-03-28T11:40:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_accessed": true,
+          "items_retrieved": 1,
+          "timestamp": "2026-03-28T11:40:00Z"
+        }
+      },
+      "classification": {
+        "steeps_category": "T",
+        "impact_score": 50,
+        "probability": 85,
+        "urgency": 50,
+        "novelty": 50,
+        "cross_impact_areas": []
+      },
+      "title_ko": "AI 프레임워크로 의식장애의 숨겨진 메커니즘 규명 — 신경 시뮬레이션 활용"
+    },
+    {
+      "id": "ai-sovereignty-20260328-030",
+      "title": "AI Sovereignty Movement: EU AI Continent Plan, US AI Action Plan, China 15th Five-Year Plan Converge",
+      "source": {
+        "name": "World Economic Forum",
+        "type": "policy",
+        "url": "https://www.weforum.org"
+      },
+      "content": {
+        "abstract": "Governments treating AI assets — foundation models, training data, computing infrastructure — as national security priority. EU's AI Continent Action Plan, US AI Action Plan, and China's 15th Five-Year Plan all driving AI sovereignty agenda simultaneously, fragmenting global AI governance.",
+        "keywords": [
+          "AI sovereignty",
+          "EU AI plan",
+          "US AI plan",
+          "China Five-Year Plan",
+          "national security",
+          "AI governance fragmentation"
+        ],
+        "language": "en"
+      },
+      "preliminary_category": "P",
+      "collected_at": "2026-03-28T11:40:00Z",
+      "scan_metadata": {
+        "execution_proof": {
+          "source_accessed": true,
+          "items_retrieved": 1,
+          "timestamp": "2026-03-28T11:40:00Z"
+        }
+      },
+      "classification": {
+        "steeps_category": "P",
+        "impact_score": 50,
+        "probability": 55,
+        "urgency": 50,
+        "novelty": 50,
+        "cross_impact_areas": [
+          "T"
+        ]
+      },
+      "title_ko": "AI 주권 운동: EU AI 대륙 계획, 미국 AI 행동계획, 중국 15차 5개년 계획"
+    }
+  ]
+}

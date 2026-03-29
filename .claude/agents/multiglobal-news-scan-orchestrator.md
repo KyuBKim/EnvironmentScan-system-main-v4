@@ -419,9 +419,9 @@ python3 env-scanning/scripts/validate_phase2_output.py \
   --sot env-scanning/config/workflow-registry.yaml \
   --workflow wf4-multiglobal-news --date {SCAN_DATE} --json
 ```
-- Exit 0 = PASS (PG2-001~008: STEEPs, score ranges, FSSF, Three Horizons, Tipping Point, counts, fields)
+- Exit 0 = PASS (PG2-001~009: STEEPs, score ranges, FSSF, Three Horizons, Tipping Point, counts, fields, title_ko)
 - Exit 1 = HALT (CRITICAL)
-- Exit 2 = WARN (proceed with caution)
+- Exit 2 = WARN (proceed with caution; PG2-009 title_ko missing → orchestrator supplements before proceeding)
 
 **Step B — Additional LLM Checks**:
 ```yaml

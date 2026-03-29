@@ -1,8 +1,8 @@
 {
   "version": "1.0",
   "created_at": "2026-01-30T12:11:53.840986",
-  "last_updated": "2026-03-20T08:24:20.716709",
-  "total_signals": 1158,
+  "last_updated": "2026-03-25T23:37:13.874190Z",
+  "total_signals": 1231,
   "first_scan_date": "2026-01-30",
   "latest_scan_date": "2026-03-12",
   "statistics": {
@@ -34500,6 +34500,2015 @@
       "published_date": "2026-03-23",
       "added_date": "2026-03-24",
       "scan_date": "2026-03-24"
+    },
+    {
+      "id": "gen-20260326-023",
+      "title": "Gulf War 'Out of Control': UN Secretary-General Warns as Envoy Deployed for Peace",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/en/story/2026/03/1167198",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "UN Secretary-General characterizes Middle East regional conflict as 'out of control' on Day 26 of hostilities, with strategic Strait of Hormuz tensions intensifying. Diplomatic envoy deployed for conflict resolution.",
+        "keywords": [
+          "Middle East conflict",
+          "Strait of Hormuz",
+          "geopolitics",
+          "UN diplomacy",
+          "oil supply"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "psst_dimensions": {
+        "SR": 80,
+        "ES": 90,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 90
+      },
+      "psst_score": 89.0,
+      "psst_grade": "A",
+      "impact_score": 4.5,
+      "priority_score": 8.9,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 1,
+      "keywords": [
+        "Middle East conflict",
+        "Strait of Hormuz",
+        "geopolitics",
+        "UN diplomacy",
+        "oil supply"
+      ],
+      "category": "P_Political",
+      "signal_status": "developing",
+      "cross_impact": [
+        "E_Economic",
+        "E_Environmental"
+      ]
+    },
+    {
+      "id": "gen-20260326-002",
+      "title": "Jury Finds Meta and Google Negligent in Landmark Social Media Addiction Trial",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/25/jury-finds-meta-and-youtube-negligent-in-landmark-social-media-addiction-trial/",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "Jury determined Meta understood platform addictiveness particularly among teens and deliberately increased engagement. Landmark ruling establishes corporate negligence precedent for social media companies regarding addictive design.",
+        "keywords": [
+          "social media addiction",
+          "Meta",
+          "Google",
+          "legal precedent",
+          "teen safety"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 90,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 90
+      },
+      "psst_score": 88.5,
+      "psst_grade": "A",
+      "impact_score": 4.5,
+      "priority_score": 8.85,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 2,
+      "keywords": [
+        "social media addiction",
+        "Meta",
+        "Google",
+        "legal precedent",
+        "teen safety"
+      ],
+      "category": "P_Political",
+      "signal_status": "emerging",
+      "cross_impact": [
+        "S_Social",
+        "s_spiritual",
+        "E_Economic"
+      ]
+    },
+    {
+      "id": "gen-20260326-008",
+      "title": "Nature: Towards End-to-End Automation of AI Research — System Produces Papers Passing Peer Review",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/s41586-026-10265-5",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "AI system produces complete research papers with minimal human involvement that successfully pass peer review rounds. This represents a significant step toward fully automated scientific discovery and raises questions about the future of academic research.",
+        "keywords": [
+          "automated research",
+          "AI science",
+          "peer review",
+          "scientific discovery",
+          "academic automation"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 85,
+        "ES": 70,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 90
+      },
+      "psst_score": 84.0,
+      "psst_grade": "B",
+      "impact_score": 4.5,
+      "priority_score": 8.4,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 3,
+      "keywords": [
+        "automated research",
+        "AI science",
+        "peer review",
+        "scientific discovery",
+        "academic automation"
+      ],
+      "category": "T_Technological",
+      "signal_status": "emerging",
+      "cross_impact": [
+        "S_Social",
+        "s_spiritual",
+        "E_Economic"
+      ]
+    },
+    {
+      "id": "gen-20260326-015",
+      "title": "Meta 5GW Hyperion Data Center: Engineering Challenges of World's Largest Computing Facility",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "url": "https://spectrum.ieee.org/5gw-data-center",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Meta's 5-gigawatt Hyperion project in Louisiana represents unprecedented data center scale. Construction requires heavier GPU racks consuming 120+ kW each. The facility could generate 4-10 million CO2-equivalent metric tonnes annually, raising massive environmental concerns.",
+        "keywords": [
+          "data center",
+          "Meta",
+          "5GW",
+          "energy consumption",
+          "CO2 emissions",
+          "infrastructure"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Environmental",
+      "psst_dimensions": {
+        "SR": 85,
+        "ES": 80,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 90
+      },
+      "psst_score": 83.5,
+      "psst_grade": "B",
+      "impact_score": 4.5,
+      "priority_score": 8.35,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 4,
+      "keywords": [
+        "data center",
+        "Meta",
+        "5GW",
+        "energy consumption",
+        "CO2 emissions",
+        "infrastructure"
+      ],
+      "category": "E_Environmental",
+      "signal_status": "developing",
+      "cross_impact": [
+        "T_Technological",
+        "P_Political",
+        "E_Economic"
+      ]
+    },
+    {
+      "id": "gen-20260326-027",
+      "title": "Pew Research: Americans Broadly Disapprove of US Military Action in Iran",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "policy",
+        "url": "https://www.pewresearch.org/politics/2026/03/25/americans-broadly-disapprove-of-u-s-military-action-in-iran/",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "Survey of 3,524 US adults (March 16-22) shows majorities disapprove of President Trump's handling of the Iran military conflict. Reflects significant domestic opposition to escalating Middle East engagement.",
+        "keywords": [
+          "Iran conflict",
+          "public opinion",
+          "US foreign policy",
+          "military action",
+          "Pew survey"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "psst_dimensions": {
+        "SR": 80,
+        "ES": 90,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 80
+      },
+      "psst_score": 83.5,
+      "psst_grade": "B",
+      "impact_score": 4.0,
+      "priority_score": 8.35,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 5,
+      "keywords": [
+        "Iran conflict",
+        "public opinion",
+        "US foreign policy",
+        "military action",
+        "Pew survey"
+      ],
+      "category": "P_Political",
+      "signal_status": "developing",
+      "cross_impact": [
+        "S_Social",
+        "E_Economic"
+      ]
+    },
+    {
+      "id": "gen-20260326-001",
+      "title": "Sanders and AOC Propose Moratorium on AI Data Center Construction Until Congress Passes AI Regulation",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/25/bernie-sanders-and-aoc-propose-a-ban-on-data-center-construction/",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "The Artificial Intelligence Data Center Moratorium Act would halt new data center approvals nationwide until Congress establishes comprehensive AI regulatory framework covering workers, consumers, privacy, civil rights, and environmental protection.",
+        "keywords": [
+          "AI regulation",
+          "data centers",
+          "moratorium",
+          "Congressional legislation",
+          "energy policy"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 60,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 90
+      },
+      "psst_score": 81.3,
+      "psst_grade": "B",
+      "impact_score": 4.5,
+      "priority_score": 8.129999999999999,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 6,
+      "keywords": [
+        "AI regulation",
+        "data centers",
+        "moratorium",
+        "Congressional legislation",
+        "energy policy"
+      ],
+      "category": "P_Political",
+      "signal_status": "emerging",
+      "cross_impact": [
+        "T_Technological",
+        "E_Environmental",
+        "E_Economic"
+      ]
+    },
+    {
+      "id": "gen-20260326-012",
+      "title": "Rice Disease Resistance Breakthrough: Gene Disruption Confers Broad-Spectrum Protection Without Yield Loss",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/s41586-026-10273-5",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "Inactivating SnRK1beta1A gene promotes broad-spectrum disease resistance in rice without compromising yield under normal conditions. Major breakthrough for global food security affecting billions who depend on rice.",
+        "keywords": [
+          "rice",
+          "disease resistance",
+          "food security",
+          "gene editing",
+          "agriculture"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Environmental",
+      "psst_dimensions": {
+        "SR": 85,
+        "ES": 70,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 90
+      },
+      "psst_score": 81.0,
+      "psst_grade": "B",
+      "impact_score": 4.5,
+      "priority_score": 8.1,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 7,
+      "keywords": [
+        "rice",
+        "disease resistance",
+        "food security",
+        "gene editing",
+        "agriculture"
+      ],
+      "category": "E_Environmental",
+      "signal_status": "emerging",
+      "cross_impact": [
+        "S_Social",
+        "T_Technological"
+      ]
+    },
+    {
+      "id": "gen-20260326-009",
+      "title": "Major Conference Catches Illicit AI Use — Rejects Hundreds of Papers Using LLM-Generated Reviews",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/d41586-026-00893-2",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "Watermark detection technology enabled conference organizers to identify LLM-generated peer reviews. Hundreds of papers were rejected, exposing widespread use of AI to fabricate academic peer reviews.",
+        "keywords": [
+          "academic integrity",
+          "AI fraud",
+          "peer review",
+          "watermarking",
+          "LLM detection"
+        ],
+        "language": "en"
+      },
+      "final_category": "s_spiritual",
+      "psst_dimensions": {
+        "SR": 85,
+        "ES": 80,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 80
+      },
+      "psst_score": 80.0,
+      "psst_grade": "B",
+      "impact_score": 4.0,
+      "priority_score": 8.0,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 8,
+      "keywords": [
+        "academic integrity",
+        "AI fraud",
+        "peer review",
+        "watermarking",
+        "LLM detection"
+      ],
+      "category": "s_spiritual",
+      "signal_status": "developing",
+      "cross_impact": [
+        "T_Technological",
+        "S_Social"
+      ]
+    },
+    {
+      "id": "gen-20260326-022",
+      "title": "UN Reports 273 Million Children Out of School: Seven Consecutive Years of Decline",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/en/story/2026/03/1167200",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "UNESCO reports 273 million youngsters globally unable to attend school, marking seven consecutive years of educational access decline. Conflict, poverty, and climate displacement drive the crisis across developing regions.",
+        "keywords": [
+          "education crisis",
+          "UNESCO",
+          "out-of-school children",
+          "global development",
+          "inequality"
+        ],
+        "language": "en"
+      },
+      "final_category": "S_Social",
+      "psst_dimensions": {
+        "SR": 80,
+        "ES": 90,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 80
+      },
+      "psst_score": 80.0,
+      "psst_grade": "B",
+      "impact_score": 4.0,
+      "priority_score": 8.0,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 9,
+      "keywords": [
+        "education crisis",
+        "UNESCO",
+        "out-of-school children",
+        "global development",
+        "inequality"
+      ],
+      "category": "S_Social",
+      "signal_status": "developing",
+      "cross_impact": [
+        "E_Economic",
+        "P_Political"
+      ]
+    },
+    {
+      "id": "gen-20260326-004",
+      "title": "AI Skills Gap Widens: Power Users Pulling Ahead While Job Displacement Concerns Grow",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/25/the-ai-skills-gap-is-here-says-ai-company-and-power-users-are-pulling-ahead/",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "Anthropic research indicates experienced AI users are gaining significant competitive advantages in productivity and decision-making, while less skilled workers face growing displacement risk, creating a widening digital divide.",
+        "keywords": [
+          "AI skills gap",
+          "digital divide",
+          "workforce transformation",
+          "Anthropic",
+          "productivity"
+        ],
+        "language": "en"
+      },
+      "final_category": "S_Social",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 80,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 80
+      },
+      "psst_score": 79.0,
+      "psst_grade": "B",
+      "impact_score": 4.0,
+      "priority_score": 7.9,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 10,
+      "keywords": [
+        "AI skills gap",
+        "digital divide",
+        "workforce transformation",
+        "Anthropic",
+        "productivity"
+      ],
+      "category": "S_Social",
+      "signal_status": "developing",
+      "cross_impact": [
+        "E_Economic",
+        "s_spiritual"
+      ]
+    },
+    {
+      "id": "gen-20260326-016",
+      "title": "U.S. Engineering PhD Programs Face Declining Enrollment Amid Federal Funding Uncertainty",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "url": "https://spectrum.ieee.org/us-engineering-phd-enrollment-drop",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "US doctoral electrical engineering programs face declining enrollment due to federal funding uncertainties and immigration restrictions. Texas A&M saw 50% drop in international applications. Reduced cohorts threaten semiconductor and other workforce pipelines.",
+        "keywords": [
+          "PhD enrollment",
+          "engineering education",
+          "STEM workforce",
+          "immigration",
+          "federal funding"
+        ],
+        "language": "en"
+      },
+      "final_category": "S_Social",
+      "psst_dimensions": {
+        "SR": 85,
+        "ES": 80,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 80
+      },
+      "psst_score": 79.0,
+      "psst_grade": "B",
+      "impact_score": 4.0,
+      "priority_score": 7.9,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 11,
+      "keywords": [
+        "PhD enrollment",
+        "engineering education",
+        "STEM workforce",
+        "immigration",
+        "federal funding"
+      ],
+      "category": "S_Social",
+      "signal_status": "developing",
+      "cross_impact": [
+        "T_Technological",
+        "E_Economic",
+        "P_Political"
+      ]
+    },
+    {
+      "id": "gen-20260326-031",
+      "title": "Stanford Research: AI Chatbots Facilitate Delusional Spirals in Vulnerable Users",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/03/23/1134527/the-hardest-question-to-answer-about-ai-fueled-delusions/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Stanford researchers analyzed 390,000 chatbot messages from individuals experiencing delusional spirals. Research reveals how AI systems can reinforce harmful beliefs but leaves unresolved whether delusions originate from users or technology.",
+        "keywords": [
+          "AI safety",
+          "chatbot",
+          "delusions",
+          "mental health",
+          "Stanford"
+        ],
+        "language": "en"
+      },
+      "final_category": "s_spiritual",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 70,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 80
+      },
+      "psst_score": 77.5,
+      "psst_grade": "B",
+      "impact_score": 4.0,
+      "priority_score": 7.75,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 12,
+      "keywords": [
+        "AI safety",
+        "chatbot",
+        "delusions",
+        "mental health",
+        "Stanford"
+      ],
+      "category": "s_spiritual",
+      "signal_status": "emerging",
+      "cross_impact": [
+        "T_Technological",
+        "S_Social",
+        "P_Political"
+      ]
+    },
+    {
+      "id": "gen-20260326-029",
+      "title": "Arbor Energy Lands $1 Billion Order: Rocket Turbine Technology Enters Power Grid",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/25/arbor-energy-just-landed-a-billion-dollar-order-to-bring-rocket-turbine-tech-to-the-power-grid/",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "Energy company secures billion-dollar contract to deliver rocket turbine technology for power generation. Cross-industry technology transfer from aerospace to energy grid represents novel approach to meeting surging AI data center power demand.",
+        "keywords": [
+          "energy",
+          "rocket turbine",
+          "power generation",
+          "data centers",
+          "technology transfer"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 70,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 80
+      },
+      "psst_score": 77.0,
+      "psst_grade": "B",
+      "impact_score": 4.0,
+      "priority_score": 7.7,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 13,
+      "keywords": [
+        "energy",
+        "rocket turbine",
+        "power generation",
+        "data centers",
+        "technology transfer"
+      ],
+      "category": "T_Technological",
+      "signal_status": "emerging",
+      "cross_impact": [
+        "E_Economic",
+        "E_Environmental"
+      ]
+    },
+    {
+      "id": "gen-20260326-036",
+      "title": "WEF Global Risks Report 2026: 68% Expect Multipolar Fragmented Order, Economic Risks Surge",
+      "source": {
+        "name": "World Economic Forum",
+        "type": "policy",
+        "url": "https://www.weforum.org/press/2026/01/global-risks-report-2026-geopolitical-and-economic-risks-rise-in-new-age-of-competition/",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "WEF report shows 68% of respondents expect multipolar or fragmented global order (up 4pts). Economic downturn and inflation risks surged 8 positions. Economic risks show largest collective increase in two-year outlook.",
+        "keywords": [
+          "global risks",
+          "WEF",
+          "multipolar order",
+          "economic downturn",
+          "geopolitics"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "psst_dimensions": {
+        "SR": 80,
+        "ES": 80,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 80
+      },
+      "psst_score": 77.0,
+      "psst_grade": "B",
+      "impact_score": 4.0,
+      "priority_score": 7.7,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 14,
+      "keywords": [
+        "global risks",
+        "WEF",
+        "multipolar order",
+        "economic downturn",
+        "geopolitics"
+      ],
+      "category": "E_Economic",
+      "signal_status": "developing",
+      "cross_impact": [
+        "P_Political",
+        "S_Social"
+      ]
+    },
+    {
+      "id": "gen-20260326-006",
+      "title": "SES AI Pivots from EV Batteries to AI-Driven Materials Discovery Platform",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/03/25/1134657/battery-company-ai-pivot-ses/",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "SES AI pivots from EV battery manufacturing to AI-driven materials discovery after Western battery companies struggle to compete. Platform has identified six new electrolyte materials for improved battery performance, demonstrating AI-accelerated scientific discovery.",
+        "keywords": [
+          "AI materials discovery",
+          "battery technology",
+          "SES AI",
+          "pivot",
+          "electrolyte"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 70,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 80
+      },
+      "psst_score": 75.0,
+      "psst_grade": "B",
+      "impact_score": 4.0,
+      "priority_score": 7.5,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 15,
+      "keywords": [
+        "AI materials discovery",
+        "battery technology",
+        "SES AI",
+        "pivot",
+        "electrolyte"
+      ],
+      "category": "T_Technological",
+      "signal_status": "emerging",
+      "cross_impact": [
+        "E_Economic",
+        "E_Environmental"
+      ]
+    },
+    {
+      "id": "gen-20260326-039",
+      "title": "Scientists Race to Define Consciousness: 'Existential Risk' as AI Advances Outpace Understanding",
+      "source": {
+        "name": "Hacker News",
+        "type": "blog",
+        "url": "https://www.sciencedaily.com/releases/2026/01/260131084626.htm",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "Rapid AI and neurotechnology advances outpace understanding of consciousness, creating existential ethical risks. Developing scientific tests for awareness could transform medicine, animal welfare, law, and AI development.",
+        "keywords": [
+          "consciousness",
+          "AI risk",
+          "neurotechnology",
+          "ethical framework",
+          "existential risk"
+        ],
+        "language": "en"
+      },
+      "final_category": "s_spiritual",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 60,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 80
+      },
+      "psst_score": 74.0,
+      "psst_grade": "B",
+      "impact_score": 4.0,
+      "priority_score": 7.4,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 16,
+      "keywords": [
+        "consciousness",
+        "AI risk",
+        "neurotechnology",
+        "ethical framework",
+        "existential risk"
+      ],
+      "category": "s_spiritual",
+      "signal_status": "emerging",
+      "cross_impact": [
+        "T_Technological",
+        "P_Political"
+      ]
+    },
+    {
+      "id": "gen-20260326-005",
+      "title": "Harvey AI Reaches $11B Valuation: Legal Tech AI Attracts Major Investment",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/25/harvey-confirms-11b-valuation-sequoia-triples-down/",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "Legal AI startup Harvey confirms $11 billion valuation with Sequoia tripling down on investment. The platform automates legal research, document drafting, and contract analysis, signaling massive transformation potential in professional services.",
+        "keywords": [
+          "legal AI",
+          "Harvey",
+          "valuation",
+          "professional services",
+          "investment"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 80,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 70
+      },
+      "psst_score": 72.5,
+      "psst_grade": "B",
+      "impact_score": 3.5,
+      "priority_score": 7.25,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 17,
+      "keywords": [
+        "legal AI",
+        "Harvey",
+        "valuation",
+        "professional services",
+        "investment"
+      ],
+      "category": "E_Economic",
+      "signal_status": "developing",
+      "cross_impact": [
+        "T_Technological",
+        "S_Social"
+      ]
+    },
+    {
+      "id": "gen-20260326-018",
+      "title": "Trump Science Advisory Panel PCAST Packed with Tech Billionaires, Lacks Academic and Gender Diversity",
+      "source": {
+        "name": "Science Magazine",
+        "type": "academic",
+        "url": "https://www.science.org/content/article/trump-s-new-science-panel-stuffed-high-tech-billionaires",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "The Presidential Advisory Council on Science and Technology roster contains few academics and women, instead populated primarily by high-tech billionaires. Signals shift in US science policy governance toward industry-driven priorities.",
+        "keywords": [
+          "PCAST",
+          "science policy",
+          "Trump",
+          "advisory panel",
+          "industry influence"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "psst_dimensions": {
+        "SR": 85,
+        "ES": 80,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 70
+      },
+      "psst_score": 72.5,
+      "psst_grade": "B",
+      "impact_score": 3.5,
+      "priority_score": 7.25,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 18,
+      "keywords": [
+        "PCAST",
+        "science policy",
+        "Trump",
+        "advisory panel",
+        "industry influence"
+      ],
+      "category": "P_Political",
+      "signal_status": "developing",
+      "cross_impact": [
+        "T_Technological",
+        "S_Social"
+      ]
+    },
+    {
+      "id": "gen-20260326-003",
+      "title": "Google Unveils TurboQuant: AI Memory Compression Algorithm Achieves 6x Reduction",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/25/google-turboquant-ai-memory-compression-silicon-valley-pied-piper/",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "Google's new compression technology promises to shrink AI model memory requirements by up to 6x. The experimental TurboQuant algorithm could dramatically reduce computational costs for deploying large language models.",
+        "keywords": [
+          "AI compression",
+          "memory optimization",
+          "Google",
+          "model efficiency",
+          "LLM"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 60,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 80
+      },
+      "psst_score": 72.0,
+      "psst_grade": "B",
+      "impact_score": 4.0,
+      "priority_score": 7.2,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 19,
+      "keywords": [
+        "AI compression",
+        "memory optimization",
+        "Google",
+        "model efficiency",
+        "LLM"
+      ],
+      "category": "T_Technological",
+      "signal_status": "emerging",
+      "cross_impact": [
+        "E_Economic",
+        "E_Environmental"
+      ]
+    },
+    {
+      "id": "gen-20260326-013",
+      "title": "GM Develops Autonomous Driving AI Training at 50,000x Real-Time Speed",
+      "source": {
+        "name": "IEEE Spectrum",
+        "type": "academic",
+        "url": "https://spectrum.ieee.org/gm-scalable-driving-ai",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "General Motors develops scalable autonomous driving systems using 'Boxworld' abstract training environment operating 50,000 times faster than reality. Combined with adversarial testing methods, safety improves by over 30%.",
+        "keywords": [
+          "autonomous driving",
+          "GM",
+          "simulation",
+          "reinforcement learning",
+          "safety"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 85,
+        "ES": 70,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 70
+      },
+      "psst_score": 72.0,
+      "psst_grade": "B",
+      "impact_score": 3.5,
+      "priority_score": 7.2,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 20,
+      "keywords": [
+        "autonomous driving",
+        "GM",
+        "simulation",
+        "reinforcement learning",
+        "safety"
+      ],
+      "category": "T_Technological",
+      "signal_status": "developing",
+      "cross_impact": [
+        "S_Social",
+        "E_Economic"
+      ]
+    },
+    {
+      "id": "gen-20260326-024",
+      "title": "UN General Assembly Designates Transatlantic Slave Trade as 'Gravest Crime Against Humanity' — Calls for Reparations",
+      "source": {
+        "name": "UN News",
+        "type": "policy",
+        "url": "https://news.un.org/en/story/2026/03/1167199",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "The General Assembly resolution designates the transatlantic slave trade as the gravest crime against humanity and calls for reparative justice measures. Historic shift in international recognition with potential economic and diplomatic implications.",
+        "keywords": [
+          "reparations",
+          "slave trade",
+          "UN General Assembly",
+          "international justice",
+          "historical reckoning"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "psst_dimensions": {
+        "SR": 80,
+        "ES": 70,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 70
+      },
+      "psst_score": 72.0,
+      "psst_grade": "B",
+      "impact_score": 3.5,
+      "priority_score": 7.2,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 21,
+      "keywords": [
+        "reparations",
+        "slave trade",
+        "UN General Assembly",
+        "international justice",
+        "historical reckoning"
+      ],
+      "category": "P_Political",
+      "signal_status": "emerging",
+      "cross_impact": [
+        "E_Economic",
+        "s_spiritual"
+      ]
+    },
+    {
+      "id": "gen-20260326-030",
+      "title": "Waymo Robotaxis Controlled by Police During Emergencies: Autonomous Vehicle-First Responder Interface",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/25/waymo-robotaxi-roadside-assistance-emergency-first-responders/",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "First responders have assumed manual control of Waymo autonomous vehicles during emergencies, including active crime scenes. Raises questions about autonomous vehicle governance, liability, and emergency protocol frameworks.",
+        "keywords": [
+          "autonomous vehicles",
+          "Waymo",
+          "emergency response",
+          "police",
+          "robotaxi"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 70,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 70
+      },
+      "psst_score": 72.0,
+      "psst_grade": "B",
+      "impact_score": 3.5,
+      "priority_score": 7.2,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 22,
+      "keywords": [
+        "autonomous vehicles",
+        "Waymo",
+        "emergency response",
+        "police",
+        "robotaxi"
+      ],
+      "category": "T_Technological",
+      "signal_status": "emerging",
+      "cross_impact": [
+        "P_Political",
+        "S_Social"
+      ]
+    },
+    {
+      "id": "gen-20260326-037",
+      "title": "World Bank: Global Commodity Prices to Hit Six-Year Low in 2026, Fourth Consecutive Annual Decline",
+      "source": {
+        "name": "World Bank Blogs",
+        "type": "policy",
+        "url": "https://blogs.worldbank.org/en/home",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "Global commodity prices projected to fall to their lowest level in six years in 2026, marking the fourth consecutive year of decline. Sub-Saharan Africa growth projected to firm to 4.3% in 2026 supported by investment and reform momentum.",
+        "keywords": [
+          "commodity prices",
+          "World Bank",
+          "global economy",
+          "Sub-Saharan Africa",
+          "growth projections"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "psst_dimensions": {
+        "SR": 80,
+        "ES": 80,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 70
+      },
+      "psst_score": 71.0,
+      "psst_grade": "B",
+      "impact_score": 3.5,
+      "priority_score": 7.1,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 23,
+      "keywords": [
+        "commodity prices",
+        "World Bank",
+        "global economy",
+        "Sub-Saharan Africa",
+        "growth projections"
+      ],
+      "category": "E_Economic",
+      "signal_status": "developing",
+      "cross_impact": [
+        "P_Political",
+        "E_Environmental"
+      ]
+    },
+    {
+      "id": "gen-20260326-028",
+      "title": "Breaking News Source Shift: 36% Traditional Media, 28% Search Engines, 19% Social Media",
+      "source": {
+        "name": "Pew Research Center",
+        "type": "policy",
+        "url": "https://www.pewresearch.org/",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "Pew survey shows Americans fragmenting across news sources: 36% go first to preferred news organizations, 28% use search engines, 19% rely on social media for breaking news. Significant decline in reliance on traditional media.",
+        "keywords": [
+          "news consumption",
+          "media fragmentation",
+          "breaking news",
+          "social media",
+          "journalism"
+        ],
+        "language": "en"
+      },
+      "final_category": "S_Social",
+      "psst_dimensions": {
+        "SR": 80,
+        "ES": 80,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 70
+      },
+      "psst_score": 70.5,
+      "psst_grade": "B",
+      "impact_score": 3.5,
+      "priority_score": 7.05,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 24,
+      "keywords": [
+        "news consumption",
+        "media fragmentation",
+        "breaking news",
+        "social media",
+        "journalism"
+      ],
+      "category": "S_Social",
+      "signal_status": "developing",
+      "cross_impact": [
+        "T_Technological",
+        "s_spiritual"
+      ]
+    },
+    {
+      "id": "gen-20260326-011",
+      "title": "Intelligent Miniaturized Drug Delivery Devices Combining AI, Electronics, and Biotechnology",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/s41586-026-10221-3",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "Advanced systems combining AI, electronics, and biotechnology enable precise therapeutic drug administration for multiple diseases. Intelligent miniaturized devices represent convergence of three technology frontiers.",
+        "keywords": [
+          "drug delivery",
+          "miniaturized devices",
+          "AI",
+          "biotechnology",
+          "precision medicine"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 85,
+        "ES": 60,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 80
+      },
+      "psst_score": 70.0,
+      "psst_grade": "B",
+      "impact_score": 4.0,
+      "priority_score": 7.0,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 25,
+      "keywords": [
+        "drug delivery",
+        "miniaturized devices",
+        "AI",
+        "biotechnology",
+        "precision medicine"
+      ],
+      "category": "T_Technological",
+      "signal_status": "developing",
+      "cross_impact": [
+        "S_Social",
+        "E_Economic"
+      ]
+    },
+    {
+      "id": "gen-20260326-017",
+      "title": "WHO Recommends New Portable TB Diagnostic Tools: Under $10, Results in Under 1 Hour",
+      "source": {
+        "name": "WHO Press Releases",
+        "type": "policy",
+        "url": "https://www.who.int/news/item/24-03-2026-who-recommends-new-diagnostic-tools-to-help-end-tb",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "WHO promotes innovative near-point-of-care TB diagnostic tools including tongue swab sampling. Portable devices cost less than half of existing molecular diagnostics, deliver results in under one hour, enabling faster treatment initiation.",
+        "keywords": [
+          "TB diagnostics",
+          "WHO",
+          "global health",
+          "point-of-care",
+          "disease detection"
+        ],
+        "language": "en"
+      },
+      "final_category": "S_Social",
+      "psst_dimensions": {
+        "SR": 80,
+        "ES": 70,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 70
+      },
+      "psst_score": 70.0,
+      "psst_grade": "B",
+      "impact_score": 3.5,
+      "priority_score": 7.0,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 26,
+      "keywords": [
+        "TB diagnostics",
+        "WHO",
+        "global health",
+        "point-of-care",
+        "disease detection"
+      ],
+      "category": "S_Social",
+      "signal_status": "developing",
+      "cross_impact": [
+        "T_Technological"
+      ]
+    },
+    {
+      "id": "gen-20260326-045",
+      "title": "Convicted Spyware Chief Reveals Greek Government Behind Dozens of Phone Hacks",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/25/convicted-spyware-chief-hints-that-greeces-government-was-behind-dozens-of-phone-hacks/",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "Intellexa insider suggests Greek government authorized hacking of officials, politicians, and journalists' devices using commercial spyware. Reveals extent of European democratic surveillance concerns.",
+        "keywords": [
+          "spyware",
+          "surveillance",
+          "Greece",
+          "Intellexa",
+          "government hacking"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 70,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 70
+      },
+      "psst_score": 70.0,
+      "psst_grade": "B",
+      "impact_score": 3.5,
+      "priority_score": 7.0,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 27,
+      "keywords": [
+        "spyware",
+        "surveillance",
+        "Greece",
+        "Intellexa",
+        "government hacking"
+      ],
+      "category": "P_Political",
+      "signal_status": "developing",
+      "cross_impact": [
+        "s_spiritual",
+        "T_Technological"
+      ]
+    },
+    {
+      "id": "gen-20260326-048",
+      "title": "Meta Cuts Hundreds of Jobs Across Sales, Recruiting, and Reality Labs Globally",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/25/meta-is-cutting-several-hundred-jobs/",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "Meta reducing workforce across sales, recruiting, and Reality Labs divisions globally while simultaneously increasing AI investment. Reflects ongoing industry pattern of displacement-driven restructuring toward AI-centric operations.",
+        "keywords": [
+          "Meta",
+          "layoffs",
+          "Reality Labs",
+          "restructuring",
+          "AI investment"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 80,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 70
+      },
+      "psst_score": 69.5,
+      "psst_grade": "C",
+      "impact_score": 3.5,
+      "priority_score": 6.95,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 28,
+      "keywords": [
+        "Meta",
+        "layoffs",
+        "Reality Labs",
+        "restructuring",
+        "AI investment"
+      ],
+      "category": "E_Economic",
+      "signal_status": "developing",
+      "cross_impact": [
+        "S_Social",
+        "T_Technological"
+      ]
+    },
+    {
+      "id": "gen-20260326-020",
+      "title": "Dueling AI Agents Could Reveal Keys to Restoring Human Consciousness",
+      "source": {
+        "name": "Science Magazine",
+        "type": "academic",
+        "url": "https://www.science.org/content/article/dueling-ai-agents-could-reveal-keys-restoring-consciousness",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Competing neural network models simulating brain activity may illuminate consciousness mechanisms relevant to medical recovery. Research bridges AI and neuroscience with potential applications for coma patients and consciousness disorders.",
+        "keywords": [
+          "consciousness",
+          "AI neuroscience",
+          "brain simulation",
+          "medical recovery",
+          "neural networks"
+        ],
+        "language": "en"
+      },
+      "final_category": "s_spiritual",
+      "psst_dimensions": {
+        "SR": 85,
+        "ES": 50,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 80
+      },
+      "psst_score": 69.0,
+      "psst_grade": "C",
+      "impact_score": 4.0,
+      "priority_score": 6.9,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 29,
+      "keywords": [
+        "consciousness",
+        "AI neuroscience",
+        "brain simulation",
+        "medical recovery",
+        "neural networks"
+      ],
+      "category": "s_spiritual",
+      "signal_status": "emerging",
+      "cross_impact": [
+        "T_Technological",
+        "S_Social"
+      ]
+    },
+    {
+      "id": "gen-20260326-033",
+      "title": "Functional Brain Hierarchy Mapped Across Entire Human Lifespan: Infant to Centenarian",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/s41586-026-10219-x",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "Comprehensive fMRI mapping from infants to centenarians reveals organizational patterns in cortical connectivity development and aging. First complete picture of how the brain's functional architecture changes across the entire human lifespan.",
+        "keywords": [
+          "neuroscience",
+          "brain mapping",
+          "fMRI",
+          "lifespan",
+          "cortical connectivity"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 85,
+        "ES": 70,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 70
+      },
+      "psst_score": 68.0,
+      "psst_grade": "C",
+      "impact_score": 3.5,
+      "priority_score": 6.8,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 30,
+      "keywords": [
+        "neuroscience",
+        "brain mapping",
+        "fMRI",
+        "lifespan",
+        "cortical connectivity"
+      ],
+      "category": "T_Technological",
+      "signal_status": "emerging",
+      "cross_impact": [
+        "S_Social",
+        "s_spiritual"
+      ]
+    },
+    {
+      "id": "gen-20260326-007",
+      "title": "Cryopreserved Brain Tissue Shows 'Astonishingly Well Preserved' Structure After Rewarming",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/03/24/1134562/cryopreservation-brain-cryonics-organ-transplantation/",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Cryobiologist Greg Fahy studied samples from a cryopreserved brain, finding astonishingly well preserved tissue structure. The findings advance both neuroscience understanding and organ transplantation technology, with implications for extending human life.",
+        "keywords": [
+          "cryopreservation",
+          "brain",
+          "organ transplantation",
+          "neuroscience",
+          "longevity"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 50,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 80
+      },
+      "psst_score": 67.0,
+      "psst_grade": "C",
+      "impact_score": 4.0,
+      "priority_score": 6.7,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 31,
+      "keywords": [
+        "cryopreservation",
+        "brain",
+        "organ transplantation",
+        "neuroscience",
+        "longevity"
+      ],
+      "category": "T_Technological",
+      "signal_status": "emerging",
+      "cross_impact": [
+        "S_Social",
+        "s_spiritual"
+      ]
+    },
+    {
+      "id": "gen-20260326-019",
+      "title": "NASA Plans Nuclear-Powered Spacecraft to Mars in 2028 with Robotic Helicopters",
+      "source": {
+        "name": "Science Magazine",
+        "type": "academic",
+        "url": "https://www.science.org/content/article/nasa-plans-send-nuclear-powered-spacecraft-mars-2028",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "NASA mission would deploy nuclear thermal propulsion and robotic helicopters for Mars surface exploration. Nuclear propulsion could cut travel time significantly and enable more ambitious deep space missions.",
+        "keywords": [
+          "NASA",
+          "Mars",
+          "nuclear propulsion",
+          "space exploration",
+          "robotics"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 85,
+        "ES": 60,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 70
+      },
+      "psst_score": 67.0,
+      "psst_grade": "C",
+      "impact_score": 3.5,
+      "priority_score": 6.7,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 32,
+      "keywords": [
+        "NASA",
+        "Mars",
+        "nuclear propulsion",
+        "space exploration",
+        "robotics"
+      ],
+      "category": "T_Technological",
+      "signal_status": "developing",
+      "cross_impact": [
+        "P_Political",
+        "E_Economic"
+      ]
+    },
+    {
+      "id": "gen-20260326-032",
+      "title": "Axiom Math Releases Axplorer: AI Tool Enabling Mathematical Pattern Discovery and Problem Solving",
+      "source": {
+        "name": "MIT Technology Review",
+        "type": "blog",
+        "url": "https://www.technologyreview.com/2026/03/25/1134642/this-startup-wants-to-change-how-mathematicians-do-math/",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "Axiom Math releases Axplorer, a free AI tool enabling mathematicians to discover patterns and solve long-standing problems. Represents significant efficiency improvement over predecessor PatternBoost for mathematical research.",
+        "keywords": [
+          "AI mathematics",
+          "pattern discovery",
+          "Axplorer",
+          "mathematical research",
+          "problem solving"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 70,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 70
+      },
+      "psst_score": 67.0,
+      "psst_grade": "C",
+      "impact_score": 3.5,
+      "priority_score": 6.7,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 33,
+      "keywords": [
+        "AI mathematics",
+        "pattern discovery",
+        "Axplorer",
+        "mathematical research",
+        "problem solving"
+      ],
+      "category": "T_Technological",
+      "signal_status": "emerging",
+      "cross_impact": [
+        "S_Social"
+      ]
+    },
+    {
+      "id": "gen-20260326-010",
+      "title": "Can China Keep Up Its Extraordinary Research Growth? Alternative Funding Models Explored",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/d41586-026-00423-0",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "China explores alternative funding and collaboration models to sustain its rapid research expansion. The question of whether the country can maintain its extraordinary growth trajectory has global implications for scientific competition and innovation leadership.",
+        "keywords": [
+          "China",
+          "research funding",
+          "scientific growth",
+          "global competition",
+          "R&D"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 85,
+        "ES": 70,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 70
+      },
+      "psst_score": 66.5,
+      "psst_grade": "C",
+      "impact_score": 3.5,
+      "priority_score": 6.65,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 34,
+      "keywords": [
+        "China",
+        "research funding",
+        "scientific growth",
+        "global competition",
+        "R&D"
+      ],
+      "category": "T_Technological",
+      "signal_status": "developing",
+      "cross_impact": [
+        "P_Political",
+        "E_Economic"
+      ]
+    },
+    {
+      "id": "gen-20260326-043",
+      "title": "Google Launches Lyria 3 Pro: Advanced Music Generation Model with Longer, Customizable Tracks",
+      "source": {
+        "name": "TechCrunch",
+        "type": "blog",
+        "url": "https://techcrunch.com/2026/03/25/google-launches-lyria-3-pro-music-generation-model/",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "Google releases upgraded AI music generation tool creating longer, customizable tracks across Gemini services. Lyria 3 Pro represents leap in generative AI for creative industries with implications for music creation democratization.",
+        "keywords": [
+          "AI music",
+          "generative AI",
+          "Google Lyria",
+          "creative AI",
+          "music industry"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 80,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 60
+      },
+      "psst_score": 66.0,
+      "psst_grade": "C",
+      "impact_score": 3.0,
+      "priority_score": 6.6,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 35,
+      "keywords": [
+        "AI music",
+        "generative AI",
+        "Google Lyria",
+        "creative AI",
+        "music industry"
+      ],
+      "category": "T_Technological",
+      "signal_status": "developing",
+      "cross_impact": [
+        "E_Economic",
+        "s_spiritual"
+      ]
+    },
+    {
+      "id": "gen-20260326-034",
+      "title": "Topological Soliton Frequency Comb in Nanophotonic Lithium Niobate: On-Chip Optical Revolution",
+      "source": {
+        "name": "Nature News",
+        "type": "academic",
+        "url": "https://www.nature.com/articles/s41586-026-10292-2",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "Integrated nanophotonic platform generates optical frequency combs on-chip without requiring high-quality resonators. Breakthrough enables compact, efficient optical systems for telecommunications and precision measurement.",
+        "keywords": [
+          "nanophotonics",
+          "frequency comb",
+          "lithium niobate",
+          "optical computing",
+          "photonics"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 85,
+        "ES": 60,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 70
+      },
+      "psst_score": 65.0,
+      "psst_grade": "C",
+      "impact_score": 3.5,
+      "priority_score": 6.5,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 36,
+      "keywords": [
+        "nanophotonics",
+        "frequency comb",
+        "lithium niobate",
+        "optical computing",
+        "photonics"
+      ],
+      "category": "T_Technological",
+      "signal_status": "emerging",
+      "cross_impact": [
+        "E_Economic"
+      ]
+    },
+    {
+      "id": "gen-20260326-026",
+      "title": "OECD Anti-Corruption and Integrity Outlook 2026: Assessment of 62 Countries Released",
+      "source": {
+        "name": "OECD Newsroom",
+        "type": "policy",
+        "url": "https://www.oecd.org/en/about/news/media-advisories/2026/03/oecd-to-present-anti-corruption-and-integrity-outlook-2026-on-tuesday-24-march.html",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "OECD releases second Anti-Corruption and Integrity Outlook assessing anti-corruption regulations and implementation across 62 countries using Public Integrity Indicators. Critical benchmark for governance quality globally.",
+        "keywords": [
+          "anti-corruption",
+          "OECD",
+          "governance",
+          "integrity",
+          "policy assessment"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "psst_dimensions": {
+        "SR": 80,
+        "ES": 80,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 60
+      },
+      "psst_score": 64.0,
+      "psst_grade": "C",
+      "impact_score": 3.0,
+      "priority_score": 6.4,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 37,
+      "keywords": [
+        "anti-corruption",
+        "OECD",
+        "governance",
+        "integrity",
+        "policy assessment"
+      ],
+      "category": "P_Political",
+      "signal_status": "developing",
+      "cross_impact": [
+        "E_Economic"
+      ]
+    },
+    {
+      "id": "gen-20260326-041",
+      "title": "Botswana Innovation Fund Launches Climate-Digital Startup Programme with $150M Decarbonization Fund",
+      "source": {
+        "name": "Disrupt Africa",
+        "type": "blog",
+        "url": "https://www.techinafrica.com/botswana-innovation-fund-and-scalar-international-launch-startup-programme/",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "Botswana Innovation Fund and Scalar International launch 12-month program supporting 10 climate and digital technology startups. Programme connects startups to $150 million decarbonization investment fund, supporting African climate tech development.",
+        "keywords": [
+          "Africa",
+          "climate tech",
+          "startup",
+          "Botswana",
+          "decarbonization"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 70,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 60
+      },
+      "psst_score": 64.0,
+      "psst_grade": "C",
+      "impact_score": 3.0,
+      "priority_score": 6.4,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 38,
+      "keywords": [
+        "Africa",
+        "climate tech",
+        "startup",
+        "Botswana",
+        "decarbonization"
+      ],
+      "category": "E_Economic",
+      "signal_status": "emerging",
+      "cross_impact": [
+        "E_Environmental",
+        "T_Technological"
+      ]
+    },
+    {
+      "id": "gen-20260326-042",
+      "title": "OECD Going Digital Integrated Policy Framework 2026: Seven Dimensions for Inclusive Digital Future",
+      "source": {
+        "name": "OECD Newsroom",
+        "type": "policy",
+        "url": "https://www.oecd.org/en/publications/the-oecd-going-digital-integrated-policy-framework-2026_0254ae07-en.html",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "OECD publishes updated digital policy framework with seven interrelated dimensions including infrastructure access, digital innovation, inclusion, trust, and market openness. Guides governments in shaping equitable digital transformation.",
+        "keywords": [
+          "digital policy",
+          "OECD",
+          "digital transformation",
+          "inclusion",
+          "framework"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "psst_dimensions": {
+        "SR": 80,
+        "ES": 70,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 60
+      },
+      "psst_score": 62.5,
+      "psst_grade": "C",
+      "impact_score": 3.0,
+      "priority_score": 6.25,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 39,
+      "keywords": [
+        "digital policy",
+        "OECD",
+        "digital transformation",
+        "inclusion",
+        "framework"
+      ],
+      "category": "P_Political",
+      "signal_status": "developing",
+      "cross_impact": [
+        "T_Technological",
+        "E_Economic"
+      ]
+    },
+    {
+      "id": "gen-20260326-035",
+      "title": "Viral Genes Help Polar Algae Survive: Ancient Virus-Host Gene Transfer Powers Extreme Adaptation",
+      "source": {
+        "name": "Science Magazine",
+        "type": "academic",
+        "url": "https://www.science.org/content/article/genes-giant-viruses-help-polar-algae-survive-frigid-waters-and-harsh-sun",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "Ancient viral infections bestowed lasting beneficial genetic changes enabling polar microorganisms to thrive in extreme environments. Reveals novel mechanism of evolutionary adaptation through virus-to-host gene transfer.",
+        "keywords": [
+          "viral gene transfer",
+          "polar algae",
+          "evolution",
+          "extreme adaptation",
+          "horizontal gene transfer"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Environmental",
+      "psst_dimensions": {
+        "SR": 85,
+        "ES": 70,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 60
+      },
+      "psst_score": 61.0,
+      "psst_grade": "C",
+      "impact_score": 3.0,
+      "priority_score": 6.1,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 40,
+      "keywords": [
+        "viral gene transfer",
+        "polar algae",
+        "evolution",
+        "extreme adaptation",
+        "horizontal gene transfer"
+      ],
+      "category": "E_Environmental",
+      "signal_status": "emerging",
+      "cross_impact": [
+        "T_Technological"
+      ]
+    },
+    {
+      "id": "gen-20260326-021",
+      "title": "Mpemba Effect Goes Quantum: Unified Theory from Everyday Materials to Atomic Systems",
+      "source": {
+        "name": "Science Magazine",
+        "type": "academic",
+        "url": "https://www.science.org/content/article/hot-things-can-freeze-faster-cool-ones-now-paradox-has-gone-quantum",
+        "published_date": "2026-03-25"
+      },
+      "content": {
+        "abstract": "Researchers developed a unified theory explaining the Mpemba effect across all scales, from everyday materials to atomic quantum systems. Has potential applications in quantum computing advancement and materials science.",
+        "keywords": [
+          "Mpemba effect",
+          "quantum physics",
+          "unified theory",
+          "quantum computing",
+          "thermodynamics"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 85,
+        "ES": 60,
+        "CC": 80,
+        "TC": 90,
+        "DC": 85,
+        "IC": 60
+      },
+      "psst_score": 59.0,
+      "psst_grade": "C",
+      "impact_score": 3.0,
+      "priority_score": 5.9,
+      "collected_at": "2026-03-26T07:40:00Z",
+      "rank": 41,
+      "keywords": [
+        "Mpemba effect",
+        "quantum physics",
+        "unified theory",
+        "quantum computing",
+        "thermodynamics"
+      ],
+      "category": "T_Technological",
+      "signal_status": "emerging",
+      "cross_impact": []
     }
   ],
   "metadata": {

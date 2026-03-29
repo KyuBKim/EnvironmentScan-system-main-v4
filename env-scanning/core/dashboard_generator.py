@@ -53,19 +53,19 @@ WF_CSS_VARS = {
 }
 
 WF_CSS_HEX = {
-    "wf1-general": "#2d5be3",
-    "wf2-arxiv": "#7c3aed",
-    "wf3-naver": "#059669",
-    "wf4-multiglobal-news": "#ea580c",
+    "wf1-general": "#268bd2",
+    "wf2-arxiv": "#6c71c4",
+    "wf3-naver": "#859900",
+    "wf4-multiglobal-news": "#cb4b16",
 }
 
 STEEPS_COLORS = {
-    "S": "#2d5be3",
-    "T": "#7c3aed",
-    "E": "#ea580c",
-    "Env": "#059669",
-    "P": "#dc2626",
-    "s": "#ca8a04",
+    "S": "#268bd2",
+    "T": "#6c71c4",
+    "E": "#cb4b16",
+    "Env": "#2aa198",
+    "P": "#dc322f",
+    "s": "#b58900",
 }
 
 STEEPS_ORDER = ["S", "T", "E", "Env", "P", "s"]
@@ -77,14 +77,14 @@ FSSF_ORDER = [
 ]
 
 FSSF_COLORS = {
-    "Weak Signal": "#dc2626",
-    "Wild Card": "#ea580c",
-    "Discontinuity": "#ca8a04",
-    "Driver": "#059669",
-    "Emerging Issue": "#0891b2",
-    "Precursor Event": "#2d5be3",
-    "Trend": "#7c3aed",
-    "Megatrend": "#5f6577",
+    "Weak Signal": "#dc322f",
+    "Wild Card": "#cb4b16",
+    "Discontinuity": "#b58900",
+    "Driver": "#859900",
+    "Emerging Issue": "#2aa198",
+    "Precursor Event": "#268bd2",
+    "Trend": "#6c71c4",
+    "Megatrend": "#586e75",
 }
 
 # Report file naming patterns per WF
@@ -412,14 +412,16 @@ def md_to_html(md_text: str) -> str:
 # ---------------------------------------------------------------------------
 
 def _build_css() -> str:
-    """Return the complete CSS stylesheet."""
+    """Return the complete CSS stylesheet (Solarized Light palette)."""
     return """
 :root {
-  --bg: #f5f6f8; --card: #fff; --border: #e2e4ea; --text: #1a1d27; --muted: #5f6577;
-  --accent: #2d5be3; --red: #dc2626; --orange: #ea580c; --yellow: #ca8a04;
-  --green: #059669; --cyan: #0891b2; --purple: #7c3aed;
-  --wf1: #2d5be3; --wf2: #7c3aed; --wf3: #059669; --wf4: #ea580c;
-  --radius: 10px; --shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+  color-scheme: light;
+  /* Solarized Light: base3/base2 + accents */
+  --bg: #fdf6e3; --card: #eee8d5; --border: #d9cbb8; --text: #586e75; --muted: #93a1a1;
+  --accent: #268bd2; --red: #dc322f; --orange: #cb4b16; --yellow: #b58900;
+  --green: #859900; --cyan: #2aa198; --purple: #6c71c4;
+  --wf1: #268bd2; --wf2: #6c71c4; --wf3: #859900; --wf4: #cb4b16;
+  --radius: 10px; --shadow: 0 1px 2px rgba(7, 54, 66, 0.08), 0 1px 3px rgba(7, 54, 66, 0.06);
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -430,8 +432,8 @@ body {
 }
 
 .dashboard-header {
-  background: linear-gradient(135deg, #1a1d27, #2d3748);
-  color: #fff; padding: 24px 32px; display: flex; align-items: center; justify-content: space-between;
+  background: linear-gradient(135deg, #073642, #268bd2);
+  color: #fdf6e3; padding: 24px 32px; display: flex; align-items: center; justify-content: space-between;
 }
 .dashboard-header h1 { font-size: 22px; font-weight: 700; letter-spacing: -0.3px; }
 .dashboard-header .meta { font-size: 13px; opacity: 0.7; }
@@ -446,7 +448,7 @@ body {
   border: none; background: none; color: var(--muted); white-space: nowrap;
   border-bottom: 3px solid transparent; transition: all 0.15s;
 }
-.tab-btn:hover { color: var(--text); background: rgba(0,0,0,0.02); }
+.tab-btn:hover { color: var(--text); background: rgba(7, 54, 66, 0.04); }
 .tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); }
 .tab-content { display: none; padding: 24px 32px; max-width: 1400px; margin: 0 auto; }
 .tab-content.active { display: block; }
@@ -493,7 +495,7 @@ body {
 /* Mega themes */
 .mega-theme {
   padding: 16px; border-left: 4px solid var(--accent); margin-bottom: 12px;
-  background: rgba(45, 91, 227, 0.03); border-radius: 0 var(--radius) var(--radius) 0;
+  background: rgba(38, 139, 210, 0.08); border-radius: 0 var(--radius) var(--radius) 0;
 }
 .mega-theme h4 { font-size: 14px; font-weight: 700; margin-bottom: 6px; }
 .mega-theme p { font-size: 13px; color: var(--muted); }
@@ -502,16 +504,16 @@ body {
 .signal-table { width: 100%; border-collapse: separate; border-spacing: 0; font-size: 13px; }
 .signal-table thead { position: sticky; top: 50px; z-index: 10; }
 .signal-table th {
-  background: #f0f1f5; padding: 10px 12px; text-align: left; font-weight: 700;
+  background: #eee8d5; padding: 10px 12px; text-align: left; font-weight: 700;
   border-bottom: 2px solid var(--border); font-size: 12px; color: var(--muted);
 }
 .signal-table td { padding: 10px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
-.signal-table tr:hover td { background: rgba(45, 91, 227, 0.02); }
+.signal-table tr:hover td { background: rgba(38, 139, 210, 0.06); }
 
 /* Rank badge */
 .rank-badge {
   display: inline-flex; align-items: center; justify-content: center;
-  width: 28px; height: 28px; border-radius: 50%; color: #fff;
+  width: 28px; height: 28px; border-radius: 50%; color: #fdf6e3;
   font-size: 12px; font-weight: 800;
 }
 .rank-tier-1 { background: var(--red); }
@@ -521,19 +523,19 @@ body {
 /* WF badge */
 .wf-badge {
   display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px;
-  font-weight: 700; color: #fff;
+  font-weight: 700; color: #fdf6e3;
 }
 
 /* STEEPs tag */
 .steeps-tag {
   display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px;
-  font-weight: 700; color: #fff;
+  font-weight: 700; color: #fdf6e3;
 }
 
 /* FSSF tag */
 .fssf-tag {
   display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 10px;
-  font-weight: 600; color: #fff; background: var(--muted);
+  font-weight: 600; color: #fdf6e3; background: var(--muted);
 }
 
 /* Gate status */
@@ -543,7 +545,7 @@ body {
 
 /* Risk matrix table */
 .risk-table { width: 100%; border-collapse: collapse; font-size: 13px; }
-.risk-table th { background: #f0f1f5; padding: 10px 12px; text-align: left; font-weight: 700; font-size: 12px; }
+.risk-table th { background: #eee8d5; padding: 10px 12px; text-align: left; font-weight: 700; font-size: 12px; }
 .risk-table td { padding: 10px 12px; border-bottom: 1px solid var(--border); }
 .risk-bar {
   height: 8px; border-radius: 4px; background: var(--border);
@@ -568,21 +570,21 @@ body {
 .report-content li { margin-bottom: 4px; }
 .report-content blockquote {
   border-left: 3px solid var(--accent); padding: 8px 16px; margin: 12px 0;
-  background: rgba(45, 91, 227, 0.03); color: var(--muted);
+  background: rgba(38, 139, 210, 0.06); color: var(--muted);
 }
 .report-content hr { border: none; border-top: 1px solid var(--border); margin: 16px 0; }
 .report-content .md-table {
   width: 100%; border-collapse: collapse; font-size: 13px; margin: 12px 0;
 }
 .report-content .md-table th {
-  background: #f0f1f5; padding: 8px 10px; text-align: left; font-weight: 600;
+  background: #eee8d5; padding: 8px 10px; text-align: left; font-weight: 600;
   border-bottom: 2px solid var(--border);
 }
 .report-content .md-table td { padding: 8px 10px; border-bottom: 1px solid var(--border); }
 .report-content .table-wrap { overflow-x: auto; }
 .report-content a { color: var(--accent); text-decoration: none; }
 .report-content a:hover { text-decoration: underline; }
-.notice { padding: 12px 16px; border-radius: 8px; border-left: 4px solid var(--accent); background: rgba(45,91,227,.04); font-size: 12px; color: var(--muted); margin-bottom: 16px; line-height: 1.6; }
+.notice { padding: 12px 16px; border-radius: 8px; border-left: 4px solid var(--accent); background: rgba(38,139,210,.08); font-size: 12px; color: var(--muted); margin-bottom: 16px; line-height: 1.6; }
 .notice strong { color: var(--text); }
 .notice code { background: var(--border); padding: 1px 4px; border-radius: 3px; font-size: 11px; }
 
@@ -598,6 +600,60 @@ body {
   .kpi-grid { grid-template-columns: repeat(2, 1fr); }
   .chart-grid { grid-template-columns: 1fr; }
 }
+
+/* === Signal Map Visualization === */
+.sigmap-container { position: relative; width: 100%; overflow-x: auto; }
+.sigmap-svg { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans KR', sans-serif; }
+.sigmap-bubble { cursor: pointer; transition: opacity 0.12s; stroke: #fdf6e3; stroke-width: 2; }
+.sigmap-bubble:hover { opacity: 1 !important; }
+.sigmap-bubble.dimmed { opacity: 0.12; }
+.sigmap-lane-bg { opacity: 0.04; }
+.sigmap-lane-label { font-size: 12px; font-weight: 700; fill: var(--muted); }
+.sigmap-axis text { font-size: 11px; fill: var(--muted); }
+.sigmap-axis line, .sigmap-axis path { stroke: var(--border); }
+
+.sigmap-tooltip {
+  position: absolute; pointer-events: none; opacity: 0;
+  background: #073642; color: #eee8d5; padding: 14px 18px;
+  border-radius: 10px; font-size: 13px; line-height: 1.5;
+  max-width: 400px; box-shadow: 0 8px 32px rgba(7, 54, 66, 0.35);
+  transition: opacity 0.12s; z-index: 200;
+}
+.sigmap-tooltip .tt-title { font-weight: 700; font-size: 14px; margin-bottom: 4px; }
+.sigmap-tooltip .tt-ko { font-size: 12px; color: #93a1a1; margin-bottom: 8px; }
+.sigmap-tooltip .tt-badges { display: flex; gap: 4px; flex-wrap: wrap; margin-bottom: 6px; }
+.sigmap-tooltip .tt-badge {
+  display: inline-block; padding: 2px 8px; border-radius: 4px;
+  font-size: 10px; font-weight: 700; color: #fdf6e3;
+}
+.sigmap-tooltip .tt-meta { font-size: 12px; color: #93a1a1; }
+
+.sigmap-filters {
+  display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 14px; align-items: center;
+}
+.sigmap-fbtn {
+  padding: 5px 12px; border-radius: 6px; font-size: 11px; font-weight: 600;
+  cursor: pointer; border: 2px solid transparent; transition: all 0.12s;
+  background: var(--bg); color: var(--muted);
+}
+.sigmap-fbtn.active { color: #fdf6e3; }
+.sigmap-fbtn[data-wf="wf1-general"].active { background: var(--wf1); border-color: var(--wf1); }
+.sigmap-fbtn[data-wf="wf2-arxiv"].active { background: var(--wf2); border-color: var(--wf2); }
+.sigmap-fbtn[data-wf="wf3-naver"].active { background: var(--wf3); border-color: var(--wf3); }
+.sigmap-fbtn[data-wf="wf4-multiglobal-news"].active { background: var(--wf4); border-color: var(--wf4); }
+
+.sigmap-legend {
+  display: flex; gap: 14px; flex-wrap: wrap; margin-top: 10px;
+  padding: 10px 14px; background: var(--bg); border-radius: 8px; font-size: 11px; color: var(--muted);
+}
+.sigmap-legend-item { display: flex; align-items: center; gap: 5px; }
+.sigmap-legend-dot { width: 12px; height: 12px; border-radius: 50%; border: 2px solid #fdf6e3; }
+
+@keyframes tipping-pulse {
+  0%, 100% { stroke-opacity: 1; }
+  50% { stroke-opacity: 0.3; }
+}
+.sigmap-tipping { animation: tipping-pulse 1.2s ease-in-out infinite; stroke-width: 3; }
 """
 
 
@@ -611,6 +667,10 @@ function showTab(tabId) {
   if (target) target.classList.add('active');
   const btn = document.querySelector('[data-tab="' + tabId + '"]');
   if (btn) btn.classList.add('active');
+  // Lazy-init signal map when timeline tab is first shown
+  if (tabId === 'tab-timeline' && typeof window.__renderSignalMap === 'function') {
+    setTimeout(window.__renderSignalMap, 50);
+  }
 }
 
 function showSubTab(parentId, subTabId) {
@@ -651,14 +711,14 @@ def _steeps_tag_html(code: str) -> str:
         "Env": "E 환경", "P": "P 정치", "s": "s 정신",
     }
     label = labels.get(code, code)
-    color = STEEPS_COLORS.get(code, "#5f6577")
+    color = STEEPS_COLORS.get(code, "#586e75")
     return f'<span class="steeps-tag" style="background:{color}">{_esc(label)}</span>'
 
 
 def _wf_badge_html(wf_key: str) -> str:
     """Render a WF badge."""
     label = WF_LABELS_SHORT.get(wf_key, wf_key)
-    color = WF_CSS_HEX.get(wf_key, "#5f6577")
+    color = WF_CSS_HEX.get(wf_key, "#586e75")
     return f'<span class="wf-badge" style="background:{color}">{_esc(label)}</span>'
 
 
@@ -666,7 +726,7 @@ def _fssf_tag_html(fssf_type: str) -> str:
     """Render an FSSF type tag."""
     if not fssf_type:
         return ""
-    color = FSSF_COLORS.get(fssf_type, "#5f6577")
+    color = FSSF_COLORS.get(fssf_type, "#586e75")
     return f'<span class="fssf-tag" style="background:{color}">{_esc(fssf_type)}</span>'
 
 
@@ -680,6 +740,53 @@ def _gate_status_html(status: str) -> str:
     elif s == "WARN":
         return '<span class="gate-warn">WARN</span>'
     return f'<span>{_esc(s)}</span>'
+
+
+def _get_section_by_number(narratives: Dict, section_num: int) -> str:
+    """Get narrative section by number prefix, language-independent."""
+    prefix = f"{section_num}."
+    for key, value in narratives.items():
+        if key.startswith(prefix):
+            return value
+    return ""
+
+
+def _narrative_card_with_subtabs(
+    card_title: str,
+    card_id: str,
+    en_content: str,
+    ko_content: str,
+) -> str:
+    """Build a narrative card with EN/KO sub-tabs. KO default, EN toggle."""
+    en_html = md_to_html(en_content) if en_content else ""
+    ko_html = md_to_html(ko_content) if ko_content else ""
+
+    # If no KO content, show EN only (no tabs)
+    if not ko_html:
+        content_html = en_html if en_html else "<p><em>데이터 없음</em></p>"
+        return f'''
+    <div class="card">
+      <div class="card-title">{_esc(card_title)}</div>
+      <div class="report-content narrative-section">{content_html}</div>
+    </div>'''
+
+    # Both available: show sub-tabs (KO default)
+    en_sub_id = f"{card_id}-en"
+    ko_sub_id = f"{card_id}-ko"
+    return f'''
+    <div class="card" id="{card_id}">
+      <div class="card-title">{_esc(card_title)}</div>
+      <div class="subtab-bar">
+        <button class="subtab-btn active" data-subtab="{ko_sub_id}" onclick="showSubTab('{card_id}', '{ko_sub_id}')">한국어</button>
+        <button class="subtab-btn" data-subtab="{en_sub_id}" onclick="showSubTab('{card_id}', '{en_sub_id}')">English</button>
+      </div>
+      <div id="{ko_sub_id}" class="subtab-content active">
+        <div class="report-content narrative-section">{ko_html}</div>
+      </div>
+      <div id="{en_sub_id}" class="subtab-content">
+        <div class="report-content narrative-section">{en_html}</div>
+      </div>
+    </div>'''
 
 
 def _source_display(source: Any) -> str:
@@ -734,7 +841,7 @@ def build_overview_tab(data: Dict) -> str:
         count = wf_info.get("signal_count", 0)
         status = wf_info.get("status", "unknown")
         validation = wf_info.get("validation", "N/A")
-        color = WF_CSS_HEX.get(wf_key, "#5f6577")
+        color = WF_CSS_HEX.get(wf_key, "#586e75")
         label = WF_LABELS.get(wf_key, wf_key)
         kpi_html += f'''
     <div class="kpi-card" style="border-top: 3px solid {color}">
@@ -766,7 +873,7 @@ def build_overview_tab(data: Dict) -> str:
     for code in STEEPS_ORDER:
         steeps_chart_labels.append(steeps_labels_map.get(code, code))
         steeps_chart_values.append(steeps_total.get(code, 0))
-        steeps_chart_colors.append(STEEPS_COLORS.get(code, "#5f6577"))
+        steeps_chart_colors.append(STEEPS_COLORS.get(code, "#586e75"))
 
     fssf_total = fssf.get("total", {})
     fssf_chart_labels = []
@@ -776,7 +883,7 @@ def build_overview_tab(data: Dict) -> str:
         if ftype in fssf_total:
             fssf_chart_labels.append(ftype)
             fssf_chart_values.append(fssf_total[ftype])
-            fssf_chart_colors.append(FSSF_COLORS.get(ftype, "#5f6577"))
+            fssf_chart_colors.append(FSSF_COLORS.get(ftype, "#586e75"))
 
     # WF pie chart data
     wf_pie_labels = []
@@ -788,7 +895,7 @@ def build_overview_tab(data: Dict) -> str:
         if count > 0:
             wf_pie_labels.append(WF_LABELS.get(wf_key, wf_key))
             wf_pie_values.append(count)
-            wf_pie_colors.append(WF_CSS_HEX.get(wf_key, "#5f6577"))
+            wf_pie_colors.append(WF_CSS_HEX.get(wf_key, "#586e75"))
 
     charts_html = '<div class="chart-grid">'
 
@@ -833,8 +940,8 @@ document.addEventListener('DOMContentLoaded', function() {{
         datasets: [{{
           label: '시그널 수',
           data: {json.dumps(steeps_chart_values)},
-          backgroundColor: 'rgba(45, 91, 227, 0.15)',
-          borderColor: 'rgba(45, 91, 227, 0.8)',
+          backgroundColor: 'rgba(38, 139, 210, 0.15)',
+          borderColor: 'rgba(38, 139, 210, 0.85)',
           borderWidth: 2,
           pointBackgroundColor: {json.dumps(steeps_chart_colors)},
           pointRadius: 5,
@@ -845,7 +952,7 @@ document.addEventListener('DOMContentLoaded', function() {{
         plugins: {{
           legend: {{ display: false }},
           datalabels: {{
-            color: '#1a1d27',
+            color: '#586e75',
             font: {{ size: 11, weight: 'bold' }},
             anchor: 'end',
             align: 'end',
@@ -910,7 +1017,7 @@ document.addEventListener('DOMContentLoaded', function() {{
           data: {json.dumps(wf_pie_values)},
           backgroundColor: {json.dumps(wf_pie_colors)},
           borderWidth: 2,
-          borderColor: '#fff',
+          borderColor: '#fdf6e3',
         }}]
       }},
       options: {{
@@ -918,7 +1025,7 @@ document.addEventListener('DOMContentLoaded', function() {{
         plugins: {{
           legend: {{ position: 'bottom', labels: {{ font: {{ size: 12 }}, padding: 16 }} }},
           datalabels: {{
-            color: '#fff',
+            color: '#fdf6e3',
             font: {{ size: 13, weight: 'bold' }},
             formatter: function(value, ctx) {{
               var total = ctx.chart.data.datasets[0].data.reduce(function(a,b){{ return a+b; }}, 0);
@@ -1014,6 +1121,7 @@ def build_top20_tab(data: Dict) -> str:
     for i, sig in enumerate(top20, 1):
         tier = _rank_tier_class(i)
         title = sig.get("title", "N/A")
+        title_ko = sig.get("title_ko", "")
         steeps = sig.get("steeps", "?")
         fssf = sig.get("fssf_type", "")
         impact = sig.get("impact_score", 0)
@@ -1021,20 +1129,16 @@ def build_top20_tab(data: Dict) -> str:
         source = _source_display(sig.get("source", ""))
         wf_key = sig.get("_wf", "")
 
-        # Determine if title is English (simple heuristic: mostly ASCII)
-        is_english = sum(1 for c in title if ord(c) < 128) / max(len(title), 1) > 0.7
-        ko_annotation = ""
-        if is_english:
-            # For English titles, we show a small Korean annotation hint
-            ko_annotation = '<div style="font-size:11px;color:var(--muted);margin-top:2px">[EN]</div>'
-        else:
-            ko_annotation = '<div style="font-size:11px;color:var(--muted);margin-top:2px">[KO]</div>'
+        # Bilingual display: English title + Korean subtitle (if available)
+        ko_subtitle = ""
+        if title_ko:
+            ko_subtitle = f'<div style="font-size:12px;color:var(--muted);margin-top:2px">{_esc(title_ko)}</div>'
 
         rows += f'''<tr>
   <td><span class="rank-badge {tier}">{i}</span></td>
   <td>
     <div style="font-weight:600">{_esc(title)}</div>
-    {ko_annotation}
+    {ko_subtitle}
   </td>
   <td>{_steeps_tag_html(steeps)}</td>
   <td>{_fssf_tag_html(fssf)}</td>
@@ -1069,7 +1173,7 @@ def build_wf_summary_tab(data: Dict, wf_key: str) -> str:
     """Build a per-WF summary tab with signal table."""
     top_signals = data.get("top_signals", {}).get(wf_key, [])
     label = WF_LABELS.get(wf_key, wf_key)
-    color = WF_CSS_HEX.get(wf_key, "#5f6577")
+    color = WF_CSS_HEX.get(wf_key, "#586e75")
 
     kpis = data.get("kpis", {}).get("per_workflow", {}).get(wf_key, {})
     count = kpis.get("signal_count", 0)
@@ -1095,15 +1199,24 @@ def build_wf_summary_tab(data: Dict, wf_key: str) -> str:
     for sig in top_signals:
         rank = sig.get("rank", "-")
         title = sig.get("title", "N/A")
+        title_ko = sig.get("title_ko", "")
         steeps = sig.get("steeps", "?")
         fssf = sig.get("fssf_type", "")
         impact = sig.get("impact_score", 0)
         psst = sig.get("psst_score", 0)
         source = _source_display(sig.get("source", ""))
 
+        # Bilingual display: English title + Korean subtitle (if available)
+        ko_subtitle = ""
+        if title_ko:
+            ko_subtitle = f'<div style="font-size:12px;color:var(--muted);margin-top:2px">{_esc(title_ko)}</div>'
+
         rows += f'''<tr>
   <td style="text-align:center;font-weight:700">{rank}</td>
-  <td style="font-weight:600">{_esc(title)}</td>
+  <td>
+    <div style="font-weight:600">{_esc(title)}</div>
+    {ko_subtitle}
+  </td>
   <td>{_steeps_tag_html(steeps)}</td>
   <td>{_fssf_tag_html(fssf)}</td>
   <td>{_esc(source)}</td>
@@ -1140,12 +1253,16 @@ def build_wf_summary_tab(data: Dict, wf_key: str) -> str:
 def build_patterns_tab(data: Dict) -> str:
     """Build the '패턴·클러스터' tab from narratives section 4."""
     narratives = data.get("narratives", {})
-    section4 = narratives.get("4. Patterns and Connections", "")
+    narratives_ko = data.get("narratives_ko", {})
+    section4_en = _get_section_by_number(narratives, 4)
+    section4_ko = _get_section_by_number(narratives_ko, 4)
     cross_wf = data.get("cross_wf", {})
     reinforcement_count = cross_wf.get("reinforcement_count", 0)
     reinforcements = cross_wf.get("reinforcements", [])
 
-    content_html = md_to_html(section4) if section4 else "<p><em>패턴 및 연결 데이터 없음</em></p>"
+    # Bilingual narrative card
+    patterns_card = _narrative_card_with_subtabs(
+        "패턴 및 연결", "narrative-patterns", section4_en, section4_ko)
 
     # Cross-WF reinforcement table
     reinf_html = ""
@@ -1178,10 +1295,7 @@ def build_patterns_tab(data: Dict) -> str:
     </div>'''
 
     return f'''
-    <div class="card">
-      <div class="card-title">패턴 및 연결</div>
-      <div class="report-content narrative-section">{content_html}</div>
-    </div>
+    {patterns_card}
     {reinf_html}
     '''
 
@@ -1189,10 +1303,14 @@ def build_patterns_tab(data: Dict) -> str:
 def build_strategic_tab(data: Dict) -> str:
     """Build the '전략적 함의' tab from narratives section 5 + risk matrix."""
     narratives = data.get("narratives", {})
-    section5 = narratives.get("5. Strategic Implications", "")
+    narratives_ko = data.get("narratives_ko", {})
+    section5_en = _get_section_by_number(narratives, 5)
+    section5_ko = _get_section_by_number(narratives_ko, 5)
     risk_matrix = data.get("risk_matrix", [])
 
-    content_html = md_to_html(section5) if section5 else "<p><em>전략적 함의 데이터 없음</em></p>"
+    # Bilingual narrative card
+    strategic_card = _narrative_card_with_subtabs(
+        "전략적 함의", "narrative-strategic", section5_en, section5_ko)
 
     # Risk matrix table
     risk_html = ""
@@ -1249,10 +1367,7 @@ def build_strategic_tab(data: Dict) -> str:
     </div>'''
 
     return f'''
-    <div class="card">
-      <div class="card-title">전략적 함의</div>
-      <div class="report-content narrative-section">{content_html}</div>
-    </div>
+    {strategic_card}
     {risk_html}
     '''
 
@@ -1260,10 +1375,14 @@ def build_strategic_tab(data: Dict) -> str:
 def build_scenario_tab(data: Dict) -> str:
     """Build the '시나리오·리스크' tab from narratives section 6 + risk matrix."""
     narratives = data.get("narratives", {})
-    section6 = narratives.get("6. Plausible Scenarios", "")
+    narratives_ko = data.get("narratives_ko", {})
+    section6_en = _get_section_by_number(narratives, 6)
+    section6_ko = _get_section_by_number(narratives_ko, 6)
     risk_matrix = data.get("risk_matrix", [])
 
-    content_html = md_to_html(section6) if section6 else "<p><em>시나리오 데이터 없음</em></p>"
+    # Bilingual narrative card
+    scenario_card = _narrative_card_with_subtabs(
+        "시나리오 및 리스크", "narrative-scenario", section6_en, section6_ko)
 
     # Risk matrix summary (compact visual)
     risk_summary = ""
@@ -1304,12 +1423,230 @@ def build_scenario_tab(data: Dict) -> str:
     </div>'''
 
     return f'''
-    <div class="card">
-      <div class="card-title">시나리오 및 리스크</div>
-      <div class="report-content narrative-section">{content_html}</div>
-    </div>
+    {scenario_card}
     {risk_summary}
     '''
+
+
+def build_signal_map(data: Dict) -> str:
+    """Build an interactive D3.js signal bubble map — STEEPs × Impact.
+
+    All data is Python-serialized JSON embedded in JS. Zero LLM involvement.
+    Falls back to empty message if D3 CDN fails.
+    """
+    import json as _json
+
+    # Merge all WF signals into a flat list for visualization
+    top_signals = data.get("top_signals", {})
+    all_sigs = []
+    for wf_key in WF_KEYS:
+        for sig in top_signals.get(wf_key, []):
+            all_sigs.append({
+                "id": sig.get("id", ""),
+                "title": sig.get("title", ""),
+                "title_ko": sig.get("title_ko", ""),
+                "steeps": sig.get("steeps", "?"),
+                "fssf": sig.get("fssf_type", ""),
+                "horizon": sig.get("three_horizons", ""),
+                "impact": sig.get("impact_score", 0),
+                "psst": sig.get("psst_score", 0),
+                "wf": wf_key,
+                "rank": sig.get("rank", 0),
+            })
+
+    signals_json = _json.dumps(all_sigs, ensure_ascii=False)
+
+    return f'''
+    <div class="card">
+      <div class="card-title">시그널 맵 (Signal Map) — STEEPs × Impact</div>
+      <p style="font-size:12px;color:var(--muted);margin-bottom:10px">
+        버블 크기 = 영향도 &middot; 색상 = 워크플로우 &middot; 호버하면 상세 정보 표시
+      </p>
+
+      <div class="sigmap-filters" id="sigmap-filters">
+        <span style="font-size:11px;font-weight:700;color:var(--muted)">WF:</span>
+        <button class="sigmap-fbtn active" data-wf="wf1-general">WF1 일반</button>
+        <button class="sigmap-fbtn active" data-wf="wf2-arxiv">WF2 arXiv</button>
+        <button class="sigmap-fbtn active" data-wf="wf3-naver">WF3 네이버</button>
+        <button class="sigmap-fbtn active" data-wf="wf4-multiglobal-news">WF4 글로벌</button>
+      </div>
+
+      <div class="sigmap-container" id="sigmap-container">
+        <div class="sigmap-tooltip" id="sigmap-tooltip"></div>
+      </div>
+
+      <div class="sigmap-legend">
+        <div class="sigmap-legend-item"><div class="sigmap-legend-dot" style="background:var(--wf1)"></div>WF1 일반</div>
+        <div class="sigmap-legend-item"><div class="sigmap-legend-dot" style="background:var(--wf2)"></div>WF2 arXiv</div>
+        <div class="sigmap-legend-item"><div class="sigmap-legend-dot" style="background:var(--wf3)"></div>WF3 네이버</div>
+        <div class="sigmap-legend-item"><div class="sigmap-legend-dot" style="background:var(--wf4)"></div>WF4 글로벌</div>
+        <span style="width:1px;height:14px;background:var(--border)"></span>
+        <span style="font-size:11px;color:var(--muted)">크기 = 영향도</span>
+        <span style="width:1px;height:14px;background:var(--border)"></span>
+        <span style="font-size:11px;color:var(--muted)">⚡ = Tipping Point</span>
+      </div>
+    </div>
+
+    <script>
+    window.__sigmap_data = {signals_json};
+    window.__sigmap_rendered = false;
+    window.__renderSignalMap = function() {{
+      if (window.__sigmap_rendered) return;
+      var container = document.getElementById('sigmap-container');
+      if (!container || container.clientWidth < 10) return;
+      window.__sigmap_rendered = true;
+
+      if (typeof d3 === 'undefined' || window.__d3Failed) {{
+        container.innerHTML =
+          '<div style="padding:32px;text-align:center;color:#586e75;font-size:13px;border:1px dashed #93a1a1;border-radius:8px;background:#eee8d5">' +
+          '<strong>시그널 맵 로딩 실패</strong><br>D3.js CDN에 접근할 수 없습니다. 아래 타임라인 상세를 참고하세요.</div>';
+        return;
+      }}
+
+      var signals = window.__sigmap_data;
+      if (!signals.length) return;
+
+      var STEEPS_ORDER = ['S','T','E','Env','P','s'];
+      var STEEPS_LABEL = {{S:'S 사회',T:'T 기술',E:'E 경제',Env:'Env 환경',P:'P 정치',s:'s 정신','?':'? 미분류'}};
+      var STEEPS_COLOR = {{S:'#268bd2',T:'#6c71c4',E:'#cb4b16',Env:'#2aa198',P:'#dc322f',s:'#b58900','?':'#586e75'}};
+      var WF_COLOR = {{'wf1-general':'#268bd2','wf2-arxiv':'#6c71c4','wf3-naver':'#859900','wf4-multiglobal-news':'#cb4b16'}};
+      var WF_LABEL = {{'wf1-general':'WF1','wf2-arxiv':'WF2','wf3-naver':'WF3','wf4-multiglobal-news':'WF4'}};
+
+      // Include '?' category if any signal has it
+      var cats = STEEPS_ORDER.slice();
+      if (signals.some(function(s){{ return s.steeps === '?'; }})) cats.push('?');
+
+      var container = document.getElementById('sigmap-container');
+      var tooltip = document.getElementById('sigmap-tooltip');
+      var margin = {{top:20, right:30, bottom:40, left:80}};
+      var fullW = Math.min(container.clientWidth, 1200);
+      var laneH = 80;
+      var width = fullW - margin.left - margin.right;
+      var height = cats.length * laneH;
+
+      var svg = d3.select(container).append('svg')
+        .attr('class','sigmap-svg')
+        .attr('width', fullW)
+        .attr('height', height + margin.top + margin.bottom)
+        .append('g').attr('transform','translate('+margin.left+','+margin.top+')');
+
+      // Y: categorical lanes
+      var y = d3.scaleBand().domain(cats).range([0, height]).padding(0.08);
+
+      // X: impact score
+      var maxImpact = d3.max(signals, function(s){{ return s.impact; }}) || 10;
+      var x = d3.scaleLinear().domain([0, Math.max(maxImpact * 1.1, 10)]).range([0, width]);
+
+      // Bubble radius
+      var r = d3.scaleSqrt().domain([0, maxImpact || 10]).range([5, 20]);
+
+      // Draw lane backgrounds
+      cats.forEach(function(cat) {{
+        svg.append('rect')
+          .attr('class','sigmap-lane-bg')
+          .attr('x',0).attr('y',y(cat))
+          .attr('width',width).attr('height',y.bandwidth())
+          .attr('fill', STEEPS_COLOR[cat] || '#586e75');
+        svg.append('text')
+          .attr('class','sigmap-lane-label')
+          .attr('x',-8).attr('y', y(cat) + y.bandwidth()/2)
+          .attr('text-anchor','end').attr('dominant-baseline','middle')
+          .text(STEEPS_LABEL[cat] || cat);
+      }});
+
+      // X axis
+      svg.append('g')
+        .attr('class','sigmap-axis')
+        .attr('transform','translate(0,'+height+')')
+        .call(d3.axisBottom(x).ticks(6).tickFormat(function(d){{ return d; }}))
+        .append('text')
+        .attr('x', width/2).attr('y',32)
+        .attr('fill','var(--muted)').attr('font-size','12px').attr('text-anchor','middle')
+        .text('영향도 (Impact Score)');
+
+      // Force layout to prevent overlap
+      var nodes = signals.map(function(s) {{
+        return Object.assign({{}}, s, {{
+          fx: x(s.impact || 0),
+          targetY: y(s.steeps || '?') + y.bandwidth()/2,
+          radius: r(s.impact || 1)
+        }});
+      }});
+      nodes.forEach(function(n){{ n.x = n.fx; n.y = n.targetY; }});
+
+      var sim = d3.forceSimulation(nodes)
+        .force('y', d3.forceY(function(d){{ return d.targetY; }}).strength(0.6))
+        .force('collide', d3.forceCollide(function(d){{ return d.radius + 2; }}).iterations(4))
+        .stop();
+      for (var i = 0; i < 100; i++) sim.tick();
+
+      // Clamp Y within lanes
+      nodes.forEach(function(n) {{
+        var cat = n.steeps || '?';
+        var top = y(cat), bot = top + y.bandwidth();
+        n.y = Math.max(top + n.radius + 1, Math.min(bot - n.radius - 1, n.y));
+      }});
+
+      // Draw bubbles
+      var bubbles = svg.selectAll('.sigmap-bubble')
+        .data(nodes).enter().append('circle')
+        .attr('class', function(d) {{
+          return 'sigmap-bubble' + (d.fssf === 'Wild Card' || d.fssf === 'Discontinuity' ? ' sigmap-tipping' : '');
+        }})
+        .attr('cx', function(d){{ return d.x; }})
+        .attr('cy', function(d){{ return d.y; }})
+        .attr('r', function(d){{ return d.radius; }})
+        .attr('fill', function(d){{ return WF_COLOR[d.wf] || '#586e75'; }})
+        .attr('opacity', 0.75)
+        .attr('stroke', function(d) {{
+          return (d.fssf === 'Wild Card' || d.fssf === 'Discontinuity') ? '#dc322f' : '#fdf6e3';
+        }})
+        .on('mouseenter', function(ev, d) {{
+          d3.select(this).attr('opacity',1).attr('r', d.radius * 1.2);
+          var fssf_bg = (d.fssf === 'Wild Card' || d.fssf === 'Discontinuity') ? '#dc322f' :
+                        d.fssf ? '#586e75' : '';
+          var fssf_html = d.fssf ? '<span class="tt-badge" style="background:'+fssf_bg+'">'+d.fssf+'</span>' : '';
+          var hz_html = d.horizon ? '<span class="tt-badge" style="background:#073642">'+d.horizon+'</span>' : '';
+          tooltip.innerHTML =
+            '<div class="tt-title">' + d.title + '</div>' +
+            (d.title_ko ? '<div class="tt-ko">' + d.title_ko + '</div>' : '') +
+            '<div class="tt-badges">' +
+              '<span class="tt-badge" style="background:'+(STEEPS_COLOR[d.steeps]||'#586e75')+'">' + d.steeps + '</span>' +
+              fssf_html + hz_html +
+              '<span class="tt-badge" style="background:'+(WF_COLOR[d.wf]||'#586e75')+'">' + (WF_LABEL[d.wf]||d.wf) + '</span>' +
+            '</div>' +
+            '<div class="tt-meta">영향도: <strong style="color:#fdf6e3">' + d.impact + '</strong> &middot; 순위: #' + d.rank + '</div>';
+          tooltip.style.opacity = '1';
+          var rect = container.getBoundingClientRect();
+          var left = ev.clientX - rect.left + 16;
+          if (left + 400 > rect.width) left = ev.clientX - rect.left - 416;
+          tooltip.style.left = left + 'px';
+          tooltip.style.top = (ev.clientY - rect.top - 10) + 'px';
+        }})
+        .on('mousemove', function(ev) {{
+          var rect = container.getBoundingClientRect();
+          var left = ev.clientX - rect.left + 16;
+          if (left + 400 > rect.width) left = ev.clientX - rect.left - 416;
+          tooltip.style.left = left + 'px';
+          tooltip.style.top = (ev.clientY - rect.top - 10) + 'px';
+        }})
+        .on('mouseleave', function(ev, d) {{
+          d3.select(this).attr('opacity',0.75).attr('r', d.radius);
+          tooltip.style.opacity = '0';
+        }});
+
+      // Filter logic
+      var activeWFs = new Set(Object.keys(WF_COLOR));
+      document.querySelectorAll('.sigmap-fbtn').forEach(function(btn) {{
+        btn.addEventListener('click', function() {{
+          var wf = this.dataset.wf;
+          this.classList.toggle('active');
+          if (activeWFs.has(wf)) activeWFs.delete(wf); else activeWFs.add(wf);
+          bubbles.classed('dimmed', function(d){{ return !activeWFs.has(d.wf); }});
+        }});
+      }});
+    }};
+    </script>'''
 
 
 def build_report_tab(
@@ -1409,13 +1746,14 @@ class DashboardGenerator:
         strategic_content = build_strategic_tab(data)
         scenario_content = build_scenario_tab(data)
 
-        # Timeline map tab (with fallback transparency)
+        # Timeline map tab: Signal Map visualization + markdown detail sub-tabs
+        signal_map_html = build_signal_map(data)
+
         timeline_md = data.get("timeline_map")
         timeline_meta = data.get("timeline_map_meta") or {}
-        timeline_content = ""
+        timeline_detail_html = ""
         if timeline_md:
             timeline_html = md_to_html(timeline_md)
-            # Show fallback warning if timeline is not from today
             timeline_banner = ""
             if timeline_meta.get("source") == "fallback":
                 fb_date = _esc(timeline_meta.get("fallback_date", "?"))
@@ -1426,14 +1764,29 @@ class DashboardGenerator:
                 timeline_label = f"timeline-map-{fb_date}.md (fallback)"
             else:
                 timeline_label = f"timeline-map-{_esc(date)}.md"
-            timeline_content = f'''
+            timeline_detail_html = f'''
 {timeline_banner}
 <div class="card report-card">
 <div class="card-hdr"><span class="card-title">타임라인 맵 (Timeline Map)</span><span class="muted-sm">{timeline_label}</span></div>
 <div class="report-body">{timeline_html}</div>
 </div>'''
         else:
-            timeline_content = '<div class="card"><p class="muted-sm">이번 스캔 주기에 타임라인 맵이 생성되지 않았습니다.</p></div>'
+            timeline_detail_html = '<div class="card"><p class="muted-sm">이번 스캔 주기에 타임라인 맵이 생성되지 않았습니다.</p></div>'
+
+        # Assemble timeline tab with sub-tabs: 시그널 맵 (default) + 타임라인 상세
+        timeline_content = f'''
+    <div id="timeline-tab-parent">
+      <div class="subtab-bar">
+        <button class="subtab-btn active" data-subtab="timeline-viz-sub" onclick="showSubTab('timeline-tab-parent', 'timeline-viz-sub')">시그널 맵</button>
+        <button class="subtab-btn" data-subtab="timeline-detail-sub" onclick="showSubTab('timeline-tab-parent', 'timeline-detail-sub')">타임라인 상세</button>
+      </div>
+      <div id="timeline-viz-sub" class="subtab-content active">
+        {signal_map_html}
+      </div>
+      <div id="timeline-detail-sub" class="subtab-content">
+        {timeline_detail_html}
+      </div>
+    </div>'''
 
         report_tabs = {}
         report_order = ["wf1-general", "wf2-arxiv", "wf3-naver", "wf4-multiglobal-news", "integrated"]
@@ -1499,6 +1852,7 @@ class DashboardGenerator:
 <title>환경스캐닝 대시보드 — {_esc(date)}</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4" onerror="window.__chartjsFailed=true"></script>
 <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2" onerror="window.__chartjsFailed=true"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js" onerror="window.__d3Failed=true"></script>
 <script>
 // CDN fallback: if Chart.js failed to load (offline), remove canvas elements
 // and show fallback messages. canvas.remove() ensures getElementById returns null
@@ -1509,7 +1863,7 @@ window.addEventListener('DOMContentLoaded', function() {{
       var p = c.parentElement;
       c.remove();
       var msg = document.createElement('div');
-      msg.style.cssText = 'padding:32px;text-align:center;color:#5f6577;font-size:13px;border:1px dashed #e2e4ea;border-radius:8px;background:#f9fafb';
+      msg.style.cssText = 'padding:32px;text-align:center;color:#586e75;font-size:13px;border:1px dashed #93a1a1;border-radius:8px;background:#eee8d5';
       msg.innerHTML = '<strong>차트 로딩 실패</strong><br>오프라인 환경에서는 Chart.js CDN에 접근할 수 없습니다.<br>정량 데이터는 각 탭의 테이블에서 확인하세요.';
       p.appendChild(msg);
     }});

@@ -1,40 +1,39 @@
 {
-  "workflow_id": "wf3-naver-2026-03-24",
-  "scan_date": "2026-03-24",
+  "workflow": "wf3-naver",
+  "date": "2026-03-28",
   "status": "completed",
-  "signal_count": 36,
-  "completed_steps": [
-    "1.1",
-    "1.2",
-    "1.3",
-    "2.1",
-    "2.2",
-    "2.3",
-    "2.5_approved",
-    "3.1",
-    "3.2",
-    "3.2_validate_naver_en_19_20_WARN",
-    "3.3_archived",
-    "3.4_approved"
-  ],
-  "human_decisions": [
-    {
-      "step": "2.5",
-      "decision": "approved",
-      "notes": "Autopilot mode"
-    },
-    {
-      "step": "3.4",
-      "decision": "approved",
-      "notes": "Autopilot mode - Naver EN 19/20 WARN (STEEPS-001 only)"
-    }
-  ],
-  "validation": {
-    "l2a": {
-      "result": "WARN",
-      "passed": 19,
-      "total": 20
+  "phase_1": {
+    "status": "completed",
+    "articles_scanned": 270,
+    "signals_collected": 241,
+    "definite_duplicates_removed": 29,
+    "crawl_strategy": "direct_crawl"
+  },
+  "phase_2": {
+    "status": "completed",
+    "signals_classified": 15,
+    "steeps_categories": 4,
+    "fssf_types": 8,
+    "tipping_points": {
+      "RED": 2,
+      "ORANGE": 3,
+      "YELLOW": 6,
+      "GREEN": 4
     }
   },
-  "report_path": "env-scanning/wf3-naver/reports/daily/naver-scan-2026-03-24.md"
+  "phase_3": {
+    "status": "completed",
+    "report_en": "naver-scan-2026-03-28.md",
+    "report_ko": null,
+    "validation_en": "20/20 PASS",
+    "archived": true
+  },
+  "database": {
+    "signals_added": 15,
+    "total_signals": 1712
+  },
+  "checkpoints": {
+    "step_2_5": "auto-approved (autopilot)",
+    "step_3_4": "auto-approved (autopilot)"
+  }
 }

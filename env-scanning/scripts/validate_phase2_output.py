@@ -23,6 +23,7 @@ Checks:
     PG2-006: Tipping Point Color Validity (WF3/WF4 only) — ∈ 4 alert colors  — ERROR
     PG2-007: Signal Count Consistency — classified ≈ impact ≈ ranked          — ERROR
     PG2-008: Required Fields Exist — mandatory fields in priority-ranked       — CRITICAL
+    PG2-009: Korean Title Exists — title_ko non-empty in classified-signals   — WARN
 
 Usage:
     python3 env-scanning/scripts/validate_phase2_output.py \
@@ -479,6 +480,35 @@ def validate_phase2_output(
         checks.append(_file_missing_check(
             "PG2-008", "Required fields in priority-ranked signals",
             ranked_path, ranked_data))
+
+    # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    # PG2-009: Korean Title Exists (title_ko) — All Workflows
+    # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    def _has_korean(text: str) -> bool:
+        """Check if text contains at least one Korean character."""
+        return any('\uAC00' <= c <= '\uD7A3' or '\u3131' <= c <= '\u318E'
+                   for c in text)
+
+    if classified_signals is not None:
+        missing_ko = []
+        for sig in classified_signals:
+            sid = _sig_id(sig)
+            title_ko = sig.get("title_ko", "")
+            if not title_ko or not isinstance(title_ko, str) or not _has_korean(title_ko):
+                missing_ko.append(sid)
+
+        checks.append({
+            "id": "PG2-009",
+            "description": "Korean title (title_ko) exists for all classified signals",
+            "passed": len(missing_ko) == 0,
+            "severity": "WARN",
+            "detail": _violation_detail(missing_ko, len(classified_signals),
+                                        "signals have valid title_ko"),
+        })
+    else:
+        checks.append(_file_missing_check(
+            "PG2-009", "Korean title (title_ko) in classified signals",
+            classified_path, classified_data))
 
     # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
     # Compute Summary

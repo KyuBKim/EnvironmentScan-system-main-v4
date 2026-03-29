@@ -65,7 +65,7 @@ Task tracking provides Ctrl+T visibility during 30-60 min scans. **MANDATORY exe
 
 ### Context Preservation
 
-Context backup hooks in `.claude/hooks/` automatically save workflow state. On session restoration, read `.claude/context-backups/latest-context.md` to resume.
+Context backup hooks (`.claude/hooks/scripts/save_context.py`, `restore_context.py`) preserve workflow state on PreCompact events. On session restoration, if `.claude/context-backups/latest-context.md` exists, read it to resume. Otherwise, review memory files in the auto-memory directory for session context.
 
 ### Quality-First Context Memory (v3.5.1)
 

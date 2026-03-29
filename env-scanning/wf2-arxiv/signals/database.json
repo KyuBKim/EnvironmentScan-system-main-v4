@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "last_updated": "2026-03-24",
-    "total_signals": 1394,
-    "signals_added_today": 32
+    "last_updated": "2026-03-28",
+    "total_signals": 1505,
+    "signals_added_today": 17
   },
   "signals": [
     {
@@ -24065,8 +24065,1758 @@
       "arxiv_id": "2512.20798",
       "url": "https://arxiv.org/abs/2512.20798",
       "added_date": "2026-03-24"
+    },
+    {
+      "id": "arxiv-20260326-001",
+      "title": "Bilevel Autoresearch: Meta-Autoresearching Itself — AI Systems That Improve Their Own Research Methodology",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.23420",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "If autoresearch is itself a form of research, then autoresearch can be applied to research itself. We take this idea literally: we use AI systems to meta-optimize the autoresearch pipeline, creating recursive self-improvement loops in scientific methodology that can discover better research strategies autonomously.",
+        "keywords": [
+          "autoresearch",
+          "meta-learning",
+          "recursive self-improvement",
+          "AI research automation",
+          "scientific methodology"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 85,
+        "ES": 80,
+        "CC": 90,
+        "TC": 85,
+        "IC": 85
+      },
+      "psst_score": 85.0,
+      "psst_grade": "B",
+      "impact_score": 4.5,
+      "priority_score": 8.5,
+      "collected_at": "2026-03-26T08:00:00Z",
+      "rank": 1,
+      "keywords": [
+        "autoresearch",
+        "meta-learning",
+        "recursive self-improvement",
+        "AI research automation"
+      ],
+      "cross_impact": [
+        "s_spiritual",
+        "S_Social",
+        "E_Economic"
+      ],
+      "signal_status": "new"
+    },
+    {
+      "id": "arxiv-20260326-002",
+      "title": "Regulating AI Agents: Autonomous Systems That Take Actions With Limited Human Oversight Challenge Existing Legal Frameworks",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.23471",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "AI agents -- systems that can independently take actions to pursue complex goals with only limited human oversight -- present novel regulatory challenges. We analyze how existing legal frameworks fail to account for autonomous AI decision-making and propose regulatory approaches spanning liability, transparency, and control requirements.",
+        "keywords": [
+          "AI regulation",
+          "autonomous agents",
+          "legal frameworks",
+          "liability",
+          "governance"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "psst_dimensions": {
+        "SR": 80,
+        "ES": 85,
+        "CC": 85,
+        "TC": 80,
+        "IC": 85
+      },
+      "psst_score": 83.0,
+      "psst_grade": "B",
+      "impact_score": 4.5,
+      "priority_score": 8.3,
+      "collected_at": "2026-03-26T08:00:00Z",
+      "rank": 2,
+      "keywords": [
+        "AI regulation",
+        "autonomous agents",
+        "legal frameworks",
+        "AI governance"
+      ],
+      "cross_impact": [
+        "T_Technological",
+        "E_Economic",
+        "s_spiritual"
+      ],
+      "signal_status": "new"
+    },
+    {
+      "id": "arxiv-20260326-003",
+      "title": "Evidence of Political Bias in Search Engines and Language Models Before Major Elections",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.23474",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Search engines and large language models are central to political information access, yet their algorithmic decisions can systematically favor certain political viewpoints. We provide empirical evidence of measurable political bias in both search results and LLM outputs in the period preceding major elections across multiple countries.",
+        "keywords": [
+          "political bias",
+          "search engines",
+          "LLMs",
+          "elections",
+          "algorithmic bias",
+          "democracy"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "psst_dimensions": {
+        "SR": 80,
+        "ES": 80,
+        "CC": 85,
+        "TC": 80,
+        "IC": 80
+      },
+      "psst_score": 81.0,
+      "psst_grade": "B",
+      "impact_score": 4.0,
+      "priority_score": 8.1,
+      "collected_at": "2026-03-26T08:00:00Z",
+      "rank": 3,
+      "keywords": [
+        "political bias",
+        "search engines",
+        "LLMs",
+        "elections",
+        "democracy"
+      ],
+      "cross_impact": [
+        "S_Social",
+        "s_spiritual"
+      ],
+      "signal_status": "new"
+    },
+    {
+      "id": "arxiv-20260326-004",
+      "title": "Failure of Contextual Invariance in Gender Inference with Large Language Models",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.23485",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Standard evaluation practices assume that large language model outputs are stable under contextually equivalent formulations of a task. We demonstrate systematic failures of this assumption in gender inference tasks, where minor contextual variations produce dramatically different gender predictions, revealing deep instabilities in LLM reasoning.",
+        "keywords": [
+          "LLM bias",
+          "gender inference",
+          "contextual invariance",
+          "AI fairness",
+          "robustness"
+        ],
+        "language": "en"
+      },
+      "final_category": "s_spiritual",
+      "psst_dimensions": {
+        "SR": 75,
+        "ES": 80,
+        "CC": 85,
+        "TC": 75,
+        "IC": 80
+      },
+      "psst_score": 79.0,
+      "psst_grade": "B",
+      "impact_score": 4.0,
+      "priority_score": 7.9,
+      "collected_at": "2026-03-26T08:00:00Z",
+      "rank": 4,
+      "keywords": [
+        "LLM bias",
+        "gender inference",
+        "AI fairness",
+        "contextual invariance"
+      ],
+      "cross_impact": [
+        "S_Social",
+        "P_Political"
+      ],
+      "signal_status": "new"
+    },
+    {
+      "id": "arxiv-20260326-005",
+      "title": "Emergence of Fragility in LLM-based Social Networks: Autonomous AI Agents Create Brittle Online Communities",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.23279",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "The rapid diffusion of large language models has enabled emergence of online environments populated by autonomous AI agents. We study Moltbook, an LLM-populated social network, and find that AI agent communities exhibit characteristic fragility patterns not seen in human social networks, including cascade failures and echo chamber amplification.",
+        "keywords": [
+          "AI social networks",
+          "LLM agents",
+          "social fragility",
+          "echo chambers",
+          "cascade failure"
+        ],
+        "language": "en"
+      },
+      "final_category": "S_Social",
+      "psst_dimensions": {
+        "SR": 80,
+        "ES": 75,
+        "CC": 80,
+        "TC": 80,
+        "IC": 75
+      },
+      "psst_score": 78.0,
+      "psst_grade": "B",
+      "impact_score": 4.0,
+      "priority_score": 7.8,
+      "collected_at": "2026-03-26T08:00:00Z",
+      "rank": 5,
+      "keywords": [
+        "AI social networks",
+        "LLM agents",
+        "social fragility",
+        "cascade failure"
+      ],
+      "cross_impact": [
+        "T_Technological",
+        "s_spiritual"
+      ],
+      "signal_status": "new"
+    },
+    {
+      "id": "arxiv-20260326-006",
+      "title": "HEARTBEAT Vulnerability: AI Personal Agents Silently Compromised via Background Memory Pollution",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.23064",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "We identify a critical security vulnerability in mainstream personal AI agents: untrusted content encountered during heartbeat-driven background execution can silently pollute agent memory. This enables adversaries to manipulate agent behavior, decisions, and recommendations without user awareness, affecting data integrity and trust.",
+        "keywords": [
+          "AI security",
+          "memory pollution",
+          "personal AI agents",
+          "vulnerability",
+          "adversarial attack"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 80,
+        "ES": 75,
+        "CC": 85,
+        "TC": 80,
+        "IC": 75
+      },
+      "psst_score": 79.0,
+      "psst_grade": "B",
+      "impact_score": 4.0,
+      "priority_score": 7.9,
+      "collected_at": "2026-03-26T08:00:00Z",
+      "rank": 6,
+      "keywords": [
+        "AI security",
+        "memory pollution",
+        "personal agents",
+        "vulnerability"
+      ],
+      "cross_impact": [
+        "s_spiritual",
+        "P_Political"
+      ],
+      "signal_status": "new"
+    },
+    {
+      "id": "arxiv-20260326-007",
+      "title": "Multi-Ion Optical Clock Achieves 5x10^-19 Uncertainty: Precision Timekeeping Approaches Fundamental Limits",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.23446",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Todays most accurate clocks are based on laser spectroscopy of electronic transitions in single trapped ions. We demonstrate a multi-ion optical clock with systematic uncertainty of 5 parts in 10^19, representing a paradigm shift from single-ion to multi-ion architectures that enables practical deployment of ultra-precise timekeeping.",
+        "keywords": [
+          "optical clock",
+          "precision measurement",
+          "quantum sensing",
+          "fundamental physics",
+          "timekeeping"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 75,
+        "CC": 80,
+        "TC": 70,
+        "IC": 75
+      },
+      "psst_score": 74.0,
+      "psst_grade": "C",
+      "impact_score": 3.5,
+      "priority_score": 7.4,
+      "collected_at": "2026-03-26T08:00:00Z",
+      "rank": 7,
+      "keywords": [
+        "optical clock",
+        "precision measurement",
+        "quantum sensing",
+        "timekeeping"
+      ],
+      "cross_impact": [
+        "P_Political",
+        "E_Economic"
+      ],
+      "signal_status": "new"
+    },
+    {
+      "id": "arxiv-20260326-008",
+      "title": "Designing Agentic AI-Based Screening for Portfolio Investment: Three-Layer Architecture for Autonomous Financial Decision-Making",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.23300",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "We introduce a new agentic artificial intelligence platform for portfolio management with three architectural layers: signal detection, strategy formulation, and execution. The system autonomously screens investments, identifies opportunities, and executes trades with minimal human intervention, demonstrating AI-native financial decision-making.",
+        "keywords": [
+          "agentic AI",
+          "portfolio management",
+          "autonomous finance",
+          "investment screening",
+          "AI trading"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Economic",
+      "psst_dimensions": {
+        "SR": 75,
+        "ES": 70,
+        "CC": 80,
+        "TC": 75,
+        "IC": 75
+      },
+      "psst_score": 75.0,
+      "psst_grade": "C",
+      "impact_score": 4.0,
+      "priority_score": 7.5,
+      "collected_at": "2026-03-26T08:00:00Z",
+      "rank": 8,
+      "keywords": [
+        "agentic AI",
+        "portfolio management",
+        "autonomous finance",
+        "AI trading"
+      ],
+      "cross_impact": [
+        "T_Technological",
+        "P_Political"
+      ],
+      "signal_status": "new"
+    },
+    {
+      "id": "arxiv-20260326-009",
+      "title": "Byzantine-Robust and Differentially Private Federated Learning Under Weaker Assumptions",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.23472",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Federated Learning enables heterogeneous clients to collaboratively train a shared model without centralizing raw data. We achieve Byzantine robustness and differential privacy simultaneously under weaker assumptions than prior work, advancing privacy-preserving distributed AI training toward practical deployment.",
+        "keywords": [
+          "federated learning",
+          "Byzantine robustness",
+          "differential privacy",
+          "distributed AI",
+          "privacy"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 75,
+        "CC": 80,
+        "TC": 70,
+        "IC": 75
+      },
+      "psst_score": 74.0,
+      "psst_grade": "C",
+      "impact_score": 3.5,
+      "priority_score": 7.4,
+      "collected_at": "2026-03-26T08:00:00Z",
+      "rank": 9,
+      "keywords": [
+        "federated learning",
+        "Byzantine robustness",
+        "differential privacy",
+        "distributed AI"
+      ],
+      "cross_impact": [
+        "P_Political",
+        "s_spiritual"
+      ],
+      "signal_status": "new"
+    },
+    {
+      "id": "arxiv-20260326-010",
+      "title": "Systemic Gendered Citation Imbalance in Computer Science: Evidence from Conferences and Journals",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.23273",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Gender imbalance persists across STEM fields including computer science. We provide large-scale evidence of systemic gendered citation patterns showing that female-authored papers receive significantly fewer citations than male-authored papers even after controlling for venue, topic, and publication year.",
+        "keywords": [
+          "gender bias",
+          "citation imbalance",
+          "computer science",
+          "academic equity",
+          "STEM diversity"
+        ],
+        "language": "en"
+      },
+      "final_category": "S_Social",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 75,
+        "CC": 75,
+        "TC": 70,
+        "IC": 70
+      },
+      "psst_score": 72.0,
+      "psst_grade": "C",
+      "impact_score": 3.5,
+      "priority_score": 7.2,
+      "collected_at": "2026-03-26T08:00:00Z",
+      "rank": 10,
+      "keywords": [
+        "gender bias",
+        "citation imbalance",
+        "academic equity",
+        "STEM diversity"
+      ],
+      "cross_impact": [
+        "s_spiritual",
+        "E_Economic"
+      ],
+      "signal_status": "new"
+    },
+    {
+      "id": "arxiv-20260326-011",
+      "title": "Biased Error Attribution in Multi-Agent Human-AI Systems Under Delayed Feedback",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.23419",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Human decision-making is strongly influenced by cognitive biases, particularly under conditions of uncertainty and risk. In multi-agent human-AI systems, delayed feedback amplifies attribution bias, leading humans to systematically misattribute errors to AI agents while under-attributing errors to human team members.",
+        "keywords": [
+          "human-AI teams",
+          "error attribution",
+          "cognitive bias",
+          "delayed feedback",
+          "trust calibration"
+        ],
+        "language": "en"
+      },
+      "final_category": "s_spiritual",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 70,
+        "CC": 75,
+        "TC": 70,
+        "IC": 75
+      },
+      "psst_score": 72.0,
+      "psst_grade": "C",
+      "impact_score": 3.5,
+      "priority_score": 7.2,
+      "collected_at": "2026-03-26T08:00:00Z",
+      "rank": 11,
+      "keywords": [
+        "human-AI teams",
+        "error attribution",
+        "cognitive bias",
+        "trust calibration"
+      ],
+      "cross_impact": [
+        "T_Technological",
+        "S_Social"
+      ],
+      "signal_status": "new"
+    },
+    {
+      "id": "arxiv-20260326-012",
+      "title": "Near-Optimal Solutions for Carbon Capture, Conversion, Storage, and Removal Strategies for European Climate Neutrality",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.23409",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Achieving climate neutrality in Europe requires rapid electrification alongside carbon management strategies for residual emissions. We present near-optimal pathways combining carbon capture, direct air capture, and geological storage that achieve climate targets while minimizing economic disruption and infrastructure requirements.",
+        "keywords": [
+          "carbon capture",
+          "climate neutrality",
+          "CCS",
+          "direct air capture",
+          "European climate policy"
+        ],
+        "language": "en"
+      },
+      "final_category": "E_Environmental",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 75,
+        "CC": 75,
+        "TC": 70,
+        "IC": 70
+      },
+      "psst_score": 72.0,
+      "psst_grade": "C",
+      "impact_score": 3.5,
+      "priority_score": 7.2,
+      "collected_at": "2026-03-26T08:00:00Z",
+      "rank": 12,
+      "keywords": [
+        "carbon capture",
+        "climate neutrality",
+        "CCS",
+        "direct air capture"
+      ],
+      "cross_impact": [
+        "E_Economic",
+        "P_Political"
+      ],
+      "signal_status": "new"
+    },
+    {
+      "id": "arxiv-20260326-013",
+      "title": "Privacy-Aware Smart Cameras: Socially Responsible Urban Intelligence Through View Coverage Coordination",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.23197",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Coordination of view coverage via privacy-aware smart cameras is key to a more socially responsible urban intelligence. We propose decentralized camera coordination algorithms that maximize surveillance effectiveness while provably minimizing privacy intrusion, enabling trust-preserving smart city infrastructure.",
+        "keywords": [
+          "smart cameras",
+          "privacy",
+          "urban intelligence",
+          "surveillance",
+          "smart city"
+        ],
+        "language": "en"
+      },
+      "final_category": "P_Political",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 70,
+        "CC": 75,
+        "TC": 70,
+        "IC": 70
+      },
+      "psst_score": 71.0,
+      "psst_grade": "C",
+      "impact_score": 3.5,
+      "priority_score": 7.1,
+      "collected_at": "2026-03-26T08:00:00Z",
+      "rank": 13,
+      "keywords": [
+        "smart cameras",
+        "privacy",
+        "urban surveillance",
+        "smart city"
+      ],
+      "cross_impact": [
+        "s_spiritual",
+        "S_Social"
+      ],
+      "signal_status": "new"
+    },
+    {
+      "id": "arxiv-20260326-014",
+      "title": "VTAM: Video-Tactile-Action Models for Embodied Intelligence Beyond Vision-Language",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.23481",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "Video-Action Models have emerged as a promising framework for embodied intelligence, learning implicit world dynamics from raw video and tactile sensor data. We introduce VTAM that integrates video, tactile, and action modalities to enable robots to handle complex physical interactions requiring multimodal sensory reasoning.",
+        "keywords": [
+          "embodied AI",
+          "tactile sensing",
+          "robotics",
+          "multimodal learning",
+          "world models"
+        ],
+        "language": "en"
+      },
+      "final_category": "T_Technological",
+      "psst_dimensions": {
+        "SR": 70,
+        "ES": 70,
+        "CC": 75,
+        "TC": 70,
+        "IC": 70
+      },
+      "psst_score": 71.0,
+      "psst_grade": "C",
+      "impact_score": 3.5,
+      "priority_score": 7.1,
+      "collected_at": "2026-03-26T08:00:00Z",
+      "rank": 14,
+      "keywords": [
+        "embodied AI",
+        "tactile sensing",
+        "robotics",
+        "multimodal learning"
+      ],
+      "cross_impact": [
+        "E_Economic",
+        "S_Social"
+      ],
+      "signal_status": "new"
+    },
+    {
+      "id": "arxiv-20260326-015",
+      "title": "Integrating Generative AI in Filmmaking: From Co-Creativity to Distributed Creativity Across Production Chains",
+      "source": {
+        "name": "arXiv",
+        "type": "academic",
+        "url": "https://arxiv.org/abs/2603.23415",
+        "published_date": "2026-03-24"
+      },
+      "content": {
+        "abstract": "The integration of Generative AI into audio-visual production is often presented as a radical break from past traditions. We study how GenAI tools reshape creative workflows in filmmaking, documenting a shift from individual co-creativity (human+AI) to distributed creativity where AI agents participate across the entire production chain.",
+        "keywords": [
+          "generative AI",
+          "filmmaking",
+          "creative AI",
+          "distributed creativity",
+          "content creation"
+        ],
+        "language": "en"
+      },
+      "final_category": "S_Social",
+      "psst_dimensions": {
+        "SR": 65,
+        "ES": 70,
+        "CC": 70,
+        "TC": 65,
+        "IC": 70
+      },
+      "psst_score": 68.0,
+      "psst_grade": "C",
+      "impact_score": 3.0,
+      "priority_score": 6.8,
+      "collected_at": "2026-03-26T08:00:00Z",
+      "rank": 15,
+      "keywords": [
+        "generative AI",
+        "filmmaking",
+        "creative AI",
+        "distributed creativity"
+      ],
+      "cross_impact": [
+        "E_Economic",
+        "s_spiritual"
+      ],
+      "signal_status": "new"
+    },
+    {
+      "id": "arxiv-20260327-004",
+      "arxiv_id": "2603.24579",
+      "title_en": "MARCH: Multi-Agent Reinforced Self-Check for LLM Hallucination",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24579",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-005",
+      "arxiv_id": "2603.24580",
+      "title_en": "Retrieval Improvements Do Not Guarantee Better Answers: A Study of RAG for AI Policy QA",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24580",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-007",
+      "arxiv_id": "2603.24533",
+      "title_en": "UI-Voyager: A Self-Evolving GUI Agent Learning via Failed Experience",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24533",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-008",
+      "arxiv_id": "2603.24517",
+      "title_en": "AVO: Agentic Variation Operators for Autonomous Evolutionary Search",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24517",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-018",
+      "arxiv_id": "2603.23995",
+      "title_en": "MIRROR: Visual Motion Imitation via Real-time Retargeting and Teleoperation",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.23995",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-021",
+      "arxiv_id": "2603.23950",
+      "title_en": "Event-Driven Proactive Assistive Manipulation with Grounded Vision-Language Planning",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.23950",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-023",
+      "arxiv_id": "2603.24564",
+      "title_en": "Infrastructure for Valuable, Tradable, and Verifiable Agent Memory",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24564",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-042",
+      "arxiv_id": "2603.23842",
+      "title_en": "Environmental CVA with K-Robust Wrong-Way Risk",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.23842",
+      "date": "2026-03-25",
+      "steeps": "E_Economic",
+      "significance": 7,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-047",
+      "arxiv_id": "2603.23825",
+      "title_en": "Trade Liberalization, Export and Product Innovation",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.23825",
+      "date": "2026-03-25",
+      "steeps": "E_Economic",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-055",
+      "arxiv_id": "2603.24070",
+      "title_en": "In-Line Fiber-Integrated Photon-Pair Generation from van der Waals Crystals",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24070",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-060",
+      "arxiv_id": "2603.24529",
+      "title_en": "Cascading Failures and Critical Infrastructures in Future Renewable European Power Systems",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24529",
+      "date": "2026-03-25",
+      "steeps": "E_Environmental",
+      "significance": 8,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-063",
+      "arxiv_id": "2603.24565",
+      "title_en": "Chiral Epitaxy: Enantioselective Growth of Chiral Nanowires on Low-Symmetry 2D Materials",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24565",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-066",
+      "arxiv_id": "2603.23927",
+      "title_en": "Supermassive Blockchain: Storage-scalable Byzantine fault tolerance",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.23927",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-069",
+      "arxiv_id": "2603.24282",
+      "title_en": "Software Supply Chain Smells: Lightweight Analysis for Secure Dependency Management",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24282",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-070",
+      "arxiv_id": "2603.24250",
+      "title_en": "Functional Requirements for Decentralized and Self-Sovereign Identities",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24250",
+      "date": "2026-03-25",
+      "steeps": "P_Political",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-078",
+      "arxiv_id": "2603.24525",
+      "title_en": "Study of Low-Frequency Core-Edge Coupling in a Tokamak: Experimental Observation in KSTAR",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24525",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-088",
+      "arxiv_id": "2603.24390",
+      "title_en": "Plasmonic Mediated 2D Aluminium Quasicrystals for Dopamine Biosensing",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24390",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-001",
+      "arxiv_id": "2603.24594",
+      "title_en": "Polynomial Speedup in Diffusion Models with the Multilevel Euler-Maruyama Method",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24594",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-002",
+      "arxiv_id": "2603.24587",
+      "title_en": "DreamerAD: Efficient Reinforcement Learning via Latent World Model for Autonomous Driving",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24587",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-003",
+      "arxiv_id": "2603.24582",
+      "title_en": "The Stochastic Gap: A Markovian Framework for Pre-Deployment Reliability and Oversight-Cost Auditing in Agentic AI",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24582",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-006",
+      "arxiv_id": "2603.24559",
+      "title_en": "The Free-Market Algorithm: Self-Organizing Optimization for Open-Ended Complex Systems",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24559",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-009",
+      "arxiv_id": "2603.24511",
+      "title_en": "Claudini: Autoresearch Discovers State-of-the-Art Adversarial Attack Algorithms for LLMs",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24511",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-010",
+      "arxiv_id": "2603.24562",
+      "title_en": "Scaling Recurrence-aware Foundation Models for Clinical Records via Next-Visit Prediction",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24562",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-011",
+      "arxiv_id": "2603.24524",
+      "title_en": "No Single Metric Tells the Whole Story: Multi-Dimensional Evaluation Framework for Uncertainty Attributions",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24524",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-013",
+      "arxiv_id": "2603.24576",
+      "title_en": "Chameleon: Episodic Memory for Long-Horizon Robotic Manipulation",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24576",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-014",
+      "arxiv_id": "2603.24350",
+      "title_en": "Evidence of an Emergent 'Self' in Continual Robot Learning",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24350",
+      "date": "2026-03-25",
+      "steeps": "s_spiritual",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-015",
+      "arxiv_id": "2603.24357",
+      "title_en": "A Sensorless, Inherently Compliant Anthropomorphic Musculoskeletal Hand Driven by Electrohydraulic Actuators",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24357",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-016",
+      "arxiv_id": "2603.24060",
+      "title_en": "SOMA: Strategic Orchestration and Memory-Augmented System for VLA Model Robustness via In-Context Adaptation",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24060",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-017",
+      "arxiv_id": "2603.23983",
+      "title_en": "SafeFlow: Real-Time Text-Driven Humanoid Whole-Body Control via Physics-Guided Rectified Flow",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.23983",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-019",
+      "arxiv_id": "2603.24531",
+      "title_en": "Novel models of computation from novel physical substrates: a bosonic example",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24531",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-020",
+      "arxiv_id": "2603.24221",
+      "title_en": "Environment-Grounded Multi-Agent Workflow for Autonomous Penetration Testing",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24221",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-022",
+      "arxiv_id": "2603.24543",
+      "title_en": "Analysing the Safety Pitfalls of Steering Vectors",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24543",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-024",
+      "arxiv_id": "2603.24426",
+      "title_en": "IPsec based on Quantum Key Distribution: Adapting non-3GPP access to 5G Networks to the Quantum Era",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24426",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-025",
+      "arxiv_id": "2603.24203",
+      "title_en": "Invisible Threats from Model Context Protocol: Generating Stealthy Injection Payload via Tree-based Adaptive Search",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24203",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-026",
+      "arxiv_id": "2603.24414",
+      "title_en": "ClawKeeper: Comprehensive Safety Protection for OpenClaw Agents Through Skills, Plugins, and Watchers",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24414",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-027",
+      "arxiv_id": "2603.24172",
+      "title_en": "Towards Remote Attestation of Microarchitectural Attacks: The Case of Rowhammer",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24172",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-029",
+      "arxiv_id": "2603.24335",
+      "title_en": "Generative Artificial Intelligence and the Knowledge Gap: Toward a New Form of Informational Inequality",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24335",
+      "date": "2026-03-25",
+      "steeps": "S_Social",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-030",
+      "arxiv_id": "2603.24591",
+      "title_en": "Vibe Coding XR: Accelerating AI + XR Prototyping with XR Blocks and Gemini",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24591",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-031",
+      "arxiv_id": "2603.24448",
+      "title_en": "Integrating Causal Machine Learning into Clinical Decision Support Systems",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24448",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-032",
+      "arxiv_id": "2603.24197",
+      "title_en": "The First Generation of AI-Assisted Programming Learners: Gendered Patterns in Critical Thinking and AI Ethics",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24197",
+      "date": "2026-03-25",
+      "steeps": "S_Social",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-033",
+      "arxiv_id": "2603.24410",
+      "title_en": "Real Talk, Virtual Faces: A Formal Concept Analysis of Personality and Sentiment in Influencer Audiences",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24410",
+      "date": "2026-03-25",
+      "steeps": "S_Social",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-034",
+      "arxiv_id": "2603.23857",
+      "title_en": "When AI output tips to bad but nobody notices: Legal implications of AI's mistakes",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.23857",
+      "date": "2026-03-25",
+      "steeps": "P_Political",
+      "significance": 7,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-035",
+      "arxiv_id": "2603.23855",
+      "title_en": "General Intellectual Humility Is Malleable Through AI-Mediated Reflective Dialogue",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.23855",
+      "date": "2026-03-25",
+      "steeps": "s_spiritual",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-036",
+      "arxiv_id": "2603.23990",
+      "title_en": "From Untamed Black Box to Interpretable Pedagogical Orchestration: Ensemble of Specialized LLMs for Adaptive Tutoring",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.23990",
+      "date": "2026-03-25",
+      "steeps": "S_Social",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-037",
+      "arxiv_id": "2603.23863",
+      "title_en": "Generative AI User Experience: Developing Human-AI Epistemic Partnership",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.23863",
+      "date": "2026-03-25",
+      "steeps": "s_spiritual",
+      "significance": 7,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-038",
+      "arxiv_id": "2603.23802",
+      "title_en": "How are AI agents used? Evidence from 177,000 MCP tools",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.23802",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-039",
+      "arxiv_id": "2603.24526",
+      "title_en": "Random Matching Markets with Correlated Preferences",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24526",
+      "date": "2026-03-25",
+      "steeps": "E_Economic",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-040",
+      "arxiv_id": "2603.23993",
+      "title_en": "GARP-EFM: Improving Foundation Models with Revealed Preference Structure",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.23993",
+      "date": "2026-03-25",
+      "steeps": "E_Economic",
+      "significance": 7,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-041",
+      "arxiv_id": "2603.23980",
+      "title_en": "The Economics of War: Militarization and Growth in an AK Economy",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.23980",
+      "date": "2026-03-25",
+      "steeps": "E_Economic",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-048",
+      "arxiv_id": "2603.24154",
+      "title_en": "The Geometry of Risk: Path-Dependent Regulation and Anticipatory Hedging via the SigSwap",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24154",
+      "date": "2026-03-25",
+      "steeps": "E_Economic",
+      "significance": 7,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-049",
+      "arxiv_id": "2603.24588",
+      "title_en": "Finite-Degree Quantum LDPC Codes Reaching the Gilbert-Varshamov Bound",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24588",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-050",
+      "arxiv_id": "2603.24237",
+      "title_en": "Correlated Atom Loss as a Resource for Quantum Error Correction",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24237",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-051",
+      "arxiv_id": "2603.24206",
+      "title_en": "Kubernetes-Orchestrated Hybrid Quantum-Classical Workflows",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24206",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-052",
+      "arxiv_id": "2603.24196",
+      "title_en": "Quantum Neural Physics: Solving PDEs on Quantum Simulators using Quantum CNNs",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24196",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-053",
+      "arxiv_id": "2603.23979",
+      "title_en": "BRIDG-Q: Barren-Plateau-Resilient Initialization with Data-Aware LLM-Generated Quantum Circuits",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.23979",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-054",
+      "arxiv_id": "2603.24377",
+      "title_en": "Fluctuation-induced symmetry breaking in high harmonic generation for bicircular quantum light",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24377",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-056",
+      "arxiv_id": "2603.24035",
+      "title_en": "Efficient Many-Body Shadow Metrology via Clifford Lensing",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24035",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-057",
+      "arxiv_id": "2603.23999",
+      "title_en": "Experimental Demonstration of a Brachistochrone Nonadiabatic Holonomic Quantum Gate in a Trapped Ion",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.23999",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-058",
+      "arxiv_id": "2603.24488",
+      "title_en": "The forgotten role of wave dynamics in modulating the low cloud response to warm pool warming",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24488",
+      "date": "2026-03-25",
+      "steeps": "E_Environmental",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-059",
+      "arxiv_id": "2603.24244",
+      "title_en": "Heatwave-Related Mortality Across Indian Cities Under Future Climate Scenarios",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24244",
+      "date": "2026-03-25",
+      "steeps": "E_Environmental",
+      "significance": 8,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-062",
+      "arxiv_id": "2603.24374",
+      "title_en": "Sub-seasonal Modulation and Predictability of Indian monsoon hourly Rainfall Extremes",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24374",
+      "date": "2026-03-25",
+      "steeps": "E_Environmental",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-064",
+      "arxiv_id": "2603.24496",
+      "title_en": "Kinetics-Driven Selective Stoichiometric Shift in Bi4Te3 Nanostructures for Hybrid Quantum Architectures",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24496",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-065",
+      "arxiv_id": "2603.24186",
+      "title_en": "TsetlinWiSARD: On-Chip Training of Weightless Neural Networks using Tsetlin Automata on FPGAs",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24186",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-067",
+      "arxiv_id": "2603.24477",
+      "title_en": "Composer 2 Technical Report",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24477",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-068",
+      "arxiv_id": "2603.24284",
+      "title_en": "The Specification Gap: Coordination Failure Under Partial Knowledge in Code Agents",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24284",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-071",
+      "arxiv_id": "2603.24475",
+      "title_en": "Conformalized Transfer Learning for Li-ion Battery State of Health Forecasting",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24475",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-072",
+      "arxiv_id": "2603.24474",
+      "title_en": "Leveraging Synthetic and Genetic Data to Improve Epidemic Forecasting",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24474",
+      "date": "2026-03-25",
+      "steeps": "S_Social",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-073",
+      "arxiv_id": "2603.24419",
+      "title_en": "Robust Optimal Operation of Virtual Power Plants Under Decision-Dependent Uncertainty",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24419",
+      "date": "2026-03-25",
+      "steeps": "E_Environmental",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-074",
+      "arxiv_id": "2603.24328",
+      "title_en": "Towards Semantic-based Agent Communication Networks: Vision, Technologies, and Challenges",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24328",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 7,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-075",
+      "arxiv_id": "2603.24286",
+      "title_en": "Hidden Higher-Order Vulnerabilities in Simplicial Complexes Revealed by Branch-Consistent Functional Robustness",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24286",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-077",
+      "arxiv_id": "2603.24356",
+      "title_en": "A Metric for Three-Dimensional Color Discrimination Derived from V1 Population Fisher Information",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24356",
+      "date": "2026-03-25",
+      "steeps": "s_spiritual",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-079",
+      "arxiv_id": "2603.23971",
+      "title_en": "The Price Reversal Phenomenon: When Cheaper Reasoning Models End Up Costing More",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.23971",
+      "date": "2026-03-25",
+      "steeps": "E_Economic",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-080",
+      "arxiv_id": "2603.24389",
+      "title_en": "When AI Meets Early Childhood Education: LLMs as Assessment Teammates in Chinese Preschools",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24389",
+      "date": "2026-03-25",
+      "steeps": "S_Social",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-081",
+      "arxiv_id": "2603.23880",
+      "title_en": "ProcureGym: Multi-Agent Markov Game Framework for Modeling National Volume-based Drug Procurement",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.23880",
+      "date": "2026-03-25",
+      "steeps": "P_Political",
+      "significance": 7,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-082",
+      "arxiv_id": "2603.24403",
+      "title_en": "Opinion-Driven Vaccination and Epidemic Dynamics on Heterogeneous Networks",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24403",
+      "date": "2026-03-25",
+      "steeps": "S_Social",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-083",
+      "arxiv_id": "2603.23974",
+      "title_en": "Machine vision with small numbers of detected photons per inference",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.23974",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-084",
+      "arxiv_id": "2603.24079",
+      "title_en": "When Understanding Becomes a Risk: Authenticity and Safety Risks in Emerging Image Generation",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24079",
+      "date": "2026-03-25",
+      "steeps": "P_Political",
+      "significance": 7,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-085",
+      "arxiv_id": "2603.23889",
+      "title_en": "Off-Policy Safe Reinforcement Learning with Constrained Optimistic Exploration",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.23889",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "arxiv-20260327-086",
+      "arxiv_id": "2603.24429",
+      "title_en": "Wavefunction Collapse in String Theory",
+      "title_ko": "",
+      "url": "https://arxiv.org/abs/2603.24429",
+      "date": "2026-03-25",
+      "steeps": "T_Technological",
+      "significance": 6,
+      "scan_date": "2026-03-27"
+    },
+    {
+      "id": "wf2-2603.25197",
+      "arxiv_id": "2603.25197",
+      "title_en": "The Competence Shadow: Theory and Bounds of AI Assistance in Safety Engineering",
+      "title_ko": "AI 역량의 그림자: 안전공학에서 AI 지원의 이론 및 한계",
+      "url": "https://arxiv.org/abs/2603.25197",
+      "date": "2026-03-26",
+      "steeps": "s_spiritual",
+      "significance": 9,
+      "scan_date": "2026-03-28"
+    },
+    {
+      "id": "wf2-2603.25100",
+      "arxiv_id": "2603.25100",
+      "title_en": "From Logic Monopoly to Social Contract: Institutional Foundations for Autonomous Agent Economies",
+      "title_ko": "논리 독점에서 사회계약으로: 자율 에이전트 경제의 제도적 기반",
+      "url": "https://arxiv.org/abs/2603.25100",
+      "date": "2026-03-26",
+      "steeps": "P_Political",
+      "significance": 9,
+      "scan_date": "2026-03-28"
+    },
+    {
+      "id": "wf2-2603.25326",
+      "arxiv_id": "2603.25326",
+      "title_en": "Evaluating Language Models for Harmful Manipulation",
+      "title_ko": "유해한 조작을 위한 언어모델 평가",
+      "url": "https://arxiv.org/abs/2603.25326",
+      "date": "2026-03-26",
+      "steeps": "P_Political",
+      "significance": 9,
+      "scan_date": "2026-03-28"
+    },
+    {
+      "id": "wf2-2603.25240",
+      "arxiv_id": "2603.25240",
+      "title_en": "Lingshu-Cell: A Generative Cellular World Model for Virtual Cells",
+      "title_ko": "Lingshu-Cell: 가상 세포를 위한 생성형 세포 월드 모델",
+      "url": "https://arxiv.org/abs/2603.25240",
+      "date": "2026-03-26",
+      "steeps": "T_Technological",
+      "significance": 9,
+      "scan_date": "2026-03-28"
+    },
+    {
+      "id": "wf2-2603.25022",
+      "arxiv_id": "2603.25022",
+      "title_en": "A Public Theory of Distillation Resistance via Constraint-Coupled Reasoning Architectures",
+      "title_ko": "제약결합 추론 아키텍처를 통한 증류 저항의 공개 이론",
+      "url": "https://arxiv.org/abs/2603.25022",
+      "date": "2026-03-26",
+      "steeps": "T_Technological",
+      "significance": 8,
+      "scan_date": "2026-03-28"
+    },
+    {
+      "id": "wf2-2603.25239",
+      "arxiv_id": "2603.25239",
+      "title_en": "The Self-Replication Phase Diagram",
+      "title_ko": "자기복제 위상 다이어그램: 생명이 가능해지는 지점",
+      "url": "https://arxiv.org/abs/2603.25239",
+      "date": "2026-03-26",
+      "steeps": "s_spiritual",
+      "significance": 8,
+      "scan_date": "2026-03-28"
+    },
+    {
+      "id": "wf2-2603.25220",
+      "arxiv_id": "2603.25220",
+      "title_en": "Beyond Benchmarks: How Users Evaluate AI Chat Assistants",
+      "title_ko": "벤치마크를 넘어: 사용자의 AI 챗 어시스턴트 평가 방식",
+      "url": "https://arxiv.org/abs/2603.25220",
+      "date": "2026-03-26",
+      "steeps": "S_Social",
+      "significance": 8,
+      "scan_date": "2026-03-28"
+    },
+    {
+      "id": "wf2-2603.24947",
+      "arxiv_id": "2603.24947",
+      "title_en": "Shopping with a Platform AI Assistant",
+      "title_ko": "플랫폼 AI 어시스턴트와 쇼핑",
+      "url": "https://arxiv.org/abs/2603.24947",
+      "date": "2026-03-26",
+      "steeps": "E_Economic",
+      "significance": 8,
+      "scan_date": "2026-03-28"
+    },
+    {
+      "id": "wf2-2603.25723",
+      "arxiv_id": "2603.25723",
+      "title_en": "Natural-Language Agent Harnesses",
+      "title_ko": "자연어 에이전트 하네스",
+      "url": "https://arxiv.org/abs/2603.25723",
+      "date": "2026-03-26",
+      "steeps": "T_Technological",
+      "significance": 8,
+      "scan_date": "2026-03-28"
+    },
+    {
+      "id": "wf2-2603.25283",
+      "arxiv_id": "2603.25283",
+      "title_en": "A Gait Foundation Model Predicts Multi-System Health Phenotypes",
+      "title_ko": "보행 파운데이션 모델을 통한 다중 시스템 건강 표현형 예측",
+      "url": "https://arxiv.org/abs/2603.25283",
+      "date": "2026-03-26",
+      "steeps": "S_Social",
+      "significance": 8,
+      "scan_date": "2026-03-28"
+    },
+    {
+      "id": "wf2-2603.25697",
+      "arxiv_id": "2603.25697",
+      "title_en": "The Kitchen Loop: Self-Evolving Codebase Framework",
+      "title_ko": "키친 루프: 자기 진화 코드베이스 프레임워크",
+      "url": "https://arxiv.org/abs/2603.25697",
+      "date": "2026-03-26",
+      "steeps": "T_Technological",
+      "significance": 8,
+      "scan_date": "2026-03-28"
+    },
+    {
+      "id": "wf2-2603.25534",
+      "arxiv_id": "2603.25534",
+      "title_en": "Label-free Single-Biomolecule Imaging via Stimulated Raman",
+      "title_ko": "유도 라만을 통한 비표지 단일 생체분자 영상",
+      "url": "https://arxiv.org/abs/2603.25534",
+      "date": "2026-03-26",
+      "steeps": "T_Technological",
+      "significance": 8,
+      "scan_date": "2026-03-28"
+    },
+    {
+      "id": "wf2-2603.25684",
+      "arxiv_id": "2603.25684",
+      "title_en": "Scalable Quantum Interference from Indistinguishable Quantum Dots",
+      "title_ko": "구별 불가 양자점의 확장 가능한 양자간섭",
+      "url": "https://arxiv.org/abs/2603.25684",
+      "date": "2026-03-26",
+      "steeps": "T_Technological",
+      "significance": 8,
+      "scan_date": "2026-03-28"
+    },
+    {
+      "id": "wf2-2603.25066",
+      "arxiv_id": "2603.25066",
+      "title_en": "Neural Operator Quantum State: A Foundation Model for Quantum Dynamics",
+      "title_ko": "신경 연산자 양자 상태: 양자 역학을 위한 파운데이션 모델",
+      "url": "https://arxiv.org/abs/2603.25066",
+      "date": "2026-03-26",
+      "steeps": "T_Technological",
+      "significance": 8,
+      "scan_date": "2026-03-28"
+    },
+    {
+      "id": "wf2-2603.25663",
+      "arxiv_id": "2603.25663",
+      "title_en": "Exploring CDR Strategies to Decarbonise Europe",
+      "title_ko": "유럽 탈탄소화를 위한 CDR 전략 탐색",
+      "url": "https://arxiv.org/abs/2603.25663",
+      "date": "2026-03-26",
+      "steeps": "E_Environmental",
+      "significance": 8,
+      "scan_date": "2026-03-28"
+    },
+    {
+      "id": "wf2-2603.24867",
+      "arxiv_id": "2603.24867",
+      "title_en": "Increasing Trends in Australian Fire Weather Severity",
+      "title_ko": "호주 산불 기상 조건 심각성의 세기적 증가 추세",
+      "url": "https://arxiv.org/abs/2603.24867",
+      "date": "2026-03-25",
+      "steeps": "E_Environmental",
+      "significance": 8,
+      "scan_date": "2026-03-28"
+    },
+    {
+      "id": "wf2-2603.25638",
+      "arxiv_id": "2603.25638",
+      "title_en": "Beyond Via: LLM Impact on Academic Papers",
+      "title_ko": "Beyond Via: LLM이 학술 논문에 미치는 영향 분석",
+      "url": "https://arxiv.org/abs/2603.25638",
+      "date": "2026-03-26",
+      "steeps": "s_spiritual",
+      "significance": 8,
+      "scan_date": "2026-03-28"
     }
   ],
-  "total_signals": 1317,
-  "last_updated": "2026-03-20T08:39:25.062636"
+  "total_signals": 1409,
+  "last_updated": "2026-03-25T23:54:24.011545+00:00"
 }
