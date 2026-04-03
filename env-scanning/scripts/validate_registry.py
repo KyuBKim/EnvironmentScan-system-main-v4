@@ -1779,6 +1779,25 @@ def validate_registry(registry_path: str) -> RegistryValidation:
             "system.task_management section not defined — master task tracking unavailable"
         ))
 
+    # ── SOT-066: finalization_script exists (v3.7.0) ──
+    # "Unvalidated SOT Is Not SOT" — master_finalization.py enforces atomic
+    # Step 5/6 completion. Without this script, 23% of scans fail to reach
+    # "completed" status due to LLM context exhaustion during finalization.
+    # Python 원천봉쇄: all deterministic status updates are Python-enforced.
+    execution = system.get("execution", {})
+    fin_script = execution.get("finalization_script", "")
+    fin_errors = []
+    if not fin_script:
+        fin_errors.append("system.execution.finalization_script not defined")
+    elif not _file_exists(project_root, fin_script):
+        fin_errors.append(f"finalization_script not found: {fin_script}")
+    vr.results.append(CheckResult(
+        "SOT-066", "HALT",
+        "finalization_script exists (Step 5/6 Python 원천봉쇄)",
+        len(fin_errors) == 0,
+        "; ".join(fin_errors) if fin_errors else ""
+    ))
+
     return vr
 
 

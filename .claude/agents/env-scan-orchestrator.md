@@ -1322,6 +1322,28 @@ Step 1.2 uses **Marathon Mode** by default — scanning both base-tier and expan
 
 **Philosophy**: Marathon mode extends the scanning scope while preserving all quality gates. The 30-minute budget is a **ceiling** (upper bound) — scanning ends when all expansion sources are scanned or time budget is exhausted, whichever comes first. No artificial time padding.
 
+#### ⓪ Source Health Check (v3.7.0 — Pre-Scan Observability)
+
+> 스캔 시작 전, 모든 활성 소스의 접근 가능성을 확인한다.
+> unhealthy 소스는 WARN 로그를 남기고 스캔에서 건너뛴다.
+> Design Principle #5 (Controlled Source Management): 자동 비활성화 하지 않음 — 알림만.
+
+```bash
+python3 env-scanning/core/source_health_checker.py \
+  --sources {SOURCES_CONFIG} \
+  --health-dir {DATA_ROOT}/health
+```
+
+> **{SOURCES_CONFIG}** = SOT `workflows.wf1-general.sources_config`
+> **{DATA_ROOT}** = SOT `workflows.wf1-general.data_root`
+>
+> - Exit 0: 모든 소스 healthy → 정상 진행
+> - Exit 1: 일부 unhealthy → WARN 로그, unhealthy 소스를 기록하고 나머지 소스로 진행
+> - Exit 2: >50% unhealthy → WARN 로그 (HALT 아님 — 나머지 소스로 최선 시도)
+>
+> 건강 보고서: `{DATA_ROOT}/health/reports/health-{date}.json`에 저장됨.
+> Scanner가 unhealthy 소스에서 에러를 만나면 기존 에러 핸들링(`on_non_critical_failure: skip_and_continue`)이 처리.
+
 #### ① PRE-VERIFY (선행 조건 확인)
 
 ```yaml

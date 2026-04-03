@@ -220,6 +220,7 @@ All invocation blocks in Steps 1-6 reference these variables by name.
 | `BI_CONFIG_FILE` | (derived) | `{INT_OUTPUT_ROOT}/logs/bilingual-config-{date}.json` |
 | `BI_LANGUAGE` | (from bilingual config: `internal_language`) | `en` |
 | `TASK_MANAGER_SCRIPT` | `system.task_management.master_script` | `env-scanning/core/master_task_manager.py` |
+| `FINALIZATION_SCRIPT` | `system.execution.finalization_script` | `env-scanning/core/master_finalization.py` |
 | `MASTER_STATUS_FILE` | (derived) | `{INT_OUTPUT_ROOT}/logs/master-status-{date}.json` |
 
 ### Step 0.2: Run Startup Validation
@@ -298,6 +299,21 @@ if bilingual_config["english_first"]:
 All subsequent WF invocations and validation calls use these updated values.
 The bilingual config file (`{BI_CONFIG_FILE}`) is also passed to WF orchestrators for
 translation workflow triggering (post-report generation).
+
+### Step 0.2b: Reconcile Previous Stale Scans (v3.7.0 Safety Net)
+
+> 이전 스캔이 "in_progress" 상태로 방치된 경우 자동 복구한다.
+> 세션 중단/컨텍스트 소진으로 인해 보고서는 존재하나 status가 미확정된 스캔을 조정한다.
+
+```bash
+python3 {FINALIZATION_SCRIPT} --action reconcile \
+  --archive-dir {INT_OUTPUT_ROOT}/logs/ \
+  --sot {SOT_PATH} --json
+```
+
+> **FINALIZATION_SCRIPT** = SOT `system.execution.finalization_script`
+> 결과가 "reconciled > 0"이면: 이전 스캔이 성공적으로 복구되었음을 로그에 기록.
+> 결과가 "failed > 0"이면: WARN 로그 (현재 스캔 실행에는 영향 없음).
 
 ### Step 0.3: Initialize Master State
 
@@ -1517,32 +1533,34 @@ Master_Gate_M4:
 The gate runs programmatically (`validate_completion.py`) — it cannot be "approved away" by LLM judgment.
 This is the Python 원천봉쇄 principle applied to deliverable completeness.
 
-**M4 Result Recording (MANDATORY)**: M4 실행 후, 결과를 master-status.json에 반드시 기록:
-```json
-// validate_completion.py exit code 0 (PASS) 일 때:
-master_status["master_gates"]["M4"] = {
-  "status": "PASS",
-  "timestamp": "{ISO8601}",
-  "script": "validate_completion.py",
-  "checks_passed": 9
-}
+**M4 + Finalization (Python 원천봉쇄 — v3.7.0)**: M4 실행 + 상태 확정을 **원자적 Python 스크립트 1회 호출**로 수행:
 
-// validate_completion.py exit code 1 (FAIL) 일 때:
-master_status["master_gates"]["M4"] = {
-  "status": "FAIL",
-  "timestamp": "{ISO8601}",
-  "script": "validate_completion.py",
-  "failed_checks": ["CG-002", "CG-006"]  // 실패한 체크 ID 목록
-}
-```
-**CRITICAL**: M4 결과가 master-status.json에 기록되지 않으면, `master_task_manager.py --action step-complete --step 5`가
-M4 게이트를 찾지 못해 Step 5 완료를 거부한다. M4 기록은 Step 5 완료의 전제조건이다.
-
-**Task Completion (Python 원천봉쇄)**: After M4 PASS:
 ```bash
-python3 {TASK_MANAGER_SCRIPT} --action step-complete --step 5 --status-file {MASTER_STATUS_FILE}
+python3 {FINALIZATION_SCRIPT} \
+  --action finalize \
+  --status-file {MASTER_STATUS_FILE} \
+  --sot {SOT_PATH} \
+  --date {SCAN_DATE} \
+  --json
 ```
-If `action: COMPLETE` → `TaskUpdate(master_task_mapping["master_step5"], status="completed")` (EXECUTE — skip only if master_task_mapping is empty)
+
+> **FINALIZATION_SCRIPT** = SOT `system.execution.finalization_script` (SOT-066 검증됨)
+>
+> 이 스크립트는 다음을 원자적으로 수행한다:
+> 1. WF1~WF4 completion 전제조건 확인
+> 2. integration_result 디스크-상태 조정 (보고서 존재하나 상태 미기록 시 자동 조정)
+> 3. validate_completion.py 실행 (M4 게이트)
+> 4. M4 결과를 master-status.json에 기록
+> 5. M4 PASS → status="completed" + completed_at 기록
+> 6. 아카이브 생성 (master-status-{date}.json)
+>
+> **이전 설계(v3.6.0 이전)에서는 위 6단계를 LLM이 순차적으로 수행했으나,
+> 컨텍스트 소진으로 23%의 스캔이 미완결 상태로 남았다.**
+> **v3.7.0부터 Python이 원자적으로 처리하여 할루시네이션/누락을 원천봉쇄한다.**
+
+**Exit codes**:
+- 0 (PASS) → Step 5 완료. `TaskUpdate(master_task_mapping["master_step5"], status="completed")`
+- 1 (HALT) → M4 FAIL 또는 전제조건 미충족. HALT_AND_REMEDIATE 절차 실행 (위 on_fail 참조)
 
 **CRITICAL**: Step 5 completion is gated on **M4** (deliverable completeness), NOT M3 (approval only).
 M4 verifies all EN/KO reports, timeline map, and archives actually exist on disk.
@@ -1696,46 +1714,24 @@ M4가 이미 모든 핵심 산출물(EN/KO 보고서, 타임라인맵)의 완전
 
 **Task Status**: `TaskUpdate(master_task_mapping["master_step6"], status="in_progress")` (EXECUTE — skip only if master_task_mapping is empty)
 
-### 6.1 Update Master Status
+### 6.1 Update Master Status (Python 원천봉쇄 — v3.7.0)
 
-```json
-{
-  "master_id": "quadruple-scan-{date}",
-  "status": "completed",
-  "completed_at": "{ISO8601}",
-  "workflow_results": {
-    "wf1-general": { "status": "completed", "signal_count": N },
-    "wf2-arxiv": { "status": "completed", "signal_count": M },
-    "wf3-naver": { "status": "completed", "signal_count": P },
-    "wf4-multiglobal-news": { "status": "completed", "signal_count": Q }
-  },
-  "integration_result": {
-    "status": "completed",
-    "report_path": "{INT_OUTPUT_ROOT}/reports/daily/integrated-scan-{date}.md",
-    "total_signals": N + M + P + Q,
-    "top_signals": 20
-  },
-  "human_decisions": {
-    "wf1_step_2_5": { "decision": "approved", "timestamp": "..." },
-    "wf1_step_3_4": { "decision": "approved", "timestamp": "..." },
-    "wf2_step_2_5": { "decision": "approved", "timestamp": "..." },
-    "wf2_step_3_4": { "decision": "approved", "timestamp": "..." },
-    "wf3_step_2_5": { "decision": "approved", "timestamp": "..." },
-    "wf3_step_3_4": { "decision": "approved", "timestamp": "..." },
-    "wf4_step_2_5": { "decision": "approved", "timestamp": "..." },
-    "wf4_step_3_4": { "decision": "approved", "timestamp": "..." },
-    "integrated_final": { "decision": "approved", "timestamp": "..." }
-  },
-  "master_gates": {
-    "M1": { "status": "PASS", "timestamp": "..." },
-    "M2": { "status": "PASS", "timestamp": "..." },
-    "M2a": { "status": "PASS", "timestamp": "..." },
-    "M2b": { "status": "PASS", "timestamp": "..." },
-    "M3": { "status": "PASS", "timestamp": "..." },
-    "M4": { "status": "PASS", "timestamp": "..." }
-  }
-}
-```
+> **v3.7.0 변경**: Step 6.1의 master-status.json 업데이트는 이미 Step 5의 `{FINALIZATION_SCRIPT} --action finalize`에서
+> 원자적으로 완료되었다. Step 6에서는 별도 JSON 업데이트가 불필요하다.
+>
+> 만약 `{FINALIZATION_SCRIPT}`가 정상 실행되지 않았거나 (세션 중단 등으로) master-status.json이 여전히
+> "in_progress"이면, 아래 안전망을 실행한다:
+>
+> ```bash
+> python3 {FINALIZATION_SCRIPT} --action finalize \
+>   --status-file {MASTER_STATUS_FILE} --sot {SOT_PATH} --date {SCAN_DATE} --json
+> ```
+>
+> 이 스크립트는 멱등성(idempotent)을 가진다 — 이미 completed이면 아무 동작도 하지 않는다.
+
+**확인**: master-status.json의 `status` 필드가 `"completed"`인지 확인한다.
+- `"completed"` → 6.2로 진행
+- 아닌 경우 → 위 안전망 실행
 
 ### 6.2 Display Completion Summary
 

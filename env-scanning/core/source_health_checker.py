@@ -7,6 +7,7 @@ classify health status, and disable unhealthy sources at runtime.
 """
 
 import json
+import sys
 import time
 from dataclasses import asdict, dataclass, field
 from datetime import datetime, timezone
@@ -249,3 +250,105 @@ class SourceHealthChecker:
             if info.get("health") == "unhealthy":
                 disabled.append(name)
         return disabled
+
+
+# ---------------------------------------------------------------------------
+# CLI entry point (v3.7.0)
+# ---------------------------------------------------------------------------
+
+def _cli_main():
+    """CLI wrapper for SourceHealthChecker.
+
+    Usage:
+        python3 source_health_checker.py \\
+            --sources env-scanning/config/sources.yaml \\
+            --health-dir env-scanning/wf1-general/health
+
+    Exit codes:
+        0 = All sources healthy
+        1 = One or more sources unhealthy
+        2 = Critical — more than 50% of sources unhealthy
+    """
+    import argparse
+
+    parser = argparse.ArgumentParser(
+        description="Source Health Checker — validate RSS/API endpoint availability"
+    )
+    parser.add_argument(
+        "--sources", required=True,
+        help="Path to sources YAML config file"
+    )
+    parser.add_argument(
+        "--health-dir", required=True, dest="health_dir",
+        help="Directory to store health reports and history"
+    )
+    parser.add_argument(
+        "--json", action="store_true", dest="json_output",
+        help="Output report as JSON to stdout"
+    )
+
+    args = parser.parse_args()
+
+    try:
+        import yaml as _yaml
+    except ImportError:
+        print("ERROR: PyYAML required: pip install pyyaml", file=sys.stderr)
+        sys.exit(1)
+
+    # Load sources config
+    with open(args.sources, encoding="utf-8") as f:
+        sources_data = _yaml.safe_load(f)
+
+    sources_list = [
+        s for s in sources_data.get("sources", [])
+        if s.get("enabled", False)
+    ]
+
+    if not sources_list:
+        print("WARN: No enabled sources found", file=sys.stderr)
+        sys.exit(0)
+
+    # Run health check
+    checker = SourceHealthChecker(
+        sources_config=sources_list,
+        health_dir=args.health_dir
+    )
+    report = checker.check_all_sources()
+    report_path = checker.save_report(report)
+    checker.append_history(report)
+
+    disabled = checker.get_disabled_sources(report)
+
+    # Output — report keys are at top level, not nested under "summary"
+    total = report.get("total", 0)
+    healthy = report.get("healthy", 0)
+    unhealthy = report.get("unhealthy", 0)
+    suspect = report.get("suspect", 0)
+
+    if args.json_output:
+        print(json.dumps(report, indent=2, ensure_ascii=False, default=str))
+    else:
+        print("=" * 60)
+        print(f"  Source Health Check: {healthy}/{total} healthy")
+        if unhealthy > 0:
+            print(f"  UNHEALTHY ({unhealthy}): {', '.join(disabled)}")
+        if suspect > 0:
+            suspect_names = [
+                name for name, info in report.get("sources", {}).items()
+                if info.get("health") == "suspect"
+            ]
+            print(f"  SUSPECT ({suspect}): {', '.join(suspect_names)}")
+        print(f"  Report saved: {report_path}")
+        print("=" * 60)
+
+    # Exit code
+    if unhealthy == 0:
+        sys.exit(0)
+    elif unhealthy > total * 0.5:
+        sys.exit(2)  # Critical — more than 50% down
+    else:
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    _cli_main()
